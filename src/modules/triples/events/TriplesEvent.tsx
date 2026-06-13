@@ -16,6 +16,18 @@ export default function TriplesEvent() {
                 <input className="tri_e_fo10" type="text" />
                 <input className="tri_e_fo11" type="text" />
                 <input className="tri_e_fo12" type="text" />
+                <input className="tri_e_fo13" type="text" />
+                <input className="tri_e_fo14" type="text" />
+                <input className="tri_e_fo15" type="text" />
+                <input className="tri_e_fo16" type="text" />
+                <input className="tri_e_fo17" type="text" />
+                <input className="tri_e_fo18" type="text" />
+                <input className="tri_e_fo19" type="text" />
+                <input className="tri_e_fo20" type="text" />
+                <input className="tri_e_fo21" type="text" />
+                <input className="tri_e_fo22" type="text" />
+                <input className="tri_e_fo23" type="text" />
+                <input className="tri_e_fo24" type="text" />
             </form>
             <section className="tri_e_img">
                 <section className="triplesevent_imgt tri_e_i_1">
