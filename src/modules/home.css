@@ -1,0 +1,43 @@
+.home_full {
+    position: absolute;
+    width: 100vw;
+    height: 180vh;
+    left: 0px;
+    top: 10vh;
+
+}
+
+/*나중에 위치랑 수정하기*/
+
+.home_p1 {
+    width: 100vw;
+    height: 90vh;
+    background-color: aquamarine;
+
+}
+
+.home_p2 {
+    width: 100vw;
+    height: 90vh;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.home_p2_con {
+    width: 850px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home_p2_con>article {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    background-color: blue;
+}
