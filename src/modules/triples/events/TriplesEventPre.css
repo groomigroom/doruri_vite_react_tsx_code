@@ -1,0 +1,22 @@
+.tri_e_p_full {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aquamarine;
+}
+
+.tri_e_p_ticket {
+    width: 400px;
+    height: 150px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*기본하고 배경 스타일은 같게*/
