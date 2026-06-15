@@ -1,17 +1,17 @@
+import { BrowserRouter } from "react-router-dom";
+import RoutesSetup from './modules/RoutesSetup';
+
 import "./App.css";
-import Home from "./modules/home";
-import TxtEvent from "./modules/txt/events/TxtEvent";
-// import TriplesEvent from "./modules/triples/events/TriplesEvent";
+
+// import TxtEvent from "./modules/txt/events/TxtEvent";
 
 function App() {
 
 
   return (
-    <div className="app_full">
-      <TxtEvent />
-      {/* <TriplesEvent /> */}
-      <Home />
-    </div>
+    <BrowserRouter>
+      <RoutesSetup />
+    </BrowserRouter>
   )
 }
 
