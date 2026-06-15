@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import TriplesEventPre from "./TriplesEventPre";
+
 import "./TriplesEvent.css";
 import TriEventLogo from "./img/tri_events_logo.png";
 import TriEventS1 from "./img/s1_img.jpg";
@@ -26,6 +28,7 @@ import TriEventS21 from "./img/s21_img.jpg";
 import TriEventS22 from "./img/s22_img.jpg";
 import TriEventS23 from "./img/s23_img.jpg";
 import TriEventS24 from "./img/s24_img.jpg";
+
 
 interface tri_e_formState {
     tri_e_s1: string;
@@ -120,6 +123,7 @@ export default function TriplesEvent() {
 
     return (
         <div className="triplesevent_full">
+            <TriplesEventPre />
             <img src={TriEventLogo} alt="트리플에스 이벤트 로고" className="tri_e_logo" />
             <h2 className="tri_e_h2">이름 맞추기 이벤트</h2>
             <section className="tri_e_img">
@@ -186,6 +190,7 @@ export default function TriplesEvent() {
                     <img src={TriEventS24} alt="지연 이미지" />
                 </section>
             </section>
+            <button className="tri_e_btn">제출하기</button>
         </div>
     );
 };
