@@ -119,11 +119,16 @@ export default function TriplesEvent() {
     if (tri_e_form.tri_e_s23 === "서아") tri_e_result++;
     if (tri_e_form.tri_e_s24 === "지연") tri_e_result++;
 
+    const [tri_e_PopupO, tri_e_SetPopupO] = useState<boolean>(false);
+    const tri_e_OpPopup = () => tri_e_SetPopupO(true);
+    const tri_e_ClPopup = () => tri_e_SetPopupO(false);
+
     console.log(tri_e_result);
 
     return (
         <div className="triplesevent_full">
-            <TriplesEventPre />
+
+
             <img src={TriEventLogo} alt="트리플에스 이벤트 로고" className="tri_e_logo" />
             <h2 className="tri_e_h2">이름 맞추기 이벤트</h2>
             <section className="tri_e_img">
@@ -190,7 +195,10 @@ export default function TriplesEvent() {
                     <img src={TriEventS24} alt="지연 이미지" />
                 </section>
             </section>
-            <button className="tri_e_btn">제출하기</button>
+            <button className="tri_e_btn" onClick={tri_e_OpPopup}>제출하기</button>
+            {tri_e_PopupO && (
+                <TriplesEventPre tri_e_OnCl={tri_e_ClPopup} />
+            )}
         </div>
     );
 };
