@@ -10,6 +10,7 @@ export default function Home() {
                 <Link to="/">Home</Link>
                 <Link to="/TriplesEvent">TriplesEvent</Link>
                 <Link to="/TxtEvent">TxtEvent</Link>
+                <Link to="/AkmuEvent">AkmuEvent</Link>
             </section>
             <section className="home_p2">
                 <section className="home_p2_con">
