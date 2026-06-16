@@ -4,17 +4,58 @@
     height: 180vh;
     left: 0px;
     top: 10vh;
-
 }
-
-/*나중에 위치랑 수정하기*/
 
 .home_p1 {
     width: 100vw;
     height: 90vh;
     background-color: rgb(133, 133, 133);
-
+    position: relative;
 }
+
+.home_p1_trainf {
+    width: 920px;
+    height: 680px;
+    background-color: bisque;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home_p1_train {
+    width: 920px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.home_p1_train:first-child {
+    top: 0px;
+    left: 0px;
+}
+
+.home_p1_train:nth-child(2) {
+    top: 240px;
+    left: 0px;
+}
+
+.home_p1_train:last-child {
+    bottom: 0px;
+    left: 0px;
+}
+
+.home_link {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+/*나중에 위치랑 수정하기*/
+
+
 
 .home_p2 {
     width: 100vw;
