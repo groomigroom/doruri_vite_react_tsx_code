@@ -7,10 +7,26 @@ export default function Home() {
     return (
         <div className="home_full">
             <section className="home_p1">
-                <Link to="/">Home</Link>
-                <Link to="/TriplesEvent">TriplesEvent</Link>
-                <Link to="/TxtEvent">TxtEvent</Link>
-                <Link to="/AkmuEvent">AkmuEvent</Link>
+                <section className="home_p1_trainf">
+                    <section className="home_p1_train">
+                        <Link to="/" className="home_link">Home</Link>
+                        <Link to="/TriplesEvent" className="home_link home_tri_link">TriplesEvent</Link>
+                        <Link to="/TxtEvent" className="home_link home_txt_link">TxtEvent</Link>
+                        <Link to="/AkmuEvent" className="home_link home_akm_link">AkmuEvent</Link>
+                    </section>
+                    <section className="home_p1_train">
+                        <Link to="/" className="home_link">Home</Link>
+                        <Link to="/TriplesEvent" className="home_link home_tri_link">TriplesEvent</Link>
+                        <Link to="/TxtEvent" className="home_link home_txt_link">TxtEvent</Link>
+                        <Link to="/AkmuEvent" className="home_link home_akm_link">AkmuEvent</Link>
+                    </section>
+                    <section className="home_p1_train">
+                        <Link to="/" className="home_link">Home</Link>
+                        <Link to="/TriplesEvent" className="home_link home_tri_link">TriplesEvent</Link>
+                        <Link to="/TxtEvent" className="home_link home_txt_link">TxtEvent</Link>
+                        <Link to="/AkmuEvent" className="home_link home_akm_link">AkmuEvent</Link>
+                    </section>
+                </section>
             </section>
             <section className="home_p2">
                 <section className="home_p2_con">
