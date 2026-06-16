@@ -197,7 +197,7 @@ export default function TriplesEvent() {
             </section>
             <button className="tri_e_btn" onClick={tri_e_OpPopup}>제출하기</button>
             {tri_e_PopupO && (
-                <TriplesEventPre tri_e_OnCl={tri_e_ClPopup} />
+                <TriplesEventPre tri_e_OnCl={tri_e_ClPopup} tri_e_result={tri_e_result} />
             )}
         </div>
     );
