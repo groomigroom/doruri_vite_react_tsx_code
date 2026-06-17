@@ -130,7 +130,7 @@ export default function TriplesEvent() {
 
 
             <img src={TriEventLogo} alt="트리플에스 이벤트 로고" className="tri_e_logo" />
-            <h2 className="tri_e_h2">이름 맞추기 이벤트</h2>
+            <h2 className="tri_e_h2">이름 맞히기 이벤트</h2>
             <section className="tri_e_img">
                 <form className="tri_e_form" action="">
                     <input className="tri_e_fo1" type="text" name="tri_e_s1" value={tri_e_form.tri_e_s1} onChange={tri_e_handleChange} />
