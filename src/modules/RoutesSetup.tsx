@@ -5,6 +5,7 @@ import TriplesMain from './triples/main/TriplesMain';
 import TriplesEvent from "./triples/events/TriplesEvent";
 import TxtMain from './txt/main/TxtMain';
 import TxtEvent from "./txt/events/TxtEvent";
+import AkmuMain from './akmu/main/AkmuMain';
 import AkmuEvent from "./akmu/events/AkmuEvent";
 
 export default function RoutesSetup() {
@@ -15,6 +16,7 @@ export default function RoutesSetup() {
             <Route path='/TriplesEvent' element={<TriplesEvent />}></Route>
             <Route path='/TxtMain' element={<TxtMain />}></Route>
             <Route path='/TxtEvent' element={<TxtEvent />}></Route>
+            <Route path='/AkmuMain' element={<AkmuMain />}></Route>
             <Route path='/AkmuEvent' element={<AkmuEvent />}></Route>
         </Routes>
     );
