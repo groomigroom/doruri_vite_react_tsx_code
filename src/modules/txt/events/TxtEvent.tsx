@@ -50,6 +50,7 @@ export default function TxtEvent() {
             <form action="" className="txt_e_form">
                 <input type="text" name="txt_e_in" value={txt_e_form.txt_e_in} onChange={txt_e_handleChange} />
             </form>
+            <button className="txt_e_btn"></button>
         </div>
     );
 };
