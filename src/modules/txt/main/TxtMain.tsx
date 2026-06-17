@@ -1,9 +1,9 @@
-import TxtEvent from "../events/TxtEvent";
+import { Link } from 'react-router-dom';
 
 export default function TxtMain() {
     return (
         <div>
-            <TxtEvent />
+            <Link to="/TxtEvent">이벤트</Link>
         </div>
     );
 };
