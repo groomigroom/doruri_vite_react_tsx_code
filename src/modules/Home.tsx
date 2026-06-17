@@ -12,7 +12,7 @@ export default function Home() {
                         <Link to="/" className="home_link">Home</Link>
                         <Link to="/TriplesMain" className="home_link home_tri_link">TriplesEvent</Link>
                         <Link to="/TxtMain" className="home_link home_txt_link">TxtMain</Link>
-                        <Link to="/AkmuEvent" className="home_link home_akm_link">AkmuEvent</Link>
+                        <Link to="/AkmuMain" className="home_link home_akm_link">AkmuMain</Link>
                     </section>
                     <section className="home_p1_train">
                         <Link to="/" className="home_link">Home</Link>
