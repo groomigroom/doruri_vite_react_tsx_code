@@ -16,6 +16,11 @@ export default function TriplesMain() {
             <h2>tripleS</h2>
             <img src={Tri_m_img} className='tri_m_img' />
             <h3>멤버</h3>
+            #####
+            display: none;
+
+            display: block;
+            transform: rotateX??
             <article className='tri_m_mem'>
                 <img src="" alt="" />
                 <h4>윤서연</h4>
