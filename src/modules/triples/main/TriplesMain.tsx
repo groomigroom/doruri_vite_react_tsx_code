@@ -27,11 +27,14 @@ export default function TriplesMain() {
                     <h4>윤서연</h4>
                 </article>
             </Link>
+            <Link to='/TriplesMemS2'>
+                <article className='tri_m_mem'>
+                    <img src="" alt="" />
+                    <h4>정혜린</h4>
+                </article>
+            </Link>
 
-            <article className='tri_m_mem'>
-                <img src="" alt="" />
-                <h4>정혜린</h4>
-            </article>
+
             <article className='tri_m_mem'>
                 <img src="" alt="" />
                 <h4>이지우</h4>
