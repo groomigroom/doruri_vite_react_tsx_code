@@ -21,10 +21,13 @@ export default function TriplesMain() {
 
             display: block;
             transform: rotateX??
-            <article className='tri_m_mem'>
-                <img src="" alt="" />
-                <h4>윤서연</h4>
-            </article>
+            <Link to='/TriplesMemS1'>
+                <article className='tri_m_mem'>
+                    <img src="" alt="" />
+                    <h4>윤서연</h4>
+                </article>
+            </Link>
+
             <article className='tri_m_mem'>
                 <img src="" alt="" />
                 <h4>정혜린</h4>
