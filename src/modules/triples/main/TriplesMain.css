@@ -8,8 +8,18 @@
 
 }
 
+.tri_m_intropp {
+    text-align: center;
+}
+
 .tri_m_img {
     width: 400px;
     height: 400px;
     background-color: aqua;
+}
+
+.tri_m_mem {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
 }
