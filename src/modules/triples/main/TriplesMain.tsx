@@ -94,14 +94,20 @@ export default function TriplesMain() {
                 </article>
             </Link>
 
-            <article className='tri_m_mem'>
-                <img src={Tri_m_memS8} alt="공유빈 이미지" />
-                <h4>공유빈</h4>
-            </article>
-            <article className='tri_m_mem'>
-                <img src={Tri_m_memS9} alt="카에데 이미지" />
-                <h4>카에데</h4>
-            </article>
+            <Link to='/TriplesMemS8'>
+                <article className='tri_m_mem'>
+                    <img src={Tri_m_memS8} alt="공유빈 이미지" />
+                    <h4>공유빈</h4>
+                </article>
+            </Link>
+
+            <Link to='/TriplesMemS9'>
+                <article className='tri_m_mem'>
+                    <img src={Tri_m_memS9} alt="카에데 이미지" />
+                    <h4>카에데</h4>
+                </article>
+            </Link>
+
             <article className='tri_m_mem'>
                 <img src={Tri_m_memS10} alt="서다현 이미지" />
                 <h4>서다현</h4>
