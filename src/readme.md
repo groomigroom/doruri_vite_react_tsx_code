@@ -10,6 +10,8 @@ border-radius 25px
 
 고유 페이지
 이벤트 e
+메인 m
+멤버 mm
 
 
 npm i react-router-dom하기
