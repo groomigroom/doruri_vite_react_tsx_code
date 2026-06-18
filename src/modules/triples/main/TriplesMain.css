@@ -21,5 +21,36 @@
 .tri_m_mem {
     width: 150px;
     height: 150px;
+    position: relative;
+    /* absolute로 바꾸기  */
     background-color: aquamarine;
+}
+
+.tri_m_mem>img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    border: 3px solid red;
+    opacity: 1;
+    transform: rotateY(0deg);
+    transition: all 0.6s ease 0s;
+}
+
+.tri_m_mem:hover>img {
+    opacity: 0;
+    transform: rotateY(-180deg);
+}
+
+.tri_m_mem>h4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transform: rotateY(-180deg);
+    transition: all 0.6s ease 0s;
+}
+
+.tri_m_mem:hover>h4 {
+    opacity: 1;
+    transform: rotateY(0deg);
 }
