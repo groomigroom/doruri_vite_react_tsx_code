@@ -129,10 +129,13 @@ export default function TriplesMain() {
                 </article>
             </Link>
 
-            <article className='tri_m_mem'>
-                <img src={Tri_m_memS13} alt="니엔 이미지" />
-                <h4>니엔</h4>
-            </article>
+            <Link to='/TriplesMemS13'>
+                <article className='tri_m_mem'>
+                    <img src={Tri_m_memS13} alt="니엔 이미지" />
+                    <h4>니엔</h4>
+                </article>
+            </Link>
+
             <article className='tri_m_mem'>
                 <img src={Tri_m_memS14} alt="박소현 이미지" />
                 <h4>박소현</h4>
