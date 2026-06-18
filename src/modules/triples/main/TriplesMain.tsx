@@ -17,6 +17,18 @@ import Tri_m_memS9 from './img/tri_m_memS9.jpg';
 import Tri_m_memS10 from './img/tri_m_memS10.jpg';
 import Tri_m_memS11 from './img/tri_m_memS11.jpg';
 import Tri_m_memS12 from './img/tri_m_memS12.jpg';
+import Tri_m_memS13 from './img/tri_m_memS13.jpg';
+import Tri_m_memS14 from './img/tri_m_memS14.jpg';
+import Tri_m_memS15 from './img/tri_m_memS15.jpg';
+import Tri_m_memS16 from './img/tri_m_memS16.jpg';
+import Tri_m_memS17 from './img/tri_m_memS17.jpg';
+import Tri_m_memS18 from './img/tri_m_memS18.jpg';
+import Tri_m_memS19 from './img/tri_m_memS19.jpg';
+import Tri_m_memS20 from './img/tri_m_memS20.jpg';
+import Tri_m_memS21 from './img/tri_m_memS21.jpg';
+import Tri_m_memS22 from './img/tri_m_memS22.jpg';
+import Tri_m_memS23 from './img/tri_m_memS23.jpg';
+import Tri_m_memS24 from './img/tri_m_memS24.jpg';
 
 export default function TriplesMain() {
     return (
@@ -103,51 +115,51 @@ export default function TriplesMain() {
                 <h4>곽연지</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS13} alt="니엔 이미지" />
                 <h4>니엔</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS14} alt="박소현 이미지" />
                 <h4>박소현</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS15} alt="신위 이미지" />
                 <h4>신위</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS16} alt="마유 이미지" />
                 <h4>마유</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS17} alt="린 이미지" />
                 <h4>린</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS18} alt="주빈 이미지" />
                 <h4>주빈</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS19} alt="정하연 이미지" />
                 <h4>정하연</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS20} alt="박시온 이미지" />
                 <h4>박시온</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS21} alt="김채원 이미지" />
                 <h4>김채원</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS22} alt="설린 이미지" />
                 <h4>설린</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS23} alt="서아 이미지" />
                 <h4>서아</h4>
             </article>
             <article className='tri_m_mem'>
-                <img src="" alt="" />
+                <img src={Tri_m_memS24} alt="지연 이미지" />
                 <h4>지연</h4>
             </article>
 
