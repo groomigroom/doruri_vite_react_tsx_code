@@ -17,6 +17,7 @@ import TriplesMemS11 from './triples/members/TriplesMemS11';
 import TriplesMemS12 from './triples/members/TriplesMemS12';
 import TriplesMemS13 from './triples/members/TriplesMemS13';
 import TriplesMemS14 from './triples/members/TriplesMemS14';
+import TriplesMemS15 from './triples/members/TriplesMemS15';
 
 import TriplesEvent from "./triples/events/TriplesEvent";
 import TxtMain from './txt/main/TxtMain';
@@ -44,6 +45,7 @@ export default function RoutesSetup() {
             <Route path='/TriplesMemS12' element={<TriplesMemS12 />}></Route>
             <Route path='/TriplesMemS13' element={<TriplesMemS13 />}></Route>
             <Route path='/TriplesMemS14' element={<TriplesMemS14 />}></Route>
+            <Route path='/TriplesMemS15' element={<TriplesMemS15 />}></Route>
 
             <Route path='/TriplesEvent' element={<TriplesEvent />}></Route>
             <Route path='/TxtMain' element={<TxtMain />}></Route>
