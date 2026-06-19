@@ -1,16 +1,25 @@
 .tri_m_full {
     width: 100vw;
     height: 90vh;
+    position: relative;
 }
 
 .tri_m_logo {
     height: 100px;
-
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .tri_m_intropp {
     text-align: center;
+    font-size: 15px;
+    line-height: 140%;
+    font-weight: 500;
 }
+
+/* height63px  */
 
 .tri_m_img {
     width: 400px;
