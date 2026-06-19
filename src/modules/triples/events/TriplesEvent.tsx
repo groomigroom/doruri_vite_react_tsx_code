@@ -127,7 +127,7 @@ export default function TriplesEvent() {
 
     return (
         <div className="triplesevent_full">
-
+            <img src="" alt="" className="tri_e_toback" />
 
             <img src={TriEventLogo} alt="트리플에스 이벤트 로고" className="tri_e_logo" />
             <h2 className="tri_e_h2">이름 맞히기 이벤트</h2>
