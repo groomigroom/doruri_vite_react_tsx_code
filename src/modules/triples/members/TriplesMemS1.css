@@ -18,7 +18,8 @@
 
 .tri_mm_s1_intropa_tb {
     width: 400px;
-    height: 50px;
+    height: 250px;
+    border-collapse: collapse;
 }
 
 .tri_mm_s1_intropa_tb>tbody>tr {
@@ -31,7 +32,9 @@
     height: 50px;
     top: 0px;
     left: 0px;
+    z-index: 2;
     border: 3px solid #333;
+    background-color: aquamarine;
     border-radius: 15px;
 }
 
@@ -42,5 +45,6 @@
     top: 0px;
     left: 85px;
     border: 3px solid #333;
-    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
