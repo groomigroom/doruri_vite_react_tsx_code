@@ -29,7 +29,7 @@ export default function TriplesMemS1() {
                             <tr>
                                 <td>소속 유닛</td>
                                 <td>
-                                    +(KR)ystal Eyes • Acid Eyes • LOVElution • neptune</td>
+                                    +&#40;KR&#41;ystal Eyes • Acid Eyes • LOVElution • neptune</td>
                             </tr>
                             <tr>
                                 <td>성격</td>
