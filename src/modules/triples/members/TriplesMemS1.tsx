@@ -27,6 +27,22 @@ export default function TriplesMemS1() {
                                 <td>B형</td>
                             </tr>
                             <tr>
+                                <td>별명</td>
+                                <td>멋쟁이</td>
+                            </tr>
+                            <tr>
+                                <td>취미</td>
+                                <td>좋아하는 영화 여러번 보기</td>
+                            </tr>
+                            <tr>
+                                <td>특기</td>
+                                <td>셀카찍기</td>
+                            </tr>
+                            <tr>
+                                <td>좋아하는 음식</td>
+                                <td>아이스크림</td>
+                            </tr>
+                            <tr>
                                 <td>소속 유닛</td>
                                 <td>
                                     +&#40;KR&#41;ystal Eyes • Acid Eyes • LOVElution • neptune</td>
