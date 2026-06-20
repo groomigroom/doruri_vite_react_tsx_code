@@ -1,9 +1,6 @@
 .home_full {
-    position: absolute;
     width: 100vw;
     height: 180vh;
-    left: 0px;
-    top: 10vh;
 }
 
 .home_p1 {
