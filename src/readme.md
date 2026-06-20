@@ -17,4 +17,5 @@ border-radius 25px
 npm i react-router-dom하기
 
 txt_m_txtimg 추가함
+akmu_m 추가함
 
