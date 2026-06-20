@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Menu.css';
 
 export default function Menu() {
@@ -16,7 +18,7 @@ export default function Menu() {
                         </li>
                         <li><a href="#">아이돌 탐색</a>
                             <ul>
-                                <li><a href="#">세부1</a></li>
+                                <li><Link to='/IdolList'>목록</Link></li>
                                 <li><a href="#">세부2</a></li>
                                 <li><a href="#">세부3</a></li>
                                 <li><a href="#">세부4</a></li>
