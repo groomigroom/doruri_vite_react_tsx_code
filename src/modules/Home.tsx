@@ -1,11 +1,13 @@
-import "./home.css";
-
 import { Link } from 'react-router-dom';
 
+import "./home.css";
+
+import Menu from './Menu';
 
 export default function Home() {
     return (
         <div className="home_full">
+            <Menu />
             <section className="home_p1">
                 <section className="home_p1_trainf">
                     <section className="home_p1_train">
