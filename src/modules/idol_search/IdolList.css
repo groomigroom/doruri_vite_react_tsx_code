@@ -1,16 +1,19 @@
-.home_full {
+.idolList_full {
     width: 100vw;
     height: 180vh;
-}
-
-.home_p1 {
-    width: 100vw;
-    height: 90vh;
-    background-color: rgb(133, 133, 133);
     position: relative;
 }
 
-.home_p1_trainf {
+.idolList_part {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: rgb(133, 133, 133);
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.idolList_trainf {
     width: 920px;
     height: 680px;
     background-color: bisque;
@@ -20,7 +23,7 @@
     transform: translate(-50%, -50%);
 }
 
-.home_p1_train {
+.idolList_train {
     width: 920px;
     height: 200px;
     display: flex;
@@ -28,22 +31,22 @@
     position: absolute;
 }
 
-.home_p1_train:first-child {
+.idolList_train:first-child {
     top: 0px;
     left: 0px;
 }
 
-.home_p1_train:nth-child(2) {
+.idolList_train:nth-child(2) {
     top: 240px;
     left: 0px;
 }
 
-.home_p1_train:last-child {
+.idolList_train:last-child {
     bottom: 0px;
     left: 0px;
 }
 
-.home_link {
+.idolList_link {
     display: block;
     width: 200px;
     height: 200px;
