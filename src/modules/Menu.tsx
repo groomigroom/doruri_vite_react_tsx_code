@@ -6,10 +6,38 @@ export default function Menu() {
             <header>
                 <nav className='menu_nav'>
                     <ul>
-                        <li>메뉴1</li>
-                        <li>메뉴1</li>
-                        <li>메뉴1</li>
-                        <li>메뉴1</li>
+                        <li><a href="#">도루리는?</a>
+                            <ul>
+                                <li><a href="#">소개</a></li>
+                                <li><a href="#">세부2</a></li>
+                                <li><a href="#">세부3</a></li>
+                                <li><a href="#">세부4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">아이돌 탐색</a>
+                            <ul>
+                                <li><a href="#">세부1</a></li>
+                                <li><a href="#">세부2</a></li>
+                                <li><a href="#">세부3</a></li>
+                                <li><a href="#">세부4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">메뉴1</a>
+                            <ul>
+                                <li><a href="#">세부1</a></li>
+                                <li><a href="#">세부2</a></li>
+                                <li><a href="#">세부3</a></li>
+                                <li><a href="#">세부4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">메뉴1</a>
+                            <ul>
+                                <li><a href="#">세부1</a></li>
+                                <li><a href="#">세부2</a></li>
+                                <li><a href="#">세부3</a></li>
+                                <li><a href="#">세부4</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
             </header>
