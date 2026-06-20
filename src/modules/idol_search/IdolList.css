@@ -1,13 +1,13 @@
 .idolList_full {
     width: 100vw;
-    height: 180vh;
+    height: 100vh;
     position: relative;
 }
 
 .idolList_part {
     width: 100vw;
     height: calc(100vh - 50px);
-    background-color: rgb(133, 133, 133);
+    background-color: #e6e6e6;
     position: absolute;
     top: 50px;
     left: 0px;
