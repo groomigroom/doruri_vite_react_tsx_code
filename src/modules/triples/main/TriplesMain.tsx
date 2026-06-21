@@ -42,7 +42,7 @@ export default function TriplesMain() {
                 &apos;트리플에스&apos;와 함께 고개를 들어 보아요.
             </p>
             <img src={Tri_m_img} className='tri_m_img' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>멤버</h2>
+            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full'>
 
                 <section className='tri_m_mem_tr'>
