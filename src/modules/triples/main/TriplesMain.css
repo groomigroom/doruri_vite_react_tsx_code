@@ -16,7 +16,6 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
-
 }
 
 .tri_m_h2_1 {
@@ -24,6 +23,14 @@
     top: 180px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.tri_m_h2_1>img {
+    margin: 0 20px;
+}
+
+.tri_m_h2_1>img:last-child {
+    transform: rotateZ(180deg);
 }
 
 .tri_m_intropp {
