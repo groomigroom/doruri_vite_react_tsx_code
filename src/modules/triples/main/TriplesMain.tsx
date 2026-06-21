@@ -225,8 +225,15 @@ export default function TriplesMain() {
             </section>
 
 
-            <h3>트리플에스 인스타그램</h3>
-            <h3>트리플에스 유튜브</h3>
+            <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer'>
+                <h3>트리플에스 인스타그램</h3>
+            </a>
+            <a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer'>
+                <h3>트리플에스 유튜브</h3>
+            </a>
+
+
+
 
 
             <Link to="/TriplesEvent">이벤트</Link>
