@@ -6,6 +6,10 @@ export default function Menu() {
     return (
         <div className="Menu_full">
             <header>
+                <Link to='/'>
+                    <img src="" alt="" className='menu_logo' />
+                </Link>
+
                 <nav className='menu_nav'>
                     <ul>
                         <li><a href="#">도루리는?</a>
