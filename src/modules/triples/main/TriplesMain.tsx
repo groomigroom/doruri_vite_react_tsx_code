@@ -230,10 +230,10 @@ export default function TriplesMain() {
             </section>
 
 
-            <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer'>
+            <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
                 <h3>트리플에스 인스타그램</h3>
             </a>
-            <a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer'>
+            <a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_you'>
                 <h3>트리플에스 유튜브</h3>
             </a>
 
