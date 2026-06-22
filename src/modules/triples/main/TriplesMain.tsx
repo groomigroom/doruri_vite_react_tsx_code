@@ -7,6 +7,8 @@ import Tri_m_img from './img/tri_m_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
+import Menu from '../../Menu'
+
 import Tri_m_memS1 from './img/tri_m_memS1.jpg';
 import Tri_m_memS2 from './img/tri_m_memS2.jpg';
 import Tri_m_memS3 from './img/tri_m_memS3.jpg';
@@ -35,6 +37,7 @@ import Tri_m_memS24 from './img/tri_m_memS24.jpg';
 export default function TriplesMain() {
     return (
         <div className='tri_m_full'>
+            <Menu />
             <img src={Tri_m_logo} alt="트리플에스 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />tripleS<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>우리는 하나이자 스물넷입니다.<br />
