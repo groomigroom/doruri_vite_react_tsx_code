@@ -7,7 +7,7 @@
 .tri_m_logo {
     height: 100px;
     position: absolute;
-    top: 40px;
+    top: 140px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -20,7 +20,7 @@
 
 .tri_m_h2_1 {
     position: absolute;
-    top: 180px;
+    top: 280px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -39,7 +39,7 @@
     line-height: 140%;
     font-weight: 500;
     position: absolute;
-    top: 240px;
+    top: 340px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -51,7 +51,7 @@
     height: 400px;
     border-radius: 25px;
     position: absolute;
-    top: 343px;
+    top: 443px;
     left: 50%;
     transform: translateX(-50%);
     border: 5px solid #191919;
@@ -59,7 +59,7 @@
 
 .tri_m_h2_2 {
     position: absolute;
-    top: 783px;
+    top: 883px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -68,7 +68,7 @@
     width: 720px;
     height: 1100px;
     position: absolute;
-    top: 843px;
+    top: 943px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -132,4 +132,15 @@
 .tri_m_mem:hover>h4 {
     opacity: 1;
     transform: rotateY(0deg);
+}
+
+.tri_m_a_ins {
+    position: absolute;
+    top: 200px;
+
+}
+
+.tri_m_a_you {
+    position: absolute;
+    top: 300px;
 }
