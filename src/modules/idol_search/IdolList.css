@@ -50,5 +50,14 @@
     display: block;
     width: 200px;
     height: 200px;
-    background-color: aqua;
+}
+
+.idolList_link>img {
+    width: 200px;
+    border-radius: 25px;
+    
+}
+
+.idolList_link_tri_i {
+border: 5px solid #191919;
 }
