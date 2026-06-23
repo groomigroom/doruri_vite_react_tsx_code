@@ -14,7 +14,7 @@ export default function TriplesMemS1() {
                 <section className='tri_mm_s1_intropa'>
                     <table className='tri_mm_s1_intropa_tb'>
                         <tbody>
-                            <tr>
+                            <tr className='tri_mm_s1_intropa_tb_tr1'>
                                 <td>출생</td>
                                 <td>2003년 8월 6일</td>
                             </tr>
@@ -28,7 +28,7 @@ export default function TriplesMemS1() {
                             </tr>
                             <tr>
                                 <td>별명</td>
-                                <td>멋쟁이</td>
+                                <td>햄햄</td>
                             </tr>
                             <tr>
                                 <td>취미</td>
