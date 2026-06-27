@@ -18,7 +18,13 @@ export default function IdolList() {
                             <img src={IdL_Triples} alt="트리플에스" className='idolList_link_tri_i' />
                             <h4>tripleS</h4>
                         </Link>
-                        <Link to="/TxtMain" className="idolList_link">TxtMain</Link>
+                        <Link to="/TxtMain" className="idolList_link">
+                            <img src="" alt="투바투" className='idolList_link_txt_i' />
+                            <h4>투모로우<br />
+                                바이<br />
+                                투게더
+                            </h4>
+                        </Link>
                         <Link to="/AkmuMain" className="idolList_link">AkmuMain</Link>
                     </section>
                     <section className="idolList_train">
