@@ -47,6 +47,8 @@
         transition: all 0.6s ease 0s;
     }
 
+
+
     .menu_nav>ul a {
         display: block;
         width: 150px;
@@ -101,6 +103,25 @@
     }
 
     .menu_nav>ul>li {
+        width: 100vw;
+        height: 50px;
+        border: 1px solid red;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.6s ease 0s;
+    }
+
+    .menu_nav>ul>li.on {
+        height: 250px;
+    }
+
+    .menu_nav>ul>li>ul {
+        position: absolute;
+        top: 50px;
+        left: 0px;
+    }
+
+    .menu_nav>ul>li>ul>li {
         width: 100vw;
         height: 50px;
         border: 1px solid red;
