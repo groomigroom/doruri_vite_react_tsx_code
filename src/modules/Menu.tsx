@@ -6,8 +6,8 @@ export default function Menu() {
     return (
         <div className="Menu_full">
             <header>
-                <Link to='/'>
-                    <img src="" alt="" className='menu_logo' />
+                <Link to='/' className='menu_logo' >
+                    <img src="" alt="" />
                 </Link>
 
                 <nav className='menu_nav'>
