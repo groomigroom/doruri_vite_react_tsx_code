@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './IdolList.css';
 
 import IdL_Triples from '../triples/main/img/tri_m_img.jpg'
+import IdL_Txt from '../txt/main/img/txt_m_txtimg.jpg'
+import IdL_Akmu from '../akmu/main/img/aknu_m_akmuimg.jpg'
 
 import Menu from '../Menu';
 
@@ -14,18 +16,21 @@ export default function IdolList() {
                 <section className="idolList_trainf">
                     <section className="idolList_train">
                         <Link to="/" className="idolList_link">Home</Link>
-                        <Link to="/TriplesMain" className="idolList_link">
-                            <img src={IdL_Triples} alt="트리플에스" className='idolList_link_tri_i' />
+                        <Link to="/TriplesMain" className="idolList_link idolList_link_tri_i">
+                            <img src={IdL_Triples} alt="트리플에스" />
                             <h4>tripleS</h4>
                         </Link>
                         <Link to="/TxtMain" className="idolList_link">
-                            <img src="" alt="투바투" className='idolList_link_txt_i' />
+                            <img src={IdL_Txt} alt="투바투" className='idolList_link_txt_i' />
                             <h4>투모로우<br />
                                 바이<br />
                                 투게더
                             </h4>
                         </Link>
-                        <Link to="/AkmuMain" className="idolList_link">AkmuMain</Link>
+                        <Link to="/AkmuMain" className="idolList_link">
+                            <img src={IdL_Akmu} alt="트리플에스" />
+                            <h4>악뮤</h4>
+                        </Link>
                     </section>
                     <section className="idolList_train">
                         <Link to="/" className="idolList_link">Home</Link>
