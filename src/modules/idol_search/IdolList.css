@@ -95,10 +95,49 @@
     border: 5px solid #191919;
 }
 
-.idolList_link_tri_i>h4 {
+.idolList_link_tri_i+h4 {
     border: 5px solid #191919;
 }
 
+.idolList_linktxt {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
 .idolList_link_txt_i {
+    width: 160px;
+    border-radius: 25px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 1;
+    transform: rotateY(0deg);
+    transition: all 0.6s ease 0s;
     border: 5px solid #FF1E91;
+}
+
+.idolList_link_txt_i+h4 {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 140%;
+    display: block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) rotateY(-180deg);
+    transition: all 0.6s ease 0s;
+
+    border: 5px solid #FF1E91;
+}
+
+.idolList_linktxt:hover>.idolList_link_txt_i+h4 {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotateY(0deg);
 }
