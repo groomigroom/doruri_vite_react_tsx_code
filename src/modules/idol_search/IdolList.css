@@ -51,93 +51,85 @@
     width: 200px;
     height: 200px;
     position: relative;
+    border: 1px solid red;
 }
 
-.idolList_link>img {
+.idolList_link_a {
     width: 160px;
-    border-radius: 25px;
+    height: 160px;
     position: absolute;
     top: 20px;
     left: 20px;
+}
+
+.idolList_link_a>img {
+    width: 160px;
+    border-radius: 25px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     opacity: 1;
     transform: rotateY(0deg);
     transition: all 0.6s ease 0s;
 }
 
-.idolList_link>h4 {
-    font-weight: 700;
-    font-size: 19px;
-    line-height: 150px;
-    display: block;
-    width: 150px;
-    height: 150px;
-    text-align: center;
+.idolList_link_a>div {
+    width: 160px;
+    height: 160px;
     border-radius: 25px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 0px;
+    left: 0px;
     opacity: 0;
     transform: rotateY(-180deg);
     transition: all 0.6s ease 0s;
 }
 
-.idolList_link:hover>img {
-    opacity: 0;
-    transform: rotateY(-180deg);
-}
-
-.idolList_link:hover>h4 {
-    opacity: 1;
-    transform: rotateY(0deg);
-}
-
-.idolList_link_tri_i {
-    border: 5px solid #191919;
-}
-
-.idolList_link_tri_i+h4 {
-    border: 5px solid #191919;
-}
-
-.idolList_linktxt {
-    display: block;
-    width: 200px;
-    height: 200px;
-    position: relative;
-}
-
-.idolList_link_txt_i {
-    width: 160px;
-    border-radius: 25px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    opacity: 1;
-    transform: rotateY(0deg);
-    transition: all 0.6s ease 0s;
-    border: 5px solid #FF1E91;
-}
-
-.idolList_link_txt_i+h4 {
+.idolList_link_a>div>h4 {
     font-weight: 700;
     font-size: 19px;
     line-height: 140%;
     display: block;
     width: 150px;
-    height: 150px;
     text-align: center;
-    border-radius: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%) rotateY(-180deg);
-    transition: all 0.6s ease 0s;
+    transform: translate(-50%, -50%);
+}
 
+.idolList_link_a:hover>img {
+    opacity: 0;
+    transform: rotateY(-180deg);
+}
+
+.idolList_link_a:hover>div {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+
+.idolList_link_tri>img {
+    border: 5px solid #191919;
+}
+
+.idolList_link_tri>div {
+    border: 5px solid #191919;
+}
+
+.idolList_link_txt>img {
     border: 5px solid #FF1E91;
 }
 
-.idolList_linktxt:hover>.idolList_link_txt_i+h4 {
-    opacity: 1;
-    transform: translate(-50%, -50%) rotateY(0deg);
+.idolList_link_txt>div {
+    border: 5px solid #FF1E91;
 }
+
+.idolList_link_akmu>img {
+    border: 5px solid #FF1E91;
+}
+
+.idolList_link_akmu>div {
+    border: 5px solid #FF1E91;
+}
+
+/* ##### */
