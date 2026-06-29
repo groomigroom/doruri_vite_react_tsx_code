@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 import './DoruriMap.css';
 
 
+
+
 export default function DoruriMap() {
     return (
         <div className='doruri_map_full'>
-            <nav>
+            <nav className='doruri_map_nav'>
                 <ul>
                     <li><a href="#">도루리 소개</a>
                         <ul>
