@@ -19,4 +19,6 @@
     transform: translate(-50%, -50%);
 }
 
-/*기본하고 배경 스타일은 같게*/
+.tri_e_p_ticket>img {
+    height: 150px;
+}
