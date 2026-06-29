@@ -42,6 +42,7 @@ export default function IdolList() {
                                 <img src={IdL_Akmu} alt="악뮤" />
                                 <div>
                                     <h4>악뮤</h4>
+
                                 </div>
                             </Link>
                         </div>
