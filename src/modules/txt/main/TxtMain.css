@@ -1,5 +1,9 @@
-.txt_m_full{
+.txt_m_full {
     width: 100vw;
     height: 90vh;
     position: relative;
+}
+
+.txt_m_img {
+    border: 5px solid #FF1E91;
 }
