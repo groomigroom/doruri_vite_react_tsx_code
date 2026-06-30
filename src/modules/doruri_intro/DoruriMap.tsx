@@ -2,24 +2,28 @@ import { Link } from 'react-router-dom';
 
 import './DoruriMap.css';
 
+import Menu from '../Menu';
+
 
 
 
 export default function DoruriMap() {
     return (
         <div className='doruri_map_full'>
+            <Menu />
             <nav className='doruri_map_nav'>
                 <ul>
                     <li><a href="#">도루리 소개</a>
                         <ul>
-                            <li><Link to='/DoruriMap'>도루리 사이트 구성??</Link></li>
+                            <li><Link to='/'>소개</Link></li>
+                            <li><Link to='/DoruriMap'>도루리 사이트 구조</Link></li>
                         </ul>
                     </li>
                     <li><a href="#">아이돌 탐색</a>
                         <ul>
-                            <li><a href="#">아이돌 목록</a>
+                            <li className='doruri_map_IdolList'><Link to="/IdolList">목록</Link>
                                 <ul>
-                                    <li><Link to='/TriplesMain'>트리플에스 메인 페이지</Link>
+                                    <li className='doruri_map_TriplesMain'><Link to='/TriplesMain'>트리플에스 메인 페이지</Link>
                                         <ul>
                                             <li><Link to='/TriplesMemS1'>S1 멤버 페이지</Link></li>
                                             <li><Link to='/TriplesMemS2'>S2 멤버 페이지</Link></li>
