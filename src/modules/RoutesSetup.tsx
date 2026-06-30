@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Home from './Home';
 import DoruriMap from './doruri_intro/DoruriMap';
+import DoruriMapIdolList from './doruri_intro/DoruriMapModules/DoruriMapIdolList';
 
 import IdolList from './idol_search/IdolList';
 
@@ -50,9 +51,12 @@ export default function RoutesSetup() {
     return (
         <Routes>
             <Route path='/' element={<Home />}></Route>
+
             <Route path='/DoruriMap' element={<DoruriMap />}></Route>
 
+
             <Route path='/IdolList' element={<IdolList />}></Route>
+            <Route path='/DoruriMapIdolList' element={<DoruriMapIdolList />}></Route>
 
             <Route path='/TriplesMain' element={<TriplesMain />}></Route>
             <Route path='/TriplesMemS1' element={<TriplesMemS1 />}></Route>
