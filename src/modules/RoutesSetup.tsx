@@ -5,6 +5,8 @@ import DoruriMap from './doruri_intro/DoruriMap';
 
 import IdolList from './idol_search/IdolList';
 
+//TriplesMain
+
 import TriplesMain from './triples/main/TriplesMain';
 import TriplesMemS1 from './triples/members/TriplesMemS1';
 import TriplesMemS2 from './triples/members/TriplesMemS2';
@@ -32,7 +34,14 @@ import TriplesMemS23 from './triples/members/TriplesMemS23';
 import TriplesMemS24 from './triples/members/TriplesMemS24';
 
 import TriplesEvent from "./triples/events/TriplesEvent";
+
+//TxtMain
+
 import TxtMain from './txt/main/TxtMain';
+import TxtMemBeomgyu from './txt/members/TxtMemBeomgyu';
+import TxtMemHueningkai from './txt/members/TxtMemHueningkai';
+import TxtMemSubin from './txt/members/TxtMemSubin';
+
 import TxtEvent from "./txt/events/TxtEvent";
 import AkmuMain from './akmu/main/AkmuMain';
 import AkmuEvent from "./akmu/events/AkmuEvent";
@@ -72,7 +81,15 @@ export default function RoutesSetup() {
             <Route path='/TriplesMemS24' element={<TriplesMemS24 />}></Route>
 
             <Route path='/TriplesEvent' element={<TriplesEvent />}></Route>
+
+            {/* TxtMain */}
+
             <Route path='/TxtMain' element={<TxtMain />}></Route>
+            <Route path='/TxtMemBeomgyu' element={<TxtMemBeomgyu />}></Route>
+            <Route path='/TxtMemHueningkai' element={<TxtMemHueningkai />}></Route>
+            <Route path='/TxtMemSubin' element={<TxtMemSubin />}></Route>
+
+
             <Route path='/TxtEvent' element={<TxtEvent />}></Route>
             <Route path='/AkmuMain' element={<AkmuMain />}></Route>
             <Route path='/AkmuEvent' element={<AkmuEvent />}></Route>
