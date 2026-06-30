@@ -36,19 +36,13 @@
         position: relative;
     }
 
-    .doruri_map_na_main>li>a {
-        border-top-right-radius: 25px;
-        border-top-left-radius: 25px;
-    }
-
-    .doruri_map_na_main>li:hover>a {
+    .doruri_map_na_main>li.on {
         color: #e6e6e6;
         background-color: #575656;
     }
 
-    .doruri_map_na_main>li>ul>li>a:hover {
+    .doruri_map_na_main>li.on>a {
         color: #e6e6e6;
-        background-color: #575656;
     }
 
     .doruri_map_na_main>li>ul {
@@ -61,6 +55,18 @@
         border-bottom-left-radius: 25px;
     }
 
+    .doruri_map_na_main>li>ul.on {
+        height: 160px;
+    }
+
+
+    /* 
+
+    
+
+
+    
+
     .doruri_map_nav>ul>li:hover>ul {
         height: 160px;
     }
@@ -72,7 +78,7 @@
         top: 40px;
         left: 300px;
         background-color: #d6d6d6;
-    }
+    } */
 
 
 
