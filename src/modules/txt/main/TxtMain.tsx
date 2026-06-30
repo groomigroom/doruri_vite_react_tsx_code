@@ -21,26 +21,32 @@ export default function TxtMain() {
                 &apos;투모로우바이투게더&apos;와 함께 힘내 보아요.</p>
             <img src={txt_m_img} className='tri_m_img txt_m_img' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <article className='txt_m_mem'>
-                <img src="" alt="" />
-                <h4>수빈</h4>
-            </article>
-            <article className='txt_m_mem'>
-                <img src="" alt="" />
-                <h4>연준</h4>
-            </article>
-            <article className='txt_m_mem'>
-                <img src="" alt="" />
-                <h4>범규</h4>
-            </article>
-            <article className='txt_m_mem'>
-                <img src="" alt="" />
-                <h4>태현</h4>
-            </article>
-            <article className='txt_m_mem'>
-                <img src="" alt="" />
-                <h4>휴닝카이</h4>
-            </article>
+            <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
+                <section className='tri_m_mem_tr'>
+                    <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="수빈 이미지" />
+                            <h4>수빈</h4>
+                        </article>
+                    </Link>
+                    <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="연준 이미지" />
+                            <h4>연준</h4>
+                        </article>
+                    </Link>
+                    <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="범규 이미지" />
+                            <h4>범규</h4>
+                        </article>
+                    </Link>
+태현
+휴닝카이
+                </section>
+                <section className='tri_m_mem_tr'></section>
+            </section>
+            
 
 
 
