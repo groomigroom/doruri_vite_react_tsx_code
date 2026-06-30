@@ -10,7 +10,7 @@ export default function DoruriMap() {
     return (
         <div className='doruri_map_full'>
             <Menu />
-            <nav>
+            <nav className='doruri_map_nav'>
                 <ul>
                     <li><a href="#">도루리 소개</a>
                         <ul>
