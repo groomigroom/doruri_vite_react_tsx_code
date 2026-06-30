@@ -15,41 +15,42 @@ export default function TriplesMemS1() {
                     <table className='tri_mm_s1_intropa_tb'>
                         <tbody>
                             <tr className='tri_mm_s1_intropa_tb_tr1'>
-                                <td>출생</td>
-                                <td>2003년 8월 6일</td>
+                                <td><p>출생</p></td>
+                                <td><p>2003년 8월 6일</p></td>
                             </tr>
                             <tr>
-                                <td>키</td>
-                                <td>161cm</td>
+                                <td><p>키</p></td>
+                                <td><p>161cm</p></td>
                             </tr>
                             <tr>
-                                <td>혈액형</td>
-                                <td>B형</td>
+                                <td><p>혈액형</p></td>
+                                <td><p>B형</p></td>
                             </tr>
                             <tr>
-                                <td>별명</td>
-                                <td>햄햄</td>
+                                <td><p>별명</p></td>
+                                <td><p>햄햄</p></td>
                             </tr>
                             <tr>
-                                <td>취미</td>
-                                <td>좋아하는 영화 여러번 보기</td>
+                                <td><p>취미</p></td>
+                                <td><p>좋아하는 영화 여러번 보기</p></td>
                             </tr>
                             <tr>
-                                <td>특기</td>
-                                <td>셀카찍기</td>
+                                <td><p>특기</p></td>
+                                <td><p>셀카찍기</p></td>
                             </tr>
                             <tr>
-                                <td>좋아하는 음식</td>
-                                <td>아이스크림</td>
+                                <td><p>좋아하는 음식</p></td>
+                                <td><p>아이스크림</p></td>
                             </tr>
                             <tr>
-                                <td>소속 유닛</td>
+                                <td><p>소속 유닛</p></td>
                                 <td>
-                                    +&#40;KR&#41;ystal Eyes • Acid Eyes • LOVElution • neptune</td>
+                                    <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
+                                    LOVElution, neptune</p></td>
                             </tr>
-                            <tr>
-                                <td>성격</td>
-                                <td>좋음</td>
+                            <tr className='tri_mm_s1_intropa_tb_tr9'>
+                                <td><p>성격</p></td>
+                                <td><p>좋음</p></td>
                             </tr>
                         </tbody>
                     </table>
