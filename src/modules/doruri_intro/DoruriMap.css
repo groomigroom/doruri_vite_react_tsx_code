@@ -5,7 +5,7 @@
         position: relative;
     }
 
-    .doruri_map_full>nav {
+    .doruri_map_nav {
         width: 600px;
         height: 40px;
         position: absolute;
@@ -14,11 +14,11 @@
         transform: translateX(-50%);
     }
 
-    .doruri_map_full>nav>ul {
+    .doruri_map_nav>ul {
         display: flex;
     }
 
-    .doruri_map_full>nav>ul>li {
+    .doruri_map_nav>ul>li {
         width: 150px;
         height: 40px;
         border-top-right-radius: 25px;
@@ -28,7 +28,7 @@
         overflow: hidden;
     }
 
-    .doruri_map_full>nav a {
+    .doruri_map_nav a {
         display: block;
         width: 150px;
         height: 40px;
@@ -37,18 +37,18 @@
 
     }
 
-    .doruri_map_full>nav>ul>li:hover {
+    .doruri_map_nav>ul>li:hover {
         height: 200px;
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
     }
 
-    .doruri_map_full>nav>ul>li:hover>a {
+    .doruri_map_nav>ul>li:hover>a {
         color: #e6e6e6;
         background-color: #575656;
     }
 
-    .doruri_map_full>nav>ul>li>ul>li>a:hover {
+    .doruri_map_nav>ul>li>ul>li>a:hover {
         color: #e6e6e6;
         background-color: #575656;
     }
