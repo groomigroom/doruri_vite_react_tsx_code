@@ -1,5 +1,3 @@
-/* .doruri_map_full {} */
-
 @media (min-width: 975px) {
     .doruri_map_full {
         width: 100vw;
@@ -20,17 +18,6 @@
         display: flex;
     }
 
-    .doruri_map_nav>ul>li {
-        width: 150px;
-        height: 40px;
-        background-color: #d6d6d6;
-        border-top-right-radius: 25px;
-        border-top-left-radius: 25px;
-        overflow: hidden;
-        transition: all 0.6s ease 0s;
-        position: relative;
-    }
-
     .doruri_map_nav>ul>li a {
         display: block;
         width: 150px;
@@ -39,10 +26,19 @@
         line-height: 40px;
     }
 
-    .doruri_map_nav>ul>li:hover {
-        height: 200px;
-        border-bottom-right-radius: 25px;
-        border-bottom-left-radius: 25px;
+    .doruri_map_nav>ul>li {
+        width: 150px;
+        height: 40px;
+        background-color: #d6d6d6;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        transition: all 0.6s ease 0s;
+        position: relative;
+    }
+
+    .doruri_map_nav>ul>li>a {
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
     }
 
     .doruri_map_nav>ul>li:hover>a {
@@ -54,5 +50,24 @@
         color: #e6e6e6;
         background-color: #575656;
     }
+
+    .doruri_map_nav>ul>li>ul {
+        width: 150px;
+        height: 0px;
+        overflow: hidden;
+        transition: all 0.6s ease 0s;
+        background-color: #d6d6d6;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .doruri_map_nav>ul>li:hover>ul {
+        height: 160px;
+    }
+
+    .doruri_map_IdolList {
+        position: relative;
+    }
+
 
 }
