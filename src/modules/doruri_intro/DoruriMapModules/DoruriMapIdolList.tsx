@@ -38,6 +38,15 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/TriplesMemS24'>S24 멤버 페이지</Link></li>
                         </ul>
                     </li>
+                    <li className='doruri_map_txtmain_li'><Link to='/TxtMain'>투모로우바이투게더 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/TxtMemSubin'>수빈 멤버 페이지</Link></li>
+                            <li><Link to='/TxtMemYeonjun'>연준 멤버 페이지</Link></li>
+                            <li><Link to='/TxtMemBeomgyu'>범규 멤버 페이지</Link></li>
+                            <li><Link to='/TxtMemTaehyun'>태현 멤버 페이지</Link></li>
+                            <li><Link to='/TxtMemHueningkai'>휴닝카이 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </div>
