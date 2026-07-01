@@ -27,13 +27,13 @@ export default function AkmuMain() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full akmu_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                    <Link to='/AkmuMemChanhyuk' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Akmu_m_chanhyuk} alt="이찬혁 이미지" />
                             <h4>이찬혁</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS2'>
+                    <Link to='/AkmuMemSuhyun'>
                         <article className='tri_m_mem'>
                             <img src={Akmu_m_suhyun} alt="이수현 이미지" />
                             <h4>이수현</h4>
