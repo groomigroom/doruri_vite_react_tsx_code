@@ -55,10 +55,10 @@ export default function RoutesSetup() {
             <Route path='/' element={<Home />}></Route>
 
             <Route path='/DoruriMap' element={<DoruriMap />}></Route>
-
+            <Route path='/DoruriMapIdolList' element={<DoruriMapIdolList />}></Route>
 
             <Route path='/IdolList' element={<IdolList />}></Route>
-            <Route path='/DoruriMapIdolList' element={<DoruriMapIdolList />}></Route>
+
 
             <Route path='/TriplesMain' element={<TriplesMain />}></Route>
             <Route path='/TriplesMemS1' element={<TriplesMemS1 />}></Route>
