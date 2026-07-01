@@ -5,6 +5,11 @@
         position: relative;
     }
 
+    .doruri_map_idollist_goback {
+        position: absolute;
+        top: 300px;
+    }
+
     .doruri_map_idollist_nav {
         width: 920px;
         height: 40px;
