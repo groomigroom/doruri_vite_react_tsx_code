@@ -15,7 +15,7 @@ export default function TriplesMemS10() {
             <p className='tri_mm_s1_intropp'>#####24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
-            <img src={Tri_mm_s10_img} alt="카에데 이미지" className='tri_mm_s1_img' />
+            <img src={Tri_mm_s10_img} alt="서다현 이미지" className='tri_mm_s1_img' />
         </div>
     );
 
