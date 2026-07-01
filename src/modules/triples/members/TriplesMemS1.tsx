@@ -1,15 +1,22 @@
 import './TriplesMemS1.css';
 
+import Menu from '../../Menu';
+
+import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg'
+
+import MainH2Deco from '../../img/main_h2_deco.png';
+
 export default function TriplesMemS1() {
     return (
         <div className="tri_mm_s1_full">
-            <header>
-                <h2>윤서연</h2>
-            </header>
+            <Menu />
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />윤서연<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
+            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
+                그리고... 그리고... 그리고...<br />
+                더 열심히 더 열심히</p>
+            <img src={Tri_mm_s1_img} alt="윤서연 이미지" className='tri_mm_s1_img' />
             <section className='tri_mm_s1_intro'>
-                <section className='tri_mm_s1_intropp'>
-                    <p></p>
-                </section>
+
                 <section className='tri_mm_s1_intropa'></section>
                 <section className='tri_mm_s1_intropa'>
                     <table className='tri_mm_s1_intropa_tb'>
@@ -46,7 +53,7 @@ export default function TriplesMemS1() {
                                 <td><p>소속 유닛</p></td>
                                 <td>
                                     <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                    LOVElution, neptune</p></td>
+                                        LOVElution, neptune</p></td>
                             </tr>
                             <tr className='tri_mm_s1_intropa_tb_tr9'>
                                 <td><p>성격</p></td>
@@ -57,9 +64,7 @@ export default function TriplesMemS1() {
                 </section>
 
             </section>
-            24명은 너무 많지 않아요?
-            그리고... 그리고... 그리고...
-            더 열심히 더 열심히
+
         </div>
     );
 };
