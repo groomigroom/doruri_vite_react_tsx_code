@@ -42,6 +42,7 @@ import TxtMain from './txt/main/TxtMain';
 import TxtMemBeomgyu from './txt/members/TxtMemBeomgyu';
 import TxtMemHueningkai from './txt/members/TxtMemHueningkai';
 import TxtMemSubin from './txt/members/TxtMemSubin';
+import TxtMemTaehyun from './txt/members/TxtMemTaehyun';
 
 import TxtEvent from "./txt/events/TxtEvent";
 import AkmuMain from './akmu/main/AkmuMain';
@@ -92,6 +93,7 @@ export default function RoutesSetup() {
             <Route path='/TxtMemBeomgyu' element={<TxtMemBeomgyu />}></Route>
             <Route path='/TxtMemHueningkai' element={<TxtMemHueningkai />}></Route>
             <Route path='/TxtMemSubin' element={<TxtMemSubin />}></Route>
+            <Route path='/TxtMemTaehyun' element={<TxtMemTaehyun />}></Route>
 
 
             <Route path='/TxtEvent' element={<TxtEvent />}></Route>
