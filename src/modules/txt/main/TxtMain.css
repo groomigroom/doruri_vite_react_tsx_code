@@ -10,4 +10,22 @@
 
 .txt_m_mem_tr_full {
     width: 530px;
+    height: 340px;
+    background-color: antiquewhite;
+}
+
+.txt_m_mem_tr {
+    width: 340px;
+    height: 150px;
+    position: absolute;
+    top: 190px;
+    left: 95px;
+}
+
+.txt_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>img {
+    border: 5px solid #FF1E91;
+}
+
+.txt_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>h4 {
+    border: 5px solid #FF1E91;
 }
