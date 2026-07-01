@@ -8,6 +8,7 @@ export default function DoruriMapIdolList() {
     return (
         <div className='doruri_map_idollist_full'>
             <Menu />
+            <Link to='/DoruriMap' className='doruri_map_idollist_goback'>뒤로가기</Link>
             <nav className='doruri_map_idollist_nav'>
                 <ul>
                     <li className='doruri_map_triplesmain_li'><Link to='/TriplesMain'>트리플에스 메인 페이지</Link>
