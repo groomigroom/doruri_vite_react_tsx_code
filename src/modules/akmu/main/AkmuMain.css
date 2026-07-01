@@ -1,1 +1,16 @@
+.akmu_m_img {
+    border: 5px solid #13983f;
+}
 
+.akmu_m_mem_tr_full {
+    width: 340px;
+    height: 150px;
+}
+
+.akmu_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>img {
+    border: 5px solid #13983f;
+}
+
+.akmu_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>h4 {
+    border: 5px solid #13983f;
+}
