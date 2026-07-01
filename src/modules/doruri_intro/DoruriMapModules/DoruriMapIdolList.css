@@ -6,7 +6,7 @@
     }
 
     .doruri_map_idollist_nav {
-        width: 680px;
+        width: 920px;
         height: 40px;
         position: absolute;
         top: 300px;
@@ -19,7 +19,7 @@
     }
 
     .doruri_map_idollist_nav>ul>li {
-        width: 170px;
+        width: 230px;
         height: 40px;
         border-top-right-radius: 25px;
         border-top-left-radius: 25px;
@@ -30,7 +30,7 @@
 
     .doruri_map_idollist_nav a {
         display: block;
-        width: 170px;
+        width: 230px;
         height: 40px;
         text-align: center;
         line-height: 40px;
@@ -38,6 +38,12 @@
 
     .doruri_map_triplesmain_li:hover {
         height: 1000px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .doruri_map_txtmain_li:hover {
+        height: 240px;
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
     }
@@ -51,4 +57,5 @@
         color: #e6e6e6;
         background-color: #575656;
     }
+
 }
