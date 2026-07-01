@@ -39,8 +39,6 @@ export default function DoruriMapIdolList() {
                         </ul>
                     </li>
                 </ul>
-                <p className='doruri_map_idollist_full_pp'>트리플에스 메인 페이지</p>
-                {/* 143px */}
             </nav>
         </div>
     );
