@@ -11,7 +11,7 @@ export default function DoruriMapIdolList() {
             <Link to='/DoruriMap' className='doruri_map_idollist_goback'>뒤로가기</Link>
             <nav className='doruri_map_idollist_nav'>
                 <ul>
-                    <li className='doruri_map_triplesmain_li'><Link to='/TriplesMain'>트리플에스 메인 페이지</Link>
+                    <li className='doruri_map_triplesmain_li'><Link to='/TriplesMain'>tripleS 메인 페이지</Link>
                         <ul>
                             <li><Link to='/TriplesMemS1'>S1 멤버 페이지</Link></li>
                             <li><Link to='/TriplesMemS2'>S2 멤버 페이지</Link></li>
@@ -46,6 +46,12 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/TxtMemBeomgyu'>범규 멤버 페이지</Link></li>
                             <li><Link to='/TxtMemTaehyun'>태현 멤버 페이지</Link></li>
                             <li><Link to='/TxtMemHueningkai'>휴닝카이 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
+                    <li className='doruri_map_akmumain_li'><Link to='/AkmuMain'>AKMU 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/AkmuMemChanhyuk'>이찬혁 멤버 페이지</Link></li>
+                            <li><Link to='/AkmuMemSuhyun'>이찬혁 멤버 페이지</Link></li>
                         </ul>
                     </li>
                 </ul>
