@@ -41,12 +41,28 @@ export default function TxtMain() {
                             <h4>범규</h4>
                         </article>
                     </Link>
-태현
-휴닝카이
                 </section>
+
+                <section className='tri_m_mem_tr txt_m_mem_tr'>
+                    <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="태현 이미지" />
+                            <h4>태현</h4>
+                        </article>
+                    </Link>
+                    <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="휴닝카이 이미지" />
+                            <h4>휴닝카이</h4>
+                        </article>
+                    </Link>
+
+                </section>
+
+
                 <section className='tri_m_mem_tr'></section>
             </section>
-            
+
 
 
 
