@@ -49,6 +49,7 @@ import TxtEvent from "./txt/events/TxtEvent";
 
 import AkmuMain from './akmu/main/AkmuMain';
 import AkmuMemChanhyuk from './akmu/members/AkmuMemChanhyuk';
+import AkmuMemSuhyun from './akmu/members/AkmuMemSuhyun';
 
 import AkmuEvent from "./akmu/events/AkmuEvent";
 
@@ -104,6 +105,7 @@ export default function RoutesSetup() {
 
             <Route path='/AkmuMain' element={<AkmuMain />}></Route>
             <Route path='/AkmuMemChanhyuk' element={<AkmuMemChanhyuk />}></Route>
+            <Route path='/AkmuMemSuhyun' element={<AkmuMemSuhyun />}></Route>
 
             <Route path='/AkmuEvent' element={<AkmuEvent />}></Route>
         </Routes>
