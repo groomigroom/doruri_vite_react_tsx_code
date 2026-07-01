@@ -5,19 +5,20 @@
         position: relative;
     }
 
-    .doruri_map_idollist_full_pp {
-        display: inline;
+    .doruri_map_idollist_nav {
+        width: 680px;
+        height: 40px;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .doruri_map_idollist_nav>ul {
+        display: flex;
     }
 
     .doruri_map_idollist_nav>ul>li {
-        width: 170px;
-    }
-
-    .doruri_map_idollist_nav a {
-        width: 170px;
-    }
-
-    .doruri_map_triplesmain_li {
         width: 170px;
         height: 40px;
         border-top-right-radius: 25px;
@@ -27,7 +28,27 @@
         overflow: hidden;
     }
 
+    .doruri_map_idollist_nav a {
+        display: block;
+        width: 170px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+    }
+
     .doruri_map_triplesmain_li:hover {
         height: 1000px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .doruri_map_idollist_nav>ul>li:hover>a {
+        color: #e6e6e6;
+        background-color: #575656;
+    }
+
+    .doruri_map_idollist_nav>ul>li>ul>li>a:hover {
+        color: #e6e6e6;
+        background-color: #575656;
     }
 }
