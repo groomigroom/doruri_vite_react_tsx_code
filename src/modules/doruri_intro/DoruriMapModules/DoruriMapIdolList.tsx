@@ -51,7 +51,7 @@ export default function DoruriMapIdolList() {
                     <li className='doruri_map_akmumain_li'><Link to='/AkmuMain'>AKMU 메인 페이지</Link>
                         <ul>
                             <li><Link to='/AkmuMemChanhyuk'>이찬혁 멤버 페이지</Link></li>
-                            <li><Link to='/AkmuMemSuhyun'>이찬혁 멤버 페이지</Link></li>
+                            <li><Link to='/AkmuMemSuhyun'>이수현 멤버 페이지</Link></li>
                         </ul>
                     </li>
                 </ul>
