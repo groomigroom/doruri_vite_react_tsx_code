@@ -7,3 +7,21 @@
 .ioi_m_mem_tr_full {
     height: 530px;
 }
+
+.ioi_m_mem_tr {
+    width: 530px;
+    height: 150px;
+    position: absolute;
+}
+
+.ioi_m_mem_tr>.ioi_m_mem_tr4:nth-child(1) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.ioi_m_mem_tr>.ioi_m_mem_tr4:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
