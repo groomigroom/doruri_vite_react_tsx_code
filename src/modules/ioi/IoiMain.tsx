@@ -22,9 +22,9 @@ export default function IoiMain() {
             </p>
             <img src="" className='tri_m_img' alt='아이오아이 이미지' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full ioi_m_mem_tr_full'>
+            <section className='ioi_m_mem_tr_full'>
 
-                <section className='tri_m_mem_tr ioi_m_mem_tr4'>
+                <section className='ioi_m_mem_tr4'>
                     <Link to='/TriplesMemS1' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="임나영 이미지" />
@@ -53,7 +53,7 @@ export default function IoiMain() {
                     </Link>
                 </section>
 
-                <section className='tri_m_mem_tr ioi_m_mem_tr4'>
+                <section className='ioi_m_mem_tr4'>
                     <Link to='/TriplesMemS5'>
                         <article className='tri_m_mem'>
                             <img src="" alt="주결경 이미지" />
@@ -83,7 +83,7 @@ export default function IoiMain() {
                     </Link>
                 </section>
 
-                <section className='tri_m_mem_tr ioi_m_mem_tr3'>
+                <section className='ioi_m_mem_tr3'>
                     <Link to='/TriplesMemS5'>
                         <article className='tri_m_mem'>
                             <img src="" alt="강미나 이미지" />
