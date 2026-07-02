@@ -1,4 +1,5 @@
 import '../../triples/members/TriplesMemS1.css';
+import './TxtMemBeomgyu.css';
 
 import Menu from '../../Menu';
 
@@ -10,11 +11,11 @@ export default function TxtMemBeomgyu() {
     return (
         <div className="txt_mm_beomgyu_full">
             <Menu />
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />윤서연<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />범규<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
-            <img src={Txt_mm_Beomgyu_img} alt="윤서연 이미지" className='tri_mm_s1_img' />
+            <img src={Txt_mm_Beomgyu_img} alt="범규 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
@@ -57,7 +58,7 @@ export default function TxtMemBeomgyu() {
                     </tr>
                 </tbody>
             </table>
-            범규
+
         </div>
     );
 }
