@@ -59,6 +59,18 @@ import AkmuEvent from "./akmu/events/AkmuEvent";
 
 import IoiMain from "./ioi/main/IoiMain";
 
+import IoiMemImnayoung from './ioi/members/IoiMemImnayoung';
+import IoiMemKimchungha from './ioi/members/IoiMemKimchungha';
+import IoiMemKimsejung from './ioi/members/IoiMemKimsejung';
+import IoiMemJungcheyun from './ioi/members/IoiMemJungcheyun';
+import IoiMemJugyulgyoung from './ioi/members/IoiMemJugyulgyoung';
+import IoiMemKimsohye from './ioi/members/IoiMemKimsohye';
+import IoiMemYuyeonjung from './ioi/members/IoiMemYuyeonjung';
+import IoiMemChoiyujung from './ioi/members/IoiMemChoiyujung';
+import IoiMemGangmina from './ioi/members/IoiMemGangmina';
+import IoiMemKimdoyeon from './ioi/members/IoiMemKimdoyeon';
+import IoiMemJeonsomi from './ioi/members/IoiMemJeonsomi';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -116,6 +128,19 @@ export default function RoutesSetup() {
             <Route path='/AkmuEvent' element={<AkmuEvent />}></Route>
 
             <Route path='/IoiMain' element={<IoiMain />}></Route>
+
+            <Route path='/IoiMemImnayoung' element={<IoiMemImnayoung />}></Route>
+            <Route path='/IoiMemKimchungha' element={<IoiMemKimchungha />}></Route>
+            <Route path='/IoiMemKimsejung' element={<IoiMemKimsejung />}></Route>
+            <Route path='/IoiMemJungcheyun' element={<IoiMemJungcheyun />}></Route>
+            <Route path='/IoiMemJugyulgyoung' element={<IoiMemJugyulgyoung />}></Route>
+            <Route path='/IoiMemKimsohye' element={<IoiMemKimsohye />}></Route>
+            <Route path='/IoiMemYuyeonjung' element={<IoiMemYuyeonjung />}></Route>
+            <Route path='/IoiMemChoiyujung' element={<IoiMemChoiyujung />}></Route>
+            <Route path='/IoiMemGangmina' element={<IoiMemGangmina />}></Route>
+            <Route path='/IoiMemKimdoyeon' element={<IoiMemKimdoyeon />}></Route>
+            <Route path='/IoiMemJeonsomi' element={<IoiMemJeonsomi />}></Route>
+
         </Routes>
     );
 }
