@@ -47,7 +47,7 @@ export default function IdolList() {
                         </div>
 
                         <div className="idolList_link">
-                            <Link to="/AkmuMain" className="idolList_link_a idolList_link_ioi">
+                            <Link to="/IoiMain" className="idolList_link_a idolList_link_ioi">
                                 <img src="" alt="아이오아이" />
                                 <div>
                                     <h4>아이오아이</h4>
