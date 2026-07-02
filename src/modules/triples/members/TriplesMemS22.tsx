@@ -9,7 +9,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TriplesMemS22() {
     return (
-        <div className="tri_mm_s5_full">
+        <div className="tri_mm_s22_full">
             <Menu />
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />설린<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>#####24명은 너무 많지 않아요?<br />
