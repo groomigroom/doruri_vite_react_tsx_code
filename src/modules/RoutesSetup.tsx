@@ -47,11 +47,17 @@ import TxtMemYeonjun from './txt/members/TxtMemYeonjun';
 
 import TxtEvent from "./txt/events/TxtEvent";
 
+//AkmuMain
+
 import AkmuMain from './akmu/main/AkmuMain';
 import AkmuMemChanhyuk from './akmu/members/AkmuMemChanhyuk';
 import AkmuMemSuhyun from './akmu/members/AkmuMemSuhyun';
 
 import AkmuEvent from "./akmu/events/AkmuEvent";
+
+//IoiMain
+
+import IoiMain from "./ioi/main/IoiMain";
 
 export default function RoutesSetup() {
     return (
@@ -108,6 +114,8 @@ export default function RoutesSetup() {
             <Route path='/AkmuMemSuhyun' element={<AkmuMemSuhyun />}></Route>
 
             <Route path='/AkmuEvent' element={<AkmuEvent />}></Route>
+
+            <Route path='/IoiMain' element={<IoiMain />}></Route>
         </Routes>
     );
 }
