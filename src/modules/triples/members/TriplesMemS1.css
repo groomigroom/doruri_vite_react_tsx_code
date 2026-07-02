@@ -1,3 +1,5 @@
+/* 상하 여백 40px */
+
 .tri_mm_s1_full {
     width: 100vw;
     height: 100vh;
@@ -51,9 +53,12 @@
 .tri_mm_s1_intropa_tb {
     width: 400px;
     height: 450px;
-    position: absolute;
-    top: 500px;
     border-collapse: collapse;
+    position: absolute;
+    top: 543px;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
 .tri_mm_s1_intropa_tb>tbody>tr {
@@ -62,7 +67,7 @@
 
 .tri_mm_s1_intropa_tb>tbody>tr>td:first-child {
     position: absolute;
-    width: 100px;
+    width: 115px;
     height: 50px;
     top: 0px;
     left: 0px;
@@ -77,21 +82,30 @@
 .tri_mm_s1_intropa_tb>tbody>tr>td:first-child>p {
     position: absolute;
     top: 50%;
-    left: 15px;
+    left: 10px;
     color: #e6e6e6;
     transform: translateY(-50%);
     font-weight: 600;
 }
 
+/* 85로보고 하기 */
+/* 좌우 15이상 되게 */
+
 .tri_mm_s1_intropa_tb>tbody>tr>td:last-child {
-    width: 315px;
+    width: 285px;
     height: 50px;
     position: absolute;
     top: 0px;
-    left: 85px;
+    left: 115px;
     border-top: 5px solid #333;
     border-right: 5px solid #333;
+}
 
+.tri_mm_s1_intropa_tb>tbody>tr>td:last-child>p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
 }
 
 .tri_mm_s1_intropa_tb_tr1>td:first-child {
