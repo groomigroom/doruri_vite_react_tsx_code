@@ -15,7 +15,6 @@ export default function IdolList() {
             <section className="idolList_part">
                 <section className="idolList_trainf">
                     <section className="idolList_train">
-                        <Link to="/" className="idolList_link">Home</Link>
                         <div className="idolList_link">
                             <Link to="/TriplesMain" className="idolList_link_a idolList_link_tri">
                                 <img src={IdL_Triples} alt="트리플에스" />
@@ -43,6 +42,15 @@ export default function IdolList() {
                                 <div>
                                     <h4>악뮤</h4>
 
+                                </div>
+                            </Link>
+                        </div>
+
+                        <div className="idolList_link">
+                            <Link to="/AkmuMain" className="idolList_link_a idolList_link_ioi">
+                                <img src="" alt="아이오아이" />
+                                <div>
+                                    <h4>아이오아이</h4>
                                 </div>
                             </Link>
                         </div>
