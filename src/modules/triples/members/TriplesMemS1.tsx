@@ -59,7 +59,6 @@ export default function TriplesMemS1() {
             </table>
 
 
-
         </div>
     );
 };
