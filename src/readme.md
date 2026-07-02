@@ -6,7 +6,8 @@ border-radius 25px
 고유 변수
 트리플에스 tri #191919
 투모로우바이투게더 txt 
-악뮤 akm
+악뮤 akmu
+아이오아이 ioi
 
 고유 페이지
 이벤트 e
@@ -16,6 +17,4 @@ border-radius 25px
 
 npm i react-router-dom하기
 
-txt_m_txtimg 추가함
-akmu_m 추가함
 
