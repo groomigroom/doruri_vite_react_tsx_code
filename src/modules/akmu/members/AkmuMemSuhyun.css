@@ -1,1 +1,9 @@
+.akmu_mm_suhyun_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
 
+.akmu_mm_chanhyuk_img {
+    border: 5px solid #13983f;
+}
