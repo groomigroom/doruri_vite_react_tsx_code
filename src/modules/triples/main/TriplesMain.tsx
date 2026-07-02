@@ -7,7 +7,7 @@ import Tri_m_img from './img/tri_m_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
-import Menu from '../../Menu'
+import Menu from '../../Menu';
 
 import Tri_m_memS1 from './img/tri_m_memS1.jpg';
 import Tri_m_memS2 from './img/tri_m_memS2.jpg';
@@ -44,7 +44,7 @@ export default function TriplesMain() {
                 상처, 고난, 또 눈물이 길을 막아도<br />
                 &apos;트리플에스&apos;와 함께 고개를 들어 보아요.
             </p>
-            <img src={Tri_m_img} className='tri_m_img' />
+            <img src={Tri_m_img} className='tri_m_img' alt='트리플에스 이미지' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full'>
 
