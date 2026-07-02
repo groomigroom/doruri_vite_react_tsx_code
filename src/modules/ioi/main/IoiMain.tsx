@@ -25,27 +25,27 @@ export default function IoiMain() {
             <section className='ioi_m_mem_tr_full'>
 
                 <section className='ioi_m_mem_tr4'>
-                    <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                    <Link to='/IoiMemImnayoung' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="임나영 이미지" />
                             <h4>임나영</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS2'>
+                    <Link to='/IoiMemKimchungha'>
                         <article className='tri_m_mem'>
                             <img src="" alt="김청하 이미지" />
                             <h4>김청하</h4>
                         </article>
                     </Link>
 
-                    <Link to='/TriplesMemS3'>
+                    <Link to='/IoiMemKimsejung'>
                         <article className='tri_m_mem'>
                             <img src="" alt="김세정 이미지" />
                             <h4>김세정</h4>
                         </article>
                     </Link>
 
-                    <Link to='/TriplesMemS4'>
+                    <Link to='/IoiMemJungcheyun'>
                         <article className='tri_m_mem'>
                             <img src="" alt="정채연 이미지" />
                             <h4>정채연</h4>
@@ -54,28 +54,28 @@ export default function IoiMain() {
                 </section>
 
                 <section className='ioi_m_mem_tr4'>
-                    <Link to='/TriplesMemS5'>
+                    <Link to='/IoiMemJugyulgyoung'>
                         <article className='tri_m_mem'>
                             <img src="" alt="주결경 이미지" />
                             <h4>주결경</h4>
                         </article>
                     </Link>
 
-                    <Link to='/TriplesMemS6'>
+                    <Link to='/IoiMemKimsohye'>
                         <article className='tri_m_mem'>
                             <img src="" alt="김소혜 이미지" />
                             <h4>김소혜</h4>
                         </article>
                     </Link>
 
-                    <Link to='/TriplesMemS7'>
+                    <Link to='/IoiMemYuyeonjung'>
                         <article className='tri_m_mem'>
                             <img src="" alt="유연정 이미지" />
                             <h4>유연정</h4>
                         </article>
                     </Link>
 
-                    <Link to='/TriplesMemS8'>
+                    <Link to='/IoiMemChoiyujung'>
                         <article className='tri_m_mem'>
                             <img src="" alt="최유정 이미지" />
                             <h4>최유정</h4>
@@ -84,21 +84,21 @@ export default function IoiMain() {
                 </section>
 
                 <section className='ioi_m_mem_tr3'>
-                    <Link to='/TriplesMemS5'>
+                    <Link to='/IoiMemGangmina'>
                         <article className='tri_m_mem'>
                             <img src="" alt="강미나 이미지" />
                             <h4>강미나</h4>
                         </article>
                     </Link>
 
-                    <Link to='/TriplesMemS6'>
+                    <Link to='/IoiMemKimdoyeon'>
                         <article className='tri_m_mem'>
                             <img src="" alt="김도연 이미지" />
                             <h4>김도연</h4>
                         </article>
                     </Link>
 
-                    <Link to='/TriplesMemS7'>
+                    <Link to='/IoiMemJeonsomi'>
                         <article className='tri_m_mem'>
                             <img src="" alt="전소미 이미지" />
                             <h4>전소미</h4>
