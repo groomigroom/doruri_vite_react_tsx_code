@@ -94,6 +94,10 @@ import IllMemMoka from './illit/members/IllMemMoka';
 import IllMemWonhee from './illit/members/IllMemWonhee';
 import IllMemEroha from './illit/members/IllMemEroha';
 
+//TwsMain
+
+import TwsMain from './tws/main/TwsMain';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -182,6 +186,8 @@ export default function RoutesSetup() {
             <Route path='/IllMemMoka' element={<IllMemMoka />}></Route>
             <Route path='/IllMemWonhee' element={<IllMemWonhee />}></Route>
             <Route path='/IllMemEroha' element={<IllMemEroha />}></Route>
+
+            <Route path='/TwsMain' element={<TwsMain />}></Route>
 
 
         </Routes>
