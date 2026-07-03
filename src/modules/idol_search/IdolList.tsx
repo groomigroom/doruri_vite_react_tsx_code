@@ -65,6 +65,15 @@ export default function IdolList() {
                             </Link>
                         </div>
 
+                        <div className="idolList_link">
+                            <Link to="/IllitMain" className="idolList_link_a idolList_link_str">
+                                <img src="" alt="ILLIT" />
+                                <div>
+                                    <h4>ILLIT</h4>
+                                </div>
+                            </Link>
+                        </div>
+
                     </section>
                     <section className="idolList_train">
                         <Link to="/" className="idolList_link">Home</Link>
