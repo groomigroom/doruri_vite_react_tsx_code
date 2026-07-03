@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import '../../triples/main/TriplesMain.css'
 import './StrayKidsMain.css';
@@ -17,16 +17,77 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function StrayKidsMain() {
     return (
-        <div className='txt_m_full'>
+        <div className='str_m_full'>
             <Menu />
             <img src="" alt="스트레이 키즈 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" />투모로우바이투게더<img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" /></h2>
+            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" />Stray Kids<img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
                 #####<br />
                 하루에 하루만 더<br />
                 &apos;투모로우바이투게더&apos;와 함께 힘내 보아요.</p>
             <img src="" className='tri_m_img txt_m_img' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
+            <section className='tri_m_mem_tr_full str_m_mem_tr_full'>
+
+                <section className='tri_m_mem_tr str_m_mem_tr'>
+                    <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="방찬 이미지" />
+                            <h4>방찬</h4>
+                        </article>
+                    </Link>
+                    <Link to='/TriplesMemS2'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="리노 이미지" />
+                            <h4>리노</h4>
+                        </article>
+                    </Link>
+
+                    <Link to='/TriplesMemS3'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="창빈 이미지" />
+                            <h4>창빈</h4>
+                        </article>
+                    </Link>
+
+                    <Link to='/TriplesMemS4'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="현진 이미지" />
+                            <h4>현진</h4>
+                        </article>
+                    </Link>
+                </section>
+
+                <section className='tri_m_mem_tr'>
+                    <Link to='/TriplesMemS5'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="한 이미지" />
+                            <h4>한</h4>
+                        </article>
+                    </Link>
+
+                    <Link to='/TriplesMemS6'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="필릭스 이미지" />
+                            <h4>필릭스</h4>
+                        </article>
+                    </Link>
+
+                    <Link to='/TriplesMemS7'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="승민 이미지" />
+                            <h4>승민</h4>
+                        </article>
+                    </Link>
+
+                    <Link to='/TriplesMemS8'>
+                        <article className='tri_m_mem'>
+                            <img src="" alt="아이엔 이미지" />
+                            <h4>아이엔</h4>
+                        </article>
+                    </Link>
+                </section>
+            </section>
         </div>
     );
 };
