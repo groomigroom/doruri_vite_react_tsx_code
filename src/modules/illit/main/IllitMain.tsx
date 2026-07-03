@@ -23,19 +23,19 @@ export default function IllitMain() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TxtMemSubin' className='tri_m_mem_a'>
+                    <Link to='/IllMemYunah' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="윤아 이미지" />
                             <h4>윤아</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemYeonjun' className='tri_m_mem_a'>
+                    <Link to='/IllMemMinju' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="민주 이미지" />
                             <h4>민주</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemBeomgyu' className='tri_m_mem_a'>
+                    <Link to='/IllMemMoka' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="모카 이미지" />
                             <h4>모카</h4>
@@ -44,13 +44,13 @@ export default function IllitMain() {
                 </section>
 
                 <section className='tri_m_mem_tr txt_m_mem_tr'>
-                    <Link to='/TxtMemTaehyun' className='tri_m_mem_a'>
+                    <Link to='/IllMemWonhee' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="원희 이미지" />
                             <h4>원희</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemHueningkai' className='tri_m_mem_a'>
+                    <Link to='/IllMemEroha' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="이로하 이미지" />
                             <h4>이로하</h4>
