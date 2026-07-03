@@ -74,6 +74,15 @@ export default function IdolList() {
                             </Link>
                         </div>
 
+                        <div className="idolList_link">
+                            <Link to="/TwsMain" className="idolList_link_a idolList_link_str">
+                                <img src="" alt="TWS" />
+                                <div>
+                                    <h4>TWS</h4>
+                                </div>
+                            </Link>
+                        </div>
+
                     </section>
                     <section className="idolList_train">
                         <Link to="/" className="idolList_link">Home</Link>
