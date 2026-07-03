@@ -1,7 +1,7 @@
 // import { Link } from 'react-router-dom';
 
 import '../../triples/main/TriplesMain.css'
-import './TxtMain.css';
+import './StrayKidsMain.css';
 
 import Menu from '../../Menu';
 
