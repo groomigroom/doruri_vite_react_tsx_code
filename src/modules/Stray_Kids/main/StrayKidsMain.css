@@ -1,1 +1,9 @@
+.str_m_full {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
 
+.str_m_mem_tr_full {
+    height: 340px;
+}
