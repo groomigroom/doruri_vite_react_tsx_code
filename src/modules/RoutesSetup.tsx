@@ -84,6 +84,10 @@ import StrayMemFilix from './Stray_Kids/members/StrayMemFilix';
 import StrayMemSeungmin from './Stray_Kids/members/StrayMemSeungmin';
 import StrayMemIn from './Stray_Kids/members/StrayMemIn';
 
+//IllitMain
+
+import IllitMain from './illit/main/IllitMain';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -164,6 +168,8 @@ export default function RoutesSetup() {
             <Route path='/StrayMemFilix' element={<StrayMemFilix />}></Route>
             <Route path='/StrayMemSeungmin' element={<StrayMemSeungmin />}></Route>
             <Route path='/StrayMemIn' element={<StrayMemIn />}></Route>
+
+            <Route path='/IllitMain' element={<IllitMain />}></Route>
 
 
         </Routes>
