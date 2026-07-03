@@ -3,7 +3,7 @@
 export default function TwsMain() {
     return (
         <div className='tws_m_full'>
-
+            TWS
         </div>
     );
 };
