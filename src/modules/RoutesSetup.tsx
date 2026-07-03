@@ -75,6 +75,15 @@ import IoiMemJeonsomi from './ioi/members/IoiMemJeonsomi';
 
 import StrayKidsMain from './Stray_Kids/main/StrayKidsMain';
 
+import StrayMemBangchan from './Stray_Kids/members/StrayMemBangchan';
+import StrayMemLino from './Stray_Kids/members/StrayMemLino';
+import StrayMemChangbin from './Stray_Kids/members/StrayMemChangbin';
+import StrayMemHyunjin from './Stray_Kids/members/StrayMemHyunjin';
+import StrayMemHan from './Stray_Kids/members/StrayMemHan';
+import StrayMemFilix from './Stray_Kids/members/StrayMemFilix';
+import StrayMemSeungmin from './Stray_Kids/members/StrayMemSeungmin';
+import StrayMemIn from './Stray_Kids/members/StrayMemIn';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -146,6 +155,16 @@ export default function RoutesSetup() {
             <Route path='/IoiMemJeonsomi' element={<IoiMemJeonsomi />}></Route>
 
             <Route path='/StrayKidsMain' element={<StrayKidsMain />}></Route>
+
+            <Route path='/StrayMemBangchan' element={<StrayMemBangchan />}></Route>
+            <Route path='/StrayMemLino' element={<StrayMemLino />}></Route>
+            <Route path='/StrayMemChangbin' element={<StrayMemChangbin />}></Route>
+            <Route path='/StrayMemHyunjin' element={<StrayMemHyunjin />}></Route>
+            <Route path='/StrayMemHan' element={<StrayMemHan />}></Route>
+            <Route path='/StrayMemFilix' element={<StrayMemFilix />}></Route>
+            <Route path='/StrayMemSeungmin' element={<StrayMemSeungmin />}></Route>
+            <Route path='/StrayMemIn' element={<StrayMemIn />}></Route>
+
 
         </Routes>
     );
