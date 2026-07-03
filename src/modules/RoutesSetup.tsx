@@ -71,6 +71,10 @@ import IoiMemGangmina from './ioi/members/IoiMemGangmina';
 import IoiMemKimdoyeon from './ioi/members/IoiMemKimdoyeon';
 import IoiMemJeonsomi from './ioi/members/IoiMemJeonsomi';
 
+//StrayKidsMain
+
+import StrayKidsMain from './Stray_Kids/main/StrayKidsMain';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -140,6 +144,8 @@ export default function RoutesSetup() {
             <Route path='/IoiMemGangmina' element={<IoiMemGangmina />}></Route>
             <Route path='/IoiMemKimdoyeon' element={<IoiMemKimdoyeon />}></Route>
             <Route path='/IoiMemJeonsomi' element={<IoiMemJeonsomi />}></Route>
+
+            <Route path='/StrayKidsMain' element={<StrayKidsMain />}></Route>
 
         </Routes>
     );
