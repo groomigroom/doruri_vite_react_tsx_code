@@ -9,6 +9,7 @@ border-radius 25px
 악뮤 akmu
 아이오아이 ioi
 Stray Kids str
+아일릿 ill
 
 고유 페이지
 이벤트 e
