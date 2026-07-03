@@ -98,6 +98,13 @@ import IllMemEroha from './illit/members/IllMemEroha';
 
 import TwsMain from './tws/main/TwsMain';
 
+import TwsMemSinyu from './tws/members/TwsMemSinyu';
+import TwsMemDohun from './tws/members/TwsMemDohun';
+import TwsMemYoungjae from './tws/members/TwsMemYoungjae';
+import TwsMemHanjin from './tws/members/TwsMemHanjin';
+import TwsMemJihun from './tws/members/TwsMemJihun';
+import TwsMemGyungmin from './tws/members/TwsMemGyungmin';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -188,6 +195,13 @@ export default function RoutesSetup() {
             <Route path='/IllMemEroha' element={<IllMemEroha />}></Route>
 
             <Route path='/TwsMain' element={<TwsMain />}></Route>
+
+            <Route path='/TwsMemSinyu' element={<TwsMemSinyu />}></Route>
+            <Route path='/TwsMemDohun' element={<TwsMemDohun />}></Route>
+            <Route path='/TwsMemYoungjae' element={<TwsMemYoungjae />}></Route>
+            <Route path='/TwsMemHanjin' element={<TwsMemHanjin />}></Route>
+            <Route path='/TwsMemJihun' element={<TwsMemJihun />}></Route>
+            <Route path='/TwsMemGyungmin' element={<TwsMemGyungmin />}></Route>
 
 
         </Routes>
