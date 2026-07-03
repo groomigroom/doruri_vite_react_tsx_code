@@ -66,7 +66,6 @@ export default function TxtMain() {
                 </section>
 
 
-                <section className='tri_m_mem_tr'></section>
             </section>
 
 
