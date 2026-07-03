@@ -8,6 +8,7 @@ border-radius 25px
 투모로우바이투게더 txt 
 악뮤 akmu
 아이오아이 ioi
+Stray Kids str
 
 고유 페이지
 이벤트 e
