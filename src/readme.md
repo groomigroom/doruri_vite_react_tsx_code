@@ -10,6 +10,8 @@ border-radius 25px
 아이오아이 ioi
 Stray Kids str
 아일릿 ill
+투어스 tws
+RESCENE res
 
 고유 페이지
 이벤트 e
