@@ -14,6 +14,7 @@ Stray Kids str
 RESCENE res
 10CM ten
 aespa aes
+ALLDAY_PROJECT all
 
 고유 페이지
 이벤트 e
