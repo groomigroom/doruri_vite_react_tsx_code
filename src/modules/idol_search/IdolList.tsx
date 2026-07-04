@@ -104,7 +104,16 @@ export default function IdolList() {
                             </Link>
                         </div>
 
-                        <Link to="/TriplesEvent" className="idolList_link">TriplesEvent</Link>
+                        <div className="idolList_link">
+                            <Link to="/AespaMain" className="idolList_link_a idolList_link_str">
+                                <img src="" alt="aespa" />
+                                <div>
+                                    <h4>aespa</h4>
+                                </div>
+                            </Link>
+                        </div>
+
+
                         <Link to="/TxtEvent" className="idolList_link">TxtEvent</Link>
                         <Link to="/AkmuEvent" className="idolList_link">AkmuEvent</Link>
                     </section>
