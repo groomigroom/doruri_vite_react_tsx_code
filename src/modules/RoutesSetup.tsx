@@ -105,6 +105,10 @@ import TwsMemHanjin from './tws/members/TwsMemHanjin';
 import TwsMemJihun from './tws/members/TwsMemJihun';
 import TwsMemGyungmin from './tws/members/TwsMemGyungmin';
 
+//ResMain
+
+import ResMain from './RESCENE/main/ResMain';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -202,6 +206,8 @@ export default function RoutesSetup() {
             <Route path='/TwsMemHanjin' element={<TwsMemHanjin />}></Route>
             <Route path='/TwsMemJihun' element={<TwsMemJihun />}></Route>
             <Route path='/TwsMemGyungmin' element={<TwsMemGyungmin />}></Route>
+
+            <Route path='/ResMain' element={<ResMain />}></Route>
 
 
         </Routes>
