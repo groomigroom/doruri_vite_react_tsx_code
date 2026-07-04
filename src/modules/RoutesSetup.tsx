@@ -121,6 +121,10 @@ import TenCMMain from './10CM/main/TenCMMain';
 
 import TenMemGwonjungyeol from './10CM/members/TenMemGwonjungyeol';
 
+//AespaMain
+
+import AespaMain from './aespa/main/AespaMain';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -230,6 +234,8 @@ export default function RoutesSetup() {
             <Route path='/TenCMMain' element={<TenCMMain />}></Route>
 
             <Route path='/TenMemGwonjungyeol' element={<TenMemGwonjungyeol />}></Route>
+
+            <Route path='/AespaMain' element={<AespaMain />}></Route>
 
         </Routes>
     );
