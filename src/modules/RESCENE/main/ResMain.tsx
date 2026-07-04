@@ -26,20 +26,20 @@ export default function ResMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TxtMemSubin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="수빈 이미지" />
-                            <h4>수빈</h4>
+                            <img src="" alt="원이 이미지" />
+                            <h4>원이</h4>
                         </article>
                     </Link>
                     <Link to='/TxtMemYeonjun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="연준 이미지" />
-                            <h4>연준</h4>
+                            <img src="" alt="리브 이미지" />
+                            <h4>리브</h4>
                         </article>
                     </Link>
                     <Link to='/TxtMemBeomgyu' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="범규 이미지" />
-                            <h4>범규</h4>
+                            <img src="" alt="미나미 이미지" />
+                            <h4>미나미</h4>
                         </article>
                     </Link>
                 </section>
@@ -47,14 +47,14 @@ export default function ResMain() {
                 <section className='tri_m_mem_tr txt_m_mem_tr'>
                     <Link to='/TxtMemTaehyun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="태현 이미지" />
-                            <h4>태현</h4>
+                            <img src="" alt="메이 이미지" />
+                            <h4>메이</h4>
                         </article>
                     </Link>
                     <Link to='/TxtMemHueningkai' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="휴닝카이 이미지" />
-                            <h4>휴닝카이</h4>
+                            <img src="" alt="제나 이미지" />
+                            <h4>제나</h4>
                         </article>
                     </Link>
 
