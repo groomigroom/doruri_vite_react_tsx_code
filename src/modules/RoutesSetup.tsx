@@ -115,6 +115,10 @@ import ResMemMinami from './RESCENE/members/ResMemMinami';
 import ResMemMay from './RESCENE/members/ResMemMay';
 import ResMemJena from './RESCENE/members/ResMemJena';
 
+//TenCMMain
+
+import TenCMMain from './10CM/main/TenCMMain';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -220,6 +224,8 @@ export default function RoutesSetup() {
             <Route path='/ResMemMinami' element={<ResMemMinami />}></Route>
             <Route path='/ResMemMay' element={<ResMemMay />}></Route>
             <Route path='/ResMemJena' element={<ResMemJena />}></Route>
+
+            <Route path='/TenCMMain' element={<TenCMMain />}></Route>
 
         </Routes>
     );
