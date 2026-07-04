@@ -24,19 +24,19 @@ export default function ResMain() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TxtMemSubin' className='tri_m_mem_a'>
+                    <Link to='/ResMemWoni' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="원이 이미지" />
                             <h4>원이</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemYeonjun' className='tri_m_mem_a'>
+                    <Link to='/ResMemLiv' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="리브 이미지" />
                             <h4>리브</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemBeomgyu' className='tri_m_mem_a'>
+                    <Link to='/ResMemMinami' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="미나미 이미지" />
                             <h4>미나미</h4>
@@ -45,13 +45,13 @@ export default function ResMain() {
                 </section>
 
                 <section className='tri_m_mem_tr txt_m_mem_tr'>
-                    <Link to='/TxtMemTaehyun' className='tri_m_mem_a'>
+                    <Link to='/ResMemMay' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="메이 이미지" />
                             <h4>메이</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemHueningkai' className='tri_m_mem_a'>
+                    <Link to='/ResMemJena' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="제나 이미지" />
                             <h4>제나</h4>
