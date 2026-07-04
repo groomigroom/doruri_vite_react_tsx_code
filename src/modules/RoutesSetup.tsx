@@ -119,6 +119,8 @@ import ResMemJena from './RESCENE/members/ResMemJena';
 
 import TenCMMain from './10CM/main/TenCMMain';
 
+import TenMemGwonjungyeol from './10CM/members/TenMemGwonjungyeol';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -226,6 +228,8 @@ export default function RoutesSetup() {
             <Route path='/ResMemJena' element={<ResMemJena />}></Route>
 
             <Route path='/TenCMMain' element={<TenCMMain />}></Route>
+
+            <Route path='/TenMemGwonjungyeol' element={<TenMemGwonjungyeol />}></Route>
 
         </Routes>
     );
