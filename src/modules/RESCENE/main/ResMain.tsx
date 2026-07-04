@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 import '../../triples/main/TriplesMain.css'
 import '../../txt/main/TxtMain.css';
+import './ResMain.css';
 
 import Menu from '../../Menu';
 
