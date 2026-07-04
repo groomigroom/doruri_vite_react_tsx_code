@@ -109,6 +109,12 @@ import TwsMemGyungmin from './tws/members/TwsMemGyungmin';
 
 import ResMain from './RESCENE/main/ResMain';
 
+import ResMemWoni from './RESCENE/members/ResMemWoni';
+import ResMemLiv from './RESCENE/members/ResMemLiv';
+import ResMemMinami from './RESCENE/members/ResMemMinami';
+import ResMemMay from './RESCENE/members/ResMemMay';
+import ResMemJena from './RESCENE/members/ResMemJena';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -209,6 +215,11 @@ export default function RoutesSetup() {
 
             <Route path='/ResMain' element={<ResMain />}></Route>
 
+            <Route path='/ResMemWoni' element={<ResMemWoni />}></Route>
+            <Route path='/ResMemLiv' element={<ResMemLiv />}></Route>
+            <Route path='/ResMemMinami' element={<ResMemMinami />}></Route>
+            <Route path='/ResMemMay' element={<ResMemMay />}></Route>
+            <Route path='/ResMemJena' element={<ResMemJena />}></Route>
 
         </Routes>
     );
