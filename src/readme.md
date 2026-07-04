@@ -12,8 +12,7 @@ Stray Kids str
 아일릿 ill
 투어스 tws
 RESCENE res
-
-모바일 버전은 메인에서 100 30 100
+10CM ten
 
 고유 페이지
 이벤트 e
