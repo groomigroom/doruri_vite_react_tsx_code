@@ -13,6 +13,8 @@ Stray Kids str
 투어스 tws
 RESCENE res
 
+모바일 버전은 메인에서 100 30 100
+
 고유 페이지
 이벤트 e
 메인 m
