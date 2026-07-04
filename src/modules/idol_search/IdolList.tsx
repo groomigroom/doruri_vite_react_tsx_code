@@ -93,8 +93,17 @@ export default function IdolList() {
                         </div>
 
                     </section>
+
                     <section className="idolList_train">
-                        <Link to="/" className="idolList_link">Home</Link>
+                        <div className="idolList_link">
+                            <Link to="/TenCMMain" className="idolList_link_a idolList_link_str">
+                                <img src="" alt="10CM" />
+                                <div>
+                                    <h4>10CM</h4>
+                                </div>
+                            </Link>
+                        </div>
+
                         <Link to="/TriplesEvent" className="idolList_link">TriplesEvent</Link>
                         <Link to="/TxtEvent" className="idolList_link">TxtEvent</Link>
                         <Link to="/AkmuEvent" className="idolList_link">AkmuEvent</Link>
