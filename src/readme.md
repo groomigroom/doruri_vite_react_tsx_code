@@ -13,6 +13,7 @@ Stray Kids str
 투어스 tws
 RESCENE res
 10CM ten
+aespa aes
 
 고유 페이지
 이벤트 e
