@@ -149,7 +149,7 @@ export default function DoruriMapIdolList() {
                 </ul>
 
                 <ul>
-                    <li className='/'><Link to='/DAY6Main'>목록 2 구조보기</Link>
+                    <li><Link to='/DoruriMapIdolList2'>목록 2 구조보기</Link>
                     </li>
                 </ul>
             </nav>
