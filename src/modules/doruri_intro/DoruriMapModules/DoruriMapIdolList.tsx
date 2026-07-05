@@ -147,6 +147,11 @@ export default function DoruriMapIdolList() {
                         </ul>
                     </li>
                 </ul>
+
+                <ul>
+                    <li className='/'><Link to='/DAY6Main'>목록 2 구조보기</Link>
+                    </li>
+                </ul>
             </nav>
         </div >
     );
