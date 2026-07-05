@@ -134,6 +134,12 @@ import AesMemNingning from './aespa/members/AesMemNingning';
 
 import ALLDAY_PROJECTMain from './ALLDAY_PROJECT/main/ALLDAY_PROJECTMain';
 
+import AllMemAnnie from './ALLDAY_PROJECT/members/AllMemAnnie';
+import AllMemTarzan from './ALLDAY_PROJECT/members/AllMemTarzan';
+import AllMemBailey from './ALLDAY_PROJECT/members/AllMemBailey';
+import AllMemWoochan from './ALLDAY_PROJECT/members/AllMemWoochan';
+import AllMemYoungseo from './ALLDAY_PROJECT/members/AllMemYoungseo';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -252,6 +258,13 @@ export default function RoutesSetup() {
             <Route path='/AesMemNingning' element={<AesMemNingning />}></Route>
 
             <Route path='/ALLDAY_PROJECTMain' element={<ALLDAY_PROJECTMain />}></Route>
+
+            <Route path='/AllMemAnnie' element={<AllMemAnnie />}></Route>
+            <Route path='/AllMemTarzan' element={<AllMemTarzan />}></Route>
+            <Route path='/AllMemBailey' element={<AllMemBailey />}></Route>
+            <Route path='/AllMemWoochan' element={<AllMemWoochan />}></Route>
+            <Route path='/AllMemYoungseo' element={<AllMemYoungseo />}></Route>
+
 
         </Routes>
     );
