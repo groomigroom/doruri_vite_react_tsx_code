@@ -54,6 +54,18 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/AkmuMemSuhyun'>이수현 멤버 페이지</Link></li>
                         </ul>
                     </li>
+                    <li className='doruri_map_akmumain_li'><Link to='/IoiMain'>아이오아이 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/AkmuMemChanhyuk'>이찬혁 멤버 페이지</Link></li>
+                            <li><Link to='/AkmuMemSuhyun'>이수현 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
+                    <li className='doruri_map_akmumain_li'><Link to='/IoiMain'>아이오아이 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/AkmuMemChanhyuk'>이찬혁 멤버 페이지</Link></li>
+                            <li><Link to='/AkmuMemSuhyun'>이수현 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </div>
