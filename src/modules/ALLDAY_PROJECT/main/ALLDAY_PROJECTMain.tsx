@@ -24,19 +24,19 @@ export default function ALLDAY_PROJECTMain() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TxtMemSubin' className='tri_m_mem_a'>
+                    <Link to='/AllMemAnnie' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="애니 이미지" />
                             <h4>애니</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemYeonjun' className='tri_m_mem_a'>
+                    <Link to='/AllMemTarzan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="타잔 이미지" />
                             <h4>타잔</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemBeomgyu' className='tri_m_mem_a'>
+                    <Link to='/AllMemBailey' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="베일리 이미지" />
                             <h4>베일리</h4>
@@ -45,13 +45,13 @@ export default function ALLDAY_PROJECTMain() {
                 </section>
 
                 <section className='tri_m_mem_tr txt_m_mem_tr'>
-                    <Link to='/TxtMemTaehyun' className='tri_m_mem_a'>
+                    <Link to='/AllMemWoochan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="우찬 이미지" />
                             <h4>우찬</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemHueningkai' className='tri_m_mem_a'>
+                    <Link to='/AllMemYoungseo' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="영서 이미지" />
                             <h4>영서</h4>
