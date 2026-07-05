@@ -19,7 +19,7 @@
 
     .doruri_map_idollist_nav {
         width: 920px;
-        height: 40px;
+        height: 200px;
         position: absolute;
         top: 300px;
         left: 50%;
@@ -29,8 +29,27 @@
     .doruri_map_idollist_nav>ul {
         display: flex;
         width: 920px;
-        overflow-x: scroll;
+        position: absolute;
     }
+
+    .doruri_map_idollist_nav>ul:nth-child(1) {
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    .doruri_map_idollist_nav>ul:nth-child(2) {
+        top: 80px;
+        left: 0px;
+        z-index: 1;
+    }
+
+    .doruri_map_idollist_nav>ul:nth-child(3) {
+        top: 160px;
+        left: 0px;
+    }
+
+
 
     .doruri_map_idollist_nav>ul>li {
         width: 230px;
@@ -40,7 +59,6 @@
         background-color: #d6d6d6;
         transition: all 0.6s ease 0s;
         overflow: hidden;
-        flex-shrink: 0;
     }
 
     .doruri_map_idollist_nav a {
@@ -83,6 +101,18 @@
 
     .doruri_map_twsmain_li:hover {
         height: 280px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .doruri_map_tenmain_li:hover {
+        height: 80px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .doruri_map_aesmain_li:hover {
+        height: 200px;
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
     }
