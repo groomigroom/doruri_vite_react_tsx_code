@@ -150,6 +150,10 @@ import DayMemYoungK from './DAY6/members/DayMemYoungK';
 import DayMemWonpil from './DAY6/members/DayMemWonpil';
 import DayMemDowoon from './DAY6/members/DayMemDowoon';
 
+//Bol4Main
+
+import Bol4Main from './bol4/main/Bol4Main';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -282,6 +286,8 @@ export default function RoutesSetup() {
             <Route path='/DayMemYoungK' element={<DayMemYoungK />}></Route>
             <Route path='/DayMemWonpil' element={<DayMemWonpil />}></Route>
             <Route path='/DayMemDowoon' element={<DayMemDowoon />}></Route>
+
+            <Route path='/Bol4Main' element={<Bol4Main />}></Route>
 
         </Routes>
     );
