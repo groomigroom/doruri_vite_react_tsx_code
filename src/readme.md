@@ -15,6 +15,7 @@ RESCENE res
 10CM ten
 aespa aes
 ALLDAY_PROJECT all
+DAY6 day
 
 고유 페이지
 이벤트 e
