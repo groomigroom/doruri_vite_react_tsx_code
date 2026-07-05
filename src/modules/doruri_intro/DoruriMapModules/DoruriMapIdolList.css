@@ -19,7 +19,7 @@
 
     .doruri_map_idollist_nav {
         width: 920px;
-        height: 200px;
+        height: 280px;
         position: absolute;
         top: 300px;
         left: 50%;
@@ -35,17 +35,23 @@
     .doruri_map_idollist_nav>ul:nth-child(1) {
         top: 0px;
         left: 0px;
-        z-index: 2;
+        z-index: 3;
     }
 
     .doruri_map_idollist_nav>ul:nth-child(2) {
         top: 80px;
         left: 0px;
-        z-index: 1;
+        z-index: 2;
     }
 
     .doruri_map_idollist_nav>ul:nth-child(3) {
         top: 160px;
+        left: 0px;
+        z-index: 1;
+    }
+
+    .doruri_map_idollist_nav>ul:nth-child(4) {
+        top: 240px;
         left: 0px;
     }
 
