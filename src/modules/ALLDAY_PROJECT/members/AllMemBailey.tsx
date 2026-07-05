@@ -9,7 +9,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AllMemBailey() {
     return (
-        <div className="all_mm_tarzan_full">
+        <div className="all_mm_bailey_full">
             <Menu />
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="allday project 꾸미기" />베일리<img src={MainH2Deco} alt="allday project 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
