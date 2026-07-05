@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import DoruriMap from './doruri_intro/DoruriMap';
 import DoruriMapIdolList from './doruri_intro/DoruriMapModules/DoruriMapIdolList';
+import DoruriMapIdolList2 from './doruri_intro/DoruriMapModules/DoruriMapIdolList2';
 
 import IdolList from './idol_search/IdolList';
 import IdolList2 from './idol_search/IdolList2';
@@ -163,6 +164,7 @@ export default function RoutesSetup() {
 
             <Route path='/DoruriMap' element={<DoruriMap />}></Route>
             <Route path='/DoruriMapIdolList' element={<DoruriMapIdolList />}></Route>
+            <Route path='/DoruriMapIdolList2' element={<DoruriMapIdolList2 />}></Route>
 
             <Route path='/IdolList' element={<IdolList />}></Route>
             <Route path='/IdolList2' element={<IdolList2 />}></Route>
