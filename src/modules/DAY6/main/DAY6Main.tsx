@@ -24,13 +24,13 @@ export default function DAY6Main() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full aes_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/AesMemKarina' className='tri_m_mem_a'>
+                    <Link to='/DayMemSungjin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="성진 이미지" />
                             <h4>성진</h4>
                         </article>
                     </Link>
-                    <Link to='/AesMemJijell' className='tri_m_mem_a'>
+                    <Link to='/DayMemYoungK' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="Young K 이미지" />
                             <h4>Young K</h4>
@@ -40,13 +40,13 @@ export default function DAY6Main() {
                 </section>
 
                 <section className='tri_m_mem_tr'>
-                    <Link to='/AesMemWinter' className='tri_m_mem_a'>
+                    <Link to='/DayMemWonpil' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="원필 이미지" />
                             <h4>원필</h4>
                         </article>
                     </Link>
-                    <Link to='/AesMemNingning' className='tri_m_mem_a'>
+                    <Link to='/DayMemDowoon' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="도운 이미지" />
                             <h4>도운</h4>
