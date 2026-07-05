@@ -55,10 +55,19 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/AkmuMemSuhyun'>이수현 멤버 페이지</Link></li>
                         </ul>
                     </li>
-                    <li className='doruri_map_akmumain_li'><Link to='/IoiMain'>아이오아이 메인 페이지</Link>
+                    <li className='doruri_map_ioimain_li'><Link to='/IoiMain'>아이오아이 메인 페이지</Link>
                         <ul>
-                            <li><Link to='/AkmuMemChanhyuk'>이찬혁 멤버 페이지</Link></li>
-                            <li><Link to='/AkmuMemSuhyun'>이수현 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemImnayoung'>임나영 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemKimchungha'>김청하 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemKimsejung'>김세정 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemJungcheyun'>정채연 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemJugyulgyoung'>주결경 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemKimsohye'>김소혜 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemYuyeonjung'>유연정 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemChoiyujung'>최유정 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemGangmina'>강미나 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemKimdoyeon'>김도연 멤버 페이지</Link></li>
+                            <li><Link to='/IoiMemJeonsomi'>전소미 멤버 페이지</Link></li>
                         </ul>
                     </li>
                     <li className='doruri_map_akmumain_li'><Link to='/IoiMain'>아이오아이 메인 페이지</Link>
