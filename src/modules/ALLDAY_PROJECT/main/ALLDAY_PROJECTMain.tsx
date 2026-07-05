@@ -10,12 +10,6 @@ import Menu from '../../Menu';
 import MainH2Deco from '../../img/main_h2_deco.png';
 // import txt_m_img from './img/txt_m_txtimg.jpg';
 
-import Txt_m_memSubin from './img/txt_m_mem_subin.jpg';
-import Txt_m_memYeonjun from './img/txt_m_mem_yeonjun.jpg';
-import Txt_m_memBeomgyu from './img/txt_m_mem_beomgyu.jpg';
-import Txt_m_memTaehyun from './img/txt_m_mem_taehyun.jpg';
-import Txt_m_memHueningkai from './img/txt_m_mem_hueningkai.jpg';
-
 export default function ALLDAY_PROJECTMain() {
     return (
         <div className='all_m_full'>
@@ -32,20 +26,20 @@ export default function ALLDAY_PROJECTMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TxtMemSubin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Txt_m_memSubin} alt="수빈 이미지" />
-                            <h4>수빈</h4>
+                            <img src="" alt="애니 이미지" />
+                            <h4>애니</h4>
                         </article>
                     </Link>
                     <Link to='/TxtMemYeonjun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Txt_m_memYeonjun} alt="연준 이미지" />
-                            <h4>연준</h4>
+                            <img src="" alt="타잔 이미지" />
+                            <h4>타잔</h4>
                         </article>
                     </Link>
                     <Link to='/TxtMemBeomgyu' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Txt_m_memBeomgyu} alt="범규 이미지" />
-                            <h4>범규</h4>
+                            <img src="" alt="베일리 이미지" />
+                            <h4>베일리</h4>
                         </article>
                     </Link>
                 </section>
@@ -53,14 +47,14 @@ export default function ALLDAY_PROJECTMain() {
                 <section className='tri_m_mem_tr txt_m_mem_tr'>
                     <Link to='/TxtMemTaehyun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Txt_m_memTaehyun} alt="태현 이미지" />
-                            <h4>태현</h4>
+                            <img src="" alt="우찬 이미지" />
+                            <h4>우찬</h4>
                         </article>
                     </Link>
                     <Link to='/TxtMemHueningkai' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Txt_m_memHueningkai} alt="휴닝카이 이미지" />
-                            <h4>휴닝카이</h4>
+                            <img src="" alt="영서 이미지" />
+                            <h4>영서</h4>
                         </article>
                     </Link>
 
