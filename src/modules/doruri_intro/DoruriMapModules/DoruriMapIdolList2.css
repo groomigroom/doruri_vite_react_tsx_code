@@ -1,1 +1,7 @@
-
+@media (min-width: 975px) {
+    .doruri_map_idollist2_full {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+}
