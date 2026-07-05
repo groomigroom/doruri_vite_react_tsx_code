@@ -125,6 +125,11 @@ import TenMemGwonjungyeol from './10CM/members/TenMemGwonjungyeol';
 
 import AespaMain from './aespa/main/AespaMain';
 
+import AesMemKarina from './aespa/members/AesMemKarina';
+import AesMemJijell from './aespa/members/AesMemJijell';
+import AesMemWinter from './aespa/members/AesMemWinter';
+import AesMemNingning from './aespa/members/AesMemNingning';
+
 //ALLDAY_PROJECTMain
 
 import ALLDAY_PROJECTMain from './ALLDAY_PROJECT/main/ALLDAY_PROJECTMain';
@@ -240,6 +245,11 @@ export default function RoutesSetup() {
             <Route path='/TenMemGwonjungyeol' element={<TenMemGwonjungyeol />}></Route>
 
             <Route path='/AespaMain' element={<AespaMain />}></Route>
+
+            <Route path='/AesMemKarina' element={<AesMemKarina />}></Route>
+            <Route path='/AesMemJijell' element={<AesMemJijell />}></Route>
+            <Route path='/AesMemWinter' element={<AesMemWinter />}></Route>
+            <Route path='/AesMemNingning' element={<AesMemNingning />}></Route>
 
             <Route path='/ALLDAY_PROJECTMain' element={<ALLDAY_PROJECTMain />}></Route>
 
