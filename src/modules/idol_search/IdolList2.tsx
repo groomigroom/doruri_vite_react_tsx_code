@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 import './IdolList.css';
 import './IdolList2.css';
 
-import IdL_Triples from '../triples/main/img/tri_m_img.jpg'
-import IdL_Txt from '../txt/main/img/txt_m_txtimg.jpg'
-import IdL_Akmu from '../akmu/main/img/aknu_m_akmuimg.jpg'
 
 import Menu from '../Menu';
 
@@ -17,21 +14,19 @@ export default function IdolList2() {
                 <section className="idolList_trainf">
                     <section className="idolList_train">
                         <div className="idolList_link">
-                            <Link to="/TriplesMain" className="idolList_link_a idolList_link_tri">
-                                <img src={IdL_Triples} alt="트리플에스" />
+                            <Link to="/Bol4Main" className="idolList_link_a idolList_link_tri">
+                                <img src="" alt="볼빨간사춘기" />
                                 <div>
-                                    <h4>tripleS</h4>
+                                    <h4>볼빨간사춘기</h4>
                                 </div>
                             </Link>
                         </div>
 
                         <div className="idolList_link">
                             <Link to="/TxtMain" className="idolList_link_a idolList_link_txt">
-                                <img src={IdL_Txt} alt="투바투" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>투모로우<br />
-                                        바이<br />
-                                        투게더
+                                    <h4>xxx
                                     </h4>
                                 </div>
                             </Link>
@@ -39,9 +34,9 @@ export default function IdolList2() {
 
                         <div className="idolList_link">
                             <Link to="/AkmuMain" className="idolList_link_a idolList_link_akmu">
-                                <img src={IdL_Akmu} alt="악뮤" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>악뮤</h4>
+                                    <h4>xxx</h4>
 
                                 </div>
                             </Link>
@@ -49,9 +44,9 @@ export default function IdolList2() {
 
                         <div className="idolList_link">
                             <Link to="/IoiMain" className="idolList_link_a idolList_link_ioi">
-                                <img src="" alt="아이오아이" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>아이오아이</h4>
+                                    <h4>xxx</h4>
                                 </div>
                             </Link>
                         </div>
@@ -59,36 +54,36 @@ export default function IdolList2() {
                     <section className="idolList_train">
                         <div className="idolList_link">
                             <Link to="/StrayKidsMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="Stray Kids" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>Stray Kids</h4>
+                                    <h4>xxx</h4>
                                 </div>
                             </Link>
                         </div>
 
                         <div className="idolList_link">
                             <Link to="/IllitMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="ILLIT" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>ILLIT</h4>
+                                    <h4>xxx</h4>
                                 </div>
                             </Link>
                         </div>
 
                         <div className="idolList_link">
                             <Link to="/TwsMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="TWS" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>TWS</h4>
+                                    <h4>xxx</h4>
                                 </div>
                             </Link>
                         </div>
 
                         <div className="idolList_link">
                             <Link to="/ResMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="RESCENE" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>RESCENE</h4>
+                                    <h4>xxx</h4>
                                 </div>
                             </Link>
                         </div>
@@ -98,37 +93,36 @@ export default function IdolList2() {
                     <section className="idolList_train">
                         <div className="idolList_link">
                             <Link to="/TenCMMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="10CM" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>10CM</h4>
+                                    <h4>xxx</h4>
                                 </div>
                             </Link>
                         </div>
 
                         <div className="idolList_link">
                             <Link to="/AespaMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="aespa" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>aespa</h4>
+                                    <h4>xxx</h4>
                                 </div>
                             </Link>
                         </div>
 
                         <div className="idolList_link">
                             <Link to="/ALLDAY_PROJECTMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="ALLDAY PROJECT" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>ALLDAY<br />
-                                        PROJECT</h4>
+                                    <h4>xxx</h4>
                                 </div>
                             </Link>
                         </div>
 
                         <div className="idolList_link">
                             <Link to="/DAY6Main" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="DAY6" />
+                                <img src="" alt="xxx" />
                                 <div>
-                                    <h4>DAY6</h4>
+                                    <h4>xxx</h4>
                                 </div>
                             </Link>
                         </div>
