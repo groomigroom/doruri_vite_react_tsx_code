@@ -144,6 +144,11 @@ import AllMemYoungseo from './ALLDAY_PROJECT/members/AllMemYoungseo';
 
 import DAY6Main from './DAY6/main/DAY6Main';
 
+import DayMemSungjin from './DAY6/members/DayMemSungjin';
+import DayMemYoungK from './DAY6/members/DayMemYoungK';
+import DayMemWonpil from './DAY6/members/DayMemWonpil';
+import DayMemDowoon from './DAY6/members/DayMemDowoon';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -271,6 +276,10 @@ export default function RoutesSetup() {
 
             <Route path='/DAY6Main' element={<DAY6Main />}></Route>
 
+            <Route path='/DayMemSungjin' element={<DayMemSungjin />}></Route>
+            <Route path='/DayMemYoungK' element={<DayMemYoungK />}></Route>
+            <Route path='/DayMemWonpil' element={<DayMemWonpil />}></Route>
+            <Route path='/DayMemDowoon' element={<DayMemDowoon />}></Route>
 
         </Routes>
     );
