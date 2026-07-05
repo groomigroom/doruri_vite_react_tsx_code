@@ -140,6 +140,10 @@ import AllMemBailey from './ALLDAY_PROJECT/members/AllMemBailey';
 import AllMemWoochan from './ALLDAY_PROJECT/members/AllMemWoochan';
 import AllMemYoungseo from './ALLDAY_PROJECT/members/AllMemYoungseo';
 
+//DAY6Main
+
+import DAY6Main from './DAY6/main/DAY6Main';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -264,6 +268,8 @@ export default function RoutesSetup() {
             <Route path='/AllMemBailey' element={<AllMemBailey />}></Route>
             <Route path='/AllMemWoochan' element={<AllMemWoochan />}></Route>
             <Route path='/AllMemYoungseo' element={<AllMemYoungseo />}></Route>
+
+            <Route path='/DAY6Main' element={<DAY6Main />}></Route>
 
 
         </Routes>
