@@ -19,9 +19,9 @@ export default function AkmuMain() {
             <Menu />
             <img src={Akmu_m_logo} alt="AKMU 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="AKMU 로고 꾸미기" />AKMU<img src={MainH2Deco} alt="AKMU 로고 꾸미기" /></h2>
-            <p className='tri_m_intropp'>우리는 하나이자 스물넷입니다.<br />
-                상처, 고난, 또 눈물이 길을 막아도<br />
-                &apos;트리플에스&apos;와 함께 고개를 들어 보아요.
+            <p className='tri_m_intropp'>지치고 병들지 말고<br />
+                &apos;AKMU&apos;와 함께<br />
+                오늘도 힘내길 바래요!
             </p>
             <img src={Akmu_m_img} className='tri_m_img akmu_m_img' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
