@@ -135,6 +135,13 @@ export default function IdolList() {
                     </section>
                 </section>
             </section>
+            <section className="idolList_12345">
+                <Link to='/IdolList'>1</Link>
+                <Link to='/IdolList2'>2</Link>
+                <Link to='/'>3</Link>
+                <Link to='/'>4</Link>
+                <Link to='/'>5</Link>
+            </section>
         </div>
     );
 };
