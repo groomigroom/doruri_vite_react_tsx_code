@@ -23,14 +23,14 @@ export default function AespaMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TwsMemSinyu' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="신유 이미지" />
-                            <h4>신유</h4>
+                            <img src="" alt="카리나 이미지" />
+                            <h4>카리나</h4>
                         </article>
                     </Link>
                     <Link to='/TwsMemDohun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="도훈 이미지" />
-                            <h4>도훈</h4>
+                            <img src="" alt="지젤 이미지" />
+                            <h4>지젤</h4>
                         </article>
                     </Link>
 
@@ -39,14 +39,14 @@ export default function AespaMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TwsMemHanjin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="한진 이미지" />
-                            <h4>한진</h4>
+                            <img src="" alt="윈터 이미지" />
+                            <h4>윈터</h4>
                         </article>
                     </Link>
                     <Link to='/TwsMemJihun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="지훈 이미지" />
-                            <h4>지훈</h4>
+                            <img src="" alt="닝닝 이미지" />
+                            <h4>닝닝</h4>
                         </article>
                     </Link>
 
