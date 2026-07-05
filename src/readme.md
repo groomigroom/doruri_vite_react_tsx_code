@@ -16,6 +16,7 @@ RESCENE res
 aespa aes
 ALLDAY_PROJECT all
 DAY6 day
+볼빨간사춘기 bol
 
 고유 페이지
 이벤트 e
