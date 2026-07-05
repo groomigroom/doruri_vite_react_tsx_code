@@ -70,10 +70,35 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/IoiMemJeonsomi'>전소미 멤버 페이지</Link></li>
                         </ul>
                     </li>
-                    <li className='doruri_map_akmumain_li'><Link to='/IoiMain'>아이오아이 메인 페이지</Link>
+                    <li className='doruri_map_strmain_li'><Link to='/StrayKidsMain'>Stray Kids 메인 페이지</Link>
                         <ul>
-                            <li><Link to='/AkmuMemChanhyuk'>이찬혁 멤버 페이지</Link></li>
-                            <li><Link to='/AkmuMemSuhyun'>이수현 멤버 페이지</Link></li>
+                            <li><Link to='/StrayMemBangchan'>방찬 멤버 페이지</Link></li>
+                            <li><Link to='/StrayMemLino'>리노 멤버 페이지</Link></li>
+                            <li><Link to='/StrayMemChangbin'>창빈 멤버 페이지</Link></li>
+                            <li><Link to='/StrayMemHyunjin'>현진 멤버 페이지</Link></li>
+                            <li><Link to='/StrayMemHan'>한 멤버 페이지</Link></li>
+                            <li><Link to='/StrayMemFilix'>필릭스 멤버 페이지</Link></li>
+                            <li><Link to='/StrayMemSeungmin'>승민 멤버 페이지</Link></li>
+                            <li><Link to='/StrayMemIn'>아이엔 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
+                    <li className='doruri_map_txtmain_li'><Link to='/IllitMain'>ILLIT 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/IllMemYunah'>윤아 멤버 페이지</Link></li>
+                            <li><Link to='/IllMemMinju'>민주 멤버 페이지</Link></li>
+                            <li><Link to='/IllMemMoka'>모카 멤버 페이지</Link></li>
+                            <li><Link to='/IllMemWonhee'>원희 멤버 페이지</Link></li>
+                            <li><Link to='/IllMemEroha'>이로하 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
+                    <li className='doruri_map_twsmain_li'><Link to='/TwsMain'>TWS 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/TwsMemSinyu'>신유 멤버 페이지</Link></li>
+                            <li><Link to='/TwsMemDohun'>도훈 멤버 페이지</Link></li>
+                            <li><Link to='/TwsMemYoungjae'>영재 멤버 페이지</Link></li>
+                            <li><Link to='/TwsMemHanjin'>한진 멤버 페이지</Link></li>
+                            <li><Link to='/TwsMemJihun'>지훈 멤버 페이지</Link></li>
+                            <li><Link to='/TwsMemGyungmin'>경민 멤버 페이지</Link></li>
                         </ul>
                     </li>
                 </ul>
