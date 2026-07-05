@@ -21,13 +21,13 @@ export default function AespaMain() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full aes_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TwsMemSinyu' className='tri_m_mem_a'>
+                    <Link to='/AesMemKarina' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="카리나 이미지" />
                             <h4>카리나</h4>
                         </article>
                     </Link>
-                    <Link to='/TwsMemDohun' className='tri_m_mem_a'>
+                    <Link to='/AesMemJijell' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="지젤 이미지" />
                             <h4>지젤</h4>
@@ -37,13 +37,13 @@ export default function AespaMain() {
                 </section>
 
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TwsMemHanjin' className='tri_m_mem_a'>
+                    <Link to='/AesMemWinter' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="윈터 이미지" />
                             <h4>윈터</h4>
                         </article>
                     </Link>
-                    <Link to='/TwsMemJihun' className='tri_m_mem_a'>
+                    <Link to='/AesMemNingning' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="닝닝 이미지" />
                             <h4>닝닝</h4>
