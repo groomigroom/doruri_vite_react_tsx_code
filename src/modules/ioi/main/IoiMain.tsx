@@ -16,9 +16,9 @@ export default function IoiMain() {
             <Menu />
             <img src="" alt="아이오아이 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />아이오아이<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
-            <p className='tri_m_intropp'>우리는 하나이자 스물넷입니다.<br />
-                상처, 고난, 또 눈물이 길을 막아도<br />
-                &apos;트리플에스&apos;와 함께 고개를 들어 보아요.
+            <p className='tri_m_intropp'>갑자기 찾아온<br />
+                &apos;아이오아이&apos;와 함께<br />
+                오늘도 좋은 생각에 잠겨 보아요!
             </p>
             <img src="" className='tri_m_img' alt='아이오아이 이미지' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
