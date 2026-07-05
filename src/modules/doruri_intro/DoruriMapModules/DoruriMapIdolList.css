@@ -75,6 +75,18 @@
         border-bottom-left-radius: 25px;
     }
 
+    .doruri_map_strmain_li:hover {
+        height: 360px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .doruri_map_twsmain_li:hover {
+        height: 280px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
     .doruri_map_idollist_nav>ul>li:hover>a {
         color: #e6e6e6;
         background-color: #575656;
