@@ -123,8 +123,15 @@ export default function IdolList() {
                             </Link>
                         </div>
 
+                        <div className="idolList_link">
+                            <Link to="/DAY6Main" className="idolList_link_a idolList_link_str">
+                                <img src="" alt="DAY6" />
+                                <div>
+                                    <h4>DAY6</h4>
+                                </div>
+                            </Link>
+                        </div>
 
-                        <Link to="/AkmuEvent" className="idolList_link">AkmuEvent</Link>
                     </section>
                 </section>
             </section>
