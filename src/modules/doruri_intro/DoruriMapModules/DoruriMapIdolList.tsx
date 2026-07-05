@@ -70,6 +70,9 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/IoiMemJeonsomi'>전소미 멤버 페이지</Link></li>
                         </ul>
                     </li>
+                </ul>
+
+                <ul>
                     <li className='doruri_map_strmain_li'><Link to='/StrayKidsMain'>Stray Kids 메인 페이지</Link>
                         <ul>
                             <li><Link to='/StrayMemBangchan'>방찬 멤버 페이지</Link></li>
@@ -101,8 +104,50 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/TwsMemGyungmin'>경민 멤버 페이지</Link></li>
                         </ul>
                     </li>
+                    <li className='doruri_map_txtmain_li'><Link to='/ResMain'>RESCENE 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/ResMemWoni'>원이 멤버 페이지</Link></li>
+                            <li><Link to='/ResMemLiv'>리브 멤버 페이지</Link></li>
+                            <li><Link to='/ResMemMinami'>미나미 멤버 페이지</Link></li>
+                            <li><Link to='/ResMemMay'>메이 멤버 페이지</Link></li>
+                            <li><Link to='/ResMemJena'>제나 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li className='doruri_map_tenmain_li'><Link to='/TenCMMain'>10CM 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/TenMemGwonjungyeol'>권정열 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
+                    <li className='doruri_map_aesmain_li'><Link to='/AespaMain'>aespa 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/AesMemKarina'>카리나 멤버 페이지</Link></li>
+                            <li><Link to='/AesMemJijell'>지젤 멤버 페이지</Link></li>
+                            <li><Link to='/AesMemWinter'>윈터 멤버 페이지</Link></li>
+                            <li><Link to='/AesMemNingning'>닝닝 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
+                    <li className='doruri_map_txtmain_li'><Link to='/ALLDAY_PROJECTMain'>ALLDAY PROJECT 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/AllMemAnnie'>애니 멤버 페이지</Link></li>
+                            <li><Link to='/AllMemTarzan'>타잔 멤버 페이지</Link></li>
+                            <li><Link to='/AllMemBailey'>베일리 멤버 페이지</Link></li>
+                            <li><Link to='/AllMemWoochan'>우찬 멤버 페이지</Link></li>
+                            <li><Link to='/AllMemYoungseo'>영서 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
+                    <li className='doruri_map_aesmain_li'><Link to='/DAY6Main'>DAY6 메인 페이지</Link>
+                        <ul>
+                            <li><Link to='/DayMemSungjin'>성진 멤버 페이지</Link></li>
+                            <li><Link to='/DayMemYoungK'>Young K 멤버 페이지</Link></li>
+                            <li><Link to='/DayMemWonpil'>원필 멤버 페이지</Link></li>
+                            <li><Link to='/DayMemDowoon'>도운 멤버 페이지</Link></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
-        </div>
+        </div >
     );
 }
