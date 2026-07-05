@@ -14,7 +14,7 @@ export default function Bol4Main() {
     return (
         <div className='bol_m_full'>
             <Menu />
-            <img src="" alt="10CM 로고" className='tri_m_logo' />
+            <img src="" alt="볼빨간사춘기 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="볼빨간사춘기 꾸미기" />볼빨간사춘기<img src={MainH2Deco} alt="볼빨간사춘기 꾸미기" /></h2>
             <p className='tri_m_intropp'>
                 #####<br />
@@ -24,7 +24,7 @@ export default function Bol4Main() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full ten_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TenMemGwonjungyeol' className='tri_m_mem_a'>
+                    <Link to='/BolMemAnjiyoung' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="안지영 이미지" />
                             <h4>안지영</h4>
