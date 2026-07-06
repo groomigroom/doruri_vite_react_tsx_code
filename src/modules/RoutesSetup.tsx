@@ -38,6 +38,8 @@ import TriplesMemS24 from './triples/members/TriplesMemS24';
 
 import TriplesEvent from "./triples/events/TriplesEvent";
 
+import TriplesAcidAngelFromAsiaMain from './triples/units/AcidAngel_fromAsia/TriplesAcidAngelFromAsiaMain';
+
 //TxtMain
 
 import TxtMain from './txt/main/TxtMain';
@@ -197,6 +199,8 @@ export default function RoutesSetup() {
             <Route path='/TriplesMemS24' element={<TriplesMemS24 />}></Route>
 
             <Route path='/TriplesEvent' element={<TriplesEvent />}></Route>
+
+            <Route path='/TriplesAcidAngelFromAsiaMain' element={<TriplesAcidAngelFromAsiaMain />}></Route>
 
             {/* TxtMain */}
 
