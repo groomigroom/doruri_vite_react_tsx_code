@@ -5,6 +5,8 @@ border-radius 25px
 
 고유 변수
 트리플에스 tri #191919
+tri_aaa
+
 투모로우바이투게더 txt 
 악뮤 akmu
 아이오아이 ioi
