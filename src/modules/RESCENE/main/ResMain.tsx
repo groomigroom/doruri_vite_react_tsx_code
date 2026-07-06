@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/main/TriplesMain.css'
-import '../../txt/main/TxtMain.css';
 import './ResMain.css';
 
 import Menu from '../../Menu';
@@ -29,10 +28,10 @@ export default function ResMain() {
                 #####<br />
                 하루에 하루만 더<br />
                 &apos;투모로우바이투게더&apos;와 함께 힘내 보아요.</p>
-            <img src={Res_m_img} className='tri_m_img txt_m_img' alt="rescene" />
+            <img src={Res_m_img} className='tri_m_img' alt="rescene" />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
-                <section className='tri_m_mem_tr'>
+            <section className='tri_m_mem_tr_full res_m_mem_tr_full'>
+                <section className='res_m_mem_tr3'>
                     <Link to='/ResMemWoni' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemWoni_img} alt="원이 이미지" />
@@ -53,7 +52,7 @@ export default function ResMain() {
                     </Link>
                 </section>
 
-                <section className='tri_m_mem_tr txt_m_mem_tr'>
+                <section className='res_m_mem_tr2'>
                     <Link to='/ResMemMay' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemMay_img} alt="메이 이미지" />
