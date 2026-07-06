@@ -12,6 +12,8 @@ import IdL_Tws from '../tws/main/img/tws_m_tws.jpg';
 import IdL_Res from '../RESCENE/main/img/rescene_m_rescene.jpg';
 import IDL_Ten from '../10CM/main/img/10cm_m_mem_Gwonjungyeol.jpg';
 import IDL_Aes from '../aespa/main/img/aespa_m_aespa.jpg';
+import IdL_All from '../ALLDAY_PROJECT/main/img/allday_m_allday_project.jpg';
+import IdL_Day from '../DAY6/main/img/day6_m_day6.jpg';
 
 
 import Menu from '../Menu';
@@ -104,7 +106,7 @@ export default function IdolList() {
 
                     <section className="idolList_train">
                         <div className="idolList_link">
-                            <Link to="/TenCMMain" className="idolList_link_a idolList_link_str">
+                            <Link to="/TenCMMain" className="idolList_link_a idolList_link_ten">
                                 <img src={IDL_Ten} alt="10CM" />
                                 <div>
                                     <h4>10CM</h4>
@@ -122,8 +124,8 @@ export default function IdolList() {
                         </div>
 
                         <div className="idolList_link">
-                            <Link to="/ALLDAY_PROJECTMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="ALLDAY PROJECT" />
+                            <Link to="/ALLDAY_PROJECTMain" className="idolList_link_a idolList_link_ten">
+                                <img src={IdL_All} alt="ALLDAY PROJECT" />
                                 <div>
                                     <h4>ALLDAY<br />
                                         PROJECT</h4>
@@ -133,7 +135,7 @@ export default function IdolList() {
 
                         <div className="idolList_link">
                             <Link to="/DAY6Main" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="DAY6" />
+                                <img src={IdL_Day} alt="DAY6" />
                                 <div>
                                     <h4>DAY6</h4>
                                 </div>
