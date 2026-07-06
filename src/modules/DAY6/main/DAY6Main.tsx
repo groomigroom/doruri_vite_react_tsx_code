@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/main/TriplesMain.css'
-import '../../aespa/main/AespaMain.css';
 import './DAY6Main.css';
 
 import Menu from '../../Menu';
@@ -15,6 +14,8 @@ import Day_m_MemYoungK_img from './img/day6_m_mem_Youngk.jpg';
 import Day_m_MemWonpil_img from './img/day6_m_mem_Wonpil.jpg';
 import Day_m_MemDowoon_img from './img/day6_m_mem_Dowoon.jpg';
 
+//191919
+
 export default function DAY6Main() {
     return (
         <div className='day_m_full'>
@@ -26,9 +27,9 @@ export default function DAY6Main() {
                 아니면 접고 있나요?<br />
                 &apos;DAY6&apos;와 함께 꿈을 꿔봐요!
             </p>
-            <img src={Day_m_img} className='tri_m_img txt_m_img' alt='DAY6' />
+            <img src={Day_m_img} className='tri_m_img' alt='DAY6' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full aes_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full day_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/DayMemSungjin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
