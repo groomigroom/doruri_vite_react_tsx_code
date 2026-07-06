@@ -40,3 +40,15 @@
     top: 380px;
     left: 95px;
 }
+
+.ioi_m_img {
+    border: 5px solid #F4CE9D;
+}
+
+.ioi_m_mem_tr_full>section>a>.tri_m_mem>img {
+    border: 5px solid #F4CE9D;
+}
+
+.ioi_m_mem_tr_full>section>a>.tri_m_mem>h4 {
+    border: 5px solid #F4CE9D;
+}
