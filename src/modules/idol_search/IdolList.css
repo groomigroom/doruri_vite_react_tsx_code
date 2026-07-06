@@ -131,3 +131,26 @@
 .idolList_link_akmu>div {
     border: 5px solid #13983f;
 }
+
+.idolList_link_ioi>img {
+    border: 5px solid #F4CE9D;
+}
+
+.idolList_link_ioi>div {
+    border: 5px solid #F4CE9D;
+}
+
+.idolList_link_str>img {
+    border: 5px solid #191919;
+}
+
+.idolList_link_str>div {
+    border: 5px solid #191919;
+}
+
+
+
+.idolList_12345 {
+    position: absolute;
+    bottom: 40px;
+}
