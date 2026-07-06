@@ -29,13 +29,13 @@ export default function IllitMain() {
                 #####<br />
                 하루에 하루만 더<br />
                 &apos;투모로우바이투게더&apos;와 함께 힘내 보아요.</p>
-            <img src={Ill_m_img} className='tri_m_img txt_m_img' alt='illit' />
+            <img src={Ill_m_img} className='tri_m_img' alt='illit' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full txt_m_mem_tr_full ill_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/IllMemYunah' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ill_m_MemYunah_img} alt="윤아 이미지" />
+                            <img src={Ill_m_MemYunah_img} alt="윤아 이미지" className='ill_m_mem_img' />
                             <h4>윤아</h4>
                         </article>
                     </Link>
