@@ -4,7 +4,19 @@
     position: relative;
 }
 
+.ten_m_img {
+    border: 5px solid #000000;
+}
+
 .ten_m_mem_tr_full {
     width: 150px;
     height: 150px;
+}
+
+.ten_m_mem_tr_full>.tri_m_mem_tr>a>article>img {
+    border: 5px solid #000000;
+}
+
+.ten_m_mem_tr_full>.tri_m_mem_tr>a>article>h4 {
+    border: 5px solid #000000;
 }
