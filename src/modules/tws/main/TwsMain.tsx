@@ -26,9 +26,9 @@ export default function TwsMain() {
             <img src={Tws_m_logo} alt="TWS 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="TWS 로고 꾸미기" />TWS<img src={MainH2Deco} alt="TWS 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                #####<br />
-                하루에 하루만 더<br />
-                &apos;투모로우바이투게더&apos;와 함께 힘내 보아요.</p>
+                Twenty four seven<br />
+                &apos;TWS&apos;와 함께<br />
+                새로운 가능성을 찾아 봐요!</p>
             <img src={Tws_m_img} className='tri_m_img' alt='tws' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tws_m_mem_tr_full'>
