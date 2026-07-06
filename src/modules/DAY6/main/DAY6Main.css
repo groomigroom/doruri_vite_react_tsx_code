@@ -3,3 +3,8 @@
     height: 90vh;
     position: relative;
 }
+
+.day_m_mem_tr_full {
+    width: 340px;
+    height: 340px;
+}
