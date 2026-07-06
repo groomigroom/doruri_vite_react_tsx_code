@@ -35,7 +35,7 @@ export default function IoiMain() {
                 &apos;아이오아이&apos;와 함께<br />
                 오늘도 좋은 생각에 잠겨 보아요!
             </p>
-            <img src={Ioi_m_img} className='tri_m_img' alt='아이오아이 이미지' />
+            <img src={Ioi_m_img} className='tri_m_img ioi_m_img' alt='아이오아이 이미지' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='ioi_m_mem_tr_full'>
 
