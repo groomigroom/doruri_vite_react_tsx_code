@@ -10,6 +10,9 @@ import Bol_m_logo from './img/Bol_m_logo.png';
 import MainH2Deco from '../../img/main_h2_deco.png';
 import Bol_m_img from './img/bol4_m_mem_Anjiyoung.jpg';
 
+//191919
+//ffffff
+
 export default function Bol4Main() {
     return (
         <div className='bol_m_full'>
