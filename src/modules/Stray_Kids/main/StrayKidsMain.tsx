@@ -5,47 +5,49 @@ import './StrayKidsMain.css';
 
 import Menu from '../../Menu';
 
-// import Txt_m_logo from './img/txt_m_logo.svg';
+import Str_m_logo from './img/Str_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
-// import txt_m_img from './img/txt_m_txtimg.jpg';
+import Str_m_img from './img/stray_m_stray_kids.jpg';
 
-// import Txt_m_memSubin from './img/txt_m_mem_subin.jpg';
-// import Txt_m_memYeonjun from './img/txt_m_mem_yeonjun.jpg';
-// import Txt_m_memBeomgyu from './img/txt_m_mem_beomgyu.jpg';
-// import Txt_m_memTaehyun from './img/txt_m_mem_taehyun.jpg';
-// import Txt_m_memHueningkai from './img/txt_m_mem_hueningkai.jpg';
+import Str_m_MemBangchan_img from './img/stray_m_mem_Bangchan.jpg';
+import Str_m_MemLino_img from './img/stray_m_mem_Lino.jpg';
+import Str_m_MemChangbin_img from './img/stray_m_mem_Changbin.jpg';
+
+//#191919
+//#ffffff
+
 
 export default function StrayKidsMain() {
     return (
         <div className='str_m_full'>
             <Menu />
-            <img src="" alt="스트레이 키즈 로고" className='tri_m_logo' />
+            <img src={Str_m_logo} alt="스트레이 키즈 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" />Stray Kids<img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
                 #####<br />
                 하루에 하루만 더<br />
                 &apos;투모로우바이투게더&apos;와 함께 힘내 보아요.</p>
-            <img src="" className='tri_m_img txt_m_img' />
+            <img src={Str_m_img} className='tri_m_img txt_m_img' alt='스트레이 키즈' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full str_m_mem_tr_full'>
 
                 <section className='tri_m_mem_tr str_m_mem_tr'>
                     <Link to='/StrayMemBangchan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="방찬 이미지" />
+                            <img src={Str_m_MemBangchan_img} alt="방찬 이미지" />
                             <h4>방찬</h4>
                         </article>
                     </Link>
                     <Link to='/StrayMemLino'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="리노 이미지" />
+                            <img src={Str_m_MemLino_img} alt="리노 이미지" />
                             <h4>리노</h4>
                         </article>
                     </Link>
 
                     <Link to='/StrayMemChangbin'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="창빈 이미지" />
+                            <img src={Str_m_MemChangbin_img} alt="창빈 이미지" />
                             <h4>창빈</h4>
                         </article>
                     </Link>
