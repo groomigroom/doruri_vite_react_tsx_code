@@ -22,7 +22,7 @@ export default function TenCMMain() {
                 &apos;10CM&apos;와 함께<br />
                 오늘도 힘내 보아요!
             </p>
-            <img src={Ten_m_img} className='tri_m_img txt_m_img' alt='10CM' />
+            <img src={Ten_m_img} className='tri_m_img ten_m_img' alt='10CM' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full ten_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
