@@ -24,9 +24,10 @@ export default function AespaMain() {
             <img src={Aes_m_logo} alt="aespa 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="aespa 로고 꾸미기" />aespa<img src={MainH2Deco} alt="aespa 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                #####<br />
-                하루에 하루만 더<br />
-                &apos;투모로우바이투게더&apos;와 함께 힘내 보아요.</p>
+                &apos;aespa&apos;와 함께<br />
+                다른 세계에서<br />
+                Lemonade를 만들어 봐요!
+            </p>
             <img src={Aes_m_img} className='tri_m_img' alt='aespa' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full aes_m_mem_tr_full'>
