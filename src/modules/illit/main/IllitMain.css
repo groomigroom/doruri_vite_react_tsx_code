@@ -3,3 +3,7 @@
     height: 90vh;
     position: relative;
 }
+
+.ill_m_full .ill_m_mem_img {
+    border: 5px solid #191919;
+}
