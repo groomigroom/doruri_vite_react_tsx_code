@@ -6,15 +6,17 @@ import './ALLDAY_PROJECTMain.css';
 
 import Menu from '../../Menu';
 
-// import Txt_m_logo from './img/txt_m_logo.svg';
+import All_m_logo from './img/All_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 // import txt_m_img from './img/txt_m_txtimg.jpg';
+
+// #000000
 
 export default function ALLDAY_PROJECTMain() {
     return (
         <div className='all_m_full'>
             <Menu />
-            <img src="" alt="ALLDAY_PROJECT 로고" className='tri_m_logo' />
+            <img src={All_m_logo} alt="ALLDAY_PROJECT 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="ALLDAY_PROJECT 로고 꾸미기" />ALLDAY PROJECT<img src={MainH2Deco} alt="ALLDAY_PROJECT 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
                 &apos;ALLDAY PROJECT&apos;와 함께<br />
