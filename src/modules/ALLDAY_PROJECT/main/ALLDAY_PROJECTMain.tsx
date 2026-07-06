@@ -8,7 +8,13 @@ import Menu from '../../Menu';
 
 import All_m_logo from './img/All_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
-// import txt_m_img from './img/txt_m_txtimg.jpg';
+import All_m_img from './img/allday_m_allday_project.jpg';
+
+import All_m_MemAnnie_img from './img/allday_m_mem_Annie.jpg';
+import All_m_MemTarzan_img from './img/allday_m_mem_Tarzan.jpg';
+import All_m_MemBailey_img from './img/allday_m_mem_Bailey.jpg';
+import All_m_MemWoochan_img from './img/allday_m_mem_Bailey.jpg';
+import All_m_MemYoungseo_img from './img/allday_m_mem_Youngseo.jpg';
 
 // #000000
 
@@ -23,25 +29,25 @@ export default function ALLDAY_PROJECTMain() {
                 Show me<br />
                 You want me like that!
             </p>
-            <img src="" className='tri_m_img txt_m_img' />
+            <img src={All_m_img} className='tri_m_img txt_m_img' alt='ALLDAY PROJECT' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/AllMemAnnie' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="애니 이미지" />
+                            <img src={All_m_MemAnnie_img} alt="애니 이미지" />
                             <h4>애니</h4>
                         </article>
                     </Link>
                     <Link to='/AllMemTarzan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="타잔 이미지" />
+                            <img src={All_m_MemTarzan_img} alt="타잔 이미지" />
                             <h4>타잔</h4>
                         </article>
                     </Link>
                     <Link to='/AllMemBailey' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="베일리 이미지" />
+                            <img src={All_m_MemBailey_img} alt="베일리 이미지" />
                             <h4>베일리</h4>
                         </article>
                     </Link>
@@ -50,13 +56,13 @@ export default function ALLDAY_PROJECTMain() {
                 <section className='tri_m_mem_tr txt_m_mem_tr'>
                     <Link to='/AllMemWoochan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="우찬 이미지" />
+                            <img src={All_m_MemWoochan_img} alt="우찬 이미지" />
                             <h4>우찬</h4>
                         </article>
                     </Link>
                     <Link to='/AllMemYoungseo' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="영서 이미지" />
+                            <img src={All_m_MemYoungseo_img} alt="영서 이미지" />
                             <h4>영서</h4>
                         </article>
                     </Link>
