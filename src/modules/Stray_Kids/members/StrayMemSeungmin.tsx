@@ -3,7 +3,7 @@ import './StrayMemSeungmin.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Str_mm_seungmin_img from '../main/img/stray_m_mem_Seungmin.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -16,7 +16,7 @@ export default function StrayMemSeungmin() {
             <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
-            <img src="" alt="승민 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Str_mm_seungmin_img} alt="승민 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
