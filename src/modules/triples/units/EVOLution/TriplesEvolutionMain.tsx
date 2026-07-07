@@ -35,25 +35,25 @@ export default function TriplesEvolutionMain() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tri_evo_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS3' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S3_img} alt="이지우 이미지" />
                             <h4>이지우</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS2' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S4_img} alt="김채연 이미지" />
                             <h4>김채연</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS8' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S5_img} alt="김유연 이미지" />
                             <h4>김유연</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS9' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS6' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S6_img} alt="김수민 이미지" />
                             <h4>김수민</h4>
@@ -63,25 +63,25 @@ export default function TriplesEvolutionMain() {
                 </section>
 
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS10' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS7' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S7_img} alt="김나경 이미지" />
                             <h4>김나경</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS13' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS11' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S11_img} alt="코토네 이미지" />
                             <h4>코토네</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS14' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS12' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S12_img} alt="곽연지 이미지" />
                             <h4>곽연지</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS15' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS16' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S16_img} alt="마유 이미지" />
                             <h4>마유</h4>
