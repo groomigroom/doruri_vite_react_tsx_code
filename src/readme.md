@@ -7,6 +7,7 @@ border-radius 25px
 트리플에스 tri #191919
 tri_aaa
 tri_kre
+tri_aci
 
 투모로우바이투게더 txt 
 악뮤 akmu
