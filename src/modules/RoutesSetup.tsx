@@ -41,6 +41,7 @@ import TriplesEvent from "./triples/events/TriplesEvent";
 import TriplesAcidAngelFromAsiaMain from './triples/units/AcidAngel_fromAsia/TriplesAcidAngelFromAsiaMain';
 import TriplesKRystalEyesMain from './triples/units/KRystalEyes/TriplesKRystalEyesMain';
 import TriplesAcidEyesMain from './triples/units/AcidEyes/TriplesAcidEyesMain';
+import TriplesLOVElutionMain from './triples/units/LOVElution/TriplesLOVElutionMain';
 
 //TxtMain
 
@@ -205,6 +206,7 @@ export default function RoutesSetup() {
             <Route path='/TriplesAcidAngelFromAsiaMain' element={<TriplesAcidAngelFromAsiaMain />}></Route>
             <Route path='/TriplesKRystalEyesMain' element={<TriplesKRystalEyesMain />}></Route>
             <Route path='/TriplesAcidEyesMain' element={<TriplesAcidEyesMain />}></Route>
+            <Route path='/TriplesLOVElutionMain' element={<TriplesLOVElutionMain />}></Route>
 
             {/* TxtMain */}
 
