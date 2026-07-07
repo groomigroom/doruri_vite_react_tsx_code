@@ -228,6 +228,12 @@ export default function TriplesMain() {
                     </Link>
                 </section>
             </section>
+
+            <h2 className='tri_m_h2 tri_m_h2_3'>▪ 유닛 ▪</h2>
+
+            <section className='tri_m_unit_tr_full'>
+                <Link to='/TriplesAcidAngelFromAsiaMain'>Acid Angel from Asia</Link>
+            </section>
             <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
                 <h3>트리플에스 인스타그램</h3>
             </a>
