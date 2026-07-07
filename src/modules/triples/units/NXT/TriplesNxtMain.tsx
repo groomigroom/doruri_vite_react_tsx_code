@@ -26,9 +26,9 @@ export default function TriplesNxtMain() {
             <img src={TriplesNxt_m_logo} alt="tri_nxt 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="tri_NXT 로고 꾸미기" />NXT<img src={MainH2Deco} alt="tri_NXT 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                &apos;Acid Angel from Asia&apos;와 함께<br />
-                ########여기에서 Together<br />
-                무질서한 그대로
+                &apos;NXT&apos;와 함께<br />
+                Do it, do it, do it,<br />
+                do it, do it all!
             </p>
             <img src={TriplesNxt_m_img} className='tri_m_img tri_nxt_m_img' alt='tri_aaa' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
