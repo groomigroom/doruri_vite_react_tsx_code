@@ -134,6 +134,20 @@
     transform: rotateY(0deg);
 }
 
+.tri_m_h2_3 {
+    position: absolute;
+    top: 2083px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 높이 20px */
+
+.tri_m_unit_tr_full {
+    position: absolute;
+    top: 2143px;
+}
+
 .tri_m_a_ins {
     position: absolute;
     top: 200px;
