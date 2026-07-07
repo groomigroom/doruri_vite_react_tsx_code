@@ -1,1 +1,9 @@
+.tri_vis_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
 
+.tri_vis_m_mem_tr_full {
+    height: 530px;
+}
