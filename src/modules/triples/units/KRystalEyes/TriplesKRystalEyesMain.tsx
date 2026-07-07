@@ -7,12 +7,12 @@ import Menu from '../../../Menu';
 
 import TriplesKre_m_logo from './img/TriplesKre_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
-// import Aes_m_img from './img/aespa_m_aespa.jpg';
+import TriplesKre_m_img from './img/TriplesKre_m_img.jpg';
 
-// import Aes_m_MemKarina_img from './img/aespa_m_mem_Karina.jpg';
-// import Aes_m_MemJijell_img from './img/aespa_m_mem_Jijel.jpg';
-// import Aes_m_MemWinter_img from './img/aespa_m_mem_Winter.jpg';
-// import Aes_m_MemNingning_img from './img/aespa_m_mem_Ningning.jpg';
+import TriplesKre_m_S1_img from './img/TriplesKre_m_S1_img.jpg';
+import TriplesKre_m_S3_img from './img/TriplesKre_m_S3_img.jpg';
+import TriplesKre_m_S4_img from './img/TriplesKre_m_S4_img.jpg';
+import TriplesKre_m_S6_img from './img/TriplesKre_m_S6_img.jpg';
 
 //#909090
 
@@ -27,19 +27,19 @@ export default function TriplesKRystalEyesMain() {
                 더 빠른 하루로<br />
                 Boom cherry talk!
             </p>
-            <img src="" className='tri_m_img tri_kre_m_img' alt='tri_kre' />
+            <img src={TriplesKre_m_img} className='tri_m_img tri_kre_m_img' alt='tri_kre' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tri_kre_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS1' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="윤서연 이미지" />
+                            <img src={TriplesKre_m_S1_img} alt="윤서연 이미지" />
                             <h4>윤서연</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS3' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="이지우 이미지" />
+                            <img src={TriplesKre_m_S3_img} alt="이지우 이미지" />
                             <h4>이지우</h4>
                         </article>
                     </Link>
@@ -49,13 +49,13 @@ export default function TriplesKRystalEyesMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김채연 이미지" />
+                            <img src={TriplesKre_m_S4_img} alt="김채연 이미지" />
                             <h4>김채연</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS6' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김수민 이미지" />
+                            <img src={TriplesKre_m_S6_img} alt="김수민 이미지" />
                             <h4>김수민</h4>
                         </article>
                     </Link>
