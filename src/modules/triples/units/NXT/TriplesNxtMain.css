@@ -1,1 +1,10 @@
+.tri_nxt_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
 
+.tri_nxt_m_mem_tr_full {
+    width: 340px;
+    height: 340px;
+}
