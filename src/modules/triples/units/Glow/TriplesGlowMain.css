@@ -1,1 +1,22 @@
+.tri_glo_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
 
+.tri_glo_m_img {
+    border: 5px solid #000000;
+}
+
+.tri_glo_m_mem_tr_full {
+    width: 340px;
+    height: 340px;
+}
+
+.tri_glo_m_mem_tr_full>section>a>article>img {
+    border: 5px solid #000000;
+}
+
+.tri_glo_m_mem_tr_full>section>a>article>h4 {
+    border: 5px solid #000000;
+}
