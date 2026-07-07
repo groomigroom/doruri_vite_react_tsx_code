@@ -27,36 +27,36 @@ export default function TriplesAcidAngelFromAsiaMain() {
                 여기에서 Together<br />
                 무질서한 그대로
             </p>
-            <img src="" className='tri_m_img' alt='tri_aaa' />
+            <img src="" className='tri_m_img tri_aaa_m_img' alt='tri_aaa' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full aes_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full tri_aaa_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/AesMemKarina' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS2' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="카리나 이미지" />
-                            <h4>카리나</h4>
+                            <img src="" alt="정혜린 이미지" />
+                            <h4>정혜린</h4>
                         </article>
                     </Link>
-                    <Link to='/AesMemJijell' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="지젤 이미지" />
-                            <h4>지젤</h4>
+                            <img src="" alt="김유연 이미지" />
+                            <h4>김유연</h4>
                         </article>
                     </Link>
 
                 </section>
 
                 <section className='tri_m_mem_tr'>
-                    <Link to='/AesMemWinter' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS7' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="윈터 이미지" />
-                            <h4>윈터</h4>
+                            <img src="" alt="김나경 이미지" />
+                            <h4>김나경</h4>
                         </article>
                     </Link>
-                    <Link to='/AesMemNingning' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS8' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="닝닝 이미지" />
-                            <h4>닝닝</h4>
+                            <img src="" alt="공유빈 이미지" />
+                            <h4>공유빈</h4>
                         </article>
                     </Link>
 
