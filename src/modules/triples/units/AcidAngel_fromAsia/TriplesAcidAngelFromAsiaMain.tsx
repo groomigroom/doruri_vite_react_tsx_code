@@ -7,12 +7,14 @@ import Menu from '../../../Menu';
 
 import TriplesAAA_m_logo from './img/TriplesAcidAngelFromAsia_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
-// import Aes_m_img from './img/aespa_m_aespa.jpg';
+import TriplesAAA_m_img from './img/TriAaa_m_img.jpg';
 
-// import Aes_m_MemKarina_img from './img/aespa_m_mem_Karina.jpg';
-// import Aes_m_MemJijell_img from './img/aespa_m_mem_Jijel.jpg';
-// import Aes_m_MemWinter_img from './img/aespa_m_mem_Winter.jpg';
-// import Aes_m_MemNingning_img from './img/aespa_m_mem_Ningning.jpg';
+import TriplesAAA_m_S2_img from './img/TriAaa_m_S2_mem_img.png';
+import TriplesAAA_m_S5_img from './img/TriAaa_m_S5_mem_img.png';
+import TriplesAAA_m_S7_img from './img/TriAaa_m_S7_mem_img.png';
+import TriplesAAA_m_S8_img from './img/TriAaa_m_S8_mem_img.png';
+
+
 
 //DB3475
 
@@ -27,19 +29,19 @@ export default function TriplesAcidAngelFromAsiaMain() {
                 여기에서 Together<br />
                 무질서한 그대로
             </p>
-            <img src="" className='tri_m_img tri_aaa_m_img' alt='tri_aaa' />
+            <img src={TriplesAAA_m_img} className='tri_m_img tri_aaa_m_img' alt='tri_aaa' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tri_aaa_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS2' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="정혜린 이미지" />
+                            <img src={TriplesAAA_m_S2_img} alt="정혜린 이미지" />
                             <h4>정혜린</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김유연 이미지" />
+                            <img src={TriplesAAA_m_S5_img} alt="김유연 이미지" />
                             <h4>김유연</h4>
                         </article>
                     </Link>
@@ -49,13 +51,13 @@ export default function TriplesAcidAngelFromAsiaMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS7' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김나경 이미지" />
+                            <img src={TriplesAAA_m_S7_img} alt="김나경 이미지" />
                             <h4>김나경</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS8' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="공유빈 이미지" />
+                            <img src={TriplesAAA_m_S8_img} alt="공유빈 이미지" />
                             <h4>공유빈</h4>
                         </article>
                     </Link>
