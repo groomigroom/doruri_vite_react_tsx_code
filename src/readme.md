@@ -13,6 +13,7 @@ tri_evo
 tri_nxt
 tri_ari
 tri_glo
+tri_vis
 
 투모로우바이투게더 txt 
 악뮤 akmu
