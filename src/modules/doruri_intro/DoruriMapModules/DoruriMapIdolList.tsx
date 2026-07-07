@@ -38,6 +38,18 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/TriplesMemS22'>S22 멤버 페이지</Link></li>
                             <li><Link to='/TriplesMemS23'>S23 멤버 페이지</Link></li>
                             <li><Link to='/TriplesMemS24'>S24 멤버 페이지</Link></li>
+                            <li><Link to='/TriplesEvent'>트리플에스 이벤트 페이지</Link></li>
+                            <li><Link to='/TriplesAcidAngelFromAsiaMain'>Acid Angel from Asia 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesKRystalEyesMain'>+&#40;KR&#41;ystal Eyes 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesAcidEyesMain'>Acid Eyes 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesLOVElutionMain'>LOVElution 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesEvolutionMain'>EVOLution 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesNxtMain'>NXT 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesAriaMain'>Aria 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesGlowMain'>Glow 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesVisionaryVisionMain'>Visionary Vision 유닛 페이지</Link></li>
+
+
                         </ul>
                     </li>
                     <li className='doruri_map_txtmain_li'><Link to='/TxtMain'>투모로우바이투게더 메인 페이지</Link>
