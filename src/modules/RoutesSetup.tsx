@@ -45,6 +45,7 @@ import TriplesLOVElutionMain from './triples/units/LOVElution/TriplesLOVElutionM
 import TriplesEvolutionMain from './triples/units/EVOLution/TriplesEvolutionMain';
 import TriplesNxtMain from './triples/units/NXT/TriplesNxtMain';
 import TriplesAriaMain from './triples/units/Aria/TriplesAriaMain';
+import TriplesGlowMain from './triples/units/Glow/TriplesGlowMain';
 
 //TxtMain
 
@@ -213,6 +214,7 @@ export default function RoutesSetup() {
             <Route path='/TriplesEvolutionMain' element={<TriplesEvolutionMain />}></Route>
             <Route path='/TriplesNxtMain' element={<TriplesNxtMain />}></Route>
             <Route path='/TriplesAriaMain' element={<TriplesAriaMain />}></Route>
+            <Route path='/TriplesGlowMain' element={<TriplesGlowMain />}></Route>
 
             {/* TxtMain */}
 
