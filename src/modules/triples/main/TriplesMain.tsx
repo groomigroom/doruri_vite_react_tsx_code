@@ -236,6 +236,7 @@ export default function TriplesMain() {
                 <Link to='/TriplesKRystalEyesMain'>+&#40;KR&#41;ystal Eyes </Link>
                 <Link to='/TriplesAcidEyesMain'>Acid Eyes </Link>
                 <Link to='/TriplesLOVElutionMain'>LOVElution </Link>
+                <Link to='/TriplesEvolutionMain'>EVOLution </Link>
             </section>
             <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
                 <h3>트리플에스 인스타그램</h3>
