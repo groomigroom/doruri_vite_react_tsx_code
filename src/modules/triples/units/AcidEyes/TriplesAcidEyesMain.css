@@ -1,1 +1,22 @@
+.tri_aci_m_full {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
 
+.tri_aci_m_img {
+    border: 5px solid #ff00fe;
+}
+
+.tri_aci_m_mem_tr_full {
+    width: 720px;
+    height: 340px;
+}
+
+.tri_aci_m_mem_tr_full>section>a>article>img {
+    border: 5px solid #ff00fe;
+}
+
+.tri_aci_m_mem_tr_full>section>a>article>h4 {
+    border: 5px solid #ff00fe;
+}
