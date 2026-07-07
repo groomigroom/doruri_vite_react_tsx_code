@@ -239,6 +239,7 @@ export default function TriplesMain() {
                 <Link to='/TriplesEvolutionMain'>EVOLution </Link>
                 <Link to='/TriplesNxtMain'>NXT </Link>
                 <Link to='/TriplesAriaMain'>Aria </Link>
+                <Link to='/TriplesVisionaryVisionMain'>Visionary Vision </Link>
             </section>
             <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
                 <h3>트리플에스 인스타그램</h3>
