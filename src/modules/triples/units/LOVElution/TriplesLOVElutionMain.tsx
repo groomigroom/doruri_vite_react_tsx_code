@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import '../../main/TriplesMain.css';
-import './TriplesAcidEyesMain.css';
+import './TriplesLOVElutionMain.css';
 
 import Menu from '../../../Menu';
 
@@ -21,15 +21,15 @@ export default function TriplesLOVElutionMain() {
         <div className='tri_lov_m_full'>
             <Menu />
             <img src={TriplesLov_m_logo} alt="tri_aci 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="tri_aci 로고 꾸미기" />Acid Eyes<img src={MainH2Deco} alt="tri_aci 로고 꾸미기" /></h2>
+            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="tri_aci 로고 꾸미기" />LOVElution<img src={MainH2Deco} alt="tri_aci 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                &apos;Acid Eyes&apos;와 함께<br />
-                여기에서 Together<br />
-                Boom cherry talk!
+                &apos;LOVElution&apos;과 함께<br />
+                지금 내가 자신 있게<br />
+                반짝일 수 있게!
             </p>
-            <img src="" className='tri_m_img tri_aci_m_img' alt='tri_aci' />
+            <img src="" className='tri_m_img tri_lov_m_img' alt='tri_aci' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full tri_aci_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full tri_lov_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS1' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
@@ -43,44 +43,44 @@ export default function TriplesLOVElutionMain() {
                             <h4>정혜린</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS3' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS8' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="이지우 이미지" />
-                            <h4>이지우</h4>
+                            <img src="" alt="공유빈 이미지" />
+                            <h4>공유빈</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS4' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS9' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김채연 이미지" />
-                            <h4>김채연</h4>
+                            <img src="" alt="카에데 이미지" />
+                            <h4>카에데</h4>
                         </article>
                     </Link>
 
                 </section>
 
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS5' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS10' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김유연 이미지" />
-                            <h4>김유연</h4>
+                            <img src="" alt="서다현 이미지" />
+                            <h4>서다현</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS6' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS13' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김수민 이미지" />
-                            <h4>김수민</h4>
+                            <img src="" alt="니엔 이미지" />
+                            <h4>니엔</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS7' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS14' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김나경 이미지" />
-                            <h4>김나경</h4>
+                            <img src="" alt="박소현 이미지" />
+                            <h4>박소현</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS8' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS15' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="공유빈 이미지" />
-                            <h4>공유빈</h4>
+                            <img src="" alt="신위 이미지" />
+                            <h4>신위</h4>
                         </article>
                     </Link>
 
