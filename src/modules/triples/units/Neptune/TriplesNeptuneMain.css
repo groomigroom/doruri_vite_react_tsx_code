@@ -1,1 +1,9 @@
+.tri_nep_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
 
+.tri_nep_m_img {
+    border: 5px solid #99ACCC;
+}
