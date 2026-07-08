@@ -7,7 +7,17 @@ import Menu from '../../../Menu';
 
 import TriplesHat_m_logo from './img/TriplesHatch_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
-// import TriplesEvo_m_img from './img/TriplesEvolution_m_img.jpg';
+import TriplesHat_m_img from './img/TriplesHatch_m_img.jpg';
+
+import TriplesHat_m_S3_img from './img/TriplesHatch_m_S3_img.jpg';
+import TriplesHat_m_S4_img from './img/TriplesHatch_m_S4_img.jpg';
+import TriplesHat_m_S5_img from './img/TriplesHatch_m_S5_img.jpg';
+import TriplesHat_m_S6_img from './img/TriplesHatch_m_S6_img.jpg';
+import TriplesHat_m_S11_img from './img/TriplesHatch_m_S11_img.jpg';
+import TriplesHat_m_S16_img from './img/TriplesHatch_m_S16_img.jpg';
+import TriplesHat_m_S20_img from './img/TriplesHatch_m_S20_img.jpg';
+import TriplesHat_m_S21_img from './img/TriplesHatch_m_S21_img.jpg';
+
 
 
 //#000000
@@ -23,31 +33,31 @@ export default function TriplesHatchMain() {
                 Password의 운명을 풀어서<br />
                 새로운 시작해 봐요!
             </p>
-            <img src="" className='tri_m_img tri_hat_m_img' alt='tri_hat' />
+            <img src={TriplesHat_m_img} className='tri_m_img tri_hat_m_img' alt='tri_hat' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tri_hat_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS3' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="이지우 이미지" />
+                            <img src={TriplesHat_m_S3_img} alt="이지우 이미지" />
                             <h4>이지우</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김채연 이미지" />
+                            <img src={TriplesHat_m_S4_img} alt="김채연 이미지" />
                             <h4>김채연</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김유연 이미지" />
+                            <img src={TriplesHat_m_S5_img} alt="김유연 이미지" />
                             <h4>김유연</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS6' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김수민 이미지" />
+                            <img src={TriplesHat_m_S6_img} alt="김수민 이미지" />
                             <h4>김수민</h4>
                         </article>
                     </Link>
@@ -57,25 +67,25 @@ export default function TriplesHatchMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS11' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="코토네 이미지" />
+                            <img src={TriplesHat_m_S11_img} alt="코토네 이미지" />
                             <h4>코토네</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS16' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="마유 이미지" />
+                            <img src={TriplesHat_m_S16_img} alt="마유 이미지" />
                             <h4>마유</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS20' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="박시온 이미지" />
+                            <img src={TriplesHat_m_S20_img} alt="박시온 이미지" />
                             <h4>박시온</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS21' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김채원 이미지" />
+                            <img src={TriplesHat_m_S21_img} alt="김채원 이미지" />
                             <h4>김채원</h4>
                         </article>
                     </Link>
