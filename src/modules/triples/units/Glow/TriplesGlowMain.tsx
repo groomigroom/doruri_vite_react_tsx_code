@@ -20,9 +20,9 @@ export default function TriplesGlowMain() {
             <img src={TriplesGlow_m_logo} alt="tri_glow 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="tri_glow 로고 꾸미기" />Glow<img src={MainH2Deco} alt="tri_glow 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                &apos;Acid Angel from Asia&apos;와 함께<br />
-                ########여기에서 Together<br />
-                무질서한 그대로
+                &apos;Glow&apos;와 함께<br />
+                Dance on my wave<br />
+                I like to make you dance!
             </p>
             <img src="" className='tri_m_img tri_glo_m_img' alt='tri_glow' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
