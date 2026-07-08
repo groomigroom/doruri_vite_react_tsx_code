@@ -19,9 +19,9 @@ export default function TriplesNeptuneMain() {
             <img src={TriplesNep_m_logo} alt="tri_nep 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="tri_neptune 로고 꾸미기" />neptune<img src={MainH2Deco} alt="tri_neptune 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                &apos;EVOLution&apos;과 함께<br />
-                $$$$$$$$$$새로 태어난 듯이<br />
-                Cut the diamond!
+                &apos;neptune&apos;과 함께<br />
+                지금 내 기분을 묻는다면<br />
+                구름 위를 걷는 기분!
             </p>
             <img src="" className='tri_m_img tri_nep_m_img' alt='tri_neptune' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
