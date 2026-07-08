@@ -45,12 +45,6 @@ export default function TriplesNeptuneMain() {
                             <h4>김유연</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS6' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
-                            <img src="" alt="김수민 이미지" />
-                            <h4>김수민</h4>
-                        </article>
-                    </Link>
 
                 </section>
 
@@ -73,13 +67,6 @@ export default function TriplesNeptuneMain() {
                             <h4>박시온</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS21' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
-                            <img src="" alt="김채원 이미지" />
-                            <h4>김채원</h4>
-                        </article>
-                    </Link>
-
 
                 </section>
 
