@@ -17,6 +17,7 @@ tri_vis
 tri_hat
 tri_nep
 tri_moo
+tri_sun
 
 투모로우바이투게더 txt 
 악뮤 akmu
