@@ -7,3 +7,16 @@
 .tri_moo_m_img {
     border: 5px solid #e7cb82;
 }
+
+.tri_moo_m_mem_tr_full {
+    width: 530px;
+    height: 340px;
+}
+
+.tri_moo_m_mem_tr_full>section>a>article>img {
+    border: 5px solid #e7cb82;
+}
+
+.tri_moo_m_mem_tr_full>section>a>article>h4 {
+    border: 5px solid #e7cb82;
+}
