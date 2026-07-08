@@ -172,6 +172,10 @@ import Bol4Main from './bol4/main/Bol4Main';
 
 import BolMemAnjiyoung from './bol4/members/BolMemAnjiyoung';
 
+//EpikHighMain
+
+import EpikHighMain from './EpikHigh/main/EpikHighMain';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -324,6 +328,8 @@ export default function RoutesSetup() {
             <Route path='/Bol4Main' element={<Bol4Main />}></Route>
 
             <Route path='/BolMemAnjiyoung' element={<BolMemAnjiyoung />}></Route>
+
+            <Route path='/EpikHighMain' element={<EpikHighMain />}></Route>
 
         </Routes>
     );
