@@ -48,6 +48,7 @@ import TriplesAriaMain from './triples/units/Aria/TriplesAriaMain';
 import TriplesGlowMain from './triples/units/Glow/TriplesGlowMain';
 import TriplesVisionaryVisionMain from './triples/units/VisionaryVision/TriplesVisionaryVisionMain';
 import TriplesHatchMain from './triples/units/Hatch/TriplesHatchMain';
+import TriplesNeptuneMain from './triples/units/Neptune/TriplesNeptuneMain';
 
 //TxtMain
 
@@ -219,6 +220,7 @@ export default function RoutesSetup() {
             <Route path='/TriplesGlowMain' element={<TriplesGlowMain />}></Route>
             <Route path='/TriplesVisionaryVisionMain' element={<TriplesVisionaryVisionMain />}></Route>
             <Route path='/TriplesHatchMain' element={<TriplesHatchMain />}></Route>
+            <Route path='/TriplesNeptuneMain' element={<TriplesNeptuneMain />}></Route>
 
             {/* TxtMain */}
 
