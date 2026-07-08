@@ -19,9 +19,9 @@ export default function TriplesHatchMain() {
             <img src={TriplesHat_m_logo} alt="tri_hat 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="tri_hat 로고 꾸미기" />∞! &#40;Hatch!&#41;<img src={MainH2Deco} alt="tri_hat 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                &apos;EVOLution&apos;과 함께<br />
-                $$$$$$$$$$새로 태어난 듯이<br />
-                Cut the diamond!
+                &apos;∞! &#40;Hatch!&#41;&apos;와 함께<br />
+                Password의 운명을 풀어서<br />
+                새로운 시작해 봐요!
             </p>
             <img src="" className='tri_m_img tri_hat_m_img' alt='tri_hat' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
