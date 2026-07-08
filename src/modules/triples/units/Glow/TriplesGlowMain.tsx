@@ -7,8 +7,12 @@ import Menu from '../../../Menu';
 
 import TriplesGlow_m_logo from './img/TriplesGlow_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
-// import TriplesAAA_m_img from './img/TriAaa_m_img.jpg';
+import TriplesGlow_m_img from './img/TriplesGlow_m_img.jpg';
 
+import TriplesGlow_m_S21_img from './img/TriplesGlow_m_S21_img.jpg';
+import TriplesGlow_m_S22_img from './img/TriplesGlow_m_S22_img.jpg';
+import TriplesGlow_m_S23_img from './img/TriplesGlow_m_S23_img.jpg';
+import TriplesGlow_m_S24_img from './img/TriplesGlow_m_S24_img.jpg';
 
 
 //000000
@@ -24,19 +28,19 @@ export default function TriplesGlowMain() {
                 Dance on my wave<br />
                 I like to make you dance!
             </p>
-            <img src="" className='tri_m_img tri_glo_m_img' alt='tri_glow' />
+            <img src={TriplesGlow_m_img} className='tri_m_img tri_glo_m_img' alt='tri_glow' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tri_glo_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS21' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김채원 이미지" />
+                            <img src={TriplesGlow_m_S21_img} alt="김채원 이미지" />
                             <h4>김채원</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS22' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="설린 이미지" />
+                            <img src={TriplesGlow_m_S22_img} alt="설린 이미지" />
                             <h4>설린</h4>
                         </article>
                     </Link>
@@ -46,13 +50,13 @@ export default function TriplesGlowMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS23' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="서아 이미지" />
+                            <img src={TriplesGlow_m_S23_img} alt="서아 이미지" />
                             <h4>서아</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS24' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="지연 이미지" />
+                            <img src={TriplesGlow_m_S24_img} alt="지연 이미지" />
                             <h4>지연</h4>
                         </article>
                     </Link>
