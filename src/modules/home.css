@@ -2,4 +2,18 @@
     width: 100vw;
     height: 180vh;
     background-color: #e6e6e6;
+    position: relative;
+}
+
+.home_translate {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    background-color: #e6e6e6;
+    z-index: 1000000;
+}
+
+.home_translate>a.on {
+    background-color: #333;
+    color: #e6e6e6;
 }
