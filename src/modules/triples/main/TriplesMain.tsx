@@ -238,6 +238,7 @@ export default function TriplesMain() {
                 <Link to='/TriplesLOVElutionMain'>LOVElution </Link>
                 <Link to='/TriplesEvolutionMain'>EVOLution </Link>
                 <Link to='/TriplesNxtMain'>NXT </Link>
+                <Link to='/TriplesGlowMain'>Glow </Link>
                 <Link to='/TriplesAriaMain'>Aria </Link>
                 <Link to='/TriplesVisionaryVisionMain'>Visionary Vision </Link>
                 <Link to='/TriplesHatchMain'>∞! &#40;Hatch!&#41; </Link>
