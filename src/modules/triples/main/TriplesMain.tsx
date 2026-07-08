@@ -245,6 +245,7 @@ export default function TriplesMain() {
                 <Link to='/TriplesNeptuneMain'>neptune </Link>
                 <Link to='/TriplesMoonMain'>moon </Link>
                 <Link to='/TriplesSunMain'>sun </Link>
+                <Link to='/TriplesZenithMain'>zenith </Link>
             </section>
             <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
                 <h3>트리플에스 인스타그램</h3>
