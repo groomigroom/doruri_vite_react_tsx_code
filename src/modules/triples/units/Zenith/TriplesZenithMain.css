@@ -1,1 +1,22 @@
+.tri_zen_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
 
+.tri_zen_m_img {
+    border: 5px solid #a2bf99;
+}
+
+.tri_zen_m_mem_tr_full {
+    width: 530px;
+    height: 340px;
+}
+
+.tri_zen_m_mem_tr_full>section>a>article>img {
+    border: 5px solid #a2bf99;
+}
+
+.tri_zen_m_mem_tr_full>section>a>article>h4 {
+    border: 5px solid #a2bf99;
+}
