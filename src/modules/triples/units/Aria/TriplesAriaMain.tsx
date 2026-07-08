@@ -7,7 +7,13 @@ import Menu from '../../../Menu';
 
 import TriplesAria_m_logo from './img/TriplesAria_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
-// import TriplesNxt_m_img from './img/TriplesNxt_m_img.jpg';
+import TriplesAria_m_img from './img/TriplesAria_m_img.jpg';
+
+import TriplesAria_m_S3_img from './img/TriplesAria_m_S3_img.jpg';
+import TriplesAria_m_S4_img from './img/TriplesAria_m_S4_img.jpg';
+import TriplesAria_m_S9_img from './img/TriplesAria_m_S9_img.jpg';
+import TriplesAria_m_S10_img from './img/TriplesAria_m_S10_img.jpg';
+import TriplesAria_m_S13_img from './img/TriplesAria_m_S13_img.jpg';
 
 
 
@@ -24,25 +30,25 @@ export default function TriplesAriaMain() {
                 ########여기에서 Together<br />
                 무질서한 그대로
             </p>
-            <img src="" className='tri_m_img tri_ari_m_img' alt='tri_ari' />
+            <img src={TriplesAria_m_img} className='tri_m_img tri_ari_m_img' alt='tri_ari' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tri_ari_m_mem_tr_full'>
                 <section className='tri_ari_m_mem_tr3'>
                     <Link to='/TriplesMemS3' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="이지우 이미지" />
+                            <img src={TriplesAria_m_S3_img} alt="이지우 이미지" />
                             <h4>이지우</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김채연 이미지" />
+                            <img src={TriplesAria_m_S4_img} alt="김채연 이미지" />
                             <h4>김채연</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS9' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="카에데 이미지" />
+                            <img src={TriplesAria_m_S9_img} alt="카에데 이미지" />
                             <h4>카에데</h4>
                         </article>
                     </Link>
@@ -52,13 +58,13 @@ export default function TriplesAriaMain() {
                 <section className='tri_ari_m_mem_tr2'>
                     <Link to='/TriplesMemS10' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="서다현 이미지" />
+                            <img src={TriplesAria_m_S10_img} alt="서다현 이미지" />
                             <h4>서다현</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS13' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="니엔 이미지" />
+                            <img src={TriplesAria_m_S13_img} alt="니엔 이미지" />
                             <h4>니엔</h4>
                         </article>
                     </Link>
