@@ -29,18 +29,18 @@ export default function MenuEng() {
                 <nav className={`menu_nav ${MenuEngMOn ? 'on' : ''}`}>
                     <div className="menu_mobile_off" onClick={MenuEngOffToggle}>닫기</div>
                     <ul>
-                        <li><a href="#">도루리는?</a><button className='menu_nav_li_btn1'>메뉴 버튼1</button>
+                        <li><a href="#">Doruri?</a><button className='menu_nav_li_btn1'>메뉴 버튼1</button>
                             <ul>
-                                <li><a href="#">소개</a></li>
-                                <li><a href="/DoruriMap">도루리 사이트 구조</a></li>
+                                <li><a href="#">Introduce</a></li>
+                                <li><a href="/DoruriMap">Site structure</a></li>
                                 <li><a href="#">세부3</a></li>
                                 <li><a href="#">세부4</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href='#'>아이돌 탐색</a>
+                            <a href='#'>Idol search</a>
                             <ul>
-                                <li><Link to='/IdolList' onClick={MenuEngOffToggle}>목록</Link></li>
+                                <li><Link to='/IdolList' onClick={MenuEngOffToggle}>Idol list</Link></li>
                                 <li><a href="#">세부2</a></li>
                                 <li><a href="#">세부3</a></li>
                                 <li><a href="#">세부4</a></li>
