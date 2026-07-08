@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import RoutesSetup from './modules/RoutesSetup';
+import ScrollToTop from "./modules/ScrollToTop";
 
 import "./App.css";
 
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <RoutesSetup />
     </BrowserRouter>
   )
