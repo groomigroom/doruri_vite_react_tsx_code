@@ -7,7 +7,14 @@ import Menu from '../../../Menu';
 
 import TriplesSun_m_logo from './img/TriplesSun_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
-// import TriplesEvo_m_img from './img/TriplesEvolution_m_img.jpg';
+import TriplesSun_m_img from './img/TriplesSun_m_img.jpg';
+
+import TriplesSun_m_S2_img from '../../main/img/tri_m_memS2.jpg';
+import TriplesSun_m_S4_img from '../../main/img/tri_m_memS4.jpg';
+import TriplesSun_m_S5_img from '../../main/img/tri_m_memS5.jpg';
+import TriplesSun_m_S15_img from '../../main/img/tri_m_memS15.jpg';
+import TriplesSun_m_S16_img from '../../main/img/tri_m_memS16.jpg';
+import TriplesSun_m_S21_img from '../../main/img/tri_m_memS21.jpg';
 
 
 //#e3b4c8
@@ -23,25 +30,25 @@ export default function TriplesSunMain() {
                 터질지 몰라<br />
                 Bubble Gum Bubble Gum!
             </p>
-            <img src="" className='tri_m_img tri_sun_m_img' alt='tri_sun' />
+            <img src={TriplesSun_m_img} className='tri_m_img tri_sun_m_img' alt='tri_sun' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full tri_moo_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full tri_sun_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS3' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS2' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="이지우 이미지" />
-                            <h4>이지우</h4>
+                            <img src={TriplesSun_m_S2_img} alt="정혜린 이미지" />
+                            <h4>정혜린</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김채연 이미지" />
+                            <img src={TriplesSun_m_S4_img} alt="김채연 이미지" />
                             <h4>김채연</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="김유연 이미지" />
+                            <img src={TriplesSun_m_S5_img} alt="김유연 이미지" />
                             <h4>김유연</h4>
                         </article>
                     </Link>
@@ -49,22 +56,22 @@ export default function TriplesSunMain() {
                 </section>
 
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS11' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS15' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="코토네 이미지" />
-                            <h4>코토네</h4>
+                            <img src={TriplesSun_m_S15_img} alt="신위 이미지" />
+                            <h4>신위</h4>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS16' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="마유 이미지" />
+                            <img src={TriplesSun_m_S16_img} alt="마유 이미지" />
                             <h4>마유</h4>
                         </article>
                     </Link>
-                    <Link to='/TriplesMemS20' className='tri_m_mem_a'>
+                    <Link to='/TriplesMemS21' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="박시온 이미지" />
-                            <h4>박시온</h4>
+                            <img src={TriplesSun_m_S21_img} alt="김채원 이미지" />
+                            <h4>김채원</h4>
                         </article>
                     </Link>
 
