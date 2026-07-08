@@ -48,6 +48,11 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/TriplesAriaMain'>Aria 유닛 페이지</Link></li>
                             <li><Link to='/TriplesGlowMain'>Glow 유닛 페이지</Link></li>
                             <li><Link to='/TriplesVisionaryVisionMain'>Visionary Vision 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesHatchMain'>∞! &#40;Hatch!&#41; 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesNeptuneMain'>neptune 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesMoonMain'>moon 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesSunMain'>sun 유닛 페이지</Link></li>
+                            <li><Link to='/TriplesZenithMain'>zenith 유닛 페이지</Link></li>
 
 
                         </ul>
