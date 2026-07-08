@@ -12,9 +12,10 @@ export default function TxtMemYeonjun() {
         <div className="txt_mm_yeonjun_full">
             <Menu />
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />연준<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                매일 노력하고<br />
+                준비해서<br />
+                여러분을 찾아 갈게요!</p>
             <img src={Txt_mm_Yeonjun_img} alt="연준 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
