@@ -1,0 +1,22 @@
+.epi_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.epi_m_img {
+    border: 5px solid #000000;
+}
+
+.epi_m_mem_tr_full {
+    width: 530px;
+    height: 150px;
+}
+
+.epi_m_mem_tr_full>section>a>article>img {
+    border: 5px solid #000000;
+}
+
+.epi_m_mem_tr_full>section>a>article>h4 {
+    border: 5px solid #000000;
+}
