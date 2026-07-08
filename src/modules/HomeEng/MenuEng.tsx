@@ -22,7 +22,7 @@ export default function MenuEng() {
     return (
         <div className="Menu_full">
             <header>
-                <Link to='/' className='menu_logo' >
+                <Link to='/Eng' className='menu_logo' >
                     <img src="" alt="" />
                 </Link>
                 <div className="menu_mobile_button" onClick={MenuEngOnToggle}>보기</div>
