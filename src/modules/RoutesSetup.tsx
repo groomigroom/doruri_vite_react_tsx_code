@@ -1,6 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 
 import Home from './Home';
+
+import HomeEng from './HomeEng/HomeEng';
+
 import DoruriMap from './doruri_intro/DoruriMap';
 import DoruriMapIdolList from './doruri_intro/DoruriMapModules/DoruriMapIdolList';
 import DoruriMapIdolList2 from './doruri_intro/DoruriMapModules/DoruriMapIdolList2';
@@ -180,6 +183,8 @@ export default function RoutesSetup() {
     return (
         <Routes>
             <Route path='/' element={<Home />}></Route>
+
+            <Route path='/Eng' element={<HomeEng />}></Route>
 
             <Route path='/DoruriMap' element={<DoruriMap />}></Route>
             <Route path='/DoruriMapIdolList' element={<DoruriMapIdolList />}></Route>
