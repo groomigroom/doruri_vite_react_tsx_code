@@ -12,9 +12,10 @@ export default function DayMemDowoon() {
         <div className="day_mm_dowoon_full">
             <Menu />
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="DAY6 꾸미기" />도운<img src={MainH2Deco} alt="DAY6 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                오늘도 열심히<br />
+                고민하며 좋은<br />
+                음악 준비할게요!</p>
             <img src={Day_mm_dowoon_img} alt="도운 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
