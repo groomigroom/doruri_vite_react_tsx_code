@@ -12,9 +12,10 @@ export default function TriplesMemS14() {
         <div className="tri_mm_s14_full">
             <Menu />
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />박소현<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>#####24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                창작 활동을 좋아해서<br />
+                곡도 쓰고 춤도 창작하며<br />
+                활동해 볼게요!</p>
             <img src={Tri_mm_s14_img} alt="박소현 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
