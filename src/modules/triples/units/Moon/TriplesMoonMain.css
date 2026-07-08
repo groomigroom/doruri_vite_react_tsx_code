@@ -1,0 +1,9 @@
+.tri_moo_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.tri_moo_m_img {
+    border: 5px solid #e7cb82;
+}
