@@ -22,6 +22,10 @@ export default function IdolList() {
     return (
         <div className="idolList_full">
             <Menu />
+            <section className="home_translate">
+                <Link to='/IdolList' className="on">한국어</Link>
+                <Link to='/IdolListEng'>English</Link>
+            </section>
             <section className="idolList_part">
                 <section className="idolList_trainf">
                     <section className="idolList_train">
@@ -151,7 +155,9 @@ export default function IdolList() {
                 <Link to='/'>3</Link>
                 <Link to='/'>4</Link>
                 <Link to='/'>5</Link>
+                Copyright ⓒ ㈜모드하우스
             </section>
+
         </div>
     );
 };
