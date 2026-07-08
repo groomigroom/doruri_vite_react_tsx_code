@@ -1,0 +1,9 @@
+.tri_sun_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.tri_sun_m_img {
+    border: 5px solid #e3b4c8;
+}
