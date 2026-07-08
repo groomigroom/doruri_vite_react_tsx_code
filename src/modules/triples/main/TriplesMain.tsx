@@ -247,6 +247,7 @@ export default function TriplesMain() {
                 <Link to='/TriplesSunMain'>sun </Link>
                 <Link to='/TriplesZenithMain'>zenith </Link>
             </section>
+            <p className='tri_m_copy_pp'>Copyright ⓒ ㈜모드하우스</p>
             <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
                 <h3>트리플에스 인스타그램</h3>
             </a>
