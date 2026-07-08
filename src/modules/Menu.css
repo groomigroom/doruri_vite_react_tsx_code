@@ -25,12 +25,24 @@
         border-bottom-left-radius: 50px;
     }
 
+    .menu_mobile_button {
+        display: none;
+    }
+
+    .menu_mobile_off {
+        display: none;
+    }
+
     .menu_nav {
         width: 600px;
         height: 40px;
         position: absolute;
         top: 60px;
         right: 60px;
+    }
+
+    .menu_nav_li_btn1 {
+        display: none;
     }
 
     .menu_nav>ul {
@@ -93,13 +105,30 @@
         border-bottom-left-radius: 50px;
     }
 
+    .menu_mobile_button {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+    }
+
     .menu_nav {
         width: 100vw;
-        height: 100vh;
+        height: 0vh;
+        overflow: hidden;
         background-color: #d6d6d6;
         position: absolute;
         top: 0px;
         left: 0px;
+        transition: all 0.6s ease 0s;
+    }
+
+    .menu_nav.on {
+        height: 100vh;
+    }
+
+    .menu_mobile_off {
+        width: 50px;
+        height: 50px;
     }
 
     .menu_nav>ul>li {
@@ -109,6 +138,12 @@
         position: relative;
         overflow: hidden;
         transition: all 0.6s ease 0s;
+    }
+
+    .menu_nav>ul>li>button {
+        position: absolute;
+        top: 50%;
+        right: 25px;
     }
 
     .menu_nav>ul>li.on {
