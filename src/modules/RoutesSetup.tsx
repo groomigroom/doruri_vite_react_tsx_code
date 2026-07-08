@@ -51,6 +51,7 @@ import TriplesHatchMain from './triples/units/Hatch/TriplesHatchMain';
 import TriplesNeptuneMain from './triples/units/Neptune/TriplesNeptuneMain';
 import TriplesMoonMain from './triples/units/Moon/TriplesMoonMain';
 import TriplesSunMain from './triples/units/Sun/TriplesSunMain';
+import TriplesZenithMain from './triples/units/Zenith/TriplesZenithMain';
 
 //TxtMain
 
@@ -225,6 +226,7 @@ export default function RoutesSetup() {
             <Route path='/TriplesNeptuneMain' element={<TriplesNeptuneMain />}></Route>
             <Route path='/TriplesMoonMain' element={<TriplesMoonMain />}></Route>
             <Route path='/TriplesSunMain' element={<TriplesSunMain />}></Route>
+            <Route path='/TriplesZenithMain' element={<TriplesZenithMain />}></Route>
 
             {/* TxtMain */}
 
