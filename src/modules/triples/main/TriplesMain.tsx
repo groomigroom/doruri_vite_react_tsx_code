@@ -38,6 +38,10 @@ export default function TriplesMain() {
     return (
         <div className='tri_m_full'>
             <Menu />
+            <section className="home_translate">
+                <Link to='/TriplesMain' className="on">한국어</Link>
+                <Link to='/TriplesMainEng'>English</Link>
+            </section>
             <img src={Tri_m_logo} alt="트리플에스 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />tripleS<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>우리는 하나이자 스물넷입니다.<br />
