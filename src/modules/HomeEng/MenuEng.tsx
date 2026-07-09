@@ -40,7 +40,7 @@ export default function MenuEng() {
                         <li>
                             <a href='#'>Idol search</a>
                             <ul>
-                                <li><Link to='/IdolList' onClick={MenuEngOffToggle}>Idol list</Link></li>
+                                <li><Link to='/IdolListEng' onClick={MenuEngOffToggle}>Idol list</Link></li>
                                 <li><a href="#">세부2</a></li>
                                 <li><a href="#">세부3</a></li>
                                 <li><a href="#">세부4</a></li>
