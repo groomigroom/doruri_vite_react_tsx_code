@@ -65,6 +65,7 @@ import TxtMainEng from './txtEng/main/TxtMainEng';
 import TxtMemBeomgyu from './txt/members/TxtMemBeomgyu';
 import TxtMemBeomgyuEng from './txtEng/members/TxtMemBeomgyuEng';
 import TxtMemHueningkai from './txt/members/TxtMemHueningkai';
+import TxtMemHueningkaiEng from './txtEng/members/TxtMemHueningkaiEng';
 import TxtMemSubin from './txt/members/TxtMemSubin';
 import TxtMemTaehyun from './txt/members/TxtMemTaehyun';
 import TxtMemYeonjun from './txt/members/TxtMemYeonjun';
@@ -250,6 +251,7 @@ export default function RoutesSetup() {
             <Route path='/TxtMemBeomgyu' element={<TxtMemBeomgyu />}></Route>
             <Route path='/TxtMemBeomgyuEng' element={<TxtMemBeomgyuEng />}></Route>
             <Route path='/TxtMemHueningkai' element={<TxtMemHueningkai />}></Route>
+            <Route path='/TxtMemHueningkaiEng' element={<TxtMemHueningkaiEng />}></Route>
             <Route path='/TxtMemSubin' element={<TxtMemSubin />}></Route>
             <Route path='/TxtMemTaehyun' element={<TxtMemTaehyun />}></Route>
             <Route path='/TxtMemYeonjun' element={<TxtMemYeonjun />}></Route>
