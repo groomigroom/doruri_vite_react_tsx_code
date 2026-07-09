@@ -155,7 +155,7 @@ export default function IdolListEng() {
                 <Link to='/'>3</Link>
                 <Link to='/'>4</Link>
                 <Link to='/'>5</Link>
-                Copyright ⓒ ㈜모드하우스
+                Copyright ⓒ Modhaus
             </section>
 
         </div>
