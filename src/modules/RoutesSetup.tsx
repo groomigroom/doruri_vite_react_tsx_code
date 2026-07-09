@@ -82,6 +82,7 @@ import AkmuMainEng from './akmuEng/main/AkmuMainEng';
 import AkmuMemChanhyuk from './akmu/members/AkmuMemChanhyuk';
 import AkmuMemChanhyukEng from './akmuEng/members/AkmuMemChanhyukEng';
 import AkmuMemSuhyun from './akmu/members/AkmuMemSuhyun';
+import AkmuMemSuhyunEng from './akmuEng/members/AkmuMemSuhyunEng';
 
 import AkmuEvent from "./akmu/events/AkmuEvent";
 
@@ -273,6 +274,7 @@ export default function RoutesSetup() {
             <Route path='/AkmuMemChanhyuk' element={<AkmuMemChanhyuk />}></Route>
             <Route path='/AkmuMemChanhyukEng' element={<AkmuMemChanhyukEng />}></Route>
             <Route path='/AkmuMemSuhyun' element={<AkmuMemSuhyun />}></Route>
+            <Route path='/AkmuMemSuhyunEng' element={<AkmuMemSuhyunEng />}></Route>
 
             <Route path='/AkmuEvent' element={<AkmuEvent />}></Route>
 
