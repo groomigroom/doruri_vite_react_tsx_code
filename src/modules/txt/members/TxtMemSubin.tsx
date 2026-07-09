@@ -16,7 +16,7 @@ export default function TxtMemSubin() {
                 강단있고<br />
                 신중하게<br />
                 여러분을 찾아 갈게요!</p>
-            <img src={Txt_mm_Subin_img} alt="수빈 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Txt_mm_Subin_img} alt="수빈 이미지" className='tri_mm_s1_img txt_mm_subin_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
