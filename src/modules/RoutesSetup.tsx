@@ -61,6 +61,7 @@ import TriplesZenithMain from './triples/units/Zenith/TriplesZenithMain';
 //TxtMain
 
 import TxtMain from './txt/main/TxtMain';
+import TxtMainEng from './txtEng/main/TxtMainEng';
 import TxtMemBeomgyu from './txt/members/TxtMemBeomgyu';
 import TxtMemHueningkai from './txt/members/TxtMemHueningkai';
 import TxtMemSubin from './txt/members/TxtMemSubin';
@@ -244,6 +245,7 @@ export default function RoutesSetup() {
             {/* TxtMain */}
 
             <Route path='/TxtMain' element={<TxtMain />}></Route>
+            <Route path='/TxtMainEng' element={<TxtMainEng />}></Route>
             <Route path='/TxtMemBeomgyu' element={<TxtMemBeomgyu />}></Route>
             <Route path='/TxtMemHueningkai' element={<TxtMemHueningkai />}></Route>
             <Route path='/TxtMemSubin' element={<TxtMemSubin />}></Route>
