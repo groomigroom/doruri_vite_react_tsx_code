@@ -1,7 +1,9 @@
-import '../../triples/members/TriplesMemS1.css';
-import './TxtMemBeomgyu.css';
+import { Link } from 'react-router-dom';
 
-import Menu from '../../Menu';
+import '../../triples/members/TriplesMemS1.css';
+import '../../txt/members/TxtMemBeomgyu.css';
+
+import MenuEng from '../../HomeEng/MenuEng';
 
 // import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
 
@@ -10,12 +12,16 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 export default function TxtMemBeomgyuEng() {
     return (
         <div className="txt_mm_beomgyu_full">
-            <Menu />
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />Beomgyu<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" /></h2>
+            <MenuEng />
+            <section className="home_translate">
+                <Link to='/TxtMemBeomgyu'>한국어</Link>
+                <Link to='/TxtMemBeomgyuEng' className="on">English</Link>
+            </section>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="txt deco" />Beomgyu<img src={MainH2Deco} alt="txt deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                밝고 활발한<br />
-                표정으로<br />
-                여러분을 찾아 갈게요!</p>
+                Bright and lively<br />
+                with a look on one's face<br />
+                I'll be back to you!</p>
             <img src="" alt="Beomgyu image" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
