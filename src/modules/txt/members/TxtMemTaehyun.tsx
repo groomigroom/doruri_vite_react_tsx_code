@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import '../../triples/members/TriplesMemS1.css';
 import './TxtMemTaehyun.css';
 
@@ -11,6 +13,10 @@ export default function TxtMemTaehyun() {
     return (
         <div className="txt_mm_taehyun_full">
             <Menu />
+            <section className="home_translate">
+                <Link to='/TxtMemTaehyun' className="on">한국어</Link>
+                <Link to='/TxtMemTaehyunEng'>English</Link>
+            </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />태현<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
                 멤버들을 잘 챙기고<br />
