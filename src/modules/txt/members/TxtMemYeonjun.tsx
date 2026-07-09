@@ -16,7 +16,7 @@ export default function TxtMemYeonjun() {
                 매일 노력하고<br />
                 준비해서<br />
                 여러분을 찾아 갈게요!</p>
-            <img src={Txt_mm_Yeonjun_img} alt="연준 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Txt_mm_Yeonjun_img} alt="연준 이미지" className='tri_mm_s1_img txt_mm_yeonjun_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
