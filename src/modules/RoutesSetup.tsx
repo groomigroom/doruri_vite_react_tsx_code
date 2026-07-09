@@ -15,6 +15,7 @@ import IdolList2 from './idol_search/IdolList2';
 //TriplesMain
 
 import TriplesMain from './triples/main/TriplesMain';
+import TriplesMainEng from './triplesEng/main/TriplesMainEng';
 import TriplesMemS1 from './triples/members/TriplesMemS1';
 import TriplesMemS2 from './triples/members/TriplesMemS2';
 import TriplesMemS3 from './triples/members/TriplesMemS3';
@@ -197,6 +198,7 @@ export default function RoutesSetup() {
 
 
             <Route path='/TriplesMain' element={<TriplesMain />}></Route>
+            <Route path='/TriplesMainEng' element={<TriplesMainEng />}></Route>
             <Route path='/TriplesMemS1' element={<TriplesMemS1 />}></Route>
             <Route path='/TriplesMemS2' element={<TriplesMemS2 />}></Route>
             <Route path='/TriplesMemS3' element={<TriplesMemS3 />}></Route>
