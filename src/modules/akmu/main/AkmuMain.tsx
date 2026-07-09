@@ -17,13 +17,17 @@ export default function AkmuMain() {
     return (
         <div className='akmu_m_full'>
             <Menu />
+            <section className="home_translate">
+                <Link to='/AkmuMain' className="on">한국어</Link>
+                <Link to='/AkmuMainEng'>English</Link>
+            </section>
             <img src={Akmu_m_logo} alt="AKMU 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="AKMU 로고 꾸미기" />AKMU<img src={MainH2Deco} alt="AKMU 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>지치고 병들지 말고<br />
                 &apos;AKMU&apos;와 함께<br />
                 오늘도 힘내길 바래요!
             </p>
-            <img src={Akmu_m_img} className='tri_m_img akmu_m_img' />
+            <img src={Akmu_m_img} className='tri_m_img akmu_m_img' alt='akmu' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full akmu_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
