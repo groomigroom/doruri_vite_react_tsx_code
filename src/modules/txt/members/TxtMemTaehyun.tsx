@@ -16,7 +16,7 @@ export default function TxtMemTaehyun() {
                 멤버들을 잘 챙기고<br />
                 침착하게<br />
                 여러분을 찾아 갈게요!</p>
-            <img src={Txt_mm_Taehyun_img} alt="태현 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Txt_mm_Taehyun_img} alt="태현 이미지" className='tri_mm_s1_img txt_mm_taehyun_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
