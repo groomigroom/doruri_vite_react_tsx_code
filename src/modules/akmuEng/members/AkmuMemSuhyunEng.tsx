@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import '../../triples/members/TriplesMemS1.css';
 import '../../akmu/members/AkmuMemSuhyun.css';
 
@@ -11,6 +13,10 @@ export default function AkmuMemSuhyunEng() {
     return (
         <div className="akmu_mm_suhyun_full">
             <MenuEng />
+            <section className="home_translate">
+                <Link to='/AkmuMemSuhyun'>한국어</Link>
+                <Link to='/AkmuMemSuhyunEng' className="on">English</Link>
+            </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="AKMU deco" />Lee Suhyun<img src={MainH2Deco} alt="AKMU deco" /></h2>
             <p className='tri_mm_s1_intropp'>
                 #####
