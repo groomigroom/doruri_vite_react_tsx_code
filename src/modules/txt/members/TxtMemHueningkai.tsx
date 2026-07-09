@@ -16,7 +16,7 @@ export default function TxtMemHueningkai() {
                 거짓없이<br />
                 잘 준비해서<br />
                 여러분을 찾아 갈게요!</p>
-            <img src={Txt_mm_Hueningkai_img} alt="휴닝카이 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Txt_mm_Hueningkai_img} alt="휴닝카이 이미지" className='tri_mm_s1_img txt_mm_hueningkai_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
