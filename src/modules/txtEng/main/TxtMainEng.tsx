@@ -27,43 +27,43 @@ export default function TxtMainEng() {
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="투바투 로고 꾸미기" />TOMORROW X TOGETHER<img src={MainH2Deco} alt="투바투 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
                 one! dream!<br />
-                하루에 하루만 더<br />
-                &apos;투모로우바이투게더&apos;와 함께 힘내 보아요.</p>
+                Just one more day Let's cheer up with<br />
+                &apos;TOMORROW X TOGETHER&apos;.</p>
             <img src="" className='tri_m_img txt_m_img' alt='TOMORROW X TOGETHER' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
+            <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TxtMemSubin' className='tri_m_mem_a'>
+                    <Link to='/TxtMemSubinEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="수빈 이미지" />
-                            <h4>수빈</h4>
+                            <img src="" alt="Soobin 이미지" />
+                            <h4>Soobin</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemYeonjun' className='tri_m_mem_a'>
+                    <Link to='/TxtMemYeonjunEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="연준 이미지" />
-                            <h4>연준</h4>
+                            <img src="" alt="Yeonjun 이미지" />
+                            <h4>Yeonjun</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemBeomgyu' className='tri_m_mem_a'>
+                    <Link to='/TxtMemBeomgyuEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="범규 이미지" />
-                            <h4>범규</h4>
+                            <img src="" alt="Beomgyu 이미지" />
+                            <h4>Beomgyu</h4>
                         </article>
                     </Link>
                 </section>
 
                 <section className='tri_m_mem_tr txt_m_mem_tr'>
-                    <Link to='/TxtMemTaehyun' className='tri_m_mem_a'>
+                    <Link to='/TxtMemTaehyunEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="태현 이미지" />
-                            <h4>태현</h4>
+                            <img src="" alt="Taehyun 이미지" />
+                            <h4>Taehyun</h4>
                         </article>
                     </Link>
-                    <Link to='/TxtMemHueningkai' className='tri_m_mem_a'>
+                    <Link to='/TxtMemHueningkaiEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="휴닝카이 이미지" />
-                            <h4>휴닝카이</h4>
+                            <img src="" alt="Huening Kai 이미지" />
+                            <h4>Huening Kai</h4>
                         </article>
                     </Link>
 
