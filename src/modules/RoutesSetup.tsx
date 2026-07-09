@@ -89,6 +89,7 @@ import AkmuEvent from "./akmu/events/AkmuEvent";
 //IoiMain
 
 import IoiMain from "./ioi/main/IoiMain";
+import IoiMainEng from './ioiEng/main/IoiMainEng';
 
 import IoiMemImnayoung from './ioi/members/IoiMemImnayoung';
 import IoiMemKimchungha from './ioi/members/IoiMemKimchungha';
@@ -278,7 +279,10 @@ export default function RoutesSetup() {
 
             <Route path='/AkmuEvent' element={<AkmuEvent />}></Route>
 
+            {/* IoiMain */}
+
             <Route path='/IoiMain' element={<IoiMain />}></Route>
+            <Route path='/IoiMainEng' element={<IoiMainEng />}></Route>
 
             <Route path='/IoiMemImnayoung' element={<IoiMemImnayoung />}></Route>
             <Route path='/IoiMemKimchungha' element={<IoiMemKimchungha />}></Route>
