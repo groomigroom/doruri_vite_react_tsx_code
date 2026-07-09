@@ -19,6 +19,10 @@ export default function TxtMain() {
     return (
         <div className='txt_m_full'>
             <Menu />
+            <section className="home_translate">
+                <Link to='/TxtMain' className="on">한국어</Link>
+                <Link to='/TxtMainEng'>English</Link>
+            </section>
             <img src={Txt_m_logo} alt="투바투 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="투바투 로고 꾸미기" />투모로우바이투게더<img src={MainH2Deco} alt="투바투 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
