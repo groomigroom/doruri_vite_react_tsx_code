@@ -5,7 +5,7 @@ import '../../triples/members/TriplesMemS5.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Tri_mm_s5_img from '../main/img/tri_m_memS5.jpg'
+import Tri_mm_s5_img from '../../triples/main/img/tri_m_memS5.jpg'
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function TriplesMemS5Eng() {
                 I'll take good care of<br />
                 other members and<br />
                 show you how I improve!</p>
-            <img src='' alt="Kim YooYeon img" className='tri_mm_s1_img' />
+            <img src={Tri_mm_s5_img} alt="Kim YooYeon img" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
