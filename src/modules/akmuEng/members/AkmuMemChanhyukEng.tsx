@@ -18,9 +18,10 @@ export default function AkmuMemChanhyukEng() {
                 <Link to='/AkmuMemChanhyukEng' className="on">English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="akmu deco" />Lee Chanhyuk<img src={MainH2Deco} alt="akmu deco" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                I'll think about it<br />
+                and prepare well<br />
+                and come back to you!</p>
             <img src={akmu_mm_chanhyuk_img} alt="Lee Chanhyuk 이미지" className='tri_mm_s1_img akmu_mm_chanhyuk_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
