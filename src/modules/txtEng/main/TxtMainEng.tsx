@@ -7,13 +7,13 @@ import MenuEng from '../../HomeEng/MenuEng';
 
 import Txt_m_logo from '../../txt/main/img/txt_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
-// import txt_m_img from './img/txt_m_txtimg.jpg';
+import txt_m_img from '../../txt/main/img/txt_m_txtimg.jpg';
 
-// import Txt_m_memSubin from './img/txt_m_mem_subin.jpg';
-// import Txt_m_memYeonjun from './img/txt_m_mem_yeonjun.jpg';
-// import Txt_m_memBeomgyu from './img/txt_m_mem_beomgyu.jpg';
-// import Txt_m_memTaehyun from './img/txt_m_mem_taehyun.jpg';
-// import Txt_m_memHueningkai from './img/txt_m_mem_hueningkai.jpg';
+import Txt_m_memSubin from '../../txt/main/img/txt_m_mem_subin.jpg';
+import Txt_m_memYeonjun from '../../txt/main/img/txt_m_mem_yeonjun.jpg';
+import Txt_m_memBeomgyu from '../../txt/main/img/txt_m_mem_beomgyu.jpg';
+import Txt_m_memTaehyun from '../../txt/main/img/txt_m_mem_taehyun.jpg';
+import Txt_m_memHueningkai from '../../txt/main/img/txt_m_mem_hueningkai.jpg';
 
 export default function TxtMainEng() {
     return (
@@ -29,25 +29,25 @@ export default function TxtMainEng() {
                 one! dream!<br />
                 Just one more day Let's cheer up with<br />
                 &apos;TOMORROW X TOGETHER&apos;.</p>
-            <img src="" className='tri_m_img txt_m_img' alt='TOMORROW X TOGETHER' />
+            <img src={txt_m_img} className='tri_m_img txt_m_img' alt='TOMORROW X TOGETHER' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/TxtMemSubinEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="Soobin 이미지" />
+                            <img src={Txt_m_memSubin} alt="Soobin 이미지" />
                             <h4>Soobin</h4>
                         </article>
                     </Link>
                     <Link to='/TxtMemYeonjunEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="Yeonjun 이미지" />
+                            <img src={Txt_m_memYeonjun} alt="Yeonjun 이미지" />
                             <h4>Yeonjun</h4>
                         </article>
                     </Link>
                     <Link to='/TxtMemBeomgyuEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="Beomgyu 이미지" />
+                            <img src={Txt_m_memBeomgyu} alt="Beomgyu 이미지" />
                             <h4>Beomgyu</h4>
                         </article>
                     </Link>
@@ -56,13 +56,13 @@ export default function TxtMainEng() {
                 <section className='tri_m_mem_tr txt_m_mem_tr'>
                     <Link to='/TxtMemTaehyunEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="Taehyun 이미지" />
+                            <img src={Txt_m_memTaehyun} alt="Taehyun 이미지" />
                             <h4>Taehyun</h4>
                         </article>
                     </Link>
                     <Link to='/TxtMemHueningkaiEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="Huening Kai 이미지" />
+                            <img src={Txt_m_memHueningkai} alt="Huening Kai 이미지" />
                             <h4>Huening Kai</h4>
                         </article>
                     </Link>
