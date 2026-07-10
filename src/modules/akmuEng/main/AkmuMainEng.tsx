@@ -4,10 +4,10 @@ import "../../triples/main/TriplesMain.css";
 import "../../akmu/main/AkmuMain.css";
 
 import Akmu_m_logo from '../../akmu/main/img/akmu_m_logo.svg';
-// import Akmu_m_img from './img/aknu_m_akmuimg.jpg';
+import Akmu_m_img from '../../akmu/main/img/aknu_m_akmuimg.jpg';
 
-// import Akmu_m_chanhyuk from './img/aknu_m_chanhyuk.jpg';
-// import Akmu_m_suhyun from './img/aknu_m_suhyun.jpg';
+import Akmu_m_chanhyuk from '../../akmu/main/img/aknu_m_chanhyuk.jpg';
+import Akmu_m_suhyun from '../../akmu/main/img/aknu_m_suhyun.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -28,19 +28,19 @@ export default function AkmuMainEng() {
                 With &apos;AKMU&apos;<br />
                 I hope you cheer up today!
             </p>
-            <img src='' className='tri_m_img akmu_m_img' alt='akmu' />
+            <img src={Akmu_m_img} className='tri_m_img akmu_m_img' alt='akmu' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='tri_m_mem_tr_full akmu_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/AkmuMemChanhyukEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Lee Chanhyuk 이미지" />
+                            <img src={Akmu_m_chanhyuk} alt="Lee Chanhyuk 이미지" />
                             <h4>Lee Chanhyuk</h4>
                         </article>
                     </Link>
                     <Link to='/AkmuMemSuhyunEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Lee Suhyun 이미지" />
+                            <img src={Akmu_m_suhyun} alt="Lee Suhyun 이미지" />
                             <h4>Lee Suhyun</h4>
                         </article>
                     </Link>
