@@ -5,7 +5,7 @@ import '../../triples/members/TriplesMemS3.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Tri_mm_s3_img from '../main/img/tri_m_memS3.jpg'
+import Tri_mm_s3_img from '../../triples/main/img/tri_m_memS3.jpg'
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function TriplesMemS3Eng() {
                 It's not just one shape<br />
                 I'm going to show you a lot of my personalities<br />
                 Let me show you!</p>
-            <img src='' alt="Lee JiWoo img" className='tri_mm_s1_img' />
+            <img src={Tri_mm_s3_img} alt="Lee JiWoo img" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
