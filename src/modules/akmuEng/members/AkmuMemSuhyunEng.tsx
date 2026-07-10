@@ -19,10 +19,9 @@ export default function AkmuMemSuhyunEng() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="AKMU deco" />Lee Suhyun<img src={MainH2Deco} alt="AKMU deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                #####
-                24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+                Even if it's hard,<br />
+                I'll overcome it<br />
+                and come back to you!</p>
             <img src={akmu_mm_suhyun_img} alt="Lee Suhyun" className='tri_mm_s1_img akmu_mm_suhyun_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
