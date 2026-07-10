@@ -5,7 +5,7 @@ import '../../txt/members/TxtMemSubin.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Txt_mm_Subin_img from '../main/img/txt_m_mem_subin.jpg';
+import Txt_mm_Subin_img from '../../txt/main/img/txt_m_mem_subin.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function TxtMemSubinEng() {
                 I will approach you with<br />
                 both confidence and<br />
                 careful consideration!</p>
-            <img src='' alt="Soobin image" className='tri_mm_s1_img txt_mm_subin_img' />
+            <img src={Txt_mm_Subin_img} alt="Soobin image" className='tri_mm_s1_img txt_mm_subin_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
