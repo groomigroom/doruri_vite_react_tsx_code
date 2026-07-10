@@ -22,7 +22,7 @@ export default function TriplesMemS4Eng() {
                 With a new mindset<br />
                 I'll show you my brighter side<br />
                 let me show you!</p>
-            <img src='' alt="김채연 이미지" className='tri_mm_s1_img' />
+            <img src='' alt="Kim ChaeYeon img" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
