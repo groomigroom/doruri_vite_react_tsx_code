@@ -21,6 +21,7 @@ import TriplesMemS1Eng from './triplesEng/members/TriplesMemS1Eng';
 import TriplesMemS2 from './triples/members/TriplesMemS2';
 import TriplesMemS2Eng from './triplesEng/members/TriplesMemS2Eng';
 import TriplesMemS3 from './triples/members/TriplesMemS3';
+import TriplesMemS3Eng from './triplesEng/members/TriplesMemS3Eng';
 import TriplesMemS4 from './triples/members/TriplesMemS4';
 import TriplesMemS5 from './triples/members/TriplesMemS5';
 import TriplesMemS6 from './triples/members/TriplesMemS6';
@@ -216,6 +217,7 @@ export default function RoutesSetup() {
             <Route path='/TriplesMemS2' element={<TriplesMemS2 />}></Route>
             <Route path='/TriplesMemS2Eng' element={<TriplesMemS2Eng />}></Route>
             <Route path='/TriplesMemS3' element={<TriplesMemS3 />}></Route>
+            <Route path='/TriplesMemS3Eng' element={<TriplesMemS3Eng />}></Route>
             <Route path='/TriplesMemS4' element={<TriplesMemS4 />}></Route>
             <Route path='/TriplesMemS5' element={<TriplesMemS5 />}></Route>
             <Route path='/TriplesMemS6' element={<TriplesMemS6 />}></Route>
