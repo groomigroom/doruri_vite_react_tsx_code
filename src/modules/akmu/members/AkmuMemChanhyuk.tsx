@@ -18,9 +18,10 @@ export default function AkmuMemChanhyuk() {
                 <Link to='/AkmuMemChanhyukEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />이찬혁<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                오늘도 고민하며<br />
+                잘 준비해서<br />
+                여러분을 찾아 갈게요!</p>
             <img src={akmu_mm_chanhyuk_img} alt="이찬혁 이미지" className='tri_mm_s1_img akmu_mm_chanhyuk_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
