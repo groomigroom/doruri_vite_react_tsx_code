@@ -116,16 +116,27 @@ import IoiMain from "./ioi/main/IoiMain";
 import IoiMainEng from './ioiEng/main/IoiMainEng';
 
 import IoiMemImnayoung from './ioi/members/IoiMemImnayoung';
+import IoiMemImnayoungEng from './ioiEng/members/IoiMemImnayoungEng';
 import IoiMemKimchungha from './ioi/members/IoiMemKimchungha';
+import IoiMemKimchunghaEng from './ioiEng/members/IoiMemKimchunghaEng';
 import IoiMemKimsejung from './ioi/members/IoiMemKimsejung';
+import IoiMemKimsejungEng from './ioiEng/members/IoiMemKimsejungEng';
 import IoiMemJungcheyun from './ioi/members/IoiMemJungcheyun';
+import IoiMemJungcheyunEng from './ioiEng/members/IoiMemJungcheyunEng';
 import IoiMemJugyulgyoung from './ioi/members/IoiMemJugyulgyoung';
+import IoiMemJugyulgyoungEng from './ioiEng/members/IoiMemJugyulgyoungEng';
 import IoiMemKimsohye from './ioi/members/IoiMemKimsohye';
+import IoiMemKimsohyeEng from './ioiEng/members/IoiMemKimsohyeEng';
 import IoiMemYuyeonjung from './ioi/members/IoiMemYuyeonjung';
+import IoiMemYuyeonjungEng from './ioiEng/members/IoiMemYuyeonjungEng';
 import IoiMemChoiyujung from './ioi/members/IoiMemChoiyujung';
+import IoiMemChoiyujungEng from './ioiEng/members/IoiMemChoiyujungEng';
 import IoiMemGangmina from './ioi/members/IoiMemGangmina';
+import IoiMemGangminaEng from './ioiEng/members/IoiMemGangminaEng';
 import IoiMemKimdoyeon from './ioi/members/IoiMemKimdoyeon';
+import IoiMemKimdoyeonEng from './ioiEng/members/IoiMemKimdoyeonEng';
 import IoiMemJeonsomi from './ioi/members/IoiMemJeonsomi';
+import IoiMemJeonsomiEng from './ioiEng/members/IoiMemJeonsomiEng';
 
 //StrayKidsMain
 
@@ -333,16 +344,27 @@ export default function RoutesSetup() {
             <Route path='/IoiMainEng' element={<IoiMainEng />}></Route>
 
             <Route path='/IoiMemImnayoung' element={<IoiMemImnayoung />}></Route>
+            <Route path='/IoiMemImnayoungEng' element={<IoiMemImnayoungEng />}></Route>
             <Route path='/IoiMemKimchungha' element={<IoiMemKimchungha />}></Route>
+            <Route path='/IoiMemKimchunghaEng' element={<IoiMemKimchunghaEng />}></Route>
             <Route path='/IoiMemKimsejung' element={<IoiMemKimsejung />}></Route>
+            <Route path='/IoiMemKimsejungEng' element={<IoiMemKimsejungEng />}></Route>
             <Route path='/IoiMemJungcheyun' element={<IoiMemJungcheyun />}></Route>
+            <Route path='/IoiMemJungcheyunEng' element={<IoiMemJungcheyunEng />}></Route>
             <Route path='/IoiMemJugyulgyoung' element={<IoiMemJugyulgyoung />}></Route>
+            <Route path='/IoiMemJugyulgyoungEng' element={<IoiMemJugyulgyoungEng />}></Route>
             <Route path='/IoiMemKimsohye' element={<IoiMemKimsohye />}></Route>
+            <Route path='/IoiMemKimsohyeEng' element={<IoiMemKimsohyeEng />}></Route>
             <Route path='/IoiMemYuyeonjung' element={<IoiMemYuyeonjung />}></Route>
+            <Route path='/IoiMemYuyeonjungEng' element={<IoiMemYuyeonjungEng />}></Route>
             <Route path='/IoiMemChoiyujung' element={<IoiMemChoiyujung />}></Route>
+            <Route path='/IoiMemChoiyujungEng' element={<IoiMemChoiyujungEng />}></Route>
             <Route path='/IoiMemGangmina' element={<IoiMemGangmina />}></Route>
+            <Route path='/IoiMemGangminaEng' element={<IoiMemGangminaEng />}></Route>
             <Route path='/IoiMemKimdoyeon' element={<IoiMemKimdoyeon />}></Route>
+            <Route path='/IoiMemKimdoyeonEng' element={<IoiMemKimdoyeonEng />}></Route>
             <Route path='/IoiMemJeonsomi' element={<IoiMemJeonsomi />}></Route>
+            <Route path='/IoiMemJeonsomiEng' element={<IoiMemJeonsomiEng />}></Route>
 
             <Route path='/StrayKidsMain' element={<StrayKidsMain />}></Route>
 
