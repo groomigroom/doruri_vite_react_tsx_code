@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './TriplesMemS1.css';
 
 import Menu from '../../Menu';
@@ -10,6 +12,10 @@ export default function TriplesMemS1() {
     return (
         <div className="tri_mm_s1_full">
             <Menu />
+            <section className="home_translate">
+                <Link to='/TriplesMemS1' className="on">한국어</Link>
+                <Link to='/TriplesMemS1Eng'>English</Link>
+            </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />윤서연<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
                 24명은 많은 것 같아도<br />
