@@ -7,7 +7,7 @@ import Menu from '../../Menu';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
-export default function IoiMemGangmina() {
+export default function IoiMemGangminaEng() {
     return (
         <div className="ioi_mm_gangmina_full">
             <Menu />
@@ -63,4 +63,3 @@ export default function IoiMemGangmina() {
     );
 };
 
-IoiMemGangminaEng.tsx
