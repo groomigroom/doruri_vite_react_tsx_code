@@ -1,7 +1,9 @@
-import '../../triples/members/TriplesMemS1.css';
-import './IoiMemJungcheyun.css';
+import { Link } from 'react-router-dom';
 
-import Menu from '../../Menu';
+import '../../triples/members/TriplesMemS1.css';
+import '../../ioi/members/IoiMemJungcheyun.css';
+
+import MenuEng from '../../HomeEng/MenuEng';
 
 // import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
 
@@ -10,12 +12,16 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 export default function IoiMemJungcheyunEng() {
     return (
         <div className="ioi_mm_jungcheyun_full">
-            <Menu />
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />정채연<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
+            <MenuEng />
+            <section className="home_translate">
+                <Link to='/IoiMemJungcheyun'>한국어</Link>
+                <Link to='/IoiMemJungcheyunEng' className="on">English</Link>
+            </section>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />Jung Chaeyeon<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
-            <img src="" alt="정채연 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src="" alt="Jung Chaeyeon" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
