@@ -5,7 +5,7 @@ import '../../triples/members/TriplesMemS2.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Tri_mm_s2_img from '../main/img/tri_m_memS2.jpg'
+import Tri_mm_s2_img from '../../triples/main/img/tri_m_memS2.jpg'
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -23,7 +23,7 @@ export default function TriplesMemS2Eng() {
                 all of me with music<br />
                 I'll play it for you!
             </p>
-            <img src='' alt="Jeong HyeRin img" className='tri_mm_s1_img' />
+            <img src={Tri_mm_s2_img} alt="Jeong HyeRin img" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
