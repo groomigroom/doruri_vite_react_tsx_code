@@ -5,7 +5,7 @@ import '../../txt/members/TxtMemHueningkai.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Txt_mm_Hueningkai_img from '../main/img/txt_m_mem_hueningkai.jpg';
+import Txt_mm_Hueningkai_img from '../../txt/main/img/txt_m_mem_hueningkai.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function TxtMemHueningkaiEng() {
                 Without a lie<br />
                 I'll prepare well<br />
                 I'll be back to you!</p>
-            <img src="" alt="Huening Kai image" className='tri_mm_s1_img txt_mm_hueningkai_img' />
+            <img src={Txt_mm_Hueningkai_img} alt="Huening Kai image" className='tri_mm_s1_img txt_mm_hueningkai_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
