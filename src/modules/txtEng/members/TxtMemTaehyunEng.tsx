@@ -5,7 +5,7 @@ import '../../txt/members/TxtMemTaehyun.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Txt_mm_Taehyun_img from '../main/img/txt_m_mem_taehyun.jpg';
+import Txt_mm_Taehyun_img from '../../txt/main/img/txt_m_mem_taehyun.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function TxtMemTaehyunEng() {
                 I take good care of the members<br />
                 in one's sober senses<br />
                 I'll be back to you!</p>
-            <img src='' alt="Taehyun img" className='tri_mm_s1_img txt_mm_taehyun_img' />
+            <img src={Txt_mm_Taehyun_img} alt="Taehyun img" className='tri_mm_s1_img txt_mm_taehyun_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
