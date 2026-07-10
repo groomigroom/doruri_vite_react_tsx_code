@@ -7,7 +7,7 @@ import Menu from '../../Menu';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
-export default function IoiMemImnayoung() {
+export default function IoiMemImnayoungEng() {
     return (
         <div className="ioi_mm_imnayoung_full">
             <Menu />
@@ -64,4 +64,3 @@ export default function IoiMemImnayoung() {
     );
 };
 
-IoiMemImnayoungEng.tsx
