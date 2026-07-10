@@ -5,7 +5,7 @@ import '../../akmu/members/AkmuMemChanhyuk.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import akmu_mm_chanhyuk_img from '../main/img/aknu_m_chanhyuk.jpg';
+import akmu_mm_chanhyuk_img from '../../akmu/main/img/aknu_m_chanhyuk.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -21,7 +21,7 @@ export default function AkmuMemChanhyukEng() {
             <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
-            <img src='' alt="Lee Chanhyuk 이미지" className='tri_mm_s1_img akmu_mm_chanhyuk_img' />
+            <img src={akmu_mm_chanhyuk_img} alt="Lee Chanhyuk 이미지" className='tri_mm_s1_img akmu_mm_chanhyuk_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
