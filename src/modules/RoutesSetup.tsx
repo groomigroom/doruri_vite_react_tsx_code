@@ -49,13 +49,21 @@ import TriplesMemS15Eng from './triplesEng/members/TriplesMemS15Eng';
 import TriplesMemS16 from './triples/members/TriplesMemS16';
 import TriplesMemS16Eng from './triplesEng/members/TriplesMemS16Eng';
 import TriplesMemS17 from './triples/members/TriplesMemS17';
+import TriplesMemS17Eng from './triplesEng/members/TriplesMemS17Eng';
 import TriplesMemS18 from './triples/members/TriplesMemS18';
+import TriplesMemS18Eng from './triplesEng/members/TriplesMemS18Eng';
 import TriplesMemS19 from './triples/members/TriplesMemS19';
+import TriplesMemS19Eng from './triplesEng/members/TriplesMemS19Eng';
 import TriplesMemS20 from './triples/members/TriplesMemS20';
+import TriplesMemS20Eng from './triplesEng/members/TriplesMemS20Eng';
 import TriplesMemS21 from './triples/members/TriplesMemS21';
+import TriplesMemS21Eng from './triplesEng/members/TriplesMemS21Eng';
 import TriplesMemS22 from './triples/members/TriplesMemS22';
+import TriplesMemS22Eng from './triplesEng/members/TriplesMemS22Eng';
 import TriplesMemS23 from './triples/members/TriplesMemS23';
+import TriplesMemS23Eng from './triplesEng/members/TriplesMemS23Eng';
 import TriplesMemS24 from './triples/members/TriplesMemS24';
+import TriplesMemS24Eng from './triplesEng/members/TriplesMemS24Eng';
 
 import TriplesEvent from "./triples/events/TriplesEvent";
 
@@ -258,13 +266,21 @@ export default function RoutesSetup() {
             <Route path='/TriplesMemS16' element={<TriplesMemS16 />}></Route>
             <Route path='/TriplesMemS16Eng' element={<TriplesMemS16Eng />}></Route>
             <Route path='/TriplesMemS17' element={<TriplesMemS17 />}></Route>
+            <Route path='/TriplesMemS17Eng' element={<TriplesMemS17Eng />}></Route>
             <Route path='/TriplesMemS18' element={<TriplesMemS18 />}></Route>
+            <Route path='/TriplesMemS18Eng' element={<TriplesMemS18Eng />}></Route>
             <Route path='/TriplesMemS19' element={<TriplesMemS19 />}></Route>
+            <Route path='/TriplesMemS19Eng' element={<TriplesMemS19Eng />}></Route>
             <Route path='/TriplesMemS20' element={<TriplesMemS20 />}></Route>
+            <Route path='/TriplesMemS20Eng' element={<TriplesMemS20Eng />}></Route>
             <Route path='/TriplesMemS21' element={<TriplesMemS21 />}></Route>
+            <Route path='/TriplesMemS21Eng' element={<TriplesMemS21Eng />}></Route>
             <Route path='/TriplesMemS22' element={<TriplesMemS22 />}></Route>
+            <Route path='/TriplesMemS22Eng' element={<TriplesMemS22Eng />}></Route>
             <Route path='/TriplesMemS23' element={<TriplesMemS23 />}></Route>
+            <Route path='/TriplesMemS23Eng' element={<TriplesMemS23Eng />}></Route>
             <Route path='/TriplesMemS24' element={<TriplesMemS24 />}></Route>
+            <Route path='/TriplesMemS24Eng' element={<TriplesMemS24Eng />}></Route>
 
             <Route path='/TriplesEvent' element={<TriplesEvent />}></Route>
 
