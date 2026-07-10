@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './TriplesMemS1.css';
 import './TriplesMemS24.css';
 
@@ -11,6 +13,10 @@ export default function TriplesMemS24() {
     return (
         <div className="tri_mm_s24_full">
             <Menu />
+            <section className="home_translate">
+                <Link to='/TriplesMemS24' className="on">한국어</Link>
+                <Link to='/TriplesMemS24Eng'>English</Link>
+            </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />지연<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
                 깔끔하게 정리하고<br />
