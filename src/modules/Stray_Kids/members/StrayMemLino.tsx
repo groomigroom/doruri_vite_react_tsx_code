@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import '../../triples/members/TriplesMemS1.css';
 import './StrayMemLino.css';
 
@@ -11,6 +13,10 @@ export default function StrayMemLino() {
     return (
         <div className="str_mm_lino_full">
             <Menu />
+            <section className="home_translate">
+                <Link to='/StrayMemLino' className="on">한국어</Link>
+                <Link to='/StrayMemLinoEng'>English</Link>
+            </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" />리노<img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
