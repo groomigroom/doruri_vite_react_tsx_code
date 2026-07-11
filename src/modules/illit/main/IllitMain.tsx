@@ -22,6 +22,10 @@ export default function IllitMain() {
     return (
         <div className='ill_m_full'>
             <Menu />
+            <section className="home_translate">
+                <Link to='/IllitMain' className="on">한국어</Link>
+                <Link to='/IllitMainEng'>English</Link>
+            </section>
             <img src={Ill_m_logo} alt="illit 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="illit 로고 꾸미기" />ILLIT<img src={MainH2Deco} alt="illit 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
