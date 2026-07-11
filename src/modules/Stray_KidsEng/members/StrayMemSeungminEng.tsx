@@ -18,11 +18,11 @@ export default function StrayMemSeungminEng() {
                 <Link to='/StrayMemSeungmin'>한국어</Link>
                 <Link to='/StrayMemSeungminEng' className="on">English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="Stray Kids deco" />승민<img src={MainH2Deco} alt="Stray Kids deco" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="Stray Kids deco" />Seungmin<img src={MainH2Deco} alt="Stray Kids deco" /></h2>
             <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
-            <img src='' alt="승민 이미지" className='tri_mm_s1_img' />
+            <img src='' alt="Seungmin" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
