@@ -18,9 +18,10 @@ export default function IoiMemKimdoyeonEng() {
                 <Link to='/IoiMemKimdoyeonEng' className="on">English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="ioi deco" />Kim Doyeon<img src={MainH2Deco} alt="ioi deco" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                I'm crying,<br />
+                but I'm going<br />
+                to find you!</p>
             <img src="" alt="Kim Doyeon" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
