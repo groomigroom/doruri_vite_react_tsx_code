@@ -92,9 +92,7 @@ TriplesMemS24Eng.tsx
 
 
 청하
-제가 그동안
-꿈꿔왔던 노래를
-들려 드릴게요!
+
 
 I'll play the song
 I've been
