@@ -18,9 +18,10 @@ export default function IoiMemKimchunghaEng() {
                 <Link to='/IoiMemKimchunghaEng' className="on">English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />CHUNG HA<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                I'll play the song<br />
+                I've been<br />
+                dreaming of!</p>
             <img src="" alt="CHUNG HA 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
