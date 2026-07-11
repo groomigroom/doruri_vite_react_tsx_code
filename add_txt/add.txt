@@ -115,3 +115,47 @@ Zena
 <td><p>완벽?!</p></td>
 </tr>
 
+s3
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2005년 10월 24일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>172.7cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>O형</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>쥬</p></td>
+</tr>
+<tr>
+<td><p>취미</p></td>
+<td><p>베이킹하기</p></td>
+</tr>
+<tr>
+<td><p>특기</p></td>
+<td><p>하키</p></td>
+</tr>
+<tr>
+<td><p>좋아하는 음식</p></td>
+<td><p>마라탕</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td>
+<p>+
+ 유닛
++(KR)ystal Eyes｜Acid Eyes｜EVOLution｜Aria｜∞!｜zenith
+
+
+
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>좋음</p></td>
+</tr>
