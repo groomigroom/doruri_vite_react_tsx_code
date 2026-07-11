@@ -26,6 +26,10 @@ export default function StrayKidsMainEng() {
     return (
         <div className='str_m_full'>
             <MenuEng />
+            <section className="home_translate">
+                <Link to='/StrayKidsMain'>한국어</Link>
+                <Link to='/StrayKidsMainEng' className="on">English</Link>
+            </section>
             <img src={Str_m_logo} alt="Stray Kids logo" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="Stray Kids deco" />Stray Kids<img src={MainH2Deco} alt="Stray Kids deco" /></h2>
             <p className='tri_m_intropp'>
@@ -37,27 +41,27 @@ export default function StrayKidsMainEng() {
             <section className='tri_m_mem_tr_full str_m_mem_tr_full'>
 
                 <section className='tri_m_mem_tr str_m_mem_tr'>
-                    <Link to='/StrayMemBangchan' className='tri_m_mem_a'>
+                    <Link to='/StrayMemBangchanEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src='' alt="방찬 이미지" />
                             <h4>방찬</h4>
                         </article>
                     </Link>
-                    <Link to='/StrayMemLino'>
+                    <Link to='/StrayMemLinoEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="리노 이미지" />
                             <h4>리노</h4>
                         </article>
                     </Link>
 
-                    <Link to='/StrayMemChangbin'>
+                    <Link to='/StrayMemChangbinEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="창빈 이미지" />
                             <h4>창빈</h4>
                         </article>
                     </Link>
 
-                    <Link to='/StrayMemHyunjin'>
+                    <Link to='/StrayMemHyunjinEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="현진 이미지" />
                             <h4>현진</h4>
@@ -66,28 +70,28 @@ export default function StrayKidsMainEng() {
                 </section>
 
                 <section className='tri_m_mem_tr'>
-                    <Link to='/StrayMemHan'>
+                    <Link to='/StrayMemHanEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="한 이미지" />
                             <h4>한</h4>
                         </article>
                     </Link>
 
-                    <Link to='/StrayMemFilix'>
+                    <Link to='/StrayMemFilixEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="필릭스 이미지" />
                             <h4>필릭스</h4>
                         </article>
                     </Link>
 
-                    <Link to='/StrayMemSeungmin'>
+                    <Link to='/StrayMemSeungminEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="승민 이미지" />
                             <h4>승민</h4>
                         </article>
                     </Link>
 
-                    <Link to='/StrayMemIn'>
+                    <Link to='/StrayMemInEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="아이엔 이미지" />
                             <h4>아이엔</h4>
