@@ -163,12 +163,18 @@ import StrayMemInEng from './Stray_KidsEng/members/StrayMemInEng';
 //IllitMain
 
 import IllitMain from './illit/main/IllitMain';
+import IllitMainEng from './illitEng/main/IllitMainEng';
 
 import IllMemYunah from './illit/members/IllMemYunah';
+import IllMemYunahEng from './illitEng/members/IllMemYunahEng';
 import IllMemMinju from './illit/members/IllMemMinju';
+import IllMemMinjuEng from './illitEng/members/IllMemMinjuEng';
 import IllMemMoka from './illit/members/IllMemMoka';
+import IllMemMokaEng from './illitEng/members/IllMemMokaEng';
 import IllMemWonhee from './illit/members/IllMemWonhee';
+import IllMemWonheeEng from './illitEng/members/IllMemWonheeEng';
 import IllMemEroha from './illit/members/IllMemEroha';
+import IllMemErohaEng from './illitEng/members/IllMemErohaEng';
 
 //TwsMain
 
@@ -396,12 +402,18 @@ export default function RoutesSetup() {
             <Route path='/StrayMemInEng' element={<StrayMemInEng />}></Route>
 
             <Route path='/IllitMain' element={<IllitMain />}></Route>
+            <Route path='/IllitMainEng' element={<IllitMainEng />}></Route>
 
             <Route path='/IllMemYunah' element={<IllMemYunah />}></Route>
+            <Route path='/IllMemYunahEng' element={<IllMemYunahEng />}></Route>
             <Route path='/IllMemMinju' element={<IllMemMinju />}></Route>
+            <Route path='/IllMemMinjuEng' element={<IllMemMinjuEng />}></Route>
             <Route path='/IllMemMoka' element={<IllMemMoka />}></Route>
+            <Route path='/IllMemMokaEng' element={<IllMemMokaEng />}></Route>
             <Route path='/IllMemWonhee' element={<IllMemWonhee />}></Route>
+            <Route path='/IllMemWonheeEng' element={<IllMemWonheeEng />}></Route>
             <Route path='/IllMemEroha' element={<IllMemEroha />}></Route>
+            <Route path='/IllMemErohaEng' element={<IllMemErohaEng />}></Route>
 
             <Route path='/TwsMain' element={<TwsMain />}></Route>
 
