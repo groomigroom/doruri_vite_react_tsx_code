@@ -1,22 +1,3 @@
-Integer a = 5; // 컴파일러가 Integer.valueOf(5)로 변환
-List<Integer> list = new ArrayList<>();
-list.add(10); // int 10을 Integer 객체로 자동 포장
-
-Integer a = 5;
-Integer.valueOf(5);
-
-List<Integer> list = new ArrayList<>();
-list.add(10);
-
-Integer a = 5; // 컴파일러가 Integer.valueOf(5)로 변환
-List<Integer> list = new ArrayList<>();
-list.add(10); // int 10을 Integer 객체로 자동 포장
-
-Integer a = 5;
-Integer.valueOf(5);
-
-List<Integer> list = new ArrayList<>();
-list.add(10);
 
 트리플에스
 
