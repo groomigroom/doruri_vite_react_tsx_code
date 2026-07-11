@@ -12,9 +12,10 @@ export default function IoiMemJugyulgyoung() {
         <div className="ioi_mm_jugyulgyoung_full">
             <Menu />
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />주결경<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                포기하지 않고<br />
+                열심히 노력하며<br />
+                여러분을 찾아 갈게요!</p>
             <img src="" alt="주결경 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
