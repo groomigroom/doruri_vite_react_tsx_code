@@ -141,6 +141,7 @@ import IoiMemJeonsomiEng from './ioiEng/members/IoiMemJeonsomiEng';
 //StrayKidsMain
 
 import StrayKidsMain from './Stray_Kids/main/StrayKidsMain';
+import StrayKidsMainEng from './Stray_KidsEng/main/StrayKidsMainEng';
 
 import StrayMemBangchan from './Stray_Kids/members/StrayMemBangchan';
 import StrayMemLino from './Stray_Kids/members/StrayMemLino';
@@ -367,6 +368,7 @@ export default function RoutesSetup() {
             <Route path='/IoiMemJeonsomiEng' element={<IoiMemJeonsomiEng />}></Route>
 
             <Route path='/StrayKidsMain' element={<StrayKidsMain />}></Route>
+            <Route path='/StrayKidsMainEng' element={<StrayKidsMainEng />}></Route>
 
             <Route path='/StrayMemBangchan' element={<StrayMemBangchan />}></Route>
             <Route path='/StrayMemLino' element={<StrayMemLino />}></Route>
