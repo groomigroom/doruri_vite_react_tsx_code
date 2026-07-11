@@ -144,13 +144,21 @@ import StrayKidsMain from './Stray_Kids/main/StrayKidsMain';
 import StrayKidsMainEng from './Stray_KidsEng/main/StrayKidsMainEng';
 
 import StrayMemBangchan from './Stray_Kids/members/StrayMemBangchan';
+import StrayMemBangchanEng from './Stray_KidsEng/members/StrayMemBangchanEng';
 import StrayMemLino from './Stray_Kids/members/StrayMemLino';
+import StrayMemLinoEng from './Stray_KidsEng/members/StrayMemLinoEng';
 import StrayMemChangbin from './Stray_Kids/members/StrayMemChangbin';
+import StrayMemChangbinEng from './Stray_KidsEng/members/StrayMemChangbinEng';
 import StrayMemHyunjin from './Stray_Kids/members/StrayMemHyunjin';
+import StrayMemHyunjinEng from './Stray_KidsEng/members/StrayMemHyunjinEng';
 import StrayMemHan from './Stray_Kids/members/StrayMemHan';
+import StrayMemHanEng from './Stray_KidsEng/members/StrayMemHanEng';
 import StrayMemFilix from './Stray_Kids/members/StrayMemFilix';
+import StrayMemFilixEng from './Stray_KidsEng/members/StrayMemFilixEng';
 import StrayMemSeungmin from './Stray_Kids/members/StrayMemSeungmin';
+import StrayMemSeungminEng from './Stray_KidsEng/members/StrayMemSeungminEng';
 import StrayMemIn from './Stray_Kids/members/StrayMemIn';
+import StrayMemInEng from './Stray_KidsEng/members/StrayMemInEng';
 
 //IllitMain
 
@@ -371,13 +379,21 @@ export default function RoutesSetup() {
             <Route path='/StrayKidsMainEng' element={<StrayKidsMainEng />}></Route>
 
             <Route path='/StrayMemBangchan' element={<StrayMemBangchan />}></Route>
+            <Route path='/StrayMemBangchanEng' element={<StrayMemBangchanEng />}></Route>
             <Route path='/StrayMemLino' element={<StrayMemLino />}></Route>
+            <Route path='/StrayMemLinoEng' element={<StrayMemLinoEng />}></Route>
             <Route path='/StrayMemChangbin' element={<StrayMemChangbin />}></Route>
+            <Route path='/StrayMemChangbinEng' element={<StrayMemChangbinEng />}></Route>
             <Route path='/StrayMemHyunjin' element={<StrayMemHyunjin />}></Route>
+            <Route path='/StrayMemHyunjinEng' element={<StrayMemHyunjinEng />}></Route>
             <Route path='/StrayMemHan' element={<StrayMemHan />}></Route>
+            <Route path='/StrayMemHanEng' element={<StrayMemHanEng />}></Route>
             <Route path='/StrayMemFilix' element={<StrayMemFilix />}></Route>
+            <Route path='/StrayMemFilixEng' element={<StrayMemFilixEng />}></Route>
             <Route path='/StrayMemSeungmin' element={<StrayMemSeungmin />}></Route>
+            <Route path='/StrayMemSeungminEng' element={<StrayMemSeungminEng />}></Route>
             <Route path='/StrayMemIn' element={<StrayMemIn />}></Route>
+            <Route path='/StrayMemInEng' element={<StrayMemInEng />}></Route>
 
             <Route path='/IllitMain' element={<IllitMain />}></Route>
 
