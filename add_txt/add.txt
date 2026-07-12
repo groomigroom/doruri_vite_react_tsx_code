@@ -111,10 +111,6 @@ Minami
 May
 Zena
 
-<td><p>성격</p></td>
-<td><p>완벽?!</p></td>
-</tr>
-
 
 s4
 
