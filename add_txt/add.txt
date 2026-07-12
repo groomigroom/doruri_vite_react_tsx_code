@@ -407,3 +407,48 @@ LOVElution｜Aria｜Visionary Vision｜Alphie｜neptune
 <td><p>성격</p></td>
 <td><p>활발함</p></td>
 </tr>
+
+s14
+
+tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2002년 10월 13일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>167.3cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>B형</p></td>
+</tr>
+<tr>
+
+<td><p>별명</p></td>
+<td><p>박쌤</p></td>
+</tr>
+<tr>
+<td><p>취미</p></td>
+<td><p독서</p></td>
+</tr>
+<tr>
+<td><p>특기</p></td>
+<td><p>글쓰기</p></td>
+</tr>
+<tr>
+<td><p>좋아하는 음식</p></td>
+<td><p>떡볶이</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td>
+<p>+
+소속 유닛
+LOVElution｜Visionary Vision｜moon
+
+
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>차분함</p></td>
+</tr>
