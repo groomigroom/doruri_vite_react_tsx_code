@@ -179,13 +179,20 @@ import IllMemErohaEng from './illitEng/members/IllMemErohaEng';
 //TwsMain
 
 import TwsMain from './tws/main/TwsMain';
+import TwsMainEng from './twsEng/main/TwsMainEng';
 
 import TwsMemSinyu from './tws/members/TwsMemSinyu';
+import TwsMemSinyuEng from './twsEng/members/TwsMemSinyuEng';
 import TwsMemDohun from './tws/members/TwsMemDohun';
+import TwsMemDohunEng from './twsEng/members/TwsMemDohunEng';
 import TwsMemYoungjae from './tws/members/TwsMemYoungjae';
+import TwsMemYoungjaeEng from './twsEng/members/TwsMemYoungjaeEng';
 import TwsMemHanjin from './tws/members/TwsMemHanjin';
+import TwsMemHanjinEng from './twsEng/members/TwsMemHanjinEng';
 import TwsMemJihun from './tws/members/TwsMemJihun';
+import TwsMemJihunEng from './twsEng/members/TwsMemJihunEng';
 import TwsMemGyungmin from './tws/members/TwsMemGyungmin';
+import TwsMemGyungminEng from './twsEng/members/TwsMemGyungminEng';
 
 //ResMain
 
@@ -381,6 +388,8 @@ export default function RoutesSetup() {
             <Route path='/IoiMemJeonsomi' element={<IoiMemJeonsomi />}></Route>
             <Route path='/IoiMemJeonsomiEng' element={<IoiMemJeonsomiEng />}></Route>
 
+            {/* StrayKidsMain */}
+
             <Route path='/StrayKidsMain' element={<StrayKidsMain />}></Route>
             <Route path='/StrayKidsMainEng' element={<StrayKidsMainEng />}></Route>
 
@@ -401,6 +410,8 @@ export default function RoutesSetup() {
             <Route path='/StrayMemIn' element={<StrayMemIn />}></Route>
             <Route path='/StrayMemInEng' element={<StrayMemInEng />}></Route>
 
+            {/* IllitMain */}
+
             <Route path='/IllitMain' element={<IllitMain />}></Route>
             <Route path='/IllitMainEng' element={<IllitMainEng />}></Route>
 
@@ -415,14 +426,25 @@ export default function RoutesSetup() {
             <Route path='/IllMemEroha' element={<IllMemEroha />}></Route>
             <Route path='/IllMemErohaEng' element={<IllMemErohaEng />}></Route>
 
+            {/* TwsMain */}
+
             <Route path='/TwsMain' element={<TwsMain />}></Route>
+            <Route path='/TwsMainEng' element={<TwsMainEng />}></Route>
 
             <Route path='/TwsMemSinyu' element={<TwsMemSinyu />}></Route>
+            <Route path='/TwsMemSinyuEng' element={<TwsMemSinyuEng />}></Route>
             <Route path='/TwsMemDohun' element={<TwsMemDohun />}></Route>
+            <Route path='/TwsMemDohunEng' element={<TwsMemDohunEng />}></Route>
             <Route path='/TwsMemYoungjae' element={<TwsMemYoungjae />}></Route>
+            <Route path='/TwsMemYoungjaeEng' element={<TwsMemYoungjaeEng />}></Route>
             <Route path='/TwsMemHanjin' element={<TwsMemHanjin />}></Route>
+            <Route path='/TwsMemHanjinEng' element={<TwsMemHanjinEng />}></Route>
             <Route path='/TwsMemJihun' element={<TwsMemJihun />}></Route>
+            <Route path='/TwsMemJihunEng' element={<TwsMemJihunEng />}></Route>
             <Route path='/TwsMemGyungmin' element={<TwsMemGyungmin />}></Route>
+            <Route path='/TwsMemGyungminEng' element={<TwsMemGyungminEng />}></Route>
+
+            {/* ResceneMain */}
 
             <Route path='/ResMain' element={<ResMain />}></Route>
 
