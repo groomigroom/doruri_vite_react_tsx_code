@@ -23,6 +23,10 @@ export default function TwsMain() {
     return (
         <div className='tws_m_full'>
             <Menu />
+            <section className="home_translate">
+                <Link to='/TwsMain' className="on">한국어</Link>
+                <Link to='/TwsMainEng'>English</Link>
+            </section>
             <img src={Tws_m_logo} alt="TWS 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="TWS 로고 꾸미기" />TWS<img src={MainH2Deco} alt="TWS 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
