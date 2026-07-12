@@ -18,9 +18,10 @@ export default function StrayMemChangbin() {
                 <Link to='/StrayMemChangbinEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" />창빈<img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                멤버들에게 공감하며<br />
+                멤버들과 함께 좋은 분위기를<br />
+                유지해 볼게요!</p>
             <img src={Str_mm_changbin_img} alt="창빈 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
