@@ -18,9 +18,10 @@ export default function StrayMemIn() {
                 <Link to='/StrayMemInEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" />아이엔<img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                성실하고 계획적으로<br />
+                잘 준비해서<br />
+                여러분을 찾아 갈게요!</p>
             <img src={Str_mm_in_img} alt="아이엔 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
