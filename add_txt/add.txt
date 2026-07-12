@@ -565,6 +565,52 @@ EVOLution｜∞!｜sun
 </tr>
 
 
+s17
 
+
+tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2006년 4월 12일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>172cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>O형</p></td>
+</tr>
+<tr>
+
+<td><p>별명</p></td>
+<td><p>카와린</p></td>
+</tr>
+<tr>
+<td><p>취미</p></td>
+<td><p 음악 듣기</p></td>
+</tr>
+<tr>
+<td><p>특기</p></td>
+<td><p>댄스?</p></td>
+</tr>
+<tr>
+<td><p>좋아하는 음식</p></td>
+<td><p 빵</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td>
+<p>
+소속 유닛
+소속 유닛
+NXT｜Visionary Vision｜Alphie｜moon
+
+
+
++</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>나긋함</p></td>
+</tr>
 
 
