@@ -22,6 +22,10 @@ export default function ResMain() {
     return (
         <div className='res_m_full'>
             <Menu />
+            <section className="home_translate">
+                <Link to='/ResMain' className="on">한국어</Link>
+                <Link to='/ResMainEng'>English</Link>
+            </section>
             <img src={Res_m_logo} alt="RESCENE 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="RESCENE 꾸미기" />RESCENE<img src={MainH2Deco} alt="RESCENE 꾸미기" /></h2>
             <p className='tri_m_intropp'>
