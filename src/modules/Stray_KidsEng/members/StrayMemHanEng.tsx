@@ -18,9 +18,10 @@ export default function StrayMemHanEng() {
                 <Link to='/StrayMemHanEng' className="on">English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="Stray Kids deco" />Han<img src={MainH2Deco} alt="Stray Kids deco" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                I will come to you with<br />
+                a positive personality<br />
+                and take care of the members!</p>
             <img src='' alt="Han" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
