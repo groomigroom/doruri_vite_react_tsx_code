@@ -27,41 +27,42 @@ export default function TriplesMemS9() {
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>2005년 12월 20일</p></td>
                     </tr>
                     <tr>
                         <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>159cm</p></td>
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
+                        <td><p>A형</p></td>
                     </tr>
                     <tr>
                         <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
+                        <td><p>카에</p></td>
                     </tr>
                     <tr>
                         <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
+                        <td><p>게임</p></td>
                     </tr>
                     <tr>
                         <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
+                        <td><p>집중력</p></td>
                     </tr>
                     <tr>
                         <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
+                        <td><p>보쌈</p></td>
                     </tr>
                     <tr>
                         <td><p>소속 유닛</p></td>
                         <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                            <p>
+                                LOVElution, Aria, <br />
+                                Visionary Vision, moon</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>다정함</p></td>
                     </tr>
                 </tbody>
             </table>
