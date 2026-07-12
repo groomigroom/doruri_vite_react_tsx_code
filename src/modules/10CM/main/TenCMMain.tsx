@@ -15,6 +15,10 @@ export default function TenCMMain() {
     return (
         <div className='ten_m_full'>
             <Menu />
+            <section className="home_translate">
+                <Link to='/TenCMMain' className="on">한국어</Link>
+                <Link to='/TenCMMainEng'>English</Link>
+            </section>
             <img src={Ten_m_logo} alt="10CM 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="10CM 꾸미기" />10CM<img src={MainH2Deco} alt="10CM 꾸미기" /></h2>
             <p className='tri_m_intropp'>
