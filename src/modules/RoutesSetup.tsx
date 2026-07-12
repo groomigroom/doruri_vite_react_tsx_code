@@ -197,12 +197,18 @@ import TwsMemGyungminEng from './twsEng/members/TwsMemGyungminEng';
 //ResMain
 
 import ResMain from './RESCENE/main/ResMain';
+import ResMainEng from './RESCENEEng/main/ResMainEng';
 
 import ResMemWoni from './RESCENE/members/ResMemWoni';
+import ResMemWoniEng from './RESCENEEng/members/ResMemWoniEng';
 import ResMemLiv from './RESCENE/members/ResMemLiv';
+import ResMemLivEng from './RESCENEEng/members/ResMemLivEng';
 import ResMemMinami from './RESCENE/members/ResMemMinami';
+import ResMemMinamiEng from './RESCENEEng/members/ResMemMinamiEng';
 import ResMemMay from './RESCENE/members/ResMemMay';
+import ResMemMayEng from './RESCENEEng/members/ResMemMayEng';
 import ResMemJena from './RESCENE/members/ResMemJena';
+import ResMemJenaEng from './RESCENEEng/members/ResMemJenaEng';
 
 //TenCMMain
 
@@ -447,12 +453,18 @@ export default function RoutesSetup() {
             {/* ResceneMain */}
 
             <Route path='/ResMain' element={<ResMain />}></Route>
+            <Route path='/ResMainEng' element={<ResMainEng />}></Route>
 
             <Route path='/ResMemWoni' element={<ResMemWoni />}></Route>
+            <Route path='/ResMemWoniEng' element={<ResMemWoniEng />}></Route>
             <Route path='/ResMemLiv' element={<ResMemLiv />}></Route>
+            <Route path='/ResMemLivEng' element={<ResMemLivEng />}></Route>
             <Route path='/ResMemMinami' element={<ResMemMinami />}></Route>
+            <Route path='/ResMemMinamiEng' element={<ResMemMinamiEng />}></Route>
             <Route path='/ResMemMay' element={<ResMemMay />}></Route>
+            <Route path='/ResMemMayEng' element={<ResMemMayEng />}></Route>
             <Route path='/ResMemJena' element={<ResMemJena />}></Route>
+            <Route path='/ResMemJenaEng' element={<ResMemJenaEng />}></Route>
 
             <Route path='/TenCMMain' element={<TenCMMain />}></Route>
 
