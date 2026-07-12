@@ -21,6 +21,10 @@ export default function AespaMainEng() {
     return (
         <div className='aes_m_full'>
             <MenuEng />
+            <section className="home_translate">
+                <Link to='/AespaMain'>한국어</Link>
+                <Link to='/AespaMainEng' className="on">English</Link>
+            </section>
             <img src={Aes_m_logo} alt="aespa 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="aespa deco" />aespa<img src={MainH2Deco} alt="aespa deco" /></h2>
             <p className='tri_m_intropp'>
