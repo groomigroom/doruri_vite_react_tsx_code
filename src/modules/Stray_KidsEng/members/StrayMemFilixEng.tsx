@@ -18,9 +18,10 @@ export default function StrayMemFilixEng() {
                 <Link to='/StrayMemFilixEng' className="on">English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="Stray Kids deco" />Felix<img src={MainH2Deco} alt="Stray Kids deco" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                I'll think positively<br />
+                and prepare for<br />
+                &apos;Stray Kids&apos; promotions!</p>
             <img src='' alt="Felix" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
