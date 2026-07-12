@@ -18,9 +18,10 @@ export default function StrayMemLino() {
                 <Link to='/StrayMemLinoEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" />리노<img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                따뜻한 마음과<br />
+                즐거운 마음을 담아서<br />
+                여러분을 찾아 갈게요!</p>
             <img src={Str_mm_lino_img} alt="리노 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
