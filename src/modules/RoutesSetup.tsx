@@ -213,16 +213,22 @@ import ResMemJenaEng from './RESCENEEng/members/ResMemJenaEng';
 //TenCMMain
 
 import TenCMMain from './10CM/main/TenCMMain';
+import TenCMMainEng from './10CMEng/main/TenCMMainEng';
 
 import TenMemGwonjungyeol from './10CM/members/TenMemGwonjungyeol';
+import TenMemGwonjungyeolEng from './10CMEng/members/TenMemGwonjungyeolEng';
 
 //AespaMain
 
 import AespaMain from './aespa/main/AespaMain';
+import AespaMainEng from './aespaEng/main/AespaMainEng';
 
 import AesMemKarina from './aespa/members/AesMemKarina';
+import AesMemKarinaEng from './aespaEng/members/AesMemKarinaEng';
 import AesMemJijell from './aespa/members/AesMemJijell';
+import AesMemJijellEng from './aespaEng/members/AesMemJijellEng';
 import AesMemWinter from './aespa/members/AesMemWinter';
+import AesMemWinterEng from './aespaEng/members/AesMemWinterEng';
 import AesMemNingning from './aespa/members/AesMemNingning';
 
 //ALLDAY_PROJECTMain
