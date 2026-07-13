@@ -22,7 +22,7 @@ export default function ResMemMinamiEng() {
                 I will work harder<br />
                 with grit and perseverance<br />
                 and go meet you!</p>
-            <img src={Res_mm_Minami_img} alt="Minami" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Res_mm_Minami_img} alt="Minami" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
