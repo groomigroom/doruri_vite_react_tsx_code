@@ -18,9 +18,10 @@ export default function IllMemWonheeEng() {
                 <Link to='/IllMemWonheeEng' className="on">English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="illit deco" />Wonhee<img src={MainH2Deco} alt="illit deco" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                I'll be active as<br />
+                an &apos;ILLIT&apos; member<br />
+                with a positive mind!</p>
             <img src={Ill_m_MemWonhee_img} alt="Wonhee" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
