@@ -21,7 +21,7 @@ export default function AllMemBailey() {
             <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
-            <img src="" alt="베일리 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src="" alt="베일리 이미지" className='tri_mm_s1_img all_mm_bailey_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
