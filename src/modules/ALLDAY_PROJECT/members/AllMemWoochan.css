@@ -3,3 +3,7 @@
     height: 100vh;
     position: relative;
 }
+
+.all_mm_woochan_img {
+    border: 5px solid #000000;
+}
