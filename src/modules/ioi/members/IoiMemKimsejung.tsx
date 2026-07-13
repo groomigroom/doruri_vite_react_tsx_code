@@ -3,7 +3,7 @@ import './IoiMemKimsejung.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Ioi_m_MemKimsejung_img from '../main/img/ioi_m_mem_Kimsejung.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -16,7 +16,7 @@ export default function IoiMemKimsejung() {
                 감성적인 생각과<br />
                 다양한 생각을 가지고<br />
                 여러분을 찾아 갈게요!</p>
-            <img src="" alt="김세정 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Ioi_m_MemKimsejung_img} alt="김세정 이미지" className='tri_mm_s1_img ioi_mm_kimsejung_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
