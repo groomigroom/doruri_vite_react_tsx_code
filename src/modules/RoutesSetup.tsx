@@ -230,16 +230,23 @@ import AesMemJijellEng from './aespaEng/members/AesMemJijellEng';
 import AesMemWinter from './aespa/members/AesMemWinter';
 import AesMemWinterEng from './aespaEng/members/AesMemWinterEng';
 import AesMemNingning from './aespa/members/AesMemNingning';
+import AesMemNingningEng from './aespaEng/members/AesMemNingningEng';
 
 //ALLDAY_PROJECTMain
 
 import ALLDAY_PROJECTMain from './ALLDAY_PROJECT/main/ALLDAY_PROJECTMain';
+import ALLDAY_PROJECTMainEng from './ALLDAY_PROJECTEng/main/ALLDAY_PROJECTMainEng';
 
 import AllMemAnnie from './ALLDAY_PROJECT/members/AllMemAnnie';
+import AllMemAnnieEng from './ALLDAY_PROJECTEng/members/AllMemAnnieEng';
 import AllMemTarzan from './ALLDAY_PROJECT/members/AllMemTarzan';
+import AllMemTarzanEng from './ALLDAY_PROJECTEng/members/AllMemTarzanEng';
 import AllMemBailey from './ALLDAY_PROJECT/members/AllMemBailey';
+import AllMemBaileyEng from './ALLDAY_PROJECTEng/members/AllMemBaileyEng';
 import AllMemWoochan from './ALLDAY_PROJECT/members/AllMemWoochan';
+import AllMemWoochanEng from './ALLDAY_PROJECTEng/members/AllMemWoochanEng';
 import AllMemYoungseo from './ALLDAY_PROJECT/members/AllMemYoungseo';
+import AllMemYoungseoEng from './ALLDAY_PROJECTEng/members/AllMemYoungseoEng';
 
 //DAY6Main
 
@@ -472,24 +479,43 @@ export default function RoutesSetup() {
             <Route path='/ResMemJena' element={<ResMemJena />}></Route>
             <Route path='/ResMemJenaEng' element={<ResMemJenaEng />}></Route>
 
+            {/* TenCMMain */}
+
             <Route path='/TenCMMain' element={<TenCMMain />}></Route>
+            <Route path='/TenCMMainEng' element={<TenCMMainEng />}></Route>
 
             <Route path='/TenMemGwonjungyeol' element={<TenMemGwonjungyeol />}></Route>
+            <Route path='/TenMemGwonjungyeolEng' element={<TenMemGwonjungyeolEng />}></Route>
+
+            {/* AespaMain */}
 
             <Route path='/AespaMain' element={<AespaMain />}></Route>
+            <Route path='/AespaMainEng' element={<AespaMainEng />}></Route>
 
             <Route path='/AesMemKarina' element={<AesMemKarina />}></Route>
+            <Route path='/AesMemKarinaEng' element={<AesMemKarinaEng />}></Route>
             <Route path='/AesMemJijell' element={<AesMemJijell />}></Route>
+            <Route path='/AesMemJijellEng' element={<AesMemJijellEng />}></Route>
             <Route path='/AesMemWinter' element={<AesMemWinter />}></Route>
+            <Route path='/AesMemWinterEng' element={<AesMemWinterEng />}></Route>
             <Route path='/AesMemNingning' element={<AesMemNingning />}></Route>
+            <Route path='/AesMemNingningEng' element={<AesMemNingningEng />}></Route>
+
+            {/* ALLDAY_PROJECTMain */}
 
             <Route path='/ALLDAY_PROJECTMain' element={<ALLDAY_PROJECTMain />}></Route>
+            <Route path='/ALLDAY_PROJECTMainEng' element={<ALLDAY_PROJECTMainEng />}></Route>
 
             <Route path='/AllMemAnnie' element={<AllMemAnnie />}></Route>
+            <Route path='/AllMemAnnieEng' element={<AllMemAnnieEng />}></Route>
             <Route path='/AllMemTarzan' element={<AllMemTarzan />}></Route>
+            <Route path='/AllMemTarzanEng' element={<AllMemTarzanEng />}></Route>
             <Route path='/AllMemBailey' element={<AllMemBailey />}></Route>
+            <Route path='/AllMemBaileyEng' element={<AllMemBaileyEng />}></Route>
             <Route path='/AllMemWoochan' element={<AllMemWoochan />}></Route>
+            <Route path='/AllMemWoochanEng' element={<AllMemWoochanEng />}></Route>
             <Route path='/AllMemYoungseo' element={<AllMemYoungseo />}></Route>
+            <Route path='/AllMemYoungseoEng' element={<AllMemYoungseoEng />}></Route>
 
             <Route path='/DAY6Main' element={<DAY6Main />}></Route>
 
