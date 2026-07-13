@@ -5,7 +5,7 @@ import './ResMemJena.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import res_mm_jena_img from '../main/img/rescene_m_mem_Jena.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function ResMemJena() {
                 낯을 많이 가리지만<br />
                 그래도 멤버들과 함께<br />
                 열심히 활동해 볼게요!</p>
-            <img src="" alt="제나 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={res_mm_jena_img} alt="제나 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
