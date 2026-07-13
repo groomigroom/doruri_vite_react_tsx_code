@@ -18,9 +18,10 @@ export default function ResMemWoni() {
                 <Link to='/ResMemWoniEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="리센느 꾸미기" />원이<img src={MainH2Deco} alt="리센느 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                발랄하지만<br />
+                의젓하게<br />
+                멤버들을 잘 챙길게요!</p>
             <img src={res_mm_woni_img} alt="원이 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
