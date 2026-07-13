@@ -3,7 +3,7 @@ import './IoiMemChoiyujung.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import ioi_mm_choiyujung_img from '../main/img/ioi_m_mem_Choiyujung.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -16,7 +16,7 @@ export default function IoiMemChoiyujung() {
                 제 개성있는<br />
                 생각과 마음을 담아서<br />
                 여러분을 찾아 갈게요!</p>
-            <img src="" alt="최유정 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={ioi_mm_choiyujung_img} alt="최유정 이미지" className='tri_mm_s1_img ioi_mm_choiyujung_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
