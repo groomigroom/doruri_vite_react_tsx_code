@@ -5,7 +5,7 @@ import '../../Stray_Kids/members/StrayMemFilix.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Str_mm_filix_img from '../main/img/stray_m_mem_Filix.jpg';
+import Str_mm_filix_img from '../../Stray_Kids/main/img/stray_m_mem_Filix.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function StrayMemFilixEng() {
                 I'll think positively<br />
                 and prepare for<br />
                 &apos;Stray Kids&apos; promotions!</p>
-            <img src='' alt="Felix" className='tri_mm_s1_img' />
+            <img src={Str_mm_filix_img} alt="Felix" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
