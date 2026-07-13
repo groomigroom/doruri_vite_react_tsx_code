@@ -5,7 +5,7 @@ import '../../ioi/members/IoiMemJungcheyun.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Ioi_m_MemJungcheyun_img from '../../ioi/main/img/ioi_m_mem_Jungchaeyun.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function IoiMemJungcheyunEng() {
                 I'll work hard and<br />
                 come back to you<br />
                 no matter what!</p>
-            <img src="" alt="Jung Chaeyeon" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Ioi_m_MemJungcheyun_img} alt="Jung Chaeyeon" className='tri_mm_s1_img ioi_mm_jungcheyun_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
