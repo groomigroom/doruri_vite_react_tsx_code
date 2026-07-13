@@ -18,9 +18,10 @@ export default function ResMemMay() {
                 <Link to='/ResMemMayEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="리센느 꾸미기" />메이<img src={MainH2Deco} alt="리센느 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                조용하지만<br />
+                섬세한 성격으로<br />
+                멤버들과 잘 지내 볼게요!</p>
             <img src="" alt="메이 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
