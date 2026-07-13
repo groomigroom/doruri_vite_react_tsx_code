@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import '../../triples/members/TriplesMemS1.css';
 import './IoiMemJungcheyun.css';
 
@@ -11,6 +13,10 @@ export default function IoiMemJungcheyun() {
     return (
         <div className="ioi_mm_jungcheyun_full">
             <Menu />
+            <section className="home_translate">
+                <Link to='/IoiMemJungcheyun' className="on">한국어</Link>
+                <Link to='/IoiMemJungcheyunEng'>English</Link>
+            </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />정채연<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
                 어떤 상황에서도<br />
