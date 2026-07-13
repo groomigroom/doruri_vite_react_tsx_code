@@ -5,7 +5,7 @@ import '../../Stray_Kids/members/StrayMemHan.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Str_mm_han_img from '../main/img/stray_m_mem_Han.jpg';
+import Str_mm_han_img from '../../Stray_Kids/main/img/stray_m_mem_Han.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function StrayMemHanEng() {
                 I will come to you with<br />
                 a positive personality<br />
                 and take care of the members!</p>
-            <img src='' alt="Han" className='tri_mm_s1_img' />
+            <img src={Str_mm_han_img} alt="Han" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
