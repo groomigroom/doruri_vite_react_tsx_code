@@ -19,9 +19,9 @@ export default function TenMemGwonjungyeolEng() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="10CM deco" />Kwon Jeongyeol<img src={MainH2Deco} alt="10CM deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                #####24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+                I'll go to you<br />
+                with soft and<br />
+                unique songs!</p>
             <img src={Ten_mm_gwonjungyeol_img} alt="Kwon Jeongyeol" className='tri_mm_s1_img ten_mm_gwonjungyeol_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
