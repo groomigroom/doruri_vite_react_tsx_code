@@ -5,7 +5,7 @@ import '../../Stray_Kids/members/StrayMemHyunjin.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Str_mm_hyunjin_img from '../main/img/stray_m_mem_Hyunjin.jpg';
+import Str_mm_hyunjin_img from '../../Stray_Kids/main/img/stray_m_mem_Hyunjin.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function StrayMemHyunjinEng() {
                 I will come to you with<br />
                 a kind heart and<br />
                 a serious heart!</p>
-            <img src='' alt="Hyunjin" className='tri_mm_s1_img' />
+            <img src={Str_mm_hyunjin_img} alt="Hyunjin" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
