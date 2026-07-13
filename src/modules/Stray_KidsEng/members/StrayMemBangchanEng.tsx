@@ -5,7 +5,7 @@ import '../../Stray_Kids/members/StrayMemBangchan.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Str_mm_bangchan_img from '../main/img/stray_m_mem_Bangchan.jpg';
+import Str_mm_bangchan_img from '../../Stray_Kids/main/img/stray_m_mem_Bangchan.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function StrayMemBangchanEng() {
                 I will always cheer up<br />
                 and come to you<br />
                 with a kind heart!</p>
-            <img src='' alt="Bangchan" className='tri_mm_s1_img' />
+            <img src={Str_mm_bangchan_img} alt="Bangchan" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
