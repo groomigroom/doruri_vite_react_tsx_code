@@ -21,6 +21,10 @@ export default function ALLDAY_PROJECTMain() {
     return (
         <div className='all_m_full'>
             <Menu />
+            <section className="home_translate">
+                <Link to='/ALLDAY_PROJECTMain' className="on">한국어</Link>
+                <Link to='/ALLDAY_PROJECTMainEng'>English</Link>
+            </section>
             <img src={All_m_logo} alt="ALLDAY_PROJECT 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="ALLDAY_PROJECT 로고 꾸미기" />ALLDAY PROJECT<img src={MainH2Deco} alt="ALLDAY_PROJECT 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
