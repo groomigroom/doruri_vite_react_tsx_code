@@ -7,13 +7,13 @@ import MenuEng from '../../HomeEng/MenuEng';
 
 import Res_m_logo from '../../RESCENE/main/img/Res_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
-// import Res_m_img from './img/rescene_m_rescene.jpg';
+import Res_m_img from '../../RESCENE/main/img/rescene_m_rescene.jpg';
 
-// import Res_m_MemWoni_img from './img/rescene_m_mem_Woni.jpg';
-// import Res_m_MemLiv_img from './img/rescene_m_mem_Liv.jpg';
-// import Res_m_MemMinami_img from './img/rescene_m_mem_Minami.jpg';
-// import Res_m_MemMay_img from './img/rescene_m_mem_May.jpg';
-// import Res_m_MemJena_img from './img/rescene_m_mem_Jena.jpg';
+import Res_m_MemWoni_img from '../../RESCENE/main/img/rescene_m_mem_Woni.jpg';
+import Res_m_MemLiv_img from '../../RESCENE/main/img/rescene_m_mem_Liv.jpg';
+import Res_m_MemMinami_img from '../../RESCENE/main/img/rescene_m_mem_Minami.jpg';
+import Res_m_MemMay_img from '../../RESCENE/main/img/rescene_m_mem_May.jpg';
+import Res_m_MemJena_img from '../../RESCENE/main/img/rescene_m_mem_Jena.jpg';
 
 //191919
 //ffffff
@@ -33,25 +33,25 @@ export default function ResMainEng() {
                 with &apos;RESCENE&apos;<br />
                 Runaway!
             </p>
-            <img src='' className='tri_m_img' alt="rescene" />
+            <img src={Res_m_img} className='tri_m_img' alt="rescene" />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='tri_m_mem_tr_full res_m_mem_tr_full'>
                 <section className='res_m_mem_tr3'>
                     <Link to='/ResMemWoniEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Woni" />
+                            <img src={Res_m_MemWoni_img} alt="Woni" />
                             <h4>Woni</h4>
                         </article>
                     </Link>
                     <Link to='/ResMemLivEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Liv" />
+                            <img src={Res_m_MemLiv_img} alt="Liv" />
                             <h4>Liv</h4>
                         </article>
                     </Link>
                     <Link to='/ResMemMinamiEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Minami" />
+                            <img src={Res_m_MemMinami_img} alt="Minami" />
                             <h4>Minami</h4>
                         </article>
                     </Link>
@@ -60,13 +60,13 @@ export default function ResMainEng() {
                 <section className='res_m_mem_tr2'>
                     <Link to='/ResMemMayEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="May" />
+                            <img src={Res_m_MemMay_img} alt="May" />
                             <h4>May</h4>
                         </article>
                     </Link>
                     <Link to='/ResMemJenaEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Zena" />
+                            <img src={Res_m_MemJena_img} alt="Zena" />
                             <h4>Zena</h4>
                         </article>
                     </Link>
