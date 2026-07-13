@@ -5,7 +5,7 @@ import '../../Stray_Kids/members/StrayMemLino.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Str_mm_lino_img from '../main/img/stray_m_mem_Lino.jpg';
+import Str_mm_lino_img from '../../Stray_Kids/main/img/stray_m_mem_Lino.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function StrayMemLinoEng() {
                 We will come to you<br />
                 with warm hearts<br />
                 and fun hearts!</p>
-            <img src='' alt="Lee Know" className='tri_mm_s1_img' />
+            <img src={Str_mm_lino_img} alt="Lee Know" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
