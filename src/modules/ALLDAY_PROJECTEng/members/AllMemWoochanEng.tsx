@@ -5,7 +5,7 @@ import '../../ALLDAY_PROJECT/members/AllMemWoochan.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import all_mm_woochan_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Woochan.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -21,7 +21,7 @@ export default function AllMemWoochanEng() {
             <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
-            <img src="" alt="Woochan" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={all_mm_woochan_img} alt="Woochan" className='tri_mm_s1_img all_mm_woochan_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
