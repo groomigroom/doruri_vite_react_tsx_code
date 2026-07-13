@@ -1,3 +1,44 @@
+txt soobin
+
+
+tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2000년 12월 5일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>186cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>A형</p></td>
+</tr>
+<tr>
+
+<td><p>별명</p></td>
+<td><p>숩</p></td>
+</tr>
+<tr>
+<td><p>취미</p></td>
+<td><p>독서</p></td>
+</tr>
+<tr>
+<td><p>특기</p></td>
+<td><p>멍 때리기</p></td>
+</tr>
+<tr>
+<td><p>포지션</p></td>
+<td><p>리더</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td>
+<p>ISFP</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>강단있음</p></td>
+</tr>
+
 
 트리플에스
 
