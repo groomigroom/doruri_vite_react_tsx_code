@@ -27,11 +27,11 @@ export default function TriplesMemS18() {
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>2009년 1월 16일</p></td>
                     </tr>
                     <tr>
                         <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>169cm</p></td>
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
@@ -39,29 +39,29 @@ export default function TriplesMemS18() {
                     </tr>
                     <tr>
                         <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
+                        <td><p>비니</p></td>
                     </tr>
                     <tr>
                         <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
+                        <td><p>음악 듣기</p></td>
                     </tr>
                     <tr>
                         <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
+                        <td><p>사진 찍어주기</p></td>
                     </tr>
                     <tr>
                         <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
+                        <td><p>빵</p></td>
                     </tr>
                     <tr>
                         <td><p>소속 유닛</p></td>
                         <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                            <p>
+                                NXT, zenith</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>지적임</p></td>
                     </tr>
                 </tbody>
             </table>
