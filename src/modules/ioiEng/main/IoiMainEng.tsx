@@ -4,19 +4,19 @@ import '../../triples/main/TriplesMain.css';
 import '../../ioi/main/IoiMain.css';
 
 import Ioi_m_logo from '../../ioi/main/img/Ioi_m_logo.png';
-// import Ioi_m_img from './img/ioi_m_ioi.jpg';
+import Ioi_m_img from '../../ioi/main/img/ioi_m_ioi.jpg';
 
-// import Ioi_m_MemImnayoung_img from './img/ioi_m_mem_Imnayoung.jpg';
-// import Ioi_m_MemKimchungha_img from './img/ioi_m_mem_Kimchungha.jpg';
-// import Ioi_m_MemKimsejung_img from './img/ioi_m_mem_Kimsejung.jpg';
-// import Ioi_m_MemJungcheyun_img from './img/ioi_m_mem_Jungchaeyun.jpg';
-// import Ioi_m_MemJugyulgyoung_img from './img/ioi_m_mem_Jugyulgyung.jpg';
-// import Ioi_m_MemKimsohye_img from './img/ioi_m_mem_Kimsohye.jpg';
-// import Ioi_m_MemYuyeonjung_img from './img/ioi_m_mem_Yuyunjung.jpg';
-// import Ioi_m_MemChoiyujung_img from './img/ioi_m_mem_Choiyujung.jpg';
-// import Ioi_m_MemGangmina_img from './img/ioi_m_mem_Gangmina.jpg';
-// import Ioi_m_MemKimdoyeon_img from './img/ioi_m_mem_Kimdoyeon.jpg';
-// import Ioi_m_MemJeonsomi_img from './img/ioi_m_mem_Jeonsomi.jpg';
+import Ioi_m_MemImnayoung_img from '../../ioi/main/img/ioi_m_mem_Imnayoung.jpg';
+import Ioi_m_MemKimchungha_img from '../../ioi/main/img/ioi_m_mem_Kimchungha.jpg';
+import Ioi_m_MemKimsejung_img from '../../ioi/main/img/ioi_m_mem_Kimsejung.jpg';
+import Ioi_m_MemJungcheyun_img from '../../ioi/main/img/ioi_m_mem_Jungchaeyun.jpg';
+import Ioi_m_MemJugyulgyoung_img from '../../ioi/main/img/ioi_m_mem_Jugyulgyung.jpg';
+import Ioi_m_MemKimsohye_img from '../../ioi/main/img/ioi_m_mem_Kimsohye.jpg';
+import Ioi_m_MemYuyeonjung_img from '../../ioi/main/img/ioi_m_mem_Yuyunjung.jpg';
+import Ioi_m_MemChoiyujung_img from '../../ioi/main/img/ioi_m_mem_Choiyujung.jpg';
+import Ioi_m_MemGangmina_img from '../../ioi/main/img/ioi_m_mem_Gangmina.jpg';
+import Ioi_m_MemKimdoyeon_img from '../../ioi/main/img/ioi_m_mem_Kimdoyeon.jpg';
+import Ioi_m_MemJeonsomi_img from '../../ioi/main/img/ioi_m_mem_Jeonsomi.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -40,34 +40,34 @@ export default function IoiMainEng() {
                 with &apos;I.O.I&apos;<br />
                 Let's have a good day!
             </p>
-            <img src='' className='tri_m_img ioi_m_img' alt='I.O.I' />
+            <img src={Ioi_m_img} className='tri_m_img ioi_m_img' alt='I.O.I' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='ioi_m_mem_tr_full'>
 
                 <section className='ioi_m_mem_tr4'>
                     <Link to='/IoiMemImnayoungEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Lim Na Young" />
+                            <img src={Ioi_m_MemImnayoung_img} alt="Lim Na Young" />
                             <h4>Lim Na Young</h4>
                         </article>
                     </Link>
                     <Link to='/IoiMemKimchunghaEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="CHUNG HA" />
+                            <img src={Ioi_m_MemKimchungha_img} alt="CHUNG HA" />
                             <h4>CHUNG HA</h4>
                         </article>
                     </Link>
 
                     <Link to='/IoiMemKimsejungEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Kim Sejeong" />
+                            <img src={Ioi_m_MemKimsejung_img} alt="Kim Sejeong" />
                             <h4>Kim Sejeong</h4>
                         </article>
                     </Link>
 
                     <Link to='/IoiMemJungcheyunEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Jung Chaeyeon" />
+                            <img src={Ioi_m_MemJungcheyun_img} alt="Jung Chaeyeon" />
                             <h4>Jung Chaeyeon</h4>
                         </article>
                     </Link>
@@ -76,28 +76,28 @@ export default function IoiMainEng() {
                 <section className='ioi_m_mem_tr4'>
                     <Link to='/IoiMemJugyulgyoungEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Zhou Jieqiong" />
+                            <img src={Ioi_m_MemJugyulgyoung_img} alt="Zhou Jieqiong" />
                             <h4>Zhou Jieqiong</h4>
                         </article>
                     </Link>
 
                     <Link to='/IoiMemKimsohyeEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Kim So Hye" />
+                            <img src={Ioi_m_MemKimsohye_img} alt="Kim So Hye" />
                             <h4>Kim So Hye</h4>
                         </article>
                     </Link>
 
                     <Link to='/IoiMemYuyeonjungEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="YEONJUNG" />
+                            <img src={Ioi_m_MemYuyeonjung_img} alt="YEONJUNG" />
                             <h4>YEONJUNG</h4>
                         </article>
                     </Link>
 
                     <Link to='/IoiMemChoiyujungEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Choi Yoojung" />
+                            <img src={Ioi_m_MemChoiyujung_img} alt="Choi Yoojung" />
                             <h4>Choi Yoojung</h4>
                         </article>
                     </Link>
@@ -106,21 +106,21 @@ export default function IoiMainEng() {
                 <section className='ioi_m_mem_tr3'>
                     <Link to='/IoiMemGangminaEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Kang Mina" />
+                            <img src={Ioi_m_MemGangmina_img} alt="Kang Mina" />
                             <h4>Kang Mina</h4>
                         </article>
                     </Link>
 
                     <Link to='/IoiMemKimdoyeonEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Kim Doyeon" />
+                            <img src={Ioi_m_MemKimdoyeon_img} alt="Kim Doyeon" />
                             <h4>Kim Doyeon</h4>
                         </article>
                     </Link>
 
                     <Link to='/IoiMemJeonsomiEng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Jeon Somi" />
+                            <img src={Ioi_m_MemJeonsomi_img} alt="Jeon Somi" />
                             <h4>Jeon Somi</h4>
                         </article>
                     </Link>
