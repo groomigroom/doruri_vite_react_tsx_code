@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import '../../triples/members/TriplesMemS1.css';
 import './IoiMemKimdoyeon.css';
 
@@ -11,6 +13,10 @@ export default function IoiMemKimdoyeon() {
     return (
         <div className="ioi_mm_kimdoyeon_full">
             <Menu />
+            <section className="home_translate">
+                <Link to='/IoiMemKimdoyeon' className="on">한국어</Link>
+                <Link to='/IoiMemKimdoyeonEng'>English</Link>
+            </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />김도연<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
                 눈물이 많지만<br />
