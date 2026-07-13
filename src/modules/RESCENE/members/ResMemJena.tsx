@@ -18,9 +18,10 @@ export default function ResMemJena() {
                 <Link to='/ResMemJenaEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="리센느 꾸미기" />제나<img src={MainH2Deco} alt="리센느 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                낯을 많이 가리지만<br />
+                그래도 멤버들과 함께<br />
+                열심히 활동해 볼게요!</p>
             <img src="" alt="제나 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
