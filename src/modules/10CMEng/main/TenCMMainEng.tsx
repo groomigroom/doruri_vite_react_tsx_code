@@ -7,7 +7,7 @@ import MenuEng from '../../HomeEng/MenuEng';
 
 import Ten_m_logo from '../../10CM/main/img/TenCM_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
-// import Ten_m_img from './img/10cm_m_mem_Gwonjungyeol.jpg';
+import Ten_m_img from '../../10CM/main/img/10cm_m_mem_Gwonjungyeol.jpg';
 
 //000000
 
@@ -26,13 +26,13 @@ export default function TenCMMainEng() {
                 let's cheer up<br />
                 today with &apos;10CM&apos;!
             </p>
-            <img src='' className='tri_m_img ten_m_img' alt='10CM' />
+            <img src={Ten_m_img} className='tri_m_img ten_m_img' alt='10CM' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='tri_m_mem_tr_full ten_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/TenMemGwonjungyeolEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Kwon Jeongyeol" />
+                            <img src={Ten_m_img} alt="Kwon Jeongyeol" />
                             <h4>Kwon Jeongyeol</h4>
                         </article>
                     </Link>
