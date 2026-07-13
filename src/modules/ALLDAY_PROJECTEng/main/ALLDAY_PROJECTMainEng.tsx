@@ -7,13 +7,13 @@ import MenuEng from '../../HomeEng/MenuEng';
 
 import All_m_logo from '../../ALLDAY_PROJECT/main/img/All_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
-// import All_m_img from './img/allday_m_allday_project.jpg';
+import All_m_img from '../../ALLDAY_PROJECT/main/img/allday_m_allday_project.jpg';
 
-// import All_m_MemAnnie_img from './img/allday_m_mem_Annie.jpg';
-// import All_m_MemTarzan_img from './img/allday_m_mem_Tarzan.jpg';
-// import All_m_MemBailey_img from './img/allday_m_mem_Bailey.jpg';
-// import All_m_MemWoochan_img from './img/allday_m_mem_Bailey.jpg';
-// import All_m_MemYoungseo_img from './img/allday_m_mem_Youngseo.jpg';
+import All_m_MemAnnie_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Annie.jpg';
+import All_m_MemTarzan_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Tarzan.jpg';
+import All_m_MemBailey_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Bailey.jpg';
+import All_m_MemWoochan_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Woochan.jpg';
+import All_m_MemYoungseo_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Youngseo.jpg';
 
 // #000000
 
@@ -32,25 +32,25 @@ export default function ALLDAY_PROJECTMainEng() {
                 You want me like that<br />
                 with &apos;ALLDAY PROJECT&apos;!
             </p>
-            <img src='' className='tri_m_img all_m_img' alt='ALLDAY PROJECT' />
+            <img src={All_m_img} className='tri_m_img all_m_img' alt='ALLDAY PROJECT' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='tri_m_mem_tr_full all_m_mem_tr_full'>
                 <section className='all_m_mem_tr3'>
                     <Link to='/AllMemAnnieEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Annie" />
+                            <img src={All_m_MemAnnie_img} alt="Annie" />
                             <h4>Annie</h4>
                         </article>
                     </Link>
                     <Link to='/AllMemTarzanEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Tarzzan" />
+                            <img src={All_m_MemTarzan_img} alt="Tarzzan" />
                             <h4>Tarzzan</h4>
                         </article>
                     </Link>
                     <Link to='/AllMemBaileyEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Bailey" />
+                            <img src={All_m_MemBailey_img} alt="Bailey" />
                             <h4>Bailey</h4>
                         </article>
                     </Link>
@@ -59,13 +59,13 @@ export default function ALLDAY_PROJECTMainEng() {
                 <section className='all_m_mem_tr2'>
                     <Link to='/AllMemWoochanEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Woochan" />
+                            <img src={All_m_MemWoochan_img} alt="Woochan" />
                             <h4>Woochan</h4>
                         </article>
                     </Link>
                     <Link to='/AllMemYoungseoEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Youngseo" />
+                            <img src={All_m_MemYoungseo_img} alt="Youngseo" />
                             <h4>Youngseo</h4>
                         </article>
                     </Link>
