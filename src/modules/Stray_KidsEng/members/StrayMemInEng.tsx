@@ -5,7 +5,7 @@ import '../../Stray_Kids/members/StrayMemIn.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Str_mm_in_img from '../main/img/stray_m_mem_In.jpg';
+import Str_mm_in_img from '../../Stray_Kids/main/img/stray_m_mem_In.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function StrayMemInEng() {
                 I'll work hard and<br />
                 plan and<br />
                 come back to you!</p>
-            <img src='' alt="I.N" className='tri_mm_s1_img' />
+            <img src={Str_mm_in_img} alt="I.N" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
