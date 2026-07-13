@@ -7,14 +7,14 @@ import MenuEng from '../../HomeEng/MenuEng';
 
 import Tws_m_logo from '../../tws/main/img/Tws_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
-// import Tws_m_img from './img/tws_m_tws.jpg';
+import Tws_m_img from '../../tws/main/img/tws_m_tws.jpg';
 
-// import Tws_m_MemSinyu_img from './img/tws_m_mem_Sinyu.jpg';
-// import Tws_m_MemDohun_img from './img/tws_m_mem_Dohun.jpg';
-// import Tws_m_MemYoungjae_img from './img/tws_m_mem_Youngjae.jpg';
-// import Tws_m_MemHanjin_img from './img/tws_m_mem_Hanjin.jpg';
-// import Tws_m_MemJihun_img from './img/tws_m_mem_Jihun.jpg';
-// import Tws_m_MemGyungmin_img from './img/tws_m_mem_Kyungmin.jpg';
+import Tws_m_MemSinyu_img from '../../tws/main/img/tws_m_mem_Sinyu.jpg';
+import Tws_m_MemDohun_img from '../../tws/main/img/tws_m_mem_Dohun.jpg';
+import Tws_m_MemYoungjae_img from '../../tws/main/img/tws_m_mem_Youngjae.jpg';
+import Tws_m_MemHanjin_img from '../../tws/main/img/tws_m_mem_Hanjin.jpg';
+import Tws_m_MemJihun_img from '../../tws/main/img/tws_m_mem_Jihun.jpg';
+import Tws_m_MemGyungmin_img from '../../tws/main/img/tws_m_mem_Kyungmin.jpg';
 
 //#191919
 //#ffffff
@@ -33,25 +33,25 @@ export default function TwsMainEng() {
                 Twenty four seven<br />
                 Let's find new<br />
                 possibilities with &apos;TWS&apos;!</p>
-            <img src='' className='tri_m_img' alt='tws' />
+            <img src={Tws_m_img} className='tri_m_img' alt='tws' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='tri_m_mem_tr_full tws_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/TwsMemSinyuEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Shinyu" />
+                            <img src={Tws_m_MemSinyu_img} alt="Shinyu" />
                             <h4>Shinyu</h4>
                         </article>
                     </Link>
                     <Link to='/TwsMemDohunEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Dohoon" />
+                            <img src={Tws_m_MemDohun_img} alt="Dohoon" />
                             <h4>Dohoon</h4>
                         </article>
                     </Link>
                     <Link to='/TwsMemYoungjaeEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Youngjae" />
+                            <img src={Tws_m_MemYoungjae_img} alt="Youngjae" />
                             <h4>Youngjae</h4>
                         </article>
                     </Link>
@@ -60,19 +60,19 @@ export default function TwsMainEng() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TwsMemHanjinEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Hanjin" />
+                            <img src={Tws_m_MemHanjin_img} alt="Hanjin" />
                             <h4>Hanjin</h4>
                         </article>
                     </Link>
                     <Link to='/TwsMemJihunEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Jihoon" />
+                            <img src={Tws_m_MemJihun_img} alt="Jihoon" />
                             <h4>Jihoon</h4>
                         </article>
                     </Link>
                     <Link to='/TwsMemGyungminEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Kyungmin" />
+                            <img src={Tws_m_MemGyungmin_img} alt="Kyungmin" />
                             <h4>Kyungmin</h4>
                         </article>
                     </Link>
