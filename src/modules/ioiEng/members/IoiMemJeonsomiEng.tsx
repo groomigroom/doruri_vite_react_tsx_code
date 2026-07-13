@@ -5,7 +5,7 @@ import '../../ioi/members/IoiMemJeonsomi.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Ioi_m_MemJeonsomi_img from '../../ioi/main/img/ioi_m_mem_Jeonsomi.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function IoiMemJeonsomiEng() {
                 I'll keep my mental<br />
                 strength and<br />
                 come to you!</p>
-            <img src="" alt="Jeon Somi" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Ioi_m_MemJeonsomi_img} alt="Jeon Somi" className='tri_mm_s1_img ioi_mm_jeonsomi_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
