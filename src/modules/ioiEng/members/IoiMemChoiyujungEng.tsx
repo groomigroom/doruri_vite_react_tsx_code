@@ -5,7 +5,7 @@ import '../../ioi/members/IoiMemChoiyujung.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Ioi_mm_MemChoiyujung_img from '../../ioi/main/img/ioi_m_mem_Choiyujung.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function IoiMemChoiyujungEng() {
                 I will come to you<br />
                 with my unique<br />
                 thoughts and heart!</p>
-            <img src="" alt="Choi Yoojung" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Ioi_mm_MemChoiyujung_img} alt="Choi Yoojung" className='tri_mm_s1_img ioi_mm_choiyujung_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
