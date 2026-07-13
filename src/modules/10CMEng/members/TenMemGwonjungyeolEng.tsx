@@ -5,7 +5,7 @@ import '../../10CM/members/TenMemGwonjungyeol.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Ten_mm_gwonjungyeol_img from '../main/img/10cm_m_mem_Gwonjungyeol.jpg';
+import Ten_mm_gwonjungyeol_img from '../main/img/10cm_m_mem_Gwonjungyeol.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function TenMemGwonjungyeolEng() {
                 #####24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
-            <img src='' alt="Kwon Jeongyeol" className='tri_mm_s1_img ten_mm_gwonjungyeol_img' />
+            <img src={Ten_mm_gwonjungyeol_img} alt="Kwon Jeongyeol" className='tri_mm_s1_img ten_mm_gwonjungyeol_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
