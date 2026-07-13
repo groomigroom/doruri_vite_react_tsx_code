@@ -5,7 +5,7 @@ import './ResMemWoni.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import res_mm_woni_img from '../main/img/rescene_m_mem_Woni.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -21,7 +21,7 @@ export default function ResMemWoni() {
             <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
-            <img src="" alt="원이 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={res_mm_woni_img} alt="원이 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
