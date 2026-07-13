@@ -5,7 +5,7 @@ import './ResMemMinami.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import res_mm_minami_img from '../main/img/rescene_m_mem_Minami.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function ResMemMinami() {
                 근성과 끈기로<br />
                 더 노력해서<br />
                 여러분을 만나러 갈게요!</p>
-            <img src="" alt="미나미 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={res_mm_minami_img} alt="미나미 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
