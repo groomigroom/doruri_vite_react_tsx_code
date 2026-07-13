@@ -3,7 +3,7 @@ import './IoiMemJungcheyun.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Ioi_m_MemJungcheyun_img from '../main/img/ioi_m_mem_Jungchaeyun.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -16,7 +16,7 @@ export default function IoiMemJungcheyun() {
                 어떤 상황에서도<br />
                 열심히 노력하며<br />
                 여러분을 찾아 갈게요!</p>
-            <img src="" alt="정채연 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Ioi_m_MemJungcheyun_img} alt="정채연 이미지" className='tri_mm_s1_img ioi_mm_jungcheyun_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
