@@ -18,9 +18,10 @@ export default function TenMemGwonjungyeol() {
                 <Link to='/TenMemGwonjungyeolEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="10CM 꾸미기" />권정열<img src={MainH2Deco} alt="10CM 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                부드럽고<br />
+                개성있는 노래로<br />
+                여러분을 찾아 갈게요!</p>
             <img src={Ten_mm_gwonjungyeol_img} alt="권정열 이미지" className='tri_mm_s1_img ten_mm_gwonjungyeol_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
