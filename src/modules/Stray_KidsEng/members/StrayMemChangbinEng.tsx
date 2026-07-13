@@ -5,7 +5,7 @@ import '../../Stray_Kids/members/StrayMemChangbin.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-// import Str_mm_changbin_img from '../main/img/stray_m_mem_Changbin.jpg';
+import Str_mm_changbin_img from '../../Stray_Kids/main/img/stray_m_mem_Changbin.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function StrayMemChangbinEng() {
                 I will try to sympathize<br />
                 with the members and maintain<br />
                 a good atmosphere with them!</p>
-            <img src='' alt="Changbin" className='tri_mm_s1_img' />
+            <img src={Str_mm_changbin_img} alt="Changbin" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
