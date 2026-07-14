@@ -33,7 +33,10 @@ export default function TenCMMainEng() {
                     <Link to='/TenMemGwonjungyeolEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ten_m_img} alt="Kwon Jeongyeol" />
-                            <h4>Kwon Jeongyeol</h4>
+                            <div>
+                                <h4>Kwon<br />
+                                    Jeongyeol</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
