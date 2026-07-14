@@ -1,0 +1,9 @@
+.epi_mm_tablo_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.epi_mm_tablo_img {
+    border: 5px solid #000000;
+}
