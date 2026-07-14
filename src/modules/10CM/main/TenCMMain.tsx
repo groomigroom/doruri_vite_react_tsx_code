@@ -33,7 +33,9 @@ export default function TenCMMain() {
                     <Link to='/TenMemGwonjungyeol' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ten_m_img} alt="권정열 이미지" />
-                            <h4>권정열</h4>
+                            <div>
+                                <h4>권정열</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
