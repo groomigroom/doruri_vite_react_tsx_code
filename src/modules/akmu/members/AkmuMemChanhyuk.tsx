@@ -23,7 +23,7 @@ export default function AkmuMemChanhyuk() {
                 잘 준비해서<br />
                 여러분을 찾아 갈게요!</p>
             <img src={akmu_mm_chanhyuk_img} alt="이찬혁 이미지" className='tri_mm_s1_img akmu_mm_chanhyuk_img' />
-            <table className='tri_mm_s1_intropa_tb akm_mm_s1_intropa_tb'>
+            <table className='tri_mm_s1_intropa_tb akm_mm_chanhyuk_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
