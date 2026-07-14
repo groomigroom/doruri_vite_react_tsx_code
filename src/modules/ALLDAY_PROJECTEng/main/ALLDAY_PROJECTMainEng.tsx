@@ -39,19 +39,25 @@ export default function ALLDAY_PROJECTMainEng() {
                     <Link to='/AllMemAnnieEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={All_m_MemAnnie_img} alt="Annie" />
-                            <h4>Annie</h4>
+                            <div>
+                                <h4>Annie</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/AllMemTarzanEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={All_m_MemTarzan_img} alt="Tarzzan" />
-                            <h4>Tarzzan</h4>
+                            <div>
+                                <h4>Tarzzan</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/AllMemBaileyEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={All_m_MemBailey_img} alt="Bailey" />
-                            <h4>Bailey</h4>
+                            <div>
+                                <h4>Bailey</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -60,13 +66,17 @@ export default function ALLDAY_PROJECTMainEng() {
                     <Link to='/AllMemWoochanEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={All_m_MemWoochan_img} alt="Woochan" />
-                            <h4>Woochan</h4>
+                            <div>
+                                <h4>Woochan</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/AllMemYoungseoEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={All_m_MemYoungseo_img} alt="Youngseo" />
-                            <h4>Youngseo</h4>
+                            <div>
+                                <h4>Youngseo</h4>
+                            </div>
                         </article>
                     </Link>
 
