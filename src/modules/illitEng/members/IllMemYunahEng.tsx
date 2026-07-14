@@ -18,9 +18,10 @@ export default function IllMemYunahEng() {
                 <Link to='/IllMemYunahEng' className="on">English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="illit deco" />Yunah<img src={MainH2Deco} alt="illit deco" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                I'll go meet you<br />
+                seriously and<br />
+                confidently!</p>
             <img src={Ill_m_MemYunah_img} alt="Yunah" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
