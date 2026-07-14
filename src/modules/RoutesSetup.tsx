@@ -282,6 +282,13 @@ import EpiMemTabloEng from './EpikHighEng/members/EpiMemTabloEng';
 import EpiMemTwokutz from './EpikHigh/members/EpiMemTwokutz';
 import EpiMemTwokutzEng from './EpikHighEng/members/EpiMemTwokutzEng';
 
+//YenaMain
+
+import YenaMain from './Yena/main/YenaMain';
+import YenaMainEng from './YenaEng/main/YenaMainEng';
+
+import YenaMem from './Yena/members/YenaMem';
+import YenaMemEng from './YenaEng/members/YenaMemEng';
 
 export default function RoutesSetup() {
     return (
@@ -566,6 +573,14 @@ export default function RoutesSetup() {
             <Route path='/EpiMemTabloEng' element={<EpiMemTabloEng />}></Route>
             <Route path='/EpiMemTwokutz' element={<EpiMemTwokutz />}></Route>
             <Route path='/EpiMemTwokutzEng' element={<EpiMemTwokutzEng />}></Route>
+
+            {/* YenaMain */}
+
+            <Route path='/YenaMain' element={<YenaMain />}></Route>
+            <Route path='/YenaMainEng' element={<YenaMainEng />}></Route>
+
+            <Route path='/YenaMem' element={<YenaMem />}></Route>
+            <Route path='/YenaMemEng' element={<YenaMemEng />}></Route>
 
         </Routes>
     );
