@@ -44,27 +44,35 @@ export default function StrayKidsMainEng() {
                     <Link to='/StrayMemBangchanEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Str_m_MemBangchan_img} alt="Bangchan" />
-                            <h4>Bangchan</h4>
+                            <div>
+                                <h4>Bangchan</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/StrayMemLinoEng'>
                         <article className='tri_m_mem'>
                             <img src={Str_m_MemLino_img} alt="Lee Know" />
-                            <h4>Lee Know</h4>
+                            <div>
+                                <h4>Lee Know</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/StrayMemChangbinEng'>
                         <article className='tri_m_mem'>
                             <img src={Str_m_MemChangbin_img} alt="Changbin" />
-                            <h4>Changbin</h4>
+                            <div>
+                                <h4>Changbin</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/StrayMemHyunjinEng'>
                         <article className='tri_m_mem'>
                             <img src={Str_m_MemHyunjin_img} alt="Hyunjin" />
-                            <h4>Hyunjin</h4>
+                            <div>
+                                <h4>Hyunjin</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -73,28 +81,36 @@ export default function StrayKidsMainEng() {
                     <Link to='/StrayMemHanEng'>
                         <article className='tri_m_mem'>
                             <img src={Str_m_MemHan_img} alt="Han" />
-                            <h4>Han</h4>
+                            <div>
+                                <h4>Han</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/StrayMemFilixEng'>
                         <article className='tri_m_mem'>
                             <img src={Str_m_MemFilix_img} alt="Felix" />
-                            <h4>Felix</h4>
+                            <div>
+                                <h4>Felix</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/StrayMemSeungminEng'>
                         <article className='tri_m_mem'>
                             <img src={Str_m_MemSeungmin_img} alt="Seungmin" />
-                            <h4>Seungmin</h4>
+                            <div>
+                                <h4>Seungmin</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/StrayMemInEng'>
                         <article className='tri_m_mem'>
                             <img src={Str_m_MemIn_img} alt="I.N" />
-                            <h4>I.N</h4>
+                            <div>
+                                <h4>I.N</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
