@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../../triples/main/TriplesMain.css'
 import '../../Yena/main/YenaMain.css';
 
-import Menu from '../../Menu';
+import MenuEng from '../../HomeEng/MenuEng';
 
 // import Ten_m_logo from './img/TenCM_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -14,7 +14,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 export default function YenaMainEng() {
     return (
         <div className='yen_m_full'>
-            <Menu />
+            <MenuEng />
             <section className="home_translate">
                 <Link to='/YenaMain'>한국어</Link>
                 <Link to='/YenaMainEng' className="on">English</Link>
