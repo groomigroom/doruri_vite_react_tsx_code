@@ -56,27 +56,35 @@ export default function TriplesMain() {
                     <Link to='/TriplesMemS1' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS1} alt="윤서연 이미지" />
-                            <h4>윤서연</h4>
+                            <div>
+                                <h4>윤서연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS2'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS2} alt="정혜린 이미지" />
-                            <h4>정혜린</h4>
+                            <div>
+                                <h4>정혜린</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS3'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS3} alt="이지우 이미지" />
-                            <h4>이지우</h4>
+                            <div>
+                                <h4>이지우</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS4'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS4} alt="김채연 이미지" />
-                            <h4>김채연</h4>
+                            <div>
+                                <h4>김채연</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -85,28 +93,36 @@ export default function TriplesMain() {
                     <Link to='/TriplesMemS5'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS5} alt="김유연 이미지" />
-                            <h4>김유연</h4>
+                            <div>
+                                <h4>김유연</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS6'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS6} alt="김수민 이미지" />
-                            <h4>김수민</h4>
+                            <div>
+                                <h4>김수민</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS7'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS7} alt="김나경 이미지" />
-                            <h4>김나경</h4>
+                            <div>
+                                <h4>김나경</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS8'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS8} alt="공유빈 이미지" />
-                            <h4>공유빈</h4>
+                            <div>
+                                <h4>공유빈</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -115,28 +131,36 @@ export default function TriplesMain() {
                     <Link to='/TriplesMemS9'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS9} alt="카에데 이미지" />
-                            <h4>카에데</h4>
+                            <div>
+                                <h4>카에데</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS10'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS10} alt="서다현 이미지" />
-                            <h4>서다현</h4>
+                            <div>
+                                <h4>서다현</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS11'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS11} alt="코토네 이미지" />
-                            <h4>코토네</h4>
+                            <div>
+                                <h4>코토네</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS12'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS12} alt="곽연지 이미지" />
-                            <h4>곽연지</h4>
+                            <div>
+                                <h4>곽연지</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -145,28 +169,36 @@ export default function TriplesMain() {
                     <Link to='/TriplesMemS13'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS13} alt="니엔 이미지" />
-                            <h4>니엔</h4>
+                            <div>
+                                <h4>니엔</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS14'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS14} alt="박소현 이미지" />
-                            <h4>박소현</h4>
+                            <div>
+                                <h4>박소현</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS15'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS15} alt="신위 이미지" />
-                            <h4>신위</h4>
+                            <div>
+                                <h4>신위</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS16'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS16} alt="마유 이미지" />
-                            <h4>마유</h4>
+                            <div>
+                                <h4>마유</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -175,7 +207,9 @@ export default function TriplesMain() {
                     <Link to='/TriplesMemS17'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS17} alt="린 이미지" />
-                            <h4>린</h4>
+                            <div>
+                                <h4>린</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -183,21 +217,27 @@ export default function TriplesMain() {
                     <Link to='/TriplesMemS18'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS18} alt="주빈 이미지" />
-                            <h4>주빈</h4>
+                            <div>
+                                <h4>주빈</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS19'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS19} alt="정하연 이미지" />
-                            <h4>정하연</h4>
+                            <div>
+                                <h4>정하연</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS20'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS20} alt="박시온 이미지" />
-                            <h4>박시온</h4>
+                            <div>
+                                <h4>박시온</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -206,28 +246,36 @@ export default function TriplesMain() {
                     <Link to='/TriplesMemS21'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS21} alt="김채원 이미지" />
-                            <h4>김채원</h4>
+                            <div>
+                                <h4>김채원</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS22'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS22} alt="설린 이미지" />
-                            <h4>설린</h4>
+                            <div>
+                                <h4>설린</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS23'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS23} alt="서아 이미지" />
-                            <h4>서아</h4>
+                            <div>
+                                <h4>서아</h4>
+                            </div>
                         </article>
                     </Link>
 
                     <Link to='/TriplesMemS24'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS24} alt="지연 이미지" />
-                            <h4>지연</h4>
+                            <div>
+                                <h4>지연</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
