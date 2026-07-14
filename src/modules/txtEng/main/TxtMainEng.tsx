@@ -36,19 +36,25 @@ export default function TxtMainEng() {
                     <Link to='/TxtMemSubinEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Txt_m_memSubin} alt="Soobin 이미지" />
-                            <h4>Soobin</h4>
+                            <div>
+                                <h4>Soobin</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TxtMemYeonjunEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Txt_m_memYeonjun} alt="Yeonjun 이미지" />
-                            <h4>Yeonjun</h4>
+                            <div>
+                                <h4>Yeonjun</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TxtMemBeomgyuEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Txt_m_memBeomgyu} alt="Beomgyu 이미지" />
-                            <h4>Beomgyu</h4>
+                            <div>
+                                <h4>Beomgyu</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -57,13 +63,17 @@ export default function TxtMainEng() {
                     <Link to='/TxtMemTaehyunEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Txt_m_memTaehyun} alt="Taehyun 이미지" />
-                            <h4>Taehyun</h4>
+                            <div>
+                                <h4>Taehyun</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TxtMemHueningkaiEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Txt_m_memHueningkai} alt="Huening Kai 이미지" />
-                            <h4>Huening Kai</h4>
+                            <div>
+                                <h4>Huening Kai</h4>
+                            </div>
                         </article>
                     </Link>
 
