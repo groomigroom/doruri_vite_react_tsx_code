@@ -35,13 +35,17 @@ export default function AkmuMainEng() {
                     <Link to='/AkmuMemChanhyukEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Akmu_m_chanhyuk} alt="Lee Chanhyuk 이미지" />
-                            <h4>Lee Chanhyuk</h4>
+                            <div>
+                                <h4>Lee Chanhyuk</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/AkmuMemSuhyunEng'>
                         <article className='tri_m_mem'>
                             <img src={Akmu_m_suhyun} alt="Lee Suhyun 이미지" />
-                            <h4>Lee Suhyun</h4>
+                            <div>
+                                <h4>Lee Suhyun</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
