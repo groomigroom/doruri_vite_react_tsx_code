@@ -23,45 +23,31 @@ export default function IoiMemJeonsomi() {
                 멘탈을 지켜서<br />
                 여러분을 찾아 갈게요!</p>
             <img src={Ioi_m_MemJeonsomi_img} alt="전소미 이미지" className='tri_mm_s1_img ioi_mm_jeonsomi_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <table className='tri_mm_s1_intropa_tb ioi_mm_jeonsomi_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>2001년 3월 9일</p></td>
                     </tr>
                     <tr>
                         <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>173cm</p></td>
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
+                        <td><p>O형</p></td>
                     </tr>
                     <tr>
                         <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
+                        <td><p>비타솜</p></td>
                     </tr>
                     <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>소속 유닛</p></td>
-                        <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                        <td><p>포지션</p></td>
+                        <td><p>센터</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>활발함</p></td>
                     </tr>
                 </tbody>
             </table>
