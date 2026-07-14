@@ -16,7 +16,7 @@ export default function EpiMemMithra() {
                 펜으로 백지 위를<br />
                 달리면서<br />
                 다양한 생각을 해보아요!</p>
-            <img src="" alt="미쓰라 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src="" alt="미쓰라 이미지" className='tri_mm_s1_img epi_mm_mithra_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
