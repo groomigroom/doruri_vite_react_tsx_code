@@ -34,13 +34,17 @@ export default function DAY6Main() {
                     <Link to='/DayMemSungjin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Day_m_MemSungjin_img} alt="성진 이미지" />
-                            <h4>성진</h4>
+                            <div>
+                                <h4>성진</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/DayMemYoungK' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Day_m_MemYoungK_img} alt="Young K 이미지" />
-                            <h4>Young K</h4>
+                            <div>
+                                <h4>Young K</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -50,13 +54,17 @@ export default function DAY6Main() {
                     <Link to='/DayMemWonpil' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Day_m_MemWonpil_img} alt="원필 이미지" />
-                            <h4>원필</h4>
+                            <div>
+                                <h4>원필</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/DayMemDowoon' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Day_m_MemDowoon_img} alt="도운 이미지" />
-                            <h4>도운</h4>
+                            <div>
+                                <h4>도운</h4>
+                            </div>
                         </article>
                     </Link>
 
