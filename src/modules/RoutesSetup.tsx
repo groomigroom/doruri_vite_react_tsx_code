@@ -273,6 +273,14 @@ import BolMemAnjiyoungEng from './bol4Eng/members/BolMemAnjiyoungEng';
 //EpikHighMain
 
 import EpikHighMain from './EpikHigh/main/EpikHighMain';
+import EpikHighMainEng from './EpikHighEng/main/EpikHighMainEng';
+
+import EpiMemMithra from './EpikHigh/members/EpiMemMithra';
+import EpiMemMithraEng from './EpikHighEng/members/EpiMemMithraEng';
+import EpiMemTablo from './EpikHigh/members/EpiMemTablo';
+import EpiMemTabloEng from './EpikHighEng/members/EpiMemTabloEng';
+import EpiMemTwokutz from './EpikHigh/members/EpiMemTwokutz';
+import EpiMemTwokutzEng from './EpikHighEng/members/EpiMemTwokutzEng';
 
 
 export default function RoutesSetup() {
@@ -547,7 +555,17 @@ export default function RoutesSetup() {
             <Route path='/BolMemAnjiyoung' element={<BolMemAnjiyoung />}></Route>
             <Route path='/BolMemAnjiyoungEng' element={<BolMemAnjiyoungEng />}></Route>
 
+            {/* EpikHighMain */}
+
             <Route path='/EpikHighMain' element={<EpikHighMain />}></Route>
+            <Route path='/EpikHighMainEng' element={<EpikHighMainEng />}></Route>
+
+            <Route path='/EpiMemMithra' element={<EpiMemMithra />}></Route>
+            <Route path='/EpiMemMithraEng' element={<EpiMemMithraEng />}></Route>
+            <Route path='/EpiMemTablo' element={<EpiMemTablo />}></Route>
+            <Route path='/EpiMemTabloEng' element={<EpiMemTabloEng />}></Route>
+            <Route path='/EpiMemTwokutz' element={<EpiMemTwokutz />}></Route>
+            <Route path='/EpiMemTwokutzEng' element={<EpiMemTwokutzEng />}></Route>
 
         </Routes>
     );
