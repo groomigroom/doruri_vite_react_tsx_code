@@ -1,1 +1,9 @@
+.yen_mm_yena_full {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
 
+.yen_mm_yena_img {
+    border: 5px solid #000000;
+}
