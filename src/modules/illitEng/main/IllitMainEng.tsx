@@ -40,19 +40,25 @@ export default function IllitMainEng() {
                     <Link to='/IllMemYunahEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemYunah_img} alt="Yunah" className='ill_m_mem_img' />
-                            <h4>Yunah</h4>
+                            <div>
+                                <h4>Yunah</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/IllMemMinjuEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemMinju_img} alt="Minju" />
-                            <h4>Minju</h4>
+                            <div>
+                                <h4>Minju</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/IllMemMokaEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemMoka_img} alt="Moka" />
-                            <h4>Moka</h4>
+                            <div>
+                                <h4>Moka</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -61,13 +67,17 @@ export default function IllitMainEng() {
                     <Link to='/IllMemWonheeEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemWonhee_img} alt="Wonhee" />
-                            <h4>Wonhee</h4>
+                            <div>
+                                <h4>Wonhee</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/IllMemErohaEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemEroha_img} alt="Iroha" />
-                            <h4>Iroha</h4>
+                            <div>
+                                <h4>Iroha</h4>
+                            </div>
                         </article>
                     </Link>
 
