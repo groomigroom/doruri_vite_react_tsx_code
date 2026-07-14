@@ -40,19 +40,25 @@ export default function TwsMainEng() {
                     <Link to='/TwsMemSinyuEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tws_m_MemSinyu_img} alt="Shinyu" />
-                            <h4>Shinyu</h4>
+                            <div>
+                                <h4>Shinyu</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TwsMemDohunEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tws_m_MemDohun_img} alt="Dohoon" />
-                            <h4>Dohoon</h4>
+                            <div>
+                                <h4>Dohoon</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TwsMemYoungjaeEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tws_m_MemYoungjae_img} alt="Youngjae" />
-                            <h4>Youngjae</h4>
+                            <div>
+                                <h4>Youngjae</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -61,19 +67,25 @@ export default function TwsMainEng() {
                     <Link to='/TwsMemHanjinEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tws_m_MemHanjin_img} alt="Hanjin" />
-                            <h4>Hanjin</h4>
+                            <div>
+                                <h4>Hanjin</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TwsMemJihunEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tws_m_MemJihun_img} alt="Jihoon" />
-                            <h4>Jihoon</h4>
+                            <div>
+                                <h4>Jihoon</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TwsMemGyungminEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tws_m_MemGyungmin_img} alt="Kyungmin" />
-                            <h4>Kyungmin</h4>
+                            <div>
+                                <h4>Kyungmin</h4>
+                            </div>
                         </article>
                     </Link>
 
