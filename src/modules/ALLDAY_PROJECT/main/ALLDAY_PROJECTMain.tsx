@@ -39,19 +39,25 @@ export default function ALLDAY_PROJECTMain() {
                     <Link to='/AllMemAnnie' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={All_m_MemAnnie_img} alt="애니 이미지" />
-                            <h4>애니</h4>
+                            <div>
+                                <h4>애니</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/AllMemTarzan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={All_m_MemTarzan_img} alt="타잔 이미지" />
-                            <h4>타잔</h4>
+                            <div>
+                                <h4>타잔</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/AllMemBailey' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={All_m_MemBailey_img} alt="베일리 이미지" />
-                            <h4>베일리</h4>
+                            <div>
+                                <h4>베일리</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -60,13 +66,17 @@ export default function ALLDAY_PROJECTMain() {
                     <Link to='/AllMemWoochan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={All_m_MemWoochan_img} alt="우찬 이미지" />
-                            <h4>우찬</h4>
+                            <div>
+                                <h4>우찬</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/AllMemYoungseo' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={All_m_MemYoungseo_img} alt="영서 이미지" />
-                            <h4>영서</h4>
+                            <div>
+                                <h4>영서</h4>
+                            </div>
                         </article>
                     </Link>
 
