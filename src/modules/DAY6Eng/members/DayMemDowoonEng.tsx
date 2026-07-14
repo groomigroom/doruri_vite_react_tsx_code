@@ -1,22 +1,28 @@
+import { Link } from 'react-router-dom';
+
 import '../../triples/members/TriplesMemS1.css';
-import './DayMemDowoon.css';
+import '../../DAY6/members/DayMemDowoon.css';
 
-import Menu from '../../Menu';
+import MenuEng from '../../HomeEng/MenuEng';
 
-import Day_mm_dowoon_img from '../main/img/day6_m_mem_Dowoon.jpg';
+import Day_mm_dowoon_img from '../../DAY6/main/img/day6_m_mem_Dowoon.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function DayMemDowoonEng() {
     return (
         <div className="day_mm_dowoon_full">
-            <Menu />
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="DAY6 꾸미기" />도운<img src={MainH2Deco} alt="DAY6 꾸미기" /></h2>
+            <MenuEng />
+            <section className="home_translate">
+                <Link to='/DayMemDowoon'>한국어</Link>
+                <Link to='/DayMemDowoonEng' className="on">English</Link>
+            </section>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="DAY6 deco" />Dowoon<img src={MainH2Deco} alt="DAY6 deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                오늘도 열심히<br />
-                고민하며 좋은<br />
-                음악 준비할게요!</p>
-            <img src={Day_mm_dowoon_img} alt="도운 이미지" className='tri_mm_s1_img' />
+                I'll think hard<br />
+                about it and<br />
+                prepare good music today!</p>
+            <img src={Day_mm_dowoon_img} alt="Dowoon" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
