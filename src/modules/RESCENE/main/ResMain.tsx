@@ -40,19 +40,25 @@ export default function ResMain() {
                     <Link to='/ResMemWoni' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemWoni_img} alt="원이 이미지" />
-                            <h4>원이</h4>
+                            <div>
+                                <h4>원이</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/ResMemLiv' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemLiv_img} alt="리브 이미지" />
-                            <h4>리브</h4>
+                            <div>
+                                <h4>리브</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/ResMemMinami' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemMinami_img} alt="미나미 이미지" />
-                            <h4>미나미</h4>
+                            <div>
+                                <h4>미나미</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -61,13 +67,17 @@ export default function ResMain() {
                     <Link to='/ResMemMay' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemMay_img} alt="메이 이미지" />
-                            <h4>메이</h4>
+                            <div>
+                                <h4>메이</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/ResMemJena' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemJena_img} alt="제나 이미지" />
-                            <h4>제나</h4>
+                            <div>
+                                <h4>제나</h4>
+                            </div>
                         </article>
                     </Link>
 
