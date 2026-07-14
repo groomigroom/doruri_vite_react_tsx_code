@@ -254,20 +254,26 @@ import DAY6Main from './DAY6/main/DAY6Main';
 import DAY6MainEng from './DAY6Eng/main/DAY6MainEng';
 
 import DayMemSungjin from './DAY6/members/DayMemSungjin';
-//성진eng부터하기
+import DayMemSungjinEng from './DAY6Eng/members/DayMemSungjinEng';
 import DayMemYoungK from './DAY6/members/DayMemYoungK';
+import DayMemYoungKEng from './DAY6Eng/members/DayMemYoungKEng';
 import DayMemWonpil from './DAY6/members/DayMemWonpil';
+import DayMemWonpilEng from './DAY6Eng/members/DayMemWonpilEng';
 import DayMemDowoon from './DAY6/members/DayMemDowoon';
+import DayMemDowoonEng from './DAY6Eng/members/DayMemDowoonEng';
 
 //Bol4Main
 
 import Bol4Main from './bol4/main/Bol4Main';
+import Bol4MainEng from './bol4Eng/main/Bol4MainEng';
 
 import BolMemAnjiyoung from './bol4/members/BolMemAnjiyoung';
+import BolMemAnjiyoungEng from './bol4Eng/members/BolMemAnjiyoungEng';
 
 //EpikHighMain
 
 import EpikHighMain from './EpikHigh/main/EpikHighMain';
+
 
 export default function RoutesSetup() {
     return (
@@ -522,15 +528,24 @@ export default function RoutesSetup() {
             {/* Day6Main */}
 
             <Route path='/DAY6Main' element={<DAY6Main />}></Route>
+            <Route path='/DAY6MainEng' element={<DAY6MainEng />}></Route>
 
             <Route path='/DayMemSungjin' element={<DayMemSungjin />}></Route>
+            <Route path='/DayMemSungjinEng' element={<DayMemSungjinEng />}></Route>
             <Route path='/DayMemYoungK' element={<DayMemYoungK />}></Route>
+            <Route path='/DayMemYoungKEng' element={<DayMemYoungKEng />}></Route>
             <Route path='/DayMemWonpil' element={<DayMemWonpil />}></Route>
+            <Route path='/DayMemWonpilEng' element={<DayMemWonpilEng />}></Route>
             <Route path='/DayMemDowoon' element={<DayMemDowoon />}></Route>
+            <Route path='/DayMemDowoonEng' element={<DayMemDowoonEng />}></Route>
+
+            {/* Bol4Main */}
 
             <Route path='/Bol4Main' element={<Bol4Main />}></Route>
+            <Route path='/Bol4MainEng' element={<Bol4MainEng />}></Route>
 
             <Route path='/BolMemAnjiyoung' element={<BolMemAnjiyoung />}></Route>
+            <Route path='/BolMemAnjiyoungEng' element={<BolMemAnjiyoungEng />}></Route>
 
             <Route path='/EpikHighMain' element={<EpikHighMain />}></Route>
 
