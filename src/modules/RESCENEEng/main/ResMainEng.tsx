@@ -40,19 +40,25 @@ export default function ResMainEng() {
                     <Link to='/ResMemWoniEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemWoni_img} alt="Woni" />
-                            <h4>Woni</h4>
+                            <div>
+                                <h4>Woni</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/ResMemLivEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemLiv_img} alt="Liv" />
-                            <h4>Liv</h4>
+                            <div>
+                                <h4>Liv</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/ResMemMinamiEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemMinami_img} alt="Minami" />
-                            <h4>Minami</h4>
+                            <div>
+                                <h4>Minami</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -61,13 +67,17 @@ export default function ResMainEng() {
                     <Link to='/ResMemMayEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemMay_img} alt="May" />
-                            <h4>May</h4>
+                            <div>
+                                <h4>May</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/ResMemJenaEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Res_m_MemJena_img} alt="Zena" />
-                            <h4>Zena</h4>
+                            <div>
+                                <h4>Zena</h4>
+                            </div>
                         </article>
                     </Link>
 
