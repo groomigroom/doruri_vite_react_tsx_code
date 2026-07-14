@@ -1,23 +1,29 @@
+import { Link } from 'react-router-dom';
+
 import '../../triples/members/TriplesMemS1.css';
-import './DayMemYoungK.css';
+import '../../DAY6/members/DayMemYoungK.css';
 
-import Menu from '../../Menu';
+import MenuEng from '../../HomeEng/MenuEng';
 
-import Day_mm_youngk_img from '../main/img/day6_m_mem_Youngk.jpg';
+import Day_mm_youngk_img from '../../DAY6/main/img/day6_m_mem_Youngk.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
-export default function DayMemYoungK() {
+export default function DayMemYoungKEng() {
     return (
         <div className="day_mm_youngk_full">
-            <Menu />
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="DAY6 꾸미기" />Young K<img src={MainH2Deco} alt="DAY6 꾸미기" /></h2>
+            <MenuEng />
+            <section className="home_translate">
+                <Link to='/DayMemYoungK'>한국어</Link>
+                <Link to='/DayMemYoungKEng' className="on">English</Link>
+            </section>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="DAY6 deco" />Young K<img src={MainH2Deco} alt="DAY6 deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                성실하게 노력하며<br />
-                음악으로<br />
-                여러분께 찾아 갈게요!
+                I'm going to<br />
+                work hard and<br />
+                come to you!
             </p>
-            <img src={Day_mm_youngk_img} alt="Young K 이미지" className='tri_mm_s1_img' />
+            <img src={Day_mm_youngk_img} alt="Young K" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
@@ -66,4 +72,3 @@ export default function DayMemYoungK() {
 
 };
 
-DayMemYoungKEng.tsx
