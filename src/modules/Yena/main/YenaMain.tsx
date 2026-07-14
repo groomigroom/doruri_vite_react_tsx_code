@@ -26,9 +26,9 @@ export default function YenaMain() {
                 &apos;10CM&apos;와 함께<br />
                 오늘도 힘내 보아요!
             </p>
-            <img src='' className='tri_m_img ten_m_img' alt='10CM' />
+            <img src='' className='tri_m_img yen_m_img' alt='10CM' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 개인 프로필?? ▪</h2>
-            <section className='tri_m_mem_tr_full ten_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full yen_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/TenMemGwonjungyeol' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
