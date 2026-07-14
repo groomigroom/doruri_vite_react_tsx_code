@@ -40,19 +40,25 @@ export default function IllitMain() {
                     <Link to='/IllMemYunah' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemYunah_img} alt="윤아 이미지" className='ill_m_mem_img' />
-                            <h4>윤아</h4>
+                            <div>
+                                <h4>윤아</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/IllMemMinju' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemMinju_img} alt="민주 이미지" />
-                            <h4>민주</h4>
+                            <div>
+                                <h4>민주</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/IllMemMoka' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemMoka_img} alt="모카 이미지" />
-                            <h4>모카</h4>
+                            <div>
+                                <h4>모카</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -61,13 +67,17 @@ export default function IllitMain() {
                     <Link to='/IllMemWonhee' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemWonhee_img} alt="원희 이미지" />
-                            <h4>원희</h4>
+                            <div>
+                                <h4>원희</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/IllMemEroha' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemEroha_img} alt="이로하 이미지" />
-                            <h4>이로하</h4>
+                            <div>
+                                <h4>이로하</h4>
+                            </div>
                         </article>
                     </Link>
 
