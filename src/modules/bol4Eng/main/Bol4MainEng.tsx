@@ -17,6 +17,10 @@ export default function Bol4MainEng() {
     return (
         <div className='bol_m_full'>
             <Menu />
+            <section className="home_translate">
+                <Link to='/Bol4Main'>한국어</Link>
+                <Link to='/Bol4MainEng' className="on">English</Link>
+            </section>
             <img src={Bol_m_logo} alt="BOL4 logo" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="BOL4 deco" />BOL4<img src={MainH2Deco} alt="BOL4 deco" /></h2>
             <p className='tri_m_intropp'>
