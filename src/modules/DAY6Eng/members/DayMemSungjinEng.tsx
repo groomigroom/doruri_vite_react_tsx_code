@@ -1,23 +1,29 @@
+import { Link } from 'react-router-dom';
+
 import '../../triples/members/TriplesMemS1.css';
-import './DayMemSungjin.css';
+import '../../DAY6/members/DayMemSungjin.css';
 
-import Menu from '../../Menu';
+import MenuEng from '../../HomeEng/MenuEng';
 
-import Day_mm_sungjin_img from '../main/img/day6_m_mem_Sungjin.jpg';
+import Day_mm_sungjin_img from '../../DAY6/main/img/day6_m_mem_Sungjin.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function DayMemSungjinEng() {
     return (
         <div className="day_mm_sungjin_full">
-            <Menu />
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="DAY6 꾸미기" />성진<img src={MainH2Deco} alt="DAY6 꾸미기" /></h2>
+            <MenuEng />
+            <section className="home_translate">
+                <Link to='/DayMemSungjin'>한국어</Link>
+                <Link to='/DayMemSungjinEng' className="on">English</Link>
+            </section>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="DAY6 deco" />Sungjin<img src={MainH2Deco} alt="DAY6 deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                음악에 꽂혀서<br />
-                그 마음을 담아서<br />
-                여러분과 함께 할게요!
+                I'll be so into music<br />
+                that I'll be with you guys<br />
+                with that heart!
             </p>
-            <img src={Day_mm_sungjin_img} alt="성진 이미지" className='tri_mm_s1_img' />
+            <img src={Day_mm_sungjin_img} alt="Sungjin" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
