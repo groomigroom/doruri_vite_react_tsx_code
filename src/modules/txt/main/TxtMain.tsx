@@ -36,19 +36,25 @@ export default function TxtMain() {
                     <Link to='/TxtMemSubin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Txt_m_memSubin} alt="수빈 이미지" />
-                            <h4>수빈</h4>
+                            <div>
+                                <h4>수빈</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TxtMemYeonjun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Txt_m_memYeonjun} alt="연준 이미지" />
-                            <h4>연준</h4>
+                            <div>
+                                <h4>연준</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TxtMemBeomgyu' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Txt_m_memBeomgyu} alt="범규 이미지" />
-                            <h4>범규</h4>
+                            <div>
+                                <h4>범규</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
@@ -57,13 +63,17 @@ export default function TxtMain() {
                     <Link to='/TxtMemTaehyun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Txt_m_memTaehyun} alt="태현 이미지" />
-                            <h4>태현</h4>
+                            <div>
+                                <h4>태현</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TxtMemHueningkai' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Txt_m_memHueningkai} alt="휴닝카이 이미지" />
-                            <h4>휴닝카이</h4>
+                            <div>
+                                <h4>휴닝카이</h4>
+                            </div>
                         </article>
                     </Link>
 
