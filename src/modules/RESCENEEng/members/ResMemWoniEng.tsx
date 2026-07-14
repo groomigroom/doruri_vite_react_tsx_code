@@ -22,7 +22,7 @@ export default function ResMemWoniEng() {
                 I'll take good care of<br />
                 the members in<br />
                 a lively but mature way!</p>
-            <img src={Res_mm_Woni_img} alt="Woni" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Res_mm_Woni_img} alt="Woni" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
