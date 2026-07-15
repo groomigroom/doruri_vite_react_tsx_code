@@ -23,8 +23,6 @@ YENA
 9성격 
 
 
-승민 다정함
-
 아이엔 계획적임
 
 illitEngMain 부터 div 다시 쓰기
