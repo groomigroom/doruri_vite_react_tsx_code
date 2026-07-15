@@ -4,7 +4,7 @@ import './Idn_m_memid8.css';
 
 import Menu from '../../Menu';
 
-// import Idn_mm_memid7_img from '../main/img/tri_m_memS1.jpg';
+// import Idn_mm_memid8_img from '../main/img/tri_m_memS1.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
