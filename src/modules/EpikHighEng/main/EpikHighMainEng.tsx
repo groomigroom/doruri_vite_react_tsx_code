@@ -26,19 +26,19 @@ export default function EpikHighMainEng() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='tri_m_mem_tr_full epi_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TwsMemSinyu' className='tri_m_mem_a'>
+                    <Link to='/EpiMemTabloEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="Tablo" />
                             <h4>Tablo</h4>
                         </article>
                     </Link>
-                    <Link to='/TwsMemDohun' className='tri_m_mem_a'>
+                    <Link to='/EpiMemTwokutzEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="Tukutz" />
                             <h4>Tukutz</h4>
                         </article>
                     </Link>
-                    <Link to='/TwsMemYoungjae' className='tri_m_mem_a'>
+                    <Link to='/EpiMemMithraEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="Mithra" />
                             <h4>Mithra</h4>
