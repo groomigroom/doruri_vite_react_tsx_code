@@ -26,41 +26,31 @@ export default function TwsMemJihun() {
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>2006년 3월 28일</p></td>
                     </tr>
                     <tr>
                         <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>178.9cm</p></td>
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
                         <td><p>B형</p></td>
                     </tr>
                     <tr>
+                        <td><p>포지션</p></td>
+                        <td><p>메인댄서</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>INFJ</p></td>
+                    </tr>
+                    <tr>
                         <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>소속 유닛</p></td>
-                        <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                        <td><p>해파리</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>밝음</p></td>
                     </tr>
                 </tbody>
             </table>
