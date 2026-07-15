@@ -12,10 +12,11 @@ export default function BolMemAnjiyoung() {
         <div className="bol_mm_anjiyoung_full">
             <Menu />
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="볼빨간사춘기 꾸미기" />안지영<img src={MainH2Deco} alt="볼빨간사춘기 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
-            <img src="" alt="안지영 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <p className='tri_mm_s1_intropp'>
+                제 감수성을 담은<br />
+                노래들을 가지고<br />
+                여러분을 찾아 갈게요!</p>
+            <img src="" alt="안지영 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
