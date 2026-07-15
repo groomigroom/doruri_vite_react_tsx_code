@@ -26,22 +26,28 @@ export default function EpikHighMain() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full epi_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TwsMemSinyu' className='tri_m_mem_a'>
+                    <Link to='/EpiMemTablo' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="타블로 이미지" />
-                            <h4>타블로</h4>
+                            <div>
+                                <h4>타블로</h4>
+                            </div>
                         </article>
                     </Link>
-                    <Link to='/TwsMemDohun' className='tri_m_mem_a'>
+                    <Link to='/EpiMemTwokutz' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="투컷 이미지" />
-                            <h4>투컷</h4>
+                            <div>
+                                <h4>투컷</h4>
+                            </div>
                         </article>
                     </Link>
-                    <Link to='/TwsMemYoungjae' className='tri_m_mem_a'>
+                    <Link to='/EpiMemMithra' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src="" alt="미쓰라 이미지" />
-                            <h4>미쓰라</h4>
+                            <div>
+                                <h4>미쓰라</h4>
+                            </div>
                         </article>
                     </Link>
                 </section>
