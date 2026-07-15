@@ -13,8 +13,8 @@ export default function Idn_m_memid1() {
         <div className="tri_mm_s1_full">
             <Menu />
             <section className="home_translate">
-                <Link to='/TriplesMemS1' className="on">한국어</Link>
-                <Link to='/TriplesMemS1Eng'>English</Link>
+                <Link to='/Idn_m_memid1' className="on">한국어</Link>
+                <Link to='/Idn_m_memid1Eng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="idntt 로고 꾸미기" />김도훈<img src={MainH2Deco} alt="idntt 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
