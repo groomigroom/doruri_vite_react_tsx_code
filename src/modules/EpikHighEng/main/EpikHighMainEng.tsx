@@ -17,12 +17,12 @@ export default function EpikHighMainEng() {
         <div className='epi_m_full'>
             <MenuEng />
             <img src={EpikHigh_m_logo} alt="EpikHigh logo" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="EpikHigh deco" />에픽하이<img src={MainH2Deco} alt="EpikHigh deco" /></h2>
+            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="EpikHigh deco" />EPIK HIGH<img src={MainH2Deco} alt="EpikHigh deco" /></h2>
             <p className='tri_m_intropp'>
                 #####Twenty four seven<br />
                 &apos;TWS&apos;와 함께<br />
                 새로운 가능성을 찾아 봐요!</p>
-            <img src="" className='tri_m_img epi_m_img' alt='EpikHigh' />
+            <img src="" className='tri_m_img epi_m_img' alt='EPIK HIGH' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='tri_m_mem_tr_full epi_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
