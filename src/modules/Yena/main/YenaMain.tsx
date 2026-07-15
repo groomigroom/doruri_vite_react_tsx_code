@@ -27,10 +27,10 @@ export default function YenaMain() {
                 my heart!
             </p>
             <img src='' className='tri_m_img yen_m_img' alt='10CM' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 개인 프로필?? ▪</h2>
+            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 소개 ▪</h2>
             <section className='tri_m_mem_tr_full yen_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TenMemGwonjungyeol' className='tri_m_mem_a'>
+                    <Link to='/YenaMem' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src='' alt="최예나" />
                             <div>
