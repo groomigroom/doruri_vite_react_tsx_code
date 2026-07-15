@@ -19,9 +19,9 @@ export default function YenaMemEng() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="YENA" />YENA<img src={MainH2Deco} alt="YENA" /></h2>
             <p className='tri_mm_s1_intropp'>
-                #####부드럽고<br />
-                개성있는 노래로<br />
-                여러분을 찾아 갈게요!</p>
+                I'll go<br />
+                meet you with<br />
+                great affinity!</p>
             <img src='' alt="YENA" className='tri_mm_s1_img yen_mm_yena_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
