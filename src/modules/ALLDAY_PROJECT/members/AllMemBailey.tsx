@@ -18,9 +18,10 @@ export default function AllMemBailey() {
                 <Link to='/AllMemBaileyEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="allday project 꾸미기" />베일리<img src={MainH2Deco} alt="allday project 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                밝은 모습으로<br />
+                깔끔하게 잘 준비해서<br />
+                여러분을 만나러 갈게요!</p>
             <img src="" alt="베일리 이미지" className='tri_mm_s1_img all_mm_bailey_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
