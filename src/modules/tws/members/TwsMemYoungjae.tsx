@@ -18,9 +18,10 @@ export default function TwsMemYoungjae() {
                 <Link to='/TwsMemYoungjaeEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="TWS 꾸미기" />영재<img src={MainH2Deco} alt="TWS 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                #####그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                조용하지만<br />
+                다정한 마음을 가지고<br />
+                여러분을 찾아 갈게요!</p>
             <img src={Tws_mm_youngjae_img} alt="영재 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb tws_mm_youngjae_intropa_tb'>
                 <tbody>
