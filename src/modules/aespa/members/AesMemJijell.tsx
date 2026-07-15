@@ -18,9 +18,10 @@ export default function AesMemJijell() {
                 <Link to='/AesMemJijellEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="aespa 꾸미기" />지젤<img src={MainH2Deco} alt="aespa 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                즐거운 마음으로<br />
+                활발하게 &apos;aespa&apos;<br />
+                멤버로 활동해 볼게요!</p>
             <img src="" alt="지젤 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
