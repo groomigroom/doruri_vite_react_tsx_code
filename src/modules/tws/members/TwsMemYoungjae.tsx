@@ -22,7 +22,7 @@ export default function TwsMemYoungjae() {
                 #####그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
             <img src={Tws_mm_youngjae_img} alt="영재 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <table className='tri_mm_s1_intropa_tb tws_mm_youngjae_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
