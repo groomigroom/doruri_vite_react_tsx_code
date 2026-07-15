@@ -22,7 +22,7 @@ export default function TwsMemSinyu() {
                 그리고... 그리고... 그리고...<br />
                 더 열심히 더 열심히</p>
             <img src={Tws_mm_sinyu_img} alt="신유 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <table className='tri_mm_s1_intropa_tb tws_mm_sinyu_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
