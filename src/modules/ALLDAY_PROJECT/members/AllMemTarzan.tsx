@@ -18,9 +18,10 @@ export default function AllMemTarzan() {
                 <Link to='/AllMemTarzanEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="allday project 꾸미기" />타잔<img src={MainH2Deco} alt="allday project 꾸미기" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                다양한 생각과<br />
+                즐거움 마음을 가지고<br />
+                여러분을 찾아 갈게요!</p>
             <img src="" alt="타잔 이미지" className='tri_mm_s1_img all_mm_tarzan_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
