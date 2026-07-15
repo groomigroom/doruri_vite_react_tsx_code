@@ -34,6 +34,7 @@ DAY6 day
 볼빨간사춘기 bol
 에픽하이 epi
 최예나 yen
+idntt idn
 
 고유 페이지
 이벤트 e
