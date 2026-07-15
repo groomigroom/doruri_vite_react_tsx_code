@@ -22,9 +22,9 @@ export default function YenaMainEng() {
             <img src='' alt="최예나 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="YENA" />YENA<img src={MainH2Deco} alt="YENA" /></h2>
             <p className='tri_m_intropp'>
-                #####일말의 가능성이 없더라도<br />
-                &apos;10CM&apos;와 함께<br />
-                오늘도 힘내 보아요!
+                ca-ca-catch<br />
+                my heart<br />
+                with &apos;YENA&apos;!
             </p>
             <img src='' className='tri_m_img yen_m_img' alt='YENA' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 개인 프로필?? ▪</h2>
