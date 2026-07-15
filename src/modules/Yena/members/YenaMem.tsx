@@ -21,7 +21,7 @@ export default function YenaMem() {
             <p className='tri_mm_s1_intropp'>
                 뛰어난 친화력으로<br />
                 여러분을<br />
-                만나럴 갈게요!</p>
+                만나러 갈게요!</p>
             <img src='' alt="최예나" className='tri_mm_s1_img yen_mm_yena_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
