@@ -2,6 +2,9 @@ footer 디자인하기
 
 img loading lazy???? a 태그 noreffer??
 
+tws 멤버들 3줄 소개글 쓰기
+
+
 tws 성격 테이블부터 10cm도
 구조 npm run dev로 보기
 
