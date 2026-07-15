@@ -27,11 +27,11 @@ export default function ResMemWoni() {
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>2004년 5월 25일</p></td>
                     </tr>
                     <tr>
                         <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>162cm</p></td>
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
@@ -39,29 +39,28 @@ export default function ResMemWoni() {
                     </tr>
                     <tr>
                         <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
+                        <td><p>파이리</p></td>
                     </tr>
                     <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
+                        <td><p>remini</p></td>
+                        <td><p>조타</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>상징 동물</p></td>
+                        <td><p>고양이</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>ESFP</p></td>
                     </tr>
                     <tr>
                         <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>소속 유닛</p></td>
                         <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                            <p>??</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>의젓함</p></td>
                     </tr>
                 </tbody>
             </table>
