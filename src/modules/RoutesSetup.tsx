@@ -11,6 +11,7 @@ import DoruriMapIdolList2 from './doruri_intro/DoruriMapModules/DoruriMapIdolLis
 import IdolList from './idol_search/IdolList';
 import IdolListEng from './idol_searchEng/IdolListEng';
 import IdolList2 from './idol_search/IdolList2';
+import IdolList2Eng from './idol_searchEng/IdolList2Eng';
 
 //TriplesMain
 
@@ -304,6 +305,7 @@ export default function RoutesSetup() {
             <Route path='/IdolList' element={<IdolList />}></Route>
             <Route path='/IdolListEng' element={<IdolListEng />}></Route>
             <Route path='/IdolList2' element={<IdolList2 />}></Route>
+            <Route path='/IdolList2Eng' element={<IdolList2Eng />}></Route>
 
 
             <Route path='/TriplesMain' element={<TriplesMain />}></Route>
