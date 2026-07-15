@@ -4,12 +4,10 @@ img loading lazy???? a 태그 noreffer??
 
 폰--------------tws 멤버들 3줄 소개글 쓰기
 
+에스파부터 성격 테이블 ----------
 
-tws 성격 테이블부터 10cm도
-구조 npm run dev로 보기
 
-아일릿 성격 테이블
-구조 npm run dev로 보기
+
 
 최예나
 성격 테이블 조사도
