@@ -19,9 +19,9 @@ export default function EpikHighMain() {
             <img src={EpikHigh_m_logo} alt="EpikHigh 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="EpikHigh 로고 꾸미기" />에픽하이<img src={MainH2Deco} alt="EpikHigh 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                #####Twenty four seven<br />
-                &apos;TWS&apos;와 함께<br />
-                새로운 가능성을 찾아 봐요!</p>
+                &apos;에픽하이&apos;와 함께<br />
+                아무도 내 맘을 몰라도<br />
+                Can't stop!</p>
             <img src="" className='tri_m_img epi_m_img' alt='EpikHigh' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full epi_m_mem_tr_full'>
