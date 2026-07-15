@@ -28,20 +28,20 @@ export default function EpikHighMainEng() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TwsMemSinyu' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="타블로 이미지" />
-                            <h4>타블로</h4>
+                            <img src="" alt="Tablo" />
+                            <h4>Tablo</h4>
                         </article>
                     </Link>
                     <Link to='/TwsMemDohun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="투컷 이미지" />
-                            <h4>투컷</h4>
+                            <img src="" alt="Tukutz" />
+                            <h4>Tukutz</h4>
                         </article>
                     </Link>
                     <Link to='/TwsMemYoungjae' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="미쓰라 이미지" />
-                            <h4>미쓰라</h4>
+                            <img src="" alt="Mithra" />
+                            <h4>Mithra</h4>
                         </article>
                     </Link>
                 </section>
