@@ -22,7 +22,7 @@ export default function AesMemJijell() {
                 즐거운 마음으로<br />
                 활발하게 &apos;aespa&apos;<br />
                 멤버로 활동해 볼게요!</p>
-            <img src={Aes_mm_Jijell_img} alt="지젤 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Aes_mm_Jijell_img} alt="지젤 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
