@@ -42,10 +42,10 @@ export default function IdolList2() {
                         </div>
 
                         <div className="idolList_link">
-                            <Link to="/IoiMain" className="idolList_link_a idolList_link_ioi">
-                                <img src="" alt="xxx" />
+                            <Link to="/IdnttMain" className="idolList_link_a idolList_link_ioi">
+                                <img src="" alt="idntt" />
                                 <div>
-                                    <h4>xxx</h4>
+                                    <h4>idntt</h4>
                                 </div>
                             </Link>
                         </div>
