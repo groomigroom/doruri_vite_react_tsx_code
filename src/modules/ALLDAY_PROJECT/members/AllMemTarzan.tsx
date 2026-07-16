@@ -5,7 +5,7 @@ import './AllMemTarzan.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import All_mm_Tarzan_img from '../main/img/allday_m_mem_Tarzan.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,8 +22,8 @@ export default function AllMemTarzan() {
                 다양한 생각과<br />
                 즐거움 마음을 가지고<br />
                 여러분을 찾아 갈게요!</p>
-            <img src="" alt="타잔 이미지" className='tri_mm_s1_img all_mm_tarzan_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={All_mm_Tarzan_img} alt="타잔 이미지" className='tri_mm_s1_img all_mm_tarzan_img' />
+            <table className='tri_mm_s1_intropa_tb all_mm_tarzan_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
