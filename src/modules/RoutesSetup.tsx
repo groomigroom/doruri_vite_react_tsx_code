@@ -337,6 +337,22 @@ import Idn_m_memid20Eng from './idnttEng/members/Idn_m_memid20Eng';
 import Idn_m_memid21 from './idntt/members/Idn_m_memid21';
 import Idn_m_memid21Eng from './idnttEng/members/Idn_m_memid21Eng';
 
+//ARTMSMain
+
+import ARTMSMain from './ARTMS/main/ARTMSMain';
+import ARTMSMainEng from './ARTMSEng/main/ARTMSMainEng';
+
+import ArtMemHeejin from './ARTMS/members/ArtMemHeejin';
+import ArtMemHeejinEng from './ARTMSEng/members/ArtMemHeejinEng';
+import ArtMemHaseul from './ARTMS/members/ArtMemHaseul';
+import ArtMemHaseulEng from './ARTMSEng/members/ArtMemHaseulEng';
+import ArtMemKimlip from './ARTMS/members/ArtMemKimlip';
+import ArtMemKimlipEng from './ARTMSEng/members/ArtMemKimlipEng';
+import ArtMemJinsoul from './ARTMS/members/ArtMemJinsoul';
+import ArtMemJinsoulEng from './ARTMSEng/members/ArtMemJinsoulEng';
+import ArtMemChoerry from './ARTMS/members/ArtMemChoerry';
+import ArtMemChoerryEng from './ARTMSEng/members/ArtMemChoerryEng';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -676,6 +692,21 @@ export default function RoutesSetup() {
             <Route path='/Idn_m_memid21' element={<Idn_m_memid21 />}></Route>
             <Route path='/Idn_m_memid21Eng' element={<Idn_m_memid21Eng />}></Route>
 
+            {/* ARTMSMain */}
+
+            <Route path='/ARTMSMain' element={<ARTMSMain />}></Route>
+            <Route path='/ARTMSMainEng' element={<ARTMSMainEng />}></Route>
+
+            <Route path='/ArtMemHeejin' element={<ArtMemHeejin />}></Route>
+            <Route path='/ArtMemHeejinEng' element={<ArtMemHeejinEng />}></Route>
+            <Route path='/ArtMemHaseul' element={<ArtMemHaseul />}></Route>
+            <Route path='/ArtMemHaseulEng' element={<ArtMemHaseulEng />}></Route>
+            <Route path='/ArtMemKimlip' element={<ArtMemKimlip />}></Route>
+            <Route path='/ArtMemKimlipEng' element={<ArtMemKimlipEng />}></Route>
+            <Route path='/ArtMemJinsoul' element={<ArtMemJinsoul />}></Route>
+            <Route path='/ArtMemJinsoulEng' element={<ArtMemJinsoulEng />}></Route>
+            <Route path='/ArtMemChoerry' element={<ArtMemChoerry />}></Route>
+            <Route path='/ArtMemChoerryEng' element={<ArtMemChoerryEng />}></Route>
 
         </Routes>
     );
