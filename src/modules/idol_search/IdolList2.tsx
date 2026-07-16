@@ -53,9 +53,9 @@ export default function IdolList2() {
                     <section className="idolList_train">
                         <div className="idolList_link">
                             <Link to="/StrayKidsMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="xxx" />
+                                <img src="" alt="ARTMS" />
                                 <div>
-                                    <h4>xxx</h4>
+                                    <h4>ARTMS</h4>
                                 </div>
                             </Link>
                         </div>
