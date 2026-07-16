@@ -5,7 +5,7 @@ import './AesMemJijell.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Aes_mm_Jijell_img from '../main/img/aespa_m_mem_Jijel.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function AesMemJijell() {
                 즐거운 마음으로<br />
                 활발하게 &apos;aespa&apos;<br />
                 멤버로 활동해 볼게요!</p>
-            <img src="" alt="지젤 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Aes_mm_Jijell_img} alt="지젤 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
