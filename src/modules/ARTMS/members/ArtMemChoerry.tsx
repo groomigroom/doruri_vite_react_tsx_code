@@ -5,7 +5,7 @@ import './ArtMemChoerry.css';
 
 import Menu from '../../Menu';
 
-// import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
+// import Art_mm_Choerry_img from '../main/img/tri_m_memS1.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
