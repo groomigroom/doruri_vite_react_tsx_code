@@ -36,6 +36,7 @@ DAY6 day
 최예나 yen
 idntt idn
 ARTMS art
+비투비 bto
 
 고유 페이지
 이벤트 e
