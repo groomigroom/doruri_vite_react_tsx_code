@@ -5,7 +5,7 @@ import './AesMemNingning.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Aes_mm_Winter_img from '../main/img/aespa_m_mem_Winter.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function AesMemWinter() {
                 즐거운 마음으로<br />
                 노래하며<br />
                 여러분을 찾아 갈게요!</p>
-            <img src="" alt="윈터 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Aes_mm_Winter_img} alt="윈터 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
