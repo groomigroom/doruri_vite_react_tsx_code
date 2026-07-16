@@ -19,9 +19,9 @@ export default function ArtMemHaseulEng() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="ARTMS deco" />HaSeul<img src={MainH2Deco} alt="ARTMS deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                Don&apos;t Wanna<br />
-                Breakdown<br />
-                with &apos;HeeJin&apos;!
+                Remember the bright<br />
+                sunshine<br />
+                with &apos;HaSeul&apos;!
             </p>
             <img src='' alt="HeeJin" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
