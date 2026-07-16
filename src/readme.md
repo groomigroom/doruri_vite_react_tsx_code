@@ -35,6 +35,7 @@ DAY6 day
 에픽하이 epi
 최예나 yen
 idntt idn
+ARTMS art
 
 고유 페이지
 이벤트 e
