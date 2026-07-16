@@ -3,7 +3,7 @@ import './BolMemAnjiyoung.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Bol_mm_Anjiyoung_img from '../main/img/bol4_m_mem_Anjiyoung.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -16,8 +16,8 @@ export default function BolMemAnjiyoung() {
                 제 감수성을 담은<br />
                 노래들을 가지고<br />
                 여러분을 찾아 갈게요!</p>
-            <img src="" alt="안지영 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Bol_mm_Anjiyoung_img} alt="안지영 이미지" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb bol_mm_anjiyoung_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
