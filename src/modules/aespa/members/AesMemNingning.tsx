@@ -22,7 +22,7 @@ export default function AesMemNingning() {
                 솔직하게<br />
                 제 개성을 여러분께<br />
                 보여 드릴게요!</p>
-            <img src={Aes_mm_Ningning_img} alt="닝닝 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Aes_mm_Ningning_img} alt="닝닝 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
