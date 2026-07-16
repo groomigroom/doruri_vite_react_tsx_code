@@ -5,7 +5,7 @@ import './AesMemKarina.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Aes_mm_Karina_img from '../main/img/aespa_m_mem_Karina.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function AesMemKarina() {
                 세심하고<br />
                 다정한 마음으로<br />
                 여러분을 찾아 갈게요!</p>
-            <img src="" alt="카리나 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Aes_mm_Karina_img} alt="카리나 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
