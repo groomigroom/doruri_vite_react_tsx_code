@@ -5,7 +5,7 @@ import './AllMemAnnie.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import All_mm_Annie_img from '../main/img/allday_m_mem_Annie.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,8 +22,8 @@ export default function AllMemAnnie() {
                 멤버들의 다양한<br />
                 의견을 존중하며<br />
                 잘 활동해 볼게요!</p>
-            <img src="" alt="애니 이미지" className='tri_mm_s1_img all_mm_annie_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={All_mm_Annie_img} alt="애니 이미지" className='tri_mm_s1_img all_mm_annie_img' />
+            <table className='tri_mm_s1_intropa_tb all_mm_annie_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
