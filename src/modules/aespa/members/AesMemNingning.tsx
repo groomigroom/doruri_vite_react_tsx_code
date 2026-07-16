@@ -5,7 +5,7 @@ import './AesMemNingning.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import Aes_mm_Ningning_img from '../main/img/aespa_m_mem_Ningning.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,7 +22,7 @@ export default function AesMemNingning() {
                 솔직하게<br />
                 제 개성을 여러분께<br />
                 보여 드릴게요!</p>
-            <img src="" alt="닝닝 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src={Aes_mm_Ningning_img} alt="닝닝 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
