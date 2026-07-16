@@ -37,7 +37,7 @@ export default function ARTMSMainEng() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ Members ▪</h2>
             <section className='tri_m_mem_tr_full'>
                 <section className='res_m_mem_tr3'>
-                    <Link to='/ArtMemHeejin' className='tri_m_mem_a'>
+                    <Link to='/ArtMemHeejinEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src='' alt="HeeJin" />
                             <div>
@@ -45,7 +45,7 @@ export default function ARTMSMainEng() {
                             </div>
                         </article>
                     </Link>
-                    <Link to='/ArtMemHaseul' className='tri_m_mem_a'>
+                    <Link to='/ArtMemHaseulEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src='' alt="HaSeul" />
                             <div>
@@ -53,7 +53,7 @@ export default function ARTMSMainEng() {
                             </div>
                         </article>
                     </Link>
-                    <Link to='/ArtMemKimlip' className='tri_m_mem_a'>
+                    <Link to='/ArtMemKimlipEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src='' alt="Kim Lip" />
                             <div>
@@ -64,7 +64,7 @@ export default function ARTMSMainEng() {
                 </section>
 
                 <section className='res_m_mem_tr2'>
-                    <Link to='/ArtMemJinsoul' className='tri_m_mem_a'>
+                    <Link to='/ArtMemJinsoulEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src='' alt="JinSoul" />
                             <div>
@@ -72,7 +72,7 @@ export default function ARTMSMainEng() {
                             </div>
                         </article>
                     </Link>
-                    <Link to='/ArtMemChoerry' className='tri_m_mem_a'>
+                    <Link to='/ArtMemChoerryEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src='' alt="Choerry" />
                             <div>
