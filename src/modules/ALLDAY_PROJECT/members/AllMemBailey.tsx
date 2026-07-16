@@ -5,7 +5,7 @@ import './AllMemBailey.css';
 
 import Menu from '../../Menu';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import All_mm_Bailey_img from '../main/img/allday_m_mem_Bailey.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -22,8 +22,8 @@ export default function AllMemBailey() {
                 밝은 모습으로<br />
                 깔끔하게 잘 준비해서<br />
                 여러분을 만나러 갈게요!</p>
-            <img src="" alt="베일리 이미지" className='tri_mm_s1_img all_mm_bailey_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={All_mm_Bailey_img} alt="베일리 이미지" className='tri_mm_s1_img all_mm_bailey_img' />
+            <table className='tri_mm_s1_intropa_tb all_mm_bailey_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
