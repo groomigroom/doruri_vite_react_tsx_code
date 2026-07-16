@@ -20,7 +20,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function ARTMSMain() {
     return (
-        <div className='res_m_full'>
+        <div className='art_m_full'>
             <Menu />
             <section className="home_translate">
                 <Link to='/ARTMSMain' className="on">한국어</Link>
