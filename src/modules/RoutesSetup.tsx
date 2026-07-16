@@ -291,6 +291,52 @@ import YenaMainEng from './YenaEng/main/YenaMainEng';
 import YenaMem from './Yena/members/YenaMem';
 import YenaMemEng from './YenaEng/members/YenaMemEng';
 
+//IdnttMain
+
+import IdnttMain from './idntt/main/IdnttMain';
+import IdnttMainEng from './idnttEng/main/IdnttMainEng';
+
+import Idn_m_memid1 from './idntt/members/Idn_m_memid1';
+import Idn_m_memid1Eng from './idnttEng/members/Idn_m_memid1Eng';
+import Idn_m_memid2 from './idntt/members/Idn_m_memid2';
+import Idn_m_memid2Eng from './idnttEng/members/Idn_m_memid2Eng';
+import Idn_m_memid4 from './idntt/members/Idn_m_memid4';
+import Idn_m_memid4Eng from './idnttEng/members/Idn_m_memid4Eng';
+import Idn_m_memid5 from './idntt/members/Idn_m_memid5';
+import Idn_m_memid5Eng from './idnttEng/members/Idn_m_memid5Eng';
+import Idn_m_memid6 from './idntt/members/Idn_m_memid6';
+import Idn_m_memid6Eng from './idnttEng/members/Idn_m_memid6Eng';
+import Idn_m_memid7 from './idntt/members/Idn_m_memid7';
+import Idn_m_memid7Eng from './idnttEng/members/Idn_m_memid7Eng';
+import Idn_m_memid8 from './idntt/members/Idn_m_memid8';
+import Idn_m_memid8Eng from './idnttEng/members/Idn_m_memid8Eng';
+import Idn_m_memid9 from './idntt/members/Idn_m_memid9';
+import Idn_m_memid9Eng from './idnttEng/members/Idn_m_memid9Eng';
+import Idn_m_memid10 from './idntt/members/Idn_m_memid10';
+import Idn_m_memid10Eng from './idnttEng/members/Idn_m_memid10Eng';
+import Idn_m_memid11 from './idntt/members/Idn_m_memid11';
+import Idn_m_memid11Eng from './idnttEng/members/Idn_m_memid11Eng';
+import Idn_m_memid12 from './idntt/members/Idn_m_memid12';
+import Idn_m_memid12Eng from './idnttEng/members/Idn_m_memid12Eng';
+import Idn_m_memid13 from './idntt/members/Idn_m_memid13';
+import Idn_m_memid13Eng from './idnttEng/members/Idn_m_memid13Eng';
+import Idn_m_memid14 from './idntt/members/Idn_m_memid14';
+import Idn_m_memid14Eng from './idnttEng/members/Idn_m_memid14Eng';
+import Idn_m_memid15 from './idntt/members/Idn_m_memid15';
+import Idn_m_memid15Eng from './idnttEng/members/Idn_m_memid15Eng';
+import Idn_m_memid16 from './idntt/members/Idn_m_memid16';
+import Idn_m_memid16Eng from './idnttEng/members/Idn_m_memid16Eng';
+import Idn_m_memid17 from './idntt/members/Idn_m_memid17';
+import Idn_m_memid17Eng from './idnttEng/members/Idn_m_memid17Eng';
+import Idn_m_memid18 from './idntt/members/Idn_m_memid18';
+import Idn_m_memid18Eng from './idnttEng/members/Idn_m_memid18Eng';
+import Idn_m_memid19 from './idntt/members/Idn_m_memid19';
+import Idn_m_memid19Eng from './idnttEng/members/Idn_m_memid19Eng';
+import Idn_m_memid20 from './idntt/members/Idn_m_memid20';
+import Idn_m_memid20Eng from './idnttEng/members/Idn_m_memid20Eng';
+import Idn_m_memid21 from './idntt/members/Idn_m_memid21';
+import Idn_m_memid21Eng from './idnttEng/members/Idn_m_memid21Eng';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -583,6 +629,53 @@ export default function RoutesSetup() {
 
             <Route path='/YenaMem' element={<YenaMem />}></Route>
             <Route path='/YenaMemEng' element={<YenaMemEng />}></Route>
+
+            {/* IdnttMain */}
+
+            <Route path='/IdnttMain' element={<IdnttMain />}></Route>
+            <Route path='/IdnttMainEng' element={<IdnttMainEng />}></Route>
+
+            <Route path='/Idn_m_memid1' element={<Idn_m_memid1 />}></Route>
+            <Route path='/Idn_m_memid1Eng' element={<Idn_m_memid1Eng />}></Route>
+            <Route path='/Idn_m_memid2' element={<Idn_m_memid2 />}></Route>
+            <Route path='/Idn_m_memid2Eng' element={<Idn_m_memid2Eng />}></Route>
+            <Route path='/Idn_m_memid4' element={<Idn_m_memid4 />}></Route>
+            <Route path='/Idn_m_memid4Eng' element={<Idn_m_memid4Eng />}></Route>
+            <Route path='/Idn_m_memid5' element={<Idn_m_memid5 />}></Route>
+            <Route path='/Idn_m_memid5Eng' element={<Idn_m_memid5Eng />}></Route>
+            <Route path='/Idn_m_memid6' element={<Idn_m_memid6 />}></Route>
+            <Route path='/Idn_m_memid6Eng' element={<Idn_m_memid6Eng />}></Route>
+            <Route path='/Idn_m_memid7' element={<Idn_m_memid7 />}></Route>
+            <Route path='/Idn_m_memid7Eng' element={<Idn_m_memid7Eng />}></Route>
+            <Route path='/Idn_m_memid8' element={<Idn_m_memid8 />}></Route>
+            <Route path='/Idn_m_memid8Eng' element={<Idn_m_memid8Eng />}></Route>
+            <Route path='/Idn_m_memid9' element={<Idn_m_memid9 />}></Route>
+            <Route path='/Idn_m_memid9Eng' element={<Idn_m_memid9Eng />}></Route>
+            <Route path='/Idn_m_memid10' element={<Idn_m_memid10 />}></Route>
+            <Route path='/Idn_m_memid10Eng' element={<Idn_m_memid10Eng />}></Route>
+            <Route path='/Idn_m_memid11' element={<Idn_m_memid11 />}></Route>
+            <Route path='/Idn_m_memid11Eng' element={<Idn_m_memid11Eng />}></Route>
+            <Route path='/Idn_m_memid12' element={<Idn_m_memid12 />}></Route>
+            <Route path='/Idn_m_memid12Eng' element={<Idn_m_memid12Eng />}></Route>
+            <Route path='/Idn_m_memid13' element={<Idn_m_memid13 />}></Route>
+            <Route path='/Idn_m_memid13Eng' element={<Idn_m_memid13Eng />}></Route>
+            <Route path='/Idn_m_memid14' element={<Idn_m_memid14 />}></Route>
+            <Route path='/Idn_m_memid14Eng' element={<Idn_m_memid14Eng />}></Route>
+            <Route path='/Idn_m_memid15' element={<Idn_m_memid15 />}></Route>
+            <Route path='/Idn_m_memid15Eng' element={<Idn_m_memid15Eng />}></Route>
+            <Route path='/Idn_m_memid16' element={<Idn_m_memid16 />}></Route>
+            <Route path='/Idn_m_memid16Eng' element={<Idn_m_memid16Eng />}></Route>
+            <Route path='/Idn_m_memid17' element={<Idn_m_memid17 />}></Route>
+            <Route path='/Idn_m_memid17Eng' element={<Idn_m_memid17Eng />}></Route>
+            <Route path='/Idn_m_memid18' element={<Idn_m_memid18 />}></Route>
+            <Route path='/Idn_m_memid18Eng' element={<Idn_m_memid18Eng />}></Route>
+            <Route path='/Idn_m_memid19' element={<Idn_m_memid19 />}></Route>
+            <Route path='/Idn_m_memid19Eng' element={<Idn_m_memid19Eng />}></Route>
+            <Route path='/Idn_m_memid20' element={<Idn_m_memid20 />}></Route>
+            <Route path='/Idn_m_memid20Eng' element={<Idn_m_memid20Eng />}></Route>
+            <Route path='/Idn_m_memid21' element={<Idn_m_memid21 />}></Route>
+            <Route path='/Idn_m_memid21Eng' element={<Idn_m_memid21Eng />}></Route>
+
 
         </Routes>
     );
