@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/main/TriplesMain.css';
-import './IdnttMain.css';
+import '../../idntt/main/IdnttMain.css';
 
 // import Tri_m_logo from './img/tri_m_logo.svg';
 // import Tri_m_img from './img/tri_m_img.jpg';
