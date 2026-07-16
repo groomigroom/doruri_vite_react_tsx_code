@@ -12,7 +12,7 @@ import All_m_img from './img/allday_m_allday_project.jpg';
 import All_m_MemAnnie_img from './img/allday_m_mem_Annie.jpg';
 import All_m_MemTarzan_img from './img/allday_m_mem_Tarzan.jpg';
 import All_m_MemBailey_img from './img/allday_m_mem_Bailey.jpg';
-import All_m_MemWoochan_img from './img/allday_m_mem_Bailey.jpg';
+import All_m_MemWoochan_img from './img/allday_m_mem_Woochan.jpg';
 import All_m_MemYoungseo_img from './img/allday_m_mem_Youngseo.jpg';
 
 // #000000
