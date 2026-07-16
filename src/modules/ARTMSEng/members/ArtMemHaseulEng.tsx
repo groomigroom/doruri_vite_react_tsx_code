@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/members/TriplesMemS1.css';
-import '../../ARTMS/members/ArtMemHeejin.css';
-//################
-import Menu from '../../Menu';
+import '../../ARTMS/members/ArtMemHaseul.css';
+
+import MenuEng from '../../HomeEng/MenuEng';
 
 // import Art_mm_Heejin_img from '../main/img/tri_m_memS1.jpg';
 
@@ -11,13 +11,13 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function ArtMemHaseulEng() {
     return (
-        <div className="art_mm_heejin_full">
-            <Menu />
+        <div className="art_mm_haseul_full">
+            <MenuEng />
             <section className="home_translate">
-                <Link to='/ArtMemHeejin' className="on">한국어</Link>
-                <Link to='/ArtMemHeejinEng'>English</Link>
+                <Link to='/ArtMemHaseul' className="on">한국어</Link>
+                <Link to='/ArtMemHaseulEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="ARTMS deco" />HeeJin<img src={MainH2Deco} alt="ARTMS deco" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="ARTMS deco" />HaSeul<img src={MainH2Deco} alt="ARTMS deco" /></h2>
             <p className='tri_mm_s1_intropp'>
                 Don&apos;t Wanna<br />
                 Breakdown<br />
