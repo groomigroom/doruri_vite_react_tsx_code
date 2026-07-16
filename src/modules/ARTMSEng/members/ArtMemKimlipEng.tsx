@@ -14,8 +14,8 @@ export default function ArtMemKimlipEng() {
         <div className="art_mm_kimlip_full">
             <MenuEng />
             <section className="home_translate">
-                <Link to='/ArtMemKimlip' className="on">한국어</Link>
-                <Link to='/ArtMemKimlipEng'>English</Link>
+                <Link to='/ArtMemKimlip'>한국어</Link>
+                <Link to='/ArtMemKimlipEng' className="on">English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="ARTMS deco" />Kim Lip<img src={MainH2Deco} alt="ARTMS deco" /></h2>
             <p className='tri_mm_s1_intropp'>
