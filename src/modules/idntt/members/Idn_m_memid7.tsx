@@ -79,13 +79,13 @@ export default function Idn_m_memid7() {
 177cm
 3 혈액형
 O형
-4 소속 유닛ㅇㅇ
+4 소속 유닛
 unevermet
 5 MBTI
 ENTP
 6 상징색
 #8ad363
 7 성격
-밝음
+신중함
 8 별명
-쭈
+지우니
