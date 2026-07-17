@@ -18,6 +18,7 @@ export default function BTSMemRM() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />RM<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
+                &apos;Stray Kids&apos;
                 #####
                 24명은 많은 것 같아도<br />
                 멤버들 질서 유지를<br />
