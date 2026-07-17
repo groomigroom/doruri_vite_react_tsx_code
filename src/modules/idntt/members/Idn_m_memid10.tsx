@@ -72,21 +72,21 @@ export default function Idn_m_memid10() {
 };
 
 1 출생 
-2003년 6월 4일
-2 키 ㅇㅇ
-184cm
+2006년 4월 9일
+2 키
+179cm
 3 혈액형
 A형
 4 소속 유닛
 yesweare
 5 MBTI
-ISFP
+INFP
 6 상징색
-#f99bbb
+#338ce5
 7 성격
-??
+거짓말을 못함
 8 별명
-??
+게로네코
 
 
 
