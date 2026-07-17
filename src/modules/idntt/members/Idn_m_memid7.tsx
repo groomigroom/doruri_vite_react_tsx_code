@@ -74,7 +74,7 @@ export default function Idn_m_memid7() {
 
 
 1 출생ㅇㅇ
-2006년 7월 28일
+2002년 7월 7일
 2 키
 177cm
 3 혈액형
