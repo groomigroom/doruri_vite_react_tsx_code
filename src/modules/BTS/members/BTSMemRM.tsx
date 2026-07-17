@@ -18,13 +18,11 @@ export default function BTSMemRM() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />RM<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
-                &apos;Stray Kids&apos;
-                #####
-                24명은 많은 것 같아도<br />
-                멤버들 질서 유지를<br />
-                책임감 있게 다 해볼게요!
+                &apos;RM&apos;과 함께<br />
+                비오는 날에도<br />
+                힘내봐요!
             </p>
-            <img src={Tri_mm_s1_img} alt="윤서연 이미지" className='tri_mm_s1_img' />
+            <img src='' alt="RM 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
