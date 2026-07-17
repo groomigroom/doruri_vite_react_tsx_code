@@ -50,8 +50,8 @@ export default function YenaMem() {
                         <td><p>ENFP</p></td>
                     </tr>
                     <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p></p></td>
+                        <td><p>취미</p></td>
+                        <td><p>게임</p></td>
                     </tr>
                     <tr>
                         <td><p>소속 유닛</p></td>
