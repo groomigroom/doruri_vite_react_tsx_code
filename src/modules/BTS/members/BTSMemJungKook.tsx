@@ -19,7 +19,7 @@ export default function BTSMemJungKook() {
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />정국<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;정국&apos;과 함께<br />
-                어딘가로 열심히<br />
+                더 나은 방향으로<br />
                 달려 가봐요!
             </p>
             <img src='' alt="정국 이미지" className='tri_mm_s1_img' />
