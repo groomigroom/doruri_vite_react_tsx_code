@@ -10,7 +10,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BTSMemV() {
     return (
-        <div className="bts_mm_jhope_full">
+        <div className="bts_mm_v_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/BTSMemV' className="on">한국어</Link>
@@ -19,8 +19,8 @@ export default function BTSMemV() {
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />뷔<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;뷔&apos;과 함께<br />
-                나에게 맞는 것을<br />
-                찾으러 가봐요!
+                따뜻한 곳으로<br />
+                달려 가봐요!
             </p>
             <img src='' alt="뷔 이미지" className='tri_mm_s1_img' />
             #####
