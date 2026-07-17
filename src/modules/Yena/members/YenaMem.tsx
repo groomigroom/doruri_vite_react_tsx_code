@@ -42,8 +42,8 @@ export default function YenaMem() {
                         <td><p>구미봉</p></td>
                     </tr>
                     <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
+                        <td><p>별명</p></td>
+                        <td><p>오리</p></td>
                     </tr>
                     <tr>
                         <td><p>특기</p></td>
