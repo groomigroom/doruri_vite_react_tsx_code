@@ -10,7 +10,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BTSMemJhope() {
     return (
-        <div className="bts_mm_suga_full">
+        <div className="bts_mm_jhope_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/BTSMemJhope' className="on">한국어</Link>
@@ -19,8 +19,8 @@ export default function BTSMemJhope() {
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />제이홉<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;제이홉&apos;과 함께<br />
-                자신에 대한<br />
-                믿음을 가져봐요!
+                자신의 반응을<br />
+                따라서 어디든지 가봐요!
             </p>
             <img src='' alt="제이홉 이미지" className='tri_mm_s1_img' />
             #####
