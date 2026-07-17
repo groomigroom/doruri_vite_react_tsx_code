@@ -22,13 +22,13 @@ import Str_m_MemIn_img from './img/stray_m_mem_In.jpg';
 //#ffffff
 
 
-export default function StrayKidsMain() {
+export default function BTSMain() {
     return (
         <div className='str_m_full'>
             <Menu />
             <section className="home_translate">
-                <Link to='/StrayKidsMain' className="on">한국어</Link>
-                <Link to='/StrayKidsMainEng'>English</Link>
+                <Link to='/BTSMain' className="on">한국어</Link>
+                <Link to='/BTSMainEng'>English</Link>
             </section>
             <img src={Str_m_logo} alt="스트레이 키즈 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" />Stray Kids<img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" /></h2>
@@ -111,4 +111,4 @@ export default function StrayKidsMain() {
     );
 };
 
-BTSMain.tsx
+
