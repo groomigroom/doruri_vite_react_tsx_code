@@ -27,11 +27,11 @@ export default function YenaMem() {
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>1999년 9월 29일</p></td>
                     </tr>
                     <tr>
                         <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>####161cm</p></td>
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
