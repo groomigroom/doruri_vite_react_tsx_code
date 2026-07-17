@@ -81,7 +81,7 @@ export default function Idn_m_memid6() {
 4 소속 유닛
 unevermet
 5 MBTI
-ISTPㅇㅇ
+ISTP
 6 상징색
 #ff833e
 7 성격
