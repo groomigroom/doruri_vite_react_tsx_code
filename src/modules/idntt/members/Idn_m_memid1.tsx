@@ -71,3 +71,6 @@ export default function Idn_m_memid1() {
     );
 };
 
+1 출생
+2003년 3월 3일
+2 
