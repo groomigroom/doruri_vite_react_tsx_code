@@ -82,9 +82,9 @@ A형
 4 소속 유닛
 unevermet
 5 MBTI
-INTP
+ISFP
 6 상징색
-#564fed
+#b8ace8
 7 성격
 차분함
 8 별명
