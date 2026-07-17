@@ -82,9 +82,9 @@ O형
 4 소속 유닛ㅇㅇ
 unevermet
 5 MBTI
-ISTP
+ENTP
 6 상징색
-#ff833e
+#8ad363
 7 성격
 밝음
 8 별명
