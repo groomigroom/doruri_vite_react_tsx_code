@@ -11,7 +11,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BtoMemLimHyunsik() {
     return (
-        <div className="bto_mm_limhunsik_full">
+        <div className="bto_mm_limhyunsik_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/BtoMemLimHyunsik' className="on">한국어</Link>
