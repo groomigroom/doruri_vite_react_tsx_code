@@ -35,7 +35,7 @@ export default function YenaMem() {
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
-                        <td><p>B형ㅇㅇ</p></td>
+                        <td><p>A형</p></td>
                     </tr>
                     <tr>
                         <td><p>별명</p></td>
