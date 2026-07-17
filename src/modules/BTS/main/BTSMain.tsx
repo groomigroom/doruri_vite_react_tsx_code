@@ -67,7 +67,7 @@ export default function BTSMain() {
                         </article>
                     </Link>
 
-                    <Link to='/BTSMemj-hope'>
+                    <Link to='/BTSMemJhope'>
                         <article className='tri_m_mem'>
                             <img src='' alt="제이홉 이미지" />
                             <div>
