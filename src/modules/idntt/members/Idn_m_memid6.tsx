@@ -72,6 +72,23 @@ export default function Idn_m_memid6() {
 };
 
 
+1 출생
+2007년 10월 3일
+2 키
+185cm
+3 혈액형
+A형
+4 소속 유닛
+unevermet
+5 MBTI
+ISFP
+6 상징색
+#b8ace8
+7 성격
+감수성이 풍부함
+8 별명
+햄냥이
+
 
 
 
