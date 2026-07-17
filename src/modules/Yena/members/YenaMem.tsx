@@ -54,9 +54,9 @@ export default function YenaMem() {
                         <td><p>게임</p></td>
                     </tr>
                     <tr>
-                        <td><p>소속 유닛</p></td>
+                        <td><p>특기</p></td>
                         <td>
-                            <p></p></td>
+                            <p>삼행시</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>성격</p></td>
