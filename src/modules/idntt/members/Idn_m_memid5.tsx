@@ -78,7 +78,7 @@ export default function Idn_m_memid5() {
 2 키
 185cm
 3 혈액형
-??
+A형
 4 소속 유닛
 unevermet
 5 MBTI
