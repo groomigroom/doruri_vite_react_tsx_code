@@ -38,8 +38,8 @@ export default function YenaMem() {
                         <td><p>A형</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
+                        <td><p>응원봉</p></td>
+                        <td><p>구미봉</p></td>
                     </tr>
                     <tr>
                         <td><p>취미</p></td>
