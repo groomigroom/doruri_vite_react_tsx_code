@@ -19,8 +19,8 @@ export default function BTSMemJimin() {
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />지민<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;지민&apos;과 함께<br />
-                자신의 반응을<br />
-                따라서 어디든지 가봐요!
+                나에게 맞는 것을<br />
+                찾으러 가봐요!
             </p>
             <img src='' alt="지민 이미지" className='tri_mm_s1_img' />
             #####
