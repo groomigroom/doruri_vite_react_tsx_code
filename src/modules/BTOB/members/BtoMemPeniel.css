@@ -1,1 +1,5 @@
-BtoMemPeniel.css
+.bto_mm_peniel_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
