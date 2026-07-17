@@ -38,6 +38,7 @@ idntt idn
 ARTMS art
 비투비 bto
 한로로xxx han
+방탄소년단xxx bts
 
 고유 페이지
 이벤트 e
