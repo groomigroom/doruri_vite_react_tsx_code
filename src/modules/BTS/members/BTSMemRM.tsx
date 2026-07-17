@@ -8,13 +8,13 @@ import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
-export default function TriplesMemS1() {
+export default function BTSMemRM() {
     return (
         <div className="tri_mm_s1_full">
             <Menu />
             <section className="home_translate">
-                <Link to='/TriplesMemS1' className="on">한국어</Link>
-                <Link to='/TriplesMemS1Eng'>English</Link>
+                <Link to='/BTSMemRM' className="on">한국어</Link>
+                <Link to='/BTSMemRMEng'>English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />윤서연<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
@@ -71,4 +71,4 @@ export default function TriplesMemS1() {
     );
 };
 
-BTSMemRM.tsx
+
