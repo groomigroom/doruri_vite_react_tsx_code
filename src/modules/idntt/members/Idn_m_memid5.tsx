@@ -72,7 +72,23 @@ export default function Idn_m_memid5() {
 };
 
 
-
+수정하기
+1 출생
+2005년 11월 17일
+2 키
+185cm
+3 혈액형
+??
+4 소속 유닛
+unevermet
+5 MBTI
+INTP
+6 상징색
+#564fed
+7 성격
+차분함
+8 별명
+쿼카
 
 
 
