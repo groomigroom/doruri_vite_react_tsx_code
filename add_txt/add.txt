@@ -1,4 +1,5 @@
-YenaMem.tsx 수정함
+YenaMem.tsx 도 파일로 수정하기
+idntt id8부터 수정하기 성격 테이블
 
 footer 디자인하기
 
