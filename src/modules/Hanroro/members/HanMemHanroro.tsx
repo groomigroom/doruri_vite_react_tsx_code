@@ -4,13 +4,13 @@ import './HanMemHanroro.css';
 
 import Menu from '../../Menu';
 
-import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
+//import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function HanMemHanroro() {
     return (
-        <div className="tri_mm_s1_full">
+        <div className="han_mm_hanroro_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/HanMemHanroro' className="on">한국어</Link>
