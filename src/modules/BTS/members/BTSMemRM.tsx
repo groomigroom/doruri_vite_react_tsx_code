@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import './TriplesMemS1.css';
+import './BTSMemRM.css';
 
 import Menu from '../../Menu';
 
