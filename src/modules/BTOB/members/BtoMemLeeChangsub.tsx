@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+import '../../triples/members/TriplesMemS1.css'
 import './BtoMemLeeChangsub.css';
 
 import Menu from '../../Menu';
@@ -71,5 +72,4 @@ export default function BtoMemLeeChangsub() {
         </div>
     );
 };
-
 
