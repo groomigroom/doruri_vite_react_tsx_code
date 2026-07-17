@@ -42,6 +42,8 @@ ARTMS art
 레드벨벳xxx red
 지코xxx zic
 
+Zic_m_img
+
 고유 페이지
 이벤트 e
 메인 m
