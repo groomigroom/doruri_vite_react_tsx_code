@@ -51,17 +51,16 @@ export default function YenaMem() {
                     </tr>
                     <tr>
                         <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
+                        <td><p></p></td>
                     </tr>
                     <tr>
                         <td><p>소속 유닛</p></td>
                         <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                            <p></p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>사교적임</p></td>
                     </tr>
                 </tbody>
             </table>
