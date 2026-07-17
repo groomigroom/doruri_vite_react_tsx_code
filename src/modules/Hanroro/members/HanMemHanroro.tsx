@@ -23,7 +23,7 @@ export default function HanMemHanroro() {
                 멤버들 질서 유지를<br />
                 책임감 있게 다 해볼게요!
             </p>
-            <img src={Tri_mm_s1_img} alt="윤서연 이미지" className='tri_mm_s1_img' />
+            <img src='' alt="한로로 이미지" className='tri_mm_s1_img' />
             #####
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
