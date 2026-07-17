@@ -22,10 +22,9 @@ export default function HanroroMain() {
             <img src='' alt="한로로 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="한로로 꾸미기" />한로로<img src={MainH2Deco} alt="한로로 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                #####
-                일말의 가능성이 없더라도<br />
-                &apos;10CM&apos;와 함께<br />
-                오늘도 힘내 보아요!
+                &apos;한로로&apos;와 함께<br />
+                돌고도는 세계에서<br />
+                좋은 생각을 해보아요!
             </p>
             <img src='' className='tri_m_img ten_m_img' alt='한로로' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 소개 ▪</h2>
