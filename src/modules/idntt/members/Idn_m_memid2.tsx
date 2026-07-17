@@ -73,17 +73,17 @@ export default function Idn_m_memid2() {
 
 수정하기
 1 출생
-2003년 3월 3일
+2006년 10월 25일
 2 키
-178cm
+188cm
 3 혈액형
-B형
+O형
 4 소속 유닛
 unevermet
 5 MBTI
-ESTP
+ESTJ
 6 상징색
-#ff3600
+#7dd0f4
 7 성격
 친화력 좋음
 8 별명
