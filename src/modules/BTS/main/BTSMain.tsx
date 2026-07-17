@@ -1,25 +1,24 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/main/TriplesMain.css'
-import './StrayKidsMain.css';
+import './BTSMain.css';
 
 import Menu from '../../Menu';
 
-import Str_m_logo from './img/Str_m_logo.svg';
+//import Str_m_logo from './img/Str_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
-import Str_m_img from './img/stray_m_stray_kids.jpg';
+//import Str_m_img from './img/stray_m_stray_kids.jpg';
 
-import Str_m_MemBangchan_img from './img/stray_m_mem_Bangchan.jpg';
-import Str_m_MemLino_img from './img/stray_m_mem_Lino.jpg';
-import Str_m_MemChangbin_img from './img/stray_m_mem_Changbin.jpg';
-import Str_m_MemHyunjin_img from './img/stray_m_mem_Hyunjin.jpg';
-import Str_m_MemHan_img from './img/stray_m_mem_Han.jpg';
-import Str_m_MemFilix_img from './img/stray_m_mem_Filix.jpg';
-import Str_m_MemSeungmin_img from './img/stray_m_mem_Seungmin.jpg';
-import Str_m_MemIn_img from './img/stray_m_mem_In.jpg';
+//import Str_m_MemBangchan_img from './img/stray_m_mem_Bangchan.jpg';
+//import Str_m_MemLino_img from './img/stray_m_mem_Lino.jpg';
+//import Str_m_MemChangbin_img from './img/stray_m_mem_Changbin.jpg';
+//import Str_m_MemHyunjin_img from './img/stray_m_mem_Hyunjin.jpg';
+//import Str_m_MemHan_img from './img/stray_m_mem_Han.jpg';
+//import Str_m_MemFilix_img from './img/stray_m_mem_Filix.jpg';
+//import Str_m_MemSeungmin_img from './img/stray_m_mem_Seungmin.jpg';
+//import Str_m_MemIn_img from './img/stray_m_mem_In.jpg';
 
-//#191919
-//#ffffff
+//#????
 
 
 export default function BTSMain() {
