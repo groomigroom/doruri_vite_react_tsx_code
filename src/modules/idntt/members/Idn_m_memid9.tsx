@@ -71,9 +71,9 @@ export default function Idn_m_memid9() {
     );
 };
 
-1 출생 ㅇㅇ
-2009년 7월 11일
-2 키
+1 출생 
+2003년 6월 4일
+2 키 ㅇㅇ
 183cm
 3 혈액형
 ??
