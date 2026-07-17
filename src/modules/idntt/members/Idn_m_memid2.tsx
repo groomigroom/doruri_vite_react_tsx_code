@@ -71,7 +71,7 @@ export default function Idn_m_memid2() {
     );
 };
 
-수정하기
+
 1 출생
 2006년 10월 25일
 2 키
