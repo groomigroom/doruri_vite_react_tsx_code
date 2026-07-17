@@ -78,7 +78,7 @@ export default function BTSMain() {
                 </section>
 
                 <section className='tri_m_mem_tr'>
-                    <Link to='/BTSMemHan'>
+                    <Link to='/BTSMemJimin'>
                         <article className='tri_m_mem'>
                             <img src='' alt="지민 이미지" />
                             <div>
@@ -87,7 +87,7 @@ export default function BTSMain() {
                         </article>
                     </Link>
 
-                    <Link to='/BTSMemFilix'>
+                    <Link to='/BTSMemV'>
                         <article className='tri_m_mem'>
                             <img src='' alt="뷔 이미지" />
                             <div>
@@ -96,7 +96,7 @@ export default function BTSMain() {
                         </article>
                     </Link>
 
-                    <Link to='/BTSMemSeungmin'>
+                    <Link to='/BTSMemJungKook'>
                         <article className='tri_m_mem'>
                             <img src='' alt="정국 이미지" />
                             <div>
