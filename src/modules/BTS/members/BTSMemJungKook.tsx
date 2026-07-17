@@ -10,7 +10,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BTSMemJungKook() {
     return (
-        <div className="bts_mm_jin_full">
+        <div className="bts_mm_jungkook_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/BTSMemJungKook' className="on">한국어</Link>
