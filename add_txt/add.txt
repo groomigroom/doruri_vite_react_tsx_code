@@ -1,3 +1,5 @@
+YenaMem.tsx 수정함
+
 footer 디자인하기
 
 img loading lazy???? a 태그 noreffer??
