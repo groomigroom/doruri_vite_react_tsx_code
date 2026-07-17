@@ -73,15 +73,15 @@ export default function Idn_m_memid6() {
 
 
 1 출생
-2007년 10월 3일
+2006년 7월 28일
 2 키
-185cm
+177cm
 3 혈액형
-A형
+??
 4 소속 유닛
 unevermet
 5 MBTI
-ISFP
+ISTPㅇㅇ
 6 상징색
 #b8ace8
 7 성격
