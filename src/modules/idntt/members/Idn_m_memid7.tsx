@@ -73,3 +73,19 @@ export default function Idn_m_memid7() {
 
 
 
+1 출생ㅇㅇ
+2006년 7월 28일
+2 키
+177cm
+3 혈액형
+??
+4 소속 유닛
+unevermet
+5 MBTI
+ISTP
+6 상징색
+#ff833e
+7 성격
+밝음
+8 별명
+쭈
