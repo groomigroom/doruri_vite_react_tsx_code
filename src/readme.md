@@ -37,7 +37,7 @@ DAY6 day
 idntt idn
 ARTMS art
 비투비 bto
-한로로xxx han
+한로로 Hanroro han
 방탄소년단xxx bts
 레드벨벳xxx red
 지코xxx zic
