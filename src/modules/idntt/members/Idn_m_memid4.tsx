@@ -72,7 +72,7 @@ export default function Idn_m_memid4() {
 };
 
 
-수정하기
+
 1 출생
 2005년 11월 17일
 2 키
