@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+import '../../triples/members/TriplesMemS1.css';
 import './BtoMemSeoEunkwang.css';
 
 import Menu from '../../Menu';
@@ -71,4 +72,3 @@ export default function BtoMemSeoEunkwang() {
         </div>
     );
 };
-
