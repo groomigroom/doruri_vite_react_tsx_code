@@ -72,6 +72,21 @@ export default function Idn_m_memid8() {
 };
 
 
-
+1 출생 ㅇㅇ
+2002년 7월 7일
+2 키
+177cm
+3 혈액형
+O형
+4 소속 유닛
+unevermet
+5 MBTI
+ENTP
+6 상징색
+#8ad363
+7 성격
+신중함
+8 별명
+지우니
 
 
