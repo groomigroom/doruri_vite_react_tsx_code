@@ -30,7 +30,7 @@ export default function HanroroMain() {
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 소개 ▪</h2>
             <section className='tri_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TenMemGwonjungyeol' className='tri_m_mem_a'>
+                    <Link to='/HanMemHanroro' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src='' alt="한로로 이미지" />
                             <div>
