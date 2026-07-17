@@ -60,18 +60,18 @@ export default function BTSMain() {
 
                     <Link to='/StrayMemChangbin'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="창빈 이미지" />
+                            <img src='' alt="슈가 이미지" />
                             <div>
-                                <h4>창빈</h4>
+                                <h4>슈가</h4>
                             </div>
                         </article>
                     </Link>
 
                     <Link to='/StrayMemHyunjin'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="현진 이미지" />
+                            <img src='' alt="제이홉 이미지" />
                             <div>
-                                <h4>현진</h4>
+                                <h4>제이홉</h4>
                             </div>
                         </article>
                     </Link>
