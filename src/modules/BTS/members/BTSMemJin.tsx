@@ -10,19 +10,19 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BTSMemJin() {
     return (
-        <div className="bts_mm_rm_full">
+        <div className="bts_mm_jin_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/BTSMemJin' className="on">한국어</Link>
                 <Link to='/BTSMemJinEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />RM<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />진<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
-                &apos;RM&apos;과 함께<br />
+                &apos;진&apos;과 함께<br />
                 비오는 날에도<br />
                 힘내봐요!
             </p>
-            <img src='' alt="RM 이미지" className='tri_mm_s1_img' />
+            <img src='' alt="진 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
@@ -72,4 +72,4 @@ export default function BTSMemJin() {
 };
 
 
-진
+
