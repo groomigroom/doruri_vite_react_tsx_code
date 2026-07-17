@@ -71,7 +71,22 @@ export default function Idn_m_memid9() {
     );
 };
 
-
+1 출생 ㅇㅇ
+2009년 7월 11일
+2 키
+183cm
+3 혈액형
+??
+4 소속 유닛
+unevermet
+5 MBTI
+ESFP
+6 상징색
+#ffed49
+7 성격
+다정함
+8 별명
+또치
 
 
 
