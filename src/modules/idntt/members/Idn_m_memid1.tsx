@@ -73,4 +73,14 @@ export default function Idn_m_memid1() {
 
 1 출생
 2003년 3월 3일
-2 
+2 키
+178cm
+3 혈액형
+B형
+4 소속 유닛
+unevermet
+5 MBTI
+ESTP
+6 상징색
+#ff3600
+
