@@ -4,20 +4,21 @@ import './BTSMemRM.css';
 
 import Menu from '../../Menu';
 
-import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
+//import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BTSMemRM() {
     return (
-        <div className="tri_mm_s1_full">
+        <div className="bts_mm_rm_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/BTSMemRM' className="on">한국어</Link>
                 <Link to='/BTSMemRMEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />윤서연<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />RM<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
+                #####
                 24명은 많은 것 같아도<br />
                 멤버들 질서 유지를<br />
                 책임감 있게 다 해볼게요!
