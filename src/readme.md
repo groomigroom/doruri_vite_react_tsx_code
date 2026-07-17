@@ -38,8 +38,8 @@ idntt idn
 ARTMS art
 비투비 bto
 한로로 Hanroro han
-방탄소년단xxx bts
-레드벨벳xxx red
+방탄소년단 bts
+Red Velvet red
 지코xxx zic
 
 Zic_m_img
