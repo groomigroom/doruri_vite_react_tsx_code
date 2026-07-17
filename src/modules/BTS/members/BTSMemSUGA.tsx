@@ -18,9 +18,9 @@ export default function BTSMemSUGA() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />슈가<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
-                &apos;진&apos;과 함께<br />
-                어딘가로 열심히<br />
-                달려 가봐요!
+                &apos;슈가&apos;과 함께<br />
+                자신에 대한<br />
+                믿음을 가져봐요!
             </p>
             <img src='' alt="슈가 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
