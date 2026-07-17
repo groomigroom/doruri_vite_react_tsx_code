@@ -72,7 +72,7 @@ export default function Idn_m_memid5() {
 };
 
 
-수정하기
+
 1 출생
 2007년 10월 3일
 2 키
