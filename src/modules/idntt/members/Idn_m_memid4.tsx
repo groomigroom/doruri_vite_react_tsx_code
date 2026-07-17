@@ -72,6 +72,24 @@ export default function Idn_m_memid4() {
 };
 
 
+수정하기
+1 출생
+2006년 10월 25일
+2 키
+188cm
+3 혈액형
+O형
+4 소속 유닛
+unevermet
+5 MBTI
+ESTJ
+6 상징색
+#7dd0f4
+7 성격
+온화함
+8 별명
+희죽희죽
+
 
 
 
