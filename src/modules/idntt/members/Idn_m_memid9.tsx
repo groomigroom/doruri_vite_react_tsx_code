@@ -74,19 +74,19 @@ export default function Idn_m_memid9() {
 1 출생 
 2003년 6월 4일
 2 키 ㅇㅇ
-183cm
+184cm
 3 혈액형
-??
+A형
 4 소속 유닛
-unevermet
+yesweare
 5 MBTI
-ESFP
+ISFP
 6 상징색
-#ffed49
+#f99bbb
 7 성격
-다정함
+??
 8 별명
-또치
+??
 
 
 
