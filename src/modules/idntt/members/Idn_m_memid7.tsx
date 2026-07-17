@@ -73,13 +73,13 @@ export default function Idn_m_memid7() {
 
 
 
-1 출생ㅇㅇ
+1 출생
 2002년 7월 7일
 2 키
 177cm
 3 혈액형
-??
-4 소속 유닛
+O형
+4 소속 유닛ㅇㅇ
 unevermet
 5 MBTI
 ISTP
