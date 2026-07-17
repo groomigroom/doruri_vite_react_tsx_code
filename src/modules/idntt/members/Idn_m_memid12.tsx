@@ -72,7 +72,22 @@ export default function Idn_m_memid12() {
 };
 
 
-
+1 출생 
+2010년 8월 6일
+2 키
+189cm
+3 혈액형
+B형
+4 소속 유닛
+yesweare
+5 MBTI
+INTJ
+6 상징색
+#c6e800
+7 성격
+겁이 없음
+8 별명
+??
 
 
 
