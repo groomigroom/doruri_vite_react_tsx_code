@@ -31,11 +31,11 @@ export default function YenaMem() {
                     </tr>
                     <tr>
                         <td><p>키</p></td>
-                        <td><p>####161cm</p></td>
+                        <td><p>162cm</p></td>
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
+                        <td><p>B형ㅇㅇ</p></td>
                     </tr>
                     <tr>
                         <td><p>별명</p></td>
