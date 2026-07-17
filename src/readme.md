@@ -40,6 +40,7 @@ ARTMS art
 한로로xxx han
 방탄소년단xxx bts
 레드벨벳xxx red
+지코xxx zic
 
 고유 페이지
 이벤트 e
