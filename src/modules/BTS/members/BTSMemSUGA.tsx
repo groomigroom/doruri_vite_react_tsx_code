@@ -10,19 +10,19 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BTSMemSUGA() {
     return (
-        <div className="bts_mm_jin_full">
+        <div className="bts_mm_suga_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/BTSMemSUGA' className="on">한국어</Link>
                 <Link to='/BTSMemSUGAEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />진<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />슈가<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;진&apos;과 함께<br />
                 어딘가로 열심히<br />
                 달려 가봐요!
             </p>
-            <img src='' alt="진 이미지" className='tri_mm_s1_img' />
+            <img src='' alt="슈가 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
@@ -72,4 +72,4 @@ export default function BTSMemSUGA() {
 };
 
 
-슈가
+
