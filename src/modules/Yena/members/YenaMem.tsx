@@ -46,8 +46,8 @@ export default function YenaMem() {
                         <td><p>오리</p></td>
                     </tr>
                     <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
+                        <td><p>MBTI</p></td>
+                        <td><p>ENFP</p></td>
                     </tr>
                     <tr>
                         <td><p>좋아하는 음식</p></td>
