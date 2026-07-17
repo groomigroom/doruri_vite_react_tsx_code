@@ -51,9 +51,9 @@ export default function BTSMain() {
                     </Link>
                     <Link to='/StrayMemLino'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="리노 이미지" />
+                            <img src='' alt="진 이미지" />
                             <div>
-                                <h4>리노</h4>
+                                <h4>진</h4>
                             </div>
                         </article>
                     </Link>
