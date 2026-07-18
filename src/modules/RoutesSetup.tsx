@@ -356,6 +356,20 @@ import ArtMemChoerryEng from './ARTMSEng/members/ArtMemChoerryEng';
 //BTOBMain
 
 import BTOBMain from './BTOB/main/BTOBMain';
+import BTOBMainEng from './BTOBEng/main/BTOBMainEng';
+
+import BtoMemPeniel from './BTOB/members/BtoMemPeniel';
+import BtoMemPenielEng from './BTOBEng/members/BtoMemPenielEng';
+import BtoMemLeeChangsub from './BTOB/members/BtoMemLeeChangsub';
+import BtoMemLeeChangsubEng from './BTOBEng/members/BtoMemLeeChangsubEng';
+import BtoMemLeeMinhyuk from './BTOB/members/BtoMemLeeMinhyuk';
+import BtoMemLeeMinhyukEng from './BTOBEng/members/BtoMemLeeMinhyukEng';
+import BtoMemLimHyunsik from './BTOB/members/BtoMemLimHyunsik';
+import BtoMemLimHyunsikEng from './BTOBEng/members/BtoMemLimHyunsikEng';
+import BtoMemYookSungjae from './BTOB/members/BtoMemYookSungjae';
+import BtoMemYookSungjaeEng from './BTOBEng/members/BtoMemYookSungjaeEng';
+import BtoMemSeoEunkwang from './BTOB/members/BtoMemSeoEunkwang';
+import BtoMemSeoEunkwangEng from './BTOBEng/members/BtoMemSeoEunkwangEng';
 
 
 export default function RoutesSetup() {
@@ -712,6 +726,24 @@ export default function RoutesSetup() {
             <Route path='/ArtMemJinsoulEng' element={<ArtMemJinsoulEng />}></Route>
             <Route path='/ArtMemChoerry' element={<ArtMemChoerry />}></Route>
             <Route path='/ArtMemChoerryEng' element={<ArtMemChoerryEng />}></Route>
+
+            {/* BTOBMain */}
+            <Route path='/BTOBMain' element={<BTOBMain />}></Route>
+            <Route path='/BTOBMainEng' element={<BTOBMainEng />}></Route>
+
+            <Route path='/BtoMemPeniel' element={<BtoMemPeniel />}></Route>
+            <Route path='/BtoMemPenielEng' element={<BtoMemPenielEng />}></Route>
+            <Route path='/BtoMemLeeChangsub' element={<BtoMemLeeChangsub />}></Route>
+            <Route path='/BtoMemLeeChangsubEng' element={<BtoMemLeeChangsubEng />}></Route>
+            <Route path='/BtoMemLeeMinhyuk' element={<BtoMemLeeMinhyuk />}></Route>
+            <Route path='/BtoMemLeeMinhyukEng' element={<BtoMemLeeMinhyukEng />}></Route>
+            <Route path='/BtoMemLimHyunsik' element={<BtoMemLimHyunsik />}></Route>
+            <Route path='/BtoMemLimHyunsikEng' element={<BtoMemLimHyunsikEng />}></Route>
+            <Route path='/BtoMemYookSungjae' element={<BtoMemYookSungjae />}></Route>
+            <Route path='/BtoMemYookSungjaeEng' element={<BtoMemYookSungjaeEng />}></Route>
+            <Route path='/BtoMemSeoEunkwang' element={<BtoMemSeoEunkwang />}></Route>
+            <Route path='/BtoMemSeoEunkwangEng' element={<BtoMemSeoEunkwangEng />}></Route>
+
 
         </Routes>
     );
