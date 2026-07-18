@@ -72,7 +72,22 @@ export default function Idn_m_memid19() {
 };
 
 
-
+1 출생 
+2008년 10월 11일
+2 키
+??
+3 혈액형
+A형
+4 소속 유닛
+itsnotover
+5 MBTI
+ISFP
+6 상징색
+#62d3d1
+7 성격
+??
+8 별명
+밤돌이
 
 
 
