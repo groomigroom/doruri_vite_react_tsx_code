@@ -72,7 +72,22 @@ export default function Idn_m_memid18() {
 };
 
 
-
+1 출생 
+2008년 1월 1일
+2 키
+??
+3 혈액형
+B형
+4 소속 유닛
+itsnotover
+5 MBTI
+ISTJ
+6 상징색
+#0050a4
+7 성격
+??
+8 별명
+아기 리더
 
 
 
