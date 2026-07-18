@@ -73,17 +73,17 @@ export default function Idn_m_memid16() {
 
 
 1 출생 
-2008년 9월 4일
+2009년 6월 10일
 2 키
-180cm
+183cm
 3 혈액형
-A형
+O형
 4 소속 유닛
 yesweare
 5 MBTI
-ISFP
+INTJ
 6 상징색
-#4edd9c
+#ff7364
 7 성격
 세심함
 8 별명
