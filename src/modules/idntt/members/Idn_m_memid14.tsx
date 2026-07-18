@@ -72,7 +72,22 @@ export default function Idn_m_memid14() {
 };
 
 
-
+1 출생 
+2006년 9월 26일
+2 키
+183cm
+3 혈액형
+AB형
+4 소속 유닛
+yesweare
+5 MBTI
+ESTP
+6 상징색
+#95a9d7
+7 성격
+유쾌함
+8 별명
+쭌멍이
 
 
 
