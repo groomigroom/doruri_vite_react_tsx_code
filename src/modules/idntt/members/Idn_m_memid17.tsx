@@ -74,21 +74,21 @@ export default function Idn_m_memid17() {
 
 
 1 출생 
-2009년 6월 10일
+2008년 1월 1일
 2 키
-183cm
+??
 3 혈액형
-O형
+B형
 4 소속 유닛
-yesweare
+itsnotover
 5 MBTI
-INTJ
+ISTJ
 6 상징색
-#ff7364
+#0050a4
 7 성격
 다정함
 8 별명
-응구
+아기 리더
 
 
 
