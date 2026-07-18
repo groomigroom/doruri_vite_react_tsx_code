@@ -19,7 +19,7 @@ export default function BtoMemYookSungjae() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="BTOB 꾸미기" />육성재<img src={MainH2Deco} alt="BTOB 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
-                &apos;육성재&apos;과 함께<br />
+                &apos;육성재&apos;와 함께<br />
                 좋은 기억을<br />
                 잘 간직해 봐요!
             </p>
