@@ -61,10 +61,10 @@ export default function IdolList2() {
                         </div>
 
                         <div className="idolList_link">
-                            <Link to="/IllitMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="xxx" />
+                            <Link to="/BTOBMain" className="idolList_link_a idolList_link_str">
+                                <img src="" alt="비투비" />
                                 <div>
-                                    <h4>xxx</h4>
+                                    <h4>비투비</h4>
                                 </div>
                             </Link>
                         </div>
