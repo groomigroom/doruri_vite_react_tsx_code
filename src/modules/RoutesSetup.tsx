@@ -371,6 +371,13 @@ import BtoMemYookSungjaeEng from './BTOBEng/members/BtoMemYookSungjaeEng';
 import BtoMemSeoEunkwang from './BTOB/members/BtoMemSeoEunkwang';
 import BtoMemSeoEunkwangEng from './BTOBEng/members/BtoMemSeoEunkwangEng';
 
+//HanroroMain
+
+import HanroroMain from './Hanroro/main/HanroroMain';
+import HanroroMainEng from './HanroroEng/main/HanroroMainEng';
+
+import HanMemHanroro from './Hanroro/members/HanMemHanroro';
+import HanMemHanroroEng from './HanroroEng/members/HanMemHanroroEng';
 
 export default function RoutesSetup() {
     return (
@@ -744,6 +751,12 @@ export default function RoutesSetup() {
             <Route path='/BtoMemSeoEunkwang' element={<BtoMemSeoEunkwang />}></Route>
             <Route path='/BtoMemSeoEunkwangEng' element={<BtoMemSeoEunkwangEng />}></Route>
 
+            {/* HanroroMain */}
+            <Route path='/HanroroMain' element={<HanroroMain />}></Route>
+            <Route path='/HanroroMainEng' element={<HanroroMainEng />}></Route>
+
+            <Route path='/HanMemHanroro' element={<HanMemHanroro />}></Route>
+            <Route path='/HanMemHanroroEng' element={<HanMemHanroroEng />}></Route>
 
         </Routes>
     );
