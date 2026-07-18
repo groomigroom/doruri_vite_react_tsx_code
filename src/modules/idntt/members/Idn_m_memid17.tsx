@@ -73,7 +73,22 @@ export default function Idn_m_memid17() {
 
 
 
-
+1 출생 
+2009년 6월 10일
+2 키
+183cm
+3 혈액형
+O형
+4 소속 유닛
+yesweare
+5 MBTI
+INTJ
+6 상징색
+#ff7364
+7 성격
+다정함
+8 별명
+응구
 
 
 
