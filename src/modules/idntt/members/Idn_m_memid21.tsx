@@ -72,7 +72,22 @@ export default function Idn_m_memid21() {
 };
 
 
-
+1 출생 
+2004년 5월 10일
+2 키
+??
+3 혈액형
+AB형
+4 소속 유닛
+itsnotover
+5 MBTI
+INFP
+6 상징색
+#7499b6
+7 성격
+??
+8 별명
+??
 
 
 
