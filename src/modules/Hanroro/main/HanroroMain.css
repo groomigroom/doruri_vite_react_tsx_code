@@ -1,1 +1,5 @@
-HanroroMain.css
+.han_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
