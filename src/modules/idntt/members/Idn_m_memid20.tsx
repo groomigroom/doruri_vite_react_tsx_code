@@ -72,7 +72,22 @@ export default function Idn_m_memid20() {
 };
 
 
-
+1 출생 
+2007년 9월 7일
+2 키
+180cm 후반
+3 혈액형
+A형
+4 소속 유닛
+itsnotover
+5 MBTI
+ENFP
+6 상징색
+#846eea
+7 성격
+친화력이 좋음
+8 별명
+모드하우스 1호 알파카
 
 
 
