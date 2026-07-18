@@ -73,7 +73,22 @@ export default function Idn_m_memid13() {
 
 
 
-
+1 출생 
+2008년 12월 4일
+2 키
+182cm
+3 혈액형
+B형
+4 소속 유닛
+yesweare
+5 MBTI
+ESTJ
+6 상징색
+#fdd82e
+7 성격
+순함
+8 별명
+??
 
 
 
