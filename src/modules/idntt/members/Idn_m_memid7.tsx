@@ -89,3 +89,39 @@ ENTP
 신중함
 8 별명
 지우니
+
+
+id7
+
+                  <tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>출생</p></td>
+                        <td><p>2002년 7월 7일</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>키</p></td>
+                        <td><p>177cm</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>혈액형</p></td>
+                        <td><p>O형</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>소속 유닛</p></td>
+                        <td><p>unevermet</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>ENTP</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>상징색</p></td>
+                        <td><p>#8ad363</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>성격</p></td>
+                        <td><p>신중함</p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>별명</p></td>
+                        <td><p>지우니</p></td>
+                    </tr>
