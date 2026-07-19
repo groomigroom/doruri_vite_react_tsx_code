@@ -4,6 +4,7 @@ import '../../triples/main/TriplesMain.css'
 import './BTSMain.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 //import Str_m_logo from './img/Str_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -36,7 +37,7 @@ export default function BTSMain() {
                 &apos;Stray Kids&apos;와 함께<br />
                 시련 속에서도 계속<br />
                 running out!</p>
-            <img src={Str_m_img} className='tri_m_img' alt='방탄소년단' />
+            <img src='' className='tri_m_img' alt='방탄소년단' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full str_m_mem_tr_full'>
 
@@ -107,8 +108,7 @@ export default function BTSMain() {
 
                 </section>
             </section>
+            <FooterPart />
         </div>
     );
 };
-
-
