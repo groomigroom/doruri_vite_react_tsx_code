@@ -4,6 +4,7 @@ import '../../triples/main/TriplesMain.css'
 import './IllitMain.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Ill_m_logo from './img/Ill_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -85,7 +86,7 @@ export default function IllitMain() {
 
 
             </section>
-
+            <FooterPart />
         </div>
     );
 };
