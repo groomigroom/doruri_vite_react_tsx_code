@@ -4,6 +4,7 @@ import '../../triples/main/TriplesMain.css'
 import './EpikHighMain.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import EpikHigh_m_logo from './img/EpikHigh_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -55,7 +56,7 @@ export default function EpikHighMain() {
 
             </section>
 
-
+            <FooterPart />
         </div>
     );
 };
