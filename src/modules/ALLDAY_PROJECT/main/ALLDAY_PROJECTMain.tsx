@@ -4,6 +4,7 @@ import '../../triples/main/TriplesMain.css'
 import './ALLDAY_PROJECTMain.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import All_m_logo from './img/All_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -89,6 +90,7 @@ export default function ALLDAY_PROJECTMain() {
 
 
             <Link to="/TxtEvent">이벤트</Link>
+            <FooterPart />
         </div>
     );
 };
