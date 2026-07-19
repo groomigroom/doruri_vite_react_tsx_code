@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TxtMemTaehyun.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Txt_mm_Taehyun_img from '../main/img/txt_m_mem_taehyun.jpg';
 
@@ -64,6 +65,7 @@ export default function TxtMemTaehyun() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart />
         </div>
     );
 }
