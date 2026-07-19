@@ -345,6 +345,50 @@ Momo
 
 9개
 
+TWICE
+
+사나
+Sana
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>1996년 12월 29일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>164cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>B형</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td><p>MISAMO</p></td>
+</tr>
+<tr>
+<td><p>포지션</p></td>
+<td><p>서브보컬</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ENFP</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>사나 없이 사나 마나</p></td>
+</tr>
+<tr>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>밝음</p></td>
+</tr>
+
+9개
+
 엑스디너리 히어로즈
 엔믹스
 킥플립
