@@ -25,11 +25,7 @@ setInterval(() => {
     console.log('인터벌 실험');
 }, 3000);
 
-setTimeout(() => {
-    console.log('타임 실험');
-}, 3000);
 
-logger.js 도 만들어서
 
 
 function showLogMessage (msg) {
