@@ -13,3 +13,5 @@ if (v > 5) {
 else {
     console.log('작은 숫자다');
 }
+
+setInterval(() => {});
