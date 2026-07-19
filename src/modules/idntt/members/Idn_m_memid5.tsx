@@ -95,3 +95,38 @@ ISFP
 편하게 잘 지내며
 열심히 idntt 활동 할게요!
 
+idntt 5번
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2007년 10월 3일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>185cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>A형</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td><p>unevermet</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ISFP</p></td>
+</tr>
+<tr>
+<td><p>상징색</p></td>
+<td><p>#b8ace8</p></td>
+</tr>
+<tr>
+<td><p>성격</p></td>
+<td><p>감수성이 풍부함</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>별명</p></td>
+<td><p>햄냥이</p></td>
+</tr>
+
