@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TxtMemBeomgyu.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
 
@@ -64,7 +65,7 @@ export default function TxtMemBeomgyu() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
