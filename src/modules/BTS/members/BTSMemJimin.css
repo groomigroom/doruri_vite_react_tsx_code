@@ -1,1 +1,5 @@
-BTSMemJimin.css
+.bts_mm_jimin_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
