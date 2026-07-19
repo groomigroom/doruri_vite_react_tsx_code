@@ -379,6 +379,26 @@ import HanroroMainEng from './HanroroEng/main/HanroroMainEng';
 import HanMemHanroro from './Hanroro/members/HanMemHanroro';
 import HanMemHanroroEng from './HanroroEng/members/HanMemHanroroEng';
 
+//BTSMain
+
+import BTSMain from './BTS/main/BTSMain';
+import BTSMainEng from './BTSEng/main/BTSMainEng';
+
+import BTSMemJhope from './BTS/members/BTSMemJhope';
+import BTSMemJhopeEng from './BTSEng/members/BTSMemJhopeEng';
+import BTSMemJimin from './BTS/members/BTSMemJimin';
+import BTSMemJiminEng from './BTSEng/members/BTSMemJiminEng';
+import BTSMemJin from './BTS/members/BTSMemJin';
+import BTSMemJinEng from './BTSEng/members/BTSMemJinEng';
+import BTSMemJungKook from './BTS/members/BTSMemJungKook';
+import BTSMemJungKookEng from './BTSEng/members/BTSMemJungKookEng';
+import BTSMemRM from './BTS/members/BTSMemRM';
+import BTSMemRMEng from './BTSEng/members/BTSMemRMEng';
+import BTSMemSUGA from './BTS/members/BTSMemSUGA';
+import BTSMemSUGAEng from './BTSEng/members/BTSMemSUGAEng';
+import BTSMemV from './BTS/members/BTSMemV';
+import BTSMemVEng from './BTSEng/members/BTSMemVEng';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -757,6 +777,26 @@ export default function RoutesSetup() {
 
             <Route path='/HanMemHanroro' element={<HanMemHanroro />}></Route>
             <Route path='/HanMemHanroroEng' element={<HanMemHanroroEng />}></Route>
+
+            {/* BTSMain */}
+            <Route path='/BTSMain' element={<BTSMain />}></Route>
+            <Route path='/BTSMainEng' element={<BTSMainEng />}></Route>
+
+            <Route path='/BTSMemJhope' element={<BTSMemJhope />}></Route>
+            <Route path='/BTSMemJhopeEng' element={<BTSMemJhopeEng />}></Route>
+            <Route path='/BTSMemJimin' element={<BTSMemJimin />}></Route>
+            <Route path='/BTSMemJiminEng' element={<BTSMemJiminEng />}></Route>
+            <Route path='/BTSMemJin' element={<BTSMemJin />}></Route>
+            <Route path='/BTSMemJinEng' element={<BTSMemJinEng />}></Route>
+            <Route path='/BTSMemJungKook' element={<BTSMemJungKook />}></Route>
+            <Route path='/BTSMemJungKookEng' element={<BTSMemJungKookEng />}></Route>
+            <Route path='/BTSMemRM' element={<BTSMemRM />}></Route>
+            <Route path='/BTSMemRMEng' element={<BTSMemRMEng />}></Route>
+            <Route path='/BTSMemSUGA' element={<BTSMemSUGA />}></Route>
+            <Route path='/BTSMemSUGAEng' element={<BTSMemSUGAEng />}></Route>
+            <Route path='/BTSMemV' element={<BTSMemV />}></Route>
+            <Route path='/BTSMemVEng' element={<BTSMemVEng />}></Route>
+
 
         </Routes>
     );
