@@ -95,3 +95,37 @@ INTP
 여러분을 만나러 갈게요!
 
 
+idntt 4번
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2005년 11월 17일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>185cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>??</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td><p>unevermet</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INTP</p></td>
+</tr>
+<tr>
+<td><p>상징색</p></td>
+<td><p>#564fed</p></td>
+</tr>
+<tr>
+<td><p>성격</p></td>
+<td><p>차분함</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>별명</p></td>
+<td><p>쿼카</p></td>
+</tr>
