@@ -1,1 +1,3 @@
-dbconfig.json
+{
+    "host": "112.32.33.33"
+}
