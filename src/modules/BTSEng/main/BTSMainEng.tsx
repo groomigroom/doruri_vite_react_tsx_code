@@ -41,7 +41,7 @@ export default function BTSMainEng() {
             <section className='tri_m_mem_tr_full str_m_mem_tr_full'>
 
                 <section className='tri_m_mem_tr str_m_mem_tr'>
-                    <Link to='/BTSMemRM' className='tri_m_mem_a'>
+                    <Link to='/BTSMemRMEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src='' alt="RM" />
                             <div>
@@ -49,7 +49,7 @@ export default function BTSMainEng() {
                             </div>
                         </article>
                     </Link>
-                    <Link to='/BTSMemJin'>
+                    <Link to='/BTSMemJinEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="Jin" />
                             <div>
@@ -58,7 +58,7 @@ export default function BTSMainEng() {
                         </article>
                     </Link>
 
-                    <Link to='/BTSMemSUGA'>
+                    <Link to='/BTSMemSUGAEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="SUGA" />
                             <div>
@@ -67,7 +67,7 @@ export default function BTSMainEng() {
                         </article>
                     </Link>
 
-                    <Link to='/BTSMemJhope'>
+                    <Link to='/BTSMemJhopeEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="j-hope" />
                             <div>
@@ -78,7 +78,7 @@ export default function BTSMainEng() {
                 </section>
 
                 <section className='tri_m_mem_tr'>
-                    <Link to='/BTSMemJimin'>
+                    <Link to='/BTSMemJiminEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="Jimin" />
                             <div>
@@ -87,7 +87,7 @@ export default function BTSMainEng() {
                         </article>
                     </Link>
 
-                    <Link to='/BTSMemV'>
+                    <Link to='/BTSMemVEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="V" />
                             <div>
@@ -96,7 +96,7 @@ export default function BTSMainEng() {
                         </article>
                     </Link>
 
-                    <Link to='/BTSMemJungKook'>
+                    <Link to='/BTSMemJungKookEng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="Jung Kook" />
                             <div>
