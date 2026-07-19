@@ -182,6 +182,44 @@ Yeri
 8 성격
 
 지코
+
+지코
+ZICO
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>1992년 9월 14일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>182cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>O형</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INTP</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>지아코</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INTP</p></td>
+</tr>
+<tr>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>진지함?</p></td>
+</tr>
+
+8개
 트와이스
 엑스디너리 히어로즈
 엔믹스
