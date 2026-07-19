@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+import '../../triples/members/TriplesMemS1.css';
 import './BTSMemJungKook.css';
 
 import Menu from '../../Menu';
@@ -70,5 +71,3 @@ export default function BTSMemJungKook() {
         </div>
     );
 };
-
-
