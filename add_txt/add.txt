@@ -389,6 +389,48 @@ Sana
 
 9개
 
+지효
+Jihyo
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>1997년 2월 1일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>162cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>O형</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td><p>x</p></td>
+</tr>
+<tr>
+<td><p>포지션</p></td>
+<td><p>리더, 메인보컬</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ESTP</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>갓지효</p></td>
+</tr>
+<tr>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>성실함?</p></td>
+</tr>
+
+9개
+
 엑스디너리 히어로즈
 엔믹스
 킥플립
