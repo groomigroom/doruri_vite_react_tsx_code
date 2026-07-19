@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import './IdolList.css';
 import './IdolList2.css';
 
-
 import Menu from '../Menu';
+import FooterPart from '../FooterPart';
 
 export default function IdolList2() {
     return (
@@ -136,6 +136,7 @@ export default function IdolList2() {
                 <Link to='/'>4</Link>
                 <Link to='/'>5</Link>
             </section>
+            <FooterPart />
         </div>
     );
 };
