@@ -21,3 +21,5 @@ setInterval(() => {
 setTimeout(() => {
     console.log('타임 실험');
 }, 3000);
+
+logger.js 도 만들어서
