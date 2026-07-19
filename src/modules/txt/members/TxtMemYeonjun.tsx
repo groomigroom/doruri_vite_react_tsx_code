@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TxtMemYeonjun.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Txt_mm_Yeonjun_img from '../main/img/txt_m_mem_yeonjun.jpg';
 
@@ -64,7 +65,7 @@ export default function TxtMemYeonjun() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
