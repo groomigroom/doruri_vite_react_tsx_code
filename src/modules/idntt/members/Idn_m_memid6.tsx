@@ -90,7 +90,40 @@ ISTP
 쭈
 
 
+id6
 
+                  <tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>출생</p></td>
+                        <td><p>2006년 7월 28일</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>키</p></td>
+                        <td><p>177cm</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>혈액형</p></td>
+                        <td><p>??</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>소속 유닛</p></td>
+                        <td><p>unevermet</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>ISTP</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>상징색</p></td>
+                        <td><p>#ff833e</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>성격</p></td>
+                        <td><p>밝음</p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>별명</p></td>
+                        <td><p>쭈</p></td>
+                    </tr>
 
 
 
