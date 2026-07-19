@@ -4,6 +4,7 @@ import '../../triples/main/TriplesMain.css'
 import './BTOBMain.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 // import Tws_m_logo from './img/Tws_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -94,7 +95,7 @@ export default function BTOBMain() {
 
             </section>
 
-
+            <FooterPart />
         </div>
     );
 };
