@@ -23,3 +23,5 @@ setTimeout(() => {
 }, 3000);
 
 logger.js 도 만들어서
+
+function showLogMessage
