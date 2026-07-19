@@ -1,6 +1,8 @@
 .footerpart_full {
     width: 100vw;
     height: 100px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
     position: absolute;
     bottom: 0px;
     left: 0px;
