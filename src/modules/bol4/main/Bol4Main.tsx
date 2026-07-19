@@ -5,6 +5,7 @@ import '../../10CM/main/TenCMMain.css';
 import './Bol4Main.css'
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Bol_m_logo from './img/Bol_m_logo.png';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -40,7 +41,7 @@ export default function Bol4Main() {
 
             </section>
 
-
+            <FooterPart />
         </div>
     );
 };
