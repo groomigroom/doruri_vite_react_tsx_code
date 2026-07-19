@@ -27,74 +27,6 @@ export default function Idn_m_memid7() {
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>키</p></td>
-                        <td><p>161cm</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>소속 유닛</p></td>
-                        <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
-                    </tr>
-                    <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
-                    </tr>
-                </tbody>
-            </table>
-
-
-        </div>
-    );
-};
-
-
-
-1 출생
-2002년 7월 7일
-2 키
-177cm
-3 혈액형
-O형
-4 소속 유닛
-unevermet
-5 MBTI
-ENTP
-6 상징색
-#8ad363
-7 성격
-신중함
-8 별명
-지우니
-
-
-id7
-
-                  <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
                         <td><p>2002년 7월 7일</p></td>
                     </tr>
                     <tr>
@@ -125,3 +57,13 @@ id7
                         <td><p>별명</p></td>
                         <td><p>지우니</p></td>
                     </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+    );
+};
+
+
+
