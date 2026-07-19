@@ -23,6 +23,10 @@ setTimeout(() => {
 }, 3000);
 
 logger.js 도 만들어서
+
+
 function showLogMessage (msg) {
+    console.log('------------------');
     console.log(`로그 메시지는 : ${msg}`);
+    console.log('------------------');
 };
