@@ -4,6 +4,7 @@ import './TriplesMemS1.css';
 import './TriplesMemS7.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Tri_mm_s7_img from '../main/img/tri_m_memS7.jpg';
 
@@ -66,6 +67,7 @@ export default function TriplesMemS7() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart />
         </div>
     );
 
