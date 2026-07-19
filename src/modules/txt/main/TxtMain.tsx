@@ -4,6 +4,7 @@ import '../../triples/main/TriplesMain.css'
 import './TxtMain.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Txt_m_logo from './img/txt_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -86,6 +87,7 @@ export default function TxtMain() {
 
 
             <Link to="/TxtEvent">이벤트</Link>
+            <FooterPart />
         </div>
     );
 };
