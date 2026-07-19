@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/members/TriplesMemS1.css';
-import './RedMemSeulgi.css';
+import './RedMemWendy.css';
 
 import Menu from '../../Menu';
 
