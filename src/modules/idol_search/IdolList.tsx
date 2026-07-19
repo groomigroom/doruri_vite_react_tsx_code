@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 
 import './IdolList.css';
 
+import FooterPart from '../FooterPart';
+
 import IdL_Triples from '../triples/main/img/tri_m_img.jpg'
 import IdL_Txt from '../txt/main/img/txt_m_txtimg.jpg'
 import IdL_Akmu from '../akmu/main/img/aknu_m_akmuimg.jpg'
@@ -157,7 +159,7 @@ export default function IdolList() {
                 <Link to='/'>5</Link>
                 Copyright ⓒ ㈜모드하우스
             </section>
-
+            <FooterPart />
         </div>
     );
 };
