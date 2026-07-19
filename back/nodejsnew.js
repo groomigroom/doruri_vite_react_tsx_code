@@ -3,3 +3,5 @@ functiin sayHello(name) {
 };
 
 sayHello('groomi');
+sayHello('kimgroomi');
+
