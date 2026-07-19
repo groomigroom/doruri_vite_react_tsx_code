@@ -70,19 +70,19 @@ export default function IdolList2() {
                         </div>
 
                         <div className="idolList_link">
-                            <Link to="/TwsMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="xxx" />
+                            <Link to="/HanroroMain" className="idolList_link_a idolList_link_str">
+                                <img src="" alt="한로로" />
                                 <div>
-                                    <h4>xxx</h4>
+                                    <h4>한로로</h4>
                                 </div>
                             </Link>
                         </div>
 
                         <div className="idolList_link">
-                            <Link to="/ResMain" className="idolList_link_a idolList_link_str">
-                                <img src="" alt="xxx" />
+                            <Link to="/BTSMain" className="idolList_link_a idolList_link_str">
+                                <img src="" alt="방탄소년단" />
                                 <div>
-                                    <h4>xxx</h4>
+                                    <h4>방탄소년단</h4>
                                 </div>
                             </Link>
                         </div>
