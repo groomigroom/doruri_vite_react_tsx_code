@@ -12,8 +12,13 @@ img loading lazy???? a 태그 noreffer??
 
 레드벨벳 추가
 Red Velvet
+
+RedVelvetMain.tsx
+RedVelvetMainEng.tsx
 아이린
 Irene
+
+Red?Mem
 
 아이린?과 함께
 모든 순간을 더
