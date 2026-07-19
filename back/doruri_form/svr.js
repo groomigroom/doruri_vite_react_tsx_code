@@ -3,5 +3,11 @@ const mysql = require('mysql');
 const path = require('path');
 const static = require('serve_static');
 
-//https://youtu.be/t5PZ9ICjp1w?si=4vFvEOSNN8DG4Up1
-//까지봄
+const pool = mysql.createPool({
+    connectionLimit: 10,
+    host: '122.32.33.22',
+    user: '---',
+    password: 'veryimport',
+    database: 'FirstDabase',
+    debug: false
+});
