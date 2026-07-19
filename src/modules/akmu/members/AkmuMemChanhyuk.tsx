@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './AkmuMemChanhyuk.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import akmu_mm_chanhyuk_img from '../main/img/aknu_m_chanhyuk.jpg';
 
@@ -52,7 +53,7 @@ export default function AkmuMemChanhyuk() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
