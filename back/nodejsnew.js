@@ -17,3 +17,7 @@ else {
 setInterval(() => {
     console.log('인터벌 실험');
 }, 3000);
+
+setTimeout(() => {
+    console.log('타임 실험');
+}, 3000);
