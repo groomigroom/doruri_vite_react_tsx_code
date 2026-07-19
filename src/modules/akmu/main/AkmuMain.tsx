@@ -12,6 +12,7 @@ import Akmu_m_suhyun from './img/aknu_m_suhyun.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 export default function AkmuMain() {
     return (
@@ -51,6 +52,7 @@ export default function AkmuMain() {
             </section>
 
             <Link to='/AkmuEvent'>이벤트로 가기</Link>
+            <FooterPart />
         </div>
     );
 };
