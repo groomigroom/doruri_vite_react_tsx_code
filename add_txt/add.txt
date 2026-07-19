@@ -221,6 +221,7 @@ ZICO
 
 8개
 TWICE
+모모 참고로 소속 유닛 추가하기
 
 나연
 Nayeon
@@ -299,6 +300,50 @@ Jeongyeon
 </tr>
 
 8개
+
+TWICE
+
+모모
+Momo
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>1996년 11월 9일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>163cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>A형</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td><p>MISAMO</p></td>
+</tr>
+<tr>
+<td><p>포지션</p></td>
+<td><p>메인댄서, 서브보컬, 서브래퍼</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INFP</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>모모링</p></td>
+</tr>
+<tr>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>순함</p></td>
+</tr>
+
+9개
 
 엑스디너리 히어로즈
 엔믹스
