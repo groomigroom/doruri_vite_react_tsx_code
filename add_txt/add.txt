@@ -220,7 +220,46 @@ ZICO
 </tr>
 
 8개
-트와이스
+TWICE
+
+나연
+Nayeon
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>1995년 9월 22일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>163cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>A형</p></td>
+</tr>
+<tr>
+<td><p>포지션</p></td>
+<td><p>리드보컬, 리드댄서</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ISTP</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>임여워</p></td>
+</tr>
+<tr>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>정이 많음</p></td>
+</tr>
+
+8개
+
 엑스디너리 히어로즈
 엔믹스
 킥플립
