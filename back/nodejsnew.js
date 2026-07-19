@@ -14,4 +14,6 @@ else {
     console.log('작은 숫자다');
 }
 
-setInterval(() => {});
+setInterval(() => {
+    console.log('인터벌 실험');
+}, 3000);
