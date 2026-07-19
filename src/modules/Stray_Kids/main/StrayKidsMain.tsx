@@ -4,6 +4,7 @@ import '../../triples/main/TriplesMain.css'
 import './StrayKidsMain.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Str_m_logo from './img/Str_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -115,6 +116,7 @@ export default function StrayKidsMain() {
                     </Link>
                 </section>
             </section>
+            <FooterPart />
         </div>
     );
 };
