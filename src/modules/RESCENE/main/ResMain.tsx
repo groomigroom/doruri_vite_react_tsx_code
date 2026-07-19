@@ -4,6 +4,7 @@ import '../../triples/main/TriplesMain.css'
 import './ResMain.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Res_m_logo from './img/Res_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -86,7 +87,7 @@ export default function ResMain() {
 
             </section>
 
-
+            <FooterPart />
         </div>
     );
 };
