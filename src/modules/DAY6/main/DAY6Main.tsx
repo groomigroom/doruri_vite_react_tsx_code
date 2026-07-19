@@ -4,6 +4,7 @@ import '../../triples/main/TriplesMain.css'
 import './DAY6Main.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Day_m_logo from './img/Day_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -73,6 +74,7 @@ export default function DAY6Main() {
 
 
             </section>
+            <FooterPart />
         </div>
     );
 };
