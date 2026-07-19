@@ -9,6 +9,7 @@ import './IdnttMain.css';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 // import Idn_m_memid1 from './img/tri_m_memS1.jpg';
 // import Idn_m_memid2 from './img/tri_m_memS2.jpg';
@@ -309,11 +310,10 @@ export default function IdnttMain() {
                 <h3>트리플에스 유튜브</h3>
             </a>
             <Link to="/TriplesEvent" className='tri_m_e'>이벤트</Link>
+            <FooterPart />
         </div >
     );
 };
 
-idntt와 함께
-turn it up,
-turn it up!
+
 
