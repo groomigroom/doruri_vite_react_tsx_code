@@ -21,6 +21,7 @@ import Ioi_m_MemJeonsomi_img from './img/ioi_m_mem_Jeonsomi.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 //#F4CE9D
 
@@ -149,6 +150,7 @@ export default function IoiMain() {
                 </section>
 
             </section>
+            <FooterPart />
         </div>
     );
 };
