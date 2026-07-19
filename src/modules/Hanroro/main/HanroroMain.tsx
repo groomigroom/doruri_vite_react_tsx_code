@@ -4,6 +4,7 @@ import '../../triples/main/TriplesMain.css'
 import './HanroroMain.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 //import Han_m_logo from './img/TenCM_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -43,9 +44,7 @@ export default function HanroroMain() {
 
             </section>
 
-
+            <FooterPart />
         </div>
     );
 };
-
-
