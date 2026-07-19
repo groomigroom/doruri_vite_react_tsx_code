@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TxtMemSubin.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Txt_mm_Subin_img from '../main/img/txt_m_mem_subin.jpg';
 
@@ -64,7 +65,7 @@ export default function TxtMemSubin() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
