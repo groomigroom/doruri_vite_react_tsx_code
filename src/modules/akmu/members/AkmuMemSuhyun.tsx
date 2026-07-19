@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './AkmuMemSuhyun.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import akmu_mm_suhyun_img from '../main/img/aknu_m_suhyun.jpg';
 
@@ -52,7 +53,7 @@ export default function AkmuMemSuhyun() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
