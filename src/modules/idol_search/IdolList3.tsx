@@ -5,6 +5,7 @@ import './IdolList2.css';
 
 
 import Menu from '../Menu';
+import FooterPart from '../FooterPart';
 
 export default function IdolList3() {
     return (
@@ -137,6 +138,7 @@ export default function IdolList3() {
                 <Link to='/'>4</Link>
                 <Link to='/'>5</Link>
             </section>
+            <FooterPart />
         </div>
     );
 };
