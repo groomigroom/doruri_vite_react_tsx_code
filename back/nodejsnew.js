@@ -1,3 +1,8 @@
+터미널에 npm init -y
+
+
+main.js에는
+---------------------
 functiin sayHello(name) {
     console.log('Hello ' + name);
 };
