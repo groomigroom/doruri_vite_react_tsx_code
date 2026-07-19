@@ -1,0 +1,1 @@
+FooterPart.tsx
