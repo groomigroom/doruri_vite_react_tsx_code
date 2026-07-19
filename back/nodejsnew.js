@@ -8,5 +8,5 @@ sayHello('kimgroomi');
 const v = 10;
 
 if (v > 5) {
-    console.
-};
+    console.log('큰 숫자다');
+}
