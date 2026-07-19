@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './TriplesMemS1.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
 
@@ -66,7 +67,7 @@ export default function TriplesMemS1() {
                 </tbody>
             </table>
 
-
+            <FooterPart />
         </div>
     );
 };
