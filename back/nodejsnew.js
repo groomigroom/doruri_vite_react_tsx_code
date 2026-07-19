@@ -1,6 +1,14 @@
+const express = require('express');
+const app = express();
+
+app.listen(3000, () => {
+    console.log('3000번에 연결됨');
+});
+
 npm init -y로 package.json 기본 설정으로 만들기
 
 npm install express --save 로 express 설치하기
-https://www.youtube.com/watch?v=cTJ8QKyLD6A&list=PLwsSnOYjEpei9J0zWjwvSWCnHyqxuPLTW&index=5
+--save는 package.json에 이 정보를 저장하겠다는 의미
+https://www.youtube.com/watch?v=CH_VRekpgUo&list=PLwsSnOYjEpei9J0zWjwvSWCnHyqxuPLTW&index=7
 
-4분 34초까지봄
+이거부터 보기
