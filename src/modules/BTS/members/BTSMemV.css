@@ -1,1 +1,5 @@
-BTSMemV.css
+.bts_mm_v_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
