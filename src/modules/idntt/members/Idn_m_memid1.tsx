@@ -18,50 +18,44 @@ export default function Idn_m_memid1() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="idntt 로고 꾸미기" />김도훈<img src={MainH2Deco} alt="idntt 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
-                #####24명은 많은 것 같아도<br />
-                멤버들 질서 유지를<br />
-                책임감 있게 다 해볼게요!
+                좋은 친화력으로<br />
+                멤버들과<br />
+                잘 지내 볼게요!
             </p>
             <img src='' alt="김도훈 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>2003년 3월 3일</p></td>
                     </tr>
                     <tr>
                         <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>178cm</p></td>
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
                         <td><p>B형</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
-                    </tr>
-                    <tr>
                         <td><p>소속 유닛</p></td>
-                        <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                        <td><p>unevermet</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>ESTP</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>상징색</p></td>
+                        <td><p>#ff3600</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>성격</p></td>
+                        <td><p>친화력 좋음</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>별명</p></td>
+                        <td><p>3의 남자</p></td>
                     </tr>
                 </tbody>
             </table>
@@ -71,23 +65,4 @@ export default function Idn_m_memid1() {
     );
 };
 
-1 출생
-2003년 3월 3일
-2 키
-178cm
-3 혈액형
-B형
-4 소속 유닛
-unevermet
-5 MBTI
-ESTP
-6 상징색
-#ff3600
-7 성격
-친화력 좋음
-8 별명
-3의 남자
 
-좋은 친화력으로
-멤버들과
-잘 지내 볼게요!
