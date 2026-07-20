@@ -89,4 +89,37 @@ ESFP
 8 별명
 또치
 
+idntt 8번
 
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2009년 7월 11일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>183cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>??</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td><p>unevermet</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ESFP</p></td>
+</tr>
+<tr>
+<td><p>상징색</p></td>
+<td><p>#ffed49</p></td>
+</tr>
+<tr>
+<td><p>성격</p></td>
+<td><p>다정함</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>별명</p></td>
+<td><p>또치</p></td>
+</tr>
