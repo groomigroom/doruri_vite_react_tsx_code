@@ -91,7 +91,40 @@ ESTP
 쭌멍이
 
 
+idntt 13번
 
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2006년 9월 26일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>183cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>AB형</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td><p>yesweare</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ESTP</p></td>
+</tr>
+<tr>
+<td><p>상징색</p></td>
+<td><p>#95a9d7</p></td>
+</tr>
+<tr>
+<td><p>성격</p></td>
+<td><p>유쾌함</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>별명</p></td>
+<td><p>쭌멍이</p></td>
+</tr>
 
 
 
