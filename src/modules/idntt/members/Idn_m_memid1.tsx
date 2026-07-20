@@ -65,4 +65,7 @@ export default function Idn_m_memid1() {
     );
 };
 
+좋은 친화력으로
+멤버들과
+잘 지내 볼게요!
 
