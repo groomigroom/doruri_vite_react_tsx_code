@@ -200,4 +200,15 @@
         height: 200px;
         overflow: hidden;
     }
+
+    .idolList_link>a {
+        width: 50vw;
+        height: 200px;
+        position: relative;
+    }
+
+    .idolList_link>a>img {
+        width: 100px;
+        height: 100px;
+    }
 }
