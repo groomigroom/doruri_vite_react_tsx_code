@@ -90,7 +90,40 @@ ISFP
 ??
 
 
+idntt 15번
 
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2008년 9월 4일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>180cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>A형</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td><p>yesweare</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ISFP</p></td>
+</tr>
+<tr>
+<td><p>상징색</p></td>
+<td><p>#4edd9c</p></td>
+</tr>
+<tr>
+<td><p>성격</p></td>
+<td><p>세심함</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>별명</p></td>
+<td><p>??</p></td>
+</tr>
 
 
 
