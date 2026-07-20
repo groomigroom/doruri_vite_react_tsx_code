@@ -315,5 +315,7 @@ export default function IdnttMain() {
     );
 };
 
-
+아이덴? 과 함께
+선명한 감각을
+살려 봐요!
 
