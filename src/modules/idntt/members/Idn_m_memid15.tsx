@@ -65,7 +65,9 @@ export default function Idn_m_memid15() {
     );
 };
 
-
+세심하게 멤버들을
+잘 챙기며
+활동해 볼게요!
 
 
 
