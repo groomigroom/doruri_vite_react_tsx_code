@@ -27,7 +27,7 @@
 @media (max-width: 975px) {
     .epi_m_full {
         width: 100vw;
-        height: 100vh;
+        height: 1500px;
         position: relative;
     }
 }
