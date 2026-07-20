@@ -174,3 +174,19 @@
         top: 500px;
     }
 }
+
+@media (max-width: 975px) {
+    .tri_m_full {
+        width: 100vw;
+        height: 90vh;
+        position: relative;
+    }
+
+    .tri_m_logo {
+        height: 75px;
+        position: absolute;
+        top: 140px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
