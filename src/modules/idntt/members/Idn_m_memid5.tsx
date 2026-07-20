@@ -65,7 +65,9 @@ export default function Idn_m_memid5() {
     );
 };
 
-
+멤버들을 편하게
+해주면서 열심히
+활동해 볼게요!
 
 
 
