@@ -164,6 +164,10 @@
         bottom: 40px;
     }
 
+    .idolList_trainf_mobile {
+        display: none;
+    }
+
 }
 
 @media (max-width: 975px) {
@@ -174,5 +178,9 @@
     .idolList_part {
         width: 100vw;
         height: 100vh;
+    }
+
+    .idolList_trainf_mobile {
+        display: block;
     }
 }
