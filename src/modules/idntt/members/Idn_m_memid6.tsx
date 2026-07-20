@@ -65,6 +65,9 @@ export default function Idn_m_memid6() {
     );
 };
 
+자신감있게
+열심히
+활동해 볼게요!
 
 
 
