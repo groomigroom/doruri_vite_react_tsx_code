@@ -66,6 +66,8 @@ export default function Idn_m_memid4() {
 };
 
 
-
+신중하게 생각하며
+열심히
+활동해 볼게요!
 
 
