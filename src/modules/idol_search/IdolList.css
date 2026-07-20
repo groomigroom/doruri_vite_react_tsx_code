@@ -188,11 +188,16 @@
 
     .idolList_trainf_mobile {
         display: block;
+        width: 100vw;
+        height: 1200px;
+        position: absolute;
+        top: 100px;
+        left: 0px;
     }
 
     .idolList_link {
         width: 50vw;
-        height: 100px;
+        height: 200px;
         overflow: hidden;
     }
 }
