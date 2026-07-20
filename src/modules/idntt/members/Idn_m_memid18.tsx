@@ -65,7 +65,9 @@ export default function Idn_m_memid18() {
     );
 };
 
-
+열심히 매일
+잘 준비해서
+여러분을 찾아 갈게요!
 
 
 
