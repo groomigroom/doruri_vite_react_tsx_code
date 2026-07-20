@@ -65,7 +65,9 @@ export default function Idn_m_memid17() {
     );
 };
 
-
+매일 매일
+열심히
+활동해 볼게요!
 
 
 
