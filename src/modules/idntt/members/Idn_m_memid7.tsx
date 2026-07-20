@@ -65,5 +65,7 @@ export default function Idn_m_memid7() {
     );
 };
 
-
+신중하게 생각하며
+열심히
+활동해 볼게요!
 
