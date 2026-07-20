@@ -65,3 +65,6 @@ export default function Idn_m_memid2() {
     );
 };
 
+즐거운
+마음으로 열심히
+활동해 볼게요!
