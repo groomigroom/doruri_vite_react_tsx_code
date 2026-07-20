@@ -178,7 +178,7 @@
 @media (max-width: 975px) {
     .tri_m_full {
         width: 100vw;
-        height: 90vh;
+        height: 1500px;
         position: relative;
     }
 
@@ -215,9 +215,16 @@
         height: 300px;
         border-radius: 25px;
         position: absolute;
-        top: 443px;
+        top: 418px;
         left: 50%;
         transform: translateX(-50%);
         border: 5px solid #191919;
+    }
+
+    .tri_m_h2_2 {
+        position: absolute;
+        top: 758px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
