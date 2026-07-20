@@ -67,7 +67,10 @@ export default function Idn_m_memid12() {
 
 
 
-
+12번
+끊임없이
+도전하며 idntt??
+활동을 준비해 볼게요!
 
 
 
