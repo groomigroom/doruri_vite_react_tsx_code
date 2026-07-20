@@ -171,6 +171,12 @@
 }
 
 @media (max-width: 975px) {
+    .idolList_full {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+
     .idolList_trainf {
         display: none;
     }
@@ -182,5 +188,11 @@
 
     .idolList_trainf_mobile {
         display: block;
+    }
+
+    .idolList_link {
+        width: 50vw;
+        height: 100px;
+        overflow: hidden;
     }
 }
