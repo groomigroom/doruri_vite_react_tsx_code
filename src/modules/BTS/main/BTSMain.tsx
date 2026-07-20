@@ -19,7 +19,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 //import Str_m_MemSeungmin_img from './img/stray_m_mem_Seungmin.jpg';
 //import Str_m_MemIn_img from './img/stray_m_mem_In.jpg';
 
-//#????
+//#191919
 
 
 export default function BTSMain() {
