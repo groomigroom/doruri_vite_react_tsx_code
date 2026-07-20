@@ -191,10 +191,11 @@
     }
 
     .tri_m_h2_1 {
+        width: 100vw;
+        text-align: center;
         position: absolute;
         top: 255px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 0px;
     }
 
     .tri_m_intropp {
@@ -227,4 +228,6 @@
         left: 50%;
         transform: translateX(-50%);
     }
+
+
 }
