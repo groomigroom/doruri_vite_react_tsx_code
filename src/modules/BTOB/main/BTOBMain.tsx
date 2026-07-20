@@ -18,7 +18,6 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 // import Tws_m_MemGyungmin_img from './img/tws_m_mem_Kyungmin.jpg';
 
 //#191919
-//#ffffff
 
 export default function BTOBMain() {
     return (
