@@ -170,4 +170,9 @@
     .idolList_trainf {
         display: none;
     }
+
+    .idolList_part {
+        width: 100vw;
+        height: 100vh;
+    }
 }
