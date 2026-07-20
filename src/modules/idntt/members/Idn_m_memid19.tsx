@@ -89,7 +89,40 @@ INFP
 8 별명
 양갱
 
+idntt 19번
 
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2008년 2월 25일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>18?cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>A형</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td><p>itsnotover</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INFP</p></td>
+</tr>
+<tr>
+<td><p>상징색</p></td>
+<td><p>#fed480</p></td>
+</tr>
+<tr>
+<td><p>성격</p></td>
+<td><p>친화력이 좋음</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>별명</p></td>
+<td><p>양갱</p></td>
+</tr>
 
 
 
