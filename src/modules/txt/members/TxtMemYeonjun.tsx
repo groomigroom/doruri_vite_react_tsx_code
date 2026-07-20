@@ -69,3 +69,8 @@ export default function TxtMemYeonjun() {
         </div>
     );
 }
+
+
+Ice cream처럼
+시원한 하루
+되시길 바래요!
