@@ -66,7 +66,9 @@ export default function Idn_m_memid14() {
 };
 
 
-
+솔직한 마음으로
+거짓없이 여러분을
+만나러 갈게요!
 
 
 
