@@ -52,10 +52,13 @@ export default function EpikHighMain() {
                         </article>
                     </Link>
                 </section>
-
-
             </section>
 
+            <section className="tri_m_mem_tr_full_mobile">
+                <section className='tri_m_mem_tr'>
+
+                </section>
+            </section>
             <FooterPart />
         </div>
     );
