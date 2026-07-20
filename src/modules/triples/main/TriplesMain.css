@@ -197,5 +197,27 @@
         transform: translateX(-50%);
     }
 
+    .tri_m_intropp {
+        text-align: center;
+        font-size: 15px;
+        line-height: 140%;
+        font-weight: 500;
+        position: absolute;
+        top: 315px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
+    /* 높이 63px 위에꺼 */
+
+    .tri_m_img {
+        width: 300px;
+        height: 300px;
+        border-radius: 25px;
+        position: absolute;
+        top: 443px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 5px solid #191919;
+    }
 }
