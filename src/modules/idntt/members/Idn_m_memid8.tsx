@@ -67,5 +67,7 @@ export default function Idn_m_memid8() {
 
 
 
-
+즐거운 마음으로
+여러분을
+만나러 갈게요!
 
