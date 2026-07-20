@@ -66,7 +66,9 @@ export default function Idn_m_memid10() {
 };
 
 
-
+정직한 마음으로
+열심히 준비해서
+여러분을 만나러 갈게요!
 
 
 
