@@ -65,7 +65,9 @@ export default function Idn_m_memid16() {
     );
 };
 
-
+자신감있게 그리고
+다정한 마음으로
+여러분을 찾아 갈게요!
 
 
 
