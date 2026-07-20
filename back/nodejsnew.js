@@ -9,6 +9,6 @@ npm init -y로 package.json 기본 설정으로 만들기
 
 npm install express --save 로 express 설치하기
 --save는 package.json에 이 정보를 저장하겠다는 의미
-https://www.youtube.com/watch?v=CH_VRekpgUo&list=PLwsSnOYjEpei9J0zWjwvSWCnHyqxuPLTW&index=7
+https://www.youtube.com/watch?v=MAnWFOLB-iM&list=PLwsSnOYjEpei9J0zWjwvSWCnHyqxuPLTW&index=9
 
-이거부터 보기
+2분 54초까지봄
