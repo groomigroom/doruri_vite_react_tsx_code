@@ -229,5 +229,9 @@
         transform: translateX(-50%);
     }
 
+    .tri_m_mem_tr_full {
+        display: none;
+    }
+
 
 }
