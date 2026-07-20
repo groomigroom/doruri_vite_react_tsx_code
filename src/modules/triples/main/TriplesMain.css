@@ -4,6 +4,14 @@
     line-height: 20px;
 }
 
+.tri_m_h2_1>img {
+    margin: 0 20px;
+}
+
+.tri_m_h2_1>img:last-child {
+    transform: rotateZ(180deg);
+}
+
 @media (min-width: 975px) {
 
     .tri_m_full {
@@ -25,14 +33,6 @@
         top: 280px;
         left: 50%;
         transform: translateX(-50%);
-    }
-
-    .tri_m_h2_1>img {
-        margin: 0 20px;
-    }
-
-    .tri_m_h2_1>img:last-child {
-        transform: rotateZ(180deg);
     }
 
     .tri_m_intropp {
@@ -189,5 +189,13 @@
         left: 50%;
         transform: translateX(-50%);
     }
+
+    .tri_m_h2_1 {
+        position: absolute;
+        top: 255px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
 
 }
