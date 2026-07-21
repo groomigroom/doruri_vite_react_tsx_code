@@ -173,6 +173,10 @@
         position: absolute;
         top: 500px;
     }
+
+    .tri_m_mem_tr_full_mobile {
+        display: none;
+    }
 }
 
 @media (max-width: 975px) {
@@ -233,5 +237,11 @@
         display: none;
     }
 
-
+    .tri_m_mem_tr_full_mobile {
+        width: 100vw;
+        height: 1200px;
+        position: absolute;
+        top: 818px;
+        background-color: red;
+    }
 }
