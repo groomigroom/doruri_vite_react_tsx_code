@@ -84,7 +84,42 @@ export default function RedVelvetMain() {
                     </Link>
 
                 </section>
+            </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile red_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/RedMemIrene' className='tri_m_mem_a'>
+                            <img src='' alt="아이린 이미지" />
+                            <h4>아이린</h4>
+                        </Link>
+                        <Link to='/RedMemSeulgi' className='tri_m_mem_a'>
+                            <img src='' alt="슬기 이미지" />
+                            <h4>슬기</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/RedMemWendy' className='tri_m_mem_a'>
+                            <img src='' alt="웬디 이미지" />
+                            <h4>웬디</h4>
+                        </Link>
+                        <Link to='/RedMemJoy' className='tri_m_mem_a'>
+                            <img src='' alt="조이 이미지" />
+                            <h4>조이</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/RedMemYeri' className='tri_m_mem_a'>
+                            <img src='' alt="예리 이미지" />
+                            <h4>예리</h4>
+                        </Link>
+                    </section>
+                </section>
 
             </section>
 
