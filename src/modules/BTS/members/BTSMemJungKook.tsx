@@ -71,3 +71,33 @@ export default function BTSMemJungKook() {
         </div>
     );
 };
+방탄 정국
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>1997년 9월 1일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>177cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>A형</p></td>
+</tr>
+<tr>
+<td><p>포지션</p></td>
+<td><p>메인보컬, 리드댄서, 서브래퍼</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ISFP</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>황금 막내</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>감성적임</p></td>
+</tr>
