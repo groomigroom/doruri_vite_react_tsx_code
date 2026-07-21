@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TwsMemHanjin.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Tws_mm_hanjin_img from '../main/img/tws_m_mem_Hanjin.jpg';
 
@@ -55,7 +56,7 @@ export default function TwsMemHanjin() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
