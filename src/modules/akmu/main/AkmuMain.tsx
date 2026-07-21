@@ -51,6 +51,22 @@ export default function AkmuMain() {
                 </section>
             </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile akmu_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/AkmuMemChanhyuk' className='tri_m_mem_a'>
+                            <img src={Akmu_m_chanhyuk} alt="이찬혁 이미지" />
+                            <h4>이찬혁</h4>
+                        </Link>
+                        <Link to='/AkmuMemSuhyun'>
+                            <img src={Akmu_m_suhyun} alt="이수현 이미지" />
+                            <h4>이수현</h4>
+                        </Link>
+                    </section>
+                </section>
+            </section>
+
             <Link to='/AkmuEvent'>이벤트로 가기</Link>
             <FooterPart />
         </div>
