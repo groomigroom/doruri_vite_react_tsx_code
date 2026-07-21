@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IllMemMoka.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import ill_mm_moka_img from '../main/img/illit_m_mem_Moka.jpg';
 
@@ -64,7 +65,7 @@ export default function IllMemMoka() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
