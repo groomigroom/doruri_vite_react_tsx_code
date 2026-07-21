@@ -76,7 +76,34 @@ export default function AespaMain() {
 
 
                 </section>
+            </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile aes_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/AesMemKarina' className='tri_m_mem_a'>
+                            <img src={Aes_m_MemKarina_img} alt="카리나 이미지" />
+                            <h4>카리나</h4>
+                        </Link>
+                        <Link to='/AesMemJijell' className='tri_m_mem_a'>
+                            <img src={Aes_m_MemJijell_img} alt="지젤 이미지" />
+                            <h4>지젤</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/AesMemWinter' className='tri_m_mem_a'>
+                            <img src={Aes_m_MemWinter_img} alt="윈터 이미지" />
+                            <h4>윈터</h4>
+                        </Link>
+                        <Link to='/AesMemNingning' className='tri_m_mem_a'>
+                            <img src={Aes_m_MemNingning_img} alt="닝닝 이미지" />
+                            <h4>닝닝</h4>
+                        </Link>
+                    </section>
+                </section>
 
             </section>
 
