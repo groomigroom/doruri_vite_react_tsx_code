@@ -244,4 +244,10 @@
         top: 818px;
         background-color: red;
     }
+
+    .tri_m_mem_tr {
+        width: 50vw;
+        height: 200px;
+        border: 3px solid blue;
+    }
 }
