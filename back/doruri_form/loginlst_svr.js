@@ -18,3 +18,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/public', static(path.join(__dirname, 'public')));
+
+app.post('/process/adduser', (req, res) => {
+
+});
