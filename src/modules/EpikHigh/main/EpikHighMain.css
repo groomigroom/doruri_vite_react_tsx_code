@@ -30,4 +30,9 @@
         height: 1500px;
         position: relative;
     }
+
+    .epi_m_mem_tr_full_mobile {
+        width: 100vw;
+        height: 400px;
+    }
 }
