@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TenMemGwonjungyeol.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Ten_mm_gwonjungyeol_img from '../main/img/10cm_m_mem_Gwonjungyeol.jpg';
 
@@ -64,6 +65,7 @@ export default function TenMemGwonjungyeol() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart />
         </div>
     );
 
