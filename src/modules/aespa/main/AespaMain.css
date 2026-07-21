@@ -1,10 +1,27 @@
-.aes_m_full {
-    width: 100vw;
-    height: 90vh;
-    position: relative;
+@media (min-width: 975px) {
+
+    .aes_m_full {
+        width: 100vw;
+        height: 90vh;
+        position: relative;
+    }
+
+    .aes_m_mem_tr_full {
+        width: 340px;
+        height: 340px;
+    }
+
 }
 
-.aes_m_mem_tr_full {
-    width: 340px;
-    height: 340px;
+@media (max-width: 975px) {
+    .aes_m_full {
+        width: 100vw;
+        height: 1286px;
+        position: relative;
+    }
+
+    .aes_m_mem_tr_full_mobile {
+        width: 100vw;
+        height: 368px;
+    }
 }
