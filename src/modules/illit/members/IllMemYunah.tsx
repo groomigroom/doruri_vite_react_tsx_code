@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IllMemYunah.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import ill_mm_yunah_img from '../main/img/illit_m_mem_Yunah.jpg';
 
@@ -64,7 +65,7 @@ export default function IllMemYunah() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
