@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IoiMemJeonsomi.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Ioi_m_MemJeonsomi_img from '../main/img/ioi_m_mem_Jeonsomi.jpg';
 
@@ -51,7 +52,7 @@ export default function IoiMemJeonsomi() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
