@@ -82,11 +82,44 @@ export default function ALLDAY_PROJECTMain() {
                     </Link>
 
                 </section>
-
-
             </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile all_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/AllMemAnnie' className='tri_m_mem_a'>
+                            <img src={All_m_MemAnnie_img} alt="애니 이미지" />
+                            <h4>애니</h4>
+                        </Link>
+                        <Link to='/AllMemTarzan' className='tri_m_mem_a'>
+                            <img src={All_m_MemTarzan_img} alt="타잔 이미지" />
+                            <h4>타잔</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/AllMemBailey' className='tri_m_mem_a'>
+                            <img src={All_m_MemBailey_img} alt="베일리 이미지" />
+                            <h4>베일리</h4>
+                        </Link>
+                        <Link to='/AllMemWoochan' className='tri_m_mem_a'>
+                            <img src={All_m_MemWoochan_img} alt="우찬 이미지" />
+                            <h4>우찬</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/AllMemYoungseo' className='tri_m_mem_a'>
+                            <img src={All_m_MemYoungseo_img} alt="영서 이미지" />
+                            <h4>영서</h4>
+                        </Link>
+                    </section>
+                </section>
 
+            </section>
 
 
             <Link to="/TxtEvent">이벤트</Link>
