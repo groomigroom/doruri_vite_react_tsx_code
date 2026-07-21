@@ -284,6 +284,75 @@ export default function IdnttMain() {
                 </section>
             </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile idn_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid1' className='tri_m_mem_a'>
+                            <img src='' alt="김도훈 이미지" />
+                            <h4>김도훈</h4>
+                        </Link>
+                        <Link to='/Idn_m_memid2'>
+                            <img src='' alt="김희주 이미지" />
+                            <h4>김희주</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/IdnttMain'>
+                            <img src='' alt="id3" />
+                            <h4>id3</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid4'>
+                            <img src='' alt="최태인 이미지" />
+                            <h4>최태인</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid5'>
+                            <img src='' alt="이재영 이미지" />
+                            <h4>이재영</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid6'>
+                            <img src='' alt="김주호 이미지" />
+                            <h4>김주호</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid7'>
+                            <img src='' alt="남지운 이미지" />
+                            <h4>남지운</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid8'>
+                            <img src='' alt="이환희 이미지" />
+                            <h4>이환희</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid9'>
+                            <img src='' alt="이청명 이미지" />
+                            <h4>이청명</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid10'>
+                            <img src='' alt="토와 이미지" />
+                            <h4>토와</h4>
+                        </Link>
+                    </section>
+                </section>
+
+            </section>
+
             <h2 className='tri_m_h2 tri_m_h2_3'>▪ 유닛 ▪</h2>
 
             <section className='tri_m_unit_tr_full'>
@@ -315,7 +384,5 @@ export default function IdnttMain() {
     );
 };
 
-아이덴? 과 함께
-선명한 감각을
-살려 봐요!
+
 
