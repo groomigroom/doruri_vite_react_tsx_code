@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TwsMemGyungmin.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Tws_mm_gyungmin_img from '../main/img/tws_m_mem_Kyungmin.jpg';
 
@@ -56,7 +57,7 @@ export default function TwsMemGyungmin() {
                 </tbody>
             </table>
 
-
+            <FooterPart />
         </div>
     );
 };
