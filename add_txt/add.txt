@@ -1,6 +1,6 @@
 아이오아이 최유정까지 footerpart 추가함
+idntt 11번까지 소개글 추가함
 
-footer 디자인하기
 
 img loading lazy???? a 태그 noreffer??
 
