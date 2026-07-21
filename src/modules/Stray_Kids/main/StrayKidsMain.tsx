@@ -116,6 +116,62 @@ export default function StrayKidsMain() {
                     </Link>
                 </section>
             </section>
+
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile str_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/StrayMemBangchan' className='tri_m_mem_a'>
+                            <img src={Str_m_MemBangchan_img} alt="방찬 이미지" />
+                            <h4>방찬</h4>
+                        </Link>
+                        <Link to='/StrayMemLino'>
+                            <img src={Str_m_MemLino_img} alt="리노 이미지" />
+                            <h4>리노</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/StrayMemChangbin'>
+                            <img src={Str_m_MemChangbin_img} alt="창빈 이미지" />
+                            <h4>창빈</h4>
+                        </Link>
+
+                        <Link to='/StrayMemHyunjin'>
+                            <img src={Str_m_MemHyunjin_img} alt="현진 이미지" />
+                            <h4>현진</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/StrayMemHan'>
+                            <img src={Str_m_MemHan_img} alt="한 이미지" />
+                            <h4>한</h4>
+                        </Link>
+
+                        <Link to='/StrayMemFilix'>
+                            <img src={Str_m_MemFilix_img} alt="필릭스 이미지" />
+                            <h4>필릭스</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/StrayMemSeungmin'>
+                            <img src={Str_m_MemSeungmin_img} alt="승민 이미지" />
+                            <h4>승민</h4>
+                        </Link>
+
+                        <Link to='/StrayMemIn'>
+                            <img src={Str_m_MemIn_img} alt="아이엔 이미지" />
+                            <h4>아이엔</h4>
+                        </Link>
+                    </section>
+                </section>
+
+            </section>
             <FooterPart />
         </div>
     );
