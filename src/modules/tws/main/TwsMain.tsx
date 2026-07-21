@@ -91,9 +91,49 @@ export default function TwsMain() {
                     </Link>
 
                 </section>
+            </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile tws_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TwsMemSinyu' className='tri_m_mem_a'>
+                            <img src={Tws_m_MemSinyu_img} alt="신유 이미지" />
+                            <h4>신유</h4>
+                        </Link>
+                        <Link to='/TwsMemDohun' className='tri_m_mem_a'>
+                            <img src={Tws_m_MemDohun_img} alt="도훈 이미지" />
+                            <h4>도훈</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TwsMemYoungjae' className='tri_m_mem_a'>
+                            <img src={Tws_m_MemYoungjae_img} alt="영재 이미지" />
+                            <h4>영재</h4>
+                        </Link>
+                        <Link to='/TwsMemHanjin' className='tri_m_mem_a'>
+                            <img src={Tws_m_MemHanjin_img} alt="한진 이미지" />
+                            <h4>한진</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TwsMemJihun' className='tri_m_mem_a'>
+                            <img src={Tws_m_MemJihun_img} alt="지훈 이미지" />
+                            <h4>지훈</h4>
+                        </Link>
+                        <Link to='/TwsMemGyungmin' className='tri_m_mem_a'>
+                            <img src={Tws_m_MemGyungmin_img} alt="경민 이미지" />
+                            <h4>경민</h4>
+                        </Link>
+                    </section>
+                </section>
 
             </section>
+
             <FooterPart />
 
         </div>
