@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IoiMemYuyeonjung.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Ioi_m_MemYuyeonjung_img from '../main/img/ioi_m_mem_Yuyunjung.jpg';
 
@@ -51,7 +52,7 @@ export default function IoiMemYuyeonjung() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
