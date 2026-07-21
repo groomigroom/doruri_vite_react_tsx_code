@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './ResMemWoni.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import res_mm_woni_img from '../main/img/rescene_m_mem_Woni.jpg';
 
@@ -64,6 +65,7 @@ export default function ResMemWoni() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart />
         </div>
     );
 
