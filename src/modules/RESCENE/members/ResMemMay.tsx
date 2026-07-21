@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './ResMemMay.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import res_mm_may_img from '../main/img/rescene_m_mem_May.jpg';
 
@@ -64,6 +65,7 @@ export default function ResMemMay() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart />
         </div>
     );
 
