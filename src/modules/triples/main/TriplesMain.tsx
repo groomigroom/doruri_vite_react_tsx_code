@@ -322,6 +322,124 @@ export default function TriplesMain() {
                         </Link>
                     </section>
                 </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS7'>
+                            <img src={Tri_m_memS7} alt="김나경 이미지" />
+                            <h4>김나경</h4>
+                        </Link>
+
+                        <Link to='/TriplesMemS8'>
+                            <img src={Tri_m_memS8} alt="공유빈 이미지" />
+                            <h4>공유빈</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS9'>
+                            <img src={Tri_m_memS9} alt="카에데 이미지" />
+                            <h4>카에데</h4>
+                        </Link>
+
+                        <Link to='/TriplesMemS10'>
+                            <img src={Tri_m_memS10} alt="서다현 이미지" />
+                            <h4>서다현</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS11'>
+                            <img src={Tri_m_memS11} alt="코토네 이미지" />
+                            <h4>코토네</h4>
+                        </Link>
+
+                        <Link to='/TriplesMemS12'>
+                            <img src={Tri_m_memS12} alt="곽연지 이미지" />
+                            <h4>곽연지</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS13'>
+                            <img src={Tri_m_memS13} alt="니엔 이미지" />
+                            <h4>니엔</h4>
+                        </Link>
+
+                        <Link to='/TriplesMemS14'>
+                            <img src={Tri_m_memS14} alt="박소현 이미지" />
+                            <h4>박소현</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS15'>
+                            <img src={Tri_m_memS15} alt="신위 이미지" />
+                            <h4>신위</h4>
+                        </Link>
+
+                        <Link to='/TriplesMemS16'>
+                            <img src={Tri_m_memS16} alt="마유 이미지" />
+                            <h4>마유</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS17'>
+                            <img src={Tri_m_memS17} alt="린 이미지" />
+                            <h4>린</h4>
+                        </Link>
+
+
+                        <Link to='/TriplesMemS18'>
+                            <img src={Tri_m_memS18} alt="주빈 이미지" />
+                            <h4>주빈</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS19'>
+                            <img src={Tri_m_memS19} alt="정하연 이미지" />
+                            <h4>정하연</h4>
+                        </Link>
+
+                        <Link to='/TriplesMemS20'>
+                            <img src={Tri_m_memS20} alt="박시온 이미지" />
+                            <h4>박시온</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS21'>
+                            <img src={Tri_m_memS21} alt="김채원 이미지" />
+                            <h4>김채원</h4>
+                        </Link>
+
+                        <Link to='/TriplesMemS22'>
+                            <img src={Tri_m_memS22} alt="설린 이미지" />
+                            <h4>설린</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS23'>
+                            <img src={Tri_m_memS23} alt="서아 이미지" />
+                            <h4>서아</h4>
+                        </Link>
+
+                        <Link to='/TriplesMemS24'>
+                            <img src={Tri_m_memS24} alt="지연 이미지" />
+                            <h4>지연</h4>
+                        </Link>
+                    </section>
+                </section>
             </section>
 
             <h2 className='tri_m_h2 tri_m_h2_3'>▪ 유닛 ▪</h2>
