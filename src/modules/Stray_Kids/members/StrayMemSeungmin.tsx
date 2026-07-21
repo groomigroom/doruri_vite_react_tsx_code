@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './StrayMemSeungmin.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Str_mm_seungmin_img from '../main/img/stray_m_mem_Seungmin.jpg';
 
@@ -65,7 +66,7 @@ export default function StrayMemSeungmin() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
