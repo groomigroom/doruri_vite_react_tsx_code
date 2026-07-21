@@ -40,8 +40,18 @@ export default function TenCMMain() {
                         </article>
                     </Link>
                 </section>
+            </section>
 
-
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile ten_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/TenMemGwonjungyeol' className='tri_m_mem_a'>
+                            <img src={Ten_m_img} alt="권정열 이미지" />
+                            <h4>권정열</h4>
+                        </Link>
+                    </section>
+                </section>
             </section>
 
             <FooterPart />
