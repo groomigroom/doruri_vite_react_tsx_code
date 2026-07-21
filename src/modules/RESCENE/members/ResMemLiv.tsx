@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './ResMemLiv.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import res_mm_liv_img from '../main/img/rescene_m_mem_Liv.jpg';
 
@@ -64,6 +65,7 @@ export default function ResMemLiv() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart />
         </div>
     );
 
