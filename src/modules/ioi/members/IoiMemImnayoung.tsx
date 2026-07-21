@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IoiMemImnayoung.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Ioi_m_MemImnayoung_img from '../main/img/ioi_m_mem_Imnayoung.jpg';
 
@@ -52,7 +53,7 @@ export default function IoiMemImnayoung() {
                 </tbody>
             </table>
 
-
+            <FooterPart />
         </div>
     );
 };
