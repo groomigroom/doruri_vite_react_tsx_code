@@ -112,12 +112,8 @@ export default function TxtMain() {
                 <section className="tri_m_mem_trtr">
                     <section className='tri_m_mem_tr1'>
                         <Link to='/TxtMemHueningkai' className='tri_m_mem_a'>
-                            <article className='tri_m_mem'>
-                                <img src={Txt_m_memHueningkai} alt="휴닝카이 이미지" />
-                                <div>
-                                    <h4>휴닝카이</h4>
-                                </div>
-                            </article>
+                            <img src={Txt_m_memHueningkai} alt="휴닝카이 이미지" />
+                            <h4>휴닝카이</h4>
                         </Link>
                     </section>
                 </section>
