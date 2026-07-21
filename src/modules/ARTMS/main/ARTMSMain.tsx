@@ -82,7 +82,42 @@ export default function ARTMSMain() {
                     </Link>
 
                 </section>
+            </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile art_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/ArtMemHeejin' className='tri_m_mem_a'>
+                            <img src='' alt="희진 이미지" />
+                            <h4>희진</h4>
+                        </Link>
+                        <Link to='/ArtMemHaseul' className='tri_m_mem_a'>
+                            <img src='' alt="하슬 이미지" />
+                            <h4>하슬</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/ArtMemKimlip' className='tri_m_mem_a'>
+                            <img src='' alt="김립 이미지" />
+                            <h4>김립</h4>
+                        </Link>
+                        <Link to='/ArtMemJinsoul' className='tri_m_mem_a'>
+                            <img src='' alt="진솔 이미지" />
+                            <h4>진솔</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/ArtMemChoerry' className='tri_m_mem_a'>
+                            <img src='' alt="최리 이미지" />
+                            <h4>최리</h4>
+                        </Link>
+                    </section>
+                </section>
 
             </section>
 
