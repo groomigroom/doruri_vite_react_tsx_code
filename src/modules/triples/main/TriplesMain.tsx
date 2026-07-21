@@ -282,6 +282,48 @@ export default function TriplesMain() {
                 </section>
             </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                            <img src={Tri_m_memS1} alt="윤서연 이미지" />
+                            <h4>윤서연</h4>
+                        </Link>
+                        <Link to='/TriplesMemS2'>
+                            <img src={Tri_m_memS2} alt="정혜린 이미지" />
+                            <h4>정혜린</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS3'>
+                            <img src={Tri_m_memS3} alt="이지우 이미지" />
+                            <h4>이지우</h4>
+                        </Link>
+
+                        <Link to='/TriplesMemS4'>
+                            <img src={Tri_m_memS4} alt="김채연 이미지" />
+                            <h4>김채연</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TriplesMemS5'>
+                            <img src={Tri_m_memS5} alt="김유연 이미지" />
+                            <h4>김유연</h4>
+                        </Link>
+
+                        <Link to='/TriplesMemS6'>
+                            <img src={Tri_m_memS6} alt="김수민 이미지" />
+                            <h4>김수민</h4>
+                        </Link>
+                    </section>
+                </section>
+            </section>
+
             <h2 className='tri_m_h2 tri_m_h2_3'>▪ 유닛 ▪</h2>
 
             <section className='tri_m_unit_tr_full'>
