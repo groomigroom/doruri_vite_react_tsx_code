@@ -71,9 +71,37 @@ export default function DAY6Main() {
 
 
                 </section>
+            </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile day_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/DayMemSungjin' className='tri_m_mem_a'>
+                            <img src={Day_m_MemSungjin_img} alt="성진 이미지" />
+                            <h4>성진</h4>
+                        </Link>
+                        <Link to='/DayMemYoungK' className='tri_m_mem_a'>
+                            <img src={Day_m_MemYoungK_img} alt="Young K 이미지" />
+                            <h4>Young K</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/DayMemWonpil' className='tri_m_mem_a'>
+                            <img src={Day_m_MemWonpil_img} alt="원필 이미지" />
+                            <h4>원필</h4>
+                        </Link>
+                        <Link to='/DayMemDowoon' className='tri_m_mem_a'>
+                            <img src={Day_m_MemDowoon_img} alt="도운 이미지" />
+                            <h4>도운</h4>
+                        </Link>
+                    </section>
+                </section>
 
             </section>
+
             <FooterPart />
         </div>
     );
