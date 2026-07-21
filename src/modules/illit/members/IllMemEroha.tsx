@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IllMemEroha.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import ill_mm_eroha_img from '../main/img/illit_m_mem_Iroha.jpg';
 
@@ -64,7 +65,7 @@ export default function IllMemEroha() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
