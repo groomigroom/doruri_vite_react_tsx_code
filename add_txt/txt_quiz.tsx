@@ -14,6 +14,14 @@ function App() {
   const target = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
   const count = target.filter((char, index) => str[index] === char).length;
 
+#####
+let last string
+if target.length === 7
+    count
+else
+    글자 수가 안 맞음
+
+
   return (
     <div>
       <form className="txt_form" onSubmit={(e) => e.preventDefault()}>
