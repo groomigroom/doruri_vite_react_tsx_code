@@ -182,7 +182,7 @@
 @media (max-width: 975px) {
     .tri_m_full {
         width: 100vw;
-        height: 3000px;
+        height: 3126px;
         position: relative;
     }
 
@@ -239,7 +239,7 @@
 
     .tri_m_mem_tr_full_mobile {
         width: 100vw;
-        height: 1200px;
+        height: 2208px;
         position: absolute;
         top: 818px;
     }
