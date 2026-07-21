@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './AesMemKarina.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Aes_mm_Karina_img from '../main/img/aespa_m_mem_Karina.jpg';
 
@@ -64,7 +65,7 @@ export default function AesMemKarina() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 
