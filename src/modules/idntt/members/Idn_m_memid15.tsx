@@ -18,9 +18,9 @@ export default function Idn_m_memid15() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="idntt 로고 꾸미기" />최경빈<img src={MainH2Deco} alt="idntt 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
-                #####24명은 많은 것 같아도<br />
-                멤버들 질서 유지를<br />
-                책임감 있게 다 해볼게요!
+                세심하게 멤버들을<br />
+                잘 챙기며<br />
+                활동해 볼게요!
             </p>
             <img src='' alt="최경빈 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
@@ -65,9 +65,7 @@ export default function Idn_m_memid15() {
     );
 };
 
-세심하게 멤버들을
-잘 챙기며
-활동해 볼게요!
+
 
 
 
