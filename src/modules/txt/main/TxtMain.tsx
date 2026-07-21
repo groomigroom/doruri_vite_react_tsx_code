@@ -83,8 +83,45 @@ export default function TxtMain() {
 
             </section>
 
-
-
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile txt_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TxtMemSubin' className='tri_m_mem_a'>
+                            <img src={Txt_m_memSubin} alt="수빈 이미지" />
+                            <h4>수빈</h4>
+                        </Link>
+                        <Link to='/TxtMemYeonjun' className='tri_m_mem_a'>
+                            <img src={Txt_m_memYeonjun} alt="연준 이미지" />
+                            <h4>연준</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/TxtMemBeomgyu' className='tri_m_mem_a'>
+                            <img src={Txt_m_memBeomgyu} alt="범규 이미지" />
+                            <h4>범규</h4>
+                        </Link>
+                        <Link to='/TxtMemTaehyun' className='tri_m_mem_a'>
+                            <img src={Txt_m_memTaehyun} alt="태현 이미지" />
+                            <h4>태현</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/TxtMemHueningkai' className='tri_m_mem_a'>
+                            <article className='tri_m_mem'>
+                                <img src={Txt_m_memHueningkai} alt="휴닝카이 이미지" />
+                                <div>
+                                    <h4>휴닝카이</h4>
+                                </div>
+                            </article>
+                        </Link>
+                    </section>
+                </section>
+            </section>
 
             <Link to="/TxtEvent">이벤트</Link>
             <FooterPart />
