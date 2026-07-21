@@ -242,18 +242,17 @@
         height: 1200px;
         position: absolute;
         top: 818px;
-        background-color: red;
     }
 
     .tri_m_mem_trtr {
         width: 100%;
-        height: 200px;
+        height: 184px;
         position: relative;
     }
 
     .tri_m_mem_tr {
         width: 290px;
-        height: 200px;
+        height: 184px;
         position: absolute;
         top: 0px;
         left: 50%;
@@ -296,5 +295,9 @@
 
     .tri_m_mem_tr>a:first-child>h4 {
         left: 0px;
+    }
+
+    .tri_m_mem_tr>a:last-child>h4 {
+        right: 0px;
     }
 }
