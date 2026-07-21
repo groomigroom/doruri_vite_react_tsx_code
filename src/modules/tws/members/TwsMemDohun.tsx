@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TwsMemDohun.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Tws_mm_dohun_img from '../main/img/tws_m_mem_Dohun.jpg';
 
@@ -55,7 +56,7 @@ export default function TwsMemDohun() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
