@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './StrayMemFilix.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Str_mm_filix_img from '../main/img/stray_m_mem_Filix.jpg';
 
@@ -64,7 +65,7 @@ export default function StrayMemFilix() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
