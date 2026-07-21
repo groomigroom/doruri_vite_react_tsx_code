@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TwsMemYoungjae.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Tws_mm_youngjae_img from '../main/img/tws_m_mem_Youngjae.jpg';
 
@@ -55,7 +56,7 @@ export default function TwsMemYoungjae() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
