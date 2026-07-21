@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IllMemMinju.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import ill_mm_minju_img from '../main/img/illit_m_mem_Minju.jpg';
 
@@ -64,7 +65,7 @@ export default function IllMemMinju() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
