@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './ResMemJena.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import res_mm_jena_img from '../main/img/rescene_m_mem_Jena.jpg';
 
@@ -64,6 +65,7 @@ export default function ResMemJena() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart />
         </div>
     );
 
