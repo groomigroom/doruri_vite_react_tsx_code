@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './AesMemJijell.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Aes_mm_Jijell_img from '../main/img/aespa_m_mem_Jijel.jpg';
 
@@ -64,7 +65,7 @@ export default function AesMemJijell() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 
