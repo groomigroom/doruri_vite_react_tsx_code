@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './StrayMemBangchan.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Str_mm_bangchan_img from '../main/img/stray_m_mem_Bangchan.jpg';
 
@@ -64,7 +65,7 @@ export default function StrayMemBangchan() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
