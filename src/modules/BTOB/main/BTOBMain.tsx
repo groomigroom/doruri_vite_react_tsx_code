@@ -90,10 +90,48 @@ export default function BTOBMain() {
                     </Link>
 
                 </section>
-
-
             </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile bto_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/BtoMemSeoEunkwang' className='tri_m_mem_a'>
+                            <img src='' alt="서은광 이미지" />
+                            <h4>서은광</h4>
+                        </Link>
+                        <Link to='/BtoMemLeeMinhyuk' className='tri_m_mem_a'>
+                            <img src='' alt="이민혁 이미지" />
+                            <h4>이민혁</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/BtoMemLeeChangsub' className='tri_m_mem_a'>
+                            <img src='' alt="이창섭 이미지" />
+                            <h4>이창섭</h4>
+                        </Link>
+                        <Link to='/BtoMemLimHyunsik' className='tri_m_mem_a'>
+                            <img src='' alt="임현식 이미지" />
+                            <h4>임현식</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/BtoMemPeniel' className='tri_m_mem_a'>
+                            <img src='' alt="프니엘 이미지" />
+                            <h4>프니엘</h4>
+                        </Link>
+                        <Link to='/BtoMemYookSungjae' className='tri_m_mem_a'>
+                            <img src='' alt="육성재 이미지" />
+                            <h4>육성재</h4>
+                        </Link>
+                    </section>
+                </section>
+
+            </section>
             <FooterPart />
         </div>
     );
