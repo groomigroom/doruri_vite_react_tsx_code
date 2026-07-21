@@ -246,7 +246,7 @@
     }
 
     .tri_m_mem_tr {
-        width: 100vw;
+        width: 240px;
         height: 200px;
         display: flex;
     }
@@ -255,6 +255,23 @@
         width: 50%;
         height: 100%;
         border: 1px solid black;
+        position: relative;
+    }
+
+    .tri_m_mem_tr>a>img {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        position: absolute;
+        top: 0px;
+    }
+
+    .tri_m_mem_tr>a:first-child>img {
+        right: 20px;
+    }
+
+    .tri_m_mem_tr>a:last-child>img {
+        left: 20px;
     }
 
 
