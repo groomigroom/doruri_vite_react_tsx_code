@@ -1,10 +1,26 @@
-.day_m_full {
-    width: 100vw;
-    height: 90vh;
-    position: relative;
+@media (min-width: 975px) {
+
+    .day_m_full {
+        width: 100vw;
+        height: 90vh;
+        position: relative;
+    }
+
+    .day_m_mem_tr_full {
+        width: 340px;
+        height: 340px;
+    }
 }
 
-.day_m_mem_tr_full {
-    width: 340px;
-    height: 340px;
+@media (max-width: 975px) {
+    .day_m_full {
+        width: 100vw;
+        height: 1286px;
+        position: relative;
+    }
+
+    .day_m_mem_tr_full_mobile {
+        width: 100vw;
+        height: 368px;
+    }
 }
