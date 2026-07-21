@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IllMemWonhee.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import ill_mm_wonhee_img from '../main/img/illit_m_mem_Wonhee.jpg';
 
@@ -64,7 +65,7 @@ export default function IllMemWonhee() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
