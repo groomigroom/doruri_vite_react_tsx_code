@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TwsMemSinyu.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Tws_mm_sinyu_img from '../main/img/tws_m_mem_Sinyu.jpg';
 
@@ -55,7 +56,7 @@ export default function TwsMemSinyu() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
