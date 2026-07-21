@@ -18,50 +18,44 @@ export default function Idn_m_memid21() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="idntt 로고 꾸미기" />김은성<img src={MainH2Deco} alt="idntt 로고 꾸미기" /></h2>
             <p className='tri_mm_s1_intropp'>
-                #####24명은 많은 것 같아도<br />
-                멤버들 질서 유지를<br />
-                책임감 있게 다 해볼게요!
+                매일 매일<br />
+                더 준비해서<br />
+                여러분을 찾아 갈게요!
             </p>
             <img src='' alt="김은성 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>2004년 5월 10일</p></td>
                     </tr>
                     <tr>
                         <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>??</p></td>
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
+                        <td><p>AB형</p></td>
                     </tr>
                     <tr>
                         <td><p>소속 유닛</p></td>
-                        <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                        <td><p>itsnotover</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>INFP</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>상징색</p></td>
+                        <td><p>#7499b6</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>성격</p></td>
+                        <td><p>??</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>별명</p></td>
+                        <td><p>??</p></td>
                     </tr>
                 </tbody>
             </table>
@@ -72,26 +66,9 @@ export default function Idn_m_memid21() {
 };
 
 
-1 출생 
-2004년 5월 10일
-2 키
-??
-3 혈액형
-AB형
-4 소속 유닛
-itsnotover
-5 MBTI
-INFP
-6 상징색
-#7499b6
-7 성격
-??
-8 별명
-??
 
-매일 매일
-더 준비해서
-여러분을 찾아 갈게요!
+
+
 
 
 
