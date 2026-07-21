@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IoiMemKimsejung.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Ioi_m_MemKimsejung_img from '../main/img/ioi_m_mem_Kimsejung.jpg';
 
@@ -51,7 +52,7 @@ export default function IoiMemKimsejung() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
