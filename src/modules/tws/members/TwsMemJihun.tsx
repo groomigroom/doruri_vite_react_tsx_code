@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './TwsMemJihun.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Tws_mm_jihun_img from '../main/img/tws_m_mem_Jihun.jpg';
 
@@ -55,7 +56,7 @@ export default function TwsMemJihun() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
