@@ -1,10 +1,24 @@
-.tws_m_full {
-    width: 100vw;
-    height: 90vh;
-    position: relative;
+@media (min-width: 975px) {
+    .tws_m_full {
+        width: 100vw;
+        height: 90vh;
+        position: relative;
+    }
+
+    .tws_m_mem_tr_full {
+        width: 530px;
+        height: 340px;
+    }
 }
 
-.tws_m_mem_tr_full {
-    width: 530px;
-    height: 340px;
+@media (max-width: 975px) {
+    .tws_m_full {
+        width: 100vw;
+        height: 1470px;
+        position: relative;
+    }
+
+    .tws_m_mem_tr_full_mobile {
+        height: 552px;
+    }
 }
