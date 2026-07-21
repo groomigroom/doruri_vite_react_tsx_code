@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './StrayMemHyunjin.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Str_mm_hyunjin_img from '../main/img/stray_m_mem_Hyunjin.jpg';
 
@@ -64,7 +65,7 @@ export default function StrayMemHyunjin() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
