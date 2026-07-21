@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IoiMemJugyulgyoung.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Ioi_m_MemJugyulgyoung_img from '../main/img/ioi_m_mem_Jugyulgyung.jpg';
 
@@ -51,7 +52,7 @@ export default function IoiMemJugyulgyoung() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
