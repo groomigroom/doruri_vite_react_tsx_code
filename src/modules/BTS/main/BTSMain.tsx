@@ -108,6 +108,57 @@ export default function BTSMain() {
 
                 </section>
             </section>
+
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile bts_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/BTSMemRM' className='tri_m_mem_a'>
+                            <img src='' alt="RM 이미지" />
+                            <h4>RM</h4>
+                        </Link>
+                        <Link to='/BTSMemJin'>
+                            <img src='' alt="진 이미지" />
+                            <h4>진</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/BTSMemSUGA'>
+                            <img src='' alt="슈가 이미지" />
+                            <h4>슈가</h4>
+                        </Link>
+
+                        <Link to='/BTSMemJhope'>
+                            <img src='' alt="제이홉 이미지" />
+                            <h4>제이홉</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/BTSMemJimin'>
+                            <img src='' alt="지민 이미지" />
+                            <h4>지민</h4>
+                        </Link>
+
+                        <Link to='/BTSMemV'>
+                            <img src='' alt="뷔 이미지" />
+                            <h4>뷔</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/BTSMemJungKook'>
+                            <img src='' alt="정국 이미지" />
+                            <h4>정국</h4>
+                        </Link>
+                    </section>
+                </section>
+
+            </section>
             <FooterPart />
         </div>
     );
