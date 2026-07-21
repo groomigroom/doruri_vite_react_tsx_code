@@ -150,6 +150,82 @@ export default function IoiMain() {
                 </section>
 
             </section>
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile ioi_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/IoiMemImnayoung' className='tri_m_mem_a'>
+                            <img src={Ioi_m_MemImnayoung_img} alt="임나영 이미지" />
+                            <h4>임나영</h4>
+                        </Link>
+                        <Link to='/IoiMemKimchungha'>
+                            <img src={Ioi_m_MemKimchungha_img} alt="김청하 이미지" />
+                            <h4>김청하</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/IoiMemKimsejung'>
+                            <img src={Ioi_m_MemKimsejung_img} alt="김세정 이미지" />
+                            <h4>김세정</h4>
+                        </Link>
+
+                        <Link to='/IoiMemJungcheyun'>
+                            <img src={Ioi_m_MemJungcheyun_img} alt="정채연 이미지" />
+                            <h4>정채연</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/IoiMemJugyulgyoung'>
+                            <img src={Ioi_m_MemJugyulgyoung_img} alt="주결경 이미지" />
+                            <h4>주결경</h4>
+                        </Link>
+
+                        <Link to='/IoiMemKimsohye'>
+                            <img src={Ioi_m_MemKimsohye_img} alt="김소혜 이미지" />
+                            <h4>김소혜</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/IoiMemYuyeonjung'>
+                            <img src={Ioi_m_MemYuyeonjung_img} alt="유연정 이미지" />
+                            <h4>유연정</h4>
+                        </Link>
+
+                        <Link to='/IoiMemChoiyujung'>
+                            <img src={Ioi_m_MemChoiyujung_img} alt="최유정 이미지" />
+                            <h4>최유정</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/IoiMemGangmina'>
+                            <img src={Ioi_m_MemGangmina_img} alt="강미나 이미지" />
+                            <h4>강미나</h4>
+                        </Link>
+
+                        <Link to='/IoiMemKimdoyeon'>
+                            <img src={Ioi_m_MemKimdoyeon_img} alt="김도연 이미지" />
+                            <h4>김도연</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/IoiMemJeonsomi'>
+                            <img src={Ioi_m_MemJeonsomi_img} alt="전소미 이미지" />
+                            <h4>전소미</h4>
+                        </Link>
+                    </section>
+                </section>
+
+            </section>
             <FooterPart />
         </div>
     );
