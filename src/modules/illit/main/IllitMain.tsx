@@ -83,7 +83,42 @@ export default function IllitMain() {
                     </Link>
 
                 </section>
+            </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile ill_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/IllMemYunah' className='tri_m_mem_a'>
+                            <img src={Ill_m_MemYunah_img} alt="윤아 이미지" className='ill_m_mem_img' />
+                            <h4>윤아</h4>
+                        </Link>
+                        <Link to='/IllMemMinju' className='tri_m_mem_a'>
+                            <img src={Ill_m_MemMinju_img} alt="민주 이미지" />
+                            <h4>민주</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/IllMemMoka' className='tri_m_mem_a'>
+                            <img src={Ill_m_MemMoka_img} alt="모카 이미지" />
+                            <h4>모카</h4>
+                        </Link>
+                        <Link to='/IllMemWonhee' className='tri_m_mem_a'>
+                            <img src={Ill_m_MemWonhee_img} alt="원희 이미지" />
+                            <h4>원희</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/IllMemEroha' className='tri_m_mem_a'>
+                            <img src={Ill_m_MemEroha_img} alt="이로하 이미지" />
+                            <h4>이로하</h4>
+                        </Link>
+                    </section>
+                </section>
 
             </section>
             <FooterPart />
