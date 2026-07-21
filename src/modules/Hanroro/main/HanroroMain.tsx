@@ -40,8 +40,18 @@ export default function HanroroMain() {
                         </article>
                     </Link>
                 </section>
+            </section>
 
-
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile han_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/HanMemHanroro' className='tri_m_mem_a'>
+                            <img src='' alt="한로로 이미지" />
+                            <h4>한로로</h4>
+                        </Link>
+                    </section>
+                </section>
             </section>
 
             <FooterPart />
