@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './AesMemNingning.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Aes_mm_Ningning_img from '../main/img/aespa_m_mem_Ningning.jpg';
 
@@ -65,7 +66,7 @@ export default function AesMemNingning() {
                 </tbody>
             </table>
 
-
+            <FooterPart />
         </div>
     );
 
