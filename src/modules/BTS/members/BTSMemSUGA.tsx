@@ -72,3 +72,34 @@ export default function BTSMemSUGA() {
         </div>
     );
 };
+
+방탄 슈가
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>1993년 3월 9일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>174cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>O형</p></td>
+</tr>
+<tr>
+<td><p>포지션</p></td>
+<td><p>리드래퍼</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ISTP</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>gloss</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>다정함</p></td>
+</tr>
