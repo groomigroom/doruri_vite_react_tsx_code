@@ -34,3 +34,23 @@
     }
 
 }
+
+@media (max-width: 975px) {
+    .txt_m_full {
+        width: 100vw;
+        height: 1470px;
+        position: relative;
+    }
+
+    .txt_m_mem_tr_full_mobile {
+        height: 552px;
+    }
+
+    .txt_m_mem_tr_full_mobile>.tri_m_mem_trtr>.tri_m_mem_tr>a>img {
+        border: 5px solid #FF1E91;
+    }
+
+    .txt_m_mem_tr_full_mobile>.tri_m_mem_trtr>.tri_m_mem_tr1>a>img {
+        border: 5px solid #FF1E91;
+    }
+}
