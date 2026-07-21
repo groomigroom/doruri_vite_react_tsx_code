@@ -71,9 +71,7 @@ export default function EpikHighMain() {
                     <section className='tri_m_mem_tr1'>
                         <Link to='/EpiMemMithra' className='tri_m_mem_a'>
                             <img src="" alt="미쓰라 이미지" />
-                            <div>
-                                <h4>미쓰라</h4>
-                            </div>
+                            <h4>미쓰라</h4>
                         </Link>
                     </section>
                 </section>
