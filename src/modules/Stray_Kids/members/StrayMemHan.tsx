@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './StrayMemHan.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Str_mm_han_img from '../main/img/stray_m_mem_Han.jpg';
 
@@ -64,7 +65,7 @@ export default function StrayMemHan() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
