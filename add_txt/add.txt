@@ -1,32 +1,4 @@
-txt event_code 용
 
-function App() {
-
-  const str = "abcdefgh"; // 8글자 문자열
-
-  let count = 0;
-
-  if (str[0] === 'a') {
-    // 0번 인덱스가 'a'일 때 실행
-  }
-
-  if (str[7] === 'h') {
-    // 7번 인덱스가 'h'일 때 실행
-  }
-
-
-  return (
-    <div>
-      <form className="txt_form" action="">
-        <input type="text" name="txt_one" value={txt_form.txt_onee} />
-      </form>
-    </div>
-  )
-}
-
-export default App
-
------------------
 
 아이오아이 최유정까지 footerpart 추가함
 artms부터 성격 테이블 추가하기
