@@ -37,10 +37,19 @@ export default function Bol4Main() {
                         </article>
                     </Link>
                 </section>
-
-
             </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile bol_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/BolMemAnjiyoung' className='tri_m_mem_a'>
+                            <img src={Bol_m_img} alt="안지영 이미지" />
+                            <h4>안지영</h4>
+                        </Link>
+                    </section>
+                </section>
+            </section>
             <FooterPart />
         </div>
     );
