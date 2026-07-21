@@ -27,12 +27,12 @@
 @media (max-width: 975px) {
     .epi_m_full {
         width: 100vw;
-        height: 1500px;
+        height: 1286px;
         position: relative;
     }
 
     .epi_m_mem_tr_full_mobile {
         width: 100vw;
-        height: 400px;
+        height: 368px;
     }
 }
