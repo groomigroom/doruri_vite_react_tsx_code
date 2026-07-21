@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IoiMemKimdoyeon.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Ioi_m_MemKimdoyeon_img from '../main/img/ioi_m_mem_Kimdoyeon.jpg';
 
@@ -51,7 +52,7 @@ export default function IoiMemKimdoyeon() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
