@@ -72,3 +72,33 @@ export default function BTSMemV() {
         </div>
     );
 };
+방탄 뷔
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>1995년 12월 30일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>179cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>AB형</p></td>
+</tr>
+<tr>
+<td><p>포지션</p></td>
+<td><p>댄서, 서브보컬</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ENTP</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>태태</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>??</p></td>
+</tr>
