@@ -73,4 +73,46 @@ export default function ArtMemHaseul() {
 };
 
 
+artms 하슬
 
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>1997년 8월 18일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>159cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>O형</p></td>
+</tr>
+<tr>
+<td><p>상징</p></td>
+<td><p>하얀 새</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>하쑤리</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INFJ</p></td>
+</tr>
+<tr>
+<td><p>소속 유닛</p></td>
+<td><p>x</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>계획적임</p></td>
+</tr>
+
+1 출생v
+2 키
+3 혈액형f
+4 상징ㅎ
+5 별명ㅎ
+6 MBTI
+7 소속 유닛
+8 성격 희진 자존감 높음 하슬 계획적임 김립 부지런함 진솔 활발함 최리 발랄함
