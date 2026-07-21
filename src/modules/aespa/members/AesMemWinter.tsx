@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './AesMemNingning.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Aes_mm_Winter_img from '../main/img/aespa_m_mem_Winter.jpg';
 
@@ -64,7 +65,7 @@ export default function AesMemWinter() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 
