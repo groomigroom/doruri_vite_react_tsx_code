@@ -83,12 +83,46 @@ export default function ResMain() {
                     </Link>
 
                 </section>
-
-
             </section>
 
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile res_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/ResMemWoni' className='tri_m_mem_a'>
+                            <img src={Res_m_MemWoni_img} alt="원이 이미지" />
+                            <h4>원이</h4>
+                        </Link>
+                        <Link to='/ResMemLiv' className='tri_m_mem_a'>
+                            <img src={Res_m_MemLiv_img} alt="리브 이미지" />
+                            <h4>리브</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/ResMemMinami' className='tri_m_mem_a'>
+                            <img src={Res_m_MemMinami_img} alt="미나미 이미지" />
+                            <h4>미나미</h4>
+                        </Link>
+                        <Link to='/ResMemMay' className='tri_m_mem_a'>
+                            <img src={Res_m_MemMay_img} alt="메이 이미지" />
+                            <h4>메이</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/ResMemJena' className='tri_m_mem_a'>
+                            <img src={Res_m_MemJena_img} alt="제나 이미지" />
+                            <h4>제나</h4>
+                        </Link>
+                    </section>
+                </section>
+
+            </section >
             <FooterPart />
-        </div>
+        </div >
     );
 };
 
