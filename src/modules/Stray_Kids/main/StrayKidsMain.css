@@ -1,9 +1,23 @@
-.str_m_full {
-    width: 100vw;
-    height: 90vh;
-    position: relative;
+@media (min-width: 975px) {
+    .str_m_full {
+        width: 100vw;
+        height: 90vh;
+        position: relative;
+    }
+
+    .str_m_mem_tr_full {
+        height: 340px;
+    }
 }
 
-.str_m_mem_tr_full {
-    height: 340px;
+@media (max-width: 975px) {
+    .str_m_full {
+        width: 100vw;
+        height: 1654px;
+        position: relative;
+    }
+
+    .str_m_mem_tr_full_mobile {
+        height: 736px;
+    }
 }
