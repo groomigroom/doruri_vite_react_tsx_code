@@ -40,8 +40,18 @@ export default function YenaMain() {
                         </article>
                     </Link>
                 </section>
+            </section>
 
-
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile yen_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr1'>
+                        <Link to='/YenaMem' className='tri_m_mem_a'>
+                            <img src='' alt="최예나" />
+                            <h4>최예나</h4>
+                        </Link>
+                    </section>
+                </section>
             </section>
 
             <FooterPart />
