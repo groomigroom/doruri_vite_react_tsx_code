@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './ResMemMinami.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import res_mm_minami_img from '../main/img/rescene_m_mem_Minami.jpg';
 
@@ -65,6 +66,7 @@ export default function ResMemMinami() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart />
         </div>
     );
 
