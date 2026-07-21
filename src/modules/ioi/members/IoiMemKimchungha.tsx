@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './IoiMemKimchungha.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Ioi_m_MemKimchungha_img from '../main/img/ioi_m_mem_Kimchungha.jpg';
 
@@ -51,7 +52,7 @@ export default function IoiMemKimchungha() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 };
