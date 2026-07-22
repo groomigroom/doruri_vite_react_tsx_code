@@ -82,7 +82,7 @@ export default function TriplesMemS1Eng() {
                         <td><p>2003년 8월 6일</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
+                        <td><p>height</p></td>
                         <td><p>161cm</p></td>
                     </tr>
                     <tr>
