@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './AllMemYoungseo.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import All_mm_youngseo_img from '../main/img/allday_m_mem_Youngseo.jpg';
 
@@ -23,7 +24,7 @@ export default function AllMemYoungseo() {
                 성실하게 잘 준비해서<br />
                 여러분을 만나러 갈게요!</p>
             <img src={All_mm_youngseo_img} alt="영서 이미지" className='tri_mm_s1_img all_mm_youngseo_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <table className='tri_mm_s1_intropa_tb all_mm_youngseo_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
@@ -55,7 +56,7 @@ export default function AllMemYoungseo() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
