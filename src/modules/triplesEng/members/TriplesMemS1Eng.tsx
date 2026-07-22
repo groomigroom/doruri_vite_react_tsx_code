@@ -112,6 +112,6 @@ export default function TriplesMemS1Eng() {
                                 LOVElution, neptune</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
+                        <td><p>character</p></td>
                         <td><p>좋음</p></td>
                     </tr>
