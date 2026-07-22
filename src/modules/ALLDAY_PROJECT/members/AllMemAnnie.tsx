@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './AllMemAnnie.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import All_mm_Annie_img from '../main/img/allday_m_mem_Annie.jpg';
 
@@ -55,7 +56,7 @@ export default function AllMemAnnie() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
