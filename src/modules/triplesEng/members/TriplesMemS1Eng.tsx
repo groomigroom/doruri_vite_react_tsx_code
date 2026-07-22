@@ -94,7 +94,7 @@ export default function TriplesMemS1Eng() {
                         <td><p>햄햄</p></td>
                     </tr>
                     <tr>
-                        <td><p>취미</p></td>
+                        <td><p>hobby</p></td>
                         <td><p>좋아하는 영화 여러번 보기</p></td>
                     </tr>
                     <tr>
