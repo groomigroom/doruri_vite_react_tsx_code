@@ -120,10 +120,7 @@ export default function TxtMain() {
             </section>
 
             <Link to="/TxtEvent">이벤트</Link>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 빅히트 뮤직' />
         </div>
     );
 };
-
-
-빅히트 뮤직
