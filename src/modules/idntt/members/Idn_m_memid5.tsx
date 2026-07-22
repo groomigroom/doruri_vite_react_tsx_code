@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Idn_m_memid5.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 // import Idn_mm_memid5_img from '../main/img/tri_m_memS1.jpg';
 
@@ -59,15 +60,13 @@ export default function Idn_m_memid5() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
 
         </div>
     );
 };
 
-멤버들을 편하게
-해주면서 열심히
-활동해 볼게요!
+
 
 
 
