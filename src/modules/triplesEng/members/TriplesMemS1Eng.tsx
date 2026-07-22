@@ -90,7 +90,7 @@ export default function TriplesMemS1Eng() {
                         <td><p>B형</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
+                        <td><p>nickname</p></td>
                         <td><p>햄햄</p></td>
                     </tr>
                     <tr>
