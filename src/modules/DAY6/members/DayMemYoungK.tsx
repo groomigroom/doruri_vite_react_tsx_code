@@ -2,6 +2,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './DayMemYoungK.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Day_mm_youngk_img from '../main/img/day6_m_mem_Youngk.jpg';
 
@@ -59,7 +60,7 @@ export default function DayMemYoungK() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 
