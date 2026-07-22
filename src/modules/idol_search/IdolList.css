@@ -2,7 +2,7 @@
 
     .idolList_full {
         width: 100vw;
-        height: 100vh;
+        height: 200vh;
         position: relative;
     }
 
@@ -161,7 +161,7 @@
 
     .idolList_12345 {
         position: absolute;
-        bottom: 40px;
+        bottom: 400px;
     }
 
     .idolList_trainf_mobile {
