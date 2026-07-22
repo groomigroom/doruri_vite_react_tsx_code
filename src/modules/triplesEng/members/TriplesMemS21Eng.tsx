@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../triples/members/TriplesMemS21.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Tri_mm_s21_img from '../../triples/main/img/tri_m_memS21.jpg';
 
@@ -65,6 +66,7 @@ export default function TriplesMemS21Eng() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPartEng />
         </div>
     );
 };
