@@ -225,8 +225,7 @@ export default function IdolList() {
                         <section className='idolList_m_mem_tr'>
                             <Link to="/ALLDAY_PROJECTMain" className="idolList_link_a idolList_link_ten">
                                 <img src={IdL_All} alt="ALLDAY PROJECT" />
-                                <h4>ALLDAY<br />
-                                    PROJECT</h4>
+                                <h4>A.D.P</h4>
                             </Link>
 
                             <Link to="/DAY6Main" className="idolList_link_a idolList_link_str">
@@ -247,7 +246,7 @@ export default function IdolList() {
                 <Link to='/'>5</Link>
                 Copyright ⓒ ㈜모드하우스
             </section>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 도루리' />
         </div >
     );
 };
