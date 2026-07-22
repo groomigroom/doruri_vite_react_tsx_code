@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './BtoMemLimHyunsik.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 // import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
 
@@ -67,11 +68,13 @@ export default function BtoMemLimHyunsik() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
 
         </div>
     );
 };
+
+
 
 비투비 임현식
 
