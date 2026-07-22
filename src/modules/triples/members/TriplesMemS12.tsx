@@ -67,8 +67,7 @@ export default function TriplesMemS12() {
                     </tr>
                 </tbody>
             </table>
-
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 
