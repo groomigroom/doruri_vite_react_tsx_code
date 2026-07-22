@@ -1,10 +1,13 @@
 import './FooterPart.css';
 
-export default function FooterPart() {
+interface FooterPartProps {
+    FooterPartText: string;
+};
+
+export default function FooterPart({ FooterPartText }: FooterPartProps) {
     return (
         <div className="footerpart_full">
-            <p>부분별 회사용</p>
-            <p>c 도두리</p>
+            <p>{FooterPartText}</p>
         </div>
     );
 };
