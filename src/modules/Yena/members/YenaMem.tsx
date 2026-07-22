@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './YenaMem.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 // import Yen_mm_yena_img from '../main/img/10cm_m_mem_Gwonjungyeol.jpg';
 
@@ -64,10 +65,8 @@ export default function YenaMem() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart />
         </div>
     );
 
 };
-
-
-
