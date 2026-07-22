@@ -2,6 +2,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './BolMemAnjiyoung.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Bol_mm_Anjiyoung_img from '../main/img/bol4_m_mem_Anjiyoung.jpg';
 
@@ -45,6 +46,7 @@ export default function BolMemAnjiyoung() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart />
         </div>
     );
 
