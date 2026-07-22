@@ -2,6 +2,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './DayMemDowoon.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Day_mm_dowoon_img from '../main/img/day6_m_mem_Dowoon.jpg';
 
@@ -58,7 +59,7 @@ export default function DayMemDowoon() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 
