@@ -86,7 +86,7 @@ export default function TriplesMemS1Eng() {
                         <td><p>161cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
+                        <td><p>blood type</p></td>
                         <td><p>B형</p></td>
                     </tr>
                     <tr>
