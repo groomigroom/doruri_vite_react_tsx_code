@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './AllMemBailey.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import All_mm_Bailey_img from '../main/img/allday_m_mem_Bailey.jpg';
 
@@ -55,7 +56,7 @@ export default function AllMemBailey() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
