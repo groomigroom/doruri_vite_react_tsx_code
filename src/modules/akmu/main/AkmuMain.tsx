@@ -74,4 +74,4 @@ export default function AkmuMain() {
 };
 
 
-영감의 센터
+영감의 샘터
