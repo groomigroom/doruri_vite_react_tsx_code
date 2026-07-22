@@ -5,6 +5,7 @@ import '../idol_search/IdolList2.css';
 
 
 import MenuEng from '../HomeEng/MenuEng';
+import FooterPartEng from '../FooterPartEng';
 
 export default function IdolList2Eng() {
     return (
@@ -140,6 +141,7 @@ export default function IdolList2Eng() {
                 <Link to='/'>4</Link>
                 <Link to='/'>5</Link>
             </section>
+            <FooterPartEng />
         </div>
     );
 };
