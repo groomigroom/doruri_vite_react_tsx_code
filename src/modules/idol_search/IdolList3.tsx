@@ -138,7 +138,7 @@ export default function IdolList3() {
                 <Link to='/'>4</Link>
                 <Link to='/'>5</Link>
             </section>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 도루리' />
         </div>
     );
 };
