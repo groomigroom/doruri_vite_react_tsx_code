@@ -72,3 +72,6 @@ export default function AkmuMain() {
         </div>
     );
 };
+
+
+영감의 센터
