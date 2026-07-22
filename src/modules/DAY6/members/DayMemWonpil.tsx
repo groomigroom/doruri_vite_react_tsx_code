@@ -2,6 +2,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './DayMemWonpil.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import Day_mm_wonpil_img from '../main/img/day6_m_mem_Wonpil.jpg';
 
@@ -59,7 +60,7 @@ export default function DayMemWonpil() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 
