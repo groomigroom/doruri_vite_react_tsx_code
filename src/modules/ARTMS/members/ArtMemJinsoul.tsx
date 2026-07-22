@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './ArtMemJinsoul.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 // import Art_mm_Heejin_img from '../main/img/tri_m_memS1.jpg';
 
@@ -66,53 +67,11 @@ export default function ArtMemJinsoul() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
 
         </div>
     );
 };
 
-artms 진솔
 
-<tr className='tri_mm_s1_intropa_tb_tr1'>
-<td><p>출생</p></td>
-<td><p>1997년 6월 13일</p></td>
-</tr>
-<tr>
-<td><p>키</p></td>
-<td><p>165cm</p></td>
-</tr>
-<tr>
-<td><p>혈액형</p></td>
-<td><p>B형</p></td>
-</tr>
-<tr>
-<td><p>상징</p></td>
-<td><p>블루베타</p></td>
-</tr>
-<tr>
-<td><p>별명</p></td>
-<td><p>진도리</p></td>
-</tr>
-<tr>
-<td><p>MBTI</p></td>
-<td><p>ISFJ</p></td>
-</tr>
-<tr>
-<td><p>소속 유닛</p></td>
-<td><p>ODD EYE CIRCLE</p></td>
-</tr>
-<tr className='tri_mm_s1_intropa_tb_tr9'>
-<td><p>성격</p></td>
-<td><p>활발함</p></td>
-</tr>
-
-1 출생v
-2 키
-3 혈액형f
-4 상징ㅎ
-5 별명ㅎ
-6 MBTI
-7 소속 유닛
-8 성격 희진 자존감 높음 하슬 계획적임 김립 부지런함 진솔 활발함 최리 발랄함
 
