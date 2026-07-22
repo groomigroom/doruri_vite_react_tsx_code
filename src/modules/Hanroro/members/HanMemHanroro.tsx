@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './HanMemHanroro.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 //import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
 
@@ -68,7 +69,7 @@ export default function HanMemHanroro() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
 
         </div>
     );
