@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css'
 import './BtoMemLeeChangsub.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 // import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
 
@@ -67,43 +68,9 @@ export default function BtoMemLeeChangsub() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
 
         </div>
     );
 };
 
-비투비 이창섭
-
-<tr className='tri_mm_s1_intropa_tb_tr1'>
-<td><p>출생</p></td>
-<td><p>1991년 2월 26일</p></td>
-</tr>
-<tr>
-<td><p>키</p></td>
-<td><p>173.5cm</p></td>
-</tr>
-<tr>
-<td><p>혈액형</p></td>
-<td><p>O형</p></td>
-</tr>
-<tr>
-<td><p>소속 유닛</p></td>
-<td><p>비투비-블루, 비투비 포유</p></td>
-</tr>
-<tr>
-<td><p>포지션</p></td>
-<td><p>리드보컬</p></td>
-</tr>
-<tr>
-<td><p>MBTI</p></td>
-<td><p>INFJ</p></td>
-</tr>
-<tr>
-<td><p>별명</p></td>
-<td><p>흥섭</p></td>
-</tr>
-<tr className='tri_mm_s1_intropa_tb_tr9'>
-<td><p>성격</p></td>
-<td><p>진중함</p></td>
-</tr>
