@@ -161,10 +161,7 @@ export default function IdolList() {
                             </Link>
                             <Link to="/TxtMain" className="idolList_link_a idolList_link_txt">
                                 <img src={IdL_Txt} alt="투바투" />
-                                <h4>투모로우<br />
-                                    바이<br />
-                                    투게더
-                                </h4>
+                                <h4>투.바.투</h4>
                             </Link>
                         </section>
                     </section>
