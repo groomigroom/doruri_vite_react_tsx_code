@@ -8,6 +8,7 @@ import Tri_m_img from '../../triples/main/img/tri_m_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Tri_m_memS1 from '../../triples/main/img/tri_m_memS1.jpg';
 import Tri_m_memS2 from '../../triples/main/img/tri_m_memS2.jpg';
@@ -308,6 +309,7 @@ export default function TriplesMainEng() {
                 <h3>트리플에스 유튜브</h3>
             </a>
             <Link to="/TriplesEvent" className='tri_m_e'>이벤트</Link>
+            <FooterPartEng />
         </div >
     );
 };
