@@ -78,7 +78,7 @@ export default function TriplesMemS1Eng() {
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
+                        <td><p>birth</p></td>
                         <td><p>2003년 8월 6일</p></td>
                     </tr>
                     <tr>
