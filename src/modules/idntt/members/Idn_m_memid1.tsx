@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Idn_m_memid1.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 // import Idn_mm_memid1_img from '../main/img/tri_m_memS1.jpg';
 
@@ -59,13 +60,10 @@ export default function Idn_m_memid1() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
 
         </div>
     );
 };
 
-좋은 친화력으로
-멤버들과
-잘 지내 볼게요!
 
