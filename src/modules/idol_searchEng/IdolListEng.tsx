@@ -17,6 +17,7 @@ import IdL_Day from '../DAY6/main/img/day6_m_day6.jpg';
 
 
 import MenuEng from '../HomeEng/MenuEng';
+import FooterPartEng from '../FooterPartEng';
 
 export default function IdolListEng() {
     return (
@@ -157,7 +158,7 @@ export default function IdolListEng() {
                 <Link to='/'>5</Link>
                 Copyright ⓒ Modhaus
             </section>
-
+            <FooterPartEng />
         </div>
     );
 };
