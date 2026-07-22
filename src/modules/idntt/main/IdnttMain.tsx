@@ -476,4 +476,6 @@ export default function IdnttMain() {
 };
 
 
-
+idntt??와 함께
+Grow up
+grow up!
