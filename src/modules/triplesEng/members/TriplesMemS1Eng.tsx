@@ -106,7 +106,7 @@ export default function TriplesMemS1Eng() {
                         <td><p>아이스크림</p></td>
                     </tr>
                     <tr>
-                        <td><p>소속 유닛</p></td>
+                        <td><p>units</p></td>
                         <td>
                             <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
                                 LOVElution, neptune</p></td>
