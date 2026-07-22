@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Idn_m_memid21.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 // import Idn_mm_memid21_img from '../main/img/tri_m_memS1.jpg';
 
@@ -59,7 +60,7 @@ export default function Idn_m_memid21() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
 
         </div>
     );
