@@ -65,7 +65,7 @@ export default function TxtMemSubin() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 빅히트 뮤직' />
         </div>
     );
 }
