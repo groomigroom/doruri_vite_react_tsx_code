@@ -102,7 +102,7 @@ export default function TriplesMemS1Eng() {
                         <td><p>셀카찍기</p></td>
                     </tr>
                     <tr>
-                        <td><p>좋아하는 음식</p></td>
+                        <td><p>favorite food</p></td>
                         <td><p>아이스크림</p></td>
                     </tr>
                     <tr>
