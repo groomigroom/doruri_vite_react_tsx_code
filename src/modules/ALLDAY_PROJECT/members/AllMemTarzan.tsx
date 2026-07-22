@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import './AllMemTarzan.css';
 
 import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
 
 import All_mm_Tarzan_img from '../main/img/allday_m_mem_Tarzan.jpg';
 
@@ -55,7 +56,7 @@ export default function AllMemTarzan() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPart />
         </div>
     );
 }
