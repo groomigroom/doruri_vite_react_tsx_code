@@ -50,7 +50,7 @@ export default function Bol4Main() {
                     </section>
                 </section>
             </section>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 켄버스' />
         </div>
     );
 };
