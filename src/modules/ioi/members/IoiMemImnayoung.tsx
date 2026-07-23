@@ -57,3 +57,5 @@ export default function IoiMemImnayoung() {
         </div>
     );
 };
+
+무소속
