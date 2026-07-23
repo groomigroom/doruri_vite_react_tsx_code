@@ -65,8 +65,7 @@ export default function AesMemNingning() {
                     </tr>
                 </tbody>
             </table>
-
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ SM엔터테인먼트' />
         </div>
     );
 
