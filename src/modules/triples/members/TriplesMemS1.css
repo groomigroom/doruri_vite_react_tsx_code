@@ -124,3 +124,9 @@
     border-bottom-right-radius: 15px;
     border-bottom: 5px solid #333;
 }
+
+.tri_mm_s1_before_links {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
