@@ -65,6 +65,7 @@ export default function TxtMemYeonjun() {
                     </tr>
                 </tbody>
             </table>
+            <Link to='/TxtMemYeonjun_7_22_end' className='tri_mm_s1_before_links'>이전 페이지 보기</Link>
             <FooterPart FooterPartText='ⓒ 빅히트 뮤직' />
         </div>
     );
