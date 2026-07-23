@@ -65,7 +65,7 @@ export default function IllMemMoka() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 빌리프랩' />
         </div>
     );
 };
