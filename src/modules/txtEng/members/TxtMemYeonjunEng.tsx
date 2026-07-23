@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../txt/members/TxtMemYeonjun.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Txt_mm_Yeonjun_img from '../../txt/members/yeonjun/img/txt_m_mem_yeonjun_7_23.jpg';
 
@@ -66,6 +67,7 @@ export default function TxtMemYeonjunEng() {
                 </tbody>
             </table>
             <Link to='/TxtMemYeonjun_7_22_endEng' className='tri_mm_s1_before_links'>see before page?</Link>
+            <FooterPartEng />
         </div>
     );
 }
