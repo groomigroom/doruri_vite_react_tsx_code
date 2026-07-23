@@ -53,11 +53,10 @@ export default function TenCMMain() {
                     </section>
                 </section>
             </section>
-
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 씨에이엠위더스' />
         </div>
     );
 };
 
-씨에이엠위더스
+
 
