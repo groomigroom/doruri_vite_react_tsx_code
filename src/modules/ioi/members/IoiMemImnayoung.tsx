@@ -52,10 +52,7 @@ export default function IoiMemImnayoung() {
                     </tr>
                 </tbody>
             </table>
-
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 무소속' />
         </div>
     );
 };
-
-무소속
