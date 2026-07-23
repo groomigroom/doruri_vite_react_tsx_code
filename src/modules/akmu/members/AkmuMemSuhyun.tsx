@@ -53,7 +53,7 @@ export default function AkmuMemSuhyun() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 영감의 샘터' />
         </div>
     );
 };
