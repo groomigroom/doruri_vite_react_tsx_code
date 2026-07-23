@@ -121,9 +121,8 @@ export default function ResMain() {
                 </section>
 
             </section >
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 더뮤즈엔터테인먼트' />
         </div >
     );
 };
 
-더뮤즈엔터테인먼트
