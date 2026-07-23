@@ -52,9 +52,7 @@ export default function IoiMemKimsejung() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ BH엔터테인먼트' />
         </div>
     );
 };
-
-BH엔터테인먼트
