@@ -56,3 +56,5 @@ export default function IoiMemGangmina() {
         </div>
     );
 };
+
+스토리제이컴퍼니
