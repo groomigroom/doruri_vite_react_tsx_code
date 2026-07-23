@@ -52,9 +52,7 @@ export default function IoiMemJugyulgyoung() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 주결경 공작실' />
         </div>
     );
 };
-
-주결경 공작실
