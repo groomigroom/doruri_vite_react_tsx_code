@@ -52,9 +52,7 @@ export default function IoiMemGangmina() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 스토리제이컴퍼니' />
         </div>
     );
 };
-
-스토리제이컴퍼니
