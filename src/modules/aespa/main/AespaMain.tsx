@@ -106,10 +106,7 @@ export default function AespaMain() {
                 </section>
 
             </section>
-
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ SM엔터테인먼트' />
         </div>
     );
 };
-
-SM엔터테인먼트
