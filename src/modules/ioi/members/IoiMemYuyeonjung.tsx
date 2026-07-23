@@ -52,9 +52,7 @@ export default function IoiMemYuyeonjung() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 스타쉽엔터테인먼트' />
         </div>
     );
 };
-
-스타쉽엔터테인먼트
