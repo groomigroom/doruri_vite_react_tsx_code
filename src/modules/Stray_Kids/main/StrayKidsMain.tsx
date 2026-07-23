@@ -172,9 +172,7 @@ export default function StrayKidsMain() {
                 </section>
 
             </section>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
         </div>
     );
 };
-
-JYP엔터테인먼트
