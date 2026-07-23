@@ -65,7 +65,7 @@ export default function AesMemKarina() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ SM엔터테인먼트' />
         </div>
     );
 
