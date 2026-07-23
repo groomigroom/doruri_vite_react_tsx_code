@@ -68,10 +68,7 @@ export default function AkmuMain() {
             </section>
 
             <Link to='/AkmuEvent'>이벤트로 가기</Link>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 영감의 샘터' />
         </div>
     );
 };
-
-
-영감의 샘터
