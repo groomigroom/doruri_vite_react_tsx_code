@@ -52,9 +52,7 @@ export default function IoiMemChoiyujung() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 판타지오' />
         </div>
     );
 };
-
-판타지오
