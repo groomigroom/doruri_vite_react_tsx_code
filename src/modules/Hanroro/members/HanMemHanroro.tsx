@@ -74,3 +74,8 @@ export default function HanMemHanroro() {
         </div>
     );
 };
+
+
+여러분에게
+좋은 영향을 줄 수
+있도록 노력해 볼게요!
