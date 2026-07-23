@@ -60,7 +60,7 @@ export default function DayMemYoungK() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
         </div>
     );
 
