@@ -121,9 +121,8 @@ export default function IllitMain() {
                 </section>
 
             </section>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 빌리프랩' />
         </div>
     );
 };
 
-빌리프랩
