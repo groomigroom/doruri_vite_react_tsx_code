@@ -52,9 +52,7 @@ export default function IoiMemJeonsomi() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ THEBLACKLABEL' />
         </div>
     );
 };
-
-THEBLACKLABEL
