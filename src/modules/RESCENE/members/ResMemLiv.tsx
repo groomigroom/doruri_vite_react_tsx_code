@@ -65,7 +65,7 @@ export default function ResMemLiv() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 더뮤즈엔터테인먼트' />
         </div>
     );
 
