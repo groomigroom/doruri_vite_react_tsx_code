@@ -71,3 +71,42 @@ export default function TxtMemBeomgyuEng() {
     );
 }
 
+
+투바투 범규
+
+<td><p>birth</p></td>
+<td><p>March 13, 2001</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>179cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>AB</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Bamgyu</p></td>
+</tr>
+<tr>
+<td><p>hobby</p></td>
+<td><p>Guitar</p></td>
+</tr>
+<tr>
+<td><p>speciality</p></td>
+<td><p>Talking</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td><p>x</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td>
+<p>INFP</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>Bright</p></td>
+</tr>
