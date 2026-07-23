@@ -71,3 +71,42 @@ export default function TxtMemHueningkaiEng() {
     );
 }
 
+휴닝카이원본
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>August 14, 2002</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>183cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>A</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Hyuningee</p></td>
+</tr>
+<tr>
+<td><p>hobby</p></td>
+<td><p>playing musical instruments</p></td>
+</tr>
+<tr>
+<td><p>speciality</p></td>
+<td><p>space out</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td><p>x</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td>
+<p>ISTP</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>thoughtfulness</p></td>
+</tr>
