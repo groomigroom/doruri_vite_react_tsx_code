@@ -56,7 +56,7 @@ export default function AllMemWoochan() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ THEBLACKLABEL' />
         </div>
     );
 }
