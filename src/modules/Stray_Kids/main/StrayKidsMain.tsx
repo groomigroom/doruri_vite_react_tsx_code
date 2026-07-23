@@ -176,3 +176,5 @@ export default function StrayKidsMain() {
         </div>
     );
 };
+
+JYP엔터테인먼트
