@@ -5,7 +5,7 @@ import '../../txt/members/TxtMemYeonjun.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-import Txt_mm_Yeonjun_img from '../../txt/main/img/txt_m_mem_yeonjun.jpg';
+import Txt_mm_Yeonjun_img from '../../txt/members/yeonjun/img/txt_m_mem_yeonjun_7_23.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -19,9 +19,9 @@ export default function TxtMemYeonjunEng() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="txt deco" />Yeonjun<img src={MainH2Deco} alt="txt deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                I'll work hard every day<br />
-                I'm going to get ready<br />
-                I'll be back to you!</p>
+                I hope you have<br />
+                a cool day<br />
+                like ice cream!</p>
             <img src={Txt_mm_Yeonjun_img} alt="Yeonjun img" className='tri_mm_s1_img txt_mm_yeonjun_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
@@ -65,7 +65,7 @@ export default function TxtMemYeonjunEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <Link to='/TxtMemYeonjun_7_22_endEng' className='tri_mm_s1_before_links'>see before page?</Link>
         </div>
     );
 }
