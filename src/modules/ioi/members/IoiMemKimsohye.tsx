@@ -52,9 +52,7 @@ export default function IoiMemKimsohye() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 눈컴퍼니' />
         </div>
     );
 };
-
-눈컴퍼니
