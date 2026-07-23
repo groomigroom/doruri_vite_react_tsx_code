@@ -115,3 +115,48 @@ export default function TriplesMemS1Eng() {
                         <td><p>character</p></td>
                         <td><p>좋음</p></td>
                     </tr>
+
+
+
+
+ㅡㅡㅡㅡㅡ..
+
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>August 6, 2003</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>161cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>B</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Hamham</p></td>
+</tr>
+<tr>
+<td><p>hobby</p></td>
+<td><p>Watch your favorite movie several times</p></td>
+</tr>
+<tr>
+<td><p>speciality</p></td>
+<td><p>Taking a selfie</p></td>
+</tr>
+<tr>
+<td><p>favorite food</p></td>
+<td><p>ice cream</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td>
+<p>+(KR)ystal Eyes, Acid Eyes, <br />
+LOVElution, neptune</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>good</p></td>
+</tr>
