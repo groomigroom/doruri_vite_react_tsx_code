@@ -52,9 +52,7 @@ export default function IoiMemKimchungha() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ MORE VISION' />
         </div>
     );
 };
-
-MORE VISION
