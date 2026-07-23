@@ -65,7 +65,7 @@ export default function TenMemGwonjungyeol() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 씨에이엠위더스' />
         </div>
     );
 
