@@ -56,7 +56,7 @@ export default function AllMemBailey() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ THEBLACKLABEL' />
         </div>
     );
 }
