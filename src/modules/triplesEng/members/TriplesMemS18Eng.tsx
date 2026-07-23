@@ -27,42 +27,43 @@ export default function TriplesMemS18Eng() {
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>January 16, 2009</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>height</p></td>
+                        <td><p>169cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
+                        <td><p>blood type</p></td>
+                        <td><p>B</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
+                        <td><p>nickname</p></td>
+                        <td><p>Bini</p></td>
                     </tr>
                     <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
+                        <td><p>hobby</p></td>
+                        <td><p>Lisening music</p></td>
                     </tr>
                     <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
+                        <td><p>speciality</p></td>
+                        <td><p>Taking pictures</p></td>
                     </tr>
                     <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
+                        <td><p>favorite food</p></td>
+                        <td><p>bread</p></td>
                     </tr>
                     <tr>
-                        <td><p>소속 유닛</p></td>
+                        <td><p>units</p></td>
                         <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                            <p>
+                                NXT, zenith
+                            </p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>character</p></td>
+                        <td><p>Intellectual</p></td>
                     </tr>
                 </tbody>
             </table>
