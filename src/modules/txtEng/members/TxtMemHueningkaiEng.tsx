@@ -4,6 +4,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../txt/members/TxtMemHueningkai.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Txt_mm_Hueningkai_img from '../../txt/main/img/txt_m_mem_hueningkai.jpg';
 
@@ -65,7 +66,7 @@ export default function TxtMemHueningkaiEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng />
         </div>
     );
 }
