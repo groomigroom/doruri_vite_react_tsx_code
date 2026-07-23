@@ -56,7 +56,7 @@ export default function TwsMemHanjin() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 플레디스 엔터테인먼트' />
         </div>
     );
 };
