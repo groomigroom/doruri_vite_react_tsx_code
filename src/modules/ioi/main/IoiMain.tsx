@@ -226,10 +226,7 @@ export default function IoiMain() {
                 </section>
 
             </section>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 스윙엔터테인먼트' />
         </div>
     );
 };
-
-
-스윙엔터테인먼트
