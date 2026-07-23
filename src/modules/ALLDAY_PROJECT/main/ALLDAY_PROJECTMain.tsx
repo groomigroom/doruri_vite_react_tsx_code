@@ -123,9 +123,7 @@ export default function ALLDAY_PROJECTMain() {
 
 
             <Link to="/TxtEvent">이벤트</Link>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ THEBLACKLABEL' />
         </div>
     );
 };
-
-전소미꺼 복붙
