@@ -21,8 +21,8 @@ export default function Bol4Main() {
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="볼빨간사춘기 꾸미기" />볼빨간사춘기<img src={MainH2Deco} alt="볼빨간사춘기 꾸미기" /></h2>
             <p className='tri_m_intropp'>
                 &apos;볼빨간사춘기&apos;와 함께<br />
-                작고 단단한 마음으로<br />
-                어딘가를 찾아 가봐요!</p>
+                더운 여름에<br />
+                힘내 보아요!</p>
             <img src={Bol_m_img} className='tri_m_img' alt='볼빨간사춘기' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full bol_m_mem_tr_full'>
