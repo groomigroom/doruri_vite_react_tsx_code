@@ -272,6 +272,7 @@ import Bol4Main_7_23 from './bol4/main/BeforeMain/Bol4Main_7_23';
 import Bol4MainEng from './bol4Eng/main/Bol4MainEng';
 
 import BolMemAnjiyoung from './bol4/members/BolMemAnjiyoung';
+import BolMemAnjiyoung_7_23End from './bol4/members/Anjiyoung/BolMemAnjiyoung_7_23End';
 import BolMemAnjiyoungEng from './bol4Eng/members/BolMemAnjiyoungEng';
 
 //EpikHighMain
@@ -676,6 +677,7 @@ export default function RoutesSetup() {
             <Route path='/Bol4MainEng' element={<Bol4MainEng />}></Route>
 
             <Route path='/BolMemAnjiyoung' element={<BolMemAnjiyoung />}></Route>
+            <Route path='/BolMemAnjiyoung_7_23End' element={<BolMemAnjiyoung_7_23End />}></Route>
             <Route path='/BolMemAnjiyoungEng' element={<BolMemAnjiyoungEng />}></Route>
 
             {/* EpikHighMain */}
