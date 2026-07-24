@@ -72,41 +72,41 @@ export default function ResMemMinamiEng() {
 
 
 <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>2006년 11월 29일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>November 11, 2006</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
+                        <td><p>height</p></td>
                         <td><p>162cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>O형</p></td>
+                        <td><p>blood type</p></td>
+                        <td><p>O</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>미남이</p></td>
+                        <td><p>nickname</p></td>
+                        <td><p>minamee</p></td>
                     </tr>
                     <tr>
                         <td><p>remini</p></td>
                         <td><p>ming</p></td>
                     </tr>
                     <tr>
-                        <td><p>상징 동물</p></td>
-                        <td><p>바다표범</p></td>
+                        <td><p>symbolic animal</p></td>
+                        <td><p>seal</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
                         <td><p>ENFP</p></td>
                     </tr>
                     <tr>
-                        <td><p>특기</p></td>
+                        <td><p>speciality</p></td>
                         <td>
                             <p>??</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>정이 많음</p></td>
+                        <td><p>character</p></td>
+                        <td><p>affectionate</p></td>
                     </tr>
 
 
