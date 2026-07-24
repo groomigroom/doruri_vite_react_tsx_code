@@ -345,6 +345,7 @@ import Idn_m_memid21Eng from './idnttEng/members/Idn_m_memid21Eng';
 //ARTMSMain
 
 import ARTMSMain from './ARTMS/main/ARTMSMain';
+import ARTMSMain_7_23End from './ARTMS/main/beforeMain/ARTMSMain_7_23End';
 import ARTMSMainEng from './ARTMSEng/main/ARTMSMainEng';
 
 import ArtMemHeejin from './ARTMS/members/ArtMemHeejin';
@@ -751,6 +752,7 @@ export default function RoutesSetup() {
             {/* ARTMSMain */}
 
             <Route path='/ARTMSMain' element={<ARTMSMain />}></Route>
+            <Route path='/ARTMSMain_7_23End' element={<ARTMSMain_7_23End />}></Route>
             <Route path='/ARTMSMainEng' element={<ARTMSMainEng />}></Route>
 
             <Route path='/ArtMemHeejin' element={<ArtMemHeejin />}></Route>
