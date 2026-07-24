@@ -72,5 +72,8 @@ export default function TxtMemYeonjun_7_22_end() {
     );
 }
 
+최신 앨범 링크에다가
+앨범 소개 가져다가 넣고,
+
 
 
