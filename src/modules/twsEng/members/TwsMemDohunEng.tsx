@@ -71,19 +71,19 @@ export default function TwsMemDohunEng() {
 };
 
 <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
+                        <td><p>birth</p></td>
                         <td><p>2005년 1월 30일</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
+                        <td><p>height</p></td>
                         <td><p>181cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
+                        <td><p>blood type</p></td>
                         <td><p>B형</p></td>
                     </tr>
                     <tr>
-                        <td><p>포지션</p></td>
+                        <td><p>position</p></td>
                         <td><p>올라운더</p></td>
                     </tr>
                     <tr>
@@ -91,7 +91,7 @@ export default function TwsMemDohunEng() {
                         <td><p>ISTP</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
+                        <td><p>nickname</p></td>
                         <td><p>후니</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
