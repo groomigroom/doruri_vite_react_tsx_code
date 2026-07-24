@@ -70,3 +70,41 @@ export default function AesMemJijellEng() {
 
 };
 
+
+ <tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>출생</p></td>
+                        <td><p>2000년 10월 30일</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>키</p></td>
+                        <td><p>164cm</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>혈액형</p></td>
+                        <td><p>O형</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>포지션</p></td>
+                        <td><p>보컬, 래퍼</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>전투 스킬</p></td>
+                        <td><p>Xenoglossy</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>캐릭터</p></td>
+                        <td><p>젤블냥이</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>INFJ</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>별명</p></td>
+                        <td>
+                            <p>지구젤리</p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>성격</p></td>
+                        <td><p>활발함</p></td>
+                    </tr>
