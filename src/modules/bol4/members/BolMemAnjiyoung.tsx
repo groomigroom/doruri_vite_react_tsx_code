@@ -4,7 +4,7 @@ import './BolMemAnjiyoung.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-import Bol_mm_Anjiyoung_img from '../main/img/bol4_m_mem_Anjiyoung.jpg';
+import Bol_mm_Anjiyoung_img from '../main/BeforeMain/img/bol4_m_mem_Anjiyoung_7_24.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
