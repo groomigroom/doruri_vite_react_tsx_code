@@ -72,20 +72,20 @@ export default function ResMemLivEng() {
 
 
  <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>2006년 10월 11일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>October 11, 2006</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
+                        <td><p>height</p></td>
                         <td><p>165cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
+                        <td><p>blood type</p></td>
                         <td><p>A형</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>리트</p></td>
+                        <td><p>nickname</p></td>
+                        <td><p>Lit</p></td>
                     </tr>
                     <tr>
                         <td><p>remini</p></td>
