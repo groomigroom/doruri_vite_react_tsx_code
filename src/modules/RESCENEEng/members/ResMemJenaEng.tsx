@@ -90,7 +90,7 @@ export default function ResMemJenaEng() {
                     </tr>
                     <tr>
                         <td><p>remini</p></td>
-                        <td><p>쩨로밍</p></td>
+                        <td><p>zzeroming</p></td>
                     </tr>
                     <tr>
                         <td><p>symbolic animal</p></td>
