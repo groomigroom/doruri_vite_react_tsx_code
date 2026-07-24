@@ -96,13 +96,13 @@ export default function StrayMemBangchanEng() {
                         <td><p>울프찬</p></td>
                     </tr>
                     <tr>
-                        <td><p>상징 동물</p></td>
+                        <td><p>symbolic animal</p></td>
                         <td><p>늑대</p></td>
                     </tr>
                     <tr>
                         <td><p>position</p></td>
                         <td>
-                            <p>리더</p></td>
+                            <p>leader</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>character</p></td>
