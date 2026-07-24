@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
 
-import '../../triples/main/TriplesMain.css'
-import '../../10CM/main/TenCMMain.css';
-import './Bol4Main.css'
+import '../../../triples/main/TriplesMain.css';
+import '../Bol4Main.css';
 
 import Menu from '../../../Menu';
 import FooterPart from '../../../FooterPart';
