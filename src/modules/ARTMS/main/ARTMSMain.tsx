@@ -121,7 +121,7 @@ export default function ARTMSMain() {
 
             </section>
 
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
