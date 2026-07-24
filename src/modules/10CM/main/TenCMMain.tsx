@@ -23,9 +23,9 @@ export default function TenCMMain() {
             <img src={Ten_m_logo} alt="10CM 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="10CM 꾸미기" />10CM<img src={MainH2Deco} alt="10CM 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                일말의 가능성이 없더라도<br />
                 &apos;10CM&apos;와 함께<br />
-                오늘도 힘내 보아요!
+                불안한 마음이 있더라도<br />
+                힘내 보아요!
             </p>
             <img src={Ten_m_img} className='tri_m_img ten_m_img' alt='10CM' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
