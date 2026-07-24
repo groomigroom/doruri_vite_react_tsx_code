@@ -72,8 +72,8 @@ export default function StrayMemBangchanEng() {
 
 
 <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>1997년 10월 3일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>October 3, 1997</p></td>
                     </tr>
                     <tr>
                         <td><p>혈액형</p></td>
