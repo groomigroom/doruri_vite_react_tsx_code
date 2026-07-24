@@ -70,19 +70,19 @@ export default function AllMemAnnieEng() {
 }
 
  <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
+                        <td><p>birth</p></td>
                         <td><p>2002년 1월 23일</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
+                        <td><p>height</p></td>
                         <td><p>168cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
+                        <td><p>blood type</p></td>
                         <td><p>O형</p></td>
                     </tr>
                     <tr>
-                        <td><p>포지션</p></td>
+                        <td><p>position</p></td>
                         <td><p>래퍼</p></td>
                     </tr>
                     <tr>
@@ -90,10 +90,10 @@ export default function AllMemAnnieEng() {
                         <td><p>ESTJ</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
+                        <td><p>nickname</p></td>
                         <td><p>애니언니</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
+                        <td><p>character</p></td>
                         <td><p>성실함</p></td>
                     </tr>
