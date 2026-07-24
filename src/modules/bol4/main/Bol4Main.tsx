@@ -8,7 +8,7 @@ import FooterPart from '../../FooterPart';
 
 import Bol_m_logo from './img/Bol_m_logo.png';
 import MainH2Deco from '../../img/main_h2_deco.png';
-import Bol_m_img from './img/bol4_m_mem_Anjiyoung.jpg';
+import Bol_m_img from './BeforeMain/img/bol4_m_mem_Anjiyoung_7_24.jpg';
 
 //191919
 //ffffff
