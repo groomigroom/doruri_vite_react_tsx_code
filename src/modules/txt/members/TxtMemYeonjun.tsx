@@ -65,6 +65,8 @@ export default function TxtMemYeonjun() {
                     </tr>
                 </tbody>
             </table>
+            <h2>최신 앨범</h2>
+            <p>NO LABELS: PART 02</p>
             <Link to='/TxtMemYeonjun_7_22_end' className='tri_mm_s1_before_links'>이전 페이지 보기</Link>
             <FooterPart FooterPartText='ⓒ 빅히트 뮤직' />
         </div>
