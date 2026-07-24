@@ -35,8 +35,8 @@ export default function ARTMSMain_7_23End() {
             </p>
             <img src={Art_m_img} className='tri_m_img' alt="ARTMS" />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full'>
-                <section className='res_m_mem_tr3'>
+            <section className='tri_m_mem_tr_full art_m_mem_tr_full'>
+                <section className='art_m_mem_tr3'>
                     <Link to='/ArtMemHeejin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Art_m_MemHeejin_img} alt="희진 이미지" />
@@ -63,7 +63,7 @@ export default function ARTMSMain_7_23End() {
                     </Link>
                 </section>
 
-                <section className='res_m_mem_tr2'>
+                <section className='art_m_mem_tr2'>
                     <Link to='/ArtMemJinsoul' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Art_m_MemJinsoul_img} alt="진솔 이미지" />
