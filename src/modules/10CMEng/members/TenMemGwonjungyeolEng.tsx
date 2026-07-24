@@ -73,27 +73,27 @@ export default function TenMemGwonjungyeolEng() {
 
 
  <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
+                        <td><p>birth</p></td>
                         <td><p>1983년 3월 1일</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
+                        <td><p>height</p></td>
                         <td><p>172cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
+                        <td><p>blood type</p></td>
                         <td><p>O형</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
+                        <td><p>nickname</p></td>
                         <td><p>요정열</p></td>
                     </tr>
                     <tr>
-                        <td><p>포지션 1</p></td>
+                        <td><p>position 1</p></td>
                         <td><p>보컬</p></td>
                     </tr>
                     <tr>
-                        <td><p>포지션 2</p></td>
+                        <td><p>position 2</p></td>
                         <td><p>기타</p></td>
                     </tr>
                     <tr>
@@ -101,11 +101,11 @@ export default function TenMemGwonjungyeolEng() {
                         <td><p>ISFP-T</p></td>
                     </tr>
                     <tr>
-                        <td><p>좋아하는 음식</p></td>
+                        <td><p>favorite food</p></td>
                         <td>
                             <p>라면</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
+                        <td><p>character</p></td>
                         <td><p>??</p></td>
                     </tr>
