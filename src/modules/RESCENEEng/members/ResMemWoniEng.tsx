@@ -70,6 +70,42 @@ export default function ResMemWoniEng() {
 
 };
 
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>출생</p></td>
+                        <td><p>2004년 5월 25일</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>키</p></td>
+                        <td><p>162cm</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>혈액형</p></td>
+                        <td><p>B형</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>별명</p></td>
+                        <td><p>파이리</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>remini</p></td>
+                        <td><p>jota</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>상징 동물</p></td>
+                        <td><p>고양이</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>ESFP</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>특기</p></td>
+                        <td>
+                            <p>??</p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>성격</p></td>
+                        <td><p>의젓함</p></td>
+                    </tr>
 
 
-jota
