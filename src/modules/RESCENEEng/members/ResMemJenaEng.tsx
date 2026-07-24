@@ -74,7 +74,7 @@ export default function ResMemJenaEng() {
 
 <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>birth</p></td>
-                        <td><p>2008년 11월 27일</p></td>
+                        <td><p>November 27, 2008</p></td>
                     </tr>
                     <tr>
                         <td><p>height</p></td>
@@ -82,11 +82,11 @@ export default function ResMemJenaEng() {
                     </tr>
                     <tr>
                         <td><p>blood type</p></td>
-                        <td><p>A형</p></td>
+                        <td><p>A</p></td>
                     </tr>
                     <tr>
                         <td><p>nickname</p></td>
-                        <td><p>신라공주</p></td>
+                        <td><p>Princess Shilla</p></td>
                     </tr>
                     <tr>
                         <td><p>remini</p></td>
@@ -94,7 +94,7 @@ export default function ResMemJenaEng() {
                     </tr>
                     <tr>
                         <td><p>symbolic animal</p></td>
-                        <td><p>다람쥐</p></td>
+                        <td><p>squirrel</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
@@ -103,9 +103,9 @@ export default function ResMemJenaEng() {
                     <tr>
                         <td><p>speciality</p></td>
                         <td>
-                            <p>웃긴 표정 짓기</p></td>
+                            <p>make a funny face</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>character</p></td>
-                        <td><p>낯가림</p></td>
+                        <td><p>inhibition</p></td>
                     </tr>
