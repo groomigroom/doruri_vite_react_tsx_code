@@ -55,6 +55,7 @@ export default function TenCMMain() {
             </section>
             <h2>최신 앨범</h2>
             <p>The Darkest Night</p>
+            <Link to='/TenCMMain_7_23End' className='tri_mm_s1_before_links'>이전 페이지 보기</Link>
             <FooterPart FooterPartText='ⓒ 씨에이엠위더스' />
         </div>
     );
