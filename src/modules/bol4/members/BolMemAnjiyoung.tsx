@@ -46,7 +46,7 @@ export default function BolMemAnjiyoung() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 켄버스' />
         </div>
     );
 
