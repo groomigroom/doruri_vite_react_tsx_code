@@ -53,6 +53,8 @@ export default function TenCMMain() {
                     </section>
                 </section>
             </section>
+            <h2>최신 앨범</h2>
+            <p>The Darkest Night</p>
             <FooterPart FooterPartText='ⓒ 씨에이엠위더스' />
         </div>
     );
