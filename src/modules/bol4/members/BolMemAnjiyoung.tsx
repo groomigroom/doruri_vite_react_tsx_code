@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import '../../triples/members/TriplesMemS1.css';
 import './BolMemAnjiyoung.css';
 
@@ -46,6 +48,7 @@ export default function BolMemAnjiyoung() {
                     </tr>
                 </tbody>
             </table>
+            <Link to='/BolMemAnjiyoung_7_23End' className='tri_mm_s1_before_links'>이전 페이지 보기</Link>
             <FooterPart FooterPartText='ⓒ 켄버스' />
         </div>
     );
