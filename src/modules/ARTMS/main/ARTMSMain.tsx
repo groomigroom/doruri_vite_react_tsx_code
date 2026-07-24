@@ -120,7 +120,8 @@ export default function ARTMSMain() {
                 </section>
 
             </section>
-
+            <h2>최신 앨범</h2>
+            <p>Born Stunner</p>
             <Link to='/ARTMSMain_7_23End' className='tri_mm_s1_before_links'>이전 페이지 보기</Link>
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
