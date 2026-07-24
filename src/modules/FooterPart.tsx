@@ -7,7 +7,8 @@ interface FooterPartProps {
 export default function FooterPart({ FooterPartText }: FooterPartProps) {
     return (
         <div className="footerpart_full">
-            <p>{FooterPartText}</p>
+            <p className='FooterPart_company_pp'>{FooterPartText}</p>
+            60px
         </div>
     );
 };
