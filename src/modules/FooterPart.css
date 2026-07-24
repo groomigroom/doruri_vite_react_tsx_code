@@ -8,3 +8,11 @@
     left: 0px;
     background-color: #333;
 }
+
+.FooterPart_company_pp {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #e6e6e6;
+}
