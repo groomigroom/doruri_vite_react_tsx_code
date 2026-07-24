@@ -121,6 +121,7 @@ export default function ARTMSMain() {
 
             </section>
 
+            <Link to='/ARTMSMain_7_23End' className='tri_mm_s1_before_links'>이전 페이지 보기</Link>
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
