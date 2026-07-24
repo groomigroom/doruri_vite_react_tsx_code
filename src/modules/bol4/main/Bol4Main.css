@@ -1,5 +1,27 @@
-.bol_m_full {
-    width: 100vw;
-    height: 90vh;
-    position: relative;
+@media (min-width: 975px) {
+
+    .bol_m_full {
+        width: 100vw;
+        height: 1243px;
+        position: relative;
+    }
+
+    .bol_m_mem_tr_full {
+        width: 150px;
+        height: 150px;
+    }
+
+
+}
+
+@media (max-width: 975px) {
+    .bol_m_full {
+        width: 100vw;
+        height: 1102px;
+        position: relative;
+    }
+
+    .bol_m_mem_tr_full_mobile {
+        height: 184px;
+    }
 }
