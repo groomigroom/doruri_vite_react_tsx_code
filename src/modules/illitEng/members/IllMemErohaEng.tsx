@@ -85,7 +85,7 @@ export default function IllMemErohaEng() {
                         <td><p>A형</p></td>
                     </tr>
                     <tr>
-                        <td><p>캐릭터</p></td>
+                        <td><p>animal character</p></td>
                         <td><p>빼꼬</p></td>
                     </tr>
                     <tr>
@@ -93,11 +93,11 @@ export default function IllMemErohaEng() {
                         <td><p>INFJ</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
+                        <td><p>nickname</p></td>
                         <td><p>로하</p></td>
                     </tr>
                     <tr>
-                        <td><p>취미</p></td>
+                        <td><p>hobby</p></td>
                         <td><p>음악 듣기</p></td>
                     </tr>
                     <tr>
