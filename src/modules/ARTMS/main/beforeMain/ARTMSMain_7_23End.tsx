@@ -120,7 +120,8 @@ export default function ARTMSMain_7_23End() {
                 </section>
 
             </section>
-
+            <h2>최신 앨범</h2>
+            <p>Club Icarus</p>
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
