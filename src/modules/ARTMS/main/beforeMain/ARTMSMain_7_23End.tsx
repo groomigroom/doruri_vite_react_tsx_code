@@ -7,7 +7,7 @@ import Menu from '../../../Menu';
 import FooterPart from '../../../FooterPart';
 
 import Art_m_logo from '../img/ARTMS_m_logo.svg';
-import MainH2Deco from '../../img/main_h2_deco.png';
+import MainH2Deco from '../../../img/main_h2_deco.png';
 import Art_m_img from '../img/Art_m_img.jpg';
 
 import Art_m_MemHeejin_img from '../img/Art_mm_Heejin_img.jpg';
