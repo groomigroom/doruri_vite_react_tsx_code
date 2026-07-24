@@ -101,11 +101,11 @@ export default function IllMemErohaEng() {
                         <td><p>음악 듣기</p></td>
                     </tr>
                     <tr>
-                        <td><p>특기</p></td>
+                        <td><p>speciality</p></td>
                         <td>
                             <p>다도</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
+                        <td><p>character</p></td>
                         <td><p>감성적임</p></td>
                     </tr>
