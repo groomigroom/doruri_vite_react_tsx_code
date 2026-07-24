@@ -71,3 +71,40 @@ export default function ResMemLivEng() {
 };
 
 
+ <tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>출생</p></td>
+                        <td><p>2006년 10월 11일</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>키</p></td>
+                        <td><p>165cm</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>혈액형</p></td>
+                        <td><p>A형</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>별명</p></td>
+                        <td><p>리트</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>remini</p></td>
+                        <td><p>리뿌</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>상징 동물</p></td>
+                        <td><p>햄스터</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>ESFP</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>특기</p></td>
+                        <td>
+                            <p>보드게임</p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>성격</p></td>
+                        <td><p>개성있음</p></td>
+                    </tr>
