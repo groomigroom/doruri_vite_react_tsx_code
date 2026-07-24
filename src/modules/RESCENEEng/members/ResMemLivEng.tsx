@@ -89,7 +89,7 @@ export default function ResMemLivEng() {
                     </tr>
                     <tr>
                         <td><p>remini</p></td>
-                        <td><p>리뿌</p></td>
+                        <td><p>ribbu</p></td>
                     </tr>
                     <tr>
                         <td><p>상징 동물</p></td>
