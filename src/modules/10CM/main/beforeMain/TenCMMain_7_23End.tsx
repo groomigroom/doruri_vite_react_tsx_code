@@ -53,6 +53,8 @@ export default function TenCMMain_7_23End() {
                     </section>
                 </section>
             </section>
+            <h2>최신 앨범</h2>
+            <p>일말의 가능성</p>
             <FooterPart FooterPartText='ⓒ 씨에이엠위더스' />
         </div>
     );
