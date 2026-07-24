@@ -70,3 +70,42 @@ export default function IllMemErohaEng() {
     );
 };
 
+
+
+ <tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>출생</p></td>
+                        <td><p>2008년 2월 4일</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>키</p></td>
+                        <td><p>158cm</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>혈액형</p></td>
+                        <td><p>A형</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>캐릭터</p></td>
+                        <td><p>빼꼬</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>INFJ</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>별명</p></td>
+                        <td><p>로하</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>취미</p></td>
+                        <td><p>음악 듣기</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>특기</p></td>
+                        <td>
+                            <p>다도</p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>성격</p></td>
+                        <td><p>감성적임</p></td>
+                    </tr>
