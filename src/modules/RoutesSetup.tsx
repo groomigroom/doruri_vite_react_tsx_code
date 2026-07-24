@@ -216,6 +216,7 @@ import ResMemJenaEng from './RESCENEEng/members/ResMemJenaEng';
 //TenCMMain
 
 import TenCMMain from './10CM/main/TenCMMain';
+import TenCMMain_7_23End from './10CM/main/beforeMain/TenCMMain_7_23End';
 import TenCMMainEng from './10CMEng/main/TenCMMainEng';
 
 import TenMemGwonjungyeol from './10CM/members/TenMemGwonjungyeol';
@@ -621,6 +622,7 @@ export default function RoutesSetup() {
             {/* TenCMMain */}
 
             <Route path='/TenCMMain' element={<TenCMMain />}></Route>
+            <Route path='/TenCMMain_7_23End' element={<TenCMMain_7_23End />}></Route>
             <Route path='/TenCMMainEng' element={<TenCMMainEng />}></Route>
 
             <Route path='/TenMemGwonjungyeol' element={<TenMemGwonjungyeol />}></Route>
