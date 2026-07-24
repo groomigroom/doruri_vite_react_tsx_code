@@ -70,3 +70,41 @@ export default function StrayMemBangchanEng() {
     );
 }
 
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>출생</p></td>
+                        <td><p>1997년 10월 3일</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>혈액형</p></td>
+                        <td><p>O형</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>소속 유닛</p></td>
+                        <td><p>3RACHA</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>ENFJ-T</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>별명</p></td>
+                        <td><p>크리스&#40;Chris&#41;</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>SKZOO</p></td>
+                        <td><p>울프찬</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>상징 동물</p></td>
+                        <td><p>늑대</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>포지션</p></td>
+                        <td>
+                            <p>리더</p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>성격</p></td>
+                        <td><p>다정함</p></td>
+                    </tr>
