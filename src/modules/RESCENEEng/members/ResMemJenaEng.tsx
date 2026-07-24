@@ -72,3 +72,40 @@ export default function ResMemJenaEng() {
 
 
 
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>출생</p></td>
+                        <td><p>2008년 11월 27일</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>키</p></td>
+                        <td><p>162cm</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>혈액형</p></td>
+                        <td><p>A형</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>별명</p></td>
+                        <td><p>신라공주</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>remini</p></td>
+                        <td><p>쩨로밍</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>상징 동물</p></td>
+                        <td><p>다람쥐</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>INFP</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>특기</p></td>
+                        <td>
+                            <p>웃긴 표정 짓기</p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>성격</p></td>
+                        <td><p>낯가림</p></td>
+                    </tr>
