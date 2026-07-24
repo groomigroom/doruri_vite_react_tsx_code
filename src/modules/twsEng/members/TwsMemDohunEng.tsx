@@ -95,6 +95,6 @@ export default function TwsMemDohunEng() {
                         <td><p>후니</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
+                        <td><p>character</p></td>
                         <td><p>솔직함</p></td>
                     </tr>
