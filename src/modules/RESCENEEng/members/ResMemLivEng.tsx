@@ -81,30 +81,30 @@ export default function ResMemLivEng() {
                     </tr>
                     <tr>
                         <td><p>blood type</p></td>
-                        <td><p>A형</p></td>
+                        <td><p>A</p></td>
                     </tr>
                     <tr>
                         <td><p>nickname</p></td>
-                        <td><p>Lit</p></td>
+                        <td><p>Litt</p></td>
                     </tr>
                     <tr>
                         <td><p>remini</p></td>
                         <td><p>ribbu</p></td>
                     </tr>
                     <tr>
-                        <td><p>상징 동물</p></td>
-                        <td><p>햄스터</p></td>
+                        <td><p>symbolic animal</p></td>
+                        <td><p>hamster</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
                         <td><p>ESFP</p></td>
                     </tr>
                     <tr>
-                        <td><p>특기</p></td>
+                        <td><p>speciality</p></td>
                         <td>
-                            <p>보드게임</p></td>
+                            <p>board games</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>개성있음</p></td>
+                        <td><p>character</p></td>
+                        <td><p>unique</p></td>
                     </tr>
