@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/main/TriplesMain.css'
-import '../../10CM/main/TenCMMain.css';
 import './Bol4Main.css'
 
 import Menu from '../../Menu';
@@ -26,7 +25,7 @@ export default function Bol4Main() {
                 어딘가를 찾아 가봐요!</p>
             <img src={Bol_m_img} className='tri_m_img' alt='볼빨간사춘기' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full ten_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full bol_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/BolMemAnjiyoung' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
