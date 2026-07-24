@@ -49,6 +49,8 @@ export default function Bol4Main_7_23() {
                     </section>
                 </section>
             </section>
+            <h2>최신 앨범</h2>
+            <p>Find You</p>
             <FooterPart FooterPartText='ⓒ 켄버스' />
         </div>
     );
