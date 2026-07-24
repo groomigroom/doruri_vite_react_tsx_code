@@ -49,6 +49,7 @@ export default function Bol4Main() {
                     </section>
                 </section>
             </section>
+            <Link to='/Bol4Main_7_23' className='tri_mm_s1_before_links'>이전 페이지 보기</Link>
             <FooterPart FooterPartText='ⓒ 켄버스' />
         </div>
     );
