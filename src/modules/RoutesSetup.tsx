@@ -268,6 +268,7 @@ import DayMemDowoonEng from './DAY6Eng/members/DayMemDowoonEng';
 //Bol4Main
 
 import Bol4Main from './bol4/main/Bol4Main';
+import Bol4Main_7_23 from './bol4/main/BeforeMain/Bol4Main_7_23';
 import Bol4MainEng from './bol4Eng/main/Bol4MainEng';
 
 import BolMemAnjiyoung from './bol4/members/BolMemAnjiyoung';
@@ -671,6 +672,7 @@ export default function RoutesSetup() {
             {/* Bol4Main */}
 
             <Route path='/Bol4Main' element={<Bol4Main />}></Route>
+            <Route path='/Bol4Main_7_23' element={<Bol4Main_7_23 />}></Route>
             <Route path='/Bol4MainEng' element={<Bol4MainEng />}></Route>
 
             <Route path='/BolMemAnjiyoung' element={<BolMemAnjiyoung />}></Route>
