@@ -1,0 +1,24 @@
+import one from "./assets/image1.jpg";
+import two from "./assets/image2.png";
+import three from "./assets/image3.webp";
+
+// 1. 단순 스트링(URL) 배열로 만드는 경우
+const IMAGES: string[] = [one, two, three];
+
+// 2. 만약 map을 돌릴 때 key값 등이 필요하다면 객체 배열을 권장합니다.
+const IMAGE_OBJECTS = [
+  { id: 1, src: one, alt: "이미지 1 설명" },
+  { id: 2, src: two, alt: "이미지 2 설명" },
+  { id: 3, src: three, alt: "이미지 3 설명" },
+];
+
+export default function ImageGallery() {
+  return (
+    <div>
+      {/* 단순 배열 사용 시 */}
+      {IMAGES.map((img, index) => (
+        <img key={index} src={img} alt={`이미지 ${index}`} />
+      ))}
+    </div>
+  );
+}
