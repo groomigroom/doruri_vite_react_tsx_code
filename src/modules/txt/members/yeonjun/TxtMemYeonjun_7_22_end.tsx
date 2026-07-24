@@ -65,8 +65,12 @@ export default function TxtMemYeonjun_7_22_end() {
                     </tr>
                 </tbody>
             </table>
+            <h2>최신 앨범</h2>
+            <p>NO LABELS: PART 01</p>
             <FooterPart FooterPartText='ⓒ 빅히트 뮤직' />
         </div>
     );
 }
+
+
 
