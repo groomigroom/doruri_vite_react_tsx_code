@@ -47,7 +47,7 @@ export default function AkmuMemSuhyunEng() {
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>character</p></td>
-                        <td><p>excellent preparation</p></td>
+                        <td><p>calmness</p></td>
                     </tr>
                 </tbody>
             </table>
