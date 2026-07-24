@@ -289,6 +289,40 @@ ZICO
 <td><p>진지함?</p></td>
 </tr>
 
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>September 14, 1992</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>182cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>O</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INTP</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Ziaco</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INTP</p></td>
+</tr>
+<tr>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>seriousness?</p></td>
+</tr>
+
 8개
 TWICE
 모모 참고로 소속 유닛 추가하기
