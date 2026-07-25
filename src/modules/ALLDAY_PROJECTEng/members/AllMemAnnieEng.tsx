@@ -18,60 +18,16 @@ export default function AllMemAnnieEng() {
                 <Link to='/AllMemAnnieEng' className="on">English</Link>
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="allday project deco" />Annie<img src={MainH2Deco} alt="allday project deco" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
+            <p className='tri_mm_s1_intropp'>
+                I respect the various<br />
+                opinions of the members<br />
+                and I will do my best!</p>
             <img src={all_mm_annie_img} alt="Annie" className='tri_mm_s1_img all_mm_annie_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>키</p></td>
-                        <td><p>161cm</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>소속 유닛</p></td>
-                        <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
-                    </tr>
-                    <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
-                    </tr>
-                </tbody>
-            </table>
-
-        </div>
-    );
-}
-
- <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>birth</p></td>
-                        <td><p>2002년 1월 23일</p></td>
+                        <td><p>January 23, 2002</p></td>
                     </tr>
                     <tr>
                         <td><p>height</p></td>
@@ -79,11 +35,11 @@ export default function AllMemAnnieEng() {
                     </tr>
                     <tr>
                         <td><p>blood type</p></td>
-                        <td><p>O형</p></td>
+                        <td><p>O</p></td>
                     </tr>
                     <tr>
                         <td><p>position</p></td>
-                        <td><p>래퍼</p></td>
+                        <td><p>rapper</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
@@ -91,9 +47,15 @@ export default function AllMemAnnieEng() {
                     </tr>
                     <tr>
                         <td><p>nickname</p></td>
-                        <td><p>애니언니</p></td>
+                        <td><p>Annie older sister</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>character</p></td>
-                        <td><p>성실함</p></td>
+                        <td><p>diligence</p></td>
                     </tr>
+                </tbody>
+            </table>
+
+        </div>
+    );
+}
