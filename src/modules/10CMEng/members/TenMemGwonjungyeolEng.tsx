@@ -109,3 +109,43 @@ export default function TenMemGwonjungyeolEng() {
                         <td><p>character</p></td>
                         <td><p>??</p></td>
                     </tr>
+
+
+권정열멤잉그
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>March 1, 1983</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>172cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>O</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Angelyeol</p></td>
+</tr>
+<tr>
+<td><p>position 1</p></td>
+<td><p>vocal</p></td>
+</tr>
+<tr>
+<td><p>position 2</p></td>
+<td><p>guitar</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ISFP-T</p></td>
+</tr>
+<tr>
+<td><p>favorite food</p></td>
+<td>
+<p>ramen</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>??</p></td>
+</tr>
