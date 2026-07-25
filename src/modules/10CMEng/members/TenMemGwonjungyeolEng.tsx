@@ -5,7 +5,7 @@ import '../../10CM/members/TenMemGwonjungyeol.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 
-import Ten_mm_gwonjungyeol_img from '../main/img/10cm_m_mem_Gwonjungyeol.jpg';
+import Ten_mm_gwonjungyeol_img from '../../10CM/main/img/10cm_m_mem_Gwonjungyeol.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -26,42 +26,41 @@ export default function TenMemGwonjungyeolEng() {
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>March 1, 1983</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>height</p></td>
+                        <td><p>172cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
+                        <td><p>blood type</p></td>
+                        <td><p>O</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
+                        <td><p>nickname</p></td>
+                        <td><p>Angelyeol</p></td>
                     </tr>
                     <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
+                        <td><p>position 1</p></td>
+                        <td><p>vocal</p></td>
                     </tr>
                     <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
+                        <td><p>position 2</p></td>
+                        <td><p>guitar</p></td>
                     </tr>
                     <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
+                        <td><p>MBTI</p></td>
+                        <td><p>ISFP-T</p></td>
                     </tr>
                     <tr>
-                        <td><p>소속 유닛</p></td>
+                        <td><p>favorite food</p></td>
                         <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                            <p>ramen</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>character</p></td>
+                        <td><p>??</p></td>
                     </tr>
                 </tbody>
             </table>
@@ -72,80 +71,3 @@ export default function TenMemGwonjungyeolEng() {
 
 
 
- <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>birth</p></td>
-                        <td><p>1983년 3월 1일</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>height</p></td>
-                        <td><p>172cm</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>blood type</p></td>
-                        <td><p>O형</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>nickname</p></td>
-                        <td><p>요정열</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>position 1</p></td>
-                        <td><p>보컬</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>position 2</p></td>
-                        <td><p>기타</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>MBTI</p></td>
-                        <td><p>ISFP-T</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>favorite food</p></td>
-                        <td>
-                            <p>라면</p></td>
-                    </tr>
-                    <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>character</p></td>
-                        <td><p>??</p></td>
-                    </tr>
-
-
-권정열멤잉그
-<tr className='tri_mm_s1_intropa_tb_tr1'>
-<td><p>birth</p></td>
-<td><p>March 1, 1983</p></td>
-</tr>
-<tr>
-<td><p>height</p></td>
-<td><p>172cm</p></td>
-</tr>
-<tr>
-<td><p>blood type</p></td>
-<td><p>O</p></td>
-</tr>
-<tr>
-<td><p>nickname</p></td>
-<td><p>Angelyeol</p></td>
-</tr>
-<tr>
-<td><p>position 1</p></td>
-<td><p>vocal</p></td>
-</tr>
-<tr>
-<td><p>position 2</p></td>
-<td><p>guitar</p></td>
-</tr>
-<tr>
-<td><p>MBTI</p></td>
-<td><p>ISFP-T</p></td>
-</tr>
-<tr>
-<td><p>favorite food</p></td>
-<td>
-<p>ramen</p></td>
-</tr>
-<tr className='tri_mm_s1_intropa_tb_tr9'>
-<td><p>character</p></td>
-<td><p>??</p></td>
-</tr>
