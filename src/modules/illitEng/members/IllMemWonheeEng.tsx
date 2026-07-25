@@ -39,7 +39,7 @@ export default function IllMemWonheeEng() {
                     </tr>
                     <tr>
                         <td><p>animal character</p></td>
-                        <td><p>곰돌희</p></td>
+                        <td><p>Gomdolhee</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
