@@ -39,7 +39,7 @@ export default function IllMemMinjuEng() {
                     </tr>
                     <tr>
                         <td><p>animal character</p></td>
-                        <td><p>오끼</p></td>
+                        <td><p>Okki</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
