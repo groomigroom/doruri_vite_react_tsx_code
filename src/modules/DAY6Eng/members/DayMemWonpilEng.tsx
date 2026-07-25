@@ -57,7 +57,7 @@ export default function DayMemWonpilEng() {
                     <tr>
                         <td><p>units</p></td>
                         <td>
-                            <p>DAY6 (Even of Day)</p></td>
+                            <p>DAY6 &#40;Even of Day&#41;</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>character</p></td>
