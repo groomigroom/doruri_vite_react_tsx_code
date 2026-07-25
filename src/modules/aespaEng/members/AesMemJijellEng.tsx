@@ -108,3 +108,44 @@ export default function AesMemJijellEng() {
                         <td><p>character</p></td>
                         <td><p>활발함</p></td>
                     </tr>
+
+
+
+에스파지젤멤 잉그
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>October 30, 2000</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>164cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>O</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td><p>vocal, rapper</p></td>
+</tr>
+<tr>
+<td><p>combat skill</p></td>
+<td><p>Xenoglossy</p></td>
+</tr>
+<tr>
+<td><p>animal character</p></td>
+<td><p>Zelbelnyangee</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INFJ</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td>
+<p>earthjelly</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>activeness</p></td>
+</tr>
