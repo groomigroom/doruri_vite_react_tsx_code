@@ -73,3 +73,43 @@ export default function StrayMemHanEng() {
 
 
 HAN QUOKKA
+
+
+한잉그하기
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>September 14, 2000</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>B</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>3RACHA</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ISFP</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>quokka</p></td>
+</tr>
+<tr>
+<td><p>SKZOO</p></td>
+<td><p>HAN QUOKKA</p></td>
+</tr>
+<tr>
+<td><p>symbolic animal</p></td>
+<td><p>quokka</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td>
+<p>main rapper</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>bright</p></td>
+</tr>
