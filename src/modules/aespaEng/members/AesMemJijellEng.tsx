@@ -17,50 +17,50 @@ export default function AesMemJijellEng() {
                 <Link to='/AesMemJijell'>한국어</Link>
                 <Link to='/AesMemJijellEng' className="on">English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="aespa deco" />지젤<img src={MainH2Deco} alt="aespa deco" /></h2>
-            <p className='tri_mm_s1_intropp'>24명은 너무 많지 않아요?<br />
-                그리고... 그리고... 그리고...<br />
-                더 열심히 더 열심히</p>
-            <img src={aes_mm_jijell_img} alt="지젤 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="aespa deco" />Giselle<img src={MainH2Deco} alt="aespa deco" /></h2>
+            <p className='tri_mm_s1_intropp'>
+                I'll be active as<br />
+                an &apos;aespa&apos; member<br />
+                with a happy heart!</p>
+            <img src={aes_mm_jijell_img} alt="Giselle" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>October 30, 2000</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>height</p></td>
+                        <td><p>164cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
+                        <td><p>blood type</p></td>
+                        <td><p>O</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
+                        <td><p>position</p></td>
+                        <td><p>vocal, rapper</p></td>
                     </tr>
                     <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
+                        <td><p>combat skill</p></td>
+                        <td><p>Xenoglossy</p></td>
                     </tr>
                     <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
+                        <td><p>animal character</p></td>
+                        <td><p>Zelbelnyangee</p></td>
                     </tr>
                     <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
+                        <td><p>MBTI</p></td>
+                        <td><p>INFJ</p></td>
                     </tr>
                     <tr>
-                        <td><p>소속 유닛</p></td>
+                        <td><p>nickname</p></td>
                         <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                            <p>earthjelly</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>character</p></td>
+                        <td><p>activeness</p></td>
                     </tr>
                 </tbody>
             </table>
@@ -70,82 +70,3 @@ export default function AesMemJijellEng() {
 
 };
 
-
- <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>birth</p></td>
-                        <td><p>2000년 10월 30일</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>height</p></td>
-                        <td><p>164cm</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>blood type</p></td>
-                        <td><p>O형</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>position</p></td>
-                        <td><p>보컬, 래퍼</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>combat skill</p></td>
-                        <td><p>Xenoglossy</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>animal character</p></td>
-                        <td><p>젤블냥이</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>MBTI</p></td>
-                        <td><p>INFJ</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>nickname</p></td>
-                        <td>
-                            <p>지구젤리</p></td>
-                    </tr>
-                    <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>character</p></td>
-                        <td><p>활발함</p></td>
-                    </tr>
-
-
-
-에스파지젤멤 잉그
-<tr className='tri_mm_s1_intropa_tb_tr1'>
-<td><p>birth</p></td>
-<td><p>October 30, 2000</p></td>
-</tr>
-<tr>
-<td><p>height</p></td>
-<td><p>164cm</p></td>
-</tr>
-<tr>
-<td><p>blood type</p></td>
-<td><p>O</p></td>
-</tr>
-<tr>
-<td><p>position</p></td>
-<td><p>vocal, rapper</p></td>
-</tr>
-<tr>
-<td><p>combat skill</p></td>
-<td><p>Xenoglossy</p></td>
-</tr>
-<tr>
-<td><p>animal character</p></td>
-<td><p>Zelbelnyangee</p></td>
-</tr>
-<tr>
-<td><p>MBTI</p></td>
-<td><p>INFJ</p></td>
-</tr>
-<tr>
-<td><p>nickname</p></td>
-<td>
-<p>earthjelly</p></td>
-</tr>
-<tr className='tri_mm_s1_intropa_tb_tr9'>
-<td><p>character</p></td>
-<td><p>activeness</p></td>
-</tr>
