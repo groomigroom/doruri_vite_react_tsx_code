@@ -70,4 +70,46 @@ export default function StrayMemChangbinEng() {
     );
 }
 
+
+
+창빈하기
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>August 11, 1999</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>O</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>3RACHA</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ESTP</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Dwaekki</p></td>
+</tr>
+<tr>
+<td><p>SKZOO</p></td>
+<td><p>DWAEKKI</p></td>
+</tr>
+<tr>
+<td><p>symbolic animal</p></td>
+<td><p>pig rabbit</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td>
+<p>main rapper</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>subtlety</p></td>
+</tr>
+
+한국어 버전에 아래 영어버전 테이블 추가 지우기
 DWAEKKI
