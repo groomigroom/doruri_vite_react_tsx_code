@@ -39,7 +39,7 @@ export default function IllMemErohaEng() {
                     </tr>
                     <tr>
                         <td><p>animal character</p></td>
-                        <td><p>빼꼬</p></td>
+                        <td><p>Bbaeggo</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
