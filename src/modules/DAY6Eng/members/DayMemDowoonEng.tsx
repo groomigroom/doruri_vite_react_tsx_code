@@ -72,4 +72,41 @@ export default function DayMemDowoonEng() {
 };
 
 
-
+day6도운잉그멤
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>August 25, 1995</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>177.5cm</p></td>
+</tr>
+<tr>
+<td><p>blooe type</p></td>
+<td><p>O</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td><p>drum</p></td>
+</tr>
+<tr>
+<td><p>animal character</p></td>
+<td><p>DON</p></td>
+</tr>
+<tr>
+<td><p>symbolic animal</p></td>
+<td><p>puppy</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Yoondon</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td>
+<p>x</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>a little sensitive</p></td>
+</tr>
