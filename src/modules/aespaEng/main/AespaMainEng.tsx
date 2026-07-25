@@ -38,7 +38,7 @@ export default function AespaMainEng() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/AesMemKarinaEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Aes_m_MemKarina_img} alt="카리나 이미지" />
+                            <img src={Aes_m_MemKarina_img} alt="Karina" />
                             <div>
                                 <h4>Karina</h4>
                             </div>
@@ -46,7 +46,7 @@ export default function AespaMainEng() {
                     </Link>
                     <Link to='/AesMemJijellEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Aes_m_MemJijell_img} alt="지젤 이미지" />
+                            <img src={Aes_m_MemJijell_img} alt="Giselle" />
                             <div>
                                 <h4>Giselle</h4>
                             </div>
@@ -58,7 +58,7 @@ export default function AespaMainEng() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/AesMemWinterEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Aes_m_MemWinter_img} alt="윈터 이미지" />
+                            <img src={Aes_m_MemWinter_img} alt="Winter" />
                             <div>
                                 <h4>Winter</h4>
                             </div>
@@ -66,7 +66,7 @@ export default function AespaMainEng() {
                     </Link>
                     <Link to='/AesMemNingningEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Aes_m_MemNingning_img} alt="닝닝 이미지" />
+                            <img src={Aes_m_MemNingning_img} alt="Ningning" />
                             <div>
                                 <h4>Ningning</h4>
                             </div>
