@@ -72,3 +72,41 @@ export default function DayMemWonpilEng() {
 
 };
 
+day6원필잉그멤
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>April 28, 1994</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>176cm</p></td>
+</tr>
+<tr>
+<td><p>blooe type</p></td>
+<td><p>A</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td><p>keyboard, synthesizer, vocal</p></td>
+</tr>
+<tr>
+<td><p>animal character</p></td>
+<td><p>PIL</p></td>
+</tr>
+<tr>
+<td><p>symbolic animal</p></td>
+<td><p>rabbit</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Pilee</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td>
+<p>DAY6 (Even of Day)</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>kindness</p></td>
+</tr>
