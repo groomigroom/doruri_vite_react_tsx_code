@@ -70,3 +70,41 @@ export default function AesMemKarinaEng() {
 
 };
 
+에스카리나멤 잉그
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>April 11, 2000</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>168cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>B</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td><p>leader, vocal, dancer, rapper</p></td>
+</tr>
+<tr>
+<td><p>combat skill</p></td>
+<td><p>Rocket Puncher</p></td>
+</tr>
+<tr>
+<td><p>animal character</p></td>
+<td><p>Carangee</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ENFP</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td>
+<p>Jjimin</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>kindness</p></td>
+</tr>
