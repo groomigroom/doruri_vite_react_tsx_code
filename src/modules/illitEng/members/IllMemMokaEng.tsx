@@ -39,7 +39,7 @@ export default function IllMemMokaEng() {
                     </tr>
                     <tr>
                         <td><p>animal character</p></td>
-                        <td><p>모카라떼</p></td>
+                        <td><p>Mokalatte</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
