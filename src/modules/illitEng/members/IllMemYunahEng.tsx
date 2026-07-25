@@ -39,7 +39,7 @@ export default function IllMemYunahEng() {
                     </tr>
                     <tr>
                         <td><p>animal character</p></td>
-                        <td><p>치티</p></td>
+                        <td><p>Chiti</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
