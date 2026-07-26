@@ -74,5 +74,38 @@ export default function ArtMemHaseulEng() {
 
 
 
+아르테멤하슬잉그
 
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>August 18, 1997</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>159cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>O</p></td>
+</tr>
+<tr>
+<td><p>symbol</p></td>
+<td><p>white bird</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Hassuri</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INFJ</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>x</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>planned</p></td>
+</tr>
 
