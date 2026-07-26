@@ -18,51 +18,46 @@ export default function Idn_m_memid18Eng() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="idntt deco" />leejooheon<img src={MainH2Deco} alt="idntt deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                #####24명은 많은 것 같아도<br />
-                멤버들 질서 유지를<br />
-                책임감 있게 다 해볼게요!
+                I'll work hard every day<br />
+                to prepare well<br />
+                and come to you!
             </p>
             <img src='' alt="leejooheon" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>October 11, 2008</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>height</p></td>
+                        <td><p>??</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
+                        <td><p>blood type</p></td>
+                        <td><p>A</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
+                        <td><p>units</p></td>
+                        <td><p>istnotover</p></td>
                     </tr>
                     <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
+                        <td><p>MBTI</p></td>
+                        <td><p>ISFP</p></td>
                     </tr>
                     <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
+                        <td><p>symbolic color</p></td>
+                        <td><p>#62d3d1</p></td>
                     </tr>
                     <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>소속 유닛</p></td>
-                        <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                        <td><p>character</p></td>
+                        <td><p>??</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>nickname</p></td>
+                        <td><p>Bamdolee</p></td>
                     </tr>
+
                 </tbody>
             </table>
 
@@ -70,44 +65,6 @@ export default function Idn_m_memid18Eng() {
         </div>
     );
 };
-
-
-아이덴티티 18멤잉그
-<tr className='tri_mm_s1_intropa_tb_tr1'>
-<td><p>birth</p></td>
-<td><p>October 11, 2008</p></td>
-</tr>
-<tr>
-<td><p>height</p></td>
-<td><p>??</p></td>
-</tr>
-<tr>
-<td><p>blood type</p></td>
-<td><p>A</p></td>
-</tr>
-<tr>
-<td><p>units</p></td>
-<td><p>istnotover</p></td>
-</tr>
-<tr>
-<td><p>MBTI</p></td>
-<td><p>ISFP</p></td>
-</tr>
-<tr>
-<td><p>symbolic color</p></td>
-<td><p>#62d3d1</p></td>
-</tr>
-<tr>
-<td><p>character</p></td>
-<td><p>??</p></td>
-</tr>
-<tr className='tri_mm_s1_intropa_tb_tr9'>
-<td><p>nickname</p></td>
-<td><p>Bamdolee</p></td>
-</tr>
-
-
-
 
 
 
