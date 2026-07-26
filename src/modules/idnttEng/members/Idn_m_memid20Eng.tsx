@@ -72,3 +72,41 @@ export default function Idn_m_memid20Eng() {
 };
 
 
+아이덴티티 20멤잉그
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>September 7, 2007</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>180cm 후반</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>A</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>istnotover</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ENFP</p></td>
+</tr>
+<tr>
+<td><p>symbolic color</p></td>
+<td><p>#846eea</p></td>
+</tr>
+<tr>
+<td><p>character</p></td>
+<td><p>Four-dimensional</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>nickname</p></td>
+<td><p>Modhaus's first alpaca</p></td>
+</tr>
+
+
+
+
+
