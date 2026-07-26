@@ -10,7 +10,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function Idn_m_memid5Eng() {
     return (
-        <div className="idn_mm_id4_full">
+        <div className="idn_mm_id5_full">
             <MenuEng />
             <section className="home_translate">
                 <Link to='/Idn_m_memid5'>한국어</Link>
