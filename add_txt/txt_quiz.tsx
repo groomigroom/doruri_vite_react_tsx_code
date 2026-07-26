@@ -40,3 +40,114 @@ function App() {
 }
 
 export default App;
+
+
+제공해주신 React TypeScript(TSX) 코드의 모든 문법을 기능별로 나누어 상세히 해석해 드립니다.
+------------------------------
+## 1. 모듈 가져오기 (Import)
+
+import { useState } from "react";
+
+
+* import { useState }: React 라이브러리에서 useState라는 함수(Hook)를 가져옵니다.
+* from "react": 이 함수가 react 패키지에서 제공됨을 명시합니다. [1] 
+
+------------------------------
+## 2. 컴포넌트 선언
+
+function App() { ... }export default App;
+
+
+* function App(): App이라는 이름의 함수형 컴포넌트를 정의합니다. React에서 화면을 구성하는 가장 기본 단위입니다.
+* export default App: 이 파일의 기본 내보내기(export) 항목으로 App 컴포넌트를 지정합니다. 다른 파일에서 이 컴포넌트를 가져와 사용할 수 있게 합니다.
+
+------------------------------
+## 3. 상태 관리 (useState Hook & 제네릭)
+
+const [str, setStr] = useState<string>("");
+
+
+* useState: 컴포넌트 내부에서 변경될 수 있는 동적 데이터(상태)를 만드는 React Hook입니다. [2, 3] 
+* <string>: TypeScript의 제네릭(Generic) 문법입니다. str 상태가 오직 문자열(string) 타입만 가질 수 있도록 강제합니다.
+* (""): 상태의 초기값을 빈 문자열로 설정합니다. [4] 
+* [str, setStr]: 구조 분해 할당(Destructuring) 문법입니다.
+* str: 현재 상태 값을 담고 있는 변수입니다.
+   * setStr: 이 상태 값을 변경할 때 사용하는 전용 함수입니다.
+
+------------------------------
+## 4. 이벤트 핸들러 및 타입 지정
+
+const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  setStr(e.target.value);
+};
+
+
+* const handleInputChange = (...) => { ... }: 화살표 함수(Arrow Function) 형태로 이벤트 핸들러를 정의합니다.
+* e: React.ChangeEvent<HTMLInputElement>: TypeScript의 **타입 주석(Type Annotation)**입니다.
+* React.ChangeEvent: React에서 제공하는 입력 값이 변경되었을 때 발생하는 이벤트의 타입입니다.
+   * <HTMLInputElement>**: 이벤트가 발생하는 대상이 HTML의 <input> 태그임을 명시합니다.
+* e.target.value: 현재 인풋창에 입력된 실제 텍스트 값입니다.
+* setStr(...): 인풋창에 타이핑할 때마다 그 값을 str 상태에 반영하여 화면을 다시 그리도록(리렌더링) 유도합니다.
+
+------------------------------
+## 5. 배열 메서드 및 연산 (비즈니스 로직)
+
+const target = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];const count = target.filter((char, index) => str[index] === char).length;
+
+
+* const target: 비교 대상인 정답 글자들이 담긴 문자열 배열입니다.
+* target.filter(...): 배열의 각 요소를 순회하며 조건에 맞는 요소만 추려내어 새로운 배열을 만드는 자바스크립트 내장 메서드입니다.
+* (char, index) => ...: filter 메서드 내부의 콜백 함수입니다.
+* char: 현재 순회 중인 글자 (예: 'a', 'b' 등)
+   * index: 현재 글자의 배열 순번 (0부터 시작)
+* str[index] === char: 사용자가 입력한 문자열 str의 해당 위치(index)에 있는 글자가 정답 글자(char)와 일치하는지 비교합니다.
+* .length: 필터를 거쳐 매칭된 글자들만 모인 배열의 총 개수(길이)를 가져옵니다.
+
+------------------------------
+## 6. 조건문 및 변수 타입 지정
+
+let last_str: string = "";
+if (str.length === 8) {
+  last_str = '맟춘 개수: ' + count + '개';
+}else {
+  last_str = '글자 수가 8글자가 아닙니다.';
+}
+
+
+* let last_str: string = "": 값을 변경할 수 있는 변수 last_str을 선언하고, 타입을 string으로 지정한 후 빈 문자열로 초기화합니다.
+* str.length === 8: 사용자가 입력한 글자 수가 정확히 8글자인지 비교 연산자(===)로 검사합니다.
+* 조건문 결과 분기: 8글자이면 맞춘 개수를 포함한 문자열을, 아니면 경고 메시지를 last_str 변수에 할당합니다.
+
+------------------------------
+## 7. JSX/TSX 반환 및 이벤트 차단
+
+return (
+  <div>
+    <form className="txt_form" onSubmit={(e) => e.preventDefault()}>
+      <input
+        type="text"
+        name="txt_one"
+        value={str}
+        onChange={handleInputChange}
+      />
+      <p>{last_str}</p>
+    </form>
+  </div>
+);
+
+
+* return ( ... ): 컴포넌트가 화면에 렌더링할 HTML 형태의 UI 구조를 반환합니다.
+* JSX/TSX 문법: 자바스크립트 코드 내에서 HTML 태그를 직관적으로 작성할 수 있게 해주는 문법입니다.
+* className="txt_form": HTML의 class 속성 대신 React에서는 자바스크립트 예약어와의 충돌을 피하기 위해 className을 사용합니다.
+* onSubmit={(e) => e.preventDefault()}: 폼 내부에서 엔터를 누르거나 제출할 때 페이지가 새로고침되는 브라우저의 기본 동작(preventDefault())을 막아줍니다.
+* value={str} & onChange={handleInputChange}: 제어 컴포넌트(Controlled Component) 패턴입니다. 인풋의 값(value)을 React 상태(str)와 동기화하고, 값이 바뀔 때마다 상태를 업데이트합니다.
+* {last_str}: JSX 내부에서 자바스크립트 변수나 표현식을 출력할 때는 중괄호({ })를 사용합니다.
+
+------------------------------
+추가로 코드에서 보완하고 싶은 기능이나 작동 방식에 대해 더 궁금한 점이 있으시다면 언제든 말씀해 주세요!
+
+[1] [https://ko.legacy.reactjs.org](https://ko.legacy.reactjs.org/docs/hooks-state.html)
+[2] [https://blog.anchors-biz.com](https://blog.anchors-biz.com/?p=662)
+[3] [https://dsc-sookmyung.tistory.com](https://dsc-sookmyung.tistory.com/174)
+[4] [https://jeonghwan-kim.github.io](https://jeonghwan-kim.github.io/series/2021/04/12/lecture-react-usage.html)
+
