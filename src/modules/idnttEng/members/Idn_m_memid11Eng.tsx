@@ -18,9 +18,9 @@ export default function Idn_m_memid11Eng() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="idntt deco" />leekyuhyuk<img src={MainH2Deco} alt="idntt deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                #####24명은 많은 것 같아도<br />
-                멤버들 질서 유지를<br />
-                책임감 있게 다 해볼게요!
+                I'll work<br />
+                hard with<br />
+                the members!
             </p>
             <img src='' alt="leekyuhyuk" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
