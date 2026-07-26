@@ -72,3 +72,35 @@ export default function BTSMemJhopeEng() {
         </div>
     );
 };
+
+
+제이홉잉그멤
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>Februry 18, 1994</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>177cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>A</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td><p>main dancer, sub rapper, sub vocal</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ESFJ</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Hobi</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>activeness</p></td>
+</tr>
