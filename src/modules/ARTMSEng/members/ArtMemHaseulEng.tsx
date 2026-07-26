@@ -23,7 +23,7 @@ export default function ArtMemHaseulEng() {
                 sunshine<br />
                 with &apos;HaSeul&apos;!
             </p>
-            <img src='' alt="HeeJin" className='tri_mm_s1_img' />
+            <img src='' alt="HaSeul" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
