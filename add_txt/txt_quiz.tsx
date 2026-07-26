@@ -125,56 +125,7 @@ UI 개발을 할 때 특정 항목을 화면에서 지우거나(삭제 기능),
 * 콜백 함수가 false를 반환하는 요소는 버려집니다. 
 
 
-## 💡 React에서 자주 쓰는 3가지 패턴## 1. 특정 데이터 삭제 (아이템 제거)
-React 상태(State)에서 특정 데이터를 삭제할 때 주로 사용합니다. 삭제할 id가 아닌 데이터들만 남기는 방식입니다.
-
-interface Todo {
-  id: number;
-  text: string;
-}
-const [todos, setTodos] = useState<Todo[]>([
-  { id: 1, text: "React 공부하기" },
-  { id: 2, text: "맛있는 저녁 먹기" },
-]);
-// id가 1인 항목을 삭제하는 함수const deleteTodo = (id: number) => {
-  // 선택한 id와 일치하지 않는(true인) 항목들로만 새 배열을 구성
-  const updatedTodos = todos.filter(todo => todo.id !== id);
-  setTodos(updatedTodos);
-};
-
-
--------------------------------
-
-import React, { useState } from 'react';
-
-interface Todo {
-  id: number;
-  text: string;
-}
-
-export default function TodoApp() {
-  const [todos, setTodos] = useState<Todo[]>([
-    { id: 1, text: "React 공부하기" },
-    { id: 2, text: "맛있는 저녁 먹기" },
-  ]);
-
-  const deleteTodo = (id: number) => {
-    setTodos(todos.filter(todo => todo.id !== id));
-  };
-
-  return (
-    <ul>
-      {todos.map(todo => (
-        <li key={todo.id}>
-          {todo.text}
-          <button onClick={() => deleteTodo(todo.id)}>삭제</button>
-        </li>
-      ))}
-    </ul>
-  );
-}
-
-
+  
 ## 2. 검색 및 실시간 필터링
 사용자가 입력한 검색어에 매칭되는 데이터만 뽑아서 화면에 보여줄 때 사용합니다. 보통 .filter()로 먼저 걸러낸 뒤 .map()을 연결하여(체이닝) 화면에 그립니다. [3] 
 
