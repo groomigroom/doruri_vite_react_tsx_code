@@ -73,5 +73,38 @@ export default function ArtMemChoerryEng() {
 };
 
 
+아르테멤최리잉그
 
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>June 4, 2001</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>161cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>O</p></td>
+</tr>
+<tr>
+<td><p>symbol</p></td>
+<td><p>fruit bat</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Lee</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ENFP</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>ODD EYE CIRCLE</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>cheerfulness</p></td>
+</tr>
 
