@@ -72,5 +72,38 @@ export default function ArtMemHeejinEng() {
     );
 };
 
+아르테멤희진잉그
 
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>October 19, 2000</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>161.2cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>A</p></td>
+</tr>
+<tr>
+<td><p>symbol</p></td>
+<td><p>rabbit</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Heekki</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ENTJ</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>x</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>high self-esteem</p></td>
+</tr>
 
