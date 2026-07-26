@@ -67,3 +67,38 @@ export default function BtoMemLeeChangsubEng() {
     );
 };
 
+
+이창섭멤잉그
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>Februry 26, 1991</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>173.5cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>O</p></td>
+</tr>
+<tr>
+<td><p>unit</p></td>
+<td><p>BTOB-BLUE, BTOB 4U</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td><p>lead vocal</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INFJ</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Hengsub</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>seriousness</p></td>
+</tr>
