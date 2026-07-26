@@ -73,4 +73,42 @@ export default function Idn_m_memid17Eng() {
 
 
 
+아이덴티티 17멤잉그
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>January 1, 2008</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>??</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>B</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>istnotover</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ISTJ</p></td>
+</tr>
+<tr>
+<td><p>symbolic color</p></td>
+<td><p>#0050a4</p></td>
+</tr>
+<tr>
+<td><p>character</p></td>
+<td><p>??</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>nickname</p></td>
+<td><p>baby leader</p></td>
+</tr>
+
+
+
+
+
 
