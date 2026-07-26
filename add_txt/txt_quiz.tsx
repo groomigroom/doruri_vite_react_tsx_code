@@ -47,22 +47,10 @@ export default App;
 
 ## 4. 이벤트 핸들러 및 타입 지정
 
-const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-  setStr(e.target.value);
-};
-
-
-* const handleInputChange = (...) => { ... }: 화살표 함수(Arrow Function) 형태로 이벤트 핸들러를 정의합니다.
-* e: React.ChangeEvent<HTMLInputElement>: TypeScript의 **타입 주석(Type Annotation)**입니다.
-* React.ChangeEvent: React에서 제공하는 입력 값이 변경되었을 때 발생하는 이벤트의 타입입니다.
-   * <HTMLInputElement>**: 이벤트가 발생하는 대상이 HTML의 <input> 태그임을 명시합니다.
-* e.target.value: 현재 인풋창에 입력된 실제 텍스트 값입니다.
-* setStr(...): 인풋창에 타이핑할 때마다 그 값을 str 상태에 반영하여 화면을 다시 그리도록(리렌더링) 유도합니다.
-
-------------------------------
 ## 5. 배열 메서드 및 연산 (비즈니스 로직)
 
-const target = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];const count = target.filter((char, index) => str[index] === char).length;
+const target = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+const count = target.filter((char, index) => str[index] === char).length;
 
 
 * const target: 비교 대상인 정답 글자들이 담긴 문자열 배열입니다.
