@@ -41,28 +41,9 @@ function App() {
 
 export default App;
 
-
-제공해주신 React TypeScript(TSX) 코드의 모든 문법을 기능별로 나누어 상세히 해석해 드립니다.
-------------------------------
-## 1. 모듈 가져오기 (Import)
-
-import { useState } from "react";
+끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝끝
 
 
-* import { useState }: React 라이브러리에서 useState라는 함수(Hook)를 가져옵니다.
-* from "react": 이 함수가 react 패키지에서 제공됨을 명시합니다. [1] 
-
-------------------------------
-## 2. 컴포넌트 선언
-
-function App() { ... }export default App;
-
-
-* function App(): App이라는 이름의 함수형 컴포넌트를 정의합니다. React에서 화면을 구성하는 가장 기본 단위입니다.
-* export default App: 이 파일의 기본 내보내기(export) 항목으로 App 컴포넌트를 지정합니다. 다른 파일에서 이 컴포넌트를 가져와 사용할 수 있게 합니다.
-
-------------------------------
-## 3. 상태 관리 (useState Hook & 제네릭)
 
 const [str, setStr] = useState<string>("");
 
