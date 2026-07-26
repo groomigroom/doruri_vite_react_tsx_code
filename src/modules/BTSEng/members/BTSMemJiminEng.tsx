@@ -72,3 +72,33 @@ export default function BTSMemJiminEng() {
         </div>
     );
 };
+
+지민잉그맵
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>October 13, 1995</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>174cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>A</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td><p>main dancer, lead vocal</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ESTJ</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Pparkjimini</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>??</p></td>
+</tr>
