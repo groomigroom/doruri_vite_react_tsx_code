@@ -17,12 +17,12 @@ export default function BolMemAnjiyoungEng() {
                 <Link to='/BolMemAnjiyoung'>한국어</Link>
                 <Link to='/BolMemAnjiyoungEng' className="on">English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="볼빨간사춘기 꾸미기" />안지영<img src={MainH2Deco} alt="볼빨간사춘기 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="bol4 deco" />An Jiyeong<img src={MainH2Deco} alt="bol4 deco" /></h2>
             <p className='tri_mm_s1_intropp'>
                 I will come to you<br />
                 with songs that<br />
                 contain my sensitivity!</p>
-            <img src="" alt="안지영 이미지" className='tri_mm_s1_img txt_mm_beomgyu_img' />
+            <img src="" alt="An Jiyeong" className='tri_mm_s1_img txt_mm_beomgyu_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
