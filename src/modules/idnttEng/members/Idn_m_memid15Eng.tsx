@@ -72,7 +72,39 @@ export default function Idn_m_memid15Eng() {
 };
 
 
-
+아이덴티티 15멤잉그
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>September 4, 2008</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>180cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>A</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>yesweare</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>ISFP</p></td>
+</tr>
+<tr>
+<td><p>symbolic color</p></td>
+<td><p>#4edd9c</p></td>
+</tr>
+<tr>
+<td><p>character</p></td>
+<td><p>meticulousness</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>nickname</p></td>
+<td><p>??</p></td>
+</tr>
 
 
 
