@@ -142,6 +142,39 @@ const [todos, setTodos] = useState<Todo[]>([
   setTodos(updatedTodos);
 };
 
+
+-------------------------------
+
+import React, { useState } from 'react';
+
+interface Todo {
+  id: number;
+  text: string;
+}
+
+export default function TodoApp() {
+  const [todos, setTodos] = useState<Todo[]>([
+    { id: 1, text: "React 공부하기" },
+    { id: 2, text: "맛있는 저녁 먹기" },
+  ]);
+
+  const deleteTodo = (id: number) => {
+    setTodos(todos.filter(todo => todo.id !== id));
+  };
+
+  return (
+    <ul>
+      {todos.map(todo => (
+        <li key={todo.id}>
+          {todo.text}
+          <button onClick={() => deleteTodo(todo.id)}>삭제</button>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+
 ## 2. 검색 및 실시간 필터링
 사용자가 입력한 검색어에 매칭되는 데이터만 뽑아서 화면에 보여줄 때 사용합니다. 보통 .filter()로 먼저 걸러낸 뒤 .map()을 연결하여(체이닝) 화면에 그립니다. [3] 
 
