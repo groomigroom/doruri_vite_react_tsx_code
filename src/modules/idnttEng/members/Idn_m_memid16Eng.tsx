@@ -72,7 +72,39 @@ export default function Idn_m_memid16Eng() {
 };
 
 
-
+아이덴티티 16멤잉그
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>June 10, 2009</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>183cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>O</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>yesweare</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INTJ</p></td>
+</tr>
+<tr>
+<td><p>symbolic color</p></td>
+<td><p>#ff7364</p></td>
+</tr>
+<tr>
+<td><p>character</p></td>
+<td><p>kindness</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>nickname</p></td>
+<td><p>Yonggu</p></td>
+</tr>
 
 
 
