@@ -79,3 +79,73 @@ export default function HanMemHanroro() {
 여러분에게
 좋은 영향을 줄 수
 있도록 노력해 볼게요!
+
+한로로eng 냐용도 있음 
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>출생</p></td>
+<td><p>2000년 11월 11일</p></td>
+</tr>
+<tr>
+<td><p>키</p></td>
+<td><p>158cm</p></td>
+</tr>
+<tr>
+<td><p>혈액형</p></td>
+<td><p>A형</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INFJ</p></td>
+</tr>
+<tr>
+<td><p>취미</p></td>
+<td><p>글쓰기</p></td>
+</tr>
+<tr>
+<td><p>특기</p></td>
+<td><p>잘 웃기</p></td>
+</tr>
+<tr>
+<td><p>별명</p></td>
+<td><p>~~로로</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>성격</p></td>
+<td><p>밝음</p></td>
+</tr>
+
+한로로eng
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>Novemmer 11, 2000</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>158cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>A</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INFJ</p></td>
+</tr>
+<tr>
+<td><p>hobby</p></td>
+<td><p>writing</p></td>
+</tr>
+<tr>
+<td><p>speciality</p></td>
+<td><p>smile well</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>~~roro</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>bright</p></td>
+</tr>
