@@ -17,51 +17,33 @@ export default function EpiMemMithraEng() {
                 <Link to='/EpiMemMithra'>한국어</Link>
                 <Link to='/EpiMemMithranEng' className="on">English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="EpikHigh 꾸미기" />미쓰라<img src={MainH2Deco} alt="EpikHigh 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="EpikHigh deco" />Mithra<img src={MainH2Deco} alt="EpikHigh deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                펜으로 백지 위를<br />
-                달리면서<br />
-                다양한 생각을 해보아요!</p>
-            <img src="" alt="미쓰라 이미지" className='tri_mm_s1_img epi_mm_mithra_img' />
+                Let's think about various<br />
+                things while running on a blank<br />
+                sheet of paper with a pen!</p>
+            <img src="" alt="Mithra" className='tri_mm_s1_img epi_mm_mithra_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>January 6, 1983</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>height</p></td>
+                        <td><p>178cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
+                        <td><p>blood type</p></td>
+                        <td><p>AB</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>소속 유닛</p></td>
-                        <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                        <td><p>MBTI</p></td>
+                        <td><p>ISFP</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>character</p></td>
+                        <td><p>affectionate</p></td>
                     </tr>
                 </tbody>
             </table>
@@ -70,24 +52,3 @@ export default function EpiMemMithraEng() {
     );
 };
 
-
-<tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>birth</p></td>
-                        <td><p>1983년 1월 6일</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>height</p></td>
-                        <td><p>178cm</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>blood type</p></td>
-                        <td><p>AB형</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>MBTI</p></td>
-                        <td><p>ISFP</p></td>
-                    </tr>
-                    <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>character</p></td>
-                        <td><p>정이 많음</p></td>
-                    </tr>
