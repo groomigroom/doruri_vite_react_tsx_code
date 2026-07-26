@@ -71,3 +71,42 @@ export default function Idn_m_memid21Eng() {
     );
 };
 
+
+아이덴티티 21멤잉그
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>May 10, 2004</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>??</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>AB</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>istnotover</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INFP</p></td>
+</tr>
+<tr>
+<td><p>symbolic color</p></td>
+<td><p>#7499b6</p></td>
+</tr>
+<tr>
+<td><p>character</p></td>
+<td><p>??</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>nickname</p></td>
+<td><p>??</p></td>
+</tr>
+
+
+
+
+
