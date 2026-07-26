@@ -45,17 +45,6 @@ export default App;
 
 
 
-const [str, setStr] = useState<string>("");
-
-
-* useState: 컴포넌트 내부에서 변경될 수 있는 동적 데이터(상태)를 만드는 React Hook입니다. [2, 3] 
-* <string>: TypeScript의 제네릭(Generic) 문법입니다. str 상태가 오직 문자열(string) 타입만 가질 수 있도록 강제합니다.
-* (""): 상태의 초기값을 빈 문자열로 설정합니다. [4] 
-* [str, setStr]: 구조 분해 할당(Destructuring) 문법입니다.
-* str: 현재 상태 값을 담고 있는 변수입니다.
-   * setStr: 이 상태 값을 변경할 때 사용하는 전용 함수입니다.
-
-------------------------------
 ## 4. 이벤트 핸들러 및 타입 지정
 
 const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
