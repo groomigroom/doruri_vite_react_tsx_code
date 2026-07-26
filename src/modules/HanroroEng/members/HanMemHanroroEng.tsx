@@ -19,52 +19,45 @@ export default function HanMemHanroroEng() {
             </section>
             <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="Hanroro" />Hanroro<img src={MainH2Deco} alt="Hanroro" /></h2>
             <p className='tri_mm_s1_intropp'>
-                #####
-                24명은 많은 것 같아도<br />
-                멤버들 질서 유지를<br />
-                책임감 있게 다 해볼게요!
+                I will try to<br />
+                make a good<br />
+                impact on you!
             </p>
             <img src='' alt="Hanroro" className='tri_mm_s1_img' />
             #####
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>Novemmer 11, 2000</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>height</p></td>
+                        <td><p>158cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
+                        <td><p>blood type</p></td>
+                        <td><p>A</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
+                        <td><p>MBTI</p></td>
+                        <td><p>INFJ</p></td>
                     </tr>
                     <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
+                        <td><p>hobby</p></td>
+                        <td><p>writing</p></td>
                     </tr>
                     <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
+                        <td><p>speciality</p></td>
+                        <td><p>smile well</p></td>
                     </tr>
                     <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>소속 유닛</p></td>
-                        <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                        <td><p>nickname</p></td>
+                        <td><p>~~roro</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>character</p></td>
+                        <td><p>bright</p></td>
                     </tr>
                 </tbody>
             </table>
