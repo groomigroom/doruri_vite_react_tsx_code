@@ -17,51 +17,33 @@ export default function EpiMemTwokutzEng() {
                 <Link to='/EpiMemTwokutz'>한국어</Link>
                 <Link to='/EpiMemTwokutzEng' className="on">English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="EpikHigh 꾸미기" />투컷<img src={MainH2Deco} alt="EpikHigh 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="EpikHigh deco" />Tukutz<img src={MainH2Deco} alt="EpikHigh deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                &apos;투컷&apos;과 함께<br />
-                좋은 것을 보고<br />
-                안 좋은 건 피해 가봐요!</p>
-            <img src="" alt="투컷 이미지" className='tri_mm_s1_img epi_mm_twokutz_img' />
+                Let's see good things<br />
+                with &apos;Tukutz&apos; and<br />
+                avoid bad things!</p>
+            <img src="" alt="Tukutz" className='tri_mm_s1_img epi_mm_twokutz_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>2003년 8월 6일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>November 19, 1981</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
-                        <td><p>161cm</p></td>
+                        <td><p>height</p></td>
+                        <td><p>174cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>B형</p></td>
+                        <td><p>blood type</p></td>
+                        <td><p>A</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
-                        <td><p>햄햄</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>취미</p></td>
-                        <td><p>좋아하는 영화 여러번 보기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>특기</p></td>
-                        <td><p>셀카찍기</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>좋아하는 음식</p></td>
-                        <td><p>아이스크림</p></td>
-                    </tr>
-                    <tr>
-                        <td><p>소속 유닛</p></td>
-                        <td>
-                            <p>+&#40;KR&#41;ystal Eyes, Acid Eyes, <br />
-                                LOVElution, neptune</p></td>
+                        <td><p>MBTI</p></td>
+                        <td><p>ESTJ</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p>성격</p></td>
-                        <td><p>좋음</p></td>
+                        <td><p>character</p></td>
+                        <td><p>affectionate</p></td>
                     </tr>
                 </tbody>
             </table>
