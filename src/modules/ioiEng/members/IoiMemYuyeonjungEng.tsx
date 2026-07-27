@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemYuyeonjung.css';
@@ -10,6 +11,8 @@ import Ioi_m_MemYuyeonjung_img from '../../ioi/main/img/ioi_m_mem_Yuyunjung.jpg'
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IoiMemYuyeonjungEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="ioi_mm_yuyeonjung_full">
             <MenuEng />
