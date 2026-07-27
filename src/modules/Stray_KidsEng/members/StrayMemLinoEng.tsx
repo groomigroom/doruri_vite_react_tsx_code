@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../Stray_Kids/members/StrayMemLino.css';
@@ -10,6 +11,8 @@ import Str_mm_lino_img from '../../Stray_Kids/main/img/stray_m_mem_Lino.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function StrayMemLinoEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="str_mm_lino_full">
             <MenuEng />
