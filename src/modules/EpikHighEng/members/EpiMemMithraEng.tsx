@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../EpikHigh/members/EpiMemMithra.css';
@@ -10,6 +11,8 @@ import MenuEng from '../../HomeEng/MenuEng';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function EpiMemMithraEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="epi_mm_mithra_full">
             <MenuEng />
