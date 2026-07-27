@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../txt/members/TxtMemBeomgyu.css';
@@ -11,6 +12,8 @@ import Txt_mm_Beomgyu_img from '../../txt/main/img/txt_m_mem_beomgyu.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TxtMemBeomgyuEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="txt_mm_beomgyu_full">
             <MenuEng />
