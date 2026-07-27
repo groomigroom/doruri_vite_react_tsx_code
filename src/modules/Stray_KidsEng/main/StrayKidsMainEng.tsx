@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../Stray_Kids/main/StrayKidsMain.css';
@@ -23,6 +24,8 @@ import Str_m_MemIn_img from '../../Stray_Kids/main/img/stray_m_mem_In.jpg';
 
 
 export default function StrayKidsMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='str_m_full'>
             <MenuEng />
