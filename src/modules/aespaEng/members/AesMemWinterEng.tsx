@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../aespa/members/AesMemWinter.css';
@@ -10,6 +11,8 @@ import aes_mm_winter_img from '../../aespa/main/img/aespa_m_mem_Winter.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AesMemWinterEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="aes_mm_winter_full">
             <MenuEng />
