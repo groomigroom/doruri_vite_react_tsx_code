@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../illit/members/IllMemWonhee.css';
@@ -10,6 +11,8 @@ import Ill_m_MemWonhee_img from '../../illit/main/img/illit_m_mem_Wonhee.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IllMemWonheeEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="ill_mm_wonhee_full">
             <MenuEng />
