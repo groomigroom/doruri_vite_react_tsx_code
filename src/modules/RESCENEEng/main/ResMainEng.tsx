@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../RESCENE/main/ResMain.css';
@@ -19,6 +20,8 @@ import Res_m_MemJena_img from '../../RESCENE/main/img/rescene_m_mem_Jena.jpg';
 //ffffff
 
 export default function ResMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='res_m_full'>
             <MenuEng />
