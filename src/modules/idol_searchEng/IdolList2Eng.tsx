@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../HomeEng/EngPage';
 
 import '../idol_search/IdolList.css';
 import '../idol_search/IdolList2.css';
@@ -8,6 +9,8 @@ import MenuEng from '../HomeEng/MenuEng';
 import FooterPartEng from '../FooterPartEng';
 
 export default function IdolList2Eng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="idolList2_full">
             <MenuEng />
