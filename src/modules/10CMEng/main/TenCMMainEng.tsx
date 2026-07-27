@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../10CM/main/TenCMMain.css';
@@ -12,6 +13,8 @@ import Ten_m_img from '../../10CM/main/img/10cm_m_mem_Gwonjungyeol.jpg';
 //000000
 
 export default function TenCMMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='ten_m_full'>
             <MenuEng />
