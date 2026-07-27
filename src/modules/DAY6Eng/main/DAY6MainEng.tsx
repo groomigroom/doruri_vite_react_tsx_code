@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../DAY6/main/DAY6Main.css';
@@ -17,6 +18,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 //191919
 
 export default function DAY6MainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='day_m_full'>
             <MenuEng />
