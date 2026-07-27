@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../Stray_Kids/members/StrayMemBangchan.css';
@@ -10,6 +11,8 @@ import Str_mm_bangchan_img from '../../Stray_Kids/main/img/stray_m_mem_Bangchan.
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function StrayMemBangchanEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="str_mm_bangchan_full">
             <MenuEng />
