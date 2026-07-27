@@ -1,0 +1,143 @@
+주요 콘텐츠로 이동접근성 도움말
+AI 모드
+전체
+쇼핑
+동영상
+이미지
+더보기
+
+
+
+
+import { useEffect } from 'react'; const EnglishPage = () => { useEffect(() => { // 페이지 진입 시 영어로 설정 document.documentElement.lang = 'en'; // 페이지를 나갈 때 기존 언어(ko)로 복구 return () => { document.documentElement.lang = 'ko'; }; }, []); return ( <div> <h1>Welcome to the English Page</h1> <p>This content is optimized for English speakers.</p> </div> ); }; export default EnglishPage; 위와 같이 react tsx를 작성했는데, useEffect(() => { // 페이지 진입 시 영어로 설정 document.documentElement.lang = 'en'; // 페이지를 나갈 때 기존 언어(ko)로 복구 return () => { document.documentElement.lang = 'ko'; }; }, []); 이 부분만 모듈화해서 다른 tsx 파일에 삽입하는 법?
+제공해주신 코드는 React의 커스텀 훅(Custom Hook)을 사용하면 깔끔하게 모듈화하여 여러 컴포넌트에서 재사용할 수 있습니다. 
+1. 커스텀 훅 만들기
+먼저 src/hooks 폴더(또는 원하는 위치)에 useDocumentLang.ts 파일을 생성하고 아래 코드를 작성하세요.
+typescript
+import { useEffect } from 'react';
+
+/**
+ * 페이지 진입 시 HTML의 lang 속성을 변경하고, 언마운트 시 기본 언어로 복구하는 훅
+ * @param lang 설정할 언어 코드 (예: 'en', 'ko')
+ * @param defaultLang 복구할 기본 언어 코드 (기본값: 'ko')
+ */
+export const useDocumentLang = (lang: string, defaultLang: string = 'ko') => {
+  useEffect(() => {
+    // 페이지 진입 시 언어 설정
+    document.documentElement.lang = lang;
+
+    // 페이지를 나갈 때 기존 언어로 복구
+    return () => {
+      document.documentElement.lang = defaultLang;
+    };
+  }, [lang, defaultLang]);
+};
+코드를 사용할 때는 주의가 필요합니다.
+2. 컴포넌트에서 사용하기
+이제 만든 커스텀 훅을 가져와서(import) 다음과 같이 한 줄만 추가하면 됩니다.
+tsx
+import { useDocumentLang } from './hooks/useDocumentLang'; // 경로 확인 필요
+
+const EnglishPage = () => {
+  // 커스텀 훅 적용
+  useDocumentLang('en');
+
+  return (
+    <div>
+      <h1>Welcome to the English Page</h1>
+      <p>This content is optimized for English speakers.</p>
+    </div>
+  );
+};
+
+export default EnglishPage;
+코드를 사용할 때는 주의가 필요합니다.
+💡 추가 팁: 매번 복구할 언어를 다르게 지정하고 싶다면?
+만약 어떤 페이지는 나갈 때 ko가 아니라 ja(일본어)나 zh(중국어)로 복구해야 한다면, 두 번째 인자에 해당 언어를 넘겨주면 됩니다.
+tsx
+// 나갈 때 일본어로 복구하고 싶다면
+useDocumentLang('en', 'ja'); 
+코드를 사용할 때는 주의가 필요합니다.
+모듈화 과정에서 잘 안 되거나 추가로 다국어 처리(i18n) 관련해서 궁금한 점이 있으시다면 언제든 말씀해 주세요.
+추가로 더 최적화하고 싶은 부분이 있다면 말씀해 주세요:
+프로젝트에서 기본 언어를 고정하지 않고 유동적으로 관리하는 법
+Next.js 같은 SSR 환경에서도 안전하게 작동하도록 보완하는 법
+React Helmet 같은 라이브러리를 활용한 HTML 태그 관리법
+AI 대답에는 오류가 있을 수 있습니다. 자세히 알아보기
+
+
+
+
+
+React
+자신만의 Hook 만들기 – React
+네 정확히 같은 방식으로 작동합니다. 자세히 보면 작동방식에 어떤 변화도 없다는 것을 알 수 있습니다. 바뀐...
+
+Naver Blog
+커스텀 훅으로 로직 재사용하기 : 네이버 블로그
+2026. 7. 3. — 그런데 React의 진짜 강력한 점은, 이 훅들을 조합해 나만의 훅을 만들 수 있다는 것입니다. 이번 챕터에...
+
+import { useDocumentLang } from './useDocumentLang';
+
+export default function EnglishPage = () => {
+  useDocumentLang('en', 'ko');
+
+  return (
+    <div>
+      <h1>Welcome to the English Page</h1>
+      <p>This content is optimized for English speakers.</p>
+    </div>
+  );
+};
+이런식으로 해도 되나?
+제공해주신 코드에서 export default function EnglishPage = () => { 부분은 자바스크립트/타입스크립트 문법 오류(Syntax Error)가 발생합니다.
+export default function 뒤에는 익명 함수나 일반 함수 정의가 와야 하며, 화살표 함수(= () =>)를 직접 대입할 수 없습니다.
+올바르게 작동하도록 수정하는 방법은 아래 2가지 중 하나를 선택하시면 됩니다.
+방법 1: Arrow 화살표 함수 유지 (가장 추천)
+기존 스타일을 유지하려면 const로 컴포넌트를 선언한 뒤, 하단에서 따로 export default를 해주어야 합니다.
+tsx
+import { useDocumentLang } from './useDocumentLang';
+
+const EnglishPage = () => {
+  useDocumentLang('en', 'ko');
+
+  return (
+    <div>
+      <h1>Welcome to the English Page</h1>
+      <p>This content is optimized for English speakers.</p>
+    </div>
+  );
+};
+
+export default EnglishPage; // 하단에서 내보내기
+코드를 사용할 때는 주의가 필요합니다.
+방법 2: 선언과 동시에 export default 하기
+한 줄로 처리하고 싶다면 화살표 함수 대신 일반 function 키워드를 사용해야 합니다.
+tsx
+import { useDocumentLang } from './useDocumentLang';
+
+// 한 줄로 바로 내보내기 가능
+export default function EnglishPage() {
+  useDocumentLang('en', 'ko');
+
+  return (
+    <div>
+      <h1>Welcome to the English Page</h1>
+      <p>This content is optimized for English speakers.</p>
+    </div>
+  );
+}
+코드를 사용할 때는 주의가 필요합니다.
+요약
+useDocumentLang('en', 'ko')를 호출한 구조 자체는 100% 완벽하고 올바른 사용법입니다.
+다만 export default function EnglishPage = () => 문법만 위 코드를 참고해 수정해 주세요.
+이외에 React 컴포넌트를 작성하면서 문법 오류가 헷갈리는 부분이나 컴포넌트 설계에 대해 더 궁금한 점이 있으신가요? 코드를 더 간결하게 다듬고 싶다면 말씀해 주세요!
+AI 대답에는 오류가 있을 수 있습니다. 자세히 알아보기
+
+
+
+
+무엇이든 물어보세요
+
+
+AI 모드 대답이 준비되었습니다.
