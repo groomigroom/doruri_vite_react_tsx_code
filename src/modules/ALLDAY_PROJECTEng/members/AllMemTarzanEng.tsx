@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../ALLDAY_PROJECT/members/AllMemTarzan.css';
@@ -10,6 +11,8 @@ import all_mm_tarzan_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Tarzan
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AllMemTarzanEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="all_mm_tarzan_full">
             <MenuEng />
