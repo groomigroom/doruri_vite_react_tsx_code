@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../triples/members/TriplesMemS14.css';
@@ -11,6 +12,8 @@ import Tri_mm_s14_img from '../../triples/main/img/tri_m_memS14.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TriplesMemS14Eng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="tri_mm_s14_full">
             <MenuEng />
