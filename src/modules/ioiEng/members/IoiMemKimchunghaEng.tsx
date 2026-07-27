@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemKimchungha.css';
@@ -10,6 +11,8 @@ import Ioi_m_MemKimchungha_img from '../../ioi/main/img/ioi_m_mem_Kimchungha.jpg
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IoiMemKimchunghaEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="ioi_mm_kimchungha_full">
             <MenuEng />
