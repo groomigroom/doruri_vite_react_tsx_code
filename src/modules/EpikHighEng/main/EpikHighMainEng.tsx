@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../EpikHigh/main/EpikHighMain.css';
@@ -13,6 +14,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 //#000000
 
 export default function EpikHighMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='epi_m_full'>
             <MenuEng />
