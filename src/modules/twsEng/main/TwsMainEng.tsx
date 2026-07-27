@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../tws/main/TwsMain.css';
@@ -20,6 +21,8 @@ import Tws_m_MemGyungmin_img from '../../tws/main/img/tws_m_mem_Kyungmin.jpg';
 //#ffffff
 
 export default function TwsMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='tws_m_full'>
             <MenuEng />
