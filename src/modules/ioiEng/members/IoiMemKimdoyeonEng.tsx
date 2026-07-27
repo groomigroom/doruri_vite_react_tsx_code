@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemKimdoyeon.css';
@@ -10,6 +11,8 @@ import Ioi_m_MemKimdoyeon_img from '../../ioi/main/img/ioi_m_mem_Kimdoyeon.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IoiMemKimdoyeonEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="ioi_mm_kimdoyeon_full">
             <MenuEng />
