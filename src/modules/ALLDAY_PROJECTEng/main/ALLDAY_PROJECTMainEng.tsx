@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../ALLDAY_PROJECT/main/ALLDAY_PROJECTMain.css';
@@ -18,6 +19,8 @@ import All_m_MemYoungseo_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Yo
 // #000000
 
 export default function ALLDAY_PROJECTMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='all_m_full'>
             <MenuEng />
