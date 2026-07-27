@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../10CM/members/TenMemGwonjungyeol.css';
@@ -10,6 +11,8 @@ import Ten_mm_gwonjungyeol_img from '../../10CM/main/img/10cm_m_mem_Gwonjungyeol
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TenMemGwonjungyeolEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="ten_mm_gwonjungyeol_full">
             <MenuEng />
