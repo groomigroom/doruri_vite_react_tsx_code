@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../illit/main/IllitMain.css';
@@ -19,6 +20,8 @@ import Ill_m_MemEroha_img from '../../illit/main/img/illit_m_mem_Iroha.jpg';
 //FFFFFF
 
 export default function IllitMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='ill_m_full'>
             <MenuEng />
