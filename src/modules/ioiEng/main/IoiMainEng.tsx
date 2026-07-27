@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css';
 import '../../ioi/main/IoiMain.css';
@@ -26,6 +27,8 @@ import MenuEng from '../../HomeEng/MenuEng';
 
 
 export default function IoiMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='ioi_m_full'>
             <MenuEng />
