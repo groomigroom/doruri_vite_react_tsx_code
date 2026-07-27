@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../illit/members/IllMemMoka.css';
@@ -10,6 +11,8 @@ import Ill_m_MemMoka_img from '../../illit/main/img/illit_m_mem_Moka.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IllMemMokaEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="ill_mm_moka_full">
             <MenuEng />
