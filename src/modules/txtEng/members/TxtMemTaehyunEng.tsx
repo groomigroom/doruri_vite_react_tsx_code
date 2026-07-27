@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../txt/members/TxtMemTaehyun.css';
@@ -11,6 +12,8 @@ import Txt_mm_Taehyun_img from '../../txt/main/img/txt_m_mem_taehyun.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TxtMemTaehyunEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="txt_mm_taehyun_full">
             <MenuEng />
