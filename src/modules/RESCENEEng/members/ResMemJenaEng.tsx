@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../RESCENE/members/ResMemJena.css';
@@ -10,6 +11,8 @@ import Res_mm_Jena_img from '../../RESCENE/main/img/rescene_m_mem_Jena.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function ResMemJenaEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="res_mm_jena_full">
             <MenuEng />
