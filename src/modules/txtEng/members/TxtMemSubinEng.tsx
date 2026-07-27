@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../txt/members/TxtMemSubin.css';
@@ -11,6 +12,8 @@ import Txt_mm_Subin_img from '../../txt/main/img/txt_m_mem_subin.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TxtMemSubinEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="txt_mm_subin_full">
             <MenuEng />
