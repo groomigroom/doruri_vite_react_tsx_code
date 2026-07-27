@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import "../../triples/main/TriplesMain.css";
 import "../../akmu/main/AkmuMain.css";
@@ -14,6 +15,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 import MenuEng from '../../HomeEng/MenuEng';
 
 export default function AkmuMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='akmu_m_full'>
             <MenuEng />
@@ -34,7 +37,7 @@ export default function AkmuMainEng() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/AkmuMemChanhyukEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Akmu_m_chanhyuk} alt="Lee Chanhyuk 이미지" />
+                            <img src={Akmu_m_chanhyuk} alt="Lee Chanhyuk" />
                             <div>
                                 <h4>Lee Chanhyuk</h4>
                             </div>
@@ -42,7 +45,7 @@ export default function AkmuMainEng() {
                     </Link>
                     <Link to='/AkmuMemSuhyunEng'>
                         <article className='tri_m_mem'>
-                            <img src={Akmu_m_suhyun} alt="Lee Suhyun 이미지" />
+                            <img src={Akmu_m_suhyun} alt="Lee Suhyun" />
                             <div>
                                 <h4>Lee Suhyun</h4>
                             </div>
