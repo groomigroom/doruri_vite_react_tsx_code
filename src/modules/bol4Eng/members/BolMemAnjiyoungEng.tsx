@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../bol4/members/BolMemAnjiyoung.css';
@@ -10,6 +11,8 @@ import MenuEng from '../../HomeEng/MenuEng';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BolMemAnjiyoungEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="bol_mm_anjiyoung_full">
             <MenuEng />
