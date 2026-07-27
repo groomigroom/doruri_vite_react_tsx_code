@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../DAY6/members/DayMemSungjin.css';
@@ -10,6 +11,8 @@ import Day_mm_sungjin_img from '../../DAY6/main/img/day6_m_mem_Sungjin.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function DayMemSungjinEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="day_mm_sungjin_full">
             <MenuEng />
