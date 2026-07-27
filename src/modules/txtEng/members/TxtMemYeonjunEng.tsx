@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../txt/members/TxtMemYeonjun.css';
@@ -11,6 +12,8 @@ import Txt_mm_Yeonjun_img from '../../txt/members/yeonjun/img/txt_m_mem_yeonjun_
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TxtMemYeonjunEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="txt_mm_yeonjun_full">
             <MenuEng />
