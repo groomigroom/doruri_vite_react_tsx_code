@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../RESCENE/members/ResMemWoni.css';
@@ -10,6 +11,8 @@ import Res_mm_Woni_img from '../../RESCENE/main/img/rescene_m_mem_Woni.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function ResMemWoniEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="res_mm_woni_full">
             <MenuEng />
