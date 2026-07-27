@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../illit/members/IllMemYunah.css';
@@ -10,6 +11,8 @@ import Ill_m_MemYunah_img from '../../illit/main/img/illit_m_mem_Yunah.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IllMemYunahEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="ill_mm_yunah_full">
             <MenuEng />
