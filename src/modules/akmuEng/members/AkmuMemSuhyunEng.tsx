@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../akmu/members/AkmuMemSuhyun.css';
@@ -10,6 +11,8 @@ import akmu_mm_suhyun_img from '../../akmu/main/img/aknu_m_suhyun.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AkmuMemSuhyunEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="akmu_mm_suhyun_full">
             <MenuEng />
