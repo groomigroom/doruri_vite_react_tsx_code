@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../tws/members/TwsMemSinyu.css';
@@ -10,6 +11,8 @@ import Tws_mm_sinyu_img from '../../tws/main/img/tws_m_mem_Sinyu.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TwsMemSinyuEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="tws_mm_sinyu_full">
             <MenuEng />
