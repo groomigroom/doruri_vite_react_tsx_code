@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../10CM/main/TenCMMain.css';
@@ -14,6 +15,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 //ffffff
 
 export default function Bol4MainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='bol_m_full'>
             <Menu />
@@ -47,7 +50,7 @@ export default function Bol4MainEng() {
     );
 };
 
-
+//before 페이지도 하기...
 
 
 
