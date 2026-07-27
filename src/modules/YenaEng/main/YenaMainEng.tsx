@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../Yena/main/YenaMain.css';
@@ -12,6 +13,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 //000000
 
 export default function YenaMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='yen_m_full'>
             <MenuEng />
