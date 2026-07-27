@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../txt/main/TxtMain.css';
@@ -17,6 +18,8 @@ import Txt_m_memTaehyun from '../../txt/main/img/txt_m_mem_taehyun.jpg';
 import Txt_m_memHueningkai from '../../txt/main/img/txt_m_mem_hueningkai.jpg';
 
 export default function TxtMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='txt_m_full'>
             <MenuEng />
