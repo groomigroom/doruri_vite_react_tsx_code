@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../aespa/main/AespaMain.css';
@@ -18,6 +19,8 @@ import Aes_m_MemNingning_img from '../../aespa/main/img/aespa_m_mem_Ningning.jpg
 //ffffff
 
 export default function AespaMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='aes_m_full'>
             <MenuEng />
