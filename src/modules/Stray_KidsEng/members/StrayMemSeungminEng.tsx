@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../Stray_Kids/members/StrayMemSeungmin.css';
@@ -11,6 +12,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 
 export default function StrayMemSeungminEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="str_mm_seungmin_full">
             <MenuEng />
