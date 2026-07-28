@@ -1,5 +1,129 @@
-import 
+import { Link } from 'react-router-dom';
+
+import '../../../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
+import './TxtMemYeonjunNOLABELSPART01Album.css';
+
+import Menu from '../../../../Menu';
+
 
 export default function TxtMemYeonjunNOLABELSPART01Album() {
-    <div></div>
+    <div className='txt_mm_yeonjun_NOLABELSPART01Album_full'>
+        <Menu />
+        <section className="home_translate">
+            <Link to='/TxtMemYeonjunNOLABELSPART01Album' className="on">한국어</Link>
+            <Link to='/TxtMemYeonjunNOLABELSPART01AlbumEng'>English</Link>
+        </section>
+        <h2>NO LABELS: PART 01</h2>
+        <p>
+            타이틀곡 &apos;Talk to You&apos;,<br />
+            작사 및 작곡 참여해<br />
+            &apos;연준 코어&apos;를 준비했어요!
+        </p>
+        <img src="" alt="" />
+        <table>
+            <tbody>
+                <tr>
+                    <td>발매일</td>
+                    <td>2025.11.07.</td>
+                </tr>
+                <tr>
+                    <td>장르</td>
+                    <td>랩/힙합, R&B/Soul, 록/메탈</td>
+                </tr>
+                <tr>
+                    <td>기획사</td>
+                    <td>BIGHIT MUSIC</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>▪ 곡 목록 ▪</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>
+                            번호
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            제목
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            1
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Talk to You
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            2
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Forever
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            3
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Let Me Tell You &#40;feat. Daniela of KATSEYE&#41;
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            4
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Do It
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            5
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Nothin&apos; &apos;Bout Me
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            6
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Coma
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 }
