@@ -5,6 +5,8 @@ import './TxtMemYeonjunNOLABELSPART01Album.css';
 
 import Menu from '../../../../Menu';
 
+import MainH2deco from '../../../../img/main_h2_deco.png';
+
 
 export default function TxtMemYeonjunNOLABELSPART01Album() {
     <div className='txt_mm_yeonjun_NOLABELSPART01Album_full'>
@@ -13,14 +15,14 @@ export default function TxtMemYeonjunNOLABELSPART01Album() {
             <Link to='/TxtMemYeonjunNOLABELSPART01Album' className="on">한국어</Link>
             <Link to='/TxtMemYeonjunNOLABELSPART01AlbumEng'>English</Link>
         </section>
-        <h2>NO LABELS: PART 01</h2>
-        <p>
+        <h2 className='txt_mm_yeonjun_NOLABELSPART01Album_h2 txt_mm_yeonjun_NOLABELSPART01Album_h2_1'><img src={MainH2deco} alt="연준 앨범 꾸미기" />NO LABELS: PART 01<img src={MainH2deco} alt="연준 앨범 꾸미기" /></h2>
+        <p className='txt_mm_yeonjun_NOLABELSPART01Album_intropp'>
             타이틀곡 &apos;Talk to You&apos;,<br />
             작사 및 작곡 참여해<br />
             &apos;연준 코어&apos;를 준비했어요!
         </p>
-        <img src="" alt="" />
-        <table>
+        <img src="" alt="" className='txt_mm_yeonjun_NOLABELSPART01Album_img' />
+        <table className='txt_mm_yeonjun_NOLABELSPART01Album_intropa_tb1'>
             <tbody>
                 <tr>
                     <td>발매일</td>
