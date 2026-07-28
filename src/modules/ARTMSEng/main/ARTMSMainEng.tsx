@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../ARTMS/main/ARTMSMain.css';
@@ -19,6 +20,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 //ffffff
 
 export default function ARTMSMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='art_m_full'>
             <MenuEng />
