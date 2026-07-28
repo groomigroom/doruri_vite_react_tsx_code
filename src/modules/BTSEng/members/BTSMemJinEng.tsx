@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../BTS/members/BTSMemJin.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 //import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
 
@@ -60,7 +61,7 @@ export default function BTSMemJinEng() {
                 </tbody>
             </table>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ BIGHIT MUSIC' />
         </div>
     );
 };
