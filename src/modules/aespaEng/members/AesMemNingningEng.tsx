@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../aespa/members/AesMemNingning.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import aes_mm_ningning_img from '../../aespa/main/img/aespa_m_mem_Ningning.jpg';
 
@@ -68,9 +69,8 @@ export default function AesMemNingningEng() {
                 </tbody>
             </table>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ SM ENTERTAINMENT' />
         </div>
     );
 
 };
-
