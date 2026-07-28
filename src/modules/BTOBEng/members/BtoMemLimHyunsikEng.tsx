@@ -4,7 +4,8 @@ import { EngPage } from '../../HomeEng/EngPage';
 import '../../triples/members/TriplesMemS1.css';
 import '../../BTOB/members/BtoMemLimHyunsik.css';
 
-import Menu from '../../Menu';
+import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
 
@@ -15,7 +16,7 @@ export default function BtoMemLimHyunsikEng() {
 
     return (
         <div className="bto_mm_limhyunsik_full">
-            <Menu />
+            <MenuEng />
             <section className="home_translate">
                 <Link to='/BtoMemLimHyunsik'>한국어</Link>
                 <Link to='/BtoMemLimHyunsikEng' className="on">English</Link>
@@ -65,8 +66,7 @@ export default function BtoMemLimHyunsikEng() {
                 </tbody>
             </table>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ BTOB Company' />
         </div>
     );
 };
-
