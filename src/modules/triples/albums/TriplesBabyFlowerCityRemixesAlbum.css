@@ -47,3 +47,13 @@
     transform: translateX(-50%);
     border: 5px solid #191919;
 }
+
+.tri_BabyFlowerCityRemixesAlbum_tb1 {
+    width: 400px;
+    height: 150px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 543px;
+    left: 50%;
+    transform: translateX(-50%);
+}
