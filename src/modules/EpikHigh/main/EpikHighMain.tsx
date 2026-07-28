@@ -77,9 +77,7 @@ export default function EpikHighMain() {
                 </section>
 
             </section>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 아워즈' />
         </div >
     );
 };
-
-
