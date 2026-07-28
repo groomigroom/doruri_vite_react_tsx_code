@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../tws/members/TwsMemJihun.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Tws_mm_jihun_img from '../../tws/main/img/tws_m_mem_Jihun.jpg';
 
@@ -58,8 +59,7 @@ export default function TwsMemJihunEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ PLEDIS Entertainment' />
         </div>
     );
 };
-
