@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../Stray_Kids/main/StrayKidsMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Str_m_logo from '../../Stray_Kids/main/img/Str_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -118,6 +119,7 @@ export default function StrayKidsMainEng() {
                     </Link>
                 </section>
             </section>
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 };
