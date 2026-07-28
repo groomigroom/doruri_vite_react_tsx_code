@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../idntt/members/Idn_m_memid20.css';
 
@@ -9,6 +10,8 @@ import MenuEng from '../../HomeEng/MenuEng';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function Idn_m_memid20Eng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="idn_mm_id20_full">
             <MenuEng />
