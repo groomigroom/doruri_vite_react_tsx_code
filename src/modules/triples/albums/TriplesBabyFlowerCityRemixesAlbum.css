@@ -37,3 +37,13 @@
 }
 
 /* 63px */
+
+.tri_BabyFlowerCityRemixesAlbum_img {
+    height: 200px;
+    border-radius: 25px;
+    position: absolute;
+    top: 303px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #191919;
+}
