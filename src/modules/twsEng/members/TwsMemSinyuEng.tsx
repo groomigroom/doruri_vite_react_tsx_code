@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../tws/members/TwsMemSinyu.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Tws_mm_sinyu_img from '../../tws/main/img/tws_m_mem_Sinyu.jpg';
 
@@ -58,8 +59,7 @@ export default function TwsMemSinyuEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ PLEDIS Entertainment' />
         </div>
     );
 };
-
