@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ALLDAY_PROJECT/members/AllMemWoochan.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import all_mm_woochan_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Woochan.jpg';
 
@@ -58,7 +59,7 @@ export default function AllMemWoochanEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ THEBLACKLABEL' />
         </div>
     );
 }
