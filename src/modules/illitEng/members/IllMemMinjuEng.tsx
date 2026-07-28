@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../illit/members/IllMemMinju.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ill_m_MemMinju_img from '../../illit/main/img/illit_m_mem_Minju.jpg';
 
@@ -67,10 +68,7 @@ export default function IllMemMinjuEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ BE:LIFT LAB' />
         </div>
     );
 };
-
-
-
