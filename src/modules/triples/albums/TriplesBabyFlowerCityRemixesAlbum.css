@@ -135,16 +135,16 @@
     height: 450px;
     border-collapse: collapse;
     position: absolute;
-    top: 543px;
+    top: 793px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.tri_BabyFlowerCityRemixesAlbum_tb1>tbody>tr {
+.tri_BabyFlowerCityRemixesAlbum_tb2>tbody>tr {
     position: relative;
 }
 
-.tri_BabyFlowerCityRemixesAlbum_tb1>tbody>tr>td:first-child {
+.tri_BabyFlowerCityRemixesAlbum_tb2>tbody>tr>td:first-child {
     position: absolute;
     width: 115px;
     height: 50px;
@@ -158,7 +158,7 @@
 
 }
 
-.tri_BabyFlowerCityRemixesAlbum_tb1>tbody>tr>td:first-child>p {
+.tri_BabyFlowerCityRemixesAlbum_tb2>tbody>tr>td:first-child>p {
     position: absolute;
     top: 50%;
     left: 10px;
@@ -169,7 +169,7 @@
 
 /* 좌우 15이상 되게 */
 
-.tri_BabyFlowerCityRemixesAlbum_tb1>tbody>tr>td:last-child {
+.tri_BabyFlowerCityRemixesAlbum_tb2>tbody>tr>td:last-child {
     width: 285px;
     height: 50px;
     position: absolute;
@@ -179,26 +179,26 @@
     border-right: 5px solid #333;
 }
 
-.tri_BabyFlowerCityRemixesAlbum_tb1>tbody>tr>td:last-child>p {
+.tri_BabyFlowerCityRemixesAlbum_tb2>tbody>tr>td:last-child>p {
     position: absolute;
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
 }
 
-.tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1>td:first-child {
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1>td:first-child {
     border-top-left-radius: 15px;
 }
 
-.tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1>td:last-child {
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1>td:last-child {
     border-top-right-radius: 15px;
 }
 
-.tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3>td:first-child {
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9>td:first-child {
     border-bottom-left-radius: 15px;
 }
 
-.tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3>td:last-child {
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9>td:last-child {
     border-bottom-right-radius: 15px;
     border-bottom: 5px solid #333;
 }
