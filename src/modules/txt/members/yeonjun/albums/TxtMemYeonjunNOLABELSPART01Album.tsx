@@ -1,1 +1,5 @@
-TxtMemYeonjunNOLABELSPART01Album.tsx
+import 
+
+export default function TxtMemYeonjunNOLABELSPART01Album() {
+    <div></div>
+}
