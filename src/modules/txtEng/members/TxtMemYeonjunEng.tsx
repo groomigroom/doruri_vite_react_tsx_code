@@ -69,7 +69,7 @@ export default function TxtMemYeonjunEng() {
                 </tbody>
             </table>
             <Link to='/TxtMemYeonjun_7_22_endEng' className='tri_mm_s1_before_links'>see before page?</Link>
-            <FooterPartEng />
+            <FooterPartEng FooterPartEngText='ⓒ BIGHIT MUSIC' />
         </div>
     );
 }
