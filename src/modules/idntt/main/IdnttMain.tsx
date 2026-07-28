@@ -470,12 +470,10 @@ export default function IdnttMain() {
                 <h3>트리플에스 유튜브</h3>
             </a>
             <Link to="/TriplesEvent" className='tri_m_e'>이벤트</Link>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div >
     );
 };
 
 
-idntt??와 함께
-Grow up
-grow up!
+
