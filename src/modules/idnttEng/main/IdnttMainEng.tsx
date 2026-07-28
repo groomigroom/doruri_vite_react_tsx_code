@@ -9,7 +9,8 @@ import '../../idntt/main/IdnttMain.css';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
-import Menu from '../../Menu';
+import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Idn_m_memid1 from './img/tri_m_memS1.jpg';
 // import Idn_m_memid2 from './img/tri_m_memS2.jpg';
@@ -41,7 +42,7 @@ export default function IdnttMainEng() {
 
     return (
         <div className='idn_m_full'>
-            <Menu />
+            <MenuEng />
             <section className="home_translate">
                 <Link to='/IdnttMain'>한국어</Link>
                 <Link to='/IdnttMainEng' className="on">English</Link>
@@ -312,11 +313,7 @@ export default function IdnttMainEng() {
                 <h3>트리플에스 유튜브</h3>
             </a>
             <Link to="/TriplesEvent" className='tri_m_e'>이벤트</Link>
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div >
     );
 };
-
-
-
-
-
