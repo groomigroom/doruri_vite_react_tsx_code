@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../aespa/main/AespaMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Aes_m_logo from '../../aespa/main/img/Aes_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -82,9 +83,7 @@ export default function AespaMainEng() {
 
             </section>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ SM ENTERTAINMENT' />
         </div>
     );
 };
-
-
