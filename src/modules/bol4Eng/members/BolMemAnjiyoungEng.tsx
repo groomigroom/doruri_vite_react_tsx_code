@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../bol4/members/BolMemAnjiyoung.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
 
@@ -54,10 +55,8 @@ export default function BolMemAnjiyoungEng() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPartEng FooterPartEngText='ⓒ Kanverse' />
         </div>
     );
 
 };
-
-
-
