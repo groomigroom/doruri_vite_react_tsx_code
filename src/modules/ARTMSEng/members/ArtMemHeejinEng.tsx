@@ -4,7 +4,8 @@ import { EngPage } from '../../HomeEng/EngPage';
 import '../../triples/members/TriplesMemS1.css';
 import '../../ARTMS/members/ArtMemHeejin.css';
 
-import Menu from '../../Menu';
+import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Art_mm_Heejin_img from '../main/img/tri_m_memS1.jpg';
 
@@ -15,7 +16,7 @@ export default function ArtMemHeejinEng() {
 
     return (
         <div className="art_mm_heejin_full">
-            <Menu />
+            <MenuEng />
             <section className="home_translate">
                 <Link to='/ArtMemHeejin' className="on">한국어</Link>
                 <Link to='/ArtMemHeejinEng'>English</Link>
@@ -64,10 +65,7 @@ export default function ArtMemHeejinEng() {
                 </tbody>
             </table>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div>
     );
 };
-
-
-
