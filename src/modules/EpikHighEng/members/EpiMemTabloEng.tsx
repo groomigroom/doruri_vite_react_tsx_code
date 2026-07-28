@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../EpikHigh/members/EpiMemTablo.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
 
@@ -50,8 +51,7 @@ export default function EpiMemTabloEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ Ours' />
         </div>
     );
 };
-
