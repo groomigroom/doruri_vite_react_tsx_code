@@ -15,16 +15,16 @@ export default function TxtMemYeonjunNOLABELSPART01Album() {
             <Link to='/TxtMemYeonjunNOLABELSPART01Album' className="on">한국어</Link>
             <Link to='/TxtMemYeonjunNOLABELSPART01AlbumEng'>English</Link>
         </section>
-        <h2 className='txt_mm_yeonjun_NOLABELSPART01Album_h2 txt_mm_yeonjun_NOLABELSPART01Album_h2_1'><img src={MainH2deco} alt="연준 앨범 꾸미기" />NO LABELS: PART 01<img src={MainH2deco} alt="연준 앨범 꾸미기" /></h2>
-        <p className='txt_mm_yeonjun_NOLABELSPART01Album_intropp'>
+        <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="연준 앨범 꾸미기" />NO LABELS: PART 01<img src={MainH2deco} alt="연준 앨범 꾸미기" /></h2>
+        <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
             타이틀곡 &apos;Talk to You&apos;,<br />
             작사 및 작곡 참여해<br />
             &apos;연준 코어&apos;를 준비했어요!
         </p>
-        <img src="" alt="" className='txt_mm_yeonjun_NOLABELSPART01Album_img' />
-        <table className='txt_mm_yeonjun_NOLABELSPART01Album_intropa_tb1'>
+        <img src="" alt="" className='tri_BabyFlowerCityRemixesAlbum_img' />
+        <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
             <tbody>
-                <tr>
+                <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
                     <td>발매일</td>
                     <td>2025.11.07.</td>
                 </tr>
@@ -32,7 +32,7 @@ export default function TxtMemYeonjunNOLABELSPART01Album() {
                     <td>장르</td>
                     <td>랩/힙합, R&B/Soul, 록/메탈</td>
                 </tr>
-                <tr>
+                <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
                     <td>기획사</td>
                     <td>BIGHIT MUSIC</td>
                 </tr>
