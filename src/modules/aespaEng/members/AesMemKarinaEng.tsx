@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../aespa/members/AesMemKarina.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import aes_mm_karina_img from '../../aespa/main/img/aespa_m_mem_Karina.jpg';
 
@@ -67,9 +68,8 @@ export default function AesMemKarinaEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ SM ENTERTAINMENT' />
         </div>
     );
 
 };
-
