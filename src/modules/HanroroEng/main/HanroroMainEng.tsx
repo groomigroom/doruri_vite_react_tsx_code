@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../Hanroro/main/HanroroMain.css';
@@ -12,6 +13,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 //color code
 
 export default function HanroroMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='han_m_full'>
             <MenuEng />
