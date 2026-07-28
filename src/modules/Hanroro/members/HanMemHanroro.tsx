@@ -62,8 +62,8 @@ export default function HanMemHanroro() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ authentic' />
 
         </div>
     );
-};
+}; 
