@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../tws/members/TwsMemHanjin.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Tws_m_MemHanjin_img from '../../tws/main/img/tws_m_mem_Hanjin.jpg';
 
@@ -58,8 +59,7 @@ export default function TwsMemHanjinEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ PLEDIS Entertainment' />
         </div>
     );
 };
-
