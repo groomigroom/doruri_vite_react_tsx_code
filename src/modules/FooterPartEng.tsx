@@ -1,10 +1,13 @@
 import './FooterPart.css';
 
-export default function FooterPartEng() {
+interface FooterPartEngProps {
+    FooterPartEngText: string;
+}
+
+export default function FooterPartEng({ FooterPartEngText }: FooterPartEngProps) {
     return (
         <div className="footerpart_full">
-            <p>part companies</p>
-            <p>c Doruri</p>
+            <p className='FooterPart_company_pp'>{FooterPartEngText}</p>
         </div>
     );
 };
