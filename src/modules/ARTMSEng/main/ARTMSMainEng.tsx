@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../ARTMS/main/ARTMSMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Res_m_logo from './img/Res_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -89,12 +90,7 @@ export default function ARTMSMainEng() {
 
             </section>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div>
     );
 };
-
-
-
-
-
