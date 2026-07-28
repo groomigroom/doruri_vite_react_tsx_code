@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ARTMS/members/ArtMemKimlip.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Art_mm_Heejin_img from '../main/img/tri_m_memS1.jpg';
 
@@ -64,14 +65,7 @@ export default function ArtMemKimlipEng() {
                 </tbody>
             </table>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div>
     );
 };
-
-
-
-
-
-
-
