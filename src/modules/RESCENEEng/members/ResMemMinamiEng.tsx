@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../RESCENE/members/ResMemMinami.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Res_mm_Minami_img from '../../RESCENE/main/img/rescene_m_mem_Minami.jpg';
 
@@ -67,10 +68,8 @@ export default function ResMemMinamiEng() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPartEng FooterPartEngText='ⓒ THE MUZE ENTERTAINMENT' />
         </div>
     );
 
 };
-
-
-
