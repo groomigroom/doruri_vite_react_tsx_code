@@ -83,7 +83,7 @@ export default function TxtMainEng() {
                 </section>
             </section>
             <Link to="/TxtEvent">이벤트</Link>
-            <FooterPartEng />
+            <FooterPartEng FooterPartEngText='ⓒ BIGHIT MUSIC' />
         </div>
     );
 };
