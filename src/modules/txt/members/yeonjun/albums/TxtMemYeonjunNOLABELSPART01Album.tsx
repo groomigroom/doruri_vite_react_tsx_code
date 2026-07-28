@@ -22,7 +22,7 @@ export default function TxtMemYeonjunNOLABELSPART01Album() {
                 작사 및 작곡 참여해<br />
                 &apos;연준 코어&apos;를 준비했어요!
             </p>
-            <img src="" alt="" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src="" alt="NO LABELS: PART 01" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
