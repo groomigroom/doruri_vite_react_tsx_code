@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css';
 import '../../idntt/main/IdnttMain.css';
@@ -36,6 +37,8 @@ import Menu from '../../Menu';
 // import Idn_m_memid24 from './img/tri_m_memS24.jpg';
 
 export default function IdnttMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='idn_m_full'>
             <Menu />
