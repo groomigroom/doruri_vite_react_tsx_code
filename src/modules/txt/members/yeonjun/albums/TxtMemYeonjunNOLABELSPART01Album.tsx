@@ -4,6 +4,7 @@ import '../../../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './TxtMemYeonjunNOLABELSPART01Album.css';
 
 import Menu from '../../../../Menu';
+import FooterPart from '../../../../FooterPart';
 
 import MainH2deco from '../../../../img/main_h2_deco.png';
 
@@ -63,7 +64,7 @@ export default function TxtMemYeonjunNOLABELSPART01Album() {
                     </tr>
                 </tbody>
             </table>
-            <h2>▪ 곡 목록 ▪</h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
             <table className='tri_BabyFlowerCityRemixesAlbum_tb2 txt_mm_yeonjun_NOLABELSPART01Album_tb2'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
@@ -152,6 +153,7 @@ export default function TxtMemYeonjunNOLABELSPART01Album() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPart FooterPartText='ⓒ 빅히트 뮤직' />
         </div>
     );
 }
