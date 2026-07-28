@@ -39,7 +39,7 @@ export default function BolMemAnjiyoungEng() {
                     </tr>
                     <tr>
                         <td><p>blood type</p></td>
-                        <td><p>A형</p></td>
+                        <td><p>A</p></td>
                     </tr>
                     <tr>
                         <td><p>position</p></td>
