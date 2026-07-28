@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ARTMS/members/ArtMemJinsoul.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Art_mm_JinSoul_img from '../main/img/tri_m_memS1.jpg';
 
@@ -64,9 +65,7 @@ export default function ArtMemJinsoulEng() {
                 </tbody>
             </table>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div>
     );
 };
-
-
