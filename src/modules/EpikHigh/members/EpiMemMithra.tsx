@@ -42,7 +42,7 @@ export default function EpiMemMithra() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 아워즈' />
         </div>
     );
 };
