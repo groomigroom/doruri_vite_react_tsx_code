@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../illit/members/IllMemWonhee.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ill_m_MemWonhee_img from '../../illit/main/img/illit_m_mem_Wonhee.jpg';
 
@@ -67,8 +68,7 @@ export default function IllMemWonheeEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ BE:LIFT LAB' />
         </div>
     );
 };
-
