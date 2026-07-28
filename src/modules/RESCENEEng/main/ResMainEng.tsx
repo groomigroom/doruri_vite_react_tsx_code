@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../RESCENE/main/ResMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Res_m_logo from '../../RESCENE/main/img/Res_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -89,10 +90,7 @@ export default function ResMainEng() {
 
             </section>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ THE MUZE ENTERTAINMENT' />
         </div>
     );
 };
-
-
-
