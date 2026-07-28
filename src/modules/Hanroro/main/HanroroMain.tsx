@@ -54,7 +54,7 @@ export default function HanroroMain() {
                 </section>
             </section>
 
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ authentic' />
         </div>
     );
 };
