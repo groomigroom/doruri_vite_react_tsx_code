@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../BTS/main/BTSMain.css';
@@ -22,6 +23,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 
 export default function BTSMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='bts_m_full'>
             <MenuEng />
