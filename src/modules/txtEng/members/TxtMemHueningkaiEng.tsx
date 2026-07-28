@@ -68,7 +68,7 @@ export default function TxtMemHueningkaiEng() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPartEng />
+            <FooterPartEng FooterPartEngText='ⓒ BIGHIT MUSIC' />
         </div>
     );
 }
