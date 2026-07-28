@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../tws/main/TwsMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Tws_m_logo from '../../tws/main/img/Tws_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -91,15 +92,10 @@ export default function TwsMainEng() {
                             </div>
                         </article>
                     </Link>
-
                 </section>
-
-
             </section>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ PLEDIS Entertainment' />
         </div>
     );
 };
-
-
