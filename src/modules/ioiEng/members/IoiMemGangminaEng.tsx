@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemGangmina.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ioi_m_MemGangmina_img from '../../ioi/main/img/ioi_m_mem_Gangmina.jpg';
 
@@ -54,7 +55,7 @@ export default function IoiMemGangminaEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ StoryJCompany' />
         </div>
     );
 };
