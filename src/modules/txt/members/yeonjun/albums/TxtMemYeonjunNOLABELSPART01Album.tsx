@@ -39,9 +39,9 @@ export default function TxtMemYeonjunNOLABELSPART01Album() {
             </tbody>
         </table>
         <h2>▪ 곡 목록 ▪</h2>
-        <table>
+        <table className='tri_BabyFlowerCityRemixesAlbum_tb2 txt_mm_yeonjun_NOLABELSPART01Album_tb2'>
             <tbody>
-                <tr>
+                <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                     <td>
                         <p>
                             번호
@@ -113,7 +113,7 @@ export default function TxtMemYeonjunNOLABELSPART01Album() {
                         </p>
                     </td>
                 </tr>
-                <tr>
+                <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
                     <td>
                         <p>
                             6
