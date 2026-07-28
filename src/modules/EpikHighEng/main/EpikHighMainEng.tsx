@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../EpikHigh/main/EpikHighMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import EpikHigh_m_logo from '../../EpikHigh/main/img/EpikHigh_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -52,11 +53,7 @@ export default function EpikHighMainEng() {
 
             </section>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ Ours' />
         </div>
     );
 };
-
-
-
-
