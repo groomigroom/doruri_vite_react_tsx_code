@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemJeonsomi.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ioi_m_MemJeonsomi_img from '../../ioi/main/img/ioi_m_mem_Jeonsomi.jpg';
 
@@ -54,7 +55,7 @@ export default function IoiMemJeonsomiEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ THEBLACKLABEL' />
         </div>
     );
 };
