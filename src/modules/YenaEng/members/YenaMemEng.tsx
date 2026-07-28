@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../Yena/members/YenaMem.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Yen_mm_yena_img from '../main/img/10cm_m_mem_Gwonjungyeol.jpg';
 
@@ -67,12 +68,8 @@ export default function YenaMemEng() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPartEng FooterPartEngText='ⓒ YH Entertainment' />
         </div>
     );
 
 };
-
-
-
-
-
