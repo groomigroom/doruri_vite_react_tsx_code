@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../RESCENE/members/ResMemWoni.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Res_mm_Woni_img from '../../RESCENE/main/img/rescene_m_mem_Woni.jpg';
 
@@ -67,6 +68,7 @@ export default function ResMemWoniEng() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPartEng FooterPartEngText='ⓒ THE MUZE ENTERTAINMENT' />
         </div>
     );
 
