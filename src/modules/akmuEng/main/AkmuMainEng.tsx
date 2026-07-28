@@ -13,6 +13,7 @@ import Akmu_m_suhyun from '../../akmu/main/img/aknu_m_suhyun.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 export default function AkmuMainEng() {
     EngPage('en', 'ko');
@@ -55,6 +56,7 @@ export default function AkmuMainEng() {
             </section>
 
             <Link to='/AkmuEvent'>이벤트로 가기</Link>
+            <FooterPartEng FooterPartEngText='ⓒ Cemter of Inspiration' />
         </div>
     );
 };
