@@ -60,7 +60,7 @@ export default function Idn_m_memid9() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
 
         </div>
     );
