@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ALLDAY_PROJECT/members/AllMemAnnie.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import all_mm_annie_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Annie.jpg';
 
@@ -58,7 +59,7 @@ export default function AllMemAnnieEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ THEBLACKLABEL' />
         </div>
     );
 }
