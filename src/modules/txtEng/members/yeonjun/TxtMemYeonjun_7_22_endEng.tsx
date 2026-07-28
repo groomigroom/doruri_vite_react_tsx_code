@@ -65,7 +65,7 @@ export default function TxtMemYeonjun_7_22_endEng() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPartEng />
+            <FooterPartEng FooterPartEngText='ⓒ BIGHIT MUSIC' />
         </div>
     );
 }
