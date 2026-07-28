@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../10CM/members/TenMemGwonjungyeol.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ten_mm_gwonjungyeol_img from '../../10CM/main/img/10cm_m_mem_Gwonjungyeol.jpg';
 
@@ -67,10 +68,8 @@ export default function TenMemGwonjungyeolEng() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPartEng FooterPartEngText='ⓒ CAM WITH US' />
         </div>
     );
 
 };
-
-
-
