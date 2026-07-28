@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemImnayoung.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ioi_m_MemImnayoung_img from '../../ioi/main/img/ioi_m_mem_Imnayoung.jpg';
 
@@ -55,7 +56,7 @@ export default function IoiMemImnayoungEng() {
                 </tbody>
             </table>
 
-
+            <FooterPartEng FooterPartEngText='Independent' />
         </div>
     );
 };
