@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../Yena/main/YenaMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Ten_m_logo from './img/TenCM_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -46,12 +47,7 @@ export default function YenaMainEng() {
 
             </section>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ YH Entertainment' />
         </div>
     );
 };
-
-
-
-
-
