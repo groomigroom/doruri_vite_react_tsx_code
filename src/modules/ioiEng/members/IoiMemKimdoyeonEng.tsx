@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemKimdoyeon.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ioi_m_MemKimdoyeon_img from '../../ioi/main/img/ioi_m_mem_Kimdoyeon.jpg';
 
@@ -54,7 +55,7 @@ export default function IoiMemKimdoyeonEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ Fantagio' />
         </div>
     );
 };
