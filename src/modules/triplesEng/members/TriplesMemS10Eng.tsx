@@ -70,10 +70,8 @@ export default function TriplesMemS10Eng() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPartEng />
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div>
     );
 
 };
-
-
