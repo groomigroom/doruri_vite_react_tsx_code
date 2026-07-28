@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../illit/main/IllitMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ill_m_logo from '../../illit/main/img/Ill_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -88,10 +89,7 @@ export default function IllitMainEng() {
 
 
             </section>
-
+            <FooterPartEng FooterPartEngText='ⓒ BE:LIFT LAB' />
         </div>
     );
 };
-
-
-
