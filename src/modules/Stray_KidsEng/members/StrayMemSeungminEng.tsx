@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../Stray_Kids/members/StrayMemSeungmin.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Str_mm_seungmin_img from '../../Stray_Kids/main/img/stray_m_mem_Seungmin.jpg';
 
@@ -68,8 +69,7 @@ export default function StrayMemSeungminEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 }
-
