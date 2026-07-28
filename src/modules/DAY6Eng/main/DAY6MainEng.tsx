@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../DAY6/main/DAY6Main.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Day_m_logo from '../../DAY6/main/img/Day_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -63,13 +64,10 @@ export default function DAY6MainEng() {
                         </article>
                     </Link>
 
-
                 </section>
 
-
             </section>
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 };
-
-
