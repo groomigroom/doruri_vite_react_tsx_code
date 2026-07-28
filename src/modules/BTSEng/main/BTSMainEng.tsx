@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../BTS/main/BTSMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 //import Str_m_logo from './img/Str_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -110,6 +111,7 @@ export default function BTSMainEng() {
 
                 </section>
             </section>
+            <FooterPartEng FooterPartEngText='ⓒ BIGHIT MUSIC' />
         </div>
     );
 };
