@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../DAY6/members/DayMemWonpil.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Day_mm_wonpil_img from '../../DAY6/main/img/day6_m_mem_Wonpil.jpg';
 
@@ -68,9 +69,8 @@ export default function DayMemWonpilEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 
 };
-
