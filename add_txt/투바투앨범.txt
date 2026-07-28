@@ -2,8 +2,50 @@
 
 별의 장: TOGETHER
 투모로우바이투게더
-발매일2025.07.21장르록/메탈, 댄스, R&B/Soul, 랩/힙합발매사YG PLUS기획사BIGHIT MUSIC
+발매일
 
+장르
+
+발매사YG PLUS기획사
+
+<tr>
+<td>
+<p>
+발매일
+</p>
+</td>
+<td>
+<p>
+2025.07.21.
+</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+장르
+</p>
+</td>
+<td>
+<p>
+록/메탈, 댄스, R&B/Soul, 랩/힙합
+</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+기획사
+</p>
+</td>
+<td>
+<p>
+BIGHIT MUSIC
+</p>
+</td>
+</tr>
 
 곡정보
 좋아요
@@ -12,105 +54,161 @@
 다운
 뮤비
 
+<tr>
+<td>
+<p>
+번호
+</p>
+</td>
+<td>
+<p>
+제목
+</p>
+</td>
+</tr>
 
-
-
+<tr>
+<td>
+<p>
+1
+</p>
+</td>
+<td>
+<p>
+Upside Down Kiss
+</p>
+</td>
+</tr>
 
 1
-
-Upside Down Kiss
 
 투모로우바이투게더
 좋아요 21,068
 
-
-
-
-
+<tr>
+<td>
+<p>
+2
+</p>
+</td>
+<td>
+<p>
+Beautiful Strangers
+</p>
+</td>
+</tr>
 
 2
-
-Beautiful Strangers
 
 투모로우바이투게더
 좋아요 27,163
 
-
-
-
-
+<tr>
+<td>
+<p>
+3
+</p>
+</td>
+<td>
+<p>
+Ghost Girl
+</p>
+</td>
+</tr>
 
 3
-
-Ghost Girl
 
 투모로우바이투게더
 좋아요 39,317
 
-
-
-
-
+<tr>
+<td>
+<p>
+4
+</p>
+</td>
+<td>
+<p>
+Sunday Driver
+</p>
+</td>
+</tr>
 
 4
-
-Sunday Driver
 
 투모로우바이투게더
 좋아요 29,157
 
-
-
-
-
+<tr>
+<td>
+<p>
+5
+</p>
+</td>
+<td>
+<p>
+Dance With You
+</p>
+</td>
+</tr>
 
 5
-
-Dance With You
 
 투모로우바이투게더
 좋아요 17,811
 
-
-
-
-
+<tr>
+<td>
+<p>
+6
+</p>
+</td>
+<td>
+<p>
+Take My Half
+</p>
+</td>
+</tr>
 
 6
-
-Take My Half
 
 투모로우바이투게더
 좋아요 23,008
 
-
-
-
-
+<tr>
+<td>
+<p>
+7
+</p>
+</td>
+<td>
+<p>
+Bird of Night
+</p>
+</td>
+</tr>
 
 7
-
-Bird of Night
 
 투모로우바이투게더
 좋아요 19,052
 
-
-
-
-
+<tr>
+<td>
+<p>
+8
+</p>
+</td>
+<td>
+<p>
+별의 노래
+</p>
+</td>
+</tr>
 
 8
 
-별의 노래
-
 투모로우바이투게더
-
-
-
-
-
-
 
 앨범은 진정한 ‘함께’의 의미에 대해 말한다. 세상이 뒤집혀도 너와 함께하는 마음(‘Upside Down Kiss’), 널 구원할 힘을 깨닫고 같이 세상으로 나아가겠다는 의지(‘Beautiful Strangers’), 너에게 기꺼이 빠져들겠다는 치명적인 사랑(‘Ghost Girl’), 둘만의 여유로운 시간(‘Sunday Driver’), 너를 이해하고 닮고 싶은 마음(‘Dance With You’), 나눔으로써 채우는 행복(‘Take My Half’), 잠 못 드는 밤에도 내일로 나아가자는 응원(‘Bird of Night’), 함께라서 비로소 깨닫는 행복(‘별의 노래’)까지. 투모로우바이투게더가 생각하는 ‘함께’의 모양과 의미를 음악에 담았다.
 
@@ -122,11 +220,51 @@ Bird of Night
 
 7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때
 투모로우바이투게더
-발매일2026.04.13장르댄스, R&B/Soul, 록/메탈발매사YG PLUS기획사BIGHIT MUSIC
+발매일2026.04.13장르
+댄스, R&B/Soul, 록/메탈
+발매사YG PLUS기획사BIGHIT MUSIC
 
 수록곡 (6)
 듣기담기다운FLAC선물
 
+<tr>
+<td>
+<p>
+발매일
+</p>
+</td>
+<td>
+<p>
+2026.04.13.
+</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+장르
+</p>
+</td>
+<td>
+<p>
+댄스, R&B/Soul, 록/메탈
+</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+기획사
+</p>
+</td>
+<td>
+<p>
+BIGHIT MUSIC
+</p>
+</td>
+</tr>
 
 번호
 
@@ -137,6 +275,31 @@ Bird of Night
 다운
 뮤비
 
+<tr>
+<td>
+<p>
+번호
+</p>
+</td>
+<td>
+<p>
+제목
+</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>
+1
+</p>
+</td>
+<td>
+<p>
+Upside Down Kiss
+</p>
+</td>
+</tr>
 
 1
 
@@ -145,10 +308,18 @@ Bed of Thorns
 투모로우바이투게더
 좋아요 11,173
 
-
-
-
-
+<tr>
+<td>
+<p>
+1
+</p>
+</td>
+<td>
+<p>
+Upside Down Kiss
+</p>
+</td>
+</tr>
 
 2
 
@@ -157,10 +328,18 @@ Bed of Thorns
 투모로우바이투게더
 좋아요 30,312
 
-
-
-
-
+<tr>
+<td>
+<p>
+1
+</p>
+</td>
+<td>
+<p>
+Upside Down Kiss
+</p>
+</td>
+</tr>
 
 3
 
@@ -169,10 +348,18 @@ Take Me to Nirvana (feat. 万妮达Vinida Weng)
 투모로우바이투게더
 좋아요 10,260
 
-
-
-
-
+<tr>
+<td>
+<p>
+1
+</p>
+</td>
+<td>
+<p>
+Upside Down Kiss
+</p>
+</td>
+</tr>
 
 4
 
@@ -181,10 +368,18 @@ So What
 투모로우바이투게더
 좋아요 11,463
 
-
-
-
-
+<tr>
+<td>
+<p>
+1
+</p>
+</td>
+<td>
+<p>
+Upside Down Kiss
+</p>
+</td>
+</tr>
 
 5
 
@@ -193,23 +388,24 @@ So What
 투모로우바이투게더
 좋아요 10,567
 
-
-
-
-
+<tr>
+<td>
+<p>
+1
+</p>
+</td>
+<td>
+<p>
+Upside Down Kiss
+</p>
+</td>
+</tr>
 
 6
 
 다음의 다음
 
 투모로우바이투게더
-
-
-
-
-
-
-
 
 투모로우바이투게더(수빈, 연준, 범규, 태현, 휴닝카이)가 4월 13일 미니 8집 ‘7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때’로 돌아온다. 2025년 8월 소속사 빅히트 뮤직과 전원 재계약을 체결한 뒤 처음 선보이는 앨범이다.
 
