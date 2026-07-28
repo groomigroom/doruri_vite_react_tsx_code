@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemKimsejung.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ioi_m_MemKimsejung_img from '../../ioi/main/img/ioi_m_mem_Kimsejung.jpg';
 
@@ -54,8 +55,7 @@ export default function IoiMemKimsejungEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ BH ENTERTAINMENT' />
         </div>
     );
 };
-
