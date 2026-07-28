@@ -120,3 +120,12 @@
     border-bottom-right-radius: 15px;
     border-bottom: 5px solid #333;
 }
+
+.tri_BabyFlowerCityRemixesAlbum_h2_2 {
+    position: absolute;
+    top: 733px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* height 20px */
