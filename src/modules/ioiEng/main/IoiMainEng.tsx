@@ -22,6 +22,7 @@ import Ioi_m_MemJeonsomi_img from '../../ioi/main/img/ioi_m_mem_Jeonsomi.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 //#F4CE9D
 
@@ -153,7 +154,7 @@ export default function IoiMainEng() {
                 </section>
 
             </section>
+            <FooterPartEng FooterPartEngText='ⓒ SWING ENTERTAINMENT' />
         </div>
     );
 };
-
