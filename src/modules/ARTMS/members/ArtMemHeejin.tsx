@@ -61,7 +61,7 @@ export default function ArtMemHeejin() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
 
         </div>
     );
