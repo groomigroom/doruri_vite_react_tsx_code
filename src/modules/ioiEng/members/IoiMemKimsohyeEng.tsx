@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemKimsohye.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ioi_m_MemKimsohye_img from '../../ioi/main/img/ioi_m_mem_Kimsohye.jpg';
 
@@ -54,7 +55,7 @@ export default function IoiMemKimsohyeEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ Noon Company' />
         </div>
     );
 };
