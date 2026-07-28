@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/members/TriplesMemS1.css';
 import '../../BTOB/members/BtoMemYookSungjae.css';
@@ -10,6 +11,8 @@ import Menu from '../../Menu';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BtoMemYookSungjaeEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="bto_mm_yooksungjae_full">
             <Menu />
