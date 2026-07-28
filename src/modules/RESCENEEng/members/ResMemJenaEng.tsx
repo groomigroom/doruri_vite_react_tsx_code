@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../RESCENE/members/ResMemJena.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Res_mm_Jena_img from '../../RESCENE/main/img/rescene_m_mem_Jena.jpg';
 
@@ -67,6 +68,7 @@ export default function ResMemJenaEng() {
                     </tr>
                 </tbody>
             </table>
+            <FooterPartEng FooterPartEngText='ⓒ THE MUZE ENTERTAINMENT' />
         </div>
     );
 
