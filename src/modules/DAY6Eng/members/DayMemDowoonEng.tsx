@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../DAY6/members/DayMemDowoon.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Day_mm_dowoon_img from '../../DAY6/main/img/day6_m_mem_Dowoon.jpg';
 
@@ -67,11 +68,8 @@ export default function DayMemDowoonEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 
 };
-
-
-
