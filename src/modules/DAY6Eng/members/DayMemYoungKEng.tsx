@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../DAY6/members/DayMemYoungK.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Day_mm_youngk_img from '../../DAY6/main/img/day6_m_mem_Youngk.jpg';
 
@@ -68,9 +69,8 @@ export default function DayMemYoungKEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 
 };
-
