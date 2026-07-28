@@ -312,10 +312,7 @@ export default function TriplesMainEng() {
                 <h3>트리플에스 유튜브</h3>
             </a>
             <Link to="/TriplesEvent" className='tri_m_e'>이벤트</Link>
-            <FooterPartEng />
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div >
     );
 };
-
-
-
