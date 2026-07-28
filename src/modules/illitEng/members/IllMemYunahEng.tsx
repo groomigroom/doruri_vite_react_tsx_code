@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../illit/members/IllMemYunah.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ill_m_MemYunah_img from '../../illit/main/img/illit_m_mem_Yunah.jpg';
 
@@ -67,10 +68,7 @@ export default function IllMemYunahEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ BE:LIFT LAB' />
         </div>
     );
 };
-
-
-
