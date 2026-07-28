@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ALLDAY_PROJECT/members/AllMemBailey.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import all_mm_bailey_img from '../../ALLDAY_PROJECT/main/img/allday_m_mem_Bailey.jpg';
 
@@ -58,7 +59,7 @@ export default function AllMemBaileyEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ THEBLACKLABEL' />
         </div>
     );
 }
