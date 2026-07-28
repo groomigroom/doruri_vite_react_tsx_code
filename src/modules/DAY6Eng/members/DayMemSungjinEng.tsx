@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../DAY6/members/DayMemSungjin.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Day_mm_sungjin_img from '../../DAY6/main/img/day6_m_mem_Sungjin.jpg';
 
@@ -68,9 +69,8 @@ export default function DayMemSungjinEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 
 };
-
