@@ -4,7 +4,8 @@ import { EngPage } from '../../HomeEng/EngPage';
 import '../../triples/main/TriplesMain.css'
 import '../../BTOB/main/BTOBMain.css';
 
-import Menu from '../../Menu';
+import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Tws_m_logo from './img/Tws_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -25,7 +26,7 @@ export default function BTOBMainEng() {
 
     return (
         <div className='bto_m_full'>
-            <Menu />
+            <MenuEng />
             <section className="home_translate">
                 <Link to='/BTOBMain'>한국어</Link>
                 <Link to='/BTOBMainEng' className="on">English</Link>
@@ -97,11 +98,7 @@ export default function BTOBMainEng() {
 
             </section>
             {/* 유닛있음 */}
-
+            <FooterPartEng FooterPartEngText='ⓒ BTOB Company' />
         </div>
     );
 };
-
-
-
-
