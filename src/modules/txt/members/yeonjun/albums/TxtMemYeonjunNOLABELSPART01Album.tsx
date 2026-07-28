@@ -26,16 +26,40 @@ export default function TxtMemYeonjunNOLABELSPART01Album() {
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
-                        <td>발매일</td>
-                        <td>2025.11.07.</td>
+                        <td>
+                            <p>
+                                발매일
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                2025.11.07.
+                            </p>
+                        </td>
                     </tr>
                     <tr>
-                        <td>장르</td>
-                        <td>랩/힙합, R&B/Soul, 록/메탈</td>
+                        <td>
+                            <p>
+                                장르
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                랩/힙합, R&B/Soul, 록/메탈
+                            </p>
+                        </td>
                     </tr>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
-                        <td>기획사</td>
-                        <td>BIGHIT MUSIC</td>
+                        <td>
+                            <p>
+                                기획사
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                BIGHIT MUSIC
+                            </p>
+                        </td>
                     </tr>
                 </tbody>
             </table>
