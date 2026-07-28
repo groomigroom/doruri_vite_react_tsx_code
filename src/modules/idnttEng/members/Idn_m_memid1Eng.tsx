@@ -1,44 +1,45 @@
 import { Link } from 'react-router-dom';
 import { EngPage } from '../../HomeEng/EngPage';
 
-import '../../idntt/members/Idn_m_memid5.css';
+import '../../idntt/members/Idn_m_memid1.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
-// import Idn_mm_memid5_img from '../main/img/tri_m_memS1.jpg';
+// import Idn_mm_memid1_img from '../main/img/tri_m_memS1.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
-export default function Idn_m_memid5Eng() {
+export default function Idn_m_memid1Eng() {
     EngPage('en', 'ko');
 
     return (
-        <div className="idn_mm_id5_full">
+        <div className="tri_mm_s1_full">
             <MenuEng />
             <section className="home_translate">
-                <Link to='/Idn_m_memid5'>한국어</Link>
-                <Link to='/Idn_m_memid5Eng' className="on">English</Link>
+                <Link to='/Idn_m_memid1'>한국어</Link>
+                <Link to='/Idn_m_memid1Eng' className="on">English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="idntt deco" />leejaeyoung<img src={MainH2Deco} alt="idntt deco" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="idntt deco" />kimdohun<img src={MainH2Deco} alt="idntt deco" /></h2>
             <p className='tri_mm_s1_intropp'>
-                I'll be comfortable with<br />
-                the members and do my<br />
-                best for &apos;idntt&apos; promotions!
+                I'll try to get along<br />
+                with the members<br />
+                with a good affinity!
             </p>
-            <img src='' alt="leejaeyoung" className='tri_mm_s1_img' />
+            <img src='' alt="kimdohun" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>birth</p></td>
-                        <td><p>October 3, 2007</p></td>
+                        <td><p>March 3, 2003</p></td>
                     </tr>
                     <tr>
                         <td><p>height</p></td>
-                        <td><p>185cm</p></td>
+                        <td><p>178cm</p></td>
                     </tr>
                     <tr>
                         <td><p>blood type</p></td>
-                        <td><p>A</p></td>
+                        <td><p>B</p></td>
                     </tr>
                     <tr>
                         <td><p>units</p></td>
@@ -46,33 +47,24 @@ export default function Idn_m_memid5Eng() {
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
-                        <td><p>ISFP</p></td>
+                        <td><p>ESTP</p></td>
                     </tr>
                     <tr>
                         <td><p>symbolic color</p></td>
-                        <td><p>#b8ace8</p></td>
+                        <td><p>#ff3600</p></td>
                     </tr>
                     <tr>
                         <td><p>character</p></td>
-                        <td><p>an abundance of sensitivity</p></td>
+                        <td><p>good affinity</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
                         <td><p>nickname</p></td>
-                        <td><p>Hamnyangee</p></td>
+                        <td><p>A man of three</p></td>
                     </tr>
                 </tbody>
             </table>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div>
     );
 };
-
-
-
-
-
-
-
-
-
