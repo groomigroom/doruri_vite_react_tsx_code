@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../illit/members/IllMemEroha.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ill_m_MemEroha_img from '../../illit/main/img/illit_m_mem_Iroha.jpg';
 
@@ -67,8 +68,7 @@ export default function IllMemErohaEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ BE:LIFT LAB' />
         </div>
     );
 };
-
