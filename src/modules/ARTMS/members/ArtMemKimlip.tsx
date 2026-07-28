@@ -61,7 +61,7 @@ export default function ArtMemKimlip() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
 
         </div>
     );
