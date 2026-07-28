@@ -71,7 +71,7 @@ export default function TriplesMemS11Eng() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPartEng />
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div>
     );
 
