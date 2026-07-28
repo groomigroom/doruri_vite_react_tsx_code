@@ -5,7 +5,8 @@ import '../../triples/main/TriplesMain.css'
 import '../../10CM/main/TenCMMain.css';
 import '../../bol4/main/Bol4Main.css'
 
-import Menu from '../../Menu';
+import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Bol_m_logo from './img/Bol_m_logo.png';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -19,7 +20,7 @@ export default function Bol4MainEng() {
 
     return (
         <div className='bol_m_full'>
-            <Menu />
+            <MenuEng />
             <section className="home_translate">
                 <Link to='/Bol4Main'>한국어</Link>
                 <Link to='/Bol4MainEng' className="on">English</Link>
@@ -42,10 +43,8 @@ export default function Bol4MainEng() {
                     </Link>
                 </section>
 
-
             </section>
-
-
+            <FooterPartEng FooterPartEngText='ⓒ Kanverse' />
         </div>
     );
 };
