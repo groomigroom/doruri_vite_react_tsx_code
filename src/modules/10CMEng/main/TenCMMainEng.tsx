@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../10CM/main/TenCMMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ten_m_logo from '../../10CM/main/img/TenCM_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -47,12 +48,7 @@ export default function TenCMMainEng() {
 
             </section>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ CAM WITH US' />
         </div>
     );
 };
-
-
-
-
-
