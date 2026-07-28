@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../Stray_Kids/members/StrayMemHan.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Str_mm_han_img from '../../Stray_Kids/main/img/stray_m_mem_Han.jpg';
 
@@ -67,8 +68,7 @@ export default function StrayMemHanEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 }
-
