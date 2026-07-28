@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/main/TriplesMain.css'
 import '../../BTOB/main/BTOBMain.css';
@@ -20,6 +21,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 //#ffffff
 
 export default function BTOBMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='bto_m_full'>
             <Menu />
