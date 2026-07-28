@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../akmu/members/AkmuMemSuhyun.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import akmu_mm_suhyun_img from '../../akmu/main/img/aknu_m_suhyun.jpg';
 
@@ -54,8 +55,7 @@ export default function AkmuMemSuhyunEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ Cemter of Inspiration' />
         </div>
     );
 };
-
