@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../Hanroro/main/HanroroMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 //import Han_m_logo from './img/TenCM_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -43,10 +44,9 @@ export default function HanroroMainEng() {
                     </Link>
                 </section>
 
-
             </section>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ authentic' />
         </div>
     );
 };
