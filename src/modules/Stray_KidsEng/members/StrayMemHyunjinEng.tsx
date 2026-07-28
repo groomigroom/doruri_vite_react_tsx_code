@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../Stray_Kids/members/StrayMemHyunjin.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Str_mm_hyunjin_img from '../../Stray_Kids/main/img/stray_m_mem_Hyunjin.jpg';
 
@@ -67,8 +68,7 @@ export default function StrayMemHyunjinEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 }
-
