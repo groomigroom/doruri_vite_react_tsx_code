@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemChoiyujung.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ioi_mm_MemChoiyujung_img from '../../ioi/main/img/ioi_m_mem_Choiyujung.jpg';
 
@@ -54,7 +55,7 @@ export default function IoiMemChoiyujungEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ Fantagio' />
         </div>
     );
 };
