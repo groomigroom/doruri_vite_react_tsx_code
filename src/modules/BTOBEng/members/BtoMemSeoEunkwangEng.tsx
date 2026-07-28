@@ -4,7 +4,8 @@ import { EngPage } from '../../HomeEng/EngPage';
 import '../../triples/members/TriplesMemS1.css';
 import '../../BTOB/members/BtoMemSeoEunkwang.css';
 
-import Menu from '../../Menu';
+import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
 
@@ -15,7 +16,7 @@ export default function BtoMemSeoEunkwangEng() {
 
     return (
         <div className="bto_mm_seoeunkwang_full">
-            <Menu />
+            <MenuEng />
             <section className="home_translate">
                 <Link to='/BtoMemSeoEunkwang'>한국어</Link>
                 <Link to='/BtoMemSeoEunkwangEng' className="on">English</Link>
@@ -65,9 +66,7 @@ export default function BtoMemSeoEunkwangEng() {
                 </tbody>
             </table>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ BTOB Company' />
         </div>
     );
 };
-
-
