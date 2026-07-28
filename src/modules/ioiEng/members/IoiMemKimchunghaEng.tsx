@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemKimchungha.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ioi_m_MemKimchungha_img from '../../ioi/main/img/ioi_m_mem_Kimchungha.jpg';
 
@@ -54,7 +55,7 @@ export default function IoiMemKimchunghaEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ MORE VISION' />
         </div>
     );
 };
