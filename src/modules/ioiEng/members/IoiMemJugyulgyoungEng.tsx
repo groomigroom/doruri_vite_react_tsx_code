@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../ioi/members/IoiMemJugyulgyoung.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Ioi_m_MemJugyulgyoung_img from '../../ioi/main/img/ioi_m_mem_Jugyulgyung.jpg';
 
@@ -54,7 +55,7 @@ export default function IoiMemJugyulgyoungEng() {
                     </tr>
                 </tbody>
             </table>
-
+            <FooterPartEng FooterPartEngText='ⓒ Zhou Jieqiong craft room' />
         </div>
     );
 };
