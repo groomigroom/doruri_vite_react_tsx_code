@@ -5,6 +5,7 @@ import '../../triples/members/TriplesMemS1.css';
 import '../../RESCENE/members/ResMemMay.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import Res_mm_May_img from '../../RESCENE/main/img/rescene_m_mem_May.jpg';
 
@@ -68,10 +69,8 @@ export default function ResMemMayEng() {
 
                 </tbody>
             </table>
+            <FooterPartEng FooterPartEngText='ⓒ THE MUZE ENTERTAINMENT' />
         </div>
     );
 
 };
-
-
-
