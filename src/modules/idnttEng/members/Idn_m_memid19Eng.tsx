@@ -4,6 +4,7 @@ import { EngPage } from '../../HomeEng/EngPage';
 import '../../idntt/members/Idn_m_memid19.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 // import Idn_mm_memid19_img from '../main/img/tri_m_memS1.jpg';
 
@@ -63,10 +64,7 @@ export default function Idn_m_memid19Eng() {
                 </tbody>
             </table>
 
-
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div>
     );
 };
-
-
-
