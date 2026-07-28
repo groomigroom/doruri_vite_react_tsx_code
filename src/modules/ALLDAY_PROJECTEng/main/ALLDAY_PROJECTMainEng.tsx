@@ -5,6 +5,7 @@ import '../../triples/main/TriplesMain.css'
 import '../../ALLDAY_PROJECT/main/ALLDAY_PROJECTMain.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
 
 import All_m_logo from '../../ALLDAY_PROJECT/main/img/All_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
@@ -88,11 +89,8 @@ export default function ALLDAY_PROJECTMainEng() {
 
             </section>
 
-
-
-
             <Link to="/TxtEvent">이벤트</Link>
+            <FooterPartEng FooterPartEngText='ⓒ THEBLACKLABEL' />
         </div>
     );
 };
-
