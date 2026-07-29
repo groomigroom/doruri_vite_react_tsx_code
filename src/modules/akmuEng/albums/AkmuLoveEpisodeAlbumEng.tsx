@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import '../../akmu/albums/AkmuLoveEpisodeAlbum.css';
@@ -11,6 +12,8 @@ import AkmuLoveEpisodeAlbum_img from '../../akmu/albums/img/AkmuLoveEpisodeAlbum
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function AkmuLoveEpisodeAlbumEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='akmu_AkmuLoveEpisodeAlbum_full'>
             <MenuEng />
@@ -102,7 +105,7 @@ export default function AkmuLoveEpisodeAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                Long D??
+                                Long D
                             </p>
                         </td>
                     </tr>
