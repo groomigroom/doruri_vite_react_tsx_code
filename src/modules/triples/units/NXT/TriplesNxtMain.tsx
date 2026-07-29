@@ -4,6 +4,7 @@ import '../../main/TriplesMain.css';
 import './TriplesNxtMain.css';
 
 import Menu from '../../../Menu';
+import FooterPart from '../../../FooterPart';
 
 import TriplesNxt_m_logo from './img/TriplesNxt_m_logo.png';
 import MainH2Deco from '../../../img/main_h2_deco.png';
@@ -13,8 +14,6 @@ import TriplesNxt_m_S17_img from './img/TriplesNxt_m_S17_img.jpg';
 import TriplesNxt_m_S18_img from './img/TriplesNxt_m_S18_img.jpg';
 import TriplesNxt_m_S19_img from './img/TriplesNxt_m_S19_img.jpg';
 import TriplesNxt_m_S20_img from './img/TriplesNxt_m_S20_img.jpg';
-
-
 
 
 //191919
@@ -37,13 +36,17 @@ export default function TriplesNxtMain() {
                     <Link to='/TriplesMemS17' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesNxt_m_S17_img} alt="린 이미지" />
-                            <h4>린</h4>
+                            <div>
+                                <h4>린</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS18' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesNxt_m_S18_img} alt="주빈 이미지" />
-                            <h4>주빈</h4>
+                            <div>
+                                <h4>주빈</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -53,25 +56,24 @@ export default function TriplesNxtMain() {
                     <Link to='/TriplesMemS19' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesNxt_m_S19_img} alt="정하연 이미지" />
-                            <h4>정하연</h4>
+                            <div>
+                                <h4>정하연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS20' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesNxt_m_S20_img} alt="박시온 이미지" />
-                            <h4>박시온</h4>
+                            <div>
+                                <h4>박시온</h4>
+                            </div>
                         </article>
                     </Link>
 
-
                 </section>
 
-
             </section>
-
-
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
-
-
