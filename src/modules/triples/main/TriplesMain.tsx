@@ -446,90 +446,140 @@ export default function TriplesMain() {
             <section className='tri_m_units_tr_full'>
                 <section className='tri_m_units_tr4'>
                     <Link to='/TriplesAcidAngelFromAsiaMain' className='tri_m_units_a'>
-                        <img src="" alt="Acid Angel from Asia" />
-                        <div>
-                            <h4>Acid Angel from Asia</h4>
-                        </div>
+                        <article className='tri_m_units'>
+                            <img src="" alt="Acid Angel from Asia" />
+                            <div>
+                                <h4>Acid<br />Angel<br />from<br />Asia</h4>
+                            </div>
+                        </article>
                     </Link>
                     <Link to='/TriplesKRystalEyesMain' className='tri_m_units_a'>
-                        <img src="" alt="+&#40;KR&#41;ystal Eyes" />
-                        <div>
-                            <h4>+&#40;KR&#41;ystal Eyes</h4>
-                        </div>
+                        <article className='tri_m_units'>
+                            <img src="" alt="+&#40;KR&#41;ystal Eyes" />
+                            <div>
+                                <h4>+&#40;KR&#41;ystal Eyes</h4>
+                            </div>
+                        </article>
                     </Link>
                     <Link to='/TriplesAcidEyesMain' className='tri_m_units_a'>
-                        <img src="" alt="Acid Eyes" />
-                        <div>
-                            <h4>Acid Eyes</h4>
-                        </div>
+                        <article className='tri_m_units'>
+                            <img src="" alt="Acid Eyes" />
+                            <div>
+                                <h4>Acid Eyes</h4>
+                            </div>
+                        </article>
                     </Link>
                     <Link to='/TriplesLOVElutionMain' className='tri_m_units_a'>
-                        <img src="" alt="LOVElution" />
-                        <div>
-                            <h4>LOVElution</h4>
-                        </div>
+                        <article className='tri_m_units'>
+                            <img src="" alt="LOVElution" />
+                            <div>
+                                <h4>LOVElution</h4>
+                            </div>
+                        </article>
                     </Link>
                 </section>
                 <section className='tri_m_units_tr4'>
                     <Link to='/TriplesEvolutionMain' className='tri_m_units_a'>
-                        <img src="" alt="EVOLution" />
-                        <div>
-                            <h4>EVOLution</h4>
-                        </div>
+                        <article className='tri_m_units'>
+                            <img src="" alt="EVOLution" />
+                            <div>
+                                <h4>EVOLution</h4>
+                            </div>
+                        </article>
                     </Link>
                     <Link to='/TriplesNxtMain' className='tri_m_units_a'>
-                        <img src="" alt="NXT" />
-                        <div>
-                            <h4>NXT</h4>
-                        </div>
+                        <article className='tri_m_units'>
+                            <img src="" alt="NXT" />
+                            <div>
+                                <h4>NXT</h4>
+                            </div>
+                        </article>
                     </Link>
                     <Link to='/TriplesGlowMain' className='tri_m_units_a'>
-                        <img src="" alt="Acid Eyes" />
-                        <div>
-                            <h4>Glow</h4>
-                        </div>
+                        <article className='tri_m_units'>
+                            <img src="" alt="Glow" />
+                            <div>
+                                <h4>Glow</h4>
+                            </div>
+                        </article>
                     </Link>
                     <Link to='/TriplesAriaMain' className='tri_m_units_a'>
-                        <img src="" alt="LOVElution" />
-                        <div>
-                            <h4>Aria</h4>
-                        </div>
+                        <article className='tri_m_units'>
+                            <img src="" alt="LOVElution" />
+                            <div>
+                                <h4>Aria</h4>
+                            </div>
+                        </article>
                     </Link>
                 </section>
                 <section className='tri_m_units_tr4'>
                     <Link to='/TriplesVisionaryVisionMain' className='tri_m_units_a'>
-                        <img src="" alt="Visionary Vision" />
-                        <div>
-                            <h4>Visionary Vision</h4>
-                        </div>
+                        <article className='tri_m_units'>
+                            <img src="" alt="Visionary Vision" />
+                            <div>
+                                <h4>Visionary Vision</h4>
+                            </div>
+                        </article>
                     </Link>
                     <Link to='/TriplesHatchMain' className='tri_m_units_a'>
-                        <img src="" alt="∞! &#40;Hatch!&#41;" />
-                        <div>
-                            <h4>∞! &#40;Hatch!&#41;</h4>
-                        </div>
+                        <article className='tri_m_units'>
+                            <img src="" alt="∞! &#40;Hatch!&#41;" />
+                            <div>
+                                <h4>∞! &#40;Hatch!&#41;</h4>
+                            </div>
+                        </article>
                     </Link>
-                    <Link to='/ddd' className='tri_m_units_a'>
-                        <img src="" alt="Acid Eyes" />
-                        <div>
-                            <h4>Gddlow</h4>
-                        </div>
+                    <Link to='/TriplesAlphieMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src="" alt="Alphie" />
+                            <div>
+                                <h4>Alphie</h4>
+                            </div>
+                        </article>
                     </Link>
-                    <Link to='/ddd' className='tri_m_units_a'>
-                        <img src="" alt="LOVElution" />
-                        <div>
-                            <h4>Adddria</h4>
-                        </div>
+                    <Link to='/TriplesNeptuneMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src="" alt="LOVElution" />
+                            <div>
+                                <h4>neptune</h4>
+                            </div>
+                        </article>
                     </Link>
                 </section>
-            </section>
-            <section className='tri_m_unit_tr_full'>
-
-                <Link to='/TriplesNeptuneMain'>neptune </Link>
-                <Link to='/TriplesMoonMain'>moon </Link>
-                <Link to='/TriplesSunMain'>sun </Link>
-                <Link to='/TriplesZenithMain'>zenith </Link>
-                {/* 17개 */}
+                <section className='tri_m_units_tr4'>
+                    <Link to='/TriplesMoonMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src="" alt="moon" />
+                            <div>
+                                <h4>moon</h4>
+                            </div>
+                        </article>
+                    </Link>
+                    <Link to='/TriplesSunMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src="" alt="sun" />
+                            <div>
+                                <h4>sun</h4>
+                            </div>
+                        </article>
+                    </Link>
+                    <Link to='/TriplesZenithMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src="" alt="zenith" />
+                            <div>
+                                <h4>zenith</h4>
+                            </div>
+                        </article>
+                    </Link>
+                    <Link to='/TriplesNdddeptuneMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src="" alt="LOVElution" />
+                            <div>
+                                <h4>neddptune</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
             </section>
             <p className='tri_m_copy_pp'>Copyright ⓒ ㈜모드하우스</p>
             <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
