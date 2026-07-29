@@ -4,6 +4,7 @@ import '../../main/TriplesMain.css';
 import './TriplesKRystalEyesMain.css';
 
 import Menu from '../../../Menu';
+import FooterPart from '../../../FooterPart';
 
 import TriplesKre_m_logo from './img/TriplesKre_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
@@ -34,13 +35,17 @@ export default function TriplesKRystalEyesMain() {
                     <Link to='/TriplesMemS1' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesKre_m_S1_img} alt="윤서연 이미지" />
-                            <h4>윤서연</h4>
+                            <div>
+                                <h4>윤서연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS3' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesKre_m_S3_img} alt="이지우 이미지" />
-                            <h4>이지우</h4>
+                            <div>
+                                <h4>이지우</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -50,23 +55,24 @@ export default function TriplesKRystalEyesMain() {
                     <Link to='/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesKre_m_S4_img} alt="김채연 이미지" />
-                            <h4>김채연</h4>
+                            <div>
+                                <h4>김채연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS6' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesKre_m_S6_img} alt="김수민 이미지" />
-                            <h4>김수민</h4>
+                            <div>
+                                <h4>김수민</h4>
+                            </div>
                         </article>
                     </Link>
 
-
                 </section>
 
-
             </section>
-
-
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
