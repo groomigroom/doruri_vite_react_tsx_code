@@ -26,7 +26,7 @@ export default function TxtStarsChapterTogetherAlbum() {
                 생각해 보며<br />
                 앨범을 준비했어요!
             </p>
-            <img src='' alt="Eternal" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src='' alt="별의 장: TOGETHER" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
