@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 
@@ -8,6 +9,8 @@ import FooterPartEng from '../../FooterPartEng';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TriplesBabyFlowerCityRemixesAlbumEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className="tri_BabyFlowerCityRemixesAlbum_full">
             <MenuEng />
