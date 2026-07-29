@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './TxtStarsChapterTogetherAlbum.css';
+import './Txt7thYearAlbum.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
@@ -12,21 +12,21 @@ import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function Txt7thYearAlbum() {
     return (
-        <div className='txt_TxtStarsChapterTogetherAlbum_full'>
+        <div className='txt_Txt7thYearAlbum_full'>
             <Menu />
             <section className="home_translate">
-                <Link to='/TxtStarsChapterTogetherAlbum' className="on">한국어</Link>
-                <Link to='/TxtStarsChapterTogetherAlbumEng'>English</Link>
+                <Link to='/Txt7thYearAlbum' className="on">한국어</Link>
+                <Link to='/Txt7thYearAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
-                <img src={MainH2deco} alt="투바투 앨범 꾸미기" />별의 장: TOGETHER<img src={MainH2deco} alt="투바투 앨범 꾸미기" />
+                <img src={MainH2deco} alt="투바투 앨범 꾸미기" />7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때<img src={MainH2deco} alt="투바투 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                함께의 의미를<br />
-                생각해 보며<br />
+                불안과 미래를<br />
+                잘 생각해 보며<br />
                 앨범을 준비했어요!
             </p>
-            <img src='' alt="별의 장: TOGETHER" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src='' alt="7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -37,7 +37,7 @@ export default function Txt7thYearAlbum() {
                         </td>
                         <td>
                             <p>
-                                2025.07.21.
+                                2026.04.13.
                             </p>
                         </td>
                     </tr>
@@ -49,7 +49,7 @@ export default function Txt7thYearAlbum() {
                         </td>
                         <td>
                             <p>
-                                록/메탈, 댄스, R&B/Soul, 랩/힙합
+                                댄스, R&B/Soul, 록/메탈
                             </p>
                         </td>
                     </tr>
@@ -90,7 +90,7 @@ export default function Txt7thYearAlbum() {
                         </td>
                         <td>
                             <p>
-                                Upside Down Kiss
+                                Bed of Thorns
                             </p>
                         </td>
                     </tr>
@@ -102,7 +102,7 @@ export default function Txt7thYearAlbum() {
                         </td>
                         <td>
                             <p>
-                                Beautiful Strangers
+                                하루에 하루만 더 &#40;Stick With You&#41;
                             </p>
                         </td>
                     </tr>
@@ -114,7 +114,7 @@ export default function Txt7thYearAlbum() {
                         </td>
                         <td>
                             <p>
-                                Ghost Girl
+                                Take Me to Nirvana &#40;feat. 万妮达Vinida Weng&#41;
                             </p>
                         </td>
                     </tr>
@@ -126,7 +126,7 @@ export default function Txt7thYearAlbum() {
                         </td>
                         <td>
                             <p>
-                                Sunday Driver
+                                So What
                             </p>
                         </td>
                     </tr>
@@ -138,11 +138,13 @@ export default function Txt7thYearAlbum() {
                         </td>
                         <td>
                             <p>
-                                Dance With You
+                                21st Century Romance
                             </p>
                         </td>
                     </tr>
-                    <tr>
+
+
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
                         <td>
                             <p>
                                 6
@@ -150,32 +152,7 @@ export default function Txt7thYearAlbum() {
                         </td>
                         <td>
                             <p>
-                                Take My Half
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                7
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Bird of Night
-                            </p>
-                        </td>
-                    </tr>
-
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
-                        <td>
-                            <p>
-                                8
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                별의 노래
+                                다음의 다음
                             </p>
                         </td>
                     </tr>
