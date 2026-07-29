@@ -90,7 +90,7 @@ export default function DayMemYoungKYOUNGESTAlbum() {
                         </td>
                         <td>
                             <p>
-                                Find You
+                                Marionette
                             </p>
                         </td>
                     </tr>
@@ -102,11 +102,11 @@ export default function DayMemYoungKYOUNGESTAlbum() {
                         </td>
                         <td>
                             <p>
-                                아름다운 안녕
+                                Shut The Door
                             </p>
                         </td>
                     </tr>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                    <tr>
                         <td>
                             <p>
                                 3
@@ -114,16 +114,157 @@ export default function DayMemYoungKYOUNGESTAlbum() {
                         </td>
                         <td>
                             <p>
-                                나를 봄으로 데려가!
+                                F world
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                4
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Hey Honey
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                5
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                응원가
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                6
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                SPIKE
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                7
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Yonge St.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                8
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                million reasons
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                9
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                우리가 헤어질 100가지 이유 &#40;with JINJOO of DNCE&#41;
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                10
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Drivin&apos; into Hell
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                11
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                whatever
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                12
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Goodbye, Love
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                13
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                집으로 향한다
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                14
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                안개꽃
+                            </p>
+                        </td>
+                    </tr>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                        <td>
+                            <p>
+                                15
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                작업실에서 커피를
                             </p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ 켄버스' />
+            <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
         </div>
     );
 }
-
-
-
