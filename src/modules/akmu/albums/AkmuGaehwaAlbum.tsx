@@ -6,7 +6,7 @@ import './AkmuGaehwaAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import AkmuGaehwaAlbum_img from './img/AkmuGaehwaAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -26,7 +26,7 @@ export default function AkmuGaehwaAlbum() {
                 앨범을<br />
                 준비했어요!
             </p>
-            <img src='' alt="개화" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={AkmuGaehwaAlbum_img} alt="개화" className='tri_BabyFlowerCityRemixesAlbum_img akmu_AkmuGaehwaAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
