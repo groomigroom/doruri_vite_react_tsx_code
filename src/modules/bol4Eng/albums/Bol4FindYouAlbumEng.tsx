@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import '../../bol4/albums/Bol4FindYouAlbum.css';
@@ -9,6 +10,8 @@ import FooterPartEng from '../../FooterPartEng';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function Bol4FindYouAlbumEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='bol_Bol4FindYouAlbum_full'>
             <MenuEng />
