@@ -14,8 +14,8 @@ export default function TxtMemYeonjunNOLABELSPART02Album() {
         <div className='txt_mm_yeonjun_NOLABELSPART02Album_full'>
             <Menu />
             <section className="home_translate">
-                <Link to='/TxtMemYeonjunNOLABELSPART01Album' className="on">한국어</Link>
-                <Link to='/TxtMemYeonjunNOLABELSPART01AlbumEng'>English</Link>
+                <Link to='/TxtMemYeonjunNOLABELSPART02Album' className="on">한국어</Link>
+                <Link to='/TxtMemYeonjunNOLABELSPART02AlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
                 <img src={MainH2deco} alt="연준 앨범 꾸미기" />NO LABELS: PART 02<img src={MainH2deco} alt="연준 앨범 꾸미기" />
