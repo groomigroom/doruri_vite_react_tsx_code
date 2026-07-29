@@ -4,6 +4,7 @@ import '../../main/TriplesMain.css';
 import './TriplesLOVElutionMain.css';
 
 import Menu from '../../../Menu';
+import FooterPart from '../../../FooterPart';
 
 import TriplesLov_m_logo from './img/TriplesLov_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
@@ -38,25 +39,33 @@ export default function TriplesLOVElutionMain() {
                     <Link to='/TriplesMemS1' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesLov_m_S1_img} alt="윤서연 이미지" />
-                            <h4>윤서연</h4>
+                            <div>
+                                <h4>윤서연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS2' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesLov_m_S2_img} alt="정혜린 이미지" />
-                            <h4>정혜린</h4>
+                            <div>
+                                <h4>정혜린</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS8' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesLov_m_S8_img} alt="공유빈 이미지" />
-                            <h4>공유빈</h4>
+                            <div>
+                                <h4>공유빈</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS9' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesLov_m_S9_img} alt="카에데 이미지" />
-                            <h4>카에데</h4>
+                            <div>
+                                <h4>카에데</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -66,37 +75,40 @@ export default function TriplesLOVElutionMain() {
                     <Link to='/TriplesMemS10' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesLov_m_S10_img} alt="서다현 이미지" />
-                            <h4>서다현</h4>
+                            <div>
+                                <h4>서다현</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS13' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesLov_m_S13_img} alt="니엔 이미지" />
-                            <h4>니엔</h4>
+                            <div>
+                                <h4>니엔</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS14' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesLov_m_S14_img} alt="박소현 이미지" />
-                            <h4>박소현</h4>
+                            <div>
+                                <h4>박소현</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS15' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesLov_m_S15_img} alt="신위 이미지" />
-                            <h4>신위</h4>
+                            <div>
+                                <h4>신위</h4>
+                            </div>
                         </article>
                     </Link>
 
-
                 </section>
 
-
             </section>
-
-
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
-
-
