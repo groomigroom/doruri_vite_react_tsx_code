@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.akmu_AkmuLoveEpisodeAlbum_img {
+    border: 5px solid #13983f;
+}
+
 .akmu_AkmuLoveEpisodeAlbum_tb2 {
     height: 350px;
 }
