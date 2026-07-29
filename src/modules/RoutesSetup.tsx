@@ -277,6 +277,9 @@ import DayMemSungjin from './DAY6/members/DayMemSungjin';
 import DayMemSungjinEng from './DAY6Eng/members/DayMemSungjinEng';
 import DayMemYoungK from './DAY6/members/DayMemYoungK';
 import DayMemYoungKEng from './DAY6Eng/members/DayMemYoungKEng';
+
+import DayMemYoungKYOUNGESTAlbum from './DAY6/members/YoungK/albums/DayMemYoungKYOUNGESTAlbum';
+
 import DayMemWonpil from './DAY6/members/DayMemWonpil';
 import DayMemWonpilEng from './DAY6Eng/members/DayMemWonpilEng';
 import DayMemDowoon from './DAY6/members/DayMemDowoon';
@@ -703,6 +706,9 @@ export default function RoutesSetup() {
             <Route path='/DayMemSungjinEng' element={<DayMemSungjinEng />}></Route>
             <Route path='/DayMemYoungK' element={<DayMemYoungK />}></Route>
             <Route path='/DayMemYoungKEng' element={<DayMemYoungKEng />}></Route>
+
+            <Route path='/DayMemYoungKYOUNGESTAlbum' element={<DayMemYoungKYOUNGESTAlbum />}></Route>
+
             <Route path='/DayMemWonpil' element={<DayMemWonpil />}></Route>
             <Route path='/DayMemWonpilEng' element={<DayMemWonpilEng />}></Route>
             <Route path='/DayMemDowoon' element={<DayMemDowoon />}></Route>
