@@ -114,6 +114,7 @@ import TxtMemYeonjun_7_22_end from './txt/members/yeonjun/TxtMemYeonjun_7_22_end
 import TxtMemYeonjunNOLABELSPART01Album from './txt/members/yeonjun/albums/TxtMemYeonjunNOLABELSPART01Album';
 import TxtMemYeonjunNOLABELSPART01AlbumEng from './txtEng/members/yeonjun/albums/TxtMemYeonjunNOLABELSPART01AlbumEng';
 import TxtMemYeonjunNOLABELSPART02Album from './txt/members/yeonjun/albums/TxtMemYeonjunNOLABELSPART02Album';
+import TxtMemYeonjunNOLABELSPART02AlbumEng from './txtEng/members/yeonjun/albums/TxtMemYeonjunNOLABELSPART02AlbumEng';
 
 import TxtMemYeonjunEng from './txtEng/members/TxtMemYeonjunEng';
 import TxtMemYeonjun_7_22_endEng from './txtEng/members/yeonjun/TxtMemYeonjun_7_22_endEng';
@@ -556,6 +557,7 @@ export default function RoutesSetup() {
             <Route path='/TxtMemYeonjunNOLABELSPART01Album' element={<TxtMemYeonjunNOLABELSPART01Album />}></Route>
             <Route path='/TxtMemYeonjunNOLABELSPART01AlbumEng' element={<TxtMemYeonjunNOLABELSPART01AlbumEng />}></Route>
             <Route path='/TxtMemYeonjunNOLABELSPART02Album' element={<TxtMemYeonjunNOLABELSPART02Album />}></Route>
+            <Route path='/TxtMemYeonjunNOLABELSPART02AlbumEng' element={<TxtMemYeonjunNOLABELSPART02AlbumEng />}></Route>
 
             <Route path='/TxtMemYeonjunEng' element={<TxtMemYeonjunEng />}></Route>
             <Route path='/TxtMemYeonjun_7_22_endEng' element={<TxtMemYeonjun_7_22_endEng />}></Route>
