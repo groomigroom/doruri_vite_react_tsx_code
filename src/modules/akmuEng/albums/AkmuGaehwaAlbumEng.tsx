@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import '../../akmu/albums/AkmuGaehwaAlbum.css';
@@ -11,6 +12,8 @@ import AkmuGaehwaAlbum_img from '../../akmu/albums/img/AkmuGaehwaAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function AkmuGaehwaAlbumEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='akmu_AkmuGaehwaAlbum_full'>
             <MenuEng />
