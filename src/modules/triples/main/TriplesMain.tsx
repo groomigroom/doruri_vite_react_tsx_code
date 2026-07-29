@@ -443,22 +443,93 @@ export default function TriplesMain() {
             </section>
 
             <h2 className='tri_m_h2 tri_m_h2_3'>▪ 유닛 ▪</h2>
-
+            <section className='tri_m_units_tr_full'>
+                <section className='tri_m_units_tr4'>
+                    <Link to='/TriplesAcidAngelFromAsiaMain' className='tri_m_units_a'>
+                        <img src="" alt="Acid Angel from Asia" />
+                        <div>
+                            <h4>Acid Angel from Asia</h4>
+                        </div>
+                    </Link>
+                    <Link to='/TriplesKRystalEyesMain' className='tri_m_units_a'>
+                        <img src="" alt="+&#40;KR&#41;ystal Eyes" />
+                        <div>
+                            <h4>+&#40;KR&#41;ystal Eyes</h4>
+                        </div>
+                    </Link>
+                    <Link to='/TriplesAcidEyesMain' className='tri_m_units_a'>
+                        <img src="" alt="Acid Eyes" />
+                        <div>
+                            <h4>Acid Eyes</h4>
+                        </div>
+                    </Link>
+                    <Link to='/TriplesLOVElutionMain' className='tri_m_units_a'>
+                        <img src="" alt="LOVElution" />
+                        <div>
+                            <h4>LOVElution</h4>
+                        </div>
+                    </Link>
+                </section>
+                <section className='tri_m_units_tr4'>
+                    <Link to='/TriplesEvolutionMain' className='tri_m_units_a'>
+                        <img src="" alt="EVOLution" />
+                        <div>
+                            <h4>EVOLution</h4>
+                        </div>
+                    </Link>
+                    <Link to='/TriplesNxtMain' className='tri_m_units_a'>
+                        <img src="" alt="NXT" />
+                        <div>
+                            <h4>NXT</h4>
+                        </div>
+                    </Link>
+                    <Link to='/TriplesGlowMain' className='tri_m_units_a'>
+                        <img src="" alt="Acid Eyes" />
+                        <div>
+                            <h4>Glow</h4>
+                        </div>
+                    </Link>
+                    <Link to='/TriplesAriaMain' className='tri_m_units_a'>
+                        <img src="" alt="LOVElution" />
+                        <div>
+                            <h4>Aria</h4>
+                        </div>
+                    </Link>
+                </section>
+                <section className='tri_m_units_tr4'>
+                    <Link to='/TriplesVisionaryVisionMain' className='tri_m_units_a'>
+                        <img src="" alt="Visionary Vision" />
+                        <div>
+                            <h4>Visionary Vision</h4>
+                        </div>
+                    </Link>
+                    <Link to='/TriplesHatchMain' className='tri_m_units_a'>
+                        <img src="" alt="∞! &#40;Hatch!&#41;" />
+                        <div>
+                            <h4>∞! &#40;Hatch!&#41;</h4>
+                        </div>
+                    </Link>
+                    <Link to='/ddd' className='tri_m_units_a'>
+                        <img src="" alt="Acid Eyes" />
+                        <div>
+                            <h4>Gddlow</h4>
+                        </div>
+                    </Link>
+                    <Link to='/ddd' className='tri_m_units_a'>
+                        <img src="" alt="LOVElution" />
+                        <div>
+                            <h4>Adddria</h4>
+                        </div>
+                    </Link>
+                </section>
+            </section>
             <section className='tri_m_unit_tr_full'>
-                <Link to='/TriplesAcidAngelFromAsiaMain'>Acid Angel from Asia </Link>
-                <Link to='/TriplesKRystalEyesMain'>+&#40;KR&#41;ystal Eyes </Link>
-                <Link to='/TriplesAcidEyesMain'>Acid Eyes </Link>
-                <Link to='/TriplesLOVElutionMain'>LOVElution </Link>
-                <Link to='/TriplesEvolutionMain'>EVOLution </Link>
-                <Link to='/TriplesNxtMain'>NXT </Link>
-                <Link to='/TriplesGlowMain'>Glow </Link>
-                <Link to='/TriplesAriaMain'>Aria </Link>
-                <Link to='/TriplesVisionaryVisionMain'>Visionary Vision </Link>
-                <Link to='/TriplesHatchMain'>∞! &#40;Hatch!&#41; </Link>
+
                 <Link to='/TriplesNeptuneMain'>neptune </Link>
                 <Link to='/TriplesMoonMain'>moon </Link>
                 <Link to='/TriplesSunMain'>sun </Link>
                 <Link to='/TriplesZenithMain'>zenith </Link>
+                {/* 17개 */}
             </section>
             <p className='tri_m_copy_pp'>Copyright ⓒ ㈜모드하우스</p>
             <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
