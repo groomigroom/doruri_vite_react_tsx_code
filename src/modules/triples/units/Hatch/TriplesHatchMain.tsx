@@ -4,6 +4,7 @@ import '../../main/TriplesMain.css';
 import './TriplesHatchMain.css';
 
 import Menu from '../../../Menu';
+import FooterPart from '../../../FooterPart';
 
 import TriplesHat_m_logo from './img/TriplesHatch_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
@@ -40,25 +41,33 @@ export default function TriplesHatchMain() {
                     <Link to='/TriplesMemS3' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesHat_m_S3_img} alt="이지우 이미지" />
-                            <h4>이지우</h4>
+                            <div>
+                                <h4>이지우</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesHat_m_S4_img} alt="김채연 이미지" />
-                            <h4>김채연</h4>
+                            <div>
+                                <h4>김채연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesHat_m_S5_img} alt="김유연 이미지" />
-                            <h4>김유연</h4>
+                            <div>
+                                <h4>김유연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS6' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesHat_m_S6_img} alt="김수민 이미지" />
-                            <h4>김수민</h4>
+                            <div>
+                                <h4>김수민</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -68,38 +77,40 @@ export default function TriplesHatchMain() {
                     <Link to='/TriplesMemS11' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesHat_m_S11_img} alt="코토네 이미지" />
-                            <h4>코토네</h4>
+                            <div>
+                                <h4>코토네</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS16' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesHat_m_S16_img} alt="마유 이미지" />
-                            <h4>마유</h4>
+                            <div>
+                                <h4>마유</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS20' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesHat_m_S20_img} alt="박시온 이미지" />
-                            <h4>박시온</h4>
+                            <div>
+                                <h4>박시온</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS21' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesHat_m_S21_img} alt="김채원 이미지" />
-                            <h4>김채원</h4>
+                            <div>
+                                <h4>김채원</h4>
+                            </div>
                         </article>
                     </Link>
 
-
                 </section>
 
-
             </section>
-
-
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
-
-
-
