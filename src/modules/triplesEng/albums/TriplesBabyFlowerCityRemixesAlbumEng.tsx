@@ -6,6 +6,8 @@ import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import MenuEng from '../../HomeEng/MenuEng';
 import FooterPartEng from '../../FooterPartEng';
 
+import TriplesBabyFlowerCityRemixesAlbum_img from '../../triples/albums/img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TriplesBabyFlowerCityRemixesAlbumEng() {
@@ -24,7 +26,7 @@ export default function TriplesBabyFlowerCityRemixesAlbumEng() {
                 with the hope that we can<br />
                 now bloom like flowers too!
             </p>
-            <img src="" alt="Baby Flower City Remixes" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={TriplesBabyFlowerCityRemixesAlbum_img} alt="Baby Flower City Remixes" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
