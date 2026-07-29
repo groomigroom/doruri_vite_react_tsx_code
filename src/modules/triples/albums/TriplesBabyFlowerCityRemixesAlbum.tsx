@@ -127,7 +127,7 @@ export default function TriplesBabyFlowerCityRemixesAlbum() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ 켄버스' />
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 }
