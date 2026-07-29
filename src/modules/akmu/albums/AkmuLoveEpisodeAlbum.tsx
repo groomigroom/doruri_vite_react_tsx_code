@@ -1,30 +1,32 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './Bol4FindYouAlbum.css';
+import './AkmuLoveEpisodeAlbum.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function AkmuLoveEpisodeAlbum() {
     return (
-        <div className='bol_Bol4FindYouAlbum_full'>
+        <div className='akmu_AkmuLoveEpisodeAlbum_full'>
             <Menu />
             <section className="home_translate">
-                <Link to='/Bol4FindYouAlbum' className="on">한국어</Link>
-                <Link to='/Bol4FindYouAlbumEng'>English</Link>
+                <Link to='/AkmuLoveEpisodeAlbum' className="on">한국어</Link>
+                <Link to='/AkmuLoveEpisodeAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" />Find You<img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="악뮤 앨범 꾸미기" />LOVE EPISODE<img src={MainH2deco} alt="악뮤 앨범 꾸미기" />
+            </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                밤새 내린 비에 젖은<br />
-                꽃잎들까지도 다 봄이라는<br />
-                생각을 해보며 준비한 앨범이에요!
+                어느 때 듣더라도<br />
+                편안한 곡들을 담은<br />
+                앨범을 준비했어요!
             </p>
-            <img src={Bol4FindYouAlbum_img} alt="Find You" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src='' alt="LOVE EPISODE" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -35,7 +37,7 @@ export default function AkmuLoveEpisodeAlbum() {
                         </td>
                         <td>
                             <p>
-                                2026.04.22.
+                                2024.06.03.
                             </p>
                         </td>
                     </tr>
@@ -47,7 +49,7 @@ export default function AkmuLoveEpisodeAlbum() {
                         </td>
                         <td>
                             <p>
-                                인디음악, 포크/블루스, 록/메탈
+                                포크/블루스, 댄스, R&B/Soul
                             </p>
                         </td>
                     </tr>
@@ -59,14 +61,14 @@ export default function AkmuLoveEpisodeAlbum() {
                         </td>
                         <td>
                             <p>
-                                Kanverse
+                                YG Entertainment
                             </p>
                         </td>
                     </tr>
                 </tbody>
             </table>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
-            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 Bol4FindYouAlbum_tb2'>
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 akmu_AkmuLoveEpisodeAlbum_tb2'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                         <td>
@@ -88,7 +90,7 @@ export default function AkmuLoveEpisodeAlbum() {
                         </td>
                         <td>
                             <p>
-                                Find You
+                                Hero
                             </p>
                         </td>
                     </tr>
@@ -100,11 +102,11 @@ export default function AkmuLoveEpisodeAlbum() {
                         </td>
                         <td>
                             <p>
-                                아름다운 안녕
+                                롱디
                             </p>
                         </td>
                     </tr>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                    <tr>
                         <td>
                             <p>
                                 3
@@ -112,13 +114,50 @@ export default function AkmuLoveEpisodeAlbum() {
                         </td>
                         <td>
                             <p>
-                                나를 봄으로 데려가!
+                                케익의 평화
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                4
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                답답해
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                5
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Love Lee
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                        <td>
+                            <p>
+                                6
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                후라이의 꿈
                             </p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ 켄버스' />
+            <FooterPart FooterPartText='ⓒ YG Entertainment' />
         </div>
     );
 }
