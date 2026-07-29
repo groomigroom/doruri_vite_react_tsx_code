@@ -4,8 +4,8 @@ import { EngPage } from '../../../../HomeEng/EngPage';
 import '../../../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import '../../../../DAY6/members/YoungK/albums/DayMemYoungKYOUNGESTAlbum.css';
 
-import Menu from '../../../../Menu';
-import FooterPart from '../../../../FooterPart';
+import MenuEng from '../../../../HomeEng/MenuEng';
+import FooterPartEng from '../../../../FooterPartEng';
 
 // import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
 
@@ -16,7 +16,7 @@ export default function DayMemYoungKYOUNGESTAlbumEng() {
 
     return (
         <div className='day_DayMemYoungKYOUNGESTAlbum_full'>
-            <Menu />
+            <MenuEng />
             <section className="home_translate">
                 <Link to='/DayMemYoungKYOUNGESTAlbum'>한국어</Link>
                 <Link to='/DayMemYoungKYOUNGESTAlbumEng' className="on">English</Link>
@@ -141,7 +141,7 @@ export default function DayMemYoungKYOUNGESTAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                응원가
+                                A cheering song
                             </p>
                         </td>
                     </tr>
@@ -189,7 +189,7 @@ export default function DayMemYoungKYOUNGESTAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                우리가 헤어질 100가지 이유 &#40;with JINJOO of DNCE&#41;
+                                100 Reasons Why We&apos;re Breaking Up &#40;with JINJOO of DNCE&#41;
                             </p>
                         </td>
                     </tr>
@@ -237,7 +237,7 @@ export default function DayMemYoungKYOUNGESTAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                집으로 향한다
+                                I am heading home
                             </p>
                         </td>
                     </tr>
@@ -249,7 +249,7 @@ export default function DayMemYoungKYOUNGESTAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                안개꽃
+                                Baby&apos;s breath
                             </p>
                         </td>
                     </tr>
@@ -261,13 +261,13 @@ export default function DayMemYoungKYOUNGESTAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                작업실에서 커피를
+                                Coffee in the studio
                             </p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 }
