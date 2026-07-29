@@ -7,6 +7,8 @@ import '../../bol4/albums/Bol4FindYouAlbum.css';
 import MenuEng from '../../HomeEng/MenuEng';
 import FooterPartEng from '../../FooterPartEng';
 
+import Bol4FindYouAlbum_img from '../../bol4/albums/img/Bol4FindYouAlbum_img.jpg';
+
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function Bol4FindYouAlbumEng() {
@@ -25,7 +27,7 @@ export default function Bol4FindYouAlbumEng() {
                 the thought that even the flower<br />
                 petals are all spring!
             </p>
-            <img src="" alt="Find You" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={Bol4FindYouAlbum_img} alt="Find You" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -36,7 +38,7 @@ export default function Bol4FindYouAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                2026.04.22.
+                                April, 22, 2026
                             </p>
                         </td>
                     </tr>
