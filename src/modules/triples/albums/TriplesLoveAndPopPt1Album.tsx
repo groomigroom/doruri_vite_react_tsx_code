@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import './TriplesBabyFlowerCityRemixesAlbum.css';
+import './TriplesLoveAndPopPt1Album.css'
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
@@ -9,19 +10,19 @@ import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TriplesLoveAndPopPt1Album() {
     return (
-        <div className="tri_BabyFlowerCityRemixesAlbum_full">
+        <div className="tri_LoveAndPopPt1Album_full">
             <Menu />
             <section className="home_translate">
-                <Link to='/TriplesBabyFlowerCityRemixesAlbum' className="on">한국어</Link>
-                <Link to='/TriplesBabyFlowerCityRemixesAlbumEng'>English</Link>
+                <Link to='/TriplesLoveAndPopPt1Album' className="on">한국어</Link>
+                <Link to='/TriplesLoveAndPopPt1AlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="트리플에스 앨범 꾸미기" />&lt;Baby Flower City Remixes&gt;<img src={MainH2deco} alt="트리플에스 앨범 꾸미기" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="트리플에스 앨범 꾸미기" />&lt;LOVE&POP&gt; pt.1<img src={MainH2deco} alt="트리플에스 앨범 꾸미기" /></h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                우리도 다 똑같으니까<br />
-                이제 꽃처럼 피어나자는<br />
-                마음으로 준비한 앨범이에요!
+                고개를 들고,<br />
+                우리는 힘을 합쳐 세상을<br />
+                향해 나아가 볼게요!
             </p>
-            <img src="" alt="Baby Flower City Remixes" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src="" alt="LOVE&POP pt.1" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -32,7 +33,7 @@ export default function TriplesLoveAndPopPt1Album() {
                         </td>
                         <td>
                             <p>
-                                2026.06.08.
+                                2026.06.01.
                             </p>
                         </td>
                     </tr>
@@ -63,7 +64,7 @@ export default function TriplesLoveAndPopPt1Album() {
                 </tbody>
             </table>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
-            <table className='tri_BabyFlowerCityRemixesAlbum_tb2'>
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 tri_LoveAndPopPt1Album_tb2'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                         <td>
@@ -85,7 +86,7 @@ export default function TriplesLoveAndPopPt1Album() {
                         </td>
                         <td>
                             <p>
-                                Baby Flower &#40;Seoul Remix : Vendors&#41;
+                                Sad Girls Schemin&apos;
                             </p>
                         </td>
                     </tr>
@@ -97,7 +98,7 @@ export default function TriplesLoveAndPopPt1Album() {
                         </td>
                         <td>
                             <p>
-                                Baby Flower &#40;Bangkok Remix : Kurtz&#41;
+                                Peer
                             </p>
                         </td>
                     </tr>
@@ -109,11 +110,11 @@ export default function TriplesLoveAndPopPt1Album() {
                         </td>
                         <td>
                             <p>
-                                Baby Flower &#40;Taipei Remix : ntrophy&#41;
+                                Baby Flower
                             </p>
                         </td>
                     </tr>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                    <tr>
                         <td>
                             <p>
                                 4
@@ -121,7 +122,43 @@ export default function TriplesLoveAndPopPt1Album() {
                         </td>
                         <td>
                             <p>
-                                Baby Flower &#40;Tokyo Remix : Full8loom&#41;
+                                Type of Girl
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                5
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Sleek
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                6
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                I Like That
+                            </p>
+                        </td>
+                    </tr>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                        <td>
+                            <p>
+                                7
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Me Myself Mode
                             </p>
                         </td>
                     </tr>
