@@ -22,8 +22,8 @@ export default function TxtStarsChapterTogetherAlbum() {
                 <img src={MainH2deco} alt="투바투 앨범 꾸미기" />별의 장: TOGETHER<img src={MainH2deco} alt="투바투 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                ㅇㅇㅇㅇㅇ영원을 바라보고<br />
-                노래할 것을 약속하며<br />
+                함께의 의미를<br />
+                생각해 보며<br />
                 앨범을 준비했어요!
             </p>
             <img src='' alt="Eternal" className='tri_BabyFlowerCityRemixesAlbum_img' />
