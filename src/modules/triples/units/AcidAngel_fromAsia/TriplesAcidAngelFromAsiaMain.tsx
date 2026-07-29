@@ -4,6 +4,7 @@ import '../../main/TriplesMain.css';
 import './TriplesAcidAngelFromAsiaMain.css';
 
 import Menu from '../../../Menu';
+import FooterPart from '../../../FooterPart';
 
 import TriplesAAA_m_logo from './img/TriplesAcidAngelFromAsia_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
@@ -36,13 +37,17 @@ export default function TriplesAcidAngelFromAsiaMain() {
                     <Link to='/TriplesMemS2' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesAAA_m_S2_img} alt="정혜린 이미지" />
-                            <h4>정혜린</h4>
+                            <div>
+                                <h4>정혜린</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesAAA_m_S5_img} alt="김유연 이미지" />
-                            <h4>김유연</h4>
+                            <div>
+                                <h4>김유연</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -52,23 +57,26 @@ export default function TriplesAcidAngelFromAsiaMain() {
                     <Link to='/TriplesMemS7' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesAAA_m_S7_img} alt="김나경 이미지" />
-                            <h4>김나경</h4>
+                            <div>
+                                <h4>김나경</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS8' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesAAA_m_S8_img} alt="공유빈 이미지" />
-                            <h4>공유빈</h4>
+                            <div>
+                                <h4>공유빈</h4>
+                            </div>
                         </article>
                     </Link>
-
 
                 </section>
 
 
             </section>
 
-
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
