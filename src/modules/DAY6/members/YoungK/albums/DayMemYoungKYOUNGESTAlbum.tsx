@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import '../../../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './Bol4FindYouAlbum.css';
+import './DayMemYoungKYOUNGESTAlbum.css';
 
 import Menu from '../../../../Menu';
 import FooterPart from '../../../../FooterPart';
@@ -18,7 +18,9 @@ export default function DayMemYoungKYOUNGESTAlbum() {
                 <Link to='/DayMemYoungKYOUNGESTAlbum' className="on">한국어</Link>
                 <Link to='/DayMemYoungKYOUNGESTAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="Young K 앨범 꾸미기" />YOUNGEST<img src={MainH2deco} alt="Young K 앨범 꾸미기" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="Young K 앨범 꾸미기" />YOUNGEST<img src={MainH2deco} alt="Young K 앨범 꾸미기" />
+            </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 누구에게도 좋은 일이<br />
                 일어나길 원하는<br />
@@ -35,7 +37,7 @@ export default function DayMemYoungKYOUNGESTAlbum() {
                         </td>
                         <td>
                             <p>
-                                2026.04.22.
+                                2026.07.27.
                             </p>
                         </td>
                     </tr>
@@ -47,7 +49,7 @@ export default function DayMemYoungKYOUNGESTAlbum() {
                         </td>
                         <td>
                             <p>
-                                인디음악, 포크/블루스, 록/메탈
+                                록/메탈, R&B/Soul, 포크/블루스, 발라드, 일렉트로니카
                             </p>
                         </td>
                     </tr>
@@ -59,7 +61,7 @@ export default function DayMemYoungKYOUNGESTAlbum() {
                         </td>
                         <td>
                             <p>
-                                Kanverse
+                                JYP 엔터테인먼트
                             </p>
                         </td>
                     </tr>
