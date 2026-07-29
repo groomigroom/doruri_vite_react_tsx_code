@@ -4,6 +4,7 @@ import '../../main/TriplesMain.css';
 import './TriplesAriaMain.css';
 
 import Menu from '../../../Menu';
+import FooterPart from '../../../FooterPart';
 
 import TriplesAria_m_logo from './img/TriplesAria_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
@@ -37,19 +38,25 @@ export default function TriplesAriaMain() {
                     <Link to='/TriplesMemS3' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesAria_m_S3_img} alt="이지우 이미지" />
-                            <h4>이지우</h4>
+                            <div>
+                                <h4>이지우</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesAria_m_S4_img} alt="김채연 이미지" />
-                            <h4>김채연</h4>
+                            <div>
+                                <h4>김채연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS9' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesAria_m_S9_img} alt="카에데 이미지" />
-                            <h4>카에데</h4>
+                            <div>
+                                <h4>카에데</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -59,26 +66,25 @@ export default function TriplesAriaMain() {
                     <Link to='/TriplesMemS10' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesAria_m_S10_img} alt="서다현 이미지" />
-                            <h4>서다현</h4>
+                            <div>
+                                <h4>서다현</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS13' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesAria_m_S13_img} alt="니엔 이미지" />
-                            <h4>니엔</h4>
+                            <div>
+                                <h4>니엔</h4>
+                            </div>
                         </article>
                     </Link>
 
-
                 </section>
-
 
             </section>
 
-
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
-
-
-
