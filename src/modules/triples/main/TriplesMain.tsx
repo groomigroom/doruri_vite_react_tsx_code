@@ -539,7 +539,7 @@ export default function TriplesMain() {
                     </Link>
                     <Link to='/TriplesNeptuneMain' className='tri_m_units_a'>
                         <article className='tri_m_units'>
-                            <img src="" alt="LOVElution" />
+                            <img src="" alt="neptune" />
                             <div>
                                 <h4>neptune</h4>
                             </div>
