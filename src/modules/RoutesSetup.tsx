@@ -275,6 +275,8 @@ import Bol4Main from './bol4/main/Bol4Main';
 import Bol4Main_7_23 from './bol4/main/BeforeMain/Bol4Main_7_23';
 import Bol4MainEng from './bol4Eng/main/Bol4MainEng';
 
+import Bol4FindYouAlbum from './bol4/albums/Bol4FindYouAlbum';
+
 import BolMemAnjiyoung from './bol4/members/BolMemAnjiyoung';
 import BolMemAnjiyoung_7_23End from './bol4/members/Anjiyoung/BolMemAnjiyoung_7_23End';
 import BolMemAnjiyoungEng from './bol4Eng/members/BolMemAnjiyoungEng';
@@ -682,6 +684,8 @@ export default function RoutesSetup() {
             <Route path='/Bol4Main' element={<Bol4Main />}></Route>
             <Route path='/Bol4Main_7_23' element={<Bol4Main_7_23 />}></Route>
             <Route path='/Bol4MainEng' element={<Bol4MainEng />}></Route>
+
+            <Route path='/Bol4FindYouAlbum' element={<Bol4FindYouAlbum />}></Route>
 
             <Route path='/BolMemAnjiyoung' element={<BolMemAnjiyoung />}></Route>
             <Route path='/BolMemAnjiyoung_7_23End' element={<BolMemAnjiyoung_7_23End />}></Route>
