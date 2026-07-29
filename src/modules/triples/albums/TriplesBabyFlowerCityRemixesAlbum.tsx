@@ -17,11 +17,11 @@ export default function TriplesBabyFlowerCityRemixesAlbum() {
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="트리플에스 앨범 꾸미기" />&lt;Baby Flower City Remixes&gt;<img src={MainH2deco} alt="트리플에스 앨범 꾸미기" /></h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                밤새 내린 비에 젖은<br />
-                꽃잎들까지도 다 봄이라는<br />
-                생각을 해보며 준비한 앨범이에요!
+                우리도 다 똑같으니까<br />
+                이제 꽃처럼 피어나자는<br />
+                마음으로 준비한 앨범이에요!
             </p>
-            <img src="" alt="Find You" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src="" alt="Baby Flower City Remixes" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -32,7 +32,7 @@ export default function TriplesBabyFlowerCityRemixesAlbum() {
                         </td>
                         <td>
                             <p>
-                                2026.04.22.
+                                2026.06.08.
                             </p>
                         </td>
                     </tr>
@@ -44,7 +44,7 @@ export default function TriplesBabyFlowerCityRemixesAlbum() {
                         </td>
                         <td>
                             <p>
-                                인디음악, 포크/블루스, 록/메탈
+                                댄스
                             </p>
                         </td>
                     </tr>
@@ -56,7 +56,7 @@ export default function TriplesBabyFlowerCityRemixesAlbum() {
                         </td>
                         <td>
                             <p>
-                                Kanverse
+                                모드하우스
                             </p>
                         </td>
                     </tr>
@@ -85,7 +85,7 @@ export default function TriplesBabyFlowerCityRemixesAlbum() {
                         </td>
                         <td>
                             <p>
-                                Find You
+                                Baby Flower &#40;Seoul Remix : Vendors&#41;
                             </p>
                         </td>
                     </tr>
@@ -97,11 +97,11 @@ export default function TriplesBabyFlowerCityRemixesAlbum() {
                         </td>
                         <td>
                             <p>
-                                아름다운 안녕
+                                Baby Flower &#40;Bangkok Remix : Kurtz&#41;
                             </p>
                         </td>
                     </tr>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                    <tr>
                         <td>
                             <p>
                                 3
@@ -109,7 +109,19 @@ export default function TriplesBabyFlowerCityRemixesAlbum() {
                         </td>
                         <td>
                             <p>
-                                나를 봄으로 데려가!
+                                Baby Flower &#40;Taipei Remix : ntrophy&#41;
+                            </p>
+                        </td>
+                    </tr>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                        <td>
+                            <p>
+                                4
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Baby Flower &#40;Tokyo Remix : Full8loom&#41;
                             </p>
                         </td>
                     </tr>
