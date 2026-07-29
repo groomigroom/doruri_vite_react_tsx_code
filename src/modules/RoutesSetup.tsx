@@ -143,6 +143,8 @@ import AkmuEvent from "./akmu/events/AkmuEvent";
 import IoiMain from "./ioi/main/IoiMain";
 import IoiMainEng from './ioiEng/main/IoiMainEng';
 
+import IoiSmileByeAlbum from './ioi/albums/IoiSmileByeAlbum';
+
 import IoiMemImnayoung from './ioi/members/IoiMemImnayoung';
 import IoiMemImnayoungEng from './ioiEng/members/IoiMemImnayoungEng';
 import IoiMemKimchungha from './ioi/members/IoiMemKimchungha';
@@ -585,6 +587,8 @@ export default function RoutesSetup() {
 
             <Route path='/IoiMain' element={<IoiMain />}></Route>
             <Route path='/IoiMainEng' element={<IoiMainEng />}></Route>
+
+            <Route path='/IoiSmileByeAlbum' element={<IoiSmileByeAlbum />}></Route>
 
             <Route path='/IoiMemImnayoung' element={<IoiMemImnayoung />}></Route>
             <Route path='/IoiMemImnayoungEng' element={<IoiMemImnayoungEng />}></Route>
