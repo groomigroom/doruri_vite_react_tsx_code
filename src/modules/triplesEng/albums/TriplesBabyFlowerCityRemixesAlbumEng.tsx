@@ -27,7 +27,7 @@ export default function TriplesBabyFlowerCityRemixesAlbumEng() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
                         <td>
                             <p>
-                                발매일
+                                release date
                             </p>
                         </td>
                         <td>
@@ -39,24 +39,24 @@ export default function TriplesBabyFlowerCityRemixesAlbumEng() {
                     <tr>
                         <td>
                             <p>
-                                장르
+                                genre
                             </p>
                         </td>
                         <td>
                             <p>
-                                댄스
+                                dance
                             </p>
                         </td>
                     </tr>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
                         <td>
                             <p>
-                                기획사
+                                genre
                             </p>
                         </td>
                         <td>
                             <p>
-                                모드하우스
+                                Modhaus
                             </p>
                         </td>
                     </tr>
@@ -68,12 +68,12 @@ export default function TriplesBabyFlowerCityRemixesAlbumEng() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                         <td>
                             <p>
-                                번호
+                                number
                             </p>
                         </td>
                         <td>
                             <p>
-                                제목
+                                title
                             </p>
                         </td>
                     </tr>
@@ -127,7 +127,7 @@ export default function TriplesBabyFlowerCityRemixesAlbumEng() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ 켄버스' />
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div>
     );
 }
