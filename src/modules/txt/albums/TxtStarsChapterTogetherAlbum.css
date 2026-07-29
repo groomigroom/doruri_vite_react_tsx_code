@@ -1,1 +1,9 @@
-TxtStarsChapterTogetherAlbum.css
+.txt_TxtStarsChapterTogetherAlbum_full {
+    width: 100vw;
+    height: 1383px;
+    position: relative;
+}
+
+.txt_TxtStarsChapterTogetherAlbum_tb2 {
+    height: 450px;
+}
