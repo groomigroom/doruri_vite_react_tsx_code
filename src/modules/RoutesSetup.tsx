@@ -116,6 +116,9 @@ import TxtEvent from "./txt/events/TxtEvent";
 
 import AkmuMain from './akmu/main/AkmuMain';
 import AkmuMainEng from './akmuEng/main/AkmuMainEng';
+
+import AkmuLoveEpisodeAlbum from './akmu/albums/AkmuLoveEpisodeAlbum';
+
 import AkmuMemChanhyuk from './akmu/members/AkmuMemChanhyuk';
 import AkmuMemChanhyukEng from './akmuEng/members/AkmuMemChanhyukEng';
 import AkmuMemSuhyun from './akmu/members/AkmuMemSuhyun';
@@ -536,6 +539,9 @@ export default function RoutesSetup() {
 
             <Route path='/AkmuMain' element={<AkmuMain />}></Route>
             <Route path='/AkmuMainEng' element={<AkmuMainEng />}></Route>
+
+            <Route path='/AkmuLoveEpisodeAlbum' element={<AkmuLoveEpisodeAlbum />}></Route>
+
             <Route path='/AkmuMemChanhyuk' element={<AkmuMemChanhyuk />}></Route>
             <Route path='/AkmuMemChanhyukEng' element={<AkmuMemChanhyukEng />}></Route>
             <Route path='/AkmuMemSuhyun' element={<AkmuMemSuhyun />}></Route>
