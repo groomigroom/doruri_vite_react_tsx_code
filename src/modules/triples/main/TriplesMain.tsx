@@ -505,7 +505,7 @@ export default function TriplesMain() {
                     </Link>
                     <Link to='/TriplesAriaMain' className='tri_m_units_a'>
                         <article className='tri_m_units'>
-                            <img src="" alt="LOVElution" />
+                            <img src="" alt="Aria" />
                             <div>
                                 <h4>Aria</h4>
                             </div>
