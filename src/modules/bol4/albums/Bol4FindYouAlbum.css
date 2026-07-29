@@ -1,5 +1,9 @@
 .bol_Bol4FindYouAlbum_full {
     width: 100vw;
-    height: 100vh;
+    height: 1133px;
     position: relative;
+}
+
+.Bol4FindYouAlbum_tb2 {
+    height: 200px;
 }
