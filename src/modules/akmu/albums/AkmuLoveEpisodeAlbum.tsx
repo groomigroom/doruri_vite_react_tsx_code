@@ -6,7 +6,7 @@ import './AkmuLoveEpisodeAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import AkmuLoveEpisodeAlbum_img from './img/AkmuLoveEpisodeAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -26,7 +26,7 @@ export default function AkmuLoveEpisodeAlbum() {
                 편안한 곡들을 담은<br />
                 앨범을 준비했어요!
             </p>
-            <img src='' alt="LOVE EPISODE" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={AkmuLoveEpisodeAlbum_img} alt="LOVE EPISODE" className='tri_BabyFlowerCityRemixesAlbum_img akmu_AkmuLoveEpisodeAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
