@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './Bol4FindYouAlbumEng.css';
+import '../../bol4/albums/Bol4FindYouAlbum.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 import FooterPartEng from '../../FooterPartEng';
@@ -10,7 +10,7 @@ import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function Bol4FindYouAlbumEng() {
     return (
-        <div className='bol_Bol4FindYouAlbumEng_full'>
+        <div className='bol_Bol4FindYouAlbum_full'>
             <MenuEng />
             <section className="home_translate">
                 <Link to='/Bol4FindYouAlbum'>한국어</Link>
