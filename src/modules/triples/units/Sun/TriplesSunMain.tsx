@@ -4,6 +4,7 @@ import '../../main/TriplesMain.css';
 import './TriplesSunMain.css';
 
 import Menu from '../../../Menu';
+import FooterPart from '../../../FooterPart';
 
 import TriplesSun_m_logo from './img/TriplesSun_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
@@ -37,19 +38,25 @@ export default function TriplesSunMain() {
                     <Link to='/TriplesMemS2' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesSun_m_S2_img} alt="정혜린 이미지" />
-                            <h4>정혜린</h4>
+                            <div>
+                                <h4>정혜린</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesSun_m_S4_img} alt="김채연 이미지" />
-                            <h4>김채연</h4>
+                            <div>
+                                <h4>김채연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesSun_m_S5_img} alt="김유연 이미지" />
-                            <h4>김유연</h4>
+                            <div>
+                                <h4>김유연</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -59,36 +66,35 @@ export default function TriplesSunMain() {
                     <Link to='/TriplesMemS15' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesSun_m_S15_img} alt="신위 이미지" />
-                            <h4>신위</h4>
+                            <div>
+                                <h4>신위</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS16' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesSun_m_S16_img} alt="마유 이미지" />
-                            <h4>마유</h4>
+                            <div>
+                                <h4>마유</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS21' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesSun_m_S21_img} alt="김채원 이미지" />
-                            <h4>김채원</h4>
+                            <div>
+                                <h4>김채원</h4>
+                            </div>
                         </article>
                     </Link>
 
                 </section>
 
-
             </section>
-
-
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
-
-
-
-
-
 
 
 
