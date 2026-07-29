@@ -98,6 +98,7 @@ import TxtMainEng from './txtEng/main/TxtMainEng';
 import TxtStarsChapterTogetherAlbum from './txt/albums/TxtStarsChapterTogetherAlbum';
 import TxtStarsChapterTogetherAlbumEng from './txtEng/albums/TxtStarsChapterTogetherAlbumEng';
 import Txt7thYearAlbum from './txt/albums/Txt7thYearAlbum';
+import Txt7thYearAlbumEng from './txtEng/albums/Txt7thYearAlbumEng';
 
 import TxtMemBeomgyu from './txt/members/TxtMemBeomgyu';
 import TxtMemBeomgyuEng from './txtEng/members/TxtMemBeomgyuEng';
@@ -537,6 +538,7 @@ export default function RoutesSetup() {
             <Route path='/TxtStarsChapterTogetherAlbum' element={<TxtStarsChapterTogetherAlbum />}></Route>
             <Route path='/TxtStarsChapterTogetherAlbumEng' element={<TxtStarsChapterTogetherAlbumEng />}></Route>
             <Route path='/Txt7thYearAlbum' element={<Txt7thYearAlbum />}></Route>
+            <Route path='/Txt7thYearAlbumEng' element={<Txt7thYearAlbumEng />}></Route>
 
             <Route path='/TxtMemBeomgyu' element={<TxtMemBeomgyu />}></Route>
             <Route path='/TxtMemBeomgyuEng' element={<TxtMemBeomgyuEng />}></Route>
