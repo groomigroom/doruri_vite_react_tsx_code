@@ -5,6 +5,8 @@ import './TriplesBabyFlowerCityRemixesAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
+import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TriplesBabyFlowerCityRemixesAlbum() {
@@ -21,7 +23,7 @@ export default function TriplesBabyFlowerCityRemixesAlbum() {
                 이제 꽃처럼 피어나자는<br />
                 마음으로 준비한 앨범이에요!
             </p>
-            <img src="" alt="Baby Flower City Remixes" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={TriplesBabyFlowerCityRemixesAlbum_img} alt="Baby Flower City Remixes" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
