@@ -4,6 +4,7 @@ import '../../main/TriplesMain.css';
 import './TriplesEvolutionMain.css';
 
 import Menu from '../../../Menu';
+import FooterPart from '../../../FooterPart';
 
 import TriplesEvo_m_logo from './img/TriplesEvolution_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
@@ -38,25 +39,33 @@ export default function TriplesEvolutionMain() {
                     <Link to='/TriplesMemS3' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S3_img} alt="이지우 이미지" />
-                            <h4>이지우</h4>
+                            <div>
+                                <h4>이지우</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S4_img} alt="김채연 이미지" />
-                            <h4>김채연</h4>
+                            <div>
+                                <h4>김채연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S5_img} alt="김유연 이미지" />
-                            <h4>김유연</h4>
+                            <div>
+                                <h4>김유연</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS6' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S6_img} alt="김수민 이미지" />
-                            <h4>김수민</h4>
+                            <div>
+                                <h4>김수민</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -66,39 +75,40 @@ export default function TriplesEvolutionMain() {
                     <Link to='/TriplesMemS7' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S7_img} alt="김나경 이미지" />
-                            <h4>김나경</h4>
+                            <div>
+                                <h4>김나경</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS11' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S11_img} alt="코토네 이미지" />
-                            <h4>코토네</h4>
+                            <div>
+                                <h4>코토네</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS12' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S12_img} alt="곽연지 이미지" />
-                            <h4>곽연지</h4>
+                            <div>
+                                <h4>곽연지</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS16' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesEvo_m_S16_img} alt="마유 이미지" />
-                            <h4>마유</h4>
+                            <div>
+                                <h4>마유</h4>
+                            </div>
                         </article>
                     </Link>
 
-
                 </section>
 
-
             </section>
-
-
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
-
-
-
-
