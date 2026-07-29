@@ -6,6 +6,8 @@ import './Bol4SummerPleaseAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
+import Bol4SummerPleaseAlbum_img from './img/Bol4SummerPleaseAlbum_img.jpg';
+
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function Bol4SummerPleaseAlbum() {
@@ -22,7 +24,7 @@ export default function Bol4SummerPleaseAlbum() {
                 계절로 데려가,<br />
                 여름이 반짝이길 바랄게요!
             </p>
-            <img src="" alt="여름아 부탁해" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={Bol4SummerPleaseAlbum_img} alt="여름아 부탁해" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
