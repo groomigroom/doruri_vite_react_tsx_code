@@ -118,6 +118,7 @@ import AkmuMain from './akmu/main/AkmuMain';
 import AkmuMainEng from './akmuEng/main/AkmuMainEng';
 
 import AkmuLoveEpisodeAlbum from './akmu/albums/AkmuLoveEpisodeAlbum';
+import AkmuGaehwaAlbum from './akmu/albums/AkmuGaehwaAlbum';
 
 import AkmuMemChanhyuk from './akmu/members/AkmuMemChanhyuk';
 import AkmuMemChanhyukEng from './akmuEng/members/AkmuMemChanhyukEng';
@@ -541,6 +542,7 @@ export default function RoutesSetup() {
             <Route path='/AkmuMainEng' element={<AkmuMainEng />}></Route>
 
             <Route path='/AkmuLoveEpisodeAlbum' element={<AkmuLoveEpisodeAlbum />}></Route>
+            <Route path='/AkmuGaehwaAlbum' element={<AkmuGaehwaAlbum />}></Route>
 
             <Route path='/AkmuMemChanhyuk' element={<AkmuMemChanhyuk />}></Route>
             <Route path='/AkmuMemChanhyukEng' element={<AkmuMemChanhyukEng />}></Route>
