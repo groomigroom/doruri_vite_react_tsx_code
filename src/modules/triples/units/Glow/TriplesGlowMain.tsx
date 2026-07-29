@@ -4,6 +4,7 @@ import '../../main/TriplesMain.css';
 import './TriplesGlowMain.css';
 
 import Menu from '../../../Menu';
+import FooterPart from '../../../FooterPart';
 
 import TriplesGlow_m_logo from './img/TriplesGlow_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
@@ -35,13 +36,17 @@ export default function TriplesGlowMain() {
                     <Link to='/TriplesMemS21' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesGlow_m_S21_img} alt="김채원 이미지" />
-                            <h4>김채원</h4>
+                            <div>
+                                <h4>김채원</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS22' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesGlow_m_S22_img} alt="설린 이미지" />
-                            <h4>설린</h4>
+                            <div>
+                                <h4>설린</h4>
+                            </div>
                         </article>
                     </Link>
 
@@ -51,26 +56,25 @@ export default function TriplesGlowMain() {
                     <Link to='/TriplesMemS23' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesGlow_m_S23_img} alt="서아 이미지" />
-                            <h4>서아</h4>
+                            <div>
+                                <h4>서아</h4>
+                            </div>
                         </article>
                     </Link>
                     <Link to='/TriplesMemS24' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={TriplesGlow_m_S24_img} alt="지연 이미지" />
-                            <h4>지연</h4>
+                            <div>
+                                <h4>지연</h4>
+                            </div>
                         </article>
                     </Link>
 
-
                 </section>
-
 
             </section>
 
-
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
-
-
-
