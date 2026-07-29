@@ -35,7 +35,7 @@ export default function TriplesBabyFlowerCityRemixesAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                2026.06.08.
+                                June, 8, 2026
                             </p>
                         </td>
                     </tr>
