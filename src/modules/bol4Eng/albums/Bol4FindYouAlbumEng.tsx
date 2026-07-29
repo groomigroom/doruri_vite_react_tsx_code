@@ -69,12 +69,12 @@ export default function Bol4FindYouAlbumEng() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                         <td>
                             <p>
-                                번호
+                                number
                             </p>
                         </td>
                         <td>
                             <p>
-                                제목
+                                title
                             </p>
                         </td>
                     </tr>
@@ -98,7 +98,7 @@ export default function Bol4FindYouAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                아름다운 안녕
+                                Beautiful goodbye
                             </p>
                         </td>
                     </tr>
@@ -110,7 +110,7 @@ export default function Bol4FindYouAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                나를 봄으로 데려가!
+                                Take me to spring!
                             </p>
                         </td>
                     </tr>
