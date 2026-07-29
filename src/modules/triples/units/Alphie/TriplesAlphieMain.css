@@ -1,1 +1,10 @@
-TriplesAlphieMain.css
+.tri_alp_m_full {
+    width: 100vw;
+    height: 1423px;
+    position: relative;
+}
+
+.tri_alp_m_mem_tr_full {
+    width: 720px;
+    height: 340px;
+}
