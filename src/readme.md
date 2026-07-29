@@ -15,6 +15,7 @@ tri_ari
 tri_glo
 tri_vis
 tri_hat
+tri_alp
 tri_nep
 tri_moo
 tri_sun
@@ -48,5 +49,4 @@ Red Velvet red
 
 
 npm i react-router-dom하기
-
 
