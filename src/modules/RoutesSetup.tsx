@@ -96,6 +96,7 @@ import TxtMain from './txt/main/TxtMain';
 import TxtMainEng from './txtEng/main/TxtMainEng';
 
 import TxtStarsChapterTogetherAlbum from './txt/albums/TxtStarsChapterTogetherAlbum';
+import TxtStarsChapterTogetherAlbumEng from './txtEng/albums/TxtStarsChapterTogetherAlbumEng';
 
 import TxtMemBeomgyu from './txt/members/TxtMemBeomgyu';
 import TxtMemBeomgyuEng from './txtEng/members/TxtMemBeomgyuEng';
@@ -533,6 +534,7 @@ export default function RoutesSetup() {
             <Route path='/TxtMainEng' element={<TxtMainEng />}></Route>
 
             <Route path='/TxtStarsChapterTogetherAlbum' element={<TxtStarsChapterTogetherAlbum />}></Route>
+            <Route path='/TxtStarsChapterTogetherAlbumEng' element={<TxtStarsChapterTogetherAlbumEng />}></Route>
 
             <Route path='/TxtMemBeomgyu' element={<TxtMemBeomgyu />}></Route>
             <Route path='/TxtMemBeomgyuEng' element={<TxtMemBeomgyuEng />}></Route>
