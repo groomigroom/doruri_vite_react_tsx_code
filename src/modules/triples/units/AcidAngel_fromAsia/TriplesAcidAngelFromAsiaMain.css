@@ -1,6 +1,6 @@
 .tri_aaa_m_full {
     width: 100vw;
-    height: 90vh;
+    height: 1423px;
     position: relative;
 }
 
@@ -13,10 +13,10 @@
     border: 5px solid #DB3475;
 }
 
-.tri_aaa_m_mem_tr_full>section>a>article>img {
+.tri_aaa_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>img {
     border: 5px solid #DB3475;
 }
 
-.tri_aaa_m_mem_tr_full>section>a>article>h4 {
+.tri_aaa_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>div {
     border: 5px solid #DB3475;
 }
