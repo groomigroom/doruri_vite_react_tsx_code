@@ -7,6 +7,8 @@ import '../../bol4/albums/Bol4SummerPleaseAlbum.css';
 import MenuEng from '../../HomeEng/MenuEng';
 import FooterPartEng from '../../FooterPartEng';
 
+import Bol4SummerPleaseAlbum_img from '../../bol4/albums/img/Bol4SummerPleaseAlbum_img.jpg';
+
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function Bol4SummerPleaseAlbumEng() {
@@ -21,11 +23,11 @@ export default function Bol4SummerPleaseAlbumEng() {
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="bol4 deco" />Summer, please<img src={MainH2deco} alt="bol4 deco" /></h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                I’ll take you to<br />
+                I&apos;ll take you to<br />
                 the season that was the bluest,<br />
                 hoping summer will sparkle!
             </p>
-            <img src="" alt="Summer, please" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={Bol4SummerPleaseAlbum_img} alt="Summer, please" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -36,7 +38,7 @@ export default function Bol4SummerPleaseAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                2026.07.22.
+                                July, 22, 2026
                             </p>
                         </td>
                     </tr>
