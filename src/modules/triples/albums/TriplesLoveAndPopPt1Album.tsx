@@ -6,6 +6,8 @@ import './TriplesLoveAndPopPt1Album.css'
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
+import TriplesLoveAndPopPt1Album_img from './img/TriplesLoveAndPopPt1Album_img.jpg';
+
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TriplesLoveAndPopPt1Album() {
@@ -22,7 +24,7 @@ export default function TriplesLoveAndPopPt1Album() {
                 우리는 힘을 합쳐 세상을<br />
                 향해 나아가 볼게요!
             </p>
-            <img src="" alt="LOVE&POP pt.1" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={TriplesLoveAndPopPt1Album_img} alt="LOVE&POP pt.1" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
