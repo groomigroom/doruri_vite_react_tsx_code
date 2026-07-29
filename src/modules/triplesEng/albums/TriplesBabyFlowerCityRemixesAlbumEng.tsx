@@ -54,7 +54,7 @@ export default function TriplesBabyFlowerCityRemixesAlbumEng() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
                         <td>
                             <p>
-                                genre
+                                agency
                             </p>
                         </td>
                         <td>
