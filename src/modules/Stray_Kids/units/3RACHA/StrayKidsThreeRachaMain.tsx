@@ -15,7 +15,7 @@ import StrayMemChangbin_img from '../../main/img/stray_m_mem_Changbin.jpg';
 import StrayMemHan_img from '../../main/img/stray_m_mem_Han.jpg';
 
 
-//#000000
+//#191919
 
 export default function StrayKidsThreeRachaMain() {
     return (
