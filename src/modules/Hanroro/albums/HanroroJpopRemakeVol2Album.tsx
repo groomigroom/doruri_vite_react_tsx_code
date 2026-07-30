@@ -68,7 +68,7 @@ export default function HanroroJpopRemakeVol2Album() {
                 </tbody>
             </table>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
-            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 tws_TwsTodayMeetingAgainAlbum_tb2'>
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 han_HanroroJpopRemakeVol2Album_tb2'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                         <td>
