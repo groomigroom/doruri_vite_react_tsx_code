@@ -63,7 +63,7 @@ export default function BtoMemYookSungjae() {
 
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 아이윌미디어' />
 
         </div>
     );
