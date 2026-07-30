@@ -19,6 +19,8 @@ import Str_m_MemFilix_img from './img/stray_m_mem_Filix.jpg';
 import Str_m_MemSeungmin_img from './img/stray_m_mem_Seungmin.jpg';
 import Str_m_MemIn_img from './img/stray_m_mem_In.jpg';
 
+import StrayKids3Racha_m_img from '../units/3RACHA/img/StrayKids3Racha_m_img.jpg';
+
 //#191919
 //#ffffff
 
@@ -171,6 +173,19 @@ export default function StrayKidsMain() {
                     </section>
                 </section>
 
+            </section>
+            <h2 className='tri_m_h2 str_m_h2_3'>▪ 유닛 ▪</h2>
+            <section className='str_m_units_tr_full'>
+                <section className='tri_m_units_tr1'>
+                    <Link to='/StrayKidsThreeRachaMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src={StrayKids3Racha_m_img} alt="3RACHA" />
+                            <div>
+                                <h4>3RACHA</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
             </section>
             <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
         </div>
