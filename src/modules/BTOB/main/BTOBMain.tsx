@@ -132,7 +132,7 @@ export default function BTOBMain() {
                 </section>
 
             </section>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 비투비 컴퍼니' />
         </div>
     );
 };
