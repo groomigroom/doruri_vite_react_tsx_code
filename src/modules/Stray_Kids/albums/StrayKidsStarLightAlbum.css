@@ -1,1 +1,9 @@
-StrayKidsStarLightAlbum.css
+.str_StrayKidsStarLightAlbum_full {
+    width: 100vw;
+    height: 1033px;
+    position: relative;
+}
+
+.str_StrayKidsStarLightAlbum_tb2 {
+    height: 100px;
+}
