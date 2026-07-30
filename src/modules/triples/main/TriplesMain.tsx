@@ -571,11 +571,11 @@ export default function TriplesMain() {
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesNdddeptuneMain' className='tri_m_units_a'>
+                    <Link to='/TriplesMsnzMain' className='tri_m_units_a'>
                         <article className='tri_m_units'>
-                            <img src="" alt="LOVElution" />
+                            <img src="" alt="msnz" />
                             <div>
-                                <h4>neddptune</h4>
+                                <h4>msnz</h4>
                             </div>
                         </article>
                     </Link>
