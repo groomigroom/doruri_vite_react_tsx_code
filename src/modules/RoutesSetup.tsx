@@ -227,6 +227,8 @@ import IllMemErohaEng from './illitEng/members/IllMemErohaEng';
 import TwsMain from './tws/main/TwsMain';
 import TwsMainEng from './twsEng/main/TwsMainEng';
 
+import TwsNoTragedyAlbum from './tws/albums/TwsNoTragedyAlbum';
+
 import TwsMemSinyu from './tws/members/TwsMemSinyu';
 import TwsMemSinyuEng from './twsEng/members/TwsMemSinyuEng';
 import TwsMemDohun from './tws/members/TwsMemDohun';
@@ -689,6 +691,8 @@ export default function RoutesSetup() {
 
             <Route path='/TwsMain' element={<TwsMain />}></Route>
             <Route path='/TwsMainEng' element={<TwsMainEng />}></Route>
+
+            <Route path='/TwsNoTragedyAlbum' element={<TwsNoTragedyAlbum />}></Route>
 
             <Route path='/TwsMemSinyu' element={<TwsMemSinyu />}></Route>
             <Route path='/TwsMemSinyuEng' element={<TwsMemSinyuEng />}></Route>
