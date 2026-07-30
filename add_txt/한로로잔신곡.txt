@@ -20,6 +20,8 @@
 
 [싱글]
 J-POP REMAKE Vol.2
+
+HanroroJpopRemakeVol2Album.tsx
 한로로
 발매일
 2026.07.30
