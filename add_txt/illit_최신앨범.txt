@@ -16,6 +16,8 @@
 
 [EP]
 MAMIHLAPINATAPAI
+
+IllitMamthlapinatapaiAlbum.tsx
 아일릿(ILLIT)
 발매일
 2026.04.30.
