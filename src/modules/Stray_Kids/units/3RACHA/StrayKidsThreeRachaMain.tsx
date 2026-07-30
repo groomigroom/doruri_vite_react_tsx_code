@@ -24,10 +24,10 @@ export default function StrayKidsThreeRachaMain() {
             <img src={StrayKids3Racha_m_logo} alt="3RACHA 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="3RACHA 꾸미기" />3RACHA<img src={MainH2Deco} alt="3RACHA 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                #####
-                &apos;에픽하이&apos;와 함께<br />
-                아무도 내 맘을 몰라도<br />
-                Can't stop!</p>
+                &apos;Stray Kids&apos;의 핵심적인<br />
+                존재로서 열심히<br />
+                활동해 볼게요!
+            </p>
             <img src={StrayKids3Racha_m_img} className='tri_m_img' alt='3RACHA' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full str_3racha_m_mem_tr_full'>
