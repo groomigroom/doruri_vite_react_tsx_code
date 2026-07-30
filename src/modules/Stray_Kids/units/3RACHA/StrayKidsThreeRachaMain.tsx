@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import '../../../triples/main/TriplesMain.css'
-import './EpikHighMain.css';
+import './StrayKidsThreeRachaMain.css';
 
 import Menu from '../../../Menu';
 import FooterPart from '../../../FooterPart';
@@ -79,7 +79,7 @@ export default function StrayKidsThreeRachaMain() {
                 </section>
 
             </section> */}
-            <FooterPart FooterPartText='ⓒ 아워즈' />
+            <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
         </div >
     );
 };
