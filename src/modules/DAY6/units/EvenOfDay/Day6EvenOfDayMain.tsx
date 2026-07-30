@@ -26,10 +26,10 @@ export default function Day6EvenOfDayMain() {
                 <img src={MainH2Deco} alt="DAY6 &#40;Even of Day&#41; 꾸미기" />DAY6 &#40;Even of Day&#41;<img src={MainH2Deco} alt="DAY6 &#40;Even of Day&#41; 꾸미기" />
             </h2>
             <p className='tri_m_intropp'>
-                #####
-                &apos;에픽하이&apos;와 함께<br />
-                아무도 내 맘을 몰라도<br />
-                Can't stop!</p>
+                &apos;DAY6 &#40;Even of Day&#41;&apos;와 함께<br />
+                흩어지는 맘이 있어도<br />
+                힘내 보아요!
+            </p>
             <img src={Day6EvenOfDay_m_img} className='tri_m_img' alt='Even of Day' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full day_EvenOfDay_m_mem_tr_full'>
