@@ -25,9 +25,9 @@ export default function IoiIoiLoopAlbumEng() {
                 <img src={MainH2deco} alt="ioi deco" />I.O.I 3rd MINI ALBUM &#91;I.O.I : LOOP&#93;<img src={MainH2deco} alt="ioi deco" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                dddd10년전의 기억을<br />
-                담아서 앨범을<br />
-                준비했어요!
+                I came back,<br />
+                continuing the time<br />
+                that had been stopped again!
             </p>
             <img src='' alt="I.O.I 3rd MINI ALBUM &lsqb;I.O.I : LOOP&rsqb;" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
