@@ -20,6 +20,7 @@ tri_nep
 tri_moo
 tri_sun
 tri_zen
+tri_msnz
 
 투모로우바이투게더 txt 
 악뮤 akmu
