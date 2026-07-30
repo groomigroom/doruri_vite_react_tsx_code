@@ -15,6 +15,8 @@ import Day_m_MemYoungK_img from './img/day6_m_mem_Youngk.jpg';
 import Day_m_MemWonpil_img from './img/day6_m_mem_Wonpil.jpg';
 import Day_m_MemDowoon_img from './img/day6_m_mem_Dowoon.jpg';
 
+import Day6EvenOfDay_m_img from '../units/EvenOfDay/img/Day6EvenOfDay_m_img.jpg'
+
 //191919
 
 export default function DAY6Main() {
@@ -100,6 +102,19 @@ export default function DAY6Main() {
                     </section>
                 </section>
 
+            </section>
+            <h2 className='tri_m_h2 day_m_h2_3'>▪ 유닛 ▪</h2>
+            <section className='day_m_units_tr_full'>
+                <section className='tri_m_units_tr1'>
+                    <Link to='/Day6EvenOfDayMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src={Day6EvenOfDay_m_img} alt="DAY6 &#40;Even of Day&#41;" />
+                            <div>
+                                <h4>DAY6 &#40;Even<br />of Day&#41;</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
             </section>
             <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
         </div>
