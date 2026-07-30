@@ -25,9 +25,9 @@ export default function StrayKidsRunItAlbumEng() {
                 <img src={MainH2deco} alt="Stray Kids deco" />RUN IT<img src={MainH2deco} alt="Stray Kids deco" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                dddd10년전의 기억을<br />
-                담아서 앨범을<br />
-                준비했어요!
+                This is an album prepared<br />
+                with the thought of<br />
+                running into a wider world!
             </p>
             <img src='' alt="RUN IT" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
