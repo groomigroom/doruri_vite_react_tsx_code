@@ -18,9 +18,11 @@
 MAMIHLAPINATAPAI
 아일릿(ILLIT)
 발매일
-2026.04.30
+2026.04.30.
 장르
 일렉트로니카, 발라드, 댄스
+
+electronica, ballad, dance
 발매사
 지니뮤직, STONE MUSIC
 기획사
