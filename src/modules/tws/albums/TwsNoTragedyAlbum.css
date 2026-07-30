@@ -1,1 +1,9 @@
-TwsNoTragedyAlbum.css
+.tws_TwsNoTragedyAlbum_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.tws_TwsNoTragedyAlbum_tb2 {
+    height: 350px;
+}
