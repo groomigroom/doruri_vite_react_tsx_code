@@ -19,7 +19,7 @@ export default function IoiIoiLoopAlbum() {
                 <Link to='/IoiIoiLoopAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
-                <img src={MainH2deco} alt="ioi 앨범 꾸미기" />I.O.I 3rd MINI ALBUM &lsqb;I.O.I : LOOP&rsqb;<img src={MainH2deco} alt="ioi 앨범 꾸미기" />
+                <img src={MainH2deco} alt="ioi 앨범 꾸미기" />I.O.I 3rd MINI ALBUM &#91;I.O.I : LOOP&#93;<img src={MainH2deco} alt="ioi 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 dddd10년전의 기억을<br />
