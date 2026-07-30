@@ -1,1 +1,13 @@
-TriplesMsnzMain.css
+.tri_msnz_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.tri_msnz_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>img {
+    border: 5px solid #9a9a9a;
+}
+
+.tri_msnz_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>div {
+    border: 5px solid #9a9a9a;
+}
