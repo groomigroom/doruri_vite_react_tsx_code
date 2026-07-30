@@ -206,6 +206,8 @@ import StrayMemInEng from './Stray_KidsEng/members/StrayMemInEng';
 import IllitMain from './illit/main/IllitMain';
 import IllitMainEng from './illitEng/main/IllitMainEng';
 
+import IllitMamthlapinatapaiAlbum from './illit/albums/IllitMamthlapinatapaiAlbum';
+
 import IllMemYunah from './illit/members/IllMemYunah';
 import IllMemYunahEng from './illitEng/members/IllMemYunahEng';
 import IllMemMinju from './illit/members/IllMemMinju';
@@ -663,6 +665,8 @@ export default function RoutesSetup() {
 
             <Route path='/IllitMain' element={<IllitMain />}></Route>
             <Route path='/IllitMainEng' element={<IllitMainEng />}></Route>
+
+            <Route path='/IllitMamthlapinatapaiAlbum' element={<IllitMamthlapinatapaiAlbum />}></Route>
 
             <Route path='/IllMemYunah' element={<IllMemYunah />}></Route>
             <Route path='/IllMemYunahEng' element={<IllMemYunahEng />}></Route>
