@@ -5,7 +5,7 @@ React, TypeScript, Tailwind CSS를 사용하여 무한으로 반복되는 좌우
 3번 이미지 다음에 자연스럽게 1번으로 넘어가기 위해, 실제로는 [3번 - 1번 - 2번 - 3번 - 1번] 순서로 배열을 구성해야 애니메이션이 끊기지 않습니다.
 🛠️ 구현 코드 (Carousel.tsx)
 tsx
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 
 // 이미지 데이터 배열 (총 3개)
 const IMAGES = [
