@@ -28,10 +28,9 @@ export default function TriplesAlphieMain() {
             <img src={TriplesAlphie_m_logo} alt="tri_alp 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="tri_alp 로고 꾸미기" />Alphie<img src={MainH2Deco} alt="tri_aci 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                #####
-                &apos;LOVElution&apos;과 함께<br />
-                지금 내가 자신 있게<br />
-                반짝일 수 있게!
+                &apos;Alphie&apos;와 함께<br />
+                좋아하는 것을<br />
+                함께 찾아 가봐요!
             </p>
             <img src={TriplesAlphie_m_img} className='tri_m_img' alt='tri_alp' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
