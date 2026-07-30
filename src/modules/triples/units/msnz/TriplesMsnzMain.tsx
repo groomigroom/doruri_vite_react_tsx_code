@@ -11,30 +11,30 @@ import MainH2Deco from '../../../img/main_h2_deco.png';
 import Menu from '../../../Menu';
 import FooterPart from '../../../FooterPart';
 
-// import TriMsnz_m_memS1 from './img/tri_m_memS1.jpg';
-// import TriMsnz_m_memS2 from './img/tri_m_memS2.jpg';
-// import TriMsnz_m_memS3 from './img/tri_m_memS3.jpg';
-// import TriMsnz_m_memS4 from './img/tri_m_memS4.jpg';
-// import TriMsnz_m_memS5 from './img/tri_m_memS5.jpg';
-// import TriMsnz_m_memS6 from './img/tri_m_memS6.jpg';
-// import TriMsnz_m_memS7 from './img/tri_m_memS7.jpg';
-// import TriMsnz_m_memS8 from './img/tri_m_memS8.jpg';
-// import TriMsnz_m_memS9 from './img/tri_m_memS9.jpg';
-// import TriMsnz_m_memS10 from './img/tri_m_memS10.jpg';
-// import TriMsnz_m_memS11 from './img/tri_m_memS11.jpg';
-// import TriMsnz_m_memS12 from './img/tri_m_memS12.jpg';
-// import TriMsnz_m_memS13 from './img/tri_m_memS13.jpg';
-// import TriMsnz_m_memS14 from './img/tri_m_memS14.jpg';
-// import TriMsnz_m_memS15 from './img/tri_m_memS15.jpg';
-// import TriMsnz_m_memS16 from './img/tri_m_memS16.jpg';
-// import TriMsnz_m_memS17 from './img/tri_m_memS17.jpg';
-// import TriMsnz_m_memS18 from './img/tri_m_memS18.jpg';
-// import TriMsnz_m_memS19 from './img/tri_m_memS19.jpg';
-// import TriMsnz_m_memS20 from './img/tri_m_memS20.jpg';
-// import TriMsnz_m_memS21 from './img/tri_m_memS21.jpg';
-// import TriMsnz_m_memS22 from './img/tri_m_memS22.jpg';
-// import TriMsnz_m_memS23 from './img/tri_m_memS23.jpg';
-// import TriMsnz_m_memS24 from './img/tri_m_memS24.jpg';
+import TriMsnz_m_memS1 from '../../main/img/tri_m_memS1.jpg';
+import TriMsnz_m_memS2 from '../../main/img/tri_m_memS2.jpg';
+import TriMsnz_m_memS3 from '../../main/img/tri_m_memS3.jpg';
+import TriMsnz_m_memS4 from '../../main/img/tri_m_memS4.jpg';
+import TriMsnz_m_memS5 from '../../main/img/tri_m_memS5.jpg';
+import TriMsnz_m_memS6 from '../../main/img/tri_m_memS6.jpg';
+import TriMsnz_m_memS7 from '../../main/img/tri_m_memS7.jpg';
+import TriMsnz_m_memS8 from '../../main/img/tri_m_memS8.jpg';
+import TriMsnz_m_memS9 from '../../main/img/tri_m_memS9.jpg';
+import TriMsnz_m_memS10 from '../../main/img/tri_m_memS10.jpg';
+import TriMsnz_m_memS11 from '../../main/img/tri_m_memS11.jpg';
+import TriMsnz_m_memS12 from '../../main/img/tri_m_memS12.jpg';
+import TriMsnz_m_memS13 from '../../main/img/tri_m_memS13.jpg';
+import TriMsnz_m_memS14 from '../../main/img/tri_m_memS14.jpg';
+import TriMsnz_m_memS15 from '../../main/img/tri_m_memS15.jpg';
+import TriMsnz_m_memS16 from '../../main/img/tri_m_memS16.jpg';
+import TriMsnz_m_memS17 from '../../main/img/tri_m_memS17.jpg';
+import TriMsnz_m_memS18 from '../../main/img/tri_m_memS18.jpg';
+import TriMsnz_m_memS19 from '../../main/img/tri_m_memS19.jpg';
+import TriMsnz_m_memS20 from '../../main/img/tri_m_memS20.jpg';
+import TriMsnz_m_memS21 from '../../main/img/tri_m_memS21.jpg';
+import TriMsnz_m_memS22 from '../../main/img/tri_m_memS22.jpg';
+import TriMsnz_m_memS23 from '../../main/img/tri_m_memS23.jpg';
+import TriMsnz_m_memS24 from '../../main/img/tri_m_memS24.jpg';
 
 //#9a9a9a
 
@@ -60,7 +60,7 @@ export default function TriplesMsnzMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS1' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="윤서연 이미지" />
+                            <img src={TriMsnz_m_memS1} alt="윤서연 이미지" />
                             <div>
                                 <h4>윤서연</h4>
                             </div>
@@ -68,7 +68,7 @@ export default function TriplesMsnzMain() {
                     </Link>
                     <Link to='/TriplesMemS2'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="정혜린 이미지" />
+                            <img src={TriMsnz_m_memS2} alt="정혜린 이미지" />
                             <div>
                                 <h4>정혜린</h4>
                             </div>
@@ -77,7 +77,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS3'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="이지우 이미지" />
+                            <img src={TriMsnz_m_memS3} alt="이지우 이미지" />
                             <div>
                                 <h4>이지우</h4>
                             </div>
@@ -86,7 +86,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS4'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="김채연 이미지" />
+                            <img src={TriMsnz_m_memS4} alt="김채연 이미지" />
                             <div>
                                 <h4>김채연</h4>
                             </div>
@@ -97,7 +97,7 @@ export default function TriplesMsnzMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS5'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="김유연 이미지" />
+                            <img src={TriMsnz_m_memS5} alt="김유연 이미지" />
                             <div>
                                 <h4>김유연</h4>
                             </div>
@@ -106,7 +106,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS6'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="김수민 이미지" />
+                            <img src={TriMsnz_m_memS6} alt="김수민 이미지" />
                             <div>
                                 <h4>김수민</h4>
                             </div>
@@ -115,7 +115,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS7'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="김나경 이미지" />
+                            <img src={TriMsnz_m_memS7} alt="김나경 이미지" />
                             <div>
                                 <h4>김나경</h4>
                             </div>
@@ -124,7 +124,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS8'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="공유빈 이미지" />
+                            <img src={TriMsnz_m_memS8} alt="공유빈 이미지" />
                             <div>
                                 <h4>공유빈</h4>
                             </div>
@@ -135,7 +135,7 @@ export default function TriplesMsnzMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS9'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="카에데 이미지" />
+                            <img src={TriMsnz_m_memS9} alt="카에데 이미지" />
                             <div>
                                 <h4>카에데</h4>
                             </div>
@@ -144,7 +144,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS10'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="서다현 이미지" />
+                            <img src={TriMsnz_m_memS10} alt="서다현 이미지" />
                             <div>
                                 <h4>서다현</h4>
                             </div>
@@ -153,7 +153,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS11'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="코토네 이미지" />
+                            <img src={TriMsnz_m_memS11} alt="코토네 이미지" />
                             <div>
                                 <h4>코토네</h4>
                             </div>
@@ -162,7 +162,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS12'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="곽연지 이미지" />
+                            <img src={TriMsnz_m_memS12} alt="곽연지 이미지" />
                             <div>
                                 <h4>곽연지</h4>
                             </div>
@@ -173,7 +173,7 @@ export default function TriplesMsnzMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS13'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="니엔 이미지" />
+                            <img src={TriMsnz_m_memS13} alt="니엔 이미지" />
                             <div>
                                 <h4>니엔</h4>
                             </div>
@@ -182,7 +182,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS14'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="박소현 이미지" />
+                            <img src={TriMsnz_m_memS14} alt="박소현 이미지" />
                             <div>
                                 <h4>박소현</h4>
                             </div>
@@ -191,7 +191,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS15'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="신위 이미지" />
+                            <img src={TriMsnz_m_memS15} alt="신위 이미지" />
                             <div>
                                 <h4>신위</h4>
                             </div>
@@ -200,7 +200,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS16'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="마유 이미지" />
+                            <img src={TriMsnz_m_memS16} alt="마유 이미지" />
                             <div>
                                 <h4>마유</h4>
                             </div>
@@ -211,7 +211,7 @@ export default function TriplesMsnzMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS17'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="린 이미지" />
+                            <img src={TriMsnz_m_memS17} alt="린 이미지" />
                             <div>
                                 <h4>린</h4>
                             </div>
@@ -221,7 +221,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS18'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="주빈 이미지" />
+                            <img src={TriMsnz_m_memS18} alt="주빈 이미지" />
                             <div>
                                 <h4>주빈</h4>
                             </div>
@@ -230,7 +230,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS19'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="정하연 이미지" />
+                            <img src={TriMsnz_m_memS19} alt="정하연 이미지" />
                             <div>
                                 <h4>정하연</h4>
                             </div>
@@ -239,7 +239,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS20'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="박시온 이미지" />
+                            <img src={TriMsnz_m_memS20} alt="박시온 이미지" />
                             <div>
                                 <h4>박시온</h4>
                             </div>
@@ -250,7 +250,7 @@ export default function TriplesMsnzMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS21'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="김채원 이미지" />
+                            <img src={TriMsnz_m_memS21} alt="김채원 이미지" />
                             <div>
                                 <h4>김채원</h4>
                             </div>
@@ -259,7 +259,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS22'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="설린 이미지" />
+                            <img src={TriMsnz_m_memS22} alt="설린 이미지" />
                             <div>
                                 <h4>설린</h4>
                             </div>
@@ -268,7 +268,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS23'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="서아 이미지" />
+                            <img src={TriMsnz_m_memS23} alt="서아 이미지" />
                             <div>
                                 <h4>서아</h4>
                             </div>
@@ -277,7 +277,7 @@ export default function TriplesMsnzMain() {
 
                     <Link to='/TriplesMemS24'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="지연 이미지" />
+                            <img src={TriMsnz_m_memS24} alt="지연 이미지" />
                             <div>
                                 <h4>지연</h4>
                             </div>
