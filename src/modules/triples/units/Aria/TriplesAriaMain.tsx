@@ -27,9 +27,9 @@ export default function TriplesAriaMain() {
             <img src={TriplesAria_m_logo} alt="tri_Aria 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="tri_Aria 로고 꾸미기" />Aria<img src={MainH2Deco} alt="tri_Aria 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                &apos;Acid Angel from Asia&apos;와 함께<br />
-                ########여기에서 Together<br />
-                무질서한 그대로
+                날이 흐리더라도<br />
+                &apos;Aria&apos;와 함께<br />
+                열심히 뭐든 해봐요!
             </p>
             <img src={TriplesAria_m_img} className='tri_m_img tri_ari_m_img' alt='tri_ari' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
