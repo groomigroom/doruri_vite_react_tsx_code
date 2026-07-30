@@ -65,7 +65,7 @@ export default function YenaMem() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ YH엔터테인먼트' />
         </div>
     );
 
