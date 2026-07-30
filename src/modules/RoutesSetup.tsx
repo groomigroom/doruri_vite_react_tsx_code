@@ -146,6 +146,7 @@ import IoiMainEng from './ioiEng/main/IoiMainEng';
 import IoiSmileByeAlbum from './ioi/albums/IoiSmileByeAlbum';
 import IoiSmileByeAlbumEng from './ioiEng/albums/IoiSmileByeAlbumEng';
 import IoiIoiLoopAlbum from './ioi/albums/IoiIoiLoopAlbum';
+import IoiIoiLoopAlbumEng from './ioiEng/albums/IoiIoiLoopAlbumEng';
 
 import IoiMemImnayoung from './ioi/members/IoiMemImnayoung';
 import IoiMemImnayoungEng from './ioiEng/members/IoiMemImnayoungEng';
@@ -593,6 +594,7 @@ export default function RoutesSetup() {
             <Route path='/IoiSmileByeAlbum' element={<IoiSmileByeAlbum />}></Route>
             <Route path='/IoiSmileByeAlbumEng' element={<IoiSmileByeAlbumEng />}></Route>
             <Route path='/IoiIoiLoopAlbum' element={<IoiIoiLoopAlbum />}></Route>
+            <Route path='/IoiIoiLoopAlbumEng' element={<IoiIoiLoopAlbumEng />}></Route>
 
             <Route path='/IoiMemImnayoung' element={<IoiMemImnayoung />}></Route>
             <Route path='/IoiMemImnayoungEng' element={<IoiMemImnayoungEng />}></Route>
