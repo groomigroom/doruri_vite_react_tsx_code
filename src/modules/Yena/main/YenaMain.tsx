@@ -54,7 +54,7 @@ export default function YenaMain() {
                 </section>
             </section>
 
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ YH엔터테인먼트' />
         </div>
     );
 };
