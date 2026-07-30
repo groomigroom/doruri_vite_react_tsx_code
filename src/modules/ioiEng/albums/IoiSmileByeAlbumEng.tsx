@@ -25,9 +25,9 @@ export default function IoiSmileByeAlbumEng() {
                 <img src={MainH2deco} alt="ioi deco" />Goodbye with a smile &#40;Recorded in 2016&#41; &#40;Prod. JINYOUNG&#41;<img src={MainH2deco} alt="ioi deco" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                dddddd밤새 내린 비에 젖은<br />
-                꽃잎들까지도 다 봄이라는<br />
-                생각을 해보며 준비한 앨범이에요!
+                I prepared this album<br />
+                with memories from<br />
+                10 years ago in mind!
             </p>
             <img src='' alt="Goodbye with a smile &#40;Recorded in 2016&#41; &#40;Prod. JINYOUNG&#41;" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
