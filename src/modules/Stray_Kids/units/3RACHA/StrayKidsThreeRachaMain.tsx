@@ -10,6 +10,10 @@ import StrayKids3Racha_m_logo from './img/StrayKids3Racha_m_logo.png';
 import MainH2Deco from '../../../img/main_h2_deco.png';
 import StrayKids3Racha_m_img from './img/StrayKids3Racha_m_img.jpg';
 
+import StrayMemBangchan_img from '../../main/img/stray_m_mem_Bangchan.jpg';
+import StrayMemChangbin_img from '../../main/img/stray_m_mem_Changbin.jpg';
+import StrayMemHan_img from '../../main/img/stray_m_mem_Han.jpg';
+
 
 //#000000
 
@@ -30,7 +34,7 @@ export default function StrayKidsThreeRachaMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/StrayMemBangchan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="방찬 이미지" />
+                            <img src={StrayMemBangchan_img} alt="방찬 이미지" />
                             <div>
                                 <h4>방찬</h4>
                             </div>
@@ -38,7 +42,7 @@ export default function StrayKidsThreeRachaMain() {
                     </Link>
                     <Link to='/StrayMemChangbin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="창빈 이미지" />
+                            <img src={StrayMemChangbin_img} alt="창빈 이미지" />
                             <div>
                                 <h4>창빈</h4>
                             </div>
@@ -46,7 +50,7 @@ export default function StrayKidsThreeRachaMain() {
                     </Link>
                     <Link to='/StrayMemHan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src="" alt="한 이미지" />
+                            <img src={StrayMemHan_img} alt="한 이미지" />
                             <div>
                                 <h4>한</h4>
                             </div>
