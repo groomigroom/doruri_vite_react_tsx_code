@@ -22,9 +22,9 @@ export default function StrayKidsStarLightAlbum() {
                 <img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />별, 빛 &#40;STAY&#41;<img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                dddd10년전의 기억을<br />
-                담아서 앨범을<br />
-                준비했어요!
+                소중히 써내려간<br />
+                편지의 마음으로<br />
+                준비한 앨범이에요!
             </p>
             <img src='' alt="별, 빛 &#40;STAY&#41;" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
