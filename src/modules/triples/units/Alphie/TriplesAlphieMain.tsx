@@ -8,18 +8,18 @@ import FooterPart from '../../../FooterPart';
 
 import TriplesAlphie_m_logo from './img/TriplesAlphie_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
-// import TriplesLov_m_img from './img/TriplesLov_m_img.jpg';
+import TriplesAlphie_m_img from './img/TriplesAlphie_m_img.jpg';
 
-// import TriplesLov_m_S1_img from './img/TriplesLov_m_S1_img.jpg';
-// import TriplesLov_m_S2_img from './img/TriplesLov_m_S2_img.jpg';
-// import TriplesLov_m_S8_img from './img/TriplesLov_m_S8_img.jpg';
-// import TriplesLov_m_S9_img from './img/TriplesLov_m_S9_img.jpg';
-// import TriplesLov_m_S10_img from './img/TriplesLov_m_S10_img.jpg';
-// import TriplesLov_m_S13_img from './img/TriplesLov_m_S13_img.jpg';
-// import TriplesLov_m_S14_img from './img/TriplesLov_m_S14_img.jpg';
-// import TriplesLov_m_S15_img from './img/TriplesLov_m_S15_img.jpg';
+import TriplesAlphie_s5_img from './img/TriplesAlphie_s5_img.jpg';
+import TriplesAlphie_s11_img from './img/TriplesAlphie_s11_img.jpg';
+import TriplesAlphie_s13_img from './img/TriplesAlphie_s13_img.jpg';
+import TriplesAlphie_s17_img from './img/TriplesAlphie_s17_img.jpg';
+import TriplesAlphie_s19_img from './img/TriplesAlphie_s19_img.jpg';
+import TriplesAlphie_s20_img from './img/TriplesAlphie_s20_img.jpg';
+import TriplesAlphie_s21_img from './img/TriplesAlphie_s21_img.jpg';
+import TriplesAlphie_s24_img from './img/TriplesAlphie_s24_img.jpg';
 
-//#
+//#191919
 
 export default function TriplesAlphieMain() {
     return (
@@ -33,13 +33,13 @@ export default function TriplesAlphieMain() {
                 지금 내가 자신 있게<br />
                 반짝일 수 있게!
             </p>
-            <img src='' className='tri_m_img' alt='tri_alp' />
+            <img src={TriplesAlphie_m_img} className='tri_m_img' alt='tri_alp' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tri_alp_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="김유연 이미지" />
+                            <img src={TriplesAlphie_s5_img} alt="김유연 이미지" />
                             <div>
                                 <h4>김유연</h4>
                             </div>
@@ -47,7 +47,7 @@ export default function TriplesAlphieMain() {
                     </Link>
                     <Link to='/TriplesMemS11' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="코토네 이미지" />
+                            <img src={TriplesAlphie_s11_img} alt="코토네 이미지" />
                             <div>
                                 <h4>코토네</h4>
                             </div>
@@ -55,7 +55,7 @@ export default function TriplesAlphieMain() {
                     </Link>
                     <Link to='/TriplesMemS13' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="니엔 이미지" />
+                            <img src={TriplesAlphie_s13_img} alt="니엔 이미지" />
                             <div>
                                 <h4>니엔</h4>
                             </div>
@@ -63,7 +63,7 @@ export default function TriplesAlphieMain() {
                     </Link>
                     <Link to='/TriplesMemS17' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="린 이미지" />
+                            <img src={TriplesAlphie_s17_img} alt="린 이미지" />
                             <div>
                                 <h4>린</h4>
                             </div>
@@ -75,7 +75,7 @@ export default function TriplesAlphieMain() {
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS19' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="정하연 이미지" />
+                            <img src={TriplesAlphie_s19_img} alt="정하연 이미지" />
                             <div>
                                 <h4>정하연</h4>
                             </div>
@@ -83,7 +83,7 @@ export default function TriplesAlphieMain() {
                     </Link>
                     <Link to='/TriplesMemS20' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="박시온 이미지" />
+                            <img src={TriplesAlphie_s20_img} alt="박시온 이미지" />
                             <div>
                                 <h4>박시온</h4>
                             </div>
@@ -91,7 +91,7 @@ export default function TriplesAlphieMain() {
                     </Link>
                     <Link to='/TriplesMemS21' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="김채원 이미지" />
+                            <img src={TriplesAlphie_s21_img} alt="김채원 이미지" />
                             <div>
                                 <h4>김채원</h4>
                             </div>
@@ -99,7 +99,7 @@ export default function TriplesAlphieMain() {
                     </Link>
                     <Link to='/TriplesMemS24' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="지연 이미지" />
+                            <img src={TriplesAlphie_s24_img} alt="지연 이미지" />
                             <div>
                                 <h4>지연</h4>
                             </div>
