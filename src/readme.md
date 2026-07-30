@@ -26,6 +26,8 @@ tri_msnz
 악뮤 akmu
 아이오아이 ioi
 Stray Kids str
+str_3racha
+
 아일릿 ill
 투어스 tws
 RESCENE res
