@@ -229,6 +229,7 @@ import TwsMainEng from './twsEng/main/TwsMainEng';
 
 import TwsNoTragedyAlbum from './tws/albums/TwsNoTragedyAlbum';
 import TwsNoTragedyAlbumEng from './twsEng/albums/TwsNoTragedyAlbumEng';
+import TwsTodayMeetingAgainAlbum from './tws/albums/TwsTodayMeetingAgainAlbum';
 
 import TwsMemSinyu from './tws/members/TwsMemSinyu';
 import TwsMemSinyuEng from './twsEng/members/TwsMemSinyuEng';
@@ -695,6 +696,7 @@ export default function RoutesSetup() {
 
             <Route path='/TwsNoTragedyAlbum' element={<TwsNoTragedyAlbum />}></Route>
             <Route path='/TwsNoTragedyAlbumEng' element={<TwsNoTragedyAlbumEng />}></Route>
+            <Route path='/TwsTodayMeetingAgainAlbum' element={<TwsTodayMeetingAgainAlbum />}></Route>
 
             <Route path='/TwsMemSinyu' element={<TwsMemSinyu />}></Route>
             <Route path='/TwsMemSinyuEng' element={<TwsMemSinyuEng />}></Route>
