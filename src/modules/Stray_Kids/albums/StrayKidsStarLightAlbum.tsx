@@ -15,8 +15,8 @@ export default function StrayKidsStarLightAlbum() {
         <div className='str_StrayKidsStarLightAlbum_full'>
             <Menu />
             <section className="home_translate">
-                <Link to='/StrayKidsStarLightAlbum'>한국어</Link>
-                <Link to='/StrayKidsStarLightAlbumEng' className="on">English</Link>
+                <Link to='/StrayKidsStarLightAlbum' className="on">한국어</Link>
+                <Link to='/StrayKidsStarLightAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
                 <img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />별, 빛 &#40;STAY&#41;<img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />
