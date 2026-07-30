@@ -26,7 +26,7 @@ export default function Day6EvenOfDayMain() {
                 &apos;에픽하이&apos;와 함께<br />
                 아무도 내 맘을 몰라도<br />
                 Can't stop!</p>
-            <img src='' className='tri_m_img' alt='3RACHA' />
+            <img src='' className='tri_m_img' alt='Even of Day' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full day_EvenOfDay_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
