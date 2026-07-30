@@ -295,6 +295,8 @@ import AllMemYoungseoEng from './ALLDAY_PROJECTEng/members/AllMemYoungseoEng';
 import DAY6Main from './DAY6/main/DAY6Main';
 import DAY6MainEng from './DAY6Eng/main/DAY6MainEng';
 
+import Day6EvenOfDayMain from './DAY6/units/EvenOfDay/Day6EvenOfDayMain';
+
 import DayMemSungjin from './DAY6/members/DayMemSungjin';
 import DayMemSungjinEng from './DAY6Eng/members/DayMemSungjinEng';
 import DayMemYoungK from './DAY6/members/DayMemYoungK';
@@ -750,6 +752,8 @@ export default function RoutesSetup() {
 
             <Route path='/DAY6Main' element={<DAY6Main />}></Route>
             <Route path='/DAY6MainEng' element={<DAY6MainEng />}></Route>
+
+            <Route path='/Day6EvenOfDayMain' element={<Day6EvenOfDayMain />}></Route>
 
             <Route path='/DayMemSungjin' element={<DayMemSungjin />}></Route>
             <Route path='/DayMemSungjinEng' element={<DayMemSungjinEng />}></Route>
