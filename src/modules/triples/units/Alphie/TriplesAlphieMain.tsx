@@ -6,7 +6,7 @@ import './TriplesAlphieMain.css';
 import Menu from '../../../Menu';
 import FooterPart from '../../../FooterPart';
 
-// import TriplesLov_m_logo from './img/TriplesLov_m_logo.svg';
+import TriplesAlphie_m_logo from './img/TriplesAlphie_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
 // import TriplesLov_m_img from './img/TriplesLov_m_img.jpg';
 
@@ -33,7 +33,7 @@ export default function TriplesAlphieMain() {
                 지금 내가 자신 있게<br />
                 반짝일 수 있게!
             </p>
-            <img src='' className='tri_m_img' alt='tri_alp' />
+            <img src={TriplesAlphie_m_logo} className='tri_m_img' alt='tri_alp' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tri_alp_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
