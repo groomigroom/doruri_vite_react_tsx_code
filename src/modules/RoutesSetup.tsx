@@ -207,6 +207,7 @@ import IllitMain from './illit/main/IllitMain';
 import IllitMainEng from './illitEng/main/IllitMainEng';
 
 import IllitMamthlapinatapaiAlbum from './illit/albums/IllitMamthlapinatapaiAlbum';
+import IllitMamthlapinatapaiAlbumEng from './illitEng/albums/IllitMamthlapinatapaiAlbumEng';
 
 import IllMemYunah from './illit/members/IllMemYunah';
 import IllMemYunahEng from './illitEng/members/IllMemYunahEng';
@@ -667,6 +668,7 @@ export default function RoutesSetup() {
             <Route path='/IllitMainEng' element={<IllitMainEng />}></Route>
 
             <Route path='/IllitMamthlapinatapaiAlbum' element={<IllitMamthlapinatapaiAlbum />}></Route>
+            <Route path='/IllitMamthlapinatapaiAlbumEng' element={<IllitMamthlapinatapaiAlbumEng />}></Route>
 
             <Route path='/IllMemYunah' element={<IllMemYunah />}></Route>
             <Route path='/IllMemYunahEng' element={<IllMemYunahEng />}></Route>
