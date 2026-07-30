@@ -115,47 +115,6 @@ export default function Carousel() {
 
 
 
-import React, { useState, useEffect, useRef } from "react"; 이 부분에서 오류가 뜨는데
-import React, { useState, useEffect, useRef } from "react"; 문장에서 에러가 발생한다면, 높은 확률로 다음 3가지 이유 중 하나입니다. 
-에러 메시지에 따라 아래 해결 방법을 적용해 보세요.
-1. Cannot find module 'react' 에러인 경우
-프로젝트에 React 패키지가 설치되지 않았거나 Node_modules가 깨졌을 때 발생합니다.
-해결법: 터미널(Terminal)을 열고 아래 명령어를 입력하여 React를 다시 설치합니다.
-bash
-npm install react @types/react
-# 또는 yarn을 사용한다면
-yarn add react @types/react
-코드를 사용할 때는 주의가 필요합니다.
-2. TypeScript 컴파일 에러인 경우 (가장 흔함)
-모듈 'react'에 기본 내보내기(default export)가 없습니다. 또는 이 모듈은 'import * as React'로만 가져올 수 있습니다.라는 경렬 문구가 뜰 때가 있습니다.
-해결법: 프로젝트 루트 폴더에 있는 tsconfig.json 파일을 열고, compilerOptions 안에 아래 옵션을 추가하거나 true로 변경해 주세요.
-json
-{
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
-  }
-}
-코드를 사용할 때는 주의가 필요합니다.
-3. Next.js (App Router)를 사용 중인 경우
-Next.js 13 버전 이상의 App Router(app/ 폴더 구조)에서는 기본적으로 모든 컴포넌트가 서버 컴포넌트(Server Component)입니다. 서버 컴포넌트에서는 useState나 useEffect 같은 Hook을 사용할 수 없어 에러가 납니다.
-해결법: 작성하신 캐러셀 파일 최상단(첫 번째 줄)에 아래 코드를 추가해 주세요.
-tsx
-"use client"; // 이 줄을 맨 위에 추가하세요
-
-import React, { useState, useEffect, useRef } from "react";
-// ... 나머지 코드
-코드를 사용할 때는 주의가 필요합니다.
-현재 에디터(VS Code 등) 하단 에러 창에 뜨는 정확한 에러 메시지 텍스트를 알려주시면 바로 정답을 찾아드릴 수 있습니다.
-만약 위 방법으로 해결되지 않는다면:
-현재 사용 중인 프레임워크 (Vite, Next.js, Create React App 등)
-터미널이나 에디터에 표시된 정확한 에러 문구
-를 말씀해 주세요!
-AI 대답에는 오류가 있을 수 있습니다. 자세히 알아보기
-
-
-
-
 
 티스토리
 useEffect dependency에 useRef를 담기보단 Callback Refs를...
