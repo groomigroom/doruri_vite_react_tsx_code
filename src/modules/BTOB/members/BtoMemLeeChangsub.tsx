@@ -62,7 +62,7 @@ export default function BtoMemLeeChangsub() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 판타지오' />
 
         </div>
     );
