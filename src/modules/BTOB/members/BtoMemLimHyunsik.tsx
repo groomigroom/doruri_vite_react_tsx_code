@@ -62,7 +62,7 @@ export default function BtoMemLimHyunsik() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart />
+            <FooterPart FooterPartText='ⓒ 비투비 컴퍼니' />
 
         </div>
     );
