@@ -6,7 +6,7 @@ import './StrayKidsThreeRachaMain.css';
 import Menu from '../../../Menu';
 import FooterPart from '../../../FooterPart';
 
-// import EpikHigh_m_logo from './img/EpikHigh_m_logo.svg';
+import StrayKids3Racha_m_logo from './img/StrayKids3Racha_m_logo.png';
 import MainH2Deco from '../../../img/main_h2_deco.png';
 // import Tws_m_img from './img/tws_m_tws.jpg';
 
@@ -17,7 +17,7 @@ export default function StrayKidsThreeRachaMain() {
     return (
         <div className='str_3racha_m_full'>
             <Menu />
-            <img src='' alt="3RACHA 로고" className='tri_m_logo' />
+            <img src={StrayKids3Racha_m_logo} alt="3RACHA 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="3RACHA 꾸미기" />3RACHA<img src={MainH2Deco} alt="3RACHA 꾸미기" /></h2>
             <p className='tri_m_intropp'>
                 #####
