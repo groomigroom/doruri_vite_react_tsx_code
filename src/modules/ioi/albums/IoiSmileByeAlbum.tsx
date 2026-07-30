@@ -22,9 +22,9 @@ export default function IoiSmileByeAlbum() {
                 <img src={MainH2deco} alt="ioi 앨범 꾸미기" />웃으며 안녕 &#40;Recorded in 2016&#41; &#40;Prod.진영&#41;<img src={MainH2deco} alt="ioi 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                dddddd밤새 내린 비에 젖은<br />
-                꽃잎들까지도 다 봄이라는<br />
-                생각을 해보며 준비한 앨범이에요!
+                10년전의 기억을<br />
+                담아서 앨범을<br />
+                준비했어요!
             </p>
             <img src='' alt="웃으며 안녕 &#40;Recorded in 2016&#41; &#40;Prod.진영&#41;" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
