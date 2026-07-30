@@ -9,7 +9,14 @@ AI 모드
 
 
 
-import { useEffect } from 'react'; const EnglishPage = () => { useEffect(() => { // 페이지 진입 시 영어로 설정 document.documentElement.lang = 'en'; // 페이지를 나갈 때 기존 언어(ko)로 복구 return () => { document.documentElement.lang = 'ko'; }; }, []); return ( <div> <h1>Welcome to the English Page</h1> <p>This content is optimized for English speakers.</p> </div> ); }; export default EnglishPage; 위와 같이 react tsx를 작성했는데, useEffect(() => { // 페이지 진입 시 영어로 설정 document.documentElement.lang = 'en'; // 페이지를 나갈 때 기존 언어(ko)로 복구 return () => { document.documentElement.lang = 'ko'; }; }, []); 이 부분만 모듈화해서 다른 tsx 파일에 삽입하는 법?
+import { useEffect } from 'react';
+const EnglishPage = () => { useEffect(() => { 
+// 페이지 진입 시 영어로 설정 
+document.documentElement.lang = 'en'; 
+// 페이지를 나갈 때 기존 언어(ko)로 복구 
+return () => { document.documentElement.lang = 'ko'; }; }, []); return ( <div> <h1>Welcome to the English Page</h1> <p>This content is optimized for English speakers.</p> </div> ); }; export default EnglishPage; 
+위와 같이 react tsx를 작성했는데, useEffect(() => { // 페이지 진입 시 영어로 설정 document.documentElement.lang = 'en'; // 페이지를 나갈 때 기존 언어(ko)로 복구 return () => { document.documentElement.lang = 'ko'; }; }, []); 이 부분만 모듈화해서 다른 tsx 파일에 삽입하는 법?
+
 제공해주신 코드는 React의 커스텀 훅(Custom Hook)을 사용하면 깔끔하게 모듈화하여 여러 컴포넌트에서 재사용할 수 있습니다. 
 1. 커스텀 훅 만들기
 먼저 src/hooks 폴더(또는 원하는 위치)에 useDocumentLang.ts 파일을 생성하고 아래 코드를 작성하세요.
