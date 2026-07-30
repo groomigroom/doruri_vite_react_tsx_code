@@ -1,1 +1,9 @@
-StrayKidsRunItAlbum.css
+.str_StrayKidsRunItAlbum_full {
+    width: 100vw;
+    height: 1033px;
+    position: relative;
+}
+
+.str_StrayKidsRunItAlbum_tb2 {
+    height: 100px;
+}
