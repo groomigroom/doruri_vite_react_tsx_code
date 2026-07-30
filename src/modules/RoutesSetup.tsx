@@ -178,6 +178,7 @@ import StrayKidsMainEng from './Stray_KidsEng/main/StrayKidsMainEng';
 
 import StrayKidsRunItAlbum from './Stray_Kids/albums/StrayKidsRunItAlbum';
 import StrayKidsRunItAlbumEng from './Stray_KidsEng/albums/StrayKidsRunItAlbumEng';
+import StrayKidsStarLightAlbum from './Stray_Kids/albums/StrayKidsStarLightAlbum';
 
 import StrayMemBangchan from './Stray_Kids/members/StrayMemBangchan';
 import StrayMemBangchanEng from './Stray_KidsEng/members/StrayMemBangchanEng';
@@ -629,6 +630,7 @@ export default function RoutesSetup() {
 
             <Route path='/StrayKidsRunItAlbum' element={<StrayKidsRunItAlbum />}></Route>
             <Route path='/StrayKidsRunItAlbumEng' element={<StrayKidsRunItAlbumEng />}></Route>
+            <Route path='/StrayKidsStarLightAlbum' element={<StrayKidsStarLightAlbum />}></Route>
 
             <Route path='/StrayMemBangchan' element={<StrayMemBangchan />}></Route>
             <Route path='/StrayMemBangchanEng' element={<StrayMemBangchanEng />}></Route>
