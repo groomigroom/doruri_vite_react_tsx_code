@@ -6,9 +6,13 @@ import './Day6EvenOfDayMain.css';
 import Menu from '../../../Menu';
 import FooterPart from '../../../FooterPart';
 
-// import StrayKids3Racha_m_logo from './img/StrayKids3Racha_m_logo.png';
+import Day6EvenOfDay_m_logo from './img/Day6EvenOfDay_m_logo.svg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
-// import StrayKids3Racha_m_img from './img/StrayKids3Racha_m_img.jpg';
+import Day6EvenOfDay_m_img from './img/Day6EvenOfDay_m_img.jpg';
+
+import Day6EvenOfDay_youngk_img from './img/Day6EvenOfDay_mem_youngk_img.jpg';
+import Day6EvenOfDay_wonpil_img from './img/Day6EvenOfDay_mem_wonpil_img.jpg';
+import Day6EvenOfDay_dowoon_img from './img/Day6EvenOfDay_mem_dowoon_img.jpg';
 
 
 //#191919
@@ -17,7 +21,7 @@ export default function Day6EvenOfDayMain() {
     return (
         <div className='day_EvenOfDay_m_full'>
             <Menu />
-            <img src='' alt="DAY6 &#40;Even of Day&#41; 로고" className='tri_m_logo' />
+            <img src={Day6EvenOfDay_m_logo} alt="DAY6 &#40;Even of Day&#41; 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'>
                 <img src={MainH2Deco} alt="DAY6 &#40;Even of Day&#41; 꾸미기" />DAY6 &#40;Even of Day&#41;<img src={MainH2Deco} alt="DAY6 &#40;Even of Day&#41; 꾸미기" />
             </h2>
@@ -26,13 +30,13 @@ export default function Day6EvenOfDayMain() {
                 &apos;에픽하이&apos;와 함께<br />
                 아무도 내 맘을 몰라도<br />
                 Can't stop!</p>
-            <img src='' className='tri_m_img' alt='Even of Day' />
+            <img src={Day6EvenOfDay_m_img} className='tri_m_img' alt='Even of Day' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full day_EvenOfDay_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/DayMemWonpil' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="원필 이미지" />
+                            <img src={Day6EvenOfDay_wonpil_img} alt="원필 이미지" />
                             <div>
                                 <h4>원필</h4>
                             </div>
@@ -40,7 +44,7 @@ export default function Day6EvenOfDayMain() {
                     </Link>
                     <Link to='/DayMemDowoon' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="도운 이미지" />
+                            <img src={Day6EvenOfDay_dowoon_img} alt="도운 이미지" />
                             <div>
                                 <h4>도운</h4>
                             </div>
@@ -48,7 +52,7 @@ export default function Day6EvenOfDayMain() {
                     </Link>
                     <Link to='/DayMemYoungK' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="Young K 이미지" />
+                            <img src={Day6EvenOfDay_youngk_img} alt="Young K 이미지" />
                             <div>
                                 <h4>Young K</h4>
                             </div>
