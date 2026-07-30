@@ -54,7 +54,7 @@ export default function TriplesMsnzMain() {
             </p>
             <img src='' className='tri_m_img' alt='트리플에스 msnz 이미지' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full tri_msnz_mem_tr_full'>
 
                 <section className='tri_m_mem_tr'>
                     <Link to='/TriplesMemS1' className='tri_m_mem_a'>
