@@ -25,7 +25,7 @@ export default function TriplesAlphieMain() {
     return (
         <div className='tri_alp_m_full'>
             <Menu />
-            <img src='' alt="tri_alp 로고" className='tri_m_logo' />
+            <img src={TriplesAlphie_m_logo} alt="tri_alp 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="tri_alp 로고 꾸미기" />Alphie<img src={MainH2Deco} alt="tri_aci 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
                 #####
@@ -33,7 +33,7 @@ export default function TriplesAlphieMain() {
                 지금 내가 자신 있게<br />
                 반짝일 수 있게!
             </p>
-            <img src={TriplesAlphie_m_logo} className='tri_m_img' alt='tri_alp' />
+            <img src='' className='tri_m_img' alt='tri_alp' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tri_alp_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
