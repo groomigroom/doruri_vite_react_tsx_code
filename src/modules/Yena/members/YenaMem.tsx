@@ -6,7 +6,7 @@ import './YenaMem.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Yen_mm_yena_img from '../main/img/10cm_m_mem_Gwonjungyeol.jpg';
+import Yen_mm_yena_img from '../main/img/Yen_m_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -23,7 +23,7 @@ export default function YenaMem() {
                 뛰어난 친화력으로<br />
                 여러분을<br />
                 만나러 갈게요!</p>
-            <img src='' alt="최예나" className='tri_mm_s1_img yen_mm_yena_img' />
+            <img src={Yen_mm_yena_img} alt="최예나" className='tri_mm_s1_img yen_mm_yena_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
