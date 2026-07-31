@@ -1,6 +1,6 @@
 Let&apos;s find something<br/>
 that will make you blink<br/>
-in surprise with Seulgi!
+in surprise with &apos;Seulgi&apos;!
 
 
 <tr className='tri_mm_s1_intropa_tb_tr1'>
