@@ -482,6 +482,7 @@ import BTSMemVEng from './BTSEng/members/BTSMemVEng';
 //RedVelvetMain
 
 import RedVelvetMain from './RedVelvet/main/RedVelvetMain';
+import RedVelvetMainEng from './RedVelvetEng/main/RedVelvetMainEng';
 
 export default function RoutesSetup() {
     return (
@@ -963,6 +964,8 @@ export default function RoutesSetup() {
 
             {/* RedVelvetMain */}
             <Route path='/RedVelvetMain' element={<RedVelvetMain />}></Route>
+            <Route path='/RedVelvetMainEng' element={<RedVelvetMainEng />}></Route>
+
         </Routes>
     );
 }
