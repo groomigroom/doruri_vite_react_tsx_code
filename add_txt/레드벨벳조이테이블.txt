@@ -57,11 +57,11 @@ Joy
 </tr>
 <tr>
 <td><p>position</p></td>
-<td><p>main vocal</p></td>
+<td><p>lead rapper, sub vocal</p></td>
 </tr>
 <tr>
 <td><p>MBTI</p></td>
-<td><p>ISFP</p></td>
+<td><p>INFJ</p></td>
 </tr>
 <tr>
 <td><p>nickname</p></td>
