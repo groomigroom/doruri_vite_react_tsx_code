@@ -4,7 +4,7 @@ import '../../main/TriplesMain.css';
 import './TriplesMsnzMain.css';
 
 import TriplesMsnz_m_logo from './img/TriplesMsnz_m_logo.png';
-// import Tri_m_img from './img/tri_m_img.jpg';
+import TriplesMsnz_m_img from './img/TriplesMsnz_m_img.jpg';
 
 import MainH2Deco from '../../../img/main_h2_deco.png';
 
@@ -53,7 +53,7 @@ export default function TriplesMsnzMain() {
                 행복을 그리는 이 순간<br />
                 내 마음 가득히 빛이나!
             </p>
-            <img src='' className='tri_m_img tri_msnz_m_img' alt='트리플에스 msnz 이미지' />
+            <img src={TriplesMsnz_m_img} className='tri_m_img tri_msnz_m_img' alt='트리플에스 msnz 이미지' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full tri_msnz_mem_tr_full'>
 
