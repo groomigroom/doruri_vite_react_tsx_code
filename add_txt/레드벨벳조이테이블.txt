@@ -3,12 +3,12 @@ Joy
 
 조이
 
-&apos;조이&apos;와 함께
-아침부터 좋은
+&apos;조이&apos;와 함께<br/>
+아침부터 좋은<br/>
 생각을 해봐요!
 
-Let&apos;s think of something
-nice together with
+Let&apos;s think of something<br/>
+nice together with<br/>
 &apos;Joy&apos; this morning!
 
 <tr className='tri_mm_s1_intropa_tb_tr1'>
