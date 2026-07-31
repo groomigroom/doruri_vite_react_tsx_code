@@ -1,17 +1,17 @@
  <tr className='tri_mm_s1_intropa_tb_tr1'>
-                        <td><p>출생</p></td>
-                        <td><p>1994년 2월 10일</p></td>
+                        <td><p>birth</p></td>
+                        <td><p>Februry, 10, 1994</p></td>
                     </tr>
                     <tr>
-                        <td><p>키</p></td>
+                        <td><p>height</p></td>
                         <td><p>161cm</p></td>
                     </tr>
                     <tr>
-                        <td><p>혈액형</p></td>
-                        <td><p>A형</p></td>
+                        <td><p>blood type</p></td>
+                        <td><p>A</p></td>
                     </tr>
                     <tr>
-                        <td><p>소속 유닛</p></td>
+                        <td><p>units</p></td>
                         <td><p>레드벨벳-아이린&슬기</p></td>
                     </tr>
                     <tr>
