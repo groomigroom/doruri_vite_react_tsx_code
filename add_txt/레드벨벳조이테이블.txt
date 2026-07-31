@@ -65,9 +65,9 @@ Joy
 </tr>
 <tr>
 <td><p>nickname</p></td>
-<td><p>Wani</p></td>
+<td><p>Dungdungee</p></td>
 </tr>
 <tr className='tri_mm_s1_intropa_tb_tr9'>
 <td><p>character</p></td>
-<td><p>calmness</p></td>
+<td><p>boldness</p></td>
 </tr>
