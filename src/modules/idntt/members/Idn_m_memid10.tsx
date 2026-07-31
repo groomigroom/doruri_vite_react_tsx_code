@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 
+import '../../triples/members/TriplesMemS1.css';
 import './Idn_m_memid10.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Idn_mm_memid10_img from '../main/img/tri_m_memS1.jpg';
+import Idn_mm_memid10_img from '../main/img/Idn_mm_id10_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -23,8 +24,8 @@ export default function Idn_m_memid10() {
                 열심히 준비해서<br />
                 여러분을 만나러 갈게요!
             </p>
-            <img src='' alt="토와 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Idn_mm_memid10_img} alt="토와 이미지" className='tri_mm_s1_img idn_mm_id10_img' />
+            <table className='tri_mm_s1_intropa_tb idn_mm_id10_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
