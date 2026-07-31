@@ -7,12 +7,12 @@ love and hatred
 
 HanroroLoveAndHatredAlbum.tsx
 
-&apos;한로로&apos;와 함께
-좋은 마음을
+&apos;한로로&apos;와 함께<br/>
+좋은 마음을<br/>
 가져 보아요!
 
-Let&apos;s try having
-a good heart
+Let&apos;s try having<br/>
+a good heart<br/>
 together with &apos;Hanroro&apos;!
 
 ㅡㅡㅡㅡㅡㅡㅡㅡ
