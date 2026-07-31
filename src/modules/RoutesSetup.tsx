@@ -362,6 +362,10 @@ import YenaMemEng from './YenaEng/members/YenaMemEng';
 import IdnttMain from './idntt/main/IdnttMain';
 import IdnttMainEng from './idnttEng/main/IdnttMainEng';
 
+import IdnttUnevermetMain from './idntt/units/unevermet/IdnttUnevermetMain';
+import IdnttYesweareMain from './idntt/units/yesweare/IdnttYesweareMain';
+import IdnttItsnotoverMain from './idntt/units/itsnotover/IdnttItsnotoverMain';
+
 import Idn_m_memid1 from './idntt/members/Idn_m_memid1';
 import Idn_m_memid1Eng from './idnttEng/members/Idn_m_memid1Eng';
 import Idn_m_memid2 from './idntt/members/Idn_m_memid2';
@@ -408,6 +412,8 @@ import Idn_m_memid21Eng from './idnttEng/members/Idn_m_memid21Eng';
 import ARTMSMain from './ARTMS/main/ARTMSMain';
 import ARTMSMain_7_23End from './ARTMS/main/beforeMain/ARTMSMain_7_23End';
 import ARTMSMainEng from './ARTMSEng/main/ARTMSMainEng';
+
+import ArtmsOddEyeCircleMain from './ARTMS/units/OddEyeCircle/ArtmsOddEyeCircleMain';
 
 import ArtMemHeejin from './ARTMS/members/ArtMemHeejin';
 import ArtMemHeejinEng from './ARTMSEng/members/ArtMemHeejinEng';
@@ -833,6 +839,10 @@ export default function RoutesSetup() {
             <Route path='/IdnttMain' element={<IdnttMain />}></Route>
             <Route path='/IdnttMainEng' element={<IdnttMainEng />}></Route>
 
+            <Route path='/IdnttUnevermetMain' element={<IdnttUnevermetMain />}></Route>
+            <Route path='/IdnttYesweareMain' element={<IdnttYesweareMain />}></Route>
+            <Route path='/IdnttItsnotoverMain' element={<IdnttItsnotoverMain />}></Route>
+
             <Route path='/Idn_m_memid1' element={<Idn_m_memid1 />}></Route>
             <Route path='/Idn_m_memid1Eng' element={<Idn_m_memid1Eng />}></Route>
             <Route path='/Idn_m_memid2' element={<Idn_m_memid2 />}></Route>
@@ -879,6 +889,8 @@ export default function RoutesSetup() {
             <Route path='/ARTMSMain' element={<ARTMSMain />}></Route>
             <Route path='/ARTMSMain_7_23End' element={<ARTMSMain_7_23End />}></Route>
             <Route path='/ARTMSMainEng' element={<ARTMSMainEng />}></Route>
+
+            <Route path='/ArtmsOddEyeCircleMain' element={<ArtmsOddEyeCircleMain />}></Route>
 
             <Route path='/ArtMemHeejin' element={<ArtMemHeejin />}></Route>
             <Route path='/ArtMemHeejinEng' element={<ArtMemHeejinEng />}></Route>
