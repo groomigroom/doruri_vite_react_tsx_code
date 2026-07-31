@@ -443,6 +443,8 @@ import BtoMemSeoEunkwangEng from './BTOBEng/members/BtoMemSeoEunkwangEng';
 import HanroroMain from './Hanroro/main/HanroroMain';
 import HanroroMainEng from './HanroroEng/main/HanroroMainEng';
 
+import HanroroJpopRemakeVol2Album from './Hanroro/albums/HanroroJpopRemakeVol2Album';
+
 import HanMemHanroro from './Hanroro/members/HanMemHanroro';
 import HanMemHanroroEng from './HanroroEng/members/HanMemHanroroEng';
 
@@ -908,6 +910,8 @@ export default function RoutesSetup() {
             {/* HanroroMain */}
             <Route path='/HanroroMain' element={<HanroroMain />}></Route>
             <Route path='/HanroroMainEng' element={<HanroroMainEng />}></Route>
+
+            <Route path='/HanroroJpopRemakeVol2Album' element={<HanroroJpopRemakeVol2Album />}></Route>
 
             <Route path='/HanMemHanroro' element={<HanMemHanroro />}></Route>
             <Route path='/HanMemHanroroEng' element={<HanMemHanroroEng />}></Route>
