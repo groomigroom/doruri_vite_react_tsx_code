@@ -46,6 +46,11 @@ import TriplesUnitAria_m_img from '../units/Aria/img/TriplesAria_m_img.jpg';
 import TriplesUnitVisionaryVision_m_img from '../units/VisionaryVision/img/TriplesVisionaryVision_m_img.jpg';
 import TriplesUnitHatch_m_img from '../units/Hatch/img/TriplesHatch_m_img.jpg';
 import TriplesUnitAlphie_m_img from '../units/Alphie/img/TriplesAlphie_m_img.jpg';
+import TriplesUnitNeptune_m_img from '../units/Neptune/img/TriplesNeptune_m_img.jpg';
+import TriplesUnitMoon_m_img from '../units/Moon/img/TriplesMoon_m_img.jpg';
+import TriplesUnitSun_m_img from '../units/Sun/img/TriplesSun_m_img.jpg';
+import TriplesUnitZenith_m_img from '../units/Zenith/img/TriplesZenith_m_img.jpg';
+import TriplesUnitMsnz_m_img from '../units/msnz/img/TriplesMsnz_m_img.jpg';
 
 export default function TriplesMain() {
     return (
@@ -551,7 +556,7 @@ export default function TriplesMain() {
                     </Link>
                     <Link to='/TriplesNeptuneMain' className='tri_m_units_a'>
                         <article className='tri_m_units'>
-                            <img src="" alt="neptune" />
+                            <img src={TriplesUnitNeptune_m_img} alt="neptune" />
                             <div>
                                 <h4>neptune</h4>
                             </div>
@@ -561,7 +566,7 @@ export default function TriplesMain() {
                 <section className='tri_m_units_tr4'>
                     <Link to='/TriplesMoonMain' className='tri_m_units_a'>
                         <article className='tri_m_units'>
-                            <img src="" alt="moon" />
+                            <img src={TriplesUnitMoon_m_img} alt="moon" />
                             <div>
                                 <h4>moon</h4>
                             </div>
@@ -569,7 +574,7 @@ export default function TriplesMain() {
                     </Link>
                     <Link to='/TriplesSunMain' className='tri_m_units_a'>
                         <article className='tri_m_units'>
-                            <img src="" alt="sun" />
+                            <img src={TriplesUnitSun_m_img} alt="sun" />
                             <div>
                                 <h4>sun</h4>
                             </div>
@@ -577,7 +582,7 @@ export default function TriplesMain() {
                     </Link>
                     <Link to='/TriplesZenithMain' className='tri_m_units_a'>
                         <article className='tri_m_units'>
-                            <img src="" alt="zenith" />
+                            <img src={TriplesUnitZenith_m_img} alt="zenith" />
                             <div>
                                 <h4>zenith</h4>
                             </div>
@@ -585,7 +590,7 @@ export default function TriplesMain() {
                     </Link>
                     <Link to='/TriplesMsnzMain' className='tri_m_units_a'>
                         <article className='tri_m_units'>
-                            <img src="" alt="msnz" />
+                            <img src={TriplesUnitMsnz_m_img} alt="msnz" />
                             <div>
                                 <h4>msnz</h4>
                             </div>
