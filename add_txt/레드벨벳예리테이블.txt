@@ -36,18 +36,35 @@ Yeri
 <td><p>순수함</p></td>
 </tr>
 
-1 출생
-
-2 키
-
-3 혈액형
-
-4 소속 유닛
-
-5 포지션
-
-6 MBTI
-
-7 별명
-
-8 성격
+<tr className='tri_mm_s1_intropa_tb_tr1'>
+<td><p>birth</p></td>
+<td><p>March, 5, 1999</p></td>
+</tr>
+<tr>
+<td><p>height</p></td>
+<td><p>158cm</p></td>
+</tr>
+<tr>
+<td><p>blood type</p></td>
+<td><p>A</p></td>
+</tr>
+<tr>
+<td><p>units</p></td>
+<td><p>x</p></td>
+</tr>
+<tr>
+<td><p>position</p></td>
+<td><p>lead rapper, sub vocal</p></td>
+</tr>
+<tr>
+<td><p>MBTI</p></td>
+<td><p>INFJ</p></td>
+</tr>
+<tr>
+<td><p>nickname</p></td>
+<td><p>Dungdungee</p></td>
+</tr>
+<tr className='tri_mm_s1_intropa_tb_tr9'>
+<td><p>character</p></td>
+<td><p>boldness</p></td>
+</tr>
