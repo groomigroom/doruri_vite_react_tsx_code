@@ -1,1 +1,17 @@
+.idn_m_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
 
+.idntt_m_img {
+    border: 5px solid #0957c3;
+}
+
+.idntt_m_mem_tr_full img {
+    border: 5px solid #0957c3;
+}
+
+.idntt_m_mem_tr_full div {
+    border: 5px solid #0957c3;
+}
