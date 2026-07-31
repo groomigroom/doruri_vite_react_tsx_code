@@ -268,6 +268,7 @@ import TenCMMain_7_23End from './10CM/main/beforeMain/TenCMMain_7_23End';
 import TenCMMainEng from './10CMEng/main/TenCMMainEng';
 
 import TenCMTheDarkestNightAlbum from './10CM/albums/TenCMTheDarkestNightAlbum';
+import TenCMTheDarkestNightAlbumEng from './10CMEng/albums/TenCMTheDarkestNightAlbumEng';
 
 import TenMemGwonjungyeol from './10CM/members/TenMemGwonjungyeol';
 import TenMemGwonjungyeolEng from './10CMEng/members/TenMemGwonjungyeolEng';
@@ -757,6 +758,7 @@ export default function RoutesSetup() {
             <Route path='/TenCMMainEng' element={<TenCMMainEng />}></Route>
 
             <Route path='/TenCMTheDarkestNightAlbum' element={<TenCMTheDarkestNightAlbum />}></Route>
+            <Route path='/TenCMTheDarkestNightAlbumEng' element={<TenCMTheDarkestNightAlbumEng />}></Route>
 
             <Route path='/TenMemGwonjungyeol' element={<TenMemGwonjungyeol />}></Route>
             <Route path='/TenMemGwonjungyeolEng' element={<TenMemGwonjungyeolEng />}></Route>
