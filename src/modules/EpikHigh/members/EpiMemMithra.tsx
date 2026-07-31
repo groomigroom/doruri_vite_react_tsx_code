@@ -4,7 +4,7 @@ import './EpiMemMithra.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import EpikHighMithra_m_img from '../main/img/Epi_mm_Mithra_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -17,7 +17,7 @@ export default function EpiMemMithra() {
                 펜으로 백지 위를<br />
                 달리면서<br />
                 다양한 생각을 해보아요!</p>
-            <img src="" alt="미쓰라 이미지" className='tri_mm_s1_img epi_mm_mithra_img' />
+            <img src={EpikHighMithra_m_img} alt="미쓰라 이미지" className='tri_mm_s1_img epi_mm_mithra_img' />
             <table className='tri_mm_s1_intropa_tb epi_mm_mithra_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
