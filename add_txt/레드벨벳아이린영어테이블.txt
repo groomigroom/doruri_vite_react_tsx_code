@@ -8,15 +8,15 @@
                     </tr>
                     <tr>
                         <td><p>blood type</p></td>
-                        <td><p>A형</p></td>
+                        <td><p>A</p></td>
                     </tr>
                     <tr>
                         <td><p>units</p></td>
-                        <td><p>레드벨벳-아이린&슬기</p></td>
+                        <td><p>Red Velvet - IRENE & SEULGI</p></td>
                     </tr>
                     <tr>
-                        <td><p>포지션</p></td>
-                        <td><p>리더, 센터, 메인래퍼, 서브보컬, 리드댄서</p></td>
+                        <td><p>position</p></td>
+                        <td><p>leader, center, main rapper, sub vocal, lead dancer</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
@@ -30,3 +30,7 @@
                         <td><p>성격</p></td>
                         <td><p>??</p></td>
                     </tr>
+
+
+레드벨벳-아이린&슬기
+Red Velvet - IRENE & SEULGI
