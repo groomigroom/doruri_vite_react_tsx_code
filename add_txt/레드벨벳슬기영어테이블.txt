@@ -1,4 +1,7 @@
- <tr className='tri_mm_s1_intropa_tb_tr1'>
+Let’s find something that will make you blink in surprise with Seulgi!
+
+
+<tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>birth</p></td>
                         <td><p>Februry, 10, 1994</p></td>
                     </tr>
