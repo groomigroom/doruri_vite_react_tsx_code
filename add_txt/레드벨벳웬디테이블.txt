@@ -3,6 +3,10 @@ Wendy
 
 웬디
 
+웬디와 함께
+목소리에
+집중해 봐요!
+
 <tr className='tri_mm_s1_intropa_tb_tr1'>
 <td><p>출생</p></td>
 <td><p>1994년 2월 21일</p></td>
