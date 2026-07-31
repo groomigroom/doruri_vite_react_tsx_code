@@ -45,11 +45,11 @@ Joy
 </tr>
 <tr>
 <td><p>height</p></td>
-<td><p>158cm</p></td>
+<td><p>167.1cm</p></td>
 </tr>
 <tr>
 <td><p>blood type</p></td>
-<td><p>O</p></td>
+<td><p>A</p></td>
 </tr>
 <tr>
 <td><p>units</p></td>
