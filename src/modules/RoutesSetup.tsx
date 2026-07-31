@@ -455,6 +455,7 @@ import HanroroMainEng from './HanroroEng/main/HanroroMainEng';
 
 import HanroroJpopRemakeVol2Album from './Hanroro/albums/HanroroJpopRemakeVol2Album';
 import HanroroJpopRemakeVol2AlbumEng from './HanroroEng/albums/HanroroJpopRemakeVol2AlbumEng';
+import HanroroLoveAndHatredAlbum from './Hanroro/albums/HanroroLoveAndHatredAlbum';
 
 import HanMemHanroro from './Hanroro/members/HanMemHanroro';
 import HanMemHanroroEng from './HanroroEng/members/HanMemHanroroEng';
@@ -939,6 +940,7 @@ export default function RoutesSetup() {
 
             <Route path='/HanroroJpopRemakeVol2Album' element={<HanroroJpopRemakeVol2Album />}></Route>
             <Route path='/HanroroJpopRemakeVol2AlbumEng' element={<HanroroJpopRemakeVol2AlbumEng />}></Route>
+            <Route path='/HanroroLoveAndHatredAlbum' element={<HanroroLoveAndHatredAlbum />}></Route>
 
             <Route path='/HanMemHanroro' element={<HanMemHanroro />}></Route>
             <Route path='/HanMemHanroroEng' element={<HanMemHanroroEng />}></Route>
