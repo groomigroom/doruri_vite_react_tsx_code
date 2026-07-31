@@ -431,6 +431,8 @@ import ArtMemChoerryEng from './ARTMSEng/members/ArtMemChoerryEng';
 import BTOBMain from './BTOB/main/BTOBMain';
 import BTOBMainEng from './BTOBEng/main/BTOBMainEng';
 
+import BtobBtobBlueMain from './BTOB/units/Btob_blue/BtobBtobBlueMain';
+
 import BtoMemPeniel from './BTOB/members/BtoMemPeniel';
 import BtoMemPenielEng from './BTOBEng/members/BtoMemPenielEng';
 import BtoMemLeeChangsub from './BTOB/members/BtoMemLeeChangsub';
@@ -906,6 +908,8 @@ export default function RoutesSetup() {
             {/* BTOBMain */}
             <Route path='/BTOBMain' element={<BTOBMain />}></Route>
             <Route path='/BTOBMainEng' element={<BTOBMainEng />}></Route>
+
+            <Route path='/BtobBtobBlueMain' element={<BtobBtobBlueMain />}></Route>
 
             <Route path='/BtoMemPeniel' element={<BtoMemPeniel />}></Route>
             <Route path='/BtoMemPenielEng' element={<BtoMemPenielEng />}></Route>
