@@ -1,30 +1,33 @@
 import { Link } from 'react-router-dom';
 
+import '../../triples/members/TriplesMemS1.css';
 import './Idn_m_memid2.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Idn_mm_memid2_img from '../main/img/tri_m_memS1.jpg';
+import Idn_mm_memid2_img from '../main/img/Idn_mm_id2_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function Idn_m_memid2() {
     return (
-        <div className="tri_mm_s1_full">
+        <div className="idn_mm_id2_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/Idn_m_memid2' className="on">한국어</Link>
                 <Link to='/Idn_m_memid2Eng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="idntt 로고 꾸미기" />김희주<img src={MainH2Deco} alt="idntt 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="idntt 로고 꾸미기" />김희주<img src={MainH2Deco} alt="idntt 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 온화하고<br />
                 따뜻한 마음으로<br />
                 여러분을 찾아 갈게요!
             </p>
-            <img src='' alt="김희주 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Idn_mm_memid2_img} alt="김희주 이미지" className='tri_mm_s1_img idn_mm_id2_img' />
+            <table className='tri_mm_s1_intropa_tb idn_mm_id2_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
@@ -65,4 +68,3 @@ export default function Idn_m_memid2() {
         </div>
     );
 };
-
