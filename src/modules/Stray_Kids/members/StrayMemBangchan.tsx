@@ -44,7 +44,7 @@ export default function StrayMemBangchan() {
                     </tr>
                     <tr>
                         <td><p>별명</p></td>
-                        <td><p>여는괄호 ##### 크리스&#40;Chris&#41;</p></td>
+                        <td><p>크리스&#40;Chris&#41;</p></td>
                     </tr>
                     <tr>
                         <td><p>SKZOO</p></td>
