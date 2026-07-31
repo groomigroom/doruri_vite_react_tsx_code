@@ -45,7 +45,16 @@ dance
 RESCENE (리센느)
 좋아요 26,151
 
-
+<td>
+                            <p>
+                                1
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Runaway
+                            </p>
+                        </td>
 
 
 앨범소개
