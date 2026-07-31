@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 
-import '../../triples/main/TriplesMain.css'
-import './BTOBMain.css';
+import '../../../triples/main/TriplesMain.css';
+import './BtobBtobBlueMain.css';
 
-import Menu from '../../Menu';
-import FooterPart from '../../FooterPart';
+import Menu from '../../../Menu';
+import FooterPart from '../../../FooterPart';
 
 // import Tws_m_logo from './img/Tws_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
