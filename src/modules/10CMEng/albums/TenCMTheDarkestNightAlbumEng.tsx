@@ -18,8 +18,8 @@ export default function TenCMTheDarkestNightAlbumEng() {
         <div className='ten_TenCMTheDarkestNightAlbum_full'>
             <MenuEng />
             <section className="home_translate">
-                <Link to='/TenCMTheDarkestNightAlbum' className="on">한국어</Link>
-                <Link to='/TenCMTheDarkestNightAlbumEng'>English</Link>
+                <Link to='/TenCMTheDarkestNightAlbum'>한국어</Link>
+                <Link to='/TenCMTheDarkestNightAlbumEng' className="on">English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
                 <img src={MainH2deco} alt="10CM deco" />The Darkest Night<img src={MainH2deco} alt="10CM deco" />
