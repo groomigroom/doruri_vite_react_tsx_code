@@ -3,9 +3,13 @@ Wendy
 
 웬디
 
-웬디와 함께
-목소리에
+&apos;웬디&apos;와 함께<br/>
+목소리에<br/>
 집중해 봐요!
+
+Let&apos;s focus on<br/>
+the voices<br/>
+together with &apos;Wendy&apos;!
 
 <tr className='tri_mm_s1_intropa_tb_tr1'>
 <td><p>출생</p></td>
