@@ -3,7 +3,9 @@
 
 https://www.melon.com/album/detail.htm?albumId=13114671
 
-love and hatred
+제목에다가
+
+Love and hatred
 
 HanroroLoveAndHatredAlbum.tsx
 
@@ -14,5 +16,29 @@ HanroroLoveAndHatredAlbum.tsx
 Let&apos;s try having<br/>
 a good heart<br/>
 together with &apos;Hanroro&apos;!
+
+
+<td>
+                            <p>
+                                1
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Game over ?
+                            </p>
+                        </td>
+
+<td>
+                            <p>
+                                2
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                1111
+                            </p>
+                        </td>
+
 
 ㅡㅡㅡㅡㅡㅡㅡㅡ
