@@ -12,18 +12,18 @@
                     </tr>
                     <tr>
                         <td><p>units</p></td>
-                        <td><p>레드벨벳-아이린&슬기</p></td>
+                        <td><p>Red Velvet - IRENE & SEULGI</p></td>
                     </tr>
                     <tr>
-                        <td><p>포지션</p></td>
-                        <td><p>메인댄서, 리드보컬</p></td>
+                        <td><p>position</p></td>
+                        <td><p>main dancer, lead vocal</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
                         <td><p>ISFP</p></td>
                     </tr>
                     <tr>
-                        <td><p>별명</p></td>
+                        <td><p>nickname</p></td>
                         <td><p>곰돌이</p></td>
                     </tr>
                     <tr className='tri_mm_s1_intropa_tb_tr9'>
