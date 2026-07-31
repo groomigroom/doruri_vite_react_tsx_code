@@ -1,1 +1,13 @@
-Idn_m_memid6.css
+.idn_mm_id6_full {
+    width: 100vw;
+    height: 1083px;
+    position: relative;
+}
+
+.idn_mm_id6_img {
+    border: 5px solid #0957c3;
+}
+
+.idn_mm_id6_intropa_tb {
+    height: 400px;
+}
