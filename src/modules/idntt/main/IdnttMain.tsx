@@ -444,30 +444,34 @@ export default function IdnttMain() {
 
             <h2 className='tri_m_h2 tri_m_h2_3'>▪ 유닛 ▪</h2>
 
-            <section className='tri_m_unit_tr_full'>
-                <Link to='/TriplesAcidAngelFromAsiaMain'>Acid Angel from Asia </Link>
-                <Link to='/TriplesKRystalEyesMain'>+&#40;KR&#41;ystal Eyes </Link>
-                <Link to='/TriplesAcidEyesMain'>Acid Eyes </Link>
-                <Link to='/TriplesLOVElutionMain'>LOVElution </Link>
-                <Link to='/TriplesEvolutionMain'>EVOLution </Link>
-                <Link to='/TriplesNxtMain'>NXT </Link>
-                <Link to='/TriplesGlowMain'>Glow </Link>
-                <Link to='/TriplesAriaMain'>Aria </Link>
-                <Link to='/TriplesVisionaryVisionMain'>Visionary Vision </Link>
-                <Link to='/TriplesHatchMain'>∞! &#40;Hatch!&#41; </Link>
-                <Link to='/TriplesNeptuneMain'>neptune </Link>
-                <Link to='/TriplesMoonMain'>moon </Link>
-                <Link to='/TriplesSunMain'>sun </Link>
-                <Link to='/TriplesZenithMain'>zenith </Link>
+            <section className='tri_m_units_tr_full idntt_m_units_tr_full'>
+                <section className='idntt_m_units_tr3'>
+                    <Link to='/IdnttUnevermetMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src='' alt="unevermet" />
+                            <div>
+                                <h4>unevermet</h4>
+                            </div>
+                        </article>
+                    </Link>
+                    <Link to='/IdnttYesweareMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src='' alt="yesweare" />
+                            <div>
+                                <h4>yesweare</h4>
+                            </div>
+                        </article>
+                    </Link>
+                    <Link to='/IdnttItsnotoverMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src='' alt="itsnotover" />
+                            <div>
+                                <h4>itsnotover</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
             </section>
-            <p className='tri_m_copy_pp'>Copyright ⓒ ㈜모드하우스</p>
-            <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
-                <h3>트리플에스 인스타그램</h3>
-            </a>
-            <a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_you'>
-                <h3>트리플에스 유튜브</h3>
-            </a>
-            <Link to="/TriplesEvent" className='tri_m_e'>이벤트</Link>
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div >
     );
