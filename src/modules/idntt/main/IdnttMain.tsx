@@ -32,6 +32,8 @@ import Idn_m_memid19_img from './img/Idn_mm_id19_img.jpg';
 import Idn_m_memid20_img from './img/Idn_mm_id20_img.jpg';
 import Idn_m_memid21_img from './img/Idn_mm_id21_img.jpg';
 
+// import IdnttUnevermet_m_img from '../units';
+
 //#0957c3
 
 export default function IdnttMain() {
