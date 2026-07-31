@@ -35,7 +35,7 @@ export default function BtobBtob4uMain() {
                 꿈을 꿔요 같이!</p>
             <img src='' className='tri_m_img' alt='비투비 포유' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full bto_BtobBlue_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full bto_Btob4u_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/BtoMemSeoEunkwang' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
@@ -120,5 +120,3 @@ export default function BtobBtob4uMain() {
         </div>
     );
 };
-
-
