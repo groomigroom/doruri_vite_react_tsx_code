@@ -4,7 +4,7 @@ import './EpiMemTablo.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
+import EpikHighTablo_m_img from '../main/img/Epi_mm_Tablo_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -17,7 +17,7 @@ export default function EpiMemTablo() {
                 &apos;타블로&apos;와 함께<br />
                 밑을 바친다는 마음으로<br />
                 뭐든 준비해 봐요!</p>
-            <img src="" alt="타블로 이미지" className='tri_mm_s1_img epi_mm_tablo_img' />
+            <img src={EpikHighTablo_m_img} alt="타블로 이미지" className='tri_mm_s1_img epi_mm_tablo_img' />
             <table className='tri_mm_s1_intropa_tb epi_mm_tablo_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
