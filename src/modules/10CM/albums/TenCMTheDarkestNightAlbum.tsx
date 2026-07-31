@@ -6,7 +6,7 @@ import './TenCMTheDarkestNightAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import TenCMTheDarkestNightAlbum_img from './img/TenCMTheDarkestNightAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -26,7 +26,7 @@ export default function TenCMTheDarkestNightAlbum() {
                 생각해 보며<br />
                 앨범을 준비했어요!
             </p>
-            <img src='' alt="The Darkest Night" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={TenCMTheDarkestNightAlbum_img} alt="The Darkest Night" className='tri_BabyFlowerCityRemixesAlbum_img ten_TenCMTheDarkestNightAlbum__img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
