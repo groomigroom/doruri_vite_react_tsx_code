@@ -7,7 +7,7 @@ import Menu from '../../../Menu';
 import FooterPart from '../../../FooterPart';
 
 // import Tws_m_logo from './img/Tws_m_logo.svg';
-import MainH2Deco from '../../img/main_h2_deco.png';
+import MainH2Deco from '../../../img/main_h2_deco.png';
 // import Tws_m_img from './img/tws_m_tws.jpg';
 
 // import Tws_m_MemSinyu_img from './img/tws_m_mem_Sinyu.jpg';
