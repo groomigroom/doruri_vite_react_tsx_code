@@ -1,6 +1,6 @@
 .idn_m_full {
     width: 100vw;
-    height: 100vh;
+    height: 2433px;
     position: relative;
 }
 
@@ -14,4 +14,24 @@
 
 .idntt_m_mem_tr_full div {
     border: 5px solid #0957c3;
+}
+
+.idntt_m_units_tr_full {
+    width: 530px;
+    height: 150px;
+}
+
+.idntt_m_units_tr_full img {
+    border: 5px solid #0957c3;
+}
+
+.idntt_m_units_tr_full div {
+    border: 5px solid #0957c3;
+}
+
+.idntt_m_units_tr3 {
+    width: 530px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
 }
