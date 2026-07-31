@@ -41,7 +41,7 @@ Joy
 
 <tr className='tri_mm_s1_intropa_tb_tr1'>
 <td><p>birth</p></td>
-<td><p>Februry 21, 1994</p></td>
+<td><p>September, 3, 1996</p></td>
 </tr>
 <tr>
 <td><p>height</p></td>
