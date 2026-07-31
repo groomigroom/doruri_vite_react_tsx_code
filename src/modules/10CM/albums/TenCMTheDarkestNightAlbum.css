@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.ten_TenCMTheDarkestNightAlbum__img {
+    border: 5px solid #000000;
+}
+
 .ten_TenCMTheDarkestNightAlbum_tb2 {
     height: 150px;
 }
