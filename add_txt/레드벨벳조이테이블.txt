@@ -3,9 +3,13 @@ Joy
 
 조이
 
-조이와 함께
+&apos;조이&apos;와 함께
 아침부터 좋은
 생각을 해봐요!
+
+Let&apos;s think of something
+nice together with
+&apos;Joy&apos; this morning!
 
 <tr className='tri_mm_s1_intropa_tb_tr1'>
 <td><p>출생</p></td>
