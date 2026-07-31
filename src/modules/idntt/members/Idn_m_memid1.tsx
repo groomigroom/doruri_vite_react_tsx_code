@@ -1,17 +1,18 @@
 import { Link } from 'react-router-dom';
 
+import '../../triples/members/TriplesMemS1.css';
 import './Idn_m_memid1.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Idn_mm_memid1_img from '../main/img/tri_m_memS1.jpg';
+import Idn_mm_memid1_img from '../main/img/Idn_mm_id1_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function Idn_m_memid1() {
     return (
-        <div className="tri_mm_s1_full">
+        <div className="idn_mm_id1_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/Idn_m_memid1' className="on">한국어</Link>
@@ -23,8 +24,8 @@ export default function Idn_m_memid1() {
                 멤버들과<br />
                 잘 지내 볼게요!
             </p>
-            <img src='' alt="김도훈 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Idn_mm_memid1_img} alt="김도훈 이미지" className='tri_mm_s1_img idn_mm_id1_img' />
+            <table className='tri_mm_s1_intropa_tb idn_mm_id1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
@@ -65,5 +66,3 @@ export default function Idn_m_memid1() {
         </div>
     );
 };
-
-
