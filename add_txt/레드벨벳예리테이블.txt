@@ -1,12 +1,14 @@
 예리
 Yeri
 
-예리와 함께
-다양한 생각을
+&apos;예리&apos;와 함께<br/>
+다양한 생각을<br/>
 해보아요!
 
 
-Let’s explore a variety of thoughts together with Yeri!
+Let&apos;s explore<br/>
+a variety of thoughts<br/>
+together with &apos;Yeri&apos;!
 
 <tr className='tri_mm_s1_intropa_tb_tr1'>
 <td><p>출생</p></td>
