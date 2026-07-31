@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 
+import '../../triples/members/TriplesMemS1.css';
 import './Idn_m_memid12.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Idn_mm_memid11_img from '../main/img/tri_m_memS1.jpg';
+import Idn_mm_memid12_img from '../main/img/Idn_mm_id12_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -23,8 +24,8 @@ export default function Idn_m_memid12() {
                 도전하며 &apos;idntt&apos;<br />
                 활동을 준비해 볼게요!
             </p>
-            <img src='' alt="박누리 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Idn_mm_memid12_img} alt="박누리 이미지" className='tri_mm_s1_img idn_mm_id12_img' />
+            <table className='tri_mm_s1_intropa_tb idn_mm_id12_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
