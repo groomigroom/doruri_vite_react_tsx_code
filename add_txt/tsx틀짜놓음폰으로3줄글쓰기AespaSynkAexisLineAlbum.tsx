@@ -105,7 +105,7 @@ BLUE &#40;WINTER Solo&#41;
 </td>
 <td>
 <p>
-Ketchup And Lemonade (NINGNING Solo)
+Ketchup And Lemonade &#40;NINGNING Solo&#41;
 </p>
 </td>
 </tr>
@@ -117,7 +117,7 @@ Ketchup And Lemonade (NINGNING Solo)
 </td>
 <td>
 <p>
-Tornado (GISELLE Solo)
+Tornado &#40;GISELLE Solo&#41;
 </p>
 </td>
 </tr>
@@ -130,7 +130,7 @@ Tornado (GISELLE Solo)
 </td>
 <td>
 <p>
-GOOD STUFF (KARINA Solo)
+GOOD STUFF &#40;KARINA Solo&#41;
 </p>
 </td>
 </tr>
