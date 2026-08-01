@@ -81,6 +81,7 @@ import TriplesLOVElutionMain from './triples/units/LOVElution/TriplesLOVElutionM
 import TriplesEvolutionMain from './triples/units/EVOLution/TriplesEvolutionMain';
 import TriplesNxtMain from './triples/units/NXT/TriplesNxtMain';
 import TriplesAriaMain from './triples/units/Aria/TriplesAriaMain';
+import TriplesAriaMainEng from './triplesEng/units/Aria/TriplesAriaMainEng';
 import TriplesGlowMain from './triples/units/Glow/TriplesGlowMain';
 import TriplesVisionaryVisionMain from './triples/units/VisionaryVision/TriplesVisionaryVisionMain';
 import TriplesHatchMain from './triples/units/Hatch/TriplesHatchMain';
@@ -574,6 +575,7 @@ export default function RoutesSetup() {
             <Route path='/TriplesEvolutionMain' element={<TriplesEvolutionMain />}></Route>
             <Route path='/TriplesNxtMain' element={<TriplesNxtMain />}></Route>
             <Route path='/TriplesAriaMain' element={<TriplesAriaMain />}></Route>
+            <Route path='/TriplesAriaMainEng' element={<TriplesAriaMainEng />}></Route>
             <Route path='/TriplesGlowMain' element={<TriplesGlowMain />}></Route>
             <Route path='/TriplesVisionaryVisionMain' element={<TriplesVisionaryVisionMain />}></Route>
             <Route path='/TriplesHatchMain' element={<TriplesHatchMain />}></Route>
