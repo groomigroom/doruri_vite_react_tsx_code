@@ -20,7 +20,7 @@ return (
 <Link to='/EpikHighBruzHalipaOursVersionAlbum' className="on">한국어</Link>
 <Link to='/EpikHighBruzHalipaOursVersionAlbumEng'>English</Link>
 </section>
-<h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="ALLDAY PROJECT deco" />I DON&apos;T BARGAIN<img src={MainH2deco} alt="ALLDAY PROJECT deco" /></h2>
+<h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="에픽하이" />부르즈 할리파 &#40;Ours Version&#41;<img src={MainH2deco} alt="에픽하이" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
 #######견고해진 음악적<br/>
 성장의 이야기도<br/>
@@ -81,105 +81,6 @@ return (
 제목
 </p>
 </tr>
-<tr>
-<td>
-<p>
-1
-</p>
-</td>
-<td>
-<p>
-PRETTY MUCH &#40;Intro&#41;
-</p>
-</tr>
-<tr>
-<td>
-<p>
-2
-</p>
-</td>
-<td>
-<p>
-ANTIHERO
-</p>
-</tr>
-<tr>
-<td>
-<p>
-3
-</p>
-</td>
-<td>
-<p>
-미슐랭 CYPHER
-</p>
-</tr>
-<tr>
-<td>
-<p>
-4
-</p>
-</td>
-<td>
-<p>
-LATE CHECKOUT &#40;GO Edit&#41;
-</p>
-</tr>
-<tr>
-<td>
-<p>
-5
-</p>
-</td>
-<td>
-<p>
-K-DRAMA
-</p>
-</tr>
-<tr>
-<td>
-<p>
-6
-</p>
-</td>
-<td>
-<p>
-신사들의 소신 &#40;GOOD RIDDANCE&#41;
-</p>
-</tr>
-<tr>
-<td>
-<p>
-7
-</p>
-</td>
-<td>
-<p>
-GROUP CHAT FREESTYLE &#40;Full Ver.&#41;
-</p>
-</tr>
-<tr>
-<td>
-<p>
-8
-</p>
-</td>
-<td>
-<p>
-OK GOOD
-</p>
-</tr>
-<tr>
-<td>
-<p>
-9
-</p>
-</td>
-<td>
-<p>
-OFF DAY &#40;Verse Ver.&#41;
-</p>
-</tr>
 
 <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
 <td>
@@ -189,7 +90,7 @@ OFF DAY &#40;Verse Ver.&#41;
 </td>
 <td>
 <p>
-행복했습니다 &#40;Feat. Kim Jong Wan of Nell&#41;
+부르즈 할리파 &#40;Ours Version&#41;
 </p>
 </td>
 </tr>
