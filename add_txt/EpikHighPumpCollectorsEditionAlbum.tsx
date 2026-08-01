@@ -158,7 +158,7 @@ K-DRAMA
 </td>
 <td>
 <p>
-제목
+GROUP CHAT FREESTYLE &#40;Full Ver.&#41;
 </p>
 </tr>
 <tr>
@@ -169,7 +169,7 @@ K-DRAMA
 </td>
 <td>
 <p>
-제목
+OK GOOD
 </p>
 </tr>
 <tr>
@@ -180,7 +180,7 @@ K-DRAMA
 </td>
 <td>
 <p>
-제목
+OFF DAY &#40;Verse Ver.&#41;
 </p>
 </tr>
 
@@ -192,7 +192,7 @@ K-DRAMA
 </td>
 <td>
 <p>
-I DON&apos;T BARGAIN
+행복했습니다 &#40;Feat. Kim Jong Wan of Nell&#41;
 </p>
 </td>
 </tr>
