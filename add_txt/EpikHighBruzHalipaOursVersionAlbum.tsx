@@ -37,7 +37,7 @@ return (
 </td>
 <td>
 <p>
-2024.10.18.
+2024.09.12.
 </p>
 </td>
 </tr>
@@ -96,7 +96,7 @@ return (
 </tr>
 </tbody>
 </table>
-<FooterPart FooterPartText='ⓒ THEBLACKLABEL' />
+<FooterPart FooterPartText='ⓒ 아워즈' />
 </div>
 );
 }
