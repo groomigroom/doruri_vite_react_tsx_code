@@ -1,5 +1,9 @@
 AlldayProjectAlldayProjectAlbum.tsx
 
+한계를 생각하지
+않고 열심히
+준비한 앨범이에요!
+
 폰으로 3줄글쓰기
 
 import { Link } from 'react-router-dom';
