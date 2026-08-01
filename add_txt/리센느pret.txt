@@ -81,7 +81,7 @@ export default function ResceneRunawayAlbum() {
                 <Link to='/ResceneRunawayAlbum' className="on">한국어</Link>
                 <Link to='/ResceneRunawayAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="RESCENE 앨범 꾸미기" />Dream Dress<img src={MainH2deco} alt="RESCENE 앨범 꾸미기" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="RESCENE 앨범 꾸미기" />Pretty Girl - Special Single<img src={MainH2deco} alt="RESCENE 앨범 꾸미기" /></h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                주체적으로 나아간다는<br/>
 생각을 담아서<br/>
