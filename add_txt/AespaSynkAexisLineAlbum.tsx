@@ -1,6 +1,6 @@
 AespaSynkAexisLineAlbum.tsx
 
-
+3줄 글 폰으로 하기.
 
 
 import { Link } from 'react-router-dom';
@@ -17,7 +17,7 @@ import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function AespaSynkAexisLineAlbum() {
 return (
-<div className="res_AespaLemonadeAlbum_full">
+<div className="aes_AespaSynkAexisLineAlbum_full">
 <Menu />
 <section className="home_translate">
 <Link to='/AespaSynkAexisLineAlbum' >한국어</Link>
@@ -25,7 +25,7 @@ return (
 </section>
 <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="aespa deco" />SYNK : aeXIS LINE - 2025 Special Digital Single<img src={MainH2deco} alt="aespa deco" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-견고해진 음악적<br/>
+#######견고해진 음악적<br/>
 성장의 이야기도<br/>
 담은 앨범이에요!
 </p>
