@@ -70,8 +70,7 @@ export default function TriplesDreamDressAlbum() {
                             </p>
                         </td>
                         <td>
-                            <p>
-                                
+                            <p>                   
 Sony Music Labels Inc.
                             </p>
                         </td>
@@ -93,7 +92,8 @@ Sony Music Labels Inc.
                             </p>
                         </td>
                     </tr>
-                    <tr>
+                   
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
                         <td>
                             <p>
                                 1
@@ -101,43 +101,7 @@ Sony Music Labels Inc.
                         </td>
                         <td>
                             <p>
-                                Baby Flower &#40;Seoul Remix : Vendors&#41;
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                2
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Baby Flower &#40;Bangkok Remix : Kurtz&#41;
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                3
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Baby Flower &#40;Taipei Remix : ntrophy&#41;
-                            </p>
-                        </td>
-                    </tr>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
-                        <td>
-                            <p>
-                                4
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Baby Flower &#40;Tokyo Remix : Full8loom&#41;
+                               Dream Dress
                             </p>
                         </td>
                     </tr>
