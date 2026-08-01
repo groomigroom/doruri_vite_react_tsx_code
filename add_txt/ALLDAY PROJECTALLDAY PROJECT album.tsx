@@ -1,8 +1,12 @@
 AlldayProjectAlldayProjectAlbum.tsx
 
-한계를 생각하지
-않고 열심히
+한계를 생각하지<br/>
+않고 열심히<br/>
 준비한 앨범이에요!
+
+Work hard without<br/>
+thinking about limits<br/>
+This is the album we prepared!
 
 폰으로 3줄글쓰기
 
