@@ -200,7 +200,7 @@ Roll
 </td>
 <td>
 <p>
-제목
+My Plan
 </p>
 </td>
 </tr>
@@ -212,7 +212,7 @@ Roll
 </td>
 <td>
 <p>
-제목
+&apos;Til We Die
 </p>
 </td>
 </tr>
