@@ -26,18 +26,18 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
         <div className='str_StrayKidsSKZReplay2026Pt1Album_full'>
             <Menu />
             <section className="home_translate">
-                <Link to='/StrayKidsRunItAlbum' className="on">한국어</Link>
-                <Link to='/StrayKidsRunItAlbumEng'>English</Link>
+                <Link to='/StrayKidsSKZReplay2026Pt1Album' className="on">한국어</Link>
+                <Link to='/StrayKidsSKZReplay2026Pt1AlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
                 <img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />SKZ-REPLAY 2026 Pt.1<img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                더 넓어진 세상으로<br />
-                뛰어 든다는 생각으로<br />
-                준비한 앨범이에요!
+                다양한 곡들을<br/>
+모아서<br/>
+앨범을 준비했어요!
             </p>
-            <img src='' alt="RUN IT" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src='' alt="StrayKidsSKZReplay2026Pt1Album" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
