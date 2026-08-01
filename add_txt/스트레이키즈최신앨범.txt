@@ -1,7 +1,13 @@
 https://kko.to/iP2snZGpdA
 
 
-다양한 곡들을 모아서 앨범을 준비했어요!
+다양한 곡들을<br/>
+모아서<br/>
+앨범을 준비했어요!
+
+We put together an album<br/>
+with a variety of songs<br/>
+and prepared it!
 
 import { Link } from 'react-router-dom';
 
