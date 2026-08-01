@@ -125,7 +125,7 @@ ANTIHERO
 </td>
 <td>
 <p>
-제목
+LATE CHECKOUT &#40;GO Edit&#41;
 </p>
 </tr>
 <tr>
@@ -136,7 +136,7 @@ ANTIHERO
 </td>
 <td>
 <p>
-제목
+K-DRAMA
 </p>
 </tr>
 <tr>
@@ -147,7 +147,7 @@ ANTIHERO
 </td>
 <td>
 <p>
-제목
+신사들의 소신 &#40;GOOD RIDDANCE&#41;
 </p>
 </tr>
 <tr>
