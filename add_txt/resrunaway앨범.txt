@@ -423,11 +423,9 @@ export default function ResceneRunawayAlbumEng() {
                 <Link to='/ResceneRunawayAlbumEng'  className="on">English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="RESCENE 앨범 꾸미기" />Dream Dress<img src={MainH2deco} alt="RESCENE 앨범 꾸미기" /></h2>
-            <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-               주체적으로 나아간다는<br/>
-생각을 담아서<br/>
-앨범을 준비했어요!
-            </p>
+            <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>We prepared this album<br/>
+with the idea of moving<br/>
+forward on my own terms in mind!</p>
             <img src='' alt="Dream Dress" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
