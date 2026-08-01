@@ -49,7 +49,7 @@ export default function BtobBtob4uMainEng() {
                             </div>
                         </article>
                     </Link>
-                    <Link to='/BtoMemLeeMinhyuk' className='tri_m_mem_a'>
+                    <Link to='/BtoMemLeeMinhyukEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src='' alt="Lee Minhyuk" />
                             <div>
