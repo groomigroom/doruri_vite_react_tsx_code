@@ -32,19 +32,19 @@ best to be active!
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ members ▪</h2>
             <section className='tri_m_mem_tr_full str_3racha_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
-                    <Link to='/StrayMemBangchan' className='tri_m_mem_a'>
+                    <Link to='/StrayMemBangchanEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={StrayMemBangchan_img} alt="방찬 이미지" />
+                            <img src={StrayMemBangchan_img} alt="Bangchan" />
                             <div>
-                                <h4>방찬</h4>
+                                <h4>Bangchan</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/StrayMemChangbin' className='tri_m_mem_a'>
+                    <Link to='/StrayMemChangbinEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={StrayMemChangbin_img} alt="창빈 이미지" />
+                            <img src={StrayMemChangbin_img} alt="Changbin" />
                             <div>
-                                <h4>창빈</h4>
+                                <h4>Changbin</h4>
                             </div>
                         </article>
                     </Link>
