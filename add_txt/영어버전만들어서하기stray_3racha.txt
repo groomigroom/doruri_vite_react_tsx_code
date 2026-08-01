@@ -48,11 +48,11 @@ best to be active!
                             </div>
                         </article>
                     </Link>
-                    <Link to='/StrayMemHan' className='tri_m_mem_a'>
+                    <Link to='/StrayMemHanEng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={StrayMemHan_img} alt="한 이미지" />
+                            <img src={StrayMemHan_img} alt="Han" />
                             <div>
-                                <h4>한</h4>
+                                <h4>Han</h4>
                             </div>
                         </article>
                     </Link>
@@ -83,7 +83,7 @@ best to be active!
                 </section>
 
             </section> */}
-            <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div >
     );
 };
