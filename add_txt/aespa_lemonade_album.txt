@@ -1,5 +1,7 @@
 https://www.melon.com/album/detail.htm?albumId=13384085
 
+AespaLemonadeAlbum.tsx
+
 견고해진 음악적<br/>
 성장의 이야기도<br/>
 담은 앨범이에요!
@@ -7,3 +9,8 @@ https://www.melon.com/album/detail.htm?albumId=13384085
 It&apos;s an album that<br/>
 also tells the story of<br/>
 our solidified musical growth!
+
+
+                        <td><p>크리스&#40;Chris&#41;</p></td>
+
+
