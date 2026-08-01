@@ -92,7 +92,12 @@ THEBLACKLABEL
 </td>
 <td>
 <p>
-BLUE &#40;WINTER Solo&#41;
+ONE MORE TIME
+</p>
+</td>
+<td>
+<p>
+ALLDAY PROJECT
 </p>
 </td>
 </tr>
@@ -104,7 +109,12 @@ BLUE &#40;WINTER Solo&#41;
 </td>
 <td>
 <p>
-Ketchup And Lemonade &#40;NINGNING Solo&#41;
+LOOK AT ME
+</p>
+</td>
+  <td>
+<p>
+ALLDAY PROJECT
 </p>
 </td>
 </tr>
@@ -116,7 +126,12 @@ Ketchup And Lemonade &#40;NINGNING Solo&#41;
 </td>
 <td>
 <p>
-Tornado &#40;GISELLE Solo&#41;
+YOU AND I
+</p>
+</td>
+  <td>
+<p>
+ALLDAY PROJECT
 </p>
 </td>
 </tr>
@@ -130,6 +145,11 @@ Tornado &#40;GISELLE Solo&#41;
 <td>
 <p>
 GOOD STUFF &#40;KARINA Solo&#41;
+</p>
+</td>
+  <td>
+<p>
+ALLDAY PROJECT
 </p>
 </td>
 </tr>
