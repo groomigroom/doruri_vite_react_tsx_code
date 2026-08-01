@@ -47,7 +47,7 @@ export default function TriplesDreamDressAlbum() {
                         </td>
                         <td>
                             <p>
-                                2026.06.08.
+                                2026.08.01.
                             </p>
                         </td>
                     </tr>
@@ -59,7 +59,7 @@ export default function TriplesDreamDressAlbum() {
                         </td>
                         <td>
                             <p>
-                                댄스
+                                J-POP
                             </p>
                         </td>
                     </tr>
@@ -71,7 +71,8 @@ export default function TriplesDreamDressAlbum() {
                         </td>
                         <td>
                             <p>
-                                모드하우스
+                                
+Sony Music Labels Inc.
                             </p>
                         </td>
                     </tr>
