@@ -1,5 +1,7 @@
 AlldayProjectIDonBargainAlbum.tsx
 
+폰으로 3줄글쓰기;
+
 import { Link } from 'react-router-dom';
 
 import './TriplesBabyFlowerCityRemixesAlbum.css';
@@ -12,13 +14,13 @@ import FooterPart from '../../FooterPart';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function AlldayProjectAlldayProjectAlbum() {
+export default function AlldayProjectIDonBargainAlbum() {
 return (
-<div className="all_AlldayProjectAlldayProjectAlbum_full">
+<div className="all_AlldayProjectIDonBargainAlbum_full">
 <Menu />
 <section className="home_translate">
-<Link to='/AlldayProjectAlldayProjectAlbum' className="on">한국어</Link>
-<Link to='/AlldayProjectAlldayProjectAlbumEng'>English</Link>
+<Link to='/AlldayProjectIDonBargainAlbum' className="on">한국어</Link>
+<Link to='/AlldayProjectIDonBargainAlbumEng'>English</Link>
 </section>
 <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="ALLDAY PROJECT deco" />I DON&apos;T BARGAIN<img src={MainH2deco} alt="ALLDAY PROJECT deco" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
@@ -26,7 +28,7 @@ return (
 성장의 이야기도<br/>
 담은 앨범이에요!
 </p>
-<img src='' alt="AlldayProjectAlldayProjectAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
+<img src='' alt="AlldayProjectIDonBargainAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
 <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
 <tbody>
 <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
