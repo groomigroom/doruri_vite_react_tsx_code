@@ -30,9 +30,10 @@ export default function BtobBtob4uMain() {
             <img src='' alt="비투비 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="비투비 포유 로고 꾸미기" />비투비 포유<img src={MainH2Deco} alt="비투비 포유 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                #####&apos;비투비&apos;와 함께<br />
-                우리 다시<br />
-                꿈을 꿔요 같이!</p>
+                &apos;비투비 포유&apos;와 함께<br />
+                두려움은 생각하지<br />
+                말아 보아요!
+            </p>
             <img src='' className='tri_m_img' alt='비투비 포유' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full bto_Btob4u_m_mem_tr_full'>
