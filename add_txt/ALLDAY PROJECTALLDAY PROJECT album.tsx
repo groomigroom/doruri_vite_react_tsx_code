@@ -39,7 +39,7 @@ return (
 </td>
 <td>
 <p>
-2025.11.17.
+2025.12.08.
 </p>
 </td>
 </tr>
@@ -51,7 +51,7 @@ return (
 </td>
 <td>
 <p>
-댄스, R&B/Soul, 록/메탈
+댄스, 랩/힙합
 </p>
 </td>
 </tr>
@@ -63,7 +63,7 @@ return (
 </td>
 <td>
 <p>
-SM엔터테인먼트
+THEBLACKLABEL
 </p>
 </td>
 </tr>
