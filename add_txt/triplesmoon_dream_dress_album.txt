@@ -22,9 +22,9 @@ import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRe
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function TriplesBabyFlowerCityRemixesAlbum() {
+export default function TriplesDreamDressAlbum() {
     return (
-        <div className="tri_BabyFlowerCityRemixesAlbum_full">
+        <div className="tri_TriplesDreamDressAlbum_full">
             <Menu />
             <section className="home_translate">
                 <Link to='/TriplesBabyFlowerCityRemixesAlbum' className="on">한국어</Link>
