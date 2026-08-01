@@ -225,13 +225,13 @@ My Plan
 </td>
 <td>
 <p>
-Pretty Girl
+LEMONADE &#40;Feat. Becky G&#41;
 </p>
 </td>
 </tr>
 </tbody>
 </table>
-<FooterPart FooterPartText='ⓒ THE MUZE ENTERTAINMENT' />
+<FooterPart FooterPartText='ⓒ SM엔터테인먼트' />
 </div>
 );
 }
