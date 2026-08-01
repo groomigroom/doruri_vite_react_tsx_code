@@ -93,7 +93,7 @@ SM엔터테인먼트
 </td>
 <td>
 <p>
-WDA &#40;Whole Different Animal&#41; &#40;Feat. G-DRAGON&#41;
+BLUE &#40;WINTER Solo&#41;
 </p>
 </td>
 </tr>
@@ -105,7 +105,7 @@ WDA &#40;Whole Different Animal&#41; &#40;Feat. G-DRAGON&#41;
 </td>
 <td>
 <p>
-LEMONADE
+Ketchup And Lemonade (NINGNING Solo)
 </p>
 </td>
 </tr>
@@ -117,91 +117,7 @@ LEMONADE
 </td>
 <td>
 <p>
-SHAKIN&apos;
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-4
-</p>
-</td>
-<td>
-<p>
-Can&apos;t Help Myself
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-5
-</p>
-</td>
-<td>
-<p>
-Camouflage
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-6
-</p>
-</td>
-<td>
-<p>
-Bite
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-7
-</p>
-</td>
-<td>
-<p>
-Switchblade &#40;Feat. Ty Dolla $ign&#41;
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-8
-</p>
-</td>
-<td>
-<p>
-Roll
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-9
-</p>
-</td>
-<td>
-<p>
-My Plan
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-10
-</p>
-</td>
-<td>
-<p>
-&apos;Til We Die
+Tornado (GISELLE Solo)
 </p>
 </td>
 </tr>
@@ -209,12 +125,12 @@ My Plan
 <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
 <td>
 <p>
-11
+4
 </p>
 </td>
 <td>
 <p>
-LEMONADE &#40;Feat. Becky G&#41;
+GOOD STUFF (KARINA Solo)
 </p>
 </td>
 </tr>
