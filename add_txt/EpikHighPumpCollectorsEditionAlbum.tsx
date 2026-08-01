@@ -92,7 +92,7 @@ return (
 </td>
 <td>
 <p>
-제목
+PRETTY MUCH &#40;Intro&#41;
 </p>
 </tr>
 <tr>
@@ -103,7 +103,7 @@ return (
 </td>
 <td>
 <p>
-제목
+ANTIHERO
 </p>
 </tr>
 <tr>
@@ -114,7 +114,7 @@ return (
 </td>
 <td>
 <p>
-제목
+미슐랭 CYPHER
 </p>
 </tr>
 <tr>
