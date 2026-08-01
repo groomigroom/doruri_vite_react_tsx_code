@@ -461,8 +461,7 @@ forward on my own terms in mind!</p>
                         </td>
                         <td>
                             <p>
-                                더뮤즈엔터테인먼트
-                            </p>
+                                THE MUZE ENTERTAINMENT                            </p>
                         </td>
                     </tr>
                 </tbody>
@@ -497,7 +496,7 @@ forward on my own terms in mind!</p>
       </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ 더뮤즈엔터테인먼트' />
+            <FooterPart FooterPartText='ⓒ THE MUZE ENTERTAINMENT' />
         </div>
     );
 }
