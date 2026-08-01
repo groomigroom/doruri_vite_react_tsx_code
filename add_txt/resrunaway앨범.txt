@@ -1,6 +1,6 @@
 ResceneRunawayAlbum.tsx
 
-장르까지는 작성함
+아래쪽에 영어 버전도 있음
 
 주체적으로 나아간다는<br/>
 생각을 담아서<br/>
@@ -398,3 +398,108 @@ iPad
 이용약관위치기반서비스 이용약관개인정보처리방침청소년보호정책제휴/프로모션문의이메일주소무단수집거부파트너센터
 (주)카카오엔터테인먼트  경기도 성남시 분당구 판교역로 235, 에이치스퀘어 N동 8, 9, 10층 공동대표이사 : 고정희, 장윤중 사업자등록번호 : 220-88-02594 통신판매업신고번호 : 2018-성남분당B-0004 사업자정보확인
 문의전화 : 1566-7727 (평일 09:00-18:00, 유료) 이메일 : melon_info@kakaoent.com 호스팅서비스사업자 : (주)카카오엔터테인먼트 © Kakao Entertainment Corp.
+
+
+영어 버전
+
+import { Link } from 'react-router-dom';
+
+import './TriplesBabyFlowerCityRemixesAlbum.css';
+import './TriplesDreamDressAlbum.css';
+
+import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
+
+// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+
+import MainH2deco from '../../img/main_h2_deco.png';
+
+export default function ResceneRunawayAlbumEng() {
+    return (
+        <div className="tri_TriplesDreamDressAlbum_full">
+            <Menu />
+            <section className="home_translate">
+                <Link to='/ResceneRunawayAlbum'>한국어</Link>
+                <Link to='/ResceneRunawayAlbumEng'  className="on">English</Link>
+            </section>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="RESCENE 앨범 꾸미기" />Dream Dress<img src={MainH2deco} alt="RESCENE 앨범 꾸미기" /></h2>
+            <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
+               주체적으로 나아간다는<br/>
+생각을 담아서<br/>
+앨범을 준비했어요!
+            </p>
+            <img src='' alt="Dream Dress" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
+                <tbody>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
+                        <td>
+                            <p>
+                                발매일
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                               2026.04.08.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                장르
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                댄스
+                            </p>
+                        </td>
+                    </tr>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
+                        <td>
+                            <p>
+                                기획사
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                더뮤즈엔터테인먼트
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb2'>
+                <tbody>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
+                        <td>
+                            <p>
+                                번호
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                제목
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+<td>
+                            <p>
+                                1
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Runaway
+                            </p>
+                        </td>
+      </tr>
+                </tbody>
+            </table>
+            <FooterPart FooterPartText='ⓒ 더뮤즈엔터테인먼트' />
+        </div>
+    );
+}
