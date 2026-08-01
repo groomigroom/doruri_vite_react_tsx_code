@@ -76,7 +76,7 @@ export default function ResceneRunawayAlbum() {
                         </td>
                         <td>
                             <p>
-                                Sony Music Labels Inc.
+                                이거 리센느까에서 복붙하기
                             </p>
                         </td>
                     </tr>
@@ -99,20 +99,20 @@ export default function ResceneRunawayAlbum() {
                     </tr>
 
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
-                        <td>
+<td>
                             <p>
                                 1
                             </p>
                         </td>
                         <td>
                             <p>
-                                Dream Dress
+                                Runaway
                             </p>
                         </td>
-                    </tr>
+      </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
+            <FooterPart FooterPartText='ⓒ ㈜##### 더뮤즈로 고치기 모드하우스' />
         </div>
     );
 }
