@@ -40,7 +40,7 @@ return (
 </td>
 <td>
 <p>
-2026.03.09.
+2024.10.18.
 </p>
 </td>
 </tr>
@@ -64,7 +64,7 @@ return (
 </td>
 <td>
 <p>
-THEBLACKLABEL, PUBG: BATTLEGROUNDS
+아워즈
 </p>
 </td>
 </tr>
