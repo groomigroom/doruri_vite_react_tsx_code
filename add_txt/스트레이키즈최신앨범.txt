@@ -370,12 +370,17 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
                         <td>
                             <p>
-                                1
+                                17
                             </p>
                         </td>
                         <td>
                             <p>
-                                RUN IT
+                                별, 빛 &#40;STAY&#41;
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Stray Kids
                             </p>
                         </td>
                     </tr>
