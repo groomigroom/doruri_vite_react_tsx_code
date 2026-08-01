@@ -1,9 +1,14 @@
 AlldayProjectIDonBargainAlbum.tsx
 
 
-독보적인 점을
-지키는 것을 생각하며
+독보적인 점을<br/>
+지키는 것을 생각하며<br/>
 준비한 앨범이에요!
+
+
+This is an album prepared<br/>
+with the thought of<br/>
+preserving our unique qualities!
 
 폰으로 3줄글쓰기;
 
