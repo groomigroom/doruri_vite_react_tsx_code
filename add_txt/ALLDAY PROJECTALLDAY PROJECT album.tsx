@@ -148,7 +148,7 @@ WHERE YOU AT
 </td>
   <td>
 <p>
-ALLDAY PROJECT, ANNIE, WOOCHAN
+ALLDAY PROJECT, 애니, 우찬
 </p>
 </td>
 </tr>
@@ -165,7 +165,7 @@ HOT
 </td>
   <td>
 <p>
-ALLDAY PROJECT, TARZZAN, BAILEY
+ALLDAY PROJECT, 타잔, 베일리
 </p>
 </td>
 </tr>
@@ -183,7 +183,7 @@ MEDUSA
 </td>
   <td>
 <p>
-ALLDAY PROJECT, TARZZAN
+ALLDAY PROJECT, 타잔
 </p>
 </td>
 </tr>
