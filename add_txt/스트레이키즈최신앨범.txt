@@ -111,6 +111,23 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
                             </p>
                         </td>
                     </tr>
+<tr>
+                        <td>
+                            <p>
+                                2
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Roman Empire
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Stray Kids, 방찬
+                            </p>
+                        </td>
+                    </tr>
 
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
                         <td>
