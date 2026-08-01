@@ -102,7 +102,7 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
                         </td>
                         <td>
                             <p>
-                                Battle Ground (Korean Version)
+                                Battle Ground &#40;Korean Version&#41;
                             </p>
                         </td>
                         <td>
