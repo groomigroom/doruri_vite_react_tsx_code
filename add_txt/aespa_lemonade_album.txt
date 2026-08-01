@@ -188,7 +188,7 @@ Switchblade &#40;Feat. Ty Dolla $ign&#41;
 </td>
 <td>
 <p>
-제목
+Roll
 </p>
 </td>
 </tr>
