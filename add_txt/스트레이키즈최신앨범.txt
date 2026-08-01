@@ -107,7 +107,7 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
                         </td>
                         <td>
                             <p>
-                                Stray Kids??
+                                Stray Kids
                             </p>
                         </td>
                     </tr>
