@@ -39,7 +39,7 @@ return (
 </td>
 <td>
 <p>
-2025.12.08.
+2026.03.09.
 </p>
 </td>
 </tr>
@@ -51,7 +51,7 @@ return (
 </td>
 <td>
 <p>
-댄스, 랩/힙합
+랩/힙합
 </p>
 </td>
 </tr>
@@ -63,7 +63,7 @@ return (
 </td>
 <td>
 <p>
-THEBLACKLABEL
+THEBLACKLABEL, PUBG: BATTLEGROUNDS
 </p>
 </td>
 </tr>
