@@ -83,89 +83,9 @@ THEBLACKLABEL, PUBG: BATTLEGROUNDS
 제목
 </p>
 </td>
-</tr>
-<tr>
 <td>
 <p>
-1
-</p>
-</td>
-<td>
-<p>
-ONE MORE TIME
-</p>
-</td>
-<td>
-<p>
-ALLDAY PROJECT
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-2
-</p>
-</td>
-<td>
-<p>
-LOOK AT ME
-</p>
-</td>
-  <td>
-<p>
-ALLDAY PROJECT
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-3
-</p>
-</td>
-<td>
-<p>
-YOU AND I
-</p>
-</td>
-  <td>
-<p>
-ALLDAY PROJECT
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-4
-</p>
-</td>
-<td>
-<p>
-WHERE YOU AT
-</p>
-</td>
-  <td>
-<p>
-ALLDAY PROJECT, 애니, 우찬
-</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>
-5
-</p>
-</td>
-<td>
-<p>
-HOT
-</p>
-</td>
-  <td>
-<p>
-ALLDAY PROJECT, 타잔, 베일리
+가수
 </p>
 </td>
 </tr>
@@ -178,18 +98,13 @@ ALLDAY PROJECT, 타잔, 베일리
 </td>
 <td>
 <p>
-MEDUSA
-</p>
-</td>
-  <td>
-<p>
-ALLDAY PROJECT, 타잔
+I DON&apos;T BARGAIN
 </p>
 </td>
 </tr>
 </tbody>
 </table>
-<FooterPart FooterPartText='ⓒ SM엔터테인먼트' />
+<FooterPart FooterPartText='ⓒ THEBLACKLABEL' />
 </div>
 );
 }
