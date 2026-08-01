@@ -198,7 +198,7 @@ OFF DAY &#40;Verse Ver.&#41;
 </tr>
 </tbody>
 </table>
-<FooterPart FooterPartText='ⓒ THEBLACKLABEL' />
+<FooterPart FooterPartText='ⓒ 아워즈' />
 </div>
 );
 }
