@@ -145,6 +145,23 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
                             </p>
                         </td>
                     </tr>
+<tr>
+                        <td>
+                            <p>
+                               4
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                유성우 &#40;Raining stars&#41;
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Stray Kids, 한
+                            </p>
+                        </td>
+                    </tr>
 
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
                         <td>
