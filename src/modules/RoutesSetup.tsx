@@ -436,6 +436,7 @@ import BTOBMainEng from './BTOBEng/main/BTOBMainEng';
 
 import BtobBtobBlueMain from './BTOB/units/Btob_blue/BtobBtobBlueMain';
 import BtobBtob4uMain from './BTOB/units/Btob_4u/BtobBtob4uMain';
+import BtobBtob4uMainEng from './BTOBEng/units/Btob_4u/BtobBtob4uMainEng';
 import Btob90TanMain from './BTOB/units/90Tan/Btob90TanMain';
 
 import BtoMemPeniel from './BTOB/members/BtoMemPeniel';
@@ -925,6 +926,7 @@ export default function RoutesSetup() {
 
             <Route path='/BtobBtobBlueMain' element={<BtobBtobBlueMain />}></Route>
             <Route path='/BtobBtob4uMain' element={<BtobBtob4uMain />}></Route>
+            <Route path='/BtobBtob4uMainEng' element={<BtobBtob4uMainEng />}></Route>
             <Route path='/Btob90TanMain' element={<Btob90TanMain />}></Route>
 
             <Route path='/BtoMemPeniel' element={<BtoMemPeniel />}></Route>
