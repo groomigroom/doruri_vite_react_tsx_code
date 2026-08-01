@@ -76,7 +76,7 @@ export default function ResceneRunawayAlbum() {
                         </td>
                         <td>
                             <p>
-                                이거 리센느까에서 복붙하기
+                                더뮤즈엔터테인먼트
                             </p>
                         </td>
                     </tr>
@@ -112,7 +112,7 @@ export default function ResceneRunawayAlbum() {
       </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ ㈜##### 더뮤즈로 고치기 모드하우스' />
+            <FooterPart FooterPartText='ⓒ 더뮤즈엔터테인먼트' />
         </div>
     );
 }
