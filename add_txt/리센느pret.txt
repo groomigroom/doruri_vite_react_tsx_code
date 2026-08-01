@@ -57,16 +57,114 @@ dance
                         </td>
 
 앨범소개
-RESCENE [Pretty Girl - Special Single]
 
-5세대 대세 걸그룹 '리센느(RESCENE)'
-자몽향을 가득 담아 리센느만의 청량함으로 재해석한 2세대 레전드 명곡, ‘Pretty Girl’
+한글 버전
 
-2세대 대표 아이돌 카라(KARA)의 메가 히트곡 ‘Pretty Girl’이 독보적인 콘셉트로 매 앨범마다 특별한 향기를 선사하는 걸그룹 리센느(RESCENE)의 목소리를 통해 재탄생했다.
 
-원곡 특유의 깜찍 발랄함과 당당한 매력으로 큰 사랑을 받았던 대표적인 틴팝(Teen Pop) 장르의 느낌을 유지하면서도, 입안 가득 톡 터지는 '자몽향'처럼 상큼하고 청량감 넘치는 편곡으로 선명하고 싱그러운 이미지를 더했다.
+import { Link } from 'react-router-dom';
 
-이번 리메이크는 원곡의 중독성 있는 멜로디 라인을 살리면서도 트랙 전반의 사운드 아키텍처를 다듬어 음악적 완성도를 높였다. 기존의 기타 사운드에 강렬한 디스토션(Distortion) 사운드를 가미하여 곡의 전체적인 윤곽을 한층 더 선명하게 잡아주었으며, 여기에 리센느만의 세련된 감성을 느낄 수 있도록 감각적인 신스(Synth) 소스들을 추가해 세련된 공간감을 연출했다. 특히 묵직한 타격감이 돋보이는 드럼의 활용으로 트랙의 무게중심을 아래로 낮추어, 리센느만의 깊이 있고 탄탄한 베이스 라인을 강조하는 스타일을 완성해 냈다.
+import './TriplesBabyFlowerCityRemixesAlbum.css';
+import './TriplesDreamDressAlbum.css';
+
+import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
+
+// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+
+import MainH2deco from '../../img/main_h2_deco.png';
+
+export default function ResceneRunawayAlbum() {
+    return (
+        <div className="tri_TriplesDreamDressAlbum_full">
+            <Menu />
+            <section className="home_translate">
+                <Link to='/ResceneRunawayAlbum' className="on">한국어</Link>
+                <Link to='/ResceneRunawayAlbumEng'>English</Link>
+            </section>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="RESCENE 앨범 꾸미기" />Dream Dress<img src={MainH2deco} alt="RESCENE 앨범 꾸미기" /></h2>
+            <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
+               주체적으로 나아간다는<br/>
+생각을 담아서<br/>
+앨범을 준비했어요!
+            </p>
+            <img src='' alt="Dream Dress" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
+                <tbody>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
+                        <td>
+                            <p>
+                                발매일
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                               2026.04.08.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                장르
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                댄스
+                            </p>
+                        </td>
+                    </tr>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
+                        <td>
+                            <p>
+                                기획사
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                더뮤즈엔터테인먼트
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb2'>
+                <tbody>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
+                        <td>
+                            <p>
+                                번호
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                제목
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+<td>
+                            <p>
+                                1
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Runaway
+                            </p>
+                        </td>
+      </tr>
+                </tbody>
+            </table>
+            <FooterPart FooterPartText='ⓒ 더뮤즈엔터테인먼트' />
+        </div>
+    );
+}
+
+
+감각적인 신스(Synth) 소스들을 추가해 세련된 공간감을 연출했다. 특히 묵직한 타격감이 돋보이는 드럼의 활용으로 트랙의 무게중심을 아래로 낮추어, 리센느만의 깊이 있고 탄탄한 베이스 라인을 강조하는 스타일을 완성해 냈다.
 
 이렇듯 견고해진 트랙의 무게감 위로 원곡의 탑라인에 리센느의 맑고 부드러운 보컬을 더해, 전반적인 에너지가 한층 더 입체적으로 업그레이드되었다. 청각을 넘어 시각과 후각까지 자극하는 리센느만의 선명하고 청량한 '자몽향' 가득한 ‘Pretty Girl’은 올여름 대중들의 귀를 완벽하게 사로잡을 것이다.
 
