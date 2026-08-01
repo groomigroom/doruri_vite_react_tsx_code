@@ -22,7 +22,7 @@ export default function StrayKidsRunItAlbum() {
                 <Link to='/StrayKidsRunItAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
-                <img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />RUN IT<img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />
+                <img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />SKZ-REPLAY 2026 Pt.1<img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 더 넓어진 세상으로<br />
