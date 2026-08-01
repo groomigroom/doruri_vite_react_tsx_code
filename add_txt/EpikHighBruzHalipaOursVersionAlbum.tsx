@@ -12,13 +12,13 @@ import FooterPart from '../../FooterPart';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function EpikHighPumpCollectorsEditionAlbum() {
+export default function EpikHighBruzHalipaOursVersionAlbum() {
 return (
 <div className="epi_EpikHighPumpCollectorsEditionAlbum_full">
 <Menu />
 <section className="home_translate">
-<Link to='/EpikHighPumpCollectorsEditionAlbum' className="on">한국어</Link>
-<Link to='/EpikHighPumpCollectorsEditionAlbumEng'>English</Link>
+<Link to='/EpikHighBruzHalipaOursVersionAlbum' className="on">한국어</Link>
+<Link to='/EpikHighBruzHalipaOursVersionAlbumEng'>English</Link>
 </section>
 <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="ALLDAY PROJECT deco" />I DON&apos;T BARGAIN<img src={MainH2deco} alt="ALLDAY PROJECT deco" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
@@ -26,7 +26,7 @@ return (
 성장의 이야기도<br/>
 담은 앨범이에요!
 </p>
-<img src='' alt="EpikHighPumpCollectorsEditionAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
+<img src='' alt="EpikHighBruzHalipaOursVersionAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
 <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
 <tbody>
 <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
