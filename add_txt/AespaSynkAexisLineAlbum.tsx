@@ -15,13 +15,13 @@ import FooterPart from '../../FooterPart';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function AespaLemonadeAlbum() {
+export default function AespaSynkAexisLineAlbum() {
 return (
 <div className="res_AespaLemonadeAlbum_full">
 <Menu />
 <section className="home_translate">
-<Link to='/AespaLemonadeAlbum' >한국어</Link>
-<Link to='/AespaLemonadeAlbumEng' className="on">English</Link>
+<Link to='/AespaSynkAexisLineAlbum' >한국어</Link>
+<Link to='/AespaSynkAexisLineAlbumEng' className="on">English</Link>
 </section>
 <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="aespa deco" />SYNK : aeXIS LINE - 2025 Special Digital Single<img src={MainH2deco} alt="aespa deco" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
@@ -29,7 +29,7 @@ return (
 성장의 이야기도<br/>
 담은 앨범이에요!
 </p>
-<img src='' alt="Lemonade" className='tri_BabyFlowerCityRemixesAlbum_img' />
+<img src='' alt="AespaSynkAexisLineAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
 <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
 <tbody>
 <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
