@@ -422,7 +422,7 @@ export default function ResceneRunawayAlbumEng() {
                 <Link to='/ResceneRunawayAlbum'>한국어</Link>
                 <Link to='/ResceneRunawayAlbumEng'  className="on">English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="RESCENE 앨범 꾸미기" />Dream Dress<img src={MainH2deco} alt="RESCENE 앨범 꾸미기" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="RESCENE deco" />Dream Dress<img src={MainH2deco} alt="RESCENE deco" /></h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>We prepared this album<br/>
 with the idea of moving<br/>
 forward on my own terms in mind!</p>
@@ -432,31 +432,31 @@ forward on my own terms in mind!</p>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
                         <td>
                             <p>
-                                발매일
+                                release date
                             </p>
                         </td>
                         <td>
                             <p>
-                               2026.04.08.
+                               April, 8, 2026
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <p>
-                                장르
+                                genre
                             </p>
                         </td>
                         <td>
                             <p>
-                                댄스
+                                dance
                             </p>
                         </td>
                     </tr>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
                         <td>
                             <p>
-                                기획사
+                                agency
                             </p>
                         </td>
                         <td>
@@ -467,18 +467,18 @@ forward on my own terms in mind!</p>
                     </tr>
                 </tbody>
             </table>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ song list ▪</h2>
             <table className='tri_BabyFlowerCityRemixesAlbum_tb2'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                         <td>
                             <p>
-                                번호
+                                number
                             </p>
                         </td>
                         <td>
                             <p>
-                                제목
+                                title
                             </p>
                         </td>
                     </tr>
