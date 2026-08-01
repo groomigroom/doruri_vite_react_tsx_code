@@ -23,7 +23,7 @@ return (
 <Link to='/EpikHighPumpCollectorsEditionAlbum' className="on">한국어</Link>
 <Link to='/EpikHighPumpCollectorsEditionAlbumEng'>English</Link>
 </section>
-<h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="ALLDAY PROJECT deco" />I DON&apos;T BARGAIN<img src={MainH2deco} alt="ALLDAY PROJECT deco" /></h2>
+<h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="에픽하이" />PUMP COLLECTOR&apos;S EDITION<img src={MainH2deco} alt="에픽하이" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
 #######견고해진 음악적<br/>
 성장의 이야기도<br/>
