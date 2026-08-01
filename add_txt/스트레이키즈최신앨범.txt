@@ -1,6 +1,8 @@
 https://kko.to/iP2snZGpdA
 
 
+다양한 곡들을 모아서 앨범을 준비했어요!
+
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
