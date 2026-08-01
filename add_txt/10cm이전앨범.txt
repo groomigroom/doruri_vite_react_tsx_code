@@ -16,3 +16,7 @@ A sliver of possibility
 
 
 SliverOfPossibilityAlbum.tsx
+
+
+
+                        <td><p>크리스&#40;Chris&#41;</p></td>
