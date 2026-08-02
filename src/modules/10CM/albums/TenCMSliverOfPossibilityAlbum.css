@@ -1,1 +1,13 @@
-TenCMSliverOfPossibilityAlbum.css
+.ten_TenCMSliverOfPossibilityAlbum_full {
+    width: 100vw;
+    height: 1083px;
+    position: relative;
+}
+
+.ten_TenCMSliverOfPossibilityAlbum_img {
+    border: 5px solid #000000;
+}
+
+.ten_TenCMSliverOfPossibilityAlbum_tb2 {
+    height: 150px;
+}
