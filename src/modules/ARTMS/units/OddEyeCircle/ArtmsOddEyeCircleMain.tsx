@@ -23,8 +23,8 @@ export default function ArtmsOddEyeCircleMain() {
         <div className='art_OddEyeCircle_m_full'>
             <Menu />
             <section className="home_translate">
-                <Link to='/ARTMSMain' className="on">한국어</Link>
-                <Link to='/ARTMSMainEng'>English</Link>
+                <Link to='/ArtmsOddEyeCircleMain' className="on">한국어</Link>
+                <Link to='/ArtmsOddEyeCircleMainEng'>English</Link>
             </section>
             <img src='' alt="ARTMS 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="ODD EYE CIRCLE 꾸미기" />ODD EYE CIRCLE<img src={MainH2Deco} alt="ODD EYE CIRCLE 꾸미기" /></h2>
