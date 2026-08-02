@@ -295,6 +295,7 @@ import ALLDAY_PROJECTMain from './ALLDAY_PROJECT/main/ALLDAY_PROJECTMain';
 import ALLDAY_PROJECTMainEng from './ALLDAY_PROJECTEng/main/ALLDAY_PROJECTMainEng';
 
 import AlldayProjectAlldayProjectAlbum from './ALLDAY_PROJECT/albums/AlldayProjectAlldayProjectAlbum';
+import AlldayProjectAlldayProjectAlbumEng from './ALLDAY_PROJECTEng/albums/AlldayProjectAlldayProjectAlbumEng';
 
 import AllMemAnnie from './ALLDAY_PROJECT/members/AllMemAnnie';
 import AllMemAnnieEng from './ALLDAY_PROJECTEng/members/AllMemAnnieEng';
@@ -793,6 +794,7 @@ export default function RoutesSetup() {
             <Route path='/ALLDAY_PROJECTMainEng' element={<ALLDAY_PROJECTMainEng />}></Route>
 
             <Route path='/AlldayProjectAlldayProjectAlbum' element={<AlldayProjectAlldayProjectAlbum />}></Route>
+            <Route path='/AlldayProjectAlldayProjectAlbumEng' element={<AlldayProjectAlldayProjectAlbumEng />}></Route>
 
             <Route path='/AllMemAnnie' element={<AllMemAnnie />}></Route>
             <Route path='/AllMemAnnieEng' element={<AllMemAnnieEng />}></Route>
