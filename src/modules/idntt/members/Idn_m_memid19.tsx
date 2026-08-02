@@ -5,7 +5,7 @@ import './Idn_m_memid19.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Idn_mm_memid19_img from '../main/img/tri_m_memS1.jpg';
+import Idn_mm_memid19_img from '../main/img/Idn_mm_id19_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -23,7 +23,7 @@ export default function Idn_m_memid19() {
                 멤버들과<br />
                 잘 지내 볼게요!
             </p>
-            <img src='' alt="양경호 이미지" className='tri_mm_s1_img idn_mm_id19_img' />
+            <img src={Idn_mm_memid19_img} alt="양경호 이미지" className='tri_mm_s1_img idn_mm_id19_img' />
             <table className='tri_mm_s1_intropa_tb idn_mm_id19_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
