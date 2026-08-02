@@ -61,7 +61,7 @@ export default function TenCMTheDarkestNightAlbum() {
                         </td>
                         <td>
                             <p>
-                                2026.07.22.
+                                2026.07.02.
                             </p>
                         </td>
                     </tr>
@@ -72,8 +72,8 @@ export default function TenCMTheDarkestNightAlbum() {
                             </p>
                         </td>
                         <td>
-                            <p>
-                                록/메탈
+                            <p>                  
+포크/블루스
                             </p>
                         </td>
                     </tr>
