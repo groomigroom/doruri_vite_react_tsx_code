@@ -114,7 +114,7 @@ export default function TenCMTheDarkestNightAlbum() {
                         </td>
                         <td>
                             <p>
-                                The Darkest Night
+                                일말의 가능성
                             </p>
                         </td>
                     </tr>
