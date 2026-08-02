@@ -47,7 +47,7 @@ export default function IdnttItsnotoverMainEng() {
                 <Link to='/IdnttItsnotoverMain'>한국어</Link>
                 <Link to='/IdnttItsnotoverMainEng' className="on">English</Link>
             </section>
-            <img src='' alt="itsnotover 로고" className='tri_m_logo' />
+            <img src='' alt="itsnotover logo" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'>
                 <img src={MainH2Deco} alt="itsnotover deco" />itsnotover<img src={MainH2Deco} alt="itsnotover deco" />
             </h2>
