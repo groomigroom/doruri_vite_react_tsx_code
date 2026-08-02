@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { EngPage } from '../../HomeEng/EngPage';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './AlldayProjectIDonBargainAlbumEng.css';
+import '../../ALLDAY_PROJECT/albums/AlldayProjectIDonBargainAlbum.css';
 
 import MenuEng from '../../HomeEng/MenuEng';
 import FooterPartEng from '../../FooterPartEng';
