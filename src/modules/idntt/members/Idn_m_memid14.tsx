@@ -5,7 +5,7 @@ import './Idn_m_memid14.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Idn_mm_memid14_img from '../main/img/tri_m_memS1.jpg';
+import Idn_mm_memid14_img from '../main/img/Idn_mm_id14_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -23,7 +23,7 @@ export default function Idn_m_memid14() {
                 거짓없이 여러분을<br />
                 만나러 갈게요!
             </p>
-            <img src='' alt="한예준 이미지" className='tri_mm_s1_img' />
+            <img src={Idn_mm_memid14_img} alt="한예준 이미지" className='tri_mm_s1_img' />
             <table className='tri_mm_s1_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
