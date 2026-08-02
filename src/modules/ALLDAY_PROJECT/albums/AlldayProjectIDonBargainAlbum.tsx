@@ -79,11 +79,6 @@ export default function AlldayProjectIDonBargainAlbum() {
                                 제목
                             </p>
                         </td>
-                        <td>
-                            <p>
-                                가수
-                            </p>
-                        </td>
                     </tr>
 
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
