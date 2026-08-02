@@ -24,7 +24,7 @@ export default function AlldayProjectIDonBargainAlbum() {
                 지키는 것을 생각하며<br />
                 준비한 앨범이에요!
             </p>
-            <img src='' alt="AlldayProjectIDonBargainAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src='' alt="AlldayProjectIDonBargainAlbum" className='tri_BabyFlowerCityRemixesAlbum_img all_AlldayProjectIDonBargainAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
