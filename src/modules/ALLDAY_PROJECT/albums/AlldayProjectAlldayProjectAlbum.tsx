@@ -66,9 +66,9 @@ export default function AlldayProjectAlldayProjectAlbum() {
                 </tbody>
             </table>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
-            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 all_AlldayProjectAlldayProjectAlbum_tb2'>
+            <table className='all_AlldayProjectAlldayProjectAlbum_tb2'>
                 <tbody>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
+                    <tr className='all_AlldayProjectAlldayProjectAlbum_intropa_tb2_tr1'>
                         <td>
                             <p>
                                 번호
@@ -77,6 +77,11 @@ export default function AlldayProjectAlldayProjectAlbum() {
                         <td>
                             <p>
                                 제목
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                가수
                             </p>
                         </td>
                     </tr>
@@ -166,7 +171,7 @@ export default function AlldayProjectAlldayProjectAlbum() {
                         </td>
                     </tr>
 
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                    <tr className='all_AlldayProjectAlldayProjectAlbum_intropa_tb2_tr9'>
                         <td>
                             <p>
                                 6
