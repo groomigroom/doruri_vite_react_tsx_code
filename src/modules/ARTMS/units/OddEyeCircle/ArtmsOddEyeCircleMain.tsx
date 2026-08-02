@@ -29,9 +29,9 @@ export default function ArtmsOddEyeCircleMain() {
             <img src='' alt="ARTMS 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="ODD EYE CIRCLE 꾸미기" />ODD EYE CIRCLE<img src={MainH2Deco} alt="ODD EYE CIRCLE 꾸미기" /></h2>
             <p className='tri_m_intropp'>
-                #####&apos;ARTMS&apos;와 함께<br />
-                다시 한번 더<br />
-                Fly Away!
+                &apos;ODD EYE CIRCLE&apos;과 함께<br />
+                달콤한 생각을<br />
+                해보는건 어떠세요?
             </p>
             <img src='' className='tri_m_img' alt="ODD EYE CIRCLE" />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
