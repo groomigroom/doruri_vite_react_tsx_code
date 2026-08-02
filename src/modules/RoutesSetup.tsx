@@ -427,6 +427,7 @@ import ARTMSMain_7_23End from './ARTMS/main/beforeMain/ARTMSMain_7_23End';
 import ARTMSMainEng from './ARTMSEng/main/ARTMSMainEng';
 
 import ArtmsOddEyeCircleMain from './ARTMS/units/OddEyeCircle/ArtmsOddEyeCircleMain';
+import ArtmsOddEyeCircleMainEng from './ARTMSEng/units/OddEyeCircle/ArtmsOddEyeCircleMainEng';
 
 import ArtMemHeejin from './ARTMS/members/ArtMemHeejin';
 import ArtMemHeejinEng from './ARTMSEng/members/ArtMemHeejinEng';
@@ -930,6 +931,7 @@ export default function RoutesSetup() {
             <Route path='/ARTMSMainEng' element={<ARTMSMainEng />}></Route>
 
             <Route path='/ArtmsOddEyeCircleMain' element={<ArtmsOddEyeCircleMain />}></Route>
+            <Route path='/ArtmsOddEyeCircleMainEng' element={<ArtmsOddEyeCircleMainEng />}></Route>
 
             <Route path='/ArtMemHeejin' element={<ArtMemHeejin />}></Route>
             <Route path='/ArtMemHeejinEng' element={<ArtMemHeejinEng />}></Route>
