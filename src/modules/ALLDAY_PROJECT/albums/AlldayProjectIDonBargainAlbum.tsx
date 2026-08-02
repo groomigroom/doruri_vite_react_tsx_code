@@ -89,7 +89,7 @@ export default function AlldayProjectIDonBargainAlbum() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
                         <td>
                             <p>
-                                6
+                                1
                             </p>
                         </td>
                         <td>
