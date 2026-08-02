@@ -5,7 +5,7 @@ import './Idn_m_memid15.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Idn_mm_memid15_img from '../main/img/tri_m_memS1.jpg';
+import Idn_mm_memid15_img from '../main/img/Idn_mm_id15_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -23,7 +23,7 @@ export default function Idn_m_memid15() {
                 잘 챙기며<br />
                 활동해 볼게요!
             </p>
-            <img src='' alt="최경빈 이미지" className='tri_mm_s1_img idn_mm_id15_img' />
+            <img src={Idn_mm_memid15_img} alt="최경빈 이미지" className='tri_mm_s1_img idn_mm_id15_img' />
             <table className='tri_mm_s1_intropa_tb idn_mm_id15_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
