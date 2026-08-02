@@ -26,7 +26,7 @@ export default function TenCMSliverOfPossibilityAlbum() {
                 가지면서<br />
                 앨범을 준비했어요!
             </p>
-            <img src='' alt="TenCMSliverOfPossibilityAlbum" className='tri_BabyFlowerCityRemixesAlbum_img ten_TenCMTheDarkestNightAlbum__img' />
+            <img src='' alt="TenCMSliverOfPossibilityAlbum" className='tri_BabyFlowerCityRemixesAlbum_img ten_TenCMSliverOfPossibilityAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
