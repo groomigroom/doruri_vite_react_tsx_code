@@ -183,6 +183,7 @@ import StrayKidsRunItAlbumEng from './Stray_KidsEng/albums/StrayKidsRunItAlbumEn
 import StrayKidsStarLightAlbum from './Stray_Kids/albums/StrayKidsStarLightAlbum';
 import StrayKidsStarLightAlbumEng from './Stray_KidsEng/albums/StrayKidsStarLightAlbumEng';
 import StrayKidsSKZReplay2026Pt1Album from './Stray_Kids/albums/StrayKidsSKZReplay2026Pt1Album';
+import StrayKidsSKZReplay2026Pt1AlbumEng from './Stray_KidsEng/albums/StrayKidsSKZReplay2026Pt1AlbumEng';
 
 import StrayKidsThreeRachaMain from './Stray_Kids/units/3RACHA/StrayKidsThreeRachaMain';
 import StrayKidsThreeRachaMainEng from './Stray_KidsEng/units/3RACHA/StrayKidsThreeRachaMainEng';
@@ -688,6 +689,7 @@ export default function RoutesSetup() {
             <Route path='/StrayKidsStarLightAlbum' element={<StrayKidsStarLightAlbum />}></Route>
             <Route path='/StrayKidsStarLightAlbumEng' element={<StrayKidsStarLightAlbumEng />}></Route>
             <Route path='/StrayKidsSKZReplay2026Pt1Album' element={<StrayKidsSKZReplay2026Pt1Album />}></Route>
+            <Route path='/StrayKidsSKZReplay2026Pt1AlbumEng' element={<StrayKidsSKZReplay2026Pt1AlbumEng />}></Route>
 
             <Route path='/StrayKidsThreeRachaMain' element={<StrayKidsThreeRachaMain />}></Route>
             <Route path='/StrayKidsThreeRachaMainEng' element={<StrayKidsThreeRachaMainEng />}></Route>
