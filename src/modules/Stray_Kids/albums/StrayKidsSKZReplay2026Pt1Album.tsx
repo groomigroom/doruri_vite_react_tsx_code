@@ -37,7 +37,6 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
                         </td>
                         <td>
                             <p>
-
                                 2026.08.01.
                             </p>
                         </td>
