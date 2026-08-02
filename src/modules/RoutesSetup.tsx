@@ -382,6 +382,7 @@ import IdnttMainEng from './idnttEng/main/IdnttMainEng';
 import IdnttUnevermetMain from './idntt/units/unevermet/IdnttUnevermetMain';
 import IdnttYesweareMain from './idntt/units/yesweare/IdnttYesweareMain';
 import IdnttItsnotoverMain from './idntt/units/itsnotover/IdnttItsnotoverMain';
+import IdnttItsnotoverMainEng from './idnttEng/units/istnotover/IdnttItsnotoverMainEng';
 
 import Idn_m_memid1 from './idntt/members/Idn_m_memid1';
 import Idn_m_memid1Eng from './idnttEng/members/Idn_m_memid1Eng';
@@ -890,6 +891,7 @@ export default function RoutesSetup() {
             <Route path='/IdnttUnevermetMain' element={<IdnttUnevermetMain />}></Route>
             <Route path='/IdnttYesweareMain' element={<IdnttYesweareMain />}></Route>
             <Route path='/IdnttItsnotoverMain' element={<IdnttItsnotoverMain />}></Route>
+            <Route path='/IdnttItsnotoverMainEng' element={<IdnttItsnotoverMainEng />}></Route>
 
             <Route path='/Idn_m_memid1' element={<Idn_m_memid1 />}></Route>
             <Route path='/Idn_m_memid1Eng' element={<Idn_m_memid1Eng />}></Route>
