@@ -43,12 +43,12 @@ export default function TenCMTheDarkestNightAlbum() {
                 <Link to='/TenCMTheDarkestNightAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
-                <img src={MainH2deco} alt="10CM 앨범 꾸미기" />The Darkest Night<img src={MainH2deco} alt="10CM 앨범 꾸미기" />
+                <img src={MainH2deco} alt="10CM 앨범 꾸미기" />일말의 가능성<img src={MainH2deco} alt="10CM 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                고독한 마음을<br />
-                생각해 보며<br />
-                앨범을 준비했어요!
+                기대하는 마음도<br/>
+가지면서<br/>
+앨범을 준비했어요!
             </p>
             <img src={TenCMTheDarkestNightAlbum_img} alt="The Darkest Night" className='tri_BabyFlowerCityRemixesAlbum_img ten_TenCMTheDarkestNightAlbum__img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
