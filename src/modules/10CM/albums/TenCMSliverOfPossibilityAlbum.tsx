@@ -1,1 +1,115 @@
-TenCMSliverOfPossibilityAlbum.tsx
+import { Link } from 'react-router-dom';
+
+import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
+import './TenCMSliverOfPossibilityAlbum.css';
+
+import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
+
+// import TenCMTheDarkestNightAlbum_img from './img/TenCMTheDarkestNightAlbum_img.jpg';
+
+import MainH2deco from '../../img/main_h2_deco.png';
+
+export default function TenCMSliverOfPossibilityAlbum() {
+    return (
+        <div className='ten_TenCMSliverOfPossibilityAlbum_full'>
+            <Menu />
+            <section className="home_translate">
+                <Link to='/TenCMSliverOfPossibilityAlbum' className="on">한국어</Link>
+                <Link to='/TenCMSliverOfPossibilityAlbumEng'>English</Link>
+            </section>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="10CM 앨범 꾸미기" />일말의 가능성<img src={MainH2deco} alt="10CM 앨범 꾸미기" />
+            </h2>
+            <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
+                기대하는 마음도<br />
+                가지면서<br />
+                앨범을 준비했어요!
+            </p>
+            <img src='' alt="TenCMSliverOfPossibilityAlbum" className='tri_BabyFlowerCityRemixesAlbum_img ten_TenCMTheDarkestNightAlbum__img' />
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
+                <tbody>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
+                        <td>
+                            <p>
+                                발매일
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                2026.07.02.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                장르
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                포크/블루스
+                            </p>
+                        </td>
+                    </tr>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
+                        <td>
+                            <p>
+                                기획사
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                씨에이엠위더스
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 ten_TenCMSliverOfPossibilityAlbum_tb2'>
+                <tbody>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
+                        <td>
+                            <p>
+                                번호
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                제목
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                1
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                일말의 가능성
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                        <td>
+                            <p>
+                                2
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                일말의 가능성 &#40;Inst.&#41;
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <FooterPart FooterPartText='ⓒ 씨에이엠위더스' />
+        </div>
+    );
+}
