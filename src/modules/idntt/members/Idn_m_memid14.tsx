@@ -23,8 +23,8 @@ export default function Idn_m_memid14() {
                 거짓없이 여러분을<br />
                 만나러 갈게요!
             </p>
-            <img src={Idn_mm_memid14_img} alt="한예준 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Idn_mm_memid14_img} alt="한예준 이미지" className='tri_mm_s1_img idn_mm_id14_img' />
+            <table className='tri_mm_s1_intropa_tb idn_mm_id14_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
