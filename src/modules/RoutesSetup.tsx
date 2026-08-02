@@ -272,6 +272,7 @@ import TenCMMainEng from './10CMEng/main/TenCMMainEng';
 import TenCMTheDarkestNightAlbum from './10CM/albums/TenCMTheDarkestNightAlbum';
 import TenCMTheDarkestNightAlbumEng from './10CMEng/albums/TenCMTheDarkestNightAlbumEng';
 import TenCMSliverOfPossibilityAlbum from './10CM/albums/TenCMSliverOfPossibilityAlbum';
+import TenCMSliverOfPossibilityAlbumEng from './10CMEng/albums/TenCMSliverOfPossibilityAlbumEng';
 
 import TenMemGwonjungyeol from './10CM/members/TenMemGwonjungyeol';
 import TenMemGwonjungyeolEng from './10CMEng/members/TenMemGwonjungyeolEng';
@@ -772,6 +773,7 @@ export default function RoutesSetup() {
             <Route path='/TenCMTheDarkestNightAlbum' element={<TenCMTheDarkestNightAlbum />}></Route>
             <Route path='/TenCMTheDarkestNightAlbumEng' element={<TenCMTheDarkestNightAlbumEng />}></Route>
             <Route path='/TenCMSliverOfPossibilityAlbum' element={<TenCMSliverOfPossibilityAlbum />}></Route>
+            <Route path='/TenCMSliverOfPossibilityAlbumEng' element={<TenCMSliverOfPossibilityAlbumEng />}></Route>
 
             <Route path='/TenMemGwonjungyeol' element={<TenMemGwonjungyeol />}></Route>
             <Route path='/TenMemGwonjungyeolEng' element={<TenMemGwonjungyeolEng />}></Route>
