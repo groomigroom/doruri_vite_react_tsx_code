@@ -1,1 +1,9 @@
-TriplesDreamDressAlbum.css
+.tri_TriplesDreamDressAlbum_full {
+    width: 100vw;
+    height: 1033px;
+    position: relative;
+}
+
+.tri_TriplesDreamDressAlbum_tb2 {
+    height: 100px;
+}
