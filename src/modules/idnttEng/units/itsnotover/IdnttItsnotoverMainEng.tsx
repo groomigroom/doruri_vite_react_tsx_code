@@ -61,7 +61,7 @@ export default function IdnttItsnotoverMainEng() {
             <section className='tri_m_mem_tr_full idn_Itsnotover_m_mem_tr_full'>
 
                 <section className='idn_Itsnotover_m_mem_tr3'>
-                    <Link to='/Idn_m_memid17'>
+                    <Link to='/Idn_m_memid17Eng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="kwakgiwoong" />
                             <div>
@@ -71,7 +71,7 @@ export default function IdnttItsnotoverMainEng() {
                     </Link>
 
 
-                    <Link to='/Idn_m_memid18'>
+                    <Link to='/Idn_m_memid18Eng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="leejooheon" />
                             <div>
@@ -80,7 +80,7 @@ export default function IdnttItsnotoverMainEng() {
                         </article>
                     </Link>
 
-                    <Link to='/Idn_m_memid19'>
+                    <Link to='/Idn_m_memid19Eng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="yanggyungho" />
                             <div>
@@ -92,7 +92,7 @@ export default function IdnttItsnotoverMainEng() {
                 </section>
 
                 <section className='idn_Itsnotover_m_mem_tr2'>
-                    <Link to='/Idn_m_memid20'>
+                    <Link to='/Idn_m_memid20Eng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="choeunchan" />
                             <div>
@@ -101,7 +101,7 @@ export default function IdnttItsnotoverMainEng() {
                         </article>
                     </Link>
 
-                    <Link to='/Idn_m_memid21'>
+                    <Link to='/Idn_m_memid21Eng'>
                         <article className='tri_m_mem'>
                             <img src='' alt="kimeunsung" />
                             <div>
