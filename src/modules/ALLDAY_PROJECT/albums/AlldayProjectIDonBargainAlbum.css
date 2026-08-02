@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.all_AlldayProjectIDonBargainAlbum_img {
+    border: 5px solid #000000;
+}
+
 .all_AlldayProjectIDonBargainAlbum_tb2 {
     height: 100px;
 }
