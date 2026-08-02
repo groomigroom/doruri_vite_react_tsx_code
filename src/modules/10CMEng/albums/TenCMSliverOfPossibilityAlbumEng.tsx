@@ -11,7 +11,7 @@ import FooterPartEng from '../../FooterPartEng';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function TenCMSliverOfPossibilityAlbum() {
+export default function TenCMSliverOfPossibilityAlbumEng() {
     EngPage('en', 'ko');
 
     return (
