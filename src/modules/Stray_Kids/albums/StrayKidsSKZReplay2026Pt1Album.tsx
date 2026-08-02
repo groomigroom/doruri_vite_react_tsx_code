@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './StrayKidsRunItAlbum.css';
+import './StrayKidsSKZReplay2026Pt1Album.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
@@ -69,9 +69,9 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
                 </tbody>
             </table>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
-            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 str_StrayKidsRunItAlbum_tb2'>
+            <table className='str_StrayKidsSKZReplay2026Pt1Album_tb2'>
                 <tbody>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
+                    <tr className='str_StrayKidsSKZReplay2026Pt1Album_intropa_tb2_tr1'>
                         <td>
                             <p>
                                 번호
@@ -80,6 +80,11 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
                         <td>
                             <p>
                                 제목
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                가수
                             </p>
                         </td>
                     </tr>
@@ -356,7 +361,7 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
                         </td>
                     </tr>
 
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                    <tr className='str_StrayKidsSKZReplay2026Pt1Album_intropa_tb2_tr9'>
                         <td>
                             <p>
                                 17
