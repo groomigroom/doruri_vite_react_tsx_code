@@ -5,7 +5,7 @@ import './Idn_m_memid16.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Idn_mm_memid16_img from '../main/img/tri_m_memS1.jpg';
+import Idn_mm_memid16_img from '../main/img/Idn_mm_id16_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -23,8 +23,8 @@ export default function Idn_m_memid16() {
                 다정한 마음으로<br />
                 여러분을 찾아 갈게요!
             </p>
-            <img src='' alt="황은수 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Idn_mm_memid16_img} alt="황은수 이미지" className='tri_mm_s1_img idn_mm_id16_img' />
+            <table className='tri_mm_s1_intropa_tb idn_mm_id16_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
@@ -65,24 +65,3 @@ export default function Idn_m_memid16() {
         </div>
     );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
