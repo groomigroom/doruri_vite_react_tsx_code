@@ -6,7 +6,7 @@ import './ArtMemKimlip.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Art_mm_Kimlip_img from '../main/img/tri_m_memS1.jpg';
+import Art_mm_Kimlip_img from '../main/img/Art_mm_Kimlip_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -24,8 +24,8 @@ export default function ArtMemKimlip() {
                 Gimme that spin<br />
                 Gimme that spin!
             </p>
-            <img src='' alt="김립" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Art_mm_Kimlip_img} alt="김립" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb art_mm_kimlip_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
