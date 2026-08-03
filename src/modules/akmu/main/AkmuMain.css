@@ -5,7 +5,7 @@
 @media (min-width: 975px) {
     .akmu_m_full {
         width: 100vw;
-        height: 1243px;
+        height: 1743px;
         position: relative;
     }
 
@@ -19,6 +19,44 @@
     }
 
     .akmu_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>div {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_h2_4 {
+        position: absolute;
+        top: 1143px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .akmu_m_event_tr_full {
+        top: 1203px;
+    }
+
+    .akmu_m_event_tr_full img {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_event_tr_full div {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_h2_5 {
+        position: absolute;
+        top: 1393px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .akmu_m_album_tr_full {
+        top: 1453px;
+    }
+
+    .akmu_m_album_tr_full img {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_album_tr_full div {
         border: 5px solid #13983f;
     }
 }
