@@ -1,5 +1,9 @@
 .han_mm_hanroro_full {
     width: 100vw;
-    height: 100vh;
+    height: 1083px;
     position: relative;
+}
+
+.han_mm_hanroro_intropa_tb {
+    height: 400px;
 }
