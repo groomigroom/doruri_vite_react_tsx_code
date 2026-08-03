@@ -188,9 +188,6 @@ return (
 This is an album prepared<br/>
 while thinking about<br/>
 my crooked, sharp heart!
-삐뚤빼뚤 뾰족한<br/>
-마음을 생각해 보며<br/>
-준비한 앨범이에요!
 </p>
 <img src='' alt="YenaBloomi네모네모ngWingsAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
 <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
