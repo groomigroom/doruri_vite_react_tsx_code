@@ -1,5 +1,9 @@
 .bts_mm_v_full {
     width: 100vw;
-    height: 100vh;
+    height: 1033px;
     position: relative;
+}
+
+.bts_mm_v_intropa_tb {
+    height: 350px;
 }
