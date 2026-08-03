@@ -6,7 +6,7 @@ import './BTSMemJimin.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-//import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
+import Bts_Jimin_m_img from '../main/img/Bts_mm_Jimin_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -24,9 +24,8 @@ export default function BTSMemJimin() {
                 나에게 맞는 것을<br />
                 찾으러 가봐요!
             </p>
-            <img src='' alt="지민 이미지" className='tri_mm_s1_img' />
-            #####
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Bts_Jimin_m_img} alt="지민 이미지" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb bts_mm_jimin_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
