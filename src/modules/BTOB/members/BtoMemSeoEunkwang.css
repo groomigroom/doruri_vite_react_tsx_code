@@ -1,5 +1,9 @@
 .bto_mm_seoeunkwang_full {
     width: 100vw;
-    height: 100vh;
+    height: 1083px;
     position: relative;
+}
+
+.bto_mm_seoeunkwang_intropa_tb {
+    height: 400px;
 }
