@@ -1,1 +1,9 @@
-ArtMemHeejin.css
+.art_mm_heejin_full {
+    width: 100vw;
+    height: 1083px;
+    position: relative;
+}
+
+.art_mm_heejin_intropa_tb {
+    height: 400px;
+}
