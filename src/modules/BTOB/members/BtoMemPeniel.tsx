@@ -6,7 +6,7 @@ import './BtoMemPeniel.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
+import Btob_m_Peniel_img from '../main/img/Bto_mm_Peniel_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -24,9 +24,8 @@ export default function BtoMemPeniel() {
                 발견된 문제를<br />
                 잘 해결해 봐요!
             </p>
-            {/* 이미지랑 테이블하기 */}
-            <img src='' alt="프니엘 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Btob_m_Peniel_img} alt="프니엘 이미지" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb bto_mm_peniel_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
