@@ -155,3 +155,11 @@ Drama Queen
 </div>
 );
 }
+
+
+
+ㅡㅡㅡㅡㅡㅡㅡㅡ
+
+
+
+This is an album prepared while thinking about my crooked, sharp heart!
