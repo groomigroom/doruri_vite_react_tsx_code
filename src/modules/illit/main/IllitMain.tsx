@@ -121,6 +121,40 @@ export default function IllitMain() {
                 </section>
 
             </section>
+
+            <h2 className='tri_m_h2 illit_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full illit_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/IllitEvent' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="illit event" />
+                            <div>
+                                <h4>MAMIH<br />
+                                    이벤트</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 illit_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full illit_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/IllitMamthlapinatapaiAlbum' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src='' alt="IllitMamthlapinatapaiAlbum" />
+                            <div>
+                                <h4>
+                                    MAMIH<br />
+                                    LAPINA<br />
+                                    TAPAI
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ 빌리프랩' />
         </div>
     );
