@@ -11,6 +11,8 @@ import Akmu_m_suhyun from './img/aknu_m_suhyun.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
+import AkmuGaehwaAlbum_img from '../albums/img/AkmuGaehwaAlbum_img.jpg';
+
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
@@ -64,6 +66,37 @@ export default function AkmuMain() {
                             <h4>이수현</h4>
                         </Link>
                     </section>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 akmu_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full akmu_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/AkmuEvent' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="akmu event" />
+                            <div>
+                                <h4>개화<br />
+                                    이벤트</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 akmu_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full akmu_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/AkmuGaehwaAlbum' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={AkmuGaehwaAlbum_img} alt="개화" />
+                            <div>
+                                <h4>
+                                    개화
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
                 </section>
             </section>
 
