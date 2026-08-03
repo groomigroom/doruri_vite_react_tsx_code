@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
-import '../../triples/main/TriplesMain.css'
-import './Bol4Main.css'
+import '../../triples/main/TriplesMain.css';
+import './Bol4Main.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
@@ -49,13 +49,44 @@ export default function Bol4Main() {
                     </section>
                 </section>
             </section>
-            <h2>최신 앨범</h2>
-            <p>여름아 부탁해</p>
+
+            <h2 className='tri_m_h2 bol4_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full bol4_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/Bol4Event' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="bol4 event" />
+                            <div>
+                                <h4>
+                                    여름아<br />
+                                    부탁해<br />
+                                    이벤트
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 bol4_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full bol4_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/Bol4SummerPleaseAlbum' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src='' alt="Bol4SummerPleaseAlbum" />
+                            <div>
+                                <h4>
+                                    여름아<br />
+                                    부탁해
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <Link to='/Bol4Main_7_23' className='tri_mm_s1_before_links'>이전 페이지 보기</Link>
             <FooterPart FooterPartText='ⓒ 켄버스' />
         </div>
     );
 };
-
-
-
