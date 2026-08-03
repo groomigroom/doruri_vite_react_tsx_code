@@ -25,11 +25,8 @@ return (
 </section>
 <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="최예나 앨범 꾸미기" />네모네모<img src={MainH2deco} alt="최예나 앨범 꾸미기" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-삐뚤빼뚤 뾰족한
-마음을 생각해 보며
-준비한 앨범이에요!
-순수한 마음도<br/>
-생각해 보며<br/>
+삐뚤빼뚤 뾰족한<br/>
+마음을 생각해 보며<br/>
 준비한 앨범이에요!
 </p>
 <img src='' alt="YenaBloomingWingsAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
