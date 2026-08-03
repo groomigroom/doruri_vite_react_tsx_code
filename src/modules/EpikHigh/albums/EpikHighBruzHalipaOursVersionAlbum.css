@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.epi_EpikHighBruzHalipaOursVersionAlbum_img {
+    border: 5px solid #000000;
+}
+
 .epi_EpikHighBruzHalipaOursVersionAlbum_tb2 {
     height: 100px;
 }
