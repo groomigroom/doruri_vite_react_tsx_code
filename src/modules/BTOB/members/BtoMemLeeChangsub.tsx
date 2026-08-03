@@ -6,7 +6,7 @@ import './BtoMemLeeChangsub.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
+import Btob_m_LeeChangsub_img from '../main/img/Bto_mm_Leechangsub_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -25,8 +25,8 @@ export default function BtoMemLeeChangsub() {
                 날아올라라!
             </p>
             {/* 이미지랑 테이블하기 */}
-            <img src='' alt="이창섭 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Btob_m_LeeChangsub_img} alt="이창섭 이미지" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb bto_mm_leechangsub_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
