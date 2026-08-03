@@ -1,1 +1,10 @@
-BTOBMain.css
+.bto_m_full {
+    width: 100vw;
+    height: 1433px;
+    position: relative;
+}
+
+.bto_m_mem_tr_full {
+    width: 530px;
+    height: 340px;
+}
