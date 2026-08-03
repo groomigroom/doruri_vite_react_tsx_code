@@ -121,13 +121,43 @@ export default function ARTMSMain() {
                 </section>
 
             </section>
-            <h2>최신 앨범</h2>
-            <p>Born Stunner</p>
+
+            <h2 className='tri_m_h2 artms_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full artms_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/Bol4Event' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="artms event" />
+                            <div>
+                                <h4>
+                                    born<br />
+                                    이벤트
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 artms_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full artms_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/idntt' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src='' alt="Bol4SummerPleaseAlbum" />
+                            <div>
+                                <h4>
+                                    Born<br />
+                                    Stunner
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <Link to='/ARTMSMain_7_23End' className='tri_mm_s1_before_links'>이전 페이지 보기</Link>
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
-
-
-
