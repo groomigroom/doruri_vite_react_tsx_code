@@ -16,7 +16,7 @@ import MainH2deco from '../../img/main_h2_deco.png';
 export default function YenaNemonemoAlbum
 () {
 return (
-<div className="tri_TriplesDreamDressAlbum_full">
+<div className="yena_YenaNemonemoAlbum_full">
 <Menu />
 <section className="home_translate">
 <Link to='/YenaNemonemoAlbum
