@@ -1,3 +1,5 @@
+앨범 소개글 3줄 쓰기 폰으로하기
+
 EpikHighBruzHalipaOursVersionAlbum.tsx
 
 import { Link } from 'react-router-dom';
