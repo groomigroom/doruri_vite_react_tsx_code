@@ -13,15 +13,15 @@ import FooterPart from '../../FooterPart';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function YenaBloomingWingsAlbum
+export default function YenaNemonemoAlbum
 () {
 return (
 <div className="tri_TriplesDreamDressAlbum_full">
 <Menu />
 <section className="home_translate">
-<Link to='/YenaBloomingWingsAlbum
+<Link to='/YenaNemonemoAlbum
 ' className="on">한국어</Link>
-<Link to='/YenaBloomingWingsAlbumEng'>English</Link>
+<Link to='/YenaNemonemoAlbumEng'>English</Link>
 </section>
 <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="최예나 앨범 꾸미기" />Blooming Wings<img src={MainH2deco} alt="최예나 앨범 꾸미기" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
