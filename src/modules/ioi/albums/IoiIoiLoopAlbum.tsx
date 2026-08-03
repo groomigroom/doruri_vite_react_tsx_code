@@ -6,7 +6,7 @@ import './IoiIoiLoopAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import IoiIoiLoopAlbum_img from './img/IoiIoiLoopAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -26,7 +26,7 @@ export default function IoiIoiLoopAlbum() {
                 다시 이어서<br />
                 찾아 왔어요!
             </p>
-            <img src='' alt="I.O.I 3rd MINI ALBUM &lsqb;I.O.I : LOOP&rsqb;" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={IoiIoiLoopAlbum_img} alt="I.O.I 3rd MINI ALBUM &lsqb;I.O.I : LOOP&rsqb;" className='tri_BabyFlowerCityRemixesAlbum_img ioi_IoiIoiLoopAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
