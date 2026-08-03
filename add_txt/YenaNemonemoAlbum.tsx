@@ -29,7 +29,7 @@ return (
 마음을 생각해 보며<br/>
 준비한 앨범이에요!
 </p>
-<img src='' alt="YenaBloomingWingsAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
+<img src='' alt="YenaBloomi네모네모ngWingsAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
 <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
 <tbody>
 <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -40,7 +40,7 @@ return (
 </td>
 <td>
 <p>
-2025.07.29.
+2024.09.30.
 </p>
 </td>
 </tr>
@@ -52,7 +52,7 @@ return (
 </td>
 <td>
 <p>
-록/메탈, 댄스, 포크/블루스, 일렉트로니카
+발라드, 댄스, R&B/Soul
 </p>
 </td>
 </tr>
