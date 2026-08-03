@@ -54,6 +54,42 @@ export default function HanroroMain() {
                 </section>
             </section>
 
+            <h2 className='tri_m_h2 hanroro_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full hanroro_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/HanroroEvent' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="hanroro event" />
+                            <div>
+                                <h4>
+                                    Jpop<br />
+                                    Remake<br />
+                                    이벤트
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 hanroro_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full hanroro_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/HanroroJpopRemakeVol2Album' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src='' alt="HanroroJpopRemakeVol2Album" />
+                            <div>
+                                <h4>
+                                    Jpop<br />
+                                    Remake<br />
+                                    Vol2
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ authentic' />
         </div>
     );
