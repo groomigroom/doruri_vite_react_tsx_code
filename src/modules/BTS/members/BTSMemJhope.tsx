@@ -6,7 +6,7 @@ import './BTSMemJhope.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-//import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
+import Bts_Jhope_m_img from '../main/img/Bts_mm_Jhope_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -24,9 +24,8 @@ export default function BTSMemJhope() {
                 자신의 반응을<br />
                 따라서 어디든지 가봐요!
             </p>
-            <img src='' alt="제이홉 이미지" className='tri_mm_s1_img' />
-            #####
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Bts_Jhope_m_img} alt="제이홉 이미지" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb bts_mm_jhope_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
