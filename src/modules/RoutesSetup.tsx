@@ -360,6 +360,7 @@ import EpikHighMain from './EpikHigh/main/EpikHighMain';
 import EpikHighMainEng from './EpikHighEng/main/EpikHighMainEng';
 
 import EpikHighBruzHalipaOursVersionAlbum from './EpikHigh/albums/EpikHighBruzHalipaOursVersionAlbum';
+import EpikHighBruzHalipaOursVersionAlbumEng from './EpikHighEng/albums/EpikHighBruzHalipaOursVersionAlbumEng';
 
 import EpiMemMithra from './EpikHigh/members/EpiMemMithra';
 import EpiMemMithraEng from './EpikHighEng/members/EpiMemMithraEng';
@@ -872,6 +873,7 @@ export default function RoutesSetup() {
             <Route path='/EpikHighMainEng' element={<EpikHighMainEng />}></Route>
 
             <Route path='/EpikHighBruzHalipaOursVersionAlbum' element={<EpikHighBruzHalipaOursVersionAlbum />}></Route>
+            <Route path='/EpikHighBruzHalipaOursVersionAlbumEng' element={<EpikHighBruzHalipaOursVersionAlbumEng />}></Route>
 
             <Route path='/EpiMemMithra' element={<EpiMemMithra />}></Route>
             <Route path='/EpiMemMithraEng' element={<EpiMemMithraEng />}></Route>
