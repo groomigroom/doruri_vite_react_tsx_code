@@ -93,7 +93,7 @@ YH엔터테인먼트
 </td>
 <td>
 <p>
-Drama Queen
+네모네모
 </p>
 </td>
 </tr>
@@ -105,31 +105,31 @@ Drama Queen
 </td>
 <td>
 <p>
-착하다는 말이 제일 싫어
+설탕
 </p>
 </td>
 </tr>
 <tr>
 <td>
 <p>
-3
+
 </p>
 </td>
 <td>
 <p>
-안녕 &#40;Hello, Goodbye&#41;
+xxxxx안녕 &#40;Hello, Goodbye&#41;
 </p>
 </td>
 </tr>
 <tr>
 <td>
 <p>
-4
+
 </p>
 </td>
 <td>
 <p>
-너만 아니면 돼 &#40;Feat. 미료 of 브라운아이드걸스&#41;
+xxxxx너만 아니면 돼 &#40;Feat. 미료 of 브라운아이드걸스&#41;
 </p>
 </td>
 </tr>
@@ -137,7 +137,7 @@ Drama Queen
 <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
 <td>
 <p>
-5
+3
 </p>
 </td>
 <td>
