@@ -52,6 +52,8 @@ import TriplesUnitSun_m_img from '../units/Sun/img/TriplesSun_m_img.jpg';
 import TriplesUnitZenith_m_img from '../units/Zenith/img/TriplesZenith_m_img.jpg';
 import TriplesUnitMsnz_m_img from '../units/msnz/img/TriplesMsnz_m_img.jpg';
 
+import TriplesBabyFlowerCityRemixesAlbum_img from '../albums/img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+
 export default function TriplesMain() {
     return (
         <div className='tri_m_full'>
@@ -606,21 +608,25 @@ export default function TriplesMain() {
                         <article className='tri_m_events'>
                             <img src='' alt="event" />
                             <div>
-                                <h4>baby flower 이벤트</h4>
+                                <h4>baby<br />
+                                    flower<br />
+                                    이벤트</h4>
                             </div>
                         </article>
                     </Link>
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 tri_m_h2_4'>▪ 최신 앨범 ▪</h2>
+            <h2 className='tri_m_h2 tri_m_h2_5'>▪ 최신 앨범 ▪</h2>
             <section className='tri_m_album_tr_full'>
                 <section className='tri_m_album_tr'>
-                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
-                            <img src='' alt="event" />
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={TriplesBabyFlowerCityRemixesAlbum_img} alt="Baby Flower City Remixes" />
                             <div>
-                                <h4>baby flower 이벤트</h4>
+                                <h4>
+                                    &lt;Baby Flower City Remixes&gt;
+                                </h4>
                             </div>
                         </article>
                     </Link>
