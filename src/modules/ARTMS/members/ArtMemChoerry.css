@@ -1,1 +1,9 @@
-ArtMemChoerry.css
+.art_mm_choerry_full {
+    width: 100vw;
+    height: 1083px;
+    position: relative;
+}
+
+.art_mm_choerry_intropa_tb {
+    height: 400px;
+}
