@@ -474,10 +474,41 @@ export default function IdnttMain() {
                     </Link>
                 </section>
             </section>
+
+            <h2 className='tri_m_h2 idntt_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full idntt_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/Bol4Event' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="idntt event" />
+                            <div>
+                                <h4>
+                                    yena<br />
+                                    이벤트
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 idntt_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full idntt_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/idntt' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src='' alt="Bol4SummerPleaseAlbum" />
+                            <div>
+                                <h4>
+                                    idntt
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div >
     );
 };
-
-
-
