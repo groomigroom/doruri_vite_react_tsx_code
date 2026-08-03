@@ -6,7 +6,7 @@ import './ArtMemJinsoul.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Art_mm_Heejin_img from '../main/img/tri_m_memS1.jpg';
+import Art_mm_Jinsoul_img from '../main/img/Art_mm_Jinsoul_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -24,8 +24,8 @@ export default function ArtMemJinsoul() {
                 See The<br />
                 Light Behind!
             </p>
-            <img src='' alt="진솔" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Art_mm_Jinsoul_img} alt="진솔" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb art_mm_jinsoul_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
