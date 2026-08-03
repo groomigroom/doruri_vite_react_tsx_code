@@ -1,5 +1,29 @@
 .bts_m_full {
     width: 100vw;
-    height: 100vh;
+    height: 1433px;
     position: relative;
+}
+
+.bts_m_mem_tr_full {
+    height: 340px;
+}
+
+.bts_m_mem_tr4 {
+    width: 720px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.bts_m_mem_tr3 {
+    width: 530px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 190px;
+    left: 95px;
 }
