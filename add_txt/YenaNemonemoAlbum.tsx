@@ -23,7 +23,7 @@ return (
 ' className="on">한국어</Link>
 <Link to='/YenaNemonemoAlbumEng'>English</Link>
 </section>
-<h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="최예나 앨범 꾸미기" />Blooming Wings<img src={MainH2deco} alt="최예나 앨범 꾸미기" /></h2>
+<h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="최예나 앨범 꾸미기" />네모네모<img src={MainH2deco} alt="최예나 앨범 꾸미기" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
 순수한 마음도<br/>
 생각해 보며<br/>
