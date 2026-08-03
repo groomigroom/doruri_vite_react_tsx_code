@@ -183,8 +183,11 @@ return (
 ' className="on">한국어</Link>
 <Link to='/YenaNemonemoAlbumEng' 여기에 온으로>English</Link>
 </section>
-<h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="최예나 앨범 꾸미기" />네모네모<img src={MainH2deco} alt="최예나 앨범 꾸미기" /></h2>
+<h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="최예나 앨범 꾸미기" />Nemonemo<img src={MainH2deco} alt="최예나 앨범 꾸미기" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
+This is an album prepared<br/>
+while thinking about<br/>
+my crooked, sharp heart!
 삐뚤빼뚤 뾰족한<br/>
 마음을 생각해 보며<br/>
 준비한 앨범이에요!
