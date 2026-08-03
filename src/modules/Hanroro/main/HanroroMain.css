@@ -1,5 +1,10 @@
 .han_m_full {
     width: 100vw;
-    height: 100vh;
+    height: 1243px;
     position: relative;
+}
+
+.han_m_mem_tr_full {
+    width: 150px;
+    height: 150px;
 }
