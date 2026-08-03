@@ -6,7 +6,7 @@ import './StrayKidsSKZReplay2026Pt1Album.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import StrayKidsSKZReplay2026Pt1Album_img from './img/StrayKidsSKZReplay2026Pt1Album_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -26,7 +26,7 @@ export default function StrayKidsSKZReplay2026Pt1Album() {
                 모아서<br />
                 앨범을 준비했어요!
             </p>
-            <img src='' alt="StrayKidsSKZReplay2026Pt1Album" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={StrayKidsSKZReplay2026Pt1Album_img} alt="StrayKidsSKZReplay2026Pt1Album" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
