@@ -21,6 +21,8 @@ import Str_m_MemIn_img from './img/stray_m_mem_In.jpg';
 
 import StrayKids3Racha_m_img from '../units/3RACHA/img/StrayKids3Racha_m_img.jpg';
 
+import StrayKidsSKZReplay2026Pt1Album_img from '../albums/img/StrayKidsSKZReplay2026Pt1Album_img.jpg';
+
 //#191919
 //#ffffff
 
@@ -187,6 +189,40 @@ export default function StrayKidsMain() {
                     </Link>
                 </section>
             </section>
+
+            <h2 className='tri_m_h2 stray_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full stray_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/StrayKidsEvent' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="ioi event" />
+                            <div>
+                                <h4>Replay<br />
+                                    이벤트</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 stray_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full stray_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/StrayKidsSKZReplay2026Pt1Album' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={StrayKidsSKZReplay2026Pt1Album_img} alt="StrayKidsSKZReplay2026Pt1Album" />
+                            <div>
+                                <h4>
+                                    SKZ<br />
+                                    Replay<br />
+                                    2026
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
         </div>
     );
