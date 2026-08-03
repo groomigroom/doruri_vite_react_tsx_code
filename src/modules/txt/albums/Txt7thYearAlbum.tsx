@@ -6,7 +6,7 @@ import './Txt7thYearAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import Txt7thYearAlbum_img from './img/Txt7thYearAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -26,7 +26,7 @@ export default function Txt7thYearAlbum() {
                 잘 생각해 보며<br />
                 앨범을 준비했어요!
             </p>
-            <img src='' alt="7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={Txt7thYearAlbum_img} alt="7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때" className='tri_BabyFlowerCityRemixesAlbum_img txt_Txt7thYearAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
