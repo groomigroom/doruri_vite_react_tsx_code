@@ -6,7 +6,7 @@ import './BtoMemLimHyunsik.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
+import Btob_m_LimHyunsik_img from '../main/img/Bto_mm_Limhyunsik_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -24,9 +24,8 @@ export default function BtoMemLimHyunsik() {
                 더 담아 두고<br />
                 더 간직해봐요!
             </p>
-            {/* 이미지랑 테이블하기 */}
-            <img src='' alt="임현식 이미지" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Btob_m_LimHyunsik_img} alt="임현식 이미지" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb bto_mm_limhyunsik_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
