@@ -18,6 +18,8 @@ import Ioi_m_MemGangmina_img from './img/ioi_m_mem_Gangmina.jpg';
 import Ioi_m_MemKimdoyeon_img from './img/ioi_m_mem_Kimdoyeon.jpg';
 import Ioi_m_MemJeonsomi_img from './img/ioi_m_mem_Jeonsomi.jpg';
 
+import IoiIoiLoopAlbum_img from '../albums/img/IoiIoiLoopAlbum_img.jpg';
+
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 import Menu from '../../Menu';
@@ -226,6 +228,40 @@ export default function IoiMain() {
                 </section>
 
             </section>
+
+            <h2 className='tri_m_h2 ioi_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full ioi_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/IoiEvent' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="ioi event" />
+                            <div>
+                                <h4>LOOP<br />
+                                    이벤트</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 ioi_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full ioi_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/IoiIoiLoopAlbum' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={IoiIoiLoopAlbum_img} alt="ioi loop" />
+                            <div>
+                                <h4>
+                                    I.O.I<br />
+                                    :<br />
+                                    LOOP
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ 스윙엔터테인먼트' />
         </div>
     );
