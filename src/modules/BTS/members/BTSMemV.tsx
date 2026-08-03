@@ -6,7 +6,7 @@ import './BTSMemV.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-//import Tri_mm_s1_img from '../main/img/tri_m_memS1.jpg';
+import Bts_V_m_img from '../main/img/Bts_mm_V_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -24,9 +24,8 @@ export default function BTSMemV() {
                 따뜻한 곳으로<br />
                 달려 가봐요!
             </p>
-            <img src='' alt="뷔 이미지" className='tri_mm_s1_img' />
-            #####
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Bts_V_m_img} alt="뷔 이미지" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb bts_mm_v_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
