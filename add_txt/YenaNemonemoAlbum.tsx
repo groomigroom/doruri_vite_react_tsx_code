@@ -174,15 +174,14 @@ import FooterPart from '../../FooterPart';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function YenaNemonemoAlbum
-() {
+export default function YenaNemonemoAlbumEng() {
 return (
 <div className="yena_YenaNemonemoAlbum_full">
 <Menu />
 <section className="home_translate">
 <Link to='/YenaNemonemoAlbum
 ' className="on">한국어</Link>
-<Link to='/YenaNemonemoAlbumEng'>English</Link>
+<Link to='/YenaNemonemoAlbumEng' 여기에 온으로>English</Link>
 </section>
 <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="최예나 앨범 꾸미기" />네모네모<img src={MainH2deco} alt="최예나 앨범 꾸미기" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
