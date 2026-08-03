@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.ioi_IoiIoiLoopAlbum_img {
+    border: 5px solid #F4CE9D;
+}
+
 .ioi_IoiIoiLoopAlbum_tb2 {
     height: 350px;
 }
