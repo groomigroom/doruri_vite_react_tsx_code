@@ -598,14 +598,41 @@ export default function TriplesMain() {
                     </Link>
                 </section>
             </section>
-            <p className='tri_m_copy_pp'>Copyright ⓒ ㈜모드하우스</p>
+
+            <h2 className='tri_m_h2 tri_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/TriplesEvent' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="event" />
+                            <div>
+                                <h4>baby flower 이벤트</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 tri_m_h2_4'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="event" />
+                            <div>
+                                <h4>baby flower 이벤트</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
                 <h3>트리플에스 인스타그램</h3>
             </a>
             <a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_you'>
                 <h3>트리플에스 유튜브</h3>
             </a>
-            <Link to="/TriplesEvent" className='tri_m_e'>이벤트</Link>
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div >
     );
