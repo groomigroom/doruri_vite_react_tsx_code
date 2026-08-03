@@ -54,10 +54,40 @@ export default function YenaMain() {
                 </section>
             </section>
 
+            <h2 className='tri_m_h2 yena_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full yena_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/Bol4Event' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="yena event" />
+                            <div>
+                                <h4>
+                                    yena<br />
+                                    이벤트
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 yena_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full yena_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/yena' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src='' alt="Bol4SummerPleaseAlbum" />
+                            <div>
+                                <h4>
+                                    yena
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ YH엔터테인먼트' />
         </div>
     );
 };
-
-
-
