@@ -6,7 +6,7 @@ import './ArtMemHaseul.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Art_mm_Haseul_img from '../main/img/tri_m_memS1.jpg';
+import Art_mm_Haseul_img from '../main/img/Art_mm_Haseul_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -24,8 +24,8 @@ export default function ArtMemHaseul() {
                 밝은 햇살을<br />
                 기억해 봐요!
             </p>
-            <img src='' alt="하슬" className='tri_mm_s1_img' />
-            <table className='tri_mm_s1_intropa_tb'>
+            <img src={Art_mm_Haseul_img} alt="하슬" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb art_mm_haseul_intropa_tb'>
                 <tbody>
                     <tr className='tri_mm_s1_intropa_tb_tr1'>
                         <td><p>출생</p></td>
