@@ -6,18 +6,19 @@ import './BTSMain.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-//import Str_m_logo from './img/Str_m_logo.svg';
+import Bts_m_logo from './img/BTS_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
-//import Str_m_img from './img/stray_m_stray_kids.jpg';
+import Bts_m_img from './img/Bts_m_img.jpg';
 
-//import Str_m_MemBangchan_img from './img/stray_m_mem_Bangchan.jpg';
-//import Str_m_MemLino_img from './img/stray_m_mem_Lino.jpg';
-//import Str_m_MemChangbin_img from './img/stray_m_mem_Changbin.jpg';
-//import Str_m_MemHyunjin_img from './img/stray_m_mem_Hyunjin.jpg';
-//import Str_m_MemHan_img from './img/stray_m_mem_Han.jpg';
-//import Str_m_MemFilix_img from './img/stray_m_mem_Filix.jpg';
-//import Str_m_MemSeungmin_img from './img/stray_m_mem_Seungmin.jpg';
-//import Str_m_MemIn_img from './img/stray_m_mem_In.jpg';
+import Bts_RM_m_img from './img/Bts_mm_Rm_img.jpg';
+import Bts_Jin_m_img from './img/Bts_mm_Jin_img.jpg';
+import Bts_SUGA_m_img from './img/Bts_mm_Suga_img.jpg';
+import Bts_Jhope_m_img from './img/Bts_mm_Jhope_img.jpg';
+import Bts_Jimin_m_img from './img/Bts_mm_Jimin_img.jpg';
+import Bts_V_m_img from './img/Bts_mm_V_img.jpg';
+import Bts_JungKook_m_img from './img/Bts_mm_Jungkook_img.jpg';
+
+
 
 //#191919
 
@@ -30,21 +31,21 @@ export default function BTSMain() {
                 <Link to='/BTSMain' className="on">한국어</Link>
                 <Link to='/BTSMainEng'>English</Link>
             </section>
-            <img src='' alt="방탄소년단 로고" className='tri_m_logo' />
+            <img src={Bts_m_logo} alt="방탄소년단 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />방탄소년단<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
             <p className='tri_m_intropp'>
                 #####
                 &apos;Stray Kids&apos;와 함께<br />
                 시련 속에서도 계속<br />
                 running out!</p>
-            <img src='' className='tri_m_img' alt='방탄소년단' />
+            <img src={Bts_m_img} className='tri_m_img' alt='방탄소년단' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full bts_m_mem_tr_full'>
 
                 <section className='bts_m_mem_tr4'>
                     <Link to='/BTSMemRM' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="RM 이미지" />
+                            <img src={Bts_RM_m_img} alt="RM 이미지" />
                             <div>
                                 <h4>RM</h4>
                             </div>
@@ -52,7 +53,7 @@ export default function BTSMain() {
                     </Link>
                     <Link to='/BTSMemJin'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="진 이미지" />
+                            <img src={Bts_Jin_m_img} alt="진 이미지" />
                             <div>
                                 <h4>진</h4>
                             </div>
@@ -61,7 +62,7 @@ export default function BTSMain() {
 
                     <Link to='/BTSMemSUGA'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="슈가 이미지" />
+                            <img src={Bts_SUGA_m_img} alt="슈가 이미지" />
                             <div>
                                 <h4>슈가</h4>
                             </div>
@@ -70,7 +71,7 @@ export default function BTSMain() {
 
                     <Link to='/BTSMemJhope'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="제이홉 이미지" />
+                            <img src={Bts_Jhope_m_img} alt="제이홉 이미지" />
                             <div>
                                 <h4>제이홉</h4>
                             </div>
@@ -81,7 +82,7 @@ export default function BTSMain() {
                 <section className='bts_m_mem_tr3'>
                     <Link to='/BTSMemJimin'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="지민 이미지" />
+                            <img src={Bts_Jimin_m_img} alt="지민 이미지" />
                             <div>
                                 <h4>지민</h4>
                             </div>
@@ -90,7 +91,7 @@ export default function BTSMain() {
 
                     <Link to='/BTSMemV'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="뷔 이미지" />
+                            <img src={Bts_V_m_img} alt="뷔 이미지" />
                             <div>
                                 <h4>뷔</h4>
                             </div>
@@ -99,7 +100,7 @@ export default function BTSMain() {
 
                     <Link to='/BTSMemJungKook'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="정국 이미지" />
+                            <img src={Bts_JungKook_m_img} alt="정국 이미지" />
                             <div>
                                 <h4>정국</h4>
                             </div>
