@@ -53,13 +53,45 @@ export default function TenCMMain() {
                     </section>
                 </section>
             </section>
-            <h2>최신 앨범</h2>
-            <p>The Darkest Night</p>
+
+            <h2 className='tri_m_h2 ten_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full ten_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/ResceneEvent' className='tri_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src='' alt="10cm event" />
+                            <div>
+                                <h4>
+                                    Darkest<br />
+                                    Night<br />
+                                    이벤트
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 ten_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full ten_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TenCMTheDarkestNightAlbum' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src='' alt="TenCMTheDarkestNightAlbum" />
+                            <div>
+                                <h4>
+                                    The<br />
+                                    Darkest<br />
+                                    Night
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <Link to='/TenCMMain_7_23End' className='tri_mm_s1_before_links'>이전 페이지 보기</Link>
             <FooterPart FooterPartText='ⓒ 씨에이엠위더스' />
         </div>
     );
 };
-
-
-
