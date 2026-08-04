@@ -5,7 +5,7 @@
 @media (min-width: 975px) {
     .ioi_m_full {
         width: 100vw;
-        height: 2163px;
+        height: 2413px;
         position: relative;
     }
 
@@ -85,6 +85,27 @@
 
     .ioi_m_album_tr_full img,
     .ioi_m_album_tr_full div {
+        border: 5px solid #F4CE9D;
+    }
+
+    .ioi_m_h2_6 {
+        position: absolute;
+        top: 2063px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .ioi_m_sns_tr_full {
+        width: 150px;
+        top: 2123px;
+    }
+
+    .ioi_m_sns_tr {
+        width: 150px;
+    }
+
+    .ioi_m_sns_a img,
+    .ioi_m_sns_a div {
         border: 5px solid #F4CE9D;
     }
 }
