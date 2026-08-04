@@ -133,6 +133,11 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/IllMemMoka'>모카 멤버 페이지</Link></li>
                             <li><Link to='/IllMemWonhee'>원희 멤버 페이지</Link></li>
                             <li><Link to='/IllMemEroha'>이로하 멤버 페이지</Link></li>
+                            <li><Link to='/IllitEvent'>MAMIH 이벤트 페이지</Link></li>
+                            <li><Link to='/IllitMamthlapinatapaiAlbum'>MAMIHLAPINATAPAI 앨범 페이지</Link></li>
+                            <li><a href="https://www.instagram.com/illit_official" target='_blank' rel='noopener noreferrer'>ILLIT 인스타그램</a></li>
+                            <li><a href="https://www.youtube.com/@ILLIT_official" target='_blank' rel='noopener noreferrer'>ILLIT 유튜브</a></li>
+                            {/* 4개추가됨 */}
                         </ul>
                     </li>
                     <li className='doruri_map_twsmain_li'><Link to='/TwsMain'>TWS 메인 페이지</Link>
