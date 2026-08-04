@@ -16,6 +16,12 @@ import Ill_m_MemMoka_img from './img/illit_m_mem_Moka.jpg';
 import Ill_m_MemWonhee_img from './img/illit_m_mem_Wonhee.jpg';
 import Ill_m_MemEroha_img from './img/illit_m_mem_Iroha.jpg';
 
+import IllitMamthlapinatapaiAlbum_img from '../albums/img/IllitMamthlapinatapaiAlbum_img.jpg';
+
+import IllitInstagram_img from '../../triples/main/img/triples_instagram_icon.png';
+import IllitYoutube_img from '../../triples/main/img/triples_youtube_icon.png';
+
+
 //191919
 //FFFFFF
 
@@ -142,7 +148,7 @@ export default function IllitMain() {
                 <section className='tri_m_album_tr'>
                     <Link to='/IllitMamthlapinatapaiAlbum' className='tri_m_album_a'>
                         <article className='tri_m_albums'>
-                            <img src='' alt="IllitMamthlapinatapaiAlbum" />
+                            <img src={IllitMamthlapinatapaiAlbum_img} alt="IllitMamthlapinatapaiAlbum" />
                             <div>
                                 <h4>
                                     MAMIH<br />
@@ -155,8 +161,33 @@ export default function IllitMain() {
                 </section>
             </section>
 
+            <h2 className='tri_m_h2 illit_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full illit_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/illit_official" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={IllitInstagram_img} alt="illit 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@ILLIT_official" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={IllitYoutube_img} alt="illit 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ 빌리프랩' />
         </div>
     );
 };
-
