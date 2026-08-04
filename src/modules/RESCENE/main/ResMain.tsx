@@ -16,6 +16,9 @@ import Res_m_MemMinami_img from './img/rescene_m_mem_Minami.jpg';
 import Res_m_MemMay_img from './img/rescene_m_mem_May.jpg';
 import Res_m_MemJena_img from './img/rescene_m_mem_Jena.jpg';
 
+import ResceneInstagram_img from '../../triples/main/img/triples_instagram_icon.png';
+import ResceneYoutube_img from '../../triples/main/img/triples_youtube_icon.png';
+
 //191919
 //ffffff
 
@@ -153,6 +156,32 @@ export default function ResMain() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 rescene_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full rescene_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/rescene_official" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={ResceneInstagram_img} alt="리센느 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCtKtCiaWRz-d3EZn2xd1mdA" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={ResceneYoutube_img} alt="리센느 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
