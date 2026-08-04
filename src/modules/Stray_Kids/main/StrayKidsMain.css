@@ -1,7 +1,7 @@
 @media (min-width: 975px) {
     .str_m_full {
         width: 100vw;
-        height: 2183px;
+        height: 2433px;
         position: relative;
     }
 
@@ -50,6 +50,17 @@
 
     .stray_m_album_tr_full {
         top: 1893px;
+    }
+
+    .stray_m_h2_6 {
+        position: absolute;
+        top: 2083px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .akmu_m_sns_tr_full {
+        top: 2143px;
     }
 }
 
