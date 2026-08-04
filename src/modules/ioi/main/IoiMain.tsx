@@ -22,6 +22,8 @@ import IoiIoiLoopAlbum_img from '../albums/img/IoiIoiLoopAlbum_img.jpg';
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
+import IoiInstagram_img from './img/IoiInstagram_icon_img.png';
+
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
@@ -259,6 +261,22 @@ export default function IoiMain() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 ioi_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full ioi_m_sns_tr_full'>
+                <section className='tri_m_album_tr ioi_m_sns_tr'>
+                    <a href="https://www.instagram.com/ioi_10th" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a ioi_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={IoiInstagram_img} alt="아이오아이 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
