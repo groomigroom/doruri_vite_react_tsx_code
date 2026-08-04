@@ -5,7 +5,7 @@
 @media (min-width: 975px) {
     .akmu_m_full {
         width: 100vw;
-        height: 1743px;
+        height: 1993px;
         position: relative;
     }
 
@@ -57,6 +57,22 @@
     }
 
     .akmu_m_album_tr_full div {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_h2_6 {
+        position: absolute;
+        top: 1643px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .akmu_m_sns_tr_full {
+        top: 1703px;
+    }
+
+    .akmu_m_sns_a img,
+    .akmu_m_sns_a div {
         border: 5px solid #13983f;
     }
 }
