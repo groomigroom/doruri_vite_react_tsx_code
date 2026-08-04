@@ -79,6 +79,11 @@ export default function DoruriMapIdolList() {
                         <ul>
                             <li><Link to='/AkmuMemChanhyuk'>이찬혁 멤버 페이지</Link></li>
                             <li><Link to='/AkmuMemSuhyun'>이수현 멤버 페이지</Link></li>
+                            <li><Link to='/AkmuEvent'>개화 이벤트</Link></li>
+                            <li><Link to='/AkAkmuGaehwaAlbummuEvent'>개화 앨범 페이지</Link></li>
+                            <li><a href="https://www.instagram.com/akmuofficial/" target='_blank' rel='noopener noreferrer'>AKMU 인스타그램</a></li>
+                            <li><a href="https://www.youtube.com/@AKMU" target='_blank' rel='noopener noreferrer'>AKMU 유튜브</a></li>
+                            {/* 4개추가됨 */}
                         </ul>
                     </li>
                     <li className='doruri_map_ioimain_li'><Link to='/IoiMain'>아이오아이 메인 페이지</Link>
