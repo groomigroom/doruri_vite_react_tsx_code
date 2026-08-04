@@ -148,6 +148,11 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/TwsMemHanjin'>한진 멤버 페이지</Link></li>
                             <li><Link to='/TwsMemJihun'>지훈 멤버 페이지</Link></li>
                             <li><Link to='/TwsMemGyungmin'>경민 멤버 페이지</Link></li>
+                            <li><Link to='/TwsEvent'>NO TRAGEDY 이벤트 페이지</Link></li>
+                            <li><Link to='/TwsNoTragedyAlbum'>NO TRAGEDY 앨범 페이지</Link></li>
+                            <li><a href="https://www.instagram.com/tws_pledis" target='_blank' rel='noopener noreferrer'>TWS 인스타그램</a></li>
+                            <li><a href="https://www.youtube.com/@TWS_PLEDIS" target='_blank' rel='noopener noreferrer'>TWS 유튜브</a></li>
+                            {/* 4개추가됨 */}
                         </ul>
                     </li>
                     <li className='doruri_map_txtmain_li'><Link to='/ResMain'>RESCENE 메인 페이지</Link>
