@@ -10,6 +10,11 @@ import Ten_m_logo from './img/TenCM_m_logo.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 import Ten_m_img from './img/10cm_m_mem_Gwonjungyeol.jpg';
 
+import TenCMTheDarkestNightAlbum_img from '../albums/img/TenCMTheDarkestNightAlbum_img.jpg';
+
+import TenCM_instagram_img from './img/TenCM_instagram_icon_img.png';
+import TenCM_youtube_img from './img/TenCM_youtube_icon_img.png';
+
 //000000
 
 export default function TenCMMain() {
@@ -77,7 +82,7 @@ export default function TenCMMain() {
                 <section className='tri_m_album_tr'>
                     <Link to='/TenCMTheDarkestNightAlbum' className='tri_m_album_a'>
                         <article className='tri_m_albums'>
-                            <img src='' alt="TenCMTheDarkestNightAlbum" />
+                            <img src={TenCMTheDarkestNightAlbum_img} alt="TenCMTheDarkestNightAlbum" />
                             <div>
                                 <h4>
                                     The<br />
@@ -87,6 +92,32 @@ export default function TenCMMain() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 ten_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full ten_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/10cm_official_kr" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={TenCM_instagram_img} alt="10CM 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@10cmofficial_channel" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={TenCM_youtube_img} alt="10CM 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
