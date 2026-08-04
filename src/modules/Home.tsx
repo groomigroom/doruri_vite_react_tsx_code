@@ -13,6 +13,8 @@ export default function Home() {
                 <Link to='/' className="on">한국어</Link>
                 <Link to='/Eng'>English</Link>
             </section>
+            <img src="" alt="도루리 로고" className="home_logo" />
+            <section className="home_img_slide_full"></section>
             <FooterPart FooterPartText='ⓒ 도루리' />
         </div>
     )
