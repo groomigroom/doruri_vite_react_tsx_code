@@ -13,7 +13,7 @@ export default function Home() {
                 <Link to='/' className="on">한국어</Link>
                 <Link to='/Eng'>English</Link>
             </section>
-            <FooterPart FooterPartText='도루리' />
+            <FooterPart FooterPartText='ⓒ 도루리' />
         </div>
     )
 }
