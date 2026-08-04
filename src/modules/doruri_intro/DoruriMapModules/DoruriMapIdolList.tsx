@@ -68,6 +68,11 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/TxtMemBeomgyu'>범규 멤버 페이지</Link></li>
                             <li><Link to='/TxtMemTaehyun'>태현 멤버 페이지</Link></li>
                             <li><Link to='/TxtMemHueningkai'>휴닝카이 멤버 페이지</Link></li>
+                            <li><Link to='/TxtEvent'>7TH YEAR 이벤트</Link></li>
+                            <li><Link to='/Txt7thYearAlbum'>7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때 앨범 페이지</Link></li>
+                            <li><a href="https://www.instagram.com/txt_bighit" target='_blank' rel='noopener noreferrer'>투모로우바이투게더 인스타그램</a></li>
+                            <li><a href="https://www.youtube.com/TXT_bighit" target='_blank' rel='noopener noreferrer'>투모로우바이투게더 유튜브</a></li>
+                            {/* 4개추가됨 */}
                         </ul>
                     </li>
                     <li className='doruri_map_akmumain_li'><Link to='/AkmuMain'>AKMU 메인 페이지</Link>
