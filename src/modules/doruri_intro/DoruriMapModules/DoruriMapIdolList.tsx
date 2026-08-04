@@ -118,6 +118,12 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/StrayMemFilix'>필릭스 멤버 페이지</Link></li>
                             <li><Link to='/StrayMemSeungmin'>승민 멤버 페이지</Link></li>
                             <li><Link to='/StrayMemIn'>아이엔 멤버 페이지</Link></li>
+                            <li><Link to='/StrayKidsThreeRachaMain'>3RACHA 유닛 페이지</Link></li>
+                            <li><Link to='/StrayKidsEvent'>Replay 이벤트 페이지</Link></li>
+                            <li><Link to='/StrayKidsSKZReplay2026Pt1Album'>SKZ Replay 2026 앨범 페이지</Link></li>
+                            <li><a href="https://www.instagram.com/realstraykids" target='_blank' rel='noopener noreferrer'>Stray Kids 인스타그램</a></li>
+                            <li><a href="https://www.youtube.com/@StrayKids" target='_blank' rel='noopener noreferrer'>Stray Kids 유튜브</a></li>
+                            {/* 5개추가됨 */}
                         </ul>
                     </li>
                     <li className='doruri_map_txtmain_li'><Link to='/IllitMain'>ILLIT 메인 페이지</Link>
