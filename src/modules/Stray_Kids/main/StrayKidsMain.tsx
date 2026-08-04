@@ -23,6 +23,9 @@ import StrayKids3Racha_m_img from '../units/3RACHA/img/StrayKids3Racha_m_img.jpg
 
 import StrayKidsSKZReplay2026Pt1Album_img from '../albums/img/StrayKidsSKZReplay2026Pt1Album_img.jpg';
 
+import StrayKidsInstagram_img from '../../triples/main/img/triples_instagram_icon.png';
+import StrayKidsYoutube_img from '../../triples/main/img/triples_youtube_icon.png';
+
 //#191919
 //#ffffff
 
@@ -220,6 +223,32 @@ export default function StrayKidsMain() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 stray_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full akmu_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/realstraykids" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={StrayKidsInstagram_img} alt="Stray Kids 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@StrayKids" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={StrayKidsYoutube_img} alt="Stray Kids 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
