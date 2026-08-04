@@ -17,3 +17,22 @@
     background-color: #333;
     color: #e6e6e6;
 }
+
+.home_logo {
+    height: 100px;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home_img_slide_full {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #333;
+    border-radius: 25px;
+}
