@@ -6,7 +6,7 @@ import './TwsNoTragedyAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import TwsNoTragedyAlbum_img from './img/TwsNoTragedyAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -26,7 +26,7 @@ export default function TwsNoTragedyAlbum() {
                 담아서 준비한<br />
                 앨범이에요!
             </p>
-            <img src='' alt="NO TRAGEDY" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={TwsNoTragedyAlbum_img} alt="NO TRAGEDY" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
