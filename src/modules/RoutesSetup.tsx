@@ -13,6 +13,10 @@ import IdolListEng from './idol_searchEng/IdolListEng';
 import IdolList2 from './idol_search/IdolList2';
 import IdolList2Eng from './idol_searchEng/IdolList2Eng';
 
+//login
+
+import LoginMain from './login/LoginMain';
+
 //TriplesMain
 
 import TriplesMain from './triples/main/TriplesMain';
@@ -527,6 +531,7 @@ export default function RoutesSetup() {
             <Route path='/IdolList2' element={<IdolList2 />}></Route>
             <Route path='/IdolList2Eng' element={<IdolList2Eng />}></Route>
 
+            <Route path='/LoginMain' element={<LoginMain />}></Route>
 
             <Route path='/TriplesMain' element={<TriplesMain />}></Route>
             <Route path='/TriplesMainEng' element={<TriplesMainEng />}></Route>
