@@ -13,8 +13,13 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 import AkmuGaehwaAlbum_img from '../albums/img/AkmuGaehwaAlbum_img.jpg';
 
+import AkmuInstagram_img from './img/AkmuInstagram_icon_img.png';
+import AkmuYoutube_img from './img/AkmuYoutube_icon_img.png';
+
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
+
+//#13983f
 
 export default function AkmuMain() {
     return (
@@ -100,7 +105,32 @@ export default function AkmuMain() {
                 </section>
             </section>
 
-            <Link to='/AkmuEvent'>이벤트로 가기</Link>
+            <h2 className='tri_m_h2 akmu_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full akmu_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/akmuofficial/" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a akmu_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={AkmuInstagram_img} alt="악뮤 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@AKMU" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a akmu_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={AkmuYoutube_img} alt="악뮤 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ 영감의 샘터' />
         </div>
     );
