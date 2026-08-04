@@ -6,11 +6,9 @@
 
     .txt_m_full {
         width: 100vw;
-        height: 1933px;
+        height: 2183px;
         position: relative;
     }
-
-
 
     .txt_m_mem_tr_full {
         width: 530px;
@@ -68,6 +66,22 @@
     }
 
     .txt_m_album_tr_full div {
+        border: 5px solid #FF1E91;
+    }
+
+    .txt_m_h2_6 {
+        position: absolute;
+        top: 1833px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .txt_m_sns_tr_full {
+        top: 1893px;
+    }
+
+    .txt_m_sns_a img,
+    .txt_m_sns_a div {
         border: 5px solid #FF1E91;
     }
 }
