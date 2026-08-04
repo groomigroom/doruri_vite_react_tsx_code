@@ -18,6 +18,11 @@ import Txt_m_memHueningkai from './img/txt_m_mem_hueningkai.jpg';
 
 import Txt7thYearAlbum_img from '../albums/img/Txt7thYearAlbum_img.jpg';
 
+import TxtInstagram_icon_img from './img/TxtInstagram_icon_img.png';
+import TxtYoutube_icon_img from './img/TxtYoutube_icon_img.png';
+
+//#FF1E91
+
 export default function TxtMain() {
     return (
         <div className='txt_m_full'>
@@ -152,6 +157,32 @@ export default function TxtMain() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 txt_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full txt_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/txt_bighit" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a txt_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={TxtInstagram_icon_img} alt="투모로우바이투게더 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/TXT_bighit" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a txt_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={TxtYoutube_icon_img} alt="투모로우바이투게더 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
