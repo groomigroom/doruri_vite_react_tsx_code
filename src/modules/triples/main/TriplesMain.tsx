@@ -54,6 +54,9 @@ import TriplesUnitMsnz_m_img from '../units/msnz/img/TriplesMsnz_m_img.jpg';
 
 import TriplesBabyFlowerCityRemixesAlbum_img from '../albums/img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
 
+import TriplesInstagram_img from './img/triples_instagram_icon.png';
+import TriplesYoutube_img from './img/triples_youtube_icon.png';
+
 export default function TriplesMain() {
     return (
         <div className='tri_m_full'>
@@ -633,12 +636,32 @@ export default function TriplesMain() {
                 </section>
             </section>
 
-            <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
-                <h3>트리플에스 인스타그램</h3>
-            </a>
-            <a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_you'>
-                <h3>트리플에스 유튜브</h3>
-            </a>
+            <h2 className='tri_m_h2 tri_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={TriplesInstagram_img} alt="트리플에스 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={TriplesYoutube_img} alt="트리플에스 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div >
     );
