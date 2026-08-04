@@ -99,6 +99,10 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/IoiMemGangmina'>강미나 멤버 페이지</Link></li>
                             <li><Link to='/IoiMemKimdoyeon'>김도연 멤버 페이지</Link></li>
                             <li><Link to='/IoiMemJeonsomi'>전소미 멤버 페이지</Link></li>
+                            <li><Link to='/IoiEvent'>LOOP 이벤트 페이지</Link></li>
+                            <li><Link to='/IoiIoiLoopAlbum'>I.O.I : LOOP 앨범 페이지</Link></li>
+                            <li><a href="https://www.instagram.com/ioi_10th" target='_blank' rel='noopener noreferrer'>아이오아이 인스타그램</a></li>
+                            {/* 3개추가됨 */}
                         </ul>
                     </li>
                 </ul>
