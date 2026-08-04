@@ -17,6 +17,11 @@ import Tws_m_MemHanjin_img from './img/tws_m_mem_Hanjin.jpg';
 import Tws_m_MemJihun_img from './img/tws_m_mem_Jihun.jpg';
 import Tws_m_MemGyungmin_img from './img/tws_m_mem_Kyungmin.jpg';
 
+import TwsNoTragedyAlbum_img from '../albums/img/TwsNoTragedyAlbum_img.jpg';
+
+import TwsInstagram_img from '../../triples/main/img/triples_instagram_icon.png';
+import TwsYoutube_img from '../../triples/main/img/triples_youtube_icon.png';
+
 //#191919
 //#ffffff
 
@@ -157,7 +162,7 @@ export default function TwsMain() {
                 <section className='tri_m_album_tr'>
                     <Link to='/TwsNoTragedyAlbum' className='tri_m_album_a'>
                         <article className='tri_m_albums'>
-                            <img src='' alt="TwsNoTragedyAlbum" />
+                            <img src={TwsNoTragedyAlbum_img} alt="TwsNoTragedyAlbum" />
                             <div>
                                 <h4>
                                     NO<br />
@@ -166,6 +171,32 @@ export default function TwsMain() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 tws_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full tws_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/tws_pledis" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={TwsInstagram_img} alt="tws 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@TWS_PLEDIS" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={TwsYoutube_img} alt="tws 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
