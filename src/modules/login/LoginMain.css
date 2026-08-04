@@ -1,1 +1,28 @@
-LoginMain.css
+.login_main_full {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.login_m_h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login_m_h2>img {
+    margin: 0 20px;
+}
+
+.login_m_h2>img:last-child {
+    transform: rotateZ(180deg);
+}
+
+.login_main_form {
+    position: absolute;
+    top: 200px;
+}
