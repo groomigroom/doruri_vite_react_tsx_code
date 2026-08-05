@@ -31,7 +31,7 @@ export default function Home() {
                             <p>1</p>
                         </td>
                         <td className='home_main_intropa_tb_td2'>
-                            <Link to='/ResMain'>RESCENE 메인 페이지에 최신 앨범 등록</Link>
+                            <Link to='/EpikHighPumpCollectorsEditionAlbum'>에픽하이 - PUMP COLLECTOR&apos;S EDITION 앨범 등록</Link>
                         </td>
                     </tr>
                     <tr>
@@ -39,7 +39,7 @@ export default function Home() {
                             <p>2</p>
                         </td>
                         <td className='home_main_intropa_tb_td2'>
-                            <Link to='/RescenePrettyGirlSpecialSingleAlbum'>Pretty Girl - Special Single 앨범 등록</Link>
+                            <Link to='/ResMain'>RESCENE 메인 페이지에 최신 앨범 등록</Link>
                         </td>
                     </tr>
                     <tr>
@@ -47,7 +47,7 @@ export default function Home() {
                             <p>3</p>
                         </td>
                         <td className='home_main_intropa_tb_td2'>
-                            <Link to='/DoruriUpdate'>업데이트 내역 등록 시작</Link>
+                            <Link to='/RescenePrettyGirlSpecialSingleAlbum'>Pretty Girl - Special Single 앨범 등록</Link>
                         </td>
                     </tr>
                     <tr>
@@ -55,15 +55,7 @@ export default function Home() {
                             <p>4</p>
                         </td>
                         <td className='home_main_intropa_tb_td2'>
-                            <Link to='/'>x</Link>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td className='home_main_intropa_tb_td1'>
-                            <p>5</p>
-                        </td>
-                        <td className='home_main_intropa_tb_td2'>
-                            <Link to='/'>x</Link>
+                            <Link to='/DoruriUpdate'>업데이트 내역 등록 시작</Link>
                         </td>
                     </tr>
                     <tr className='home_main_intropa_tb_tr6'>
