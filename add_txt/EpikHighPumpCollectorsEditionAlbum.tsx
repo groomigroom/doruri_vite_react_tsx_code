@@ -3,7 +3,13 @@ EpikHighPumpCollectorsEditionAlbum.tsx
 
 폰으로 3줄 글쓰기
 
-깊은 생각도 해보며 준비한 앨범이에요!
+깊은 생각도 해보며<br/>
+준비한<br/>
+앨범이에요!
+
+This is an album we<br/>
+prepared while reflecting<br/>
+deeply on it as well!
 
 import { Link } from 'react-router-dom';
 
