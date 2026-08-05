@@ -1,3 +1,5 @@
+이거 라우터랑 css하기
+
 PUMP COLLECTOR'S EDITION
 EpikHighPumpCollectorsEditionAlbum.tsx
 
