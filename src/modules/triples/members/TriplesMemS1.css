@@ -4,6 +4,7 @@
     width: 100vw;
     height: 1133px;
     position: relative;
+    background-color: #fcfcfc;
 }
 
 .tri_mm_s1_h2 {
@@ -58,7 +59,6 @@
     top: 543px;
     left: 50%;
     transform: translateX(-50%);
-
 }
 
 .tri_mm_s1_intropa_tb>tbody>tr {
@@ -76,7 +76,6 @@
     border-top: 5px solid #e6e6e6;
     border-left: 5px solid #e6e6e6;
     border-right: 5px solid #e6e6e6;
-
 }
 
 .tri_mm_s1_intropa_tb>tbody>tr>td:first-child>p {
