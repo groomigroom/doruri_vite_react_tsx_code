@@ -5,6 +5,7 @@
         width: 100vw;
         height: 100vh;
         position: relative;
+        background-color: #fcfcfc;
     }
 
     .doruri_map_idollist_goback {
@@ -111,6 +112,12 @@
 
     .doruri_map_twsmain_li:hover {
         height: 440px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .doruri_map_resmain_li:hover {
+        height: 400px;
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
     }
