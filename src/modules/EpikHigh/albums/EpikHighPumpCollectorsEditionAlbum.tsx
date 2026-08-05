@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './EpikHighBruzHalipaOursVersionAlbum.css';
+import './EpikHighPumpCollectorsEditionAlbum.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-import EpikHighBruzHalipaOursVersionAlbum_img from './img/EpikHighBruzHalipaOursVersionAlbum_img.jpg';
+import EpikHighPumpCollectorsEditionAlbum_img from './img/EpikHighPumpCollectorsEditionAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -25,7 +25,7 @@ export default function EpikHighPumpCollectorsEditionAlbum() {
                 준비한<br />
                 앨범이에요!
             </p>
-            <img src={EpikHighBruzHalipaOursVersionAlbum_img} alt="EpikHighBruzHalipaOursVersionAlbum" className='tri_BabyFlowerCityRemixesAlbum_img epi_EpikHighBruzHalipaOursVersionAlbum_img' />
+            <img src={EpikHighPumpCollectorsEditionAlbum_img} alt="EpikHighPumpCollectorsEditionAlbum" className='tri_BabyFlowerCityRemixesAlbum_img epi_EpikHighPumpCollectorsEditionAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
