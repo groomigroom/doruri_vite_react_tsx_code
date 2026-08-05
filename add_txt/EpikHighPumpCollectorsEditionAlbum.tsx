@@ -24,15 +24,15 @@ import FooterPart from '../../FooterPart';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function EpikHighPumpCollectorsEditionAlbum() {
+export default function EpikHighPumpCollectorsEditionAlbumEng() {
 return (
 <div className="epi_EpikHighPumpCollectorsEditionAlbum_full">
 <Menu />
 <section className="home_translate">
-<Link to='/EpikHighPumpCollectorsEditionAlbum' className="on">한국어</Link>
-<Link to='/EpikHighPumpCollectorsEditionAlbumEng'>English</Link>
+<Link to='/EpikHighPumpCollectorsEditionAlbum'>한국어</Link>
+<Link to='/EpikHighPumpCollectorsEditionAlbumEng' className="on">English</Link>
 </section>
-<h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="에픽하이" />PUMP COLLECTOR&apos;S EDITION<img src={MainH2deco} alt="에픽하이" /></h2>
+<h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="epik high" />PUMP COLLECTOR&apos;S EDITION<img src={MainH2deco} alt="epik high" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
 This is an album we<br/>
 prepared while reflecting<br/>
@@ -44,31 +44,31 @@ deeply on it as well!
 <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
 <td>
 <p>
-발매일
+release date
 </p>
 </td>
 <td>
 <p>
-2024.10.18.
+October, 18, 2024
 </p>
 </td>
 </tr>
 <tr>
 <td>
 <p>
-장르
+genre
 </p>
 </td>
 <td>
 <p>
-랩/힙합
+rap/hiphop
 </p>
 </td>
 </tr>
 <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
 <td>
 <p>
-기획사
+agency
 </p>
 </td>
 <td>
