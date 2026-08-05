@@ -32,8 +32,8 @@ export default function Menu() {
                         <li><a href="#">도루리는?</a><button className='menu_nav_li_btn1'>메뉴 버튼1</button>
                             <ul>
                                 <li><a href="#">소개</a></li>
-                                <li><a href="/DoruriMap">도루리 사이트 구조</a></li>
-                                <li><a href="#">세부3</a></li>
+                                <li><Link to="/DoruriMap">도루리 사이트 구조</Link></li>
+                                <li><Link to='/DoruriUpdate'>업데이트 내역</Link></li>
                                 <li><a href="#">세부4</a></li>
                             </ul>
                         </li>
