@@ -1,1 +1,9 @@
-RescenePrettyGirlSpecialSingleAlbum.css
+.res_RescenePrettyGirlSpecialSingleAlbum_full {
+    width: 100vw;
+    height: 1033px;
+    position: relative;
+}
+
+.res_RescenePrettyGirlSpecialSingleAlbum_tb2 {
+    height: 100px;
+}
