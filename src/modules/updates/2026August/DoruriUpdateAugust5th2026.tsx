@@ -21,7 +21,7 @@ export default function DoruriUpdateAugust5th2026() {
                     </tr>
                     <tr>
                         <td><p>1</p></td>
-                        <td><Link to='/ResMain'>에픽하이 - PUMP COLLECTOR&apos;S EDITION 앨범 등록</Link></td>
+                        <td><Link to='/EpikHighPumpCollectorsEditionAlbum'>에픽하이 - PUMP COLLECTOR&apos;S EDITION 앨범 등록</Link></td>
                     </tr>
                     <tr>
                         <td><p>2</p></td>
