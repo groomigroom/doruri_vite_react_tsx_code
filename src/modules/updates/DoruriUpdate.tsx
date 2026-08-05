@@ -13,7 +13,7 @@ export default function DoruriUpdate() {
             <h2 className='doruri_update_m_h2'><img src={MainH2Deco} alt="로그인 꾸미기" />업데이트 내역<img src={MainH2Deco} alt="로그인 꾸미기" /></h2>
             <section className='doruri_update_train_full'>
                 <section className='doruri_update_train'>
-                    <Link to='/DoruriUpdate'>
+                    <Link to='/DoruriUpdateAugust5th2026'>
                         <h4>2026.<br />
                             08.<br />
                             05.
