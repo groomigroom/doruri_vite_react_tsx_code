@@ -66,6 +66,7 @@
 
 .doruri_update_train>a:hover {
     background-color: #333;
+    border: 5px solid #e6e6e6;
 }
 
 .doruri_update_train>a:hover>h4 {
@@ -73,9 +74,50 @@
 }
 
 .doruri_update_page_number {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 960px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.doruri_update_page_number>a {
+    display: block;
     width: 40px;
     height: 40px;
-    border: 5px solid red;
+    border: 5px solid #333;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    position: relative;
+}
+
+.doruri_update_page_number>a>h4 {
+    font-weight: 700;
+    font-size: 19px;
+    display: block;
     position: absolute;
-    top: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.doruri_update_page_number>a:hover {
+    border: 5px solid #e6e6e6;
+    background-color: #333;
+}
+
+.doruri_update_page_number>a:hover>h4 {
+    color: #e6e6e6;
+}
+
+.doruri_update_page_number>a.on {
+    border: 5px solid #e6e6e6;
+    background-color: #333;
+}
+
+.doruri_update_page_number>a.on>h4 {
+    color: #e6e6e6;
 }
