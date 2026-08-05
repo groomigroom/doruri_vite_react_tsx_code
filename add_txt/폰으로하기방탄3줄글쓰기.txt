@@ -1,12 +1,12 @@
 폰으로하기방탄3줄글쓰기.txt
 
 
-반복되는 춤과
-노래 연습을 해서
+반복되는 춤과<br/>
+노래 연습을 해서<br/>
 열심히 매일 준비할게요!
 
 반복되는 춤과 노래 연습을 해서 열심히 매일 준비할게요!
 
-We’ll practice the repetitive
-dance and song and work
+We&apos;ll practice the repetitive<br/>
+dance and song and work<br/>
 hard to prepare every day!
