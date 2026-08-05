@@ -55,7 +55,7 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/TriplesZenithMain'>zenith 유닛 페이지</Link></li>
                             <li><Link to='/TriplesMsnzMain'>msnz 유닛 페이지</Link></li>
                             <li><Link to='/TriplesEvent'>baby flower 이벤트 페이지</Link></li>
-                            <li><Link to='/TriplesBabyFlowerCityRemixesAlbum'>&lt;Baby Flower City Remixes&gt; 앨범 페이지</Link></li>
+                            <li><Link to='/TriplesBabyFlowerCityRemixesAlbum'>&lt;Baby Flower City Remixes&gt; ...</Link></li>
                             <li><a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer'>tripleS 인스타그램</a></li>
                             <li><a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer'>tripleS 유튜브</a></li>
                             {/* 6개추가됨 */}
