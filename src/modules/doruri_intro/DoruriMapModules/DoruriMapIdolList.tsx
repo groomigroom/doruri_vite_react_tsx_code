@@ -71,7 +71,6 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/Txt7thYearAlbum'>7TH YEAR: 가시덤불에 잠시 ...</Link></li>
                             <li><a href="https://www.instagram.com/txt_bighit" target='_blank' rel='noopener noreferrer'>투모로우바이투게더 인스타그램</a></li>
                             <li><a href="https://www.youtube.com/TXT_bighit" target='_blank' rel='noopener noreferrer'>투모로우바이투게더 유튜브</a></li>
-                            {/* 4개추가됨 */}
                         </ul>
                     </li>
                     <li className='doruri_map_akmumain_li'><Link to='/AkmuMain'>AKMU 메인 페이지</Link>
@@ -79,10 +78,9 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/AkmuMemChanhyuk'>이찬혁 멤버 페이지</Link></li>
                             <li><Link to='/AkmuMemSuhyun'>이수현 멤버 페이지</Link></li>
                             <li><Link to='/AkmuEvent'>개화 이벤트</Link></li>
-                            <li><Link to='/AkAkmuGaehwaAlbummuEvent'>개화 앨범 페이지</Link></li>
+                            <li><Link to='/AkmuGaehwaAlbum'>개화 앨범 페이지</Link></li>
                             <li><a href="https://www.instagram.com/akmuofficial/" target='_blank' rel='noopener noreferrer'>AKMU 인스타그램</a></li>
                             <li><a href="https://www.youtube.com/@AKMU" target='_blank' rel='noopener noreferrer'>AKMU 유튜브</a></li>
-                            {/* 4개추가됨 */}
                         </ul>
                     </li>
                     <li className='doruri_map_ioimain_li'><Link to='/IoiMain'>아이오아이 메인 페이지</Link>
@@ -101,7 +99,6 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/IoiEvent'>LOOP 이벤트 페이지</Link></li>
                             <li><Link to='/IoiIoiLoopAlbum'>I.O.I : LOOP 앨범 페이지</Link></li>
                             <li><a href="https://www.instagram.com/ioi_10th" target='_blank' rel='noopener noreferrer'>아이오아이 인스타그램</a></li>
-                            {/* 3개추가됨 */}
                         </ul>
                     </li>
                 </ul>
