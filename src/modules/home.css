@@ -1,3 +1,9 @@
+.home_h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
 .home_full {
     width: 100vw;
     height: 180vh;
@@ -35,4 +41,107 @@
     transform: translateX(-50%);
     border: 5px solid #333;
     border-radius: 25px;
+}
+
+.home_h2_1 {
+    position: absolute;
+    top: 720px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home_main_intropa_tb {
+    width: 400px;
+    height: 300px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 780px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home_main_intropa_tb>tbody>tr {
+    height: 50px;
+    position: relative;
+}
+
+.home_main_intropa_tb>tbody>tr>.home_main_intropa_tb_td1 {
+    position: absolute;
+    width: 115px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-color: #333;
+    border-top: 5px solid #e6e6e6;
+    border-left: 5px solid #e6e6e6;
+    border-right: 5px solid #e6e6e6;
+}
+
+.home_main_intropa_tb>tbody>tr>.home_main_intropa_tb_td1>p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #e6e6e6;
+    transform: translateY(-50%);
+    font-weight: 600;
+}
+
+.home_main_intropa_tb>tbody>tr>.home_main_intropa_tb_td2 {
+    width: 285px;
+    height: 50px;
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 0px;
+    left: 115px;
+    border-top: 5px solid #333;
+    border-right: 5px solid #333;
+}
+
+.home_main_intropa_tb>tbody>tr>.home_main_intropa_tb_td2>p,
+.home_main_intropa_tb>tbody>tr>.home_main_intropa_tb_td2>a {
+    width: 270px;
+    height: 19px;
+    background-color: #e6e6e600;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.home_main_intropa_tb_tr1>td:first-child {
+    border-top-left-radius: 15px;
+}
+
+.home_main_intropa_tb_tr1>td:last-child {
+    border-top-right-radius: 15px;
+}
+
+.home_main_intropa_tb_tr6>td {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.home_main_intropa_tb_tr6>td>a {
+    display: block;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 5px solid #333;
+    background-color: #e6e6e6;
+    font-weight: 700;
+}
+
+.home_main_intropa_tb_tr6>td>a:hover {
+    border: 5px solid #e6e6e6;
+    background-color: #333;
+    color: #e6e6e6;
 }
