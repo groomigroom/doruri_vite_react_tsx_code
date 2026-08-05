@@ -16,6 +16,8 @@ import Res_m_MemMinami_img from './img/rescene_m_mem_Minami.jpg';
 import Res_m_MemMay_img from './img/rescene_m_mem_May.jpg';
 import Res_m_MemJena_img from './img/rescene_m_mem_Jena.jpg';
 
+import RescenePrettyGirlSpecialSingleAlbum_img from '../albums/img/RescenePrettyGirlSpecialSingleAlbum_img.jpg';
+
 import ResceneInstagram_img from '../../triples/main/img/triples_instagram_icon.png';
 import ResceneYoutube_img from '../../triples/main/img/triples_youtube_icon.png';
 
@@ -145,13 +147,13 @@ export default function ResMain() {
             <h2 className='tri_m_h2 rescene_m_h2_5'>▪ 최신 앨범 ▪</h2>
             <section className='tri_m_album_tr_full rescene_m_album_tr_full'>
                 <section className='tri_m_album_tr'>
-                    <Link to='/Album' className='tri_m_album_a'>
+                    <Link to='/RescenePrettyGirlSpecialSingleAlbum' className='tri_m_album_a'>
                         <article className='tri_m_albums'>
-                            <img src='' alt="Album" />
+                            <img src={RescenePrettyGirlSpecialSingleAlbum_img} alt="Pretty Girl - Special Single" />
                             <div>
                                 <h4>
-                                    album<br />
-                                    TRAGEDY
+                                    Pretty<br />
+                                    Girl
                                 </h4>
                             </div>
                         </article>
