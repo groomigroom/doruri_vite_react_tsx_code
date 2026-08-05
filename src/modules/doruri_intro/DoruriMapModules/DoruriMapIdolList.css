@@ -98,13 +98,19 @@
     }
 
     .doruri_map_strmain_li:hover {
+        height: 560px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .doruri_map_illmain_li:hover {
         height: 360px;
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
     }
 
     .doruri_map_twsmain_li:hover {
-        height: 280px;
+        height: 440px;
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
     }
