@@ -1,1 +1,14 @@
-EpikHighPumpCollectorsEditionAlbum.css
+.epi_EpikHighPumpCollectorsEditionAlbum_full {
+    width: 100vw;
+    height: 1483px;
+    position: relative;
+    background-color: #fcfcfc;
+}
+
+.epi_EpikHighPumpCollectorsEditionAlbum_img {
+    border: 5px solid #000000;
+}
+
+.epi_EpikHighBruzHalipaOursVersionAlbum_tb2 {
+    height: 550px;
+}
