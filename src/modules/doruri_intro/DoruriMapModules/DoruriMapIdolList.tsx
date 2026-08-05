@@ -119,10 +119,9 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/StrayKidsSKZReplay2026Pt1Album'>SKZ Replay 2026 앨범 페이지</Link></li>
                             <li><a href="https://www.instagram.com/realstraykids" target='_blank' rel='noopener noreferrer'>Stray Kids 인스타그램</a></li>
                             <li><a href="https://www.youtube.com/@StrayKids" target='_blank' rel='noopener noreferrer'>Stray Kids 유튜브</a></li>
-                            {/* 5개추가됨 */}
                         </ul>
                     </li>
-                    <li className='doruri_map_txtmain_li'><Link to='/IllitMain'>ILLIT 메인 페이지</Link>
+                    <li className='doruri_map_illmain_li'><Link to='/IllitMain'>ILLIT 메인 페이지</Link>
                         <ul>
                             <li><Link to='/IllMemYunah'>윤아 멤버 페이지</Link></li>
                             <li><Link to='/IllMemMinju'>민주 멤버 페이지</Link></li>
@@ -133,7 +132,6 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/IllitMamthlapinatapaiAlbum'>MAMIHLAPINATAPAI 앨범 페이지</Link></li>
                             <li><a href="https://www.instagram.com/illit_official" target='_blank' rel='noopener noreferrer'>ILLIT 인스타그램</a></li>
                             <li><a href="https://www.youtube.com/@ILLIT_official" target='_blank' rel='noopener noreferrer'>ILLIT 유튜브</a></li>
-                            {/* 4개추가됨 */}
                         </ul>
                     </li>
                     <li className='doruri_map_twsmain_li'><Link to='/TwsMain'>TWS 메인 페이지</Link>
@@ -148,7 +146,6 @@ export default function DoruriMapIdolList() {
                             <li><Link to='/TwsNoTragedyAlbum'>NO TRAGEDY 앨범 페이지</Link></li>
                             <li><a href="https://www.instagram.com/tws_pledis" target='_blank' rel='noopener noreferrer'>TWS 인스타그램</a></li>
                             <li><a href="https://www.youtube.com/@TWS_PLEDIS" target='_blank' rel='noopener noreferrer'>TWS 유튜브</a></li>
-                            {/* 4개추가됨 */}
                         </ul>
                     </li>
                     <li className='doruri_map_txtmain_li'><Link to='/ResMain'>RESCENE 메인 페이지</Link>
