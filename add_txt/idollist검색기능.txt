@@ -1,4 +1,55 @@
-검삭
+
+import { useState } from 'react';
+
+function App() {
+  // 1. input의 입력값을 관리할 상태(state) 생성
+  const [searchTerm, setSearchTerm] = useState<string>('');
+
+  // 2. 상자 데이터를 배열로 정의 (id는 숫자로 구성하되 className은 문자열로 변환)
+  const boxes = Array.from({ length: 12 }, (_, i) => ({
+    id: i + 1,
+    className: String(i + 1),
+    text: `${i + 1}번상자`
+  }));
+
+  // 3. 입력값(searchTerm)이 포함된 className을 가진 상자만 필터링
+  const filteredBoxes = boxes.filter((box) =>
+    box.className.includes(searchTerm)
+  );
+
+  return (
+    <>
+      <div className="full">
+        {/* 4. input의 value와 onChange 이벤트를 연결 */}
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="숫자를 검색하세요 (예: 1, 2)"
+        />
+
+        {/* 5. 필터링된 배열만 화면에 출력 */}
+        {filteredBoxes.map((box) => (
+          <div key={box.id} className={box.className}>
+            {box.text}
+          </div>
+        ))}
+      </div>
+    </>
+  );
+}
+
+export default App;
+
+위와 같이 React.tsx를 작성했는데, 아래와 같이 수정하고 싶어.
+  트리플에스, 투모로우바이투게더, 악뮤, 아이오아이, 스트레이 키즈, 아일릿, 투어스, 리센느, 10센치, 에스파, 올데이 프로젝트, 데이식스
+triples, tommorow x together, akmu, ioi, stary kids, illit, tws, rescene, 10cm, aespa, allday project, day6
+와 같이 한국어 이름 및 영어 이름을 div마다 등록해 놓고,
+  그리고 div 안에다가 h1 태그 안에 해당되는 이름이 보이게 하고, 그리고 img 태그에 해당되는 각각의 이미지가 보이게 하고,
+    그 다음에 한국어 및 영어 이름을 이용해서 검색이 되게 하는 법 ?
+
+
+검삭 아래는 수정 내용,,,,,,,,,,,,,,,,,,,,,,,,,,ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ,,,,,,,,,,,,ㅋ,,,,,,,ㅋ,,ㅋ,ㅋ,ㅋ,ㅋ,ㅋ,ㅋ,ㅋ,ㅋ,
 
 
 
