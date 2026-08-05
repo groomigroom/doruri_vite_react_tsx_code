@@ -1,1 +1,87 @@
-DoruriUpdatePart.css
+.doruri_update_updatePart_h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.doruri_update_updatePart_h2>img {
+    margin: 0 20px;
+}
+
+.doruri_update_updatePart_h2>img:last-child {
+    transform: rotateZ(180deg);
+}
+
+.doruri_update_updatePart_intropa_tb {
+    width: 400px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.doruri_update_updatePart_intropa_tb>tbody>tr {
+    position: relative;
+}
+
+.doruri_update_updatePart_intropa_tb>tbody>tr>td:first-child {
+    position: absolute;
+    width: 115px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-color: #333;
+    border-top: 5px solid #e6e6e6;
+    border-left: 5px solid #e6e6e6;
+    border-right: 5px solid #e6e6e6;
+}
+
+.doruri_update_updatePart_intropa_tb>tbody>tr>td:first-child>p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #e6e6e6;
+    transform: translateY(-50%);
+    font-weight: 600;
+}
+
+.doruri_update_updatePart_intropa_tb>tbody>tr>td:last-child {
+    width: 285px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 115px;
+    border-top: 5px solid #333;
+    border-right: 5px solid #333;
+}
+
+.doruri_update_updatePart_intropa_tb>tbody>tr>td:last-child>p,
+.doruri_update_updatePart_intropa_tb>tbody>tr>td:last-child>a {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.doruri_update_updatePart_intropa_tb_tr1>td:first-child {
+    border-top-left-radius: 15px;
+}
+
+.doruri_update_updatePart_intropa_tb_tr1>td:last-child {
+    border-top-right-radius: 15px;
+}
+
+.doruri_update_updatePart_intropa_tb_tr9>td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+.doruri_update_updatePart_intropa_tb_tr9>td:last-child {
+    border-bottom-right-radius: 15px;
+    border-bottom: 5px solid #333;
+}
