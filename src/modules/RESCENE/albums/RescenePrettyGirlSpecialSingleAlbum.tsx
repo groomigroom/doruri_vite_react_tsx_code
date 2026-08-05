@@ -6,7 +6,7 @@ import './RescenePrettyGirlSpecialSingleAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+import RescenePrettyGirlSpecialSingleAlbum_img from './img/RescenePrettyGirlSpecialSingleAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -26,7 +26,7 @@ export default function RescenePrettyGirlSpecialSingleAlbum() {
                 노래를 담은<br />
                 앨범을 준비했어요!
             </p>
-            <img src='' alt="Pretty girl special single" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={RescenePrettyGirlSpecialSingleAlbum_img} alt="Pretty girl special single" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
