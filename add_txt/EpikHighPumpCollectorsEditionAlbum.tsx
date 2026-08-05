@@ -1,7 +1,6 @@
-이거 라우터랑 css하기
 
 PUMP COLLECTOR'S EDITION
-EpikHighPumpCollectorsEditionAlbum.tsx
+EpikHighPumpCollectorsEditionAlbumEng.tsx
 
 폰으로 3줄 글쓰기
 
@@ -35,9 +34,9 @@ return (
 </section>
 <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="에픽하이" />PUMP COLLECTOR&apos;S EDITION<img src={MainH2deco} alt="에픽하이" /></h2>
 <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-#######견고해진 음악적<br/>
-성장의 이야기도<br/>
-담은 앨범이에요!
+This is an album we<br/>
+prepared while reflecting<br/>
+deeply on it as well!
 </p>
 <img src='' alt="EpikHighPumpCollectorsEditionAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
 <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
