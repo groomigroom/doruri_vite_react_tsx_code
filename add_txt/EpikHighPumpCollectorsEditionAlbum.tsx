@@ -3,6 +3,8 @@ EpikHighPumpCollectorsEditionAlbum.tsx
 
 폰으로 3줄 글쓰기
 
+깊은 생각도 해보며 준비한 앨범이에요!
+
 import { Link } from 'react-router-dom';
 
 import './TriplesBabyFlowerCityRemixesAlbum.css';
