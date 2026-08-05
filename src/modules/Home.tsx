@@ -15,6 +15,8 @@ export default function Home() {
             </section>
             <img src="" alt="도루리 로고" className="home_logo" />
             <section className="home_img_slide_full"></section>
+            <h2 className='home_h2 home_h2_1'>▪ 2026.08.05. 업데이트 내역 ▪</h2>
+
             <FooterPart FooterPartText='ⓒ 도루리' />
         </div>
     )
