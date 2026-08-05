@@ -10,7 +10,7 @@ import DoruriMapIdolList2 from './doruri_intro/DoruriMapModules/DoruriMapIdolLis
 
 import DoruriUpdate from './updates/DoruriUpdate';
 
-import DoruriUpdateAugust8th2026 from './updates/2026August/DoruriUpdateAugust8th2026';
+import DoruriUpdateAugust5th2026 from './updates/2026August/DoruriUpdateAugust5th2026';
 
 import IdolList from './idol_search/IdolList';
 import IdolListEng from './idol_searchEng/IdolListEng';
@@ -534,7 +534,7 @@ export default function RoutesSetup() {
 
             <Route path='/DoruriUpdate' element={<DoruriUpdate />}></Route>
 
-            <Route path='/DoruriUpdateAugust8th2026' element={<DoruriUpdateAugust8th2026 />}></Route>
+            <Route path='/DoruriUpdateAugust5th2026' element={<DoruriUpdateAugust5th2026 />}></Route>
 
             <Route path='/IdolList' element={<IdolList />}></Route>
             <Route path='/IdolListEng' element={<IdolListEng />}></Route>
