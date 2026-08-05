@@ -1,209 +1,42 @@
 import { Link } from 'react-router-dom';
 
-import './DoruriMapIdolList.css';
+import './DoruriMap.css';
 
-import Menu from '../../Menu';
+import Menu from '../Menu';
 
-export default function DoruriMapIdolList() {
+
+export default function DoruriMap() {
+
     return (
-        <div className='doruri_map_idollist_full'>
+        <div className='doruri_map_full'>
             <Menu />
-            <Link to='/DoruriMap' className='doruri_map_idollist_goback'>뒤로가기</Link>
-            <Link to='/IdolList' className='doruri_map_idollist_idollist'>목록 보러가기</Link>
-            <nav className='doruri_map_idollist_nav'>
+            <nav className='doruri_map_nav'>
                 <ul>
-                    <li className='doruri_map_triplesmain_li'><Link to='/TriplesMain'>tripleS 메인 페이지</Link>
+                    <li><a href="#">도루리 소개</a>
                         <ul>
-                            <li><Link to='/TriplesMemS1'>S1 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS2'>S2 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS3'>S3 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS4'>S4 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS5'>S5 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS6'>S6 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS7'>S7 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS8'>S8 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS9'>S9 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS10'>S10 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS11'>S11 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS12'>S12 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS13'>S13 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS14'>S14 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS15'>S15 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS16'>S16 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS17'>S17 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS18'>S18 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS19'>S19 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS20'>S20 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS21'>S21 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS22'>S22 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS23'>S23 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesMemS24'>S24 멤버 페이지</Link></li>
-                            <li><Link to='/TriplesAcidAngelFromAsiaMain'>Acid Angel from Asia 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesKRystalEyesMain'>+&#40;KR&#41;ystal Eyes 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesAcidEyesMain'>Acid Eyes 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesLOVElutionMain'>LOVElution 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesEvolutionMain'>EVOLution 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesNxtMain'>NXT 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesAriaMain'>Aria 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesGlowMain'>Glow 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesVisionaryVisionMain'>Visionary Vision 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesHatchMain'>∞! &#40;Hatch!&#41; 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesAlphieMain'>Alphie 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesNeptuneMain'>neptune 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesMoonMain'>moon 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesSunMain'>sun 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesZenithMain'>zenith 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesMsnzMain'>msnz 유닛 페이지</Link></li>
-                            <li><Link to='/TriplesEvent'>baby flower 이벤트 페이지</Link></li>
-                            <li><Link to='/TriplesBabyFlowerCityRemixesAlbum'>&lt;Baby Flower City Remixes&gt; ...</Link></li>
-                            <li><a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer'>tripleS 인스타그램</a></li>
-                            <li><a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer'>tripleS 유튜브</a></li>
-                            {/* 6개추가됨 */}
+                            <li><Link to='/'>소개</Link></li>
+                            <li><Link to='/DoruriMap'>도루리 사이트 구조</Link></li>
                         </ul>
                     </li>
-                    <li className='doruri_map_txtmain_li'><Link to='/TxtMain'>투모로우바이투게더 메인 페이지</Link>
+                    <li><a href="#">아이돌 탐색</a>
                         <ul>
-                            <li><Link to='/TxtMemSubin'>수빈 멤버 페이지</Link></li>
-                            <li><Link to='/TxtMemYeonjun'>연준 멤버 페이지</Link></li>
-                            <li><Link to='/TxtMemBeomgyu'>범규 멤버 페이지</Link></li>
-                            <li><Link to='/TxtMemTaehyun'>태현 멤버 페이지</Link></li>
-                            <li><Link to='/TxtMemHueningkai'>휴닝카이 멤버 페이지</Link></li>
-                            <li><Link to='/TxtEvent'>7TH YEAR 이벤트</Link></li>
-                            <li><Link to='/Txt7thYearAlbum'>7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때 앨범 페이지</Link></li>
-                            <li><a href="https://www.instagram.com/txt_bighit" target='_blank' rel='noopener noreferrer'>투모로우바이투게더 인스타그램</a></li>
-                            <li><a href="https://www.youtube.com/TXT_bighit" target='_blank' rel='noopener noreferrer'>투모로우바이투게더 유튜브</a></li>
-                            {/* 4개추가됨 */}
+                            <li><Link to="/DoruriMapIdolList">목록</Link></li>
                         </ul>
                     </li>
-                    <li className='doruri_map_akmumain_li'><Link to='/AkmuMain'>AKMU 메인 페이지</Link>
-                        <ul>
-                            <li><Link to='/AkmuMemChanhyuk'>이찬혁 멤버 페이지</Link></li>
-                            <li><Link to='/AkmuMemSuhyun'>이수현 멤버 페이지</Link></li>
-                            <li><Link to='/AkmuEvent'>개화 이벤트</Link></li>
-                            <li><Link to='/AkAkmuGaehwaAlbummuEvent'>개화 앨범 페이지</Link></li>
-                            <li><a href="https://www.instagram.com/akmuofficial/" target='_blank' rel='noopener noreferrer'>AKMU 인스타그램</a></li>
-                            <li><a href="https://www.youtube.com/@AKMU" target='_blank' rel='noopener noreferrer'>AKMU 유튜브</a></li>
-                            {/* 4개추가됨 */}
-                        </ul>
+                    <li><a href="#">33</a>
+
                     </li>
-                    <li className='doruri_map_ioimain_li'><Link to='/IoiMain'>아이오아이 메인 페이지</Link>
-                        <ul>
-                            <li><Link to='/IoiMemImnayoung'>임나영 멤버 페이지</Link></li>
-                            <li><Link to='/IoiMemKimchungha'>김청하 멤버 페이지</Link></li>
-                            <li><Link to='/IoiMemKimsejung'>김세정 멤버 페이지</Link></li>
-                            <li><Link to='/IoiMemJungcheyun'>정채연 멤버 페이지</Link></li>
-                            <li><Link to='/IoiMemJugyulgyoung'>주결경 멤버 페이지</Link></li>
-                            <li><Link to='/IoiMemKimsohye'>김소혜 멤버 페이지</Link></li>
-                            <li><Link to='/IoiMemYuyeonjung'>유연정 멤버 페이지</Link></li>
-                            <li><Link to='/IoiMemChoiyujung'>최유정 멤버 페이지</Link></li>
-                            <li><Link to='/IoiMemGangmina'>강미나 멤버 페이지</Link></li>
-                            <li><Link to='/IoiMemKimdoyeon'>김도연 멤버 페이지</Link></li>
-                            <li><Link to='/IoiMemJeonsomi'>전소미 멤버 페이지</Link></li>
-                            <li><Link to='/IoiEvent'>LOOP 이벤트 페이지</Link></li>
-                            <li><Link to='/IoiIoiLoopAlbum'>I.O.I : LOOP 앨범 페이지</Link></li>
-                            <li><a href="https://www.instagram.com/ioi_10th" target='_blank' rel='noopener noreferrer'>아이오아이 인스타그램</a></li>
-                            {/* 3개추가됨 */}
-                        </ul>
+                    <li><a href="#">44</a>
+
                     </li>
+
                 </ul>
 
-                <ul>
-                    <li className='doruri_map_strmain_li'><Link to='/StrayKidsMain'>Stray Kids 메인 페이지</Link>
-                        <ul>
-                            <li><Link to='/StrayMemBangchan'>방찬 멤버 페이지</Link></li>
-                            <li><Link to='/StrayMemLino'>리노 멤버 페이지</Link></li>
-                            <li><Link to='/StrayMemChangbin'>창빈 멤버 페이지</Link></li>
-                            <li><Link to='/StrayMemHyunjin'>현진 멤버 페이지</Link></li>
-                            <li><Link to='/StrayMemHan'>한 멤버 페이지</Link></li>
-                            <li><Link to='/StrayMemFilix'>필릭스 멤버 페이지</Link></li>
-                            <li><Link to='/StrayMemSeungmin'>승민 멤버 페이지</Link></li>
-                            <li><Link to='/StrayMemIn'>아이엔 멤버 페이지</Link></li>
-                            <li><Link to='/StrayKidsThreeRachaMain'>3RACHA 유닛 페이지</Link></li>
-                            <li><Link to='/StrayKidsEvent'>Replay 이벤트 페이지</Link></li>
-                            <li><Link to='/StrayKidsSKZReplay2026Pt1Album'>SKZ Replay 2026 앨범 페이지</Link></li>
-                            <li><a href="https://www.instagram.com/realstraykids" target='_blank' rel='noopener noreferrer'>Stray Kids 인스타그램</a></li>
-                            <li><a href="https://www.youtube.com/@StrayKids" target='_blank' rel='noopener noreferrer'>Stray Kids 유튜브</a></li>
-                            {/* 5개추가됨 */}
-                        </ul>
-                    </li>
-                    <li className='doruri_map_txtmain_li'><Link to='/IllitMain'>ILLIT 메인 페이지</Link>
-                        <ul>
-                            <li><Link to='/IllMemYunah'>윤아 멤버 페이지</Link></li>
-                            <li><Link to='/IllMemMinju'>민주 멤버 페이지</Link></li>
-                            <li><Link to='/IllMemMoka'>모카 멤버 페이지</Link></li>
-                            <li><Link to='/IllMemWonhee'>원희 멤버 페이지</Link></li>
-                            <li><Link to='/IllMemEroha'>이로하 멤버 페이지</Link></li>
-                            <li><Link to='/IllitEvent'>MAMIH 이벤트 페이지</Link></li>
-                            <li><Link to='/IllitMamthlapinatapaiAlbum'>MAMIHLAPINATAPAI 앨범 페이지</Link></li>
-                            <li><a href="https://www.instagram.com/illit_official" target='_blank' rel='noopener noreferrer'>ILLIT 인스타그램</a></li>
-                            <li><a href="https://www.youtube.com/@ILLIT_official" target='_blank' rel='noopener noreferrer'>ILLIT 유튜브</a></li>
-                            {/* 4개추가됨 */}
-                        </ul>
-                    </li>
-                    <li className='doruri_map_twsmain_li'><Link to='/TwsMain'>TWS 메인 페이지</Link>
-                        <ul>
-                            <li><Link to='/TwsMemSinyu'>신유 멤버 페이지</Link></li>
-                            <li><Link to='/TwsMemDohun'>도훈 멤버 페이지</Link></li>
-                            <li><Link to='/TwsMemYoungjae'>영재 멤버 페이지</Link></li>
-                            <li><Link to='/TwsMemHanjin'>한진 멤버 페이지</Link></li>
-                            <li><Link to='/TwsMemJihun'>지훈 멤버 페이지</Link></li>
-                            <li><Link to='/TwsMemGyungmin'>경민 멤버 페이지</Link></li>
-                            <li><Link to='/TwsEvent'>NO TRAGEDY 이벤트 페이지</Link></li>
-                            <li><Link to='/TwsNoTragedyAlbum'>NO TRAGEDY 앨범 페이지</Link></li>
-                            <li><a href="https://www.instagram.com/tws_pledis" target='_blank' rel='noopener noreferrer'>TWS 인스타그램</a></li>
-                            <li><a href="https://www.youtube.com/@TWS_PLEDIS" target='_blank' rel='noopener noreferrer'>TWS 유튜브</a></li>
-                            {/* 4개추가됨 */}
-                        </ul>
-                    </li>
-                    <li className='doruri_map_txtmain_li'><Link to='/ResMain'>RESCENE 메인 페이지</Link>
-                        <ul>
-                            <li><Link to='/ResMemWoni'>원이 멤버 페이지</Link></li>
-                            <li><Link to='/ResMemLiv'>리브 멤버 페이지</Link></li>
-                            <li><Link to='/ResMemMinami'>미나미 멤버 페이지</Link></li>
-                            <li><Link to='/ResMemMay'>메이 멤버 페이지</Link></li>
-                            <li><Link to='/ResMemJena'>제나 멤버 페이지</Link></li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li className='doruri_map_tenmain_li'><Link to='/TenCMMain'>10CM 메인 페이지</Link>
-                        <ul>
-                            <li><Link to='/TenMemGwonjungyeol'>권정열 멤버 페이지</Link></li>
-                        </ul>
-                    </li>
-                    <li className='doruri_map_aesmain_li'><Link to='/AespaMain'>aespa 메인 페이지</Link>
-                        <ul>
-                            <li><Link to='/AesMemKarina'>카리나 멤버 페이지</Link></li>
-                            <li><Link to='/AesMemJijell'>지젤 멤버 페이지</Link></li>
-                            <li><Link to='/AesMemWinter'>윈터 멤버 페이지</Link></li>
-                            <li><Link to='/AesMemNingning'>닝닝 멤버 페이지</Link></li>
-                        </ul>
-                    </li>
-                    <li className='doruri_map_txtmain_li'><Link to='/ALLDAY_PROJECTMain'>ALLDAY PROJECT 메인 페이지</Link>
-                        <ul>
-                            <li><Link to='/AllMemAnnie'>애니 멤버 페이지</Link></li>
-                            <li><Link to='/AllMemTarzan'>타잔 멤버 페이지</Link></li>
-                            <li><Link to='/AllMemBailey'>베일리 멤버 페이지</Link></li>
-                            <li><Link to='/AllMemWoochan'>우찬 멤버 페이지</Link></li>
-                            <li><Link to='/AllMemYoungseo'>영서 멤버 페이지</Link></li>
-                        </ul>
-                    </li>
-                    <li className='doruri_map_aesmain_li'><Link to='/DAY6Main'>DAY6 메인 페이지</Link>
-                        <ul>
-                            <li><Link to='/DayMemSungjin'>성진 멤버 페이지</Link></li>
-                            <li><Link to='/DayMemYoungK'>Young K 멤버 페이지</Link></li>
-                            <li><Link to='/DayMemWonpil'>원필 멤버 페이지</Link></li>
-                            <li><Link to='/DayMemDowoon'>도운 멤버 페이지</Link></li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li><Link to='/DoruriMapIdolList2'>목록 2 구조보기</Link>
-                    </li>
-                </ul>
             </nav>
-        </div >
+        </div>
     );
-}
+};
+
+
+
+
