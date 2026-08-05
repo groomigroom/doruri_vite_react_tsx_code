@@ -8,6 +8,8 @@ import DoruriMap from './doruri_intro/DoruriMap';
 import DoruriMapIdolList from './doruri_intro/DoruriMapModules/DoruriMapIdolList';
 import DoruriMapIdolList2 from './doruri_intro/DoruriMapModules/DoruriMapIdolList2';
 
+import DoruriUpdate from './updates/DoruriUpdate';
+
 import IdolList from './idol_search/IdolList';
 import IdolListEng from './idol_searchEng/IdolListEng';
 import IdolList2 from './idol_search/IdolList2';
@@ -527,6 +529,8 @@ export default function RoutesSetup() {
             <Route path='/DoruriMap' element={<DoruriMap />}></Route>
             <Route path='/DoruriMapIdolList' element={<DoruriMapIdolList />}></Route>
             <Route path='/DoruriMapIdolList2' element={<DoruriMapIdolList2 />}></Route>
+
+            <Route path='/DoruriUpdate' element={<DoruriUpdate />}></Route>
 
             <Route path='/IdolList' element={<IdolList />}></Route>
             <Route path='/IdolListEng' element={<IdolListEng />}></Route>
