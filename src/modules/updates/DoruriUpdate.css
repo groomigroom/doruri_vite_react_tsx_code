@@ -1,1 +1,23 @@
-DoruriUpdate.css
+.doruri_update_full {
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+}
+
+.doruri_update_m_h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.doruri_update_m_h2>img {
+    margin: 0 20px;
+}
+
+.doruri_update_m_h2>img:last-child {
+    transform: rotateZ(180deg);
+}
