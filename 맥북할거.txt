@@ -1,7 +1,9 @@
 
 홈 기본 배경 색상 찾기....
 
-fcfcfc
+background-color: #fcfcfc;
+
+idollist.css 부터 하기
 
 
 #####
