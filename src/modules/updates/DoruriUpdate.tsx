@@ -117,7 +117,23 @@ export default function DoruriUpdate() {
                     </Link>
                 </section>
             </section>
-            <section className='doruri_update_page_number'></section>
+            <section className='doruri_update_page_number'>
+                <Link to='/DoruriUpdate' className='on'>
+                    <h4>1</h4>
+                </Link>
+                <Link to='/DoruriUpdate'>
+                    <h4>2</h4>
+                </Link>
+                <Link to='/DoruriUpdate'>
+                    <h4>3</h4>
+                </Link>
+                <Link to='/DoruriUpdate'>
+                    <h4>4</h4>
+                </Link>
+                <Link to='/DoruriUpdate'>
+                    <h4>5</h4>
+                </Link>
+            </section>
         </div>
     );
 }
