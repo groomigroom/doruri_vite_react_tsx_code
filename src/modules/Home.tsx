@@ -58,6 +58,14 @@ export default function Home() {
                             <Link to='/DoruriUpdate'>업데이트 내역 등록 시작</Link>
                         </td>
                     </tr>
+                    <tr>
+                        <td className='home_main_intropa_tb_td1'>
+                            <p>5</p>
+                        </td>
+                        <td className='home_main_intropa_tb_td2'>
+                            <Link to='/'>x</Link>
+                        </td>
+                    </tr>
                     <tr className='home_main_intropa_tb_tr6'>
                         <td>
                             <Link to='/DoruriUpdateAugust5th2026'>더 보기</Link>
