@@ -117,6 +117,7 @@ export default function DoruriUpdate() {
                     </Link>
                 </section>
             </section>
+            <section className='doruri_update_page_number'></section>
         </div>
     );
 }
