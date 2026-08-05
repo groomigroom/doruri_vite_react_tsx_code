@@ -201,7 +201,7 @@ OFF DAY &#40;Verse Ver.&#41;
 </td>
 <td>
 <p>
-행복했습니다 &#40;Feat. Kim Jong Wan of Nell&#41;
+I was happy &#40;Feat. Kim Jong Wan of Nell&#41;
 </p>
 </td>
 </tr>
