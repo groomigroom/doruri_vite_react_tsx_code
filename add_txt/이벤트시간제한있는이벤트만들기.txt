@@ -1,1 +1,69 @@
 시간 제한
+
+
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+export default function TimeoutRedirectPage() {
+  const navigate = useNavigate();
+  const TIMEOUT_MS = 5000; // 5초 설정
+
+  useEffect(() => {
+    // 1. 타이머 설정
+    const timer = setTimeout(() => {
+      navigate(-1); // -1은 이전 페이지로 이동을 뜻합니다.
+    }, TIMEOUT_MS);
+
+    // 2. 클린업 함수 (중요!)
+    return () => clearTimeout(timer);
+  }, [navigate]);
+
+  return (
+    <div style={{ padding: '20px', textAlign: 'center' }}>
+      <h1>시간 초과 페이지</h1>
+      <p>5초 후에 이전 페이지로 자동으로 돌아갑니다.</p>
+    </div>
+  );
+}
+
+
+
+네, setTimeout을 사용하는 것이 정확한 방법입니다.
+React(TypeScript)에서는 컴포넌트가 처음 렌더링될 때 useEffect 훅 내부에서 setTimeout을 실행하고, 페이지를 이동시키면 됩니다.
+가장 안전하고 올바른 구현 코드를 바로 확인해 보세요.
+## 💡 추천 구현 코드 (React Router v6 기준)
+
+import { useEffect } from 'react';import { useNavigate } from 'react-router-dom';
+export default function TimeoutRedirectPage() {
+  const navigate = useNavigate();
+  const TIMEOUT_MS = 5000; // 5초 설정
+
+  useEffect(() => {
+    // 1. 타이머 설정
+    const timer = setTimeout(() => {
+      navigate(-1); // -1은 이전 페이지로 이동을 뜻합니다.
+    }, TIMEOUT_MS);
+
+    // 2. 클린업 함수 (중요!)
+    return () => clearTimeout(timer);
+  }, [navigate]);
+
+  return (
+    <div style={{ padding: '20px', textAlign: 'center' }}>
+      <h1>시간 초과 페이지</h1>
+      <p>5초 후에 이전 페이지로 자동으로 돌아갑니다.</p>
+    </div>
+  );
+}
+
+## ⚠️ 주의해야 할 핵심 포인트
+
+* 클린업 함수(clearTimeout) 필수: 사용자가 5초가 지나기 전에 스스로 '뒤로 가기'를 누르거나 다른 링크로 이동할 수 있습니다. 이때 타이머를 끄지 않으면, 다른 페이지에 가 있는 상태에서 갑자기 navigate(-1)이 실행되어 버리는 버그가 발생합니다. return () => clearTimeout(timer); 코드가 이 버그를 막아줍니다.
+* 이전 페이지 이동: navigate(-1)을 사용하면 브라우저 히스토리 상 바로 직전 페이지로 이동합니다. 만약 특정 경로(예: 홈 화면)로 보내고 싶다면 navigate('/')와 같이 주소를 직접 입력하면 됩니다.
+
+------------------------------
+다음 단계로 넘어가기 위해, 이 기능이 필요한 정확한 상황을 알려주시면 코드를 더 다듬어 드릴 수 있습니다.
+
+* 현재 프로젝트에서 어떤 라우터 라이브러리(예: React Router, Next.js 등)를 쓰고 계시나요?
+* 화면에 남은 시간(카운트다운)을 숫자로 보여주고 싶으신가요?
+
