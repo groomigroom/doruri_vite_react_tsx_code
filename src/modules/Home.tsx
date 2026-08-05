@@ -31,7 +31,7 @@ export default function Home() {
                             <p>1</p>
                         </td>
                         <td className='home_main_intropa_tb_td2'>
-                            <Link to='/'>앨범</Link>
+                            <Link to='/RescenePrettyGirlSpecialSingleAlbum'>Pretty Girl - Special Single 앨범 등록</Link>
                         </td>
                     </tr>
                     <tr>
