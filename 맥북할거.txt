@@ -14,6 +14,11 @@
 #####
 
 
+1 2 3 4 5 번 디자인하기
+
+#####
+
+
 <form action="https://localhost:8080/login_anne" method="post" encType="multipart/form-data" className="login_main_form"> 이런식으로 react tsx를 작성하면, 스프링 부트로 form 값을 보낼 수 있나?    +2                    아니오, 작성하신 JSX 형태 그대로는 스프링 부트로 정상적인 전송이 되지 않습니다. 리액트는 기본 HTML 폼 제출(페이지 새로고침) 방식 대신, 자바스크립트의 FormData 객체와 Axios 또는 fetch 같은 비동기 통신을 사용해야 합니다.올바른 구현 방법이벤트 방지: onSubmit에서 e.preventDefault()로 기본 동작을 막아야 합니다.FormData 사용: 입력값을 FormData 객체에 append하여 담아줍니다.비동기 전송: axios.post나 fetch를 이용해 백엔드로 보냅니다.리액트 (TSX) 예시 코드tsxconst handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   e.preventDefault(); // 페이지 새로고침 방지
   
