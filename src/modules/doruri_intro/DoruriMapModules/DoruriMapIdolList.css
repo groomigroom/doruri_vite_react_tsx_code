@@ -55,8 +55,6 @@
         left: 0px;
     }
 
-
-
     .doruri_map_idollist_nav>ul>li {
         width: 250px;
         height: 40px;
@@ -76,7 +74,7 @@
     }
 
     .doruri_map_triplesmain_li:hover {
-        height: 1600px;
+        height: 1800px;
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
     }
