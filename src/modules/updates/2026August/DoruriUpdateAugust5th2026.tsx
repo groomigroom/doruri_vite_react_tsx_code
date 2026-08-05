@@ -19,9 +19,13 @@ export default function DoruriUpdateAugust5th2026() {
                         <td><p>번호</p></td>
                         <td><p>내용</p></td>
                     </tr>
-                    <tr className='doruri_update_updatePart_intropa_tb_tr9'>
+                    <tr>
                         <td><p>1</p></td>
                         <td><Link to='/RescenePrettyGirlSpecialSingleAlbum'>Pretty Girl - Special Single 앨범 등록</Link></td>
+                    </tr>
+                    <tr className='doruri_update_updatePart_intropa_tb_tr9'>
+                        <td><p>2</p></td>
+                        <td><Link to='/DoruriUpdate'>업데이트 내역 등록 시작</Link></td>
                     </tr>
                 </tbody>
             </table>
