@@ -68,7 +68,7 @@ export default function Home() {
                     </tr>
                     <tr className='home_main_intropa_tb_tr6'>
                         <td>
-                            <Link to='/'>더 보기</Link>
+                            <Link to='/DoruriUpdateAugust5th2026'>더 보기</Link>
                         </td>
                     </tr>
                 </tbody>
