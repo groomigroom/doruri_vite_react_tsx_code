@@ -62,3 +62,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.doruri_update_train>a:hover {
+    background-color: #333;
+}
+
+.doruri_update_train>a:hover>h4 {
+    color: #e6e6e6;
+}
