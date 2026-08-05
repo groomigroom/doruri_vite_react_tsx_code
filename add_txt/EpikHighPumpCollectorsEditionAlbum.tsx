@@ -85,12 +85,12 @@ agency
 <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
 <td>
 <p>
-번호
+number
 </p>
 </td>
 <td>
 <p>
-제목
+title
 </p>
 </tr>
 <tr>
@@ -123,7 +123,7 @@ ANTIHERO
 </td>
 <td>
 <p>
-미슐랭 CYPHER
+Michelin CYPHER
 </p>
 </tr>
 <tr>
@@ -156,7 +156,7 @@ K-DRAMA
 </td>
 <td>
 <p>
-신사들의 소신 &#40;GOOD RIDDANCE&#41;
+GOOD RIDDANCE
 </p>
 </tr>
 <tr>
