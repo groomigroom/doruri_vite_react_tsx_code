@@ -64,7 +64,7 @@ export default function TenCMMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/ResceneEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="10cm event" />
+                            <img src={Ten_m_img} alt="10cm event" />
                             <div>
                                 <h4>
                                     Darkest<br />
