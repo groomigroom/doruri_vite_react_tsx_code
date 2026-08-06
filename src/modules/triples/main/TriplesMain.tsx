@@ -609,7 +609,7 @@ export default function TriplesMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/TriplesEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="event" />
+                            <img src={Tri_m_img} alt="triples event" />
                             <div>
                                 <h4>baby<br />
                                     flower<br />
