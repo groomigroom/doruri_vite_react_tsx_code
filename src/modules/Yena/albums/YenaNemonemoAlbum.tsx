@@ -82,7 +82,7 @@ export default function YenaNemonemoAlbum() {
                             </p>
                         </td>
                     </tr>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
+                    <tr>
                         <td>
                             <p>
                                 1
