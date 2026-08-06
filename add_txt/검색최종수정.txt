@@ -1,0 +1,68 @@
+import { useState } from 'react';
+// 가수의 데이터 구조를 정의하는 타입 인터페이스
+interface Artist {
+  id: number;
+  koName: string;
+  enName: string;
+  imgUrl: string;
+}
+function App() {
+  const [searchTerm, setSearchTerm] = useState<string>('');
+
+  // 1. 한국어 이름, 영어 이름, 이미지를 포함한 아티스트 데이터 배열
+  const artists: Artist[] = [
+    { id: 1, koName: '트리플에스', enName: 'triples', imgUrl: '/images/triples.jpg' },
+    { id: 2, koName: '투모로우바이투게더', enName: 'tomorrow x together', imgUrl: '/images/txt.jpg' },
+    { id: 3, koName: '악뮤', enName: 'akmu', imgUrl: '/images/akmu.jpg' },
+    { id: 4, koName: '아이오아이', enName: 'ioi', imgUrl: '/images/ioi.jpg' },
+    { id: 5, koName: '스트레이 키즈', enName: 'stray kids', imgUrl: '/images/stray_kids.jpg' },
+    { id: 6, koName: '아일릿', enName: 'illit', imgUrl: '/images/illit.jpg' },
+    { id: 7, koName: '투어스', enName: 'tws', imgUrl: '/images/tws.jpg' },
+    { id: 8, koName: '리센느', enName: 'rescene', imgUrl: '/images/rescene.jpg' },
+    { id: 9, koName: '10센치', enName: '10cm', imgUrl: '/images/10cm.jpg' },
+    { id: 10, koName: '에스파', enName: 'aespa', imgUrl: '/images/aespa.jpg' },
+    { id: 11, koName: '올데이 프로젝트', enName: 'allday project', imgUrl: '/images/allday_project.jpg' },
+    { id: 12, koName: '데이식스', enName: 'day6', imgUrl: '/images/day6.jpg' },
+  ];
+
+  // 2. 한국어 또는 영어 이름에 검색어가 포함되어 있는지 필터링 (대소문자 구분 없음)
+  const filteredArtists = artists.filter((artist) => {
+    const sTerm = searchTerm.toLowerCase(); // 검색어를 소문자로 통일
+    const koMatch = artist.koName.includes(sTerm);
+    const enMatch = artist.enName.toLowerCase().includes(sTerm); // 영어 이름도 소문자로 변환 후 비교
+
+    return koMatch || enMatch; // 둘 중 하나라도 맞으면 포함
+  });
+
+  return (
+    <>
+      <div className="full">
+        {/* 검색 입력창 */}
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="가수 이름 검색 (한글 또는 영어)"
+          style={{ padding: '10px', width: '300px', marginBottom: '20px' }}
+        />
+
+        {/* 필터링된 아티스트 목록 출력 */}
+        <div className="artist-list" style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
+          {filteredArtists.map((artist) => (
+            <div key={artist.id} className={artist.enName.replace(/\s+/g, '-')}>
+              {/* 이미지 출력 */}
+              <img
+                src={artist.imgUrl}
+                alt={artist.koName}
+                style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px' }}
+              />
+              {/* h1 태그 안에 이름 출력 */}
+              <h1>{artist.koName} ({artist.enName})</h1>
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
+  );
+}
+export default App;
