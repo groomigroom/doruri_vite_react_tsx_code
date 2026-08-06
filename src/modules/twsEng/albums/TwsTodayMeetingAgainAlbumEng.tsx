@@ -25,9 +25,9 @@ export default function TwsTodayMeetingAgainAlbumEng() {
                 <img src={MainH2deco} alt="tws 앨범 deco" />Today, meeting again<img src={MainH2deco} alt="tws deco" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                #####주체적인 마음을<br />
-                담아서 준비한<br />
-                앨범이에요!
+                We prepared this album<br />
+                with the feeling of<br />
+                meeting someone anew!
             </p>
             <img src='' alt="Today, meeting again" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
