@@ -236,7 +236,7 @@ export default function IoiMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/IoiEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="ioi event" />
+                            <img src={Ioi_m_img} alt="ioi event" />
                             <div>
                                 <h4>LOOP<br />
                                     이벤트</h4>
