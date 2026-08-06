@@ -25,9 +25,9 @@ export default function EpikHighBruzHalipaOursVersionAlbumEng() {
                 <img src={MainH2deco} alt="epik high" />Burj Khalifa &#40;Ours Version&#41;<img src={MainH2deco} alt="epik high" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                #######견고해진 음악적<br />
-                성장의 이야기도<br />
-                담은 앨범이에요!
+                This is an album<br />
+                prepared with high<br />
+                aspirations in mind!
             </p>
             <img src={EpikHighBruzHalipaOursVersionAlbum_img} alt="EpikHighBruzHalipaOursVersionAlbum" className='tri_BabyFlowerCityRemixesAlbum_img epi_EpikHighBruzHalipaOursVersionAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
