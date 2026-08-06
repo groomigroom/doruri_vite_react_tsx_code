@@ -6,7 +6,7 @@
 
     .all_m_full {
         width: 100vw;
-        height: 1433px;
+        height: 1933px;
         position: relative;
         background-color: #fcfcfc;
     }
@@ -44,6 +44,29 @@
         top: 190px;
         left: 95px;
     }
+
+    .allday_m_h2_4 {
+        position: absolute;
+        top: 1333px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .allday_m_event_tr_full {
+        top: 1393px;
+    }
+
+    .allday_m_h2_5 {
+        position: absolute;
+        top: 1583px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .allday_m_album_tr_full {
+        top: 1643px;
+    }
+
 }
 
 @media (max-width: 975px) {
