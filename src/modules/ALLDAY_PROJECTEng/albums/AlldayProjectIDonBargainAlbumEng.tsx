@@ -7,7 +7,7 @@ import '../../ALLDAY_PROJECT/albums/AlldayProjectIDonBargainAlbum.css';
 import MenuEng from '../../HomeEng/MenuEng';
 import FooterPartEng from '../../FooterPartEng';
 
-// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+import AlldayProjectIDonBargainAlbum_img from '../../ALLDAY_PROJECT/albums/img/AlldayProjectIDonBargainAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -27,7 +27,7 @@ export default function AlldayProjectIDonBargainAlbumEng() {
                 with the thought of<br />
                 preserving our unique qualities!
             </p>
-            <img src='' alt="AlldayProjectIDonBargainAlbum" className='tri_BabyFlowerCityRemixesAlbum_img all_AlldayProjectIDonBargainAlbum_img' />
+            <img src={AlldayProjectIDonBargainAlbum_img} alt="AlldayProjectIDonBargainAlbum" className='tri_BabyFlowerCityRemixesAlbum_img all_AlldayProjectIDonBargainAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
