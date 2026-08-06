@@ -7,7 +7,7 @@ import '../../Yena/albums/YenaNemonemoAlbum.css';
 import MenuEng from '../../HomeEng/MenuEng';
 import FooterPartEng from '../../FooterPartEng';
 
-// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+import YenaNemonemoAlbum_img from '../../Yena/albums/img/YenaNemonemoAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -28,7 +28,7 @@ export default function YenaNemonemoAlbumEng() {
                 while thinking about<br />
                 my crooked, sharp heart!
             </p>
-            <img src='' alt="Nemonemo" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={YenaNemonemoAlbum_img} alt="Nemonemo" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -84,7 +84,7 @@ export default function YenaNemonemoAlbumEng() {
                             </p>
                         </td>
                     </tr>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
+                    <tr>
                         <td>
                             <p>
                                 1
