@@ -2,7 +2,7 @@
 
     .bol_m_full {
         width: 100vw;
-        height: 1243px;
+        height: 1743px;
         position: relative;
         background-color: #fcfcfc;
     }
@@ -12,7 +12,27 @@
         height: 150px;
     }
 
+    .bol4_m_h2_4 {
+        position: absolute;
+        top: 1143px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
+    .bol4_m_event_tr_full {
+        top: 1203px;
+    }
+
+    .bol4_m_h2_5 {
+        position: absolute;
+        top: 1393px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .bol4_m_album_tr_full {
+        top: 1453px;
+    }
 }
 
 @media (max-width: 975px) {
