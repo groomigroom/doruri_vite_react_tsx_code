@@ -1,1 +1,9 @@
-ResceneRunawayAlbum.css
+.res_ResceneRunawayAlbum_full {
+    width: 100vw;
+    height: 1033px;
+    position: relative;
+}
+
+.res_ResceneRunawayAlbum_tb2 {
+    height: 100px;
+}
