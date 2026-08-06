@@ -227,7 +227,7 @@ export default function StrayKidsMain() {
             </section>
 
             <h2 className='tri_m_h2 stray_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full akmu_m_sns_tr_full'>
+            <section className='tri_m_sns_tr_full str_m_sns_tr_full'>
                 <section className='tri_m_album_tr'>
                     <a href="https://www.instagram.com/realstraykids" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
                         <article className='tri_m_snss'>
