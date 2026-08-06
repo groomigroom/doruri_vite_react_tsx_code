@@ -22,9 +22,9 @@ export default function TwsTodayMeetingAgainAlbum() {
                 <img src={MainH2deco} alt="tws 앨범 꾸미기" />다시 만난 오늘<img src={MainH2deco} alt="tws 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                #####주체적인 마음을<br />
-                담아서 준비한<br />
-                앨범이에요!
+                새롭게 만난다는<br />
+                마음으로 앨범을<br />
+                준비했어요!
             </p>
             <img src='' alt="다시 만난 오늘" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
