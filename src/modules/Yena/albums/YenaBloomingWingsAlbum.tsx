@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './TriplesDreamDressAlbum.css';
+import './YenaBloomingWingsAlbum.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
@@ -82,7 +82,7 @@ export default function YenaBloomingWingsAlbum() {
                             </p>
                         </td>
                     </tr>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
+                    <tr>
                         <td>
                             <p>
                                 1
