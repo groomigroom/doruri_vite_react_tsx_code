@@ -3,6 +3,7 @@ import { useState } from 'react';
 interface Artist {
   id: number;
   koName: string;
+##### IdolListKoName: 
   enName: string;
   imgUrl: string;
 }
