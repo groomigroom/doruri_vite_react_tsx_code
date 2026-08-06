@@ -16,6 +16,8 @@ import All_m_MemBailey_img from './img/allday_m_mem_Bailey.jpg';
 import All_m_MemWoochan_img from './img/allday_m_mem_Woochan.jpg';
 import All_m_MemYoungseo_img from './img/allday_m_mem_Youngseo.jpg';
 
+import AlldayProjectIDonBargainAlbum_img from '../albums/img/AlldayProjectIDonBargainAlbum_img.jpg';
+
 // #000000
 
 export default function ALLDAY_PROJECTMain() {
@@ -126,7 +128,7 @@ export default function ALLDAY_PROJECTMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/ResceneEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="allday project event" />
+                            <img src={All_m_img} alt="allday project event" />
                             <div>
                                 <h4>
                                     I DON&apos;T<br />
@@ -144,7 +146,7 @@ export default function ALLDAY_PROJECTMain() {
                 <section className='tri_m_album_tr'>
                     <Link to='/AlldayProjectIDonBargainAlbum' className='tri_m_album_a'>
                         <article className='tri_m_albums'>
-                            <img src='' alt="AlldayProjectIDonBargainAlbum" />
+                            <img src={AlldayProjectIDonBargainAlbum_img} alt="AlldayProjectIDonBargainAlbum" />
                             <div>
                                 <h4>
                                     I DON&apos;T<br />
