@@ -266,6 +266,7 @@ import ResMainEng from './RESCENEEng/main/ResMainEng';
 
 import RescenePrettyGirlSpecialSingleAlbum from './RESCENE/albums/RescenePrettyGirlSpecialSingleAlbum';
 import RescenePrettyGirlSpecialSingleAlbumEng from './RESCENEEng/albums/RescenePrettyGirlSpecialSingleAlbumEng';
+import ResceneRunawayAlbum from './RESCENE/albums/ResceneRunawayAlbum';
 
 import ResMemWoni from './RESCENE/members/ResMemWoni';
 import ResMemWoniEng from './RESCENEEng/members/ResMemWoniEng';
@@ -789,6 +790,7 @@ export default function RoutesSetup() {
 
             <Route path='/RescenePrettyGirlSpecialSingleAlbum' element={<RescenePrettyGirlSpecialSingleAlbum />}></Route>
             <Route path='/RescenePrettyGirlSpecialSingleAlbumEng' element={<RescenePrettyGirlSpecialSingleAlbumEng />}></Route>
+            <Route path='/ResceneRunawayAlbum' element={<ResceneRunawayAlbum />}></Route>
 
             <Route path='/ResMemWoni' element={<ResMemWoni />}></Route>
             <Route path='/ResMemWoniEng' element={<ResMemWoniEng />}></Route>
