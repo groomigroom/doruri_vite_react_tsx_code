@@ -12,13 +12,43 @@
 .tri_e_p_ticket {
     width: 400px;
     height: 150px;
-    background-color: blueviolet;
+    background-color: #fcfcfc;
+    border: 5px solid #333;
+    border-radius: 25px;
+    overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.tri_e_p_ticket>img {
-    height: 150px;
+.tri_e_p_members_img {
+    height: 110px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.tri_e_p_logo_img {
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(4px);
+    opacity: 0.5;
+}
+
+.tri_e_p_pp {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+    text-align: right;
+    line-height: 140%;
+}
+
+.tri_e_p_pp>span {
+    font-weight: 600;
 }
