@@ -10,6 +10,8 @@ import Bol_m_logo from './img/Bol_m_logo.png';
 import MainH2Deco from '../../img/main_h2_deco.png';
 import Bol_m_img from './BeforeMain/img/bol4_m_mem_Anjiyoung_7_24.jpg';
 
+import Bol4SummerPleaseAlbum_img from '../albums/img/Bol4SummerPleaseAlbum_img.jpg';
+
 //191919
 //ffffff
 
@@ -55,7 +57,7 @@ export default function Bol4Main() {
                 <section className='tri_m_event_tr'>
                     <Link to='/Bol4Event' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="bol4 event" />
+                            <img src={Bol_m_img} alt="bol4 event" />
                             <div>
                                 <h4>
                                     여름아<br />
@@ -73,7 +75,7 @@ export default function Bol4Main() {
                 <section className='tri_m_album_tr'>
                     <Link to='/Bol4SummerPleaseAlbum' className='tri_m_album_a'>
                         <article className='tri_m_albums'>
-                            <img src='' alt="Bol4SummerPleaseAlbum" />
+                            <img src={Bol4SummerPleaseAlbum_img} alt="Bol4SummerPleaseAlbum" />
                             <div>
                                 <h4>
                                     여름아<br />
