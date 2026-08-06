@@ -110,9 +110,9 @@ export default function AespaMain() {
             <h2 className='tri_m_h2 aespa_m_h2_4'>▪ 이벤트 ▪</h2>
             <section className='tri_m_event_tr_full aespa_m_event_tr_full'>
                 <section className='tri_m_event_tr'>
-                    <Link to='/ResceneEvent' className='tri_m_event_a'>
+                    <Link to='/AespaEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="aespa event" />
+                            <img src={Aes_m_img} alt="aespa event" />
                             <div>
                                 <h4>
                                     aespa<br />
@@ -127,7 +127,7 @@ export default function AespaMain() {
             <h2 className='tri_m_h2 aespa_m_h2_5'>▪ 최신 앨범 ▪</h2>
             <section className='tri_m_album_tr_full aespa_m_album_tr_full'>
                 <section className='tri_m_album_tr'>
-                    <Link to='/TenCMTheDarkestNightAlbum' className='tri_m_album_a'>
+                    <Link to='/AespaAlbum' className='tri_m_album_a'>
                         <article className='tri_m_albums'>
                             <img src='' alt="TenCMTheDarkestNightAlbum" />
                             <div>
