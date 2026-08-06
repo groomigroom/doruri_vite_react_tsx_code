@@ -79,7 +79,7 @@ export default function AkmuMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/AkmuEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="akmu event" />
+                            <img src={Akmu_m_img} alt="akmu event" />
                             <div>
                                 <h4>개화<br />
                                     이벤트</h4>
@@ -106,7 +106,7 @@ export default function AkmuMain() {
             </section>
 
             <h2 className='tri_m_h2 akmu_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full akmu_m_sns_tr_full'>
+            <section className='tri_m_sns_tr_full akmu_m_sns_tr_realfull'>
                 <section className='tri_m_album_tr'>
                     <a href="https://www.instagram.com/akmuofficial/" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a akmu_m_sns_a'>
                         <article className='tri_m_snss'>
