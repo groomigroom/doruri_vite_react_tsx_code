@@ -17,6 +17,7 @@ import TriplesMoon_m_S20_img from '../../main/img/tri_m_memS20.jpg';
 import TriplesMoon_m_S22_img from '../../main/img/tri_m_memS22.jpg';
 import TriplesMoon_m_S24_img from '../../main/img/tri_m_memS24.jpg';
 
+import TriplesDreamDressAlbum_img from '../../albums/img/TriplesDreamDressAlbum_img.jpg';
 
 //#e7cb82
 
@@ -89,6 +90,23 @@ export default function TriplesMoonMain() {
                     </Link>
                 </section>
 
+            </section>
+
+            <h2 className='tri_m_h2 tri_moon_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full tri_moon_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesDreamDressAlbum' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={TriplesDreamDressAlbum_img} alt="TriplesDreamDressAlbum" />
+                            <div>
+                                <h4>
+                                    Dream<br />
+                                    Dress
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
             </section>
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
