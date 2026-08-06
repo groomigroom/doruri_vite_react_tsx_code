@@ -15,8 +15,8 @@ export default function EpikHighPumpCollectorsEditionAlbum() {
         <div className="epi_EpikHighPumpCollectorsEditionAlbum_full">
             <Menu />
             <section className="home_translate">
-                <Link to='/EpikHighBruzHalipaOursVersionAlbum' className="on">한국어</Link>
-                <Link to='/EpikHighBruzHalipaOursVersionAlbumEng'>English</Link>
+                <Link to='/EpikHighPumpCollectorsEditionAlbum' className="on">한국어</Link>
+                <Link to='/EpikHighPumpCollectorsEditionAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
                 <img src={MainH2deco} alt="에픽하이" />PUMP COLLECTOR&apos;S EDITION<img src={MainH2deco} alt="에픽하이" /></h2>
@@ -67,7 +67,7 @@ export default function EpikHighPumpCollectorsEditionAlbum() {
                 </tbody>
             </table>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
-            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 epi_EpikHighBruzHalipaOursVersionAlbum_tb2'>
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 epi_EpikHighPumpCollectorsEditionAlbum_tb2'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                         <td>
