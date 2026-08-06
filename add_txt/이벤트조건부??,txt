@@ -1,0 +1,21 @@
+import './App.css'
+
+export default function App() {
+  let tri_e_result = 24; // 이 값이 변경됨에 따라 화면이 바뀝니다.
+
+  return (
+    <div className="tri_e_p_full">
+      <section className="tri_e_p_ticket">
+        {/* tri_e_result가 24와 같으면 win을, 아니면 lose를 보여줍니다 */}
+        {tri_e_result === 24 ? (
+          <p className='win'>정답을 모두 맞췄습니다.</p>
+        ) : (
+          <p className='lose'>아쉽지만 모두 정답은 아닙니다.</p>
+        )}
+      </section>
+      <section className="tri_e_p_pp">
+        <h2>정답 : {tri_e_result}개</h2>
+      </section>
+    </div>
+  );
+};
