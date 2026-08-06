@@ -144,7 +144,7 @@ export default function TwsMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/TwsEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="tws event" />
+                            <img src={Tws_m_img} alt="tws event" />
                             <div>
                                 <h4>
                                     NO<br />
