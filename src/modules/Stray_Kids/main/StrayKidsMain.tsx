@@ -198,7 +198,7 @@ export default function StrayKidsMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/StrayKidsEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="ioi event" />
+                            <img src={Str_m_img} alt="stray kids event" />
                             <div>
                                 <h4>Replay<br />
                                     이벤트</h4>
