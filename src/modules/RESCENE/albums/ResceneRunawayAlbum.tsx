@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './TriplesDreamDressAlbum.css';
+import './ResceneRunawayAlbum.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
