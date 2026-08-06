@@ -132,7 +132,7 @@ export default function ResMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/ResceneEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="rescene event" />
+                            <img src={Res_m_img} alt="rescene event" />
                             <div>
                                 <h4>
                                     album<br />
