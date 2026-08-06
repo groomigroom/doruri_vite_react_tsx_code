@@ -122,7 +122,7 @@ export default function DAY6Main() {
                 <section className='tri_m_event_tr'>
                     <Link to='/Day6Event' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="day6 event" />
+                            <img src={Day_m_img} alt="day6 event" />
                             <div>
                                 <h4>
                                     day6<br />
