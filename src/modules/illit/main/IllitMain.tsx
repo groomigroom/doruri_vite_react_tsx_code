@@ -133,7 +133,7 @@ export default function IllitMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/IllitEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="illit event" />
+                            <img src={Ill_m_img} alt="illit event" />
                             <div>
                                 <h4>MAMIH<br />
                                     이벤트</h4>
