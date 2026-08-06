@@ -7,7 +7,7 @@ interface Artist {
   enName: string;
 ##### IdolListEngName:
   imgUrl: string;
-이거 이미지를 import로 해도 되는지
+##### 이거 이미지를 import로 해도 되는지
 }
 function App() {
   const [searchTerm, setSearchTerm] = useState<string>('');
