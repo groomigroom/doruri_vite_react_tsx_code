@@ -131,7 +131,7 @@ export default function TxtMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/TxtEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="txt event" />
+                            <img src={txt_m_img} alt="txt event" />
                             <div>
                                 <h4>7TH<br />
                                     YEAR<br />
