@@ -391,6 +391,7 @@ import YenaMainEng from './YenaEng/main/YenaMainEng';
 
 import YenaNemonemoAlbum from './Yena/albums/YenaNemonemoAlbum';
 import YenaNemonemoAlbumEng from './YenaEng/albums/YenaNemonemoAlbumEng';
+import YenaBloomingWingsAlbum from './Yena/albums/YenaBloomingWingsAlbum';
 
 import YenaMem from './Yena/members/YenaMem';
 import YenaMemEng from './YenaEng/members/YenaMemEng';
@@ -919,6 +920,7 @@ export default function RoutesSetup() {
 
             <Route path='/YenaNemonemoAlbum' element={<YenaNemonemoAlbum />}></Route>
             <Route path='/YenaNemonemoAlbumEng' element={<YenaNemonemoAlbumEng />}></Route>
+            <Route path='/YenaBloomingWingsAlbum' element={<YenaBloomingWingsAlbum />}></Route>
 
             <Route path='/YenaMem' element={<YenaMem />}></Route>
             <Route path='/YenaMemEng' element={<YenaMemEng />}></Route>
