@@ -1,1 +1,9 @@
-YenaNemonemoAlbum.css
+.yena_YenaNemonemoAlbum_full {
+    width: 100vw;
+    height: 1133px;
+    position: relative;
+}
+
+.yena_YenaNemonemoAlbum_tb2 {
+    height: 200px;
+}
