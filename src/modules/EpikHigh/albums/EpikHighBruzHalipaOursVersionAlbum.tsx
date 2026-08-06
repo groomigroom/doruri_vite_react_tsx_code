@@ -20,9 +20,9 @@ export default function EpikHighBruzHalipaOursVersionAlbum() {
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="에픽하이" />부르즈 할리파 &#40;Ours Version&#41;<img src={MainH2deco} alt="에픽하이" /></h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                #######견고해진 음악적<br />
-                성장의 이야기도<br />
-                담은 앨범이에요!
+                높은 곳을<br />
+                생각하며 준비한<br />
+                앨범이에요!
             </p>
             <img src={EpikHighBruzHalipaOursVersionAlbum_img} alt="EpikHighBruzHalipaOursVersionAlbum" className='tri_BabyFlowerCityRemixesAlbum_img epi_EpikHighBruzHalipaOursVersionAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
