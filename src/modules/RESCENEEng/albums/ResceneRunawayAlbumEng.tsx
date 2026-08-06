@@ -11,7 +11,7 @@ import ResceneRunawayAlbumEng_img from '../../RESCENE/albums/img/ResceneRunawayA
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function ResceneRunawayAlbumEngEng() {
+export default function ResceneRunawayAlbumEng() {
     EngPage('en', 'ko');
 
     return (
