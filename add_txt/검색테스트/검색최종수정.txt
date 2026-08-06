@@ -1,5 +1,8 @@
 import { useState } from 'react';
 // 가수의 데이터 구조를 정의하는 타입 인터페이스
+
+import groomi1 from './img/groomi1.jpg';
+
 interface Artist {
   id: number;
   koName: string;
@@ -14,7 +17,7 @@ function App() {
 
   // 1. 한국어 이름, 영어 이름, 이미지를 포함한 아티스트 데이터 배열
   const artists: Artist[] = [
-    { id: 1, koName: '트리플에스', enName: 'triples', imgUrl: '/images/triples.jpg' },
+    { id: 1, koName: '트리플에스', enName: 'triples', imgUrl: groomi1 },
     { id: 2, koName: '투모로우바이투게더', enName: 'tomorrow x together', imgUrl: '/images/txt.jpg' },
     { id: 3, koName: '악뮤', enName: 'akmu', imgUrl: '/images/akmu.jpg' },
     { id: 4, koName: '아이오아이', enName: 'ioi', imgUrl: '/images/ioi.jpg' },
