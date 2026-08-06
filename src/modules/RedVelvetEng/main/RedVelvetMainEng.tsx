@@ -33,10 +33,9 @@ export default function RedVelvetMainEng() {
             <img src='' alt="Red Velvet 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="Red Velvet deco" />Red Velvet<img src={MainH2Deco} alt="Red Velvet deco" /></h2>
             <p className='tri_m_intropp'>
-                #####
-                &apos;RESCENE&apos;와 함께<br />
-                좋은 곳으로<br />
-                Runaway!
+                Let&apos;s go somewhere<br />
+                to find a star<br />
+                with &apos;Red Velvet&apos;!
             </p>
             <img src='' className='tri_m_img' alt="Red Velvet" />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ members ▪</h2>
