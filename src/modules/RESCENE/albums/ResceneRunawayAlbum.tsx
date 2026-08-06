@@ -6,7 +6,7 @@ import './ResceneRunawayAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+import ResceneRunawayAlbum_img from './img/ResceneRunawayAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -25,7 +25,7 @@ export default function ResceneRunawayAlbum() {
                 생각을 담아서<br />
                 앨범을 준비했어요!
             </p>
-            <img src='' alt="Runaway" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={ResceneRunawayAlbum_img} alt="Runaway" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
