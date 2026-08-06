@@ -6,7 +6,7 @@ import './TriplesDreamDressAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+import TriplesDreamDressAlbum_img from './img/TriplesDreamDressAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -24,7 +24,7 @@ export default function TriplesDreamDressAlbum() {
                 가치를 생각해 보며<br />
                 준비한 앨범이에요!
             </p>
-            <img src='' alt="Dream Dress" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={TriplesDreamDressAlbum_img} alt="Dream Dress" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
