@@ -140,7 +140,7 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                dgsdg
+                                Icarus Gang
                             </p>
                         </td>
                     </tr>
@@ -152,7 +152,7 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                dgsdg
+                                Hyper Crush
                             </p>
                         </td>
                     </tr>
@@ -165,7 +165,7 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                dgsdg
+                                Pixel Memory
                             </p>
                         </td>
                     </tr>
