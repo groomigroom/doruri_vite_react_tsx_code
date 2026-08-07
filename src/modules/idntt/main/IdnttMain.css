@@ -1,6 +1,6 @@
 .idn_m_full {
     width: 100vw;
-    height: 2433px;
+    height: 2703px;
     position: relative;
     background-color: #fcfcfc;
 }
@@ -35,4 +35,27 @@
     height: 150px;
     display: flex;
     justify-content: space-between;
+}
+
+.idntt_m_h2_4 {
+    position: absolute;
+    top: 2333px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.idntt_m_event_tr_full {
+    top: 2393px;
+}
+
+.idntt_m_event_a img,
+.idntt_m_event_a div {
+    border: 5px solid #0957c3;
+}
+
+.idntt_m_h2_5 {
+    position: absolute;
+    top: 2583px;
+    left: 50%;
+    transform: translateX(-50%);
 }
