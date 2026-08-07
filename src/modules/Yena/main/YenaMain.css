@@ -1,6 +1,6 @@
 .yen_m_full {
     width: 100vw;
-    height: 1233px;
+    height: 1983px;
     position: relative;
     background-color: #fcfcfc;
 }
@@ -8,4 +8,37 @@
 .yen_m_mem_tr_full {
     width: 150px;
     height: 150px;
+}
+
+.yena_m_h2_4 {
+    position: absolute;
+    top: 1133px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yena_m_event_tr_full {
+    top: 1193px;
+}
+
+.yena_m_h2_5 {
+    position: absolute;
+    top: 1383px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yena_m_album_tr_full {
+    top: 1443px;
+}
+
+.yena_m_h2_6 {
+    position: absolute;
+    top: 1633px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yena_m_sns_tr_full {
+    top: 1693px;
 }
