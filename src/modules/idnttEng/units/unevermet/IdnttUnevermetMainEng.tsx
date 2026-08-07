@@ -64,20 +64,20 @@ export default function IdnttUnevermetMainEng() {
                             </div>
                         </article>
                     </Link>
-                    <Link to='/Idn_m_memid2'>
+                    <Link to='/Idn_m_memid2Eng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="김희주 이미지" />
+                            <img src='' alt="kimheeju" />
                             <div>
-                                <h4>김희주</h4>
+                                <h4>kimheeju</h4>
                             </div>
                         </article>
                     </Link>
 
-                    <Link to='/Idn_m_memid4'>
+                    <Link to='/Idn_m_memid4Eng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="최태인 이미지" />
+                            <img src='' alt="choitaein" />
                             <div>
-                                <h4>최태인</h4>
+                                <h4>choitaein</h4>
                             </div>
                         </article>
                     </Link>
