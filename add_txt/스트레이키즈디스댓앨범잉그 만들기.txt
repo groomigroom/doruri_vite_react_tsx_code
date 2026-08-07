@@ -19,12 +19,12 @@ export default function StrayKidsThisAndThatAlbumEng() {
                 <Link to='/StrayKidsThisAndThatAlbumEng' className="on">English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
-                <img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />THIS & THAT<img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />
+                <img src={MainH2deco} alt="Stray Kids" />THIS & THAT<img src={MainH2deco} alt="Stray Kids" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                새로운 도전을<br />
-                한다는 생각으로<br />
-                준비한 앨범이에요!
+                This is an album prepared<br />
+                with the mindset of taking<br />
+                on a new challenge!
             </p>
             <img src={StrayKidsSKZReplay2026Pt1Album_img} alt="StrayKidsSKZReplay2026Pt1Album" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
@@ -32,19 +32,19 @@ export default function StrayKidsThisAndThatAlbumEng() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
                         <td>
                             <p>
-                                발매일
+                                release date
                             </p>
                         </td>
                         <td>
                             <p>
-                                2026.08.07.
+                                August, 7, 2026
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <p>
-                                장르
+                                genre
                             </p>
                         </td>
                         <td>
