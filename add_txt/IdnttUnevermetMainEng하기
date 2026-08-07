@@ -36,7 +36,7 @@ import FooterPart from '../../../FooterPart';
 // import Idn_m_memid23 from './img/tri_m_memS23.jpg';
 // import Idn_m_memid24 from './img/tri_m_memS24.jpg';
 
-export default function IdnttUnevermetMain() {
+export default function IdnttUnevermetMainEng() {
     return (
         <div className='idn_Unevermet_m_full'>
             <Menu />
