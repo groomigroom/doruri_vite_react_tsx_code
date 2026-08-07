@@ -478,12 +478,12 @@ export default function IdnttMain() {
             <h2 className='tri_m_h2 idntt_m_h2_4'>▪ 이벤트 ▪</h2>
             <section className='tri_m_event_tr_full idntt_m_event_tr_full'>
                 <section className='tri_m_event_tr'>
-                    <Link to='/Bol4Event' className='tri_m_event_a'>
+                    <Link to='/idnttEvent' className='tri_m_event_a idntt_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="idntt event" />
+                            <img src={Idntt_m_img} alt="idntt event" />
                             <div>
                                 <h4>
-                                    yena<br />
+                                    idntt<br />
                                     이벤트
                                 </h4>
                             </div>
