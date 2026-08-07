@@ -18,7 +18,7 @@ import FooterPart from '../../FooterPart';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function AlldayProjectAlldayProjectAlbum() {
+export default function ArtmsHyperEgoAlbum() {
     return (
         <div className="all_AlldayProjectAlldayProjectAlbum_full">
             <Menu />
