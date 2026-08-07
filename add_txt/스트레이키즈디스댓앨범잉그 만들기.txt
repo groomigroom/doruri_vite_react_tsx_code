@@ -49,7 +49,7 @@ export default function StrayKidsThisAndThatAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                랩/힙합, 록/메탈, 일렉트로니카
+                                rap/hiphop, rock/metal, electronica
                             </p>
                         </td>
                     </tr>
