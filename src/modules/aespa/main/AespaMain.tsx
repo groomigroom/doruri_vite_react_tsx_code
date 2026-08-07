@@ -15,6 +15,9 @@ import Aes_m_MemJijell_img from './img/aespa_m_mem_Jijel.jpg';
 import Aes_m_MemWinter_img from './img/aespa_m_mem_Winter.jpg';
 import Aes_m_MemNingning_img from './img/aespa_m_mem_Ningning.jpg';
 
+import AespaInstagram_icon_img from '../../triples/main/img/triples_instagram_icon.png';
+import AespaYoutube_icon_img from '../../triples/main/img/triples_youtube_icon.png';
+
 //191919
 //ffffff
 
@@ -139,6 +142,32 @@ export default function AespaMain() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 aespa_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full aespa_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/aespa_official" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={AespaInstagram_icon_img} alt="aespa 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@aespa" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={AespaYoutube_icon_img} alt="aespa 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
