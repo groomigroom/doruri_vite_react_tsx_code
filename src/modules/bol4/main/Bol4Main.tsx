@@ -12,6 +12,9 @@ import Bol_m_img from './BeforeMain/img/bol4_m_mem_Anjiyoung_7_24.jpg';
 
 import Bol4SummerPleaseAlbum_img from '../albums/img/Bol4SummerPleaseAlbum_img.jpg';
 
+import Bol4Instagram_icon_img from '../../triples/main/img/triples_instagram_icon.png';
+import Bol4Youtube_icon_img from '../../triples/main/img/triples_youtube_icon.png';
+
 //191919
 //ffffff
 
@@ -84,6 +87,32 @@ export default function Bol4Main() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 bol4_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full bol4_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/official_bol4" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={Bol4Instagram_icon_img} alt="볼빨간사춘기 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@BOL4OFFICIAL" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={Bol4Youtube_icon_img} alt="볼빨간사춘기 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
