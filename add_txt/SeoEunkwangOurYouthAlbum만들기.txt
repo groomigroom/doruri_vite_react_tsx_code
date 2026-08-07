@@ -15,16 +15,16 @@ import YenaBloomingWingsAlbum_img from './img/YenaBloomingWingsAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function YenaBloomingWingsAlbum() {
+export default function SeoEunkwangOurYouthAlbum() {
     return (
-        <div className="yena_YenaBloomingWingsAlbum_full">
+        <div className="btob_SeoEunkwangOurYouthAlbum_full">
             <Menu />
             <section className="home_translate">
-                <Link to='/YenaBloomingWingsAlbum' className="on">한국어</Link>
-                <Link to='/YenaBloomingWingsAlbumEng'>English</Link>
+                <Link to='/SeoEunkwangOurYouthAlbum' className="on">한국어</Link>
+                <Link to='/SeoEunkwangOurYouthAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
-                <img src={MainH2deco} alt="최예나 앨범 꾸미기" />Blooming Wings<img src={MainH2deco} alt="최예나 앨범 꾸미기" />
+                <img src={MainH2deco} alt="서은광 앨범 꾸미기" />Blooming Wings<img src={MainH2deco} alt="서은광 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 순수한 마음도<br />
