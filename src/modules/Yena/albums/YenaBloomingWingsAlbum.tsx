@@ -6,7 +6,7 @@ import './YenaBloomingWingsAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+import YenaBloomingWingsAlbum_img from './img/YenaBloomingWingsAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -26,7 +26,7 @@ export default function YenaBloomingWingsAlbum() {
                 생각해 보며<br />
                 준비한 앨범이에요!
             </p>
-            <img src='' alt="YenaBloomingWingsAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={YenaBloomingWingsAlbum_img} alt="YenaBloomingWingsAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
