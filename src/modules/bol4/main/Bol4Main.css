@@ -2,7 +2,7 @@
 
     .bol_m_full {
         width: 100vw;
-        height: 1743px;
+        height: 1993px;
         position: relative;
         background-color: #fcfcfc;
     }
@@ -32,6 +32,17 @@
 
     .bol4_m_album_tr_full {
         top: 1453px;
+    }
+
+    .bol4_m_h2_6 {
+        position: absolute;
+        top: 1643px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .bol4_m_sns_tr_full {
+        top: 1703px;
     }
 }
 
