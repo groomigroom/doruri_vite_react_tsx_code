@@ -77,6 +77,11 @@
     .allday_m_sns_tr_full {
         top: 1893px;
     }
+
+    .allday_m_sns_a img,
+    .allday_m_sns_a div {
+        border: 5px solid #000000;
+    }
 }
 
 @media (max-width: 975px) {
