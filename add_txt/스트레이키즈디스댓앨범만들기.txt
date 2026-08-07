@@ -10,13 +10,13 @@ import StrayKidsSKZReplay2026Pt1Album_img from './img/StrayKidsSKZReplay2026Pt1A
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function StrayKidsSKZReplay2026Pt1Album() {
+export default function StrayKidsThisAndThatAlbum() {
     return (
-        <div className='str_StrayKidsSKZReplay2026Pt1Album_full'>
+        <div className='str_StrayKidsThisAndThatAlbum_full'>
             <Menu />
             <section className="home_translate">
-                <Link to='/StrayKidsSKZReplay2026Pt1Album' className="on">한국어</Link>
-                <Link to='/StrayKidsSKZReplay2026Pt1AlbumEng'>English</Link>
+                <Link to='/StrayKidsThisAndThatAlbum' className="on">한국어</Link>
+                <Link to='/StrayKidsThisAndThatAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
                 <img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />SKZ-REPLAY 2026 Pt.1<img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />
