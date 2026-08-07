@@ -95,7 +95,7 @@ export default function StrayKidsThisAndThatAlbum() {
                         </td>
                         <td>
                             <p>
-                                Battle Ground &#40;Korean Version&#41;
+                                RUN IT
                             </p>
                         </td>
                         <td>
@@ -112,12 +112,12 @@ export default function StrayKidsThisAndThatAlbum() {
                         </td>
                         <td>
                             <p>
-                                Roman Empire
+                                This & That
                             </p>
                         </td>
                         <td>
                             <p>
-                                Stray Kids, 방찬
+                                Stray Kids
                             </p>
                         </td>
                     </tr>
