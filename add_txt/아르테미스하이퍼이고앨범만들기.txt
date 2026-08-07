@@ -43,7 +43,7 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                2025.12.08.
+                                2026.08.07.
                             </p>
                         </td>
                     </tr>
@@ -67,13 +67,15 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                THEBLACKLABEL
+                                모드하우스
                             </p>
                         </td>
                     </tr>
                 </tbody>
             </table>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
+
+#####이거 일반 테이블처럼 바꾸기
             <table className='all_AlldayProjectAlldayProjectAlbum_tb2'>
                 <tbody>
                     <tr className='all_AlldayProjectAlldayProjectAlbum_intropa_tb2_tr1'>
