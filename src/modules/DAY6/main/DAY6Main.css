@@ -2,7 +2,7 @@
 
     .day_m_full {
         width: 100vw;
-        height: 2183px;
+        height: 2433px;
         position: relative;
         background-color: #fcfcfc;
     }
@@ -53,6 +53,17 @@
 
     .day6_m_album_tr_full {
         top: 1893px;
+    }
+
+    .day6_m_h2_6 {
+        position: absolute;
+        top: 2083px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .day6_m_sns_tr_full {
+        top: 2143px;
     }
 }
 
