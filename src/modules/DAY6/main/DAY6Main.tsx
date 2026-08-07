@@ -18,7 +18,7 @@ import Day_m_MemDowoon_img from './img/day6_m_mem_Dowoon.jpg';
 import Day6EvenOfDay_m_img from '../units/EvenOfDay/img/Day6EvenOfDay_m_img.jpg';
 
 import Day6Instagram_icon_img from '../../triples/main/img/triples_instagram_icon.png';
-import Day6Youtube_icon_img from '../../triples/main/img/triples_instagram_icon.png';
+import Day6Youtube_icon_img from '../../triples/main/img/triples_youtube_icon.png';
 
 //191919
 
