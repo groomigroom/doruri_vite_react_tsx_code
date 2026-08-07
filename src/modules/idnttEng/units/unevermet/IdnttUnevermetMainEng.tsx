@@ -56,11 +56,11 @@ export default function IdnttUnevermetMainEng() {
             <section className='tri_m_mem_tr_full idn_Unevermet_m_mem_tr_full'>
 
                 <section className='idn_Unevermet_m_mem_tr4'>
-                    <Link to='/Idn_m_memid1' className='tri_m_mem_a'>
+                    <Link to='/Idn_m_memid1Eng' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="김도훈 이미지" />
+                            <img src='' alt="kimdohun" />
                             <div>
-                                <h4>김도훈</h4>
+                                <h4>kimdohun</h4>
                             </div>
                         </article>
                     </Link>
