@@ -61,7 +61,7 @@ export default function StrayKidsThisAndThatAlbumEng() {
                         </td>
                         <td>
                             <p>
-                                JYP엔터테인먼트
+                                JYP ENTERTAINMENT
                             </p>
                         </td>
                     </tr>
@@ -226,7 +226,7 @@ export default function StrayKidsThisAndThatAlbumEng() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
+            <FooterPartEng FooterPartEngText='ⓒ JYP ENTERTAINMENT' />
         </div>
     );
 }
