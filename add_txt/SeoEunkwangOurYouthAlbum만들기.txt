@@ -24,7 +24,7 @@ export default function SeoEunkwangOurYouthAlbum() {
                 <Link to='/SeoEunkwangOurYouthAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
-                <img src={MainH2deco} alt="서은광 앨범 꾸미기" />Blooming Wings<img src={MainH2deco} alt="서은광 앨범 꾸미기" />
+                <img src={MainH2deco} alt="서은광 앨범 꾸미기" />OUR YOUTH<img src={MainH2deco} alt="서은광 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 순수한 마음도<br />
