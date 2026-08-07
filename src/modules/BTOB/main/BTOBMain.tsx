@@ -17,6 +17,8 @@ import Btob_m_LimHyunsik_img from './img/Bto_mm_Limhyunsik_img.jpg';
 import Btob_m_Peniel_img from './img/Bto_mm_Peniel_img.jpg';
 import Btob_m_YookSungjae_img from './img/Bto_mm_Yooksungjae_img.jpg';
 
+import BtobInstagram_icon_img from '../../triples/main/img/triples_instagram_icon.png';
+import BtobYoutube_icon_img from '../../triples/main/img/triples_youtube_icon.png';
 
 //#191919
 
@@ -139,10 +141,10 @@ export default function BTOBMain() {
                 <section className='tri_m_event_tr'>
                     <Link to='/Bol4Event' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="btob event" />
+                            <img src={Btob_m_img} alt="btob event" />
                             <div>
                                 <h4>
-                                    born<br />
+                                    비투비<br />
                                     이벤트
                                 </h4>
                             </div>
@@ -167,6 +169,33 @@ export default function BTOBMain() {
                     </Link>
                 </section>
             </section>
+
+            <h2 className='tri_m_h2 btob_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full btob_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/official_btob" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={BtobInstagram_icon_img} alt="비투비 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@BTOB_COMPANY" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={BtobYoutube_icon_img} alt="비투비 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                </section>
+            </section>
+
 
             <FooterPart FooterPartText='ⓒ 비투비 컴퍼니' />
         </div>
