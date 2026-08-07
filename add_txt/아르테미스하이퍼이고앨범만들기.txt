@@ -34,8 +34,8 @@ export default function ArtmsHyperEgoAlbum() {
                 <img src={MainH2deco} alt="ARTMS" />&lt;Hyper-Ego&gt;<img src={MainH2deco} alt="ARTMS" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                한계를 생각하지<br />
-                않고 열심히<br />
+                새로운 차원의 레벨로<br />
+                도약하는 마음으로 <br />
                 준비한 앨범이에요!
             </p>
             <img src='' alt="AlldayProjectAlldayProjectAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
