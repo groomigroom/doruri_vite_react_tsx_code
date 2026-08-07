@@ -206,7 +206,8 @@ export default function StrayKidsThisAndThatAlbum() {
                             </p>
                         </td>
                     </tr>
-                    <tr>
+                   
+                    <tr className='str_StrayKidsSKZReplay2026Pt1Album_intropa_tb2_tr9'>
                         <td>
                             <p>
                                 8
@@ -214,166 +215,12 @@ export default function StrayKidsThisAndThatAlbum() {
                         </td>
                         <td>
                             <p>
-                                급류
+                                This & That &#40;Festival Version&#41;
                             </p>
                         </td>
                         <td>
                             <p>
-                                Stray Kids, 승민
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                9
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                MIC&BRUSH
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Stray Kids, 현진
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                10
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                PERFUME
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Stray Kids, 승민
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                11
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                BABY
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Stray Kids, 방찬
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                12
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Don&apos;t Say
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Stray Kids, 한
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                13
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                명
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Stray Kids, 창빈
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                14
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                REV IT UP
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Stray Kids, 필릭스
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                15
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                나지막이 &#40;Live&#41;
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Stray Kids, 리노
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                16
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                안아줄게요 &#40;Live&#41;
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Stray Kids, 아이엔
-                            </p>
-                        </td>
-                    </tr>
-
-                    <tr className='str_StrayKidsSKZReplay2026Pt1Album_intropa_tb2_tr9'>
-                        <td>
-                            <p>
-                                17
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                별, 빛 &#40;STAY&#41;
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Stray Kids
+                                Stray Kids, Tele
                             </p>
                         </td>
                     </tr>
