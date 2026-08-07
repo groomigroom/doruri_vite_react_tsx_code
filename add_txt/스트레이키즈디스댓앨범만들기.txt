@@ -163,12 +163,12 @@ export default function StrayKidsThisAndThatAlbum() {
                         </td>
                         <td>
                             <p>
-                                행복 뭐 별거 없네요
+                                I Do
                             </p>
                         </td>
                         <td>
                             <p>
-                                Stray Kids, 아이엔
+                                Stray Kids
                             </p>
                         </td>
                     </tr>
@@ -180,12 +180,12 @@ export default function StrayKidsThisAndThatAlbum() {
                         </td>
                         <td>
                             <p>
-                                Goodbye
+                                Way Out
                             </p>
                         </td>
                         <td>
                             <p>
-                                Stray Kids, 승민
+                                Stray Kids
                             </p>
                         </td>
                     </tr>
@@ -197,12 +197,12 @@ export default function StrayKidsThisAndThatAlbum() {
                         </td>
                         <td>
                             <p>
-                                제자리걸음 &#40;Still here&#41;
+                                그날
                             </p>
                         </td>
                         <td>
                             <p>
-                                Stray Kids, 승민
+                                Stray Kids
                             </p>
                         </td>
                     </tr>
