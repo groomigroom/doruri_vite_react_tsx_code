@@ -6,7 +6,7 @@
 
     .all_m_full {
         width: 100vw;
-        height: 1933px;
+        height: 2183px;
         position: relative;
         background-color: #fcfcfc;
     }
@@ -67,6 +67,16 @@
         top: 1643px;
     }
 
+    .allday_m_h2_6 {
+        position: absolute;
+        top: 1833px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .allday_m_sns_tr_full {
+        top: 1893px;
+    }
 }
 
 @media (max-width: 975px) {
