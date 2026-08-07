@@ -22,9 +22,9 @@ export default function StrayKidsThisAndThatAlbum() {
                 <img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />THIS & THAT<img src={MainH2deco} alt="Stray Kids 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                다양한 곡들을<br />
-                모아서<br />
-                앨범을 준비했어요!
+                새로운 도전을<br />
+                한다는 생각으로<br />
+                준비한 앨범이에요!
             </p>
             <img src={StrayKidsSKZReplay2026Pt1Album_img} alt="StrayKidsSKZReplay2026Pt1Album" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
