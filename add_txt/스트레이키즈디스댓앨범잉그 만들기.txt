@@ -56,7 +56,7 @@ export default function StrayKidsThisAndThatAlbumEng() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
                         <td>
                             <p>
-                                기획사
+                                agency
                             </p>
                         </td>
                         <td>
@@ -73,17 +73,17 @@ export default function StrayKidsThisAndThatAlbumEng() {
                     <tr className='str_StrayKidsSKZReplay2026Pt1Album_intropa_tb2_tr1'>
                         <td>
                             <p>
-                                번호
+                                number
                             </p>
                         </td>
                         <td>
                             <p>
-                                제목
+                                title
                             </p>
                         </td>
                         <td>
                             <p>
-                                가수
+                                singer
                             </p>
                         </td>
                     </tr>
