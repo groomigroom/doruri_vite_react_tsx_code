@@ -2,7 +2,7 @@
 
     .epi_m_full {
         width: 100vw;
-        height: 1233px;
+        height: 1983px;
         position: relative;
         background-color: #fcfcfc;
     }
@@ -23,6 +23,52 @@
     .epi_m_mem_tr_full>section>a>article>h4 {
         border: 5px solid #000000;
     }
+
+    .epikhigh_m_h2_4 {
+        position: absolute;
+        top: 1133px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .epikhigh_m_event_tr_full {
+        top: 1193px;
+    }
+
+    .epikhigh_m_event_a img,
+    .epikhigh_m_event_a div {
+        border: 5px solid #000000;
+    }
+
+    .epikhigh_m_h2_5 {
+        position: absolute;
+        top: 1383px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .epikhigh_m_album_tr_full {
+        top: 1443px;
+    }
+
+    .epikhigh_m_album_a img,
+    .epikhigh_m_album_a div {
+        border: 5px solid #000000;
+    }
+
+    .epikhigh_m_h2_6 {
+        position: absolute;
+        top: 1633px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .epikhigh_m_sns_tr_full {
+        width: 150px;
+        top: 1693px;
+    }
+
+
 }
 
 @media (max-width: 975px) {
