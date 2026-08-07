@@ -95,11 +95,12 @@ export default function SeoEunkwangOurYouthAlbum() {
                         </td>
                         <td>
                             <p>
-                                Drama Queen
+                                Feel Alive &#40;Feat. 프니엘&#41;
                             </p>
                         </td>
                     </tr>
-                    <tr>
+                    
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
                         <td>
                             <p>
                                 2
@@ -107,44 +108,7 @@ export default function SeoEunkwangOurYouthAlbum() {
                         </td>
                         <td>
                             <p>
-                                착하다는 말이 제일 싫어
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                3
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                안녕 &#40;Hello, Goodbye&#41;
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                4
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                너만 아니면 돼 &#40;Feat. 미료 of 브라운아이드걸스&#41;
-                            </p>
-                        </td>
-                    </tr>
-
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
-                        <td>
-                            <p>
-                                5
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                364
+                                그 여름의 우리
                             </p>
                         </td>
                     </tr>
