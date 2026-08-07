@@ -37,7 +37,7 @@ export default function StrayKidsThisAndThatAlbum() {
                         </td>
                         <td>
                             <p>
-                                2026.08.01.
+                                2026.08.07.
                             </p>
                         </td>
                     </tr>
@@ -49,7 +49,7 @@ export default function StrayKidsThisAndThatAlbum() {
                         </td>
                         <td>
                             <p>
-                                발라드, 랩/힙합, 댄스, R&B/Soul, 재즈
+                                랩/힙합, 록/메탈, 일렉트로니카
                             </p>
                         </td>
                     </tr>
