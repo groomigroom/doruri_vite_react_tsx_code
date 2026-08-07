@@ -129,12 +129,12 @@ export default function StrayKidsThisAndThatAlbum() {
                         </td>
                         <td>
                             <p>
-                                LOVER
+                                After You
                             </p>
                         </td>
                         <td>
                             <p>
-                                Stray Kids, 현진
+                                Stray Kids
                             </p>
                         </td>
                     </tr>
@@ -146,12 +146,12 @@ export default function StrayKidsThisAndThatAlbum() {
                         </td>
                         <td>
                             <p>
-                                유성우 &#40;Raining stars&#41;
+                                FARMING
                             </p>
                         </td>
                         <td>
                             <p>
-                                Stray Kids, 한
+                                Stray Kids
                             </p>
                         </td>
                     </tr>
