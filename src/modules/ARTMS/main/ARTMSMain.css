@@ -2,7 +2,7 @@
 
     .art_m_full {
         width: 100vw;
-        height: 1433px;
+        height: 2183px;
         position: relative;
         background-color: #fcfcfc;
     }
@@ -31,6 +31,39 @@
         position: absolute;
         top: 190px;
         left: 95px;
+    }
+
+    .artms_m_h2_4 {
+        position: absolute;
+        top: 1333px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .artms_m_event_tr_full {
+        top: 1393px;
+    }
+
+    .artms_m_h2_5 {
+        position: absolute;
+        top: 1583px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .artms_m_album_tr_full {
+        top: 1643px;
+    }
+
+    .artms_m_h2_6 {
+        position: absolute;
+        top: 1833px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .artms_m_sns_tr_full {
+        top: 1893px;
     }
 }
 
