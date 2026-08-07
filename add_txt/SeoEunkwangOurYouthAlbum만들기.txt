@@ -114,7 +114,7 @@ export default function SeoEunkwangOurYouthAlbum() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ YH엔터테인먼트' />
+            <FooterPart FooterPartText='ⓒ 비투비 컴퍼니' />
         </div>
     );
 }
