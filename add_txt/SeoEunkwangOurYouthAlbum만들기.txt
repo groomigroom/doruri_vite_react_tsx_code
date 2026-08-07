@@ -27,11 +27,11 @@ export default function SeoEunkwangOurYouthAlbum() {
                 <img src={MainH2deco} alt="서은광 앨범 꾸미기" />OUR YOUTH<img src={MainH2deco} alt="서은광 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                순수한 마음도<br />
+                소중한 마음도<br />
                 생각해 보며<br />
                 준비한 앨범이에요!
             </p>
-            <img src={YenaBloomingWingsAlbum_img} alt="YenaBloomingWingsAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src='' alt="SeoEunkwangOurYouthAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -42,7 +42,7 @@ export default function SeoEunkwangOurYouthAlbum() {
                         </td>
                         <td>
                             <p>
-                                2025.07.29.
+                                2025.08.06.
                             </p>
                         </td>
                     </tr>
@@ -53,8 +53,8 @@ export default function SeoEunkwangOurYouthAlbum() {
                             </p>
                         </td>
                         <td>
-                            <p>
-                                록/메탈, 댄스, 포크/블루스, 일렉트로니카
+                            <p>   
+                                록/메탈, 포크/블루스
                             </p>
                         </td>
                     </tr>
@@ -66,7 +66,7 @@ export default function SeoEunkwangOurYouthAlbum() {
                         </td>
                         <td>
                             <p>
-                                YH엔터테인먼트
+                                비투비컴퍼니
                             </p>
                         </td>
                     </tr>
