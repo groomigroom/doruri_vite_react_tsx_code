@@ -27,8 +27,8 @@ export default function ArtmsHyperEgoAlbum() {
         <div className="all_AlldayProjectAlldayProjectAlbum_full">
             <Menu />
             <section className="home_translate">
-                <Link to='/AlldayProjectAlldayProjectAlbum' className="on">한국어</Link>
-                <Link to='/AlldayProjectAlldayProjectAlbumEng'>English</Link>
+                <Link to='/ArtmsHyperEgoAlbum' className="on">한국어</Link>
+                <Link to='/ArtmsHyperEgoAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="ALLDAY PROJECT deco" />&lt;Hyper-Ego&gt;<img src={MainH2deco} alt="ALLDAY PROJECT deco" /></h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
