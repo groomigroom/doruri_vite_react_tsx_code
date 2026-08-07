@@ -41,17 +41,17 @@ export default function IdnttUnevermetMainEng() {
         <div className='idn_Unevermet_m_full'>
             <Menu />
             <section className="home_translate">
-                <Link to='/IdnttUnevermetMain' className="on">한국어</Link>
-                <Link to='/IdnttUnevermetMainEng'>English</Link>
+                <Link to='/IdnttUnevermetMain'>한국어</Link>
+                <Link to='/IdnttUnevermetMainEng' className="on">English</Link>
             </section>
-            <img src='' alt="unevermet 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="unevermet 꾸미기" />unevermet<img src={MainH2Deco} alt="unevermet 꾸미기" /></h2>
+            <img src='' alt="unevermet logo" className='tri_m_logo' />
+            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="unevermet deco" />unevermet<img src={MainH2Deco} alt="unevermet deco" /></h2>
             <p className='tri_m_intropp'>
                 Think about the heart<br/>
                 that connects<br/>
                 with &apos;unevermet&apos;!
             </p>
-            <img src='' className='tri_m_img' alt='unevermet 이미지' />
+            <img src='' className='tri_m_img' alt='unevermet' />
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full idn_Unevermet_m_mem_tr_full'>
 
