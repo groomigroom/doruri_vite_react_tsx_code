@@ -207,3 +207,59 @@ export default function ArtmsHyperEgoAlbum() {
         </div>
     );
 }
+
+
+곡정보
+좋아요
+듣기
+담기
+다운
+뮤비
+
+1
+From Wings To Soul
+ARTMS (아르테미스)
+좋아요 87
+
+
+
+
+
+2
+ Born Stunner
+ARTMS (아르테미스)
+좋아요 95
+
+
+
+
+
+3
+ Blue Blood
+ARTMS (아르테미스)
+좋아요 158
+
+
+
+
+
+4
+Icarus Gang
+ARTMS (아르테미스)
+좋아요 79
+
+
+
+
+
+5
+Hyper Crush
+ARTMS (아르테미스)
+좋아요 81
+
+
+
+
+
+6
+Pixel Memory
