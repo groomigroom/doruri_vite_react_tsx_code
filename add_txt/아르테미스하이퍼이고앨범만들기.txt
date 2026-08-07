@@ -30,7 +30,9 @@ export default function ArtmsHyperEgoAlbum() {
                 <Link to='/ArtmsHyperEgoAlbum' className="on">한국어</Link>
                 <Link to='/ArtmsHyperEgoAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="ALLDAY PROJECT deco" />&lt;Hyper-Ego&gt;<img src={MainH2deco} alt="ALLDAY PROJECT deco" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="ARTMS" />&lt;Hyper-Ego&gt;<img src={MainH2deco} alt="ARTMS" />
+            </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 한계를 생각하지<br />
                 않고 열심히<br />
