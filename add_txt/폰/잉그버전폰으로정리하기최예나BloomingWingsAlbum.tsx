@@ -132,7 +132,7 @@ Hello, Goodbye
 </td>
 <td>
 <p>
-너만 아니면 돼 &#40;Feat. Miryo of Brwon Eyed Girls&#41;
+As long as it&apos;s not you너만 아니면 돼 &#40;Feat. Miryo of Brwon Eyed Girls&#41;
 </p>
 </td>
 </tr>
