@@ -16,6 +16,9 @@ import Artms_Kimlip_m_img from './img/Art_mm_Kimlip_img.jpg';
 import Artms_Jinsoul_m_img from './img/Art_mm_Jinsoul_img.jpg';
 import Artms_Choerry_m_img from './img/Art_mm_Choerry_img.jpg';
 
+import ArtmsInstagram_icon_img from '../../triples/main/img/triples_instagram_icon.png';
+import ArtmsYoutube_icon_img from '../../triples/main/img/triples_youtube_icon.png';
+
 
 //191919
 
@@ -125,12 +128,12 @@ export default function ARTMSMain() {
             <h2 className='tri_m_h2 artms_m_h2_4'>▪ 이벤트 ▪</h2>
             <section className='tri_m_event_tr_full artms_m_event_tr_full'>
                 <section className='tri_m_event_tr'>
-                    <Link to='/Bol4Event' className='tri_m_event_a'>
+                    <Link to='/ArtmsEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="artms event" />
+                            <img src={Artms_m_img} alt="artms event" />
                             <div>
                                 <h4>
-                                    born<br />
+                                    Artms<br />
                                     이벤트
                                 </h4>
                             </div>
@@ -153,6 +156,32 @@ export default function ARTMSMain() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 artms_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full artms_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/official_artms" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={ArtmsInstagram_icon_img} alt="DAY6 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@official_artms" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={ArtmsYoutube_icon_img} alt="DAY6 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
