@@ -18,6 +18,9 @@ import All_m_MemYoungseo_img from './img/allday_m_mem_Youngseo.jpg';
 
 import AlldayProjectIDonBargainAlbum_img from '../albums/img/AlldayProjectIDonBargainAlbum_img.jpg';
 
+import AlldayInstagram_icon_img from '../../10CM/main/img/TenCM_instagram_icon_img.png';
+import AlldayYoutube_icon_img from '../../10CM/main/img/TenCM_youtube_icon_img.png';
+
 // #000000
 
 export default function ALLDAY_PROJECTMain() {
@@ -155,6 +158,32 @@ export default function ALLDAY_PROJECTMain() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 allday_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full allday_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/allday_project" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a allday_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={AlldayInstagram_icon_img} alt="ALLDAY PROJECT 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@ALLDAY_PROJECT" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a allday_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={AlldayYoutube_icon_img} alt="ALLDAY PROJECT 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
