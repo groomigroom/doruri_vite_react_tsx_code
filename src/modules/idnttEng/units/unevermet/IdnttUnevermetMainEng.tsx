@@ -1,15 +1,16 @@
 import { Link } from 'react-router-dom';
+import { EngPage } from '../../../HomeEng/EngPage';
 
 import '../../../triples/main/TriplesMain.css';
-import './IdnttUnevermetMain.css';
+import '../../../idntt/units/unevermet/IdnttUnevermetMain.css';
 
 // import Tri_m_logo from './img/tri_m_logo.svg';
 // import Tri_m_img from './img/tri_m_img.jpg';
 
 import MainH2Deco from '../../../img/main_h2_deco.png';
 
-import Menu from '../../../Menu';
-import FooterPart from '../../../FooterPart';
+import MenuEng from '../../../HomeEng/MenuEng';
+import FooterPartEng from '../../../FooterPartEng';
 
 // import Idn_m_memid1 from './img/tri_m_memS1.jpg';
 // import Idn_m_memid2 from './img/tri_m_memS2.jpg';
@@ -37,9 +38,11 @@ import FooterPart from '../../../FooterPart';
 // import Idn_m_memid24 from './img/tri_m_memS24.jpg';
 
 export default function IdnttUnevermetMainEng() {
+    EngPage('en', 'ko');
+
     return (
         <div className='idn_Unevermet_m_full'>
-            <Menu />
+            <MenuEng />
             <section className="home_translate">
                 <Link to='/IdnttUnevermetMain'>한국어</Link>
                 <Link to='/IdnttUnevermetMainEng' className="on">English</Link>
@@ -47,8 +50,8 @@ export default function IdnttUnevermetMainEng() {
             <img src='' alt="unevermet logo" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="unevermet deco" />unevermet<img src={MainH2Deco} alt="unevermet deco" /></h2>
             <p className='tri_m_intropp'>
-                Think about the heart<br/>
-                that connects<br/>
+                Think about the heart<br />
+                that connects<br />
                 with &apos;unevermet&apos;!
             </p>
             <img src='' className='tri_m_img' alt='unevermet' />
@@ -289,7 +292,3 @@ export default function IdnttUnevermetMainEng() {
         </div >
     );
 };
-
-Let&apos;s reflect on the<br/>
-sense of essence<br/>
-together with &apos;yesweare&apos;!
