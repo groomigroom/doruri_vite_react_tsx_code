@@ -10,6 +10,11 @@ import Yena_m_logo from './img/Yena_m_logo_191919.svg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 import Yena_m_img from './img/Yen_m_img.jpg';
 
+import YenaBloomingWingsAlbum_img from '../albums/img/YenaBloomingWingsAlbum_img.jpg';
+
+import YenaInstagram_icon_img from '../../triples/main/img/triples_instagram_icon.png';
+import YenaYoutube_icon_img from '../../triples/main/img/triples_youtube_icon.png';
+
 //#191919
 
 export default function YenaMain() {
@@ -57,9 +62,9 @@ export default function YenaMain() {
             <h2 className='tri_m_h2 yena_m_h2_4'>▪ 이벤트 ▪</h2>
             <section className='tri_m_event_tr_full yena_m_event_tr_full'>
                 <section className='tri_m_event_tr'>
-                    <Link to='/Bol4Event' className='tri_m_event_a'>
+                    <Link to='/YenaEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
-                            <img src='' alt="yena event" />
+                            <img src={Yena_m_img} alt="yena event" />
                             <div>
                                 <h4>
                                     yena<br />
@@ -74,16 +79,43 @@ export default function YenaMain() {
             <h2 className='tri_m_h2 yena_m_h2_5'>▪ 최신 앨범 ▪</h2>
             <section className='tri_m_album_tr_full yena_m_album_tr_full'>
                 <section className='tri_m_album_tr'>
-                    <Link to='/yena' className='tri_m_album_a'>
+                    <Link to='/YenaBloomingWingsAlbum' className='tri_m_album_a'>
                         <article className='tri_m_albums'>
-                            <img src='' alt="Bol4SummerPleaseAlbum" />
+                            <img src={YenaBloomingWingsAlbum_img} alt="YenaBloomingWingsAlbum" />
                             <div>
                                 <h4>
-                                    yena
+                                    Blooming<br />
+                                    Wings
                                 </h4>
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 yena_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full yena_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/_yenacore" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={YenaInstagram_icon_img} alt="최예나 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/@YENA_OFFICIAL" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={YenaYoutube_icon_img} alt="최예나 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
