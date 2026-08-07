@@ -1,6 +1,6 @@
 .han_m_full {
     width: 100vw;
-    height: 1243px;
+    height: 1993px;
     position: relative;
     background-color: #fcfcfc;
 }
@@ -8,4 +8,37 @@
 .han_m_mem_tr_full {
     width: 150px;
     height: 150px;
+}
+
+.hanroro_m_h2_4 {
+    position: absolute;
+    top: 1143px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hanroro_m_event_tr_full {
+    top: 1203px;
+}
+
+.hanroro_m_h2_5 {
+    position: absolute;
+    top: 1393px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hanroro_m_album_tr_full {
+    top: 1453px;
+}
+
+.hanroro_m_h2_6 {
+    position: absolute;
+    top: 1643px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hanroro_m_sns_tr_full {
+    top: 1703px;
 }
