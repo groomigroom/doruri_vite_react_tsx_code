@@ -1,6 +1,8 @@
 https://www.melon.com/album/detail.htm?albumId=14428706
 
 
+새로운 도전을 한다는 생각으로 준비한 앨범이에요!
+
 StrayKidsThisAndThatAlbum.tsx
 skip navigation
 메뉴
