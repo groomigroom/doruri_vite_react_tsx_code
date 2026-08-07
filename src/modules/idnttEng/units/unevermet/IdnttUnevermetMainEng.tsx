@@ -52,7 +52,7 @@ export default function IdnttUnevermetMainEng() {
                 with &apos;unevermet&apos;!
             </p>
             <img src='' className='tri_m_img' alt='unevermet' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
+            <h2 className='tri_m_h2 tri_m_h2_2'>▪ members ▪</h2>
             <section className='tri_m_mem_tr_full idn_Unevermet_m_mem_tr_full'>
 
                 <section className='idn_Unevermet_m_mem_tr4'>
