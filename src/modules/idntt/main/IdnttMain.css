@@ -1,6 +1,6 @@
 .idn_m_full {
     width: 100vw;
-    height: 2703px;
+    height: 3183px;
     position: relative;
     background-color: #fcfcfc;
 }
@@ -58,4 +58,29 @@
     top: 2583px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.idntt_m_album_tr_full {
+    top: 2643px;
+}
+
+.idntt_m_album_a img,
+.idntt_m_album_a div {
+    border: 5px solid #0957c3;
+}
+
+.idntt_m_h2_6 {
+    position: absolute;
+    top: 2833px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.idntt_m_sns_tr_full {
+    top: 2893px;
+}
+
+.idntt_m_sns_a img,
+.idntt_m_sns_a div {
+    border: 5px solid #0957c3;
 }
