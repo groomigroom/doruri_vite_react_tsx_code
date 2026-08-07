@@ -14,6 +14,10 @@ import EpikHighTablo_m_img from './img/Epi_mm_Tablo_img.jpg';
 import EpikHighMithra_m_img from './img/Epi_mm_Mithra_img.jpg';
 import EpikHighTukutz_m_img from './img/Epi_mm_Tukutz_img.jpg';
 
+import EpikHighPumpCollectorsEditionAlbum_img from '../albums/img/EpikHighPumpCollectorsEditionAlbum_img.jpg';
+
+import EpikHighYoutube_icon_img from '../../10CM/main/img/TenCM_youtube_icon_img.png';
+
 //#000000
 
 export default function EpikHighMain() {
@@ -80,6 +84,58 @@ export default function EpikHighMain() {
                 </section>
 
             </section>
+
+            <h2 className='tri_m_h2 epikhigh_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full epikhigh_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/EpikHighEvent' className='tri_m_event_a epikhigh_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src={EpikHigh_m_img} alt="epikhigh event" />
+                            <div>
+                                <h4>
+                                    에픽하이<br />
+                                    이벤트
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 epikhigh_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full epikhigh_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/EpikHighPumpCollectorsEditionAlbum' className='tri_m_album_a epikhigh_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={EpikHighPumpCollectorsEditionAlbum_img} alt="EpikHighPumpCollectorsEditionAlbum" />
+                            <div>
+                                <h4>
+                                    PUMP<br />
+                                    COLLECTOR&apos;S<br />
+                                    EDITION
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 epikhigh_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full epikhigh_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.youtube.com/@OfficialEpikHigh" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a epikhigh_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={EpikHighYoutube_icon_img} alt="에픽하이 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ 아워즈' />
         </div >
     );
