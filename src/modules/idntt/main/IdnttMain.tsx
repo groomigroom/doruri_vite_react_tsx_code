@@ -32,6 +32,9 @@ import Idn_m_memid19_img from './img/Idn_mm_id19_img.jpg';
 import Idn_m_memid20_img from './img/Idn_mm_id20_img.jpg';
 import Idn_m_memid21_img from './img/Idn_mm_id21_img.jpg';
 
+import IdnttInstagram_icon_img from './img/IdnttInstgram_icon_img.png';
+import IdnttYoutube_icon_img from './img/IdnttYoutube_icon_img.png';
+
 // import IdnttUnevermet_m_img from '../units';
 
 //#0957c3
@@ -495,7 +498,7 @@ export default function IdnttMain() {
             <h2 className='tri_m_h2 idntt_m_h2_5'>▪ 최신 앨범 ▪</h2>
             <section className='tri_m_album_tr_full idntt_m_album_tr_full'>
                 <section className='tri_m_album_tr'>
-                    <Link to='/idntt' className='tri_m_album_a'>
+                    <Link to='/idntt' className='tri_m_album_a idntt_m_album_a'>
                         <article className='tri_m_albums'>
                             <img src='' alt="Bol4SummerPleaseAlbum" />
                             <div>
@@ -505,6 +508,32 @@ export default function IdnttMain() {
                             </div>
                         </article>
                     </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 idntt_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full idntt_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/idntt_cosmo" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a idntt_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={IdnttInstagram_icon_img} alt="DAY6 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCmnuDfK6fqL2hIWKjAmXJ-Q" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a idntt_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={IdnttYoutube_icon_img} alt="DAY6 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
                 </section>
             </section>
 
