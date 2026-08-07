@@ -15,7 +15,10 @@ import Day_m_MemYoungK_img from './img/day6_m_mem_Youngk.jpg';
 import Day_m_MemWonpil_img from './img/day6_m_mem_Wonpil.jpg';
 import Day_m_MemDowoon_img from './img/day6_m_mem_Dowoon.jpg';
 
-import Day6EvenOfDay_m_img from '../units/EvenOfDay/img/Day6EvenOfDay_m_img.jpg'
+import Day6EvenOfDay_m_img from '../units/EvenOfDay/img/Day6EvenOfDay_m_img.jpg';
+
+import Day6Instagram_icon_img from '../../triples/main/img/triples_instagram_icon.png';
+import Day6Youtube_icon_img from '../../triples/main/img/triples_instagram_icon.png';
 
 //191919
 
@@ -150,6 +153,33 @@ export default function DAY6Main() {
                     </Link>
                 </section>
             </section>
+
+            <h2 className='tri_m_h2 day6_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full day6_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/day6kilogram" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={Day6Instagram_icon_img} alt="DAY6 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCp-pqXsizklX3ZHvLxXyhxw" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={Day6Youtube_icon_img} alt="DAY6 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                </section>
+            </section>
+
 
             <FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
         </div>
