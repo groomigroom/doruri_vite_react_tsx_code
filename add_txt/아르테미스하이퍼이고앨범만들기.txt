@@ -104,7 +104,7 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                ONE MORE TIME
+                                dgsdg
                             </p>
                         </td>
                     </tr>
@@ -116,12 +116,7 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                LOOK AT ME
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                ALLDAY PROJECT
+                                dgsdg
                             </p>
                         </td>
                     </tr>
@@ -133,12 +128,7 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                YOU AND I
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                ALLDAY PROJECT
+                                dgsdg
                             </p>
                         </td>
                     </tr>
@@ -150,12 +140,7 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                WHERE YOU AT
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                ALLDAY PROJECT, 애니, 우찬
+                                dgsdg
                             </p>
                         </td>
                     </tr>
@@ -167,12 +152,7 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                HOT
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                ALLDAY PROJECT, 타잔, 베일리
+                                dgsdg
                             </p>
                         </td>
                     </tr>
@@ -185,12 +165,7 @@ export default function ArtmsHyperEgoAlbum() {
                         </td>
                         <td>
                             <p>
-                                MEDUSA
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                ALLDAY PROJECT, 타잔
+                                dgsdg
                             </p>
                         </td>
                     </tr>
