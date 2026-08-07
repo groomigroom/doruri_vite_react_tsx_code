@@ -82,11 +82,11 @@ export default function IdnttUnevermetMainEng() {
                         </article>
                     </Link>
 
-                    <Link to='/Idn_m_memid5'>
+                    <Link to='/Idn_m_memid5Eng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="이재영 이미지" />
+                            <img src='' alt="leejaeyoung" />
                             <div>
-                                <h4>이재영</h4>
+                                <h4>leejaeyoung</h4>
                             </div>
                         </article>
                     </Link>
@@ -94,29 +94,29 @@ export default function IdnttUnevermetMainEng() {
 
                 <section className='idn_Unevermet_m_mem_tr3'>
 
-                    <Link to='/Idn_m_memid6'>
+                    <Link to='/Idn_m_memid6Eng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="김주호 이미지" />
+                            <img src='' alt="kimjuho" />
                             <div>
-                                <h4>김주호</h4>
+                                <h4>kimjuho</h4>
                             </div>
                         </article>
                     </Link>
 
-                    <Link to='/Idn_m_memid7'>
+                    <Link to='/Idn_m_memid7Eng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="남지운 이미지" />
+                            <img src='' alt="namjiwoon" />
                             <div>
-                                <h4>남지운</h4>
+                                <h4>namjiwoon</h4>
                             </div>
                         </article>
                     </Link>
 
-                    <Link to='/Idn_m_memid8'>
+                    <Link to='/Idn_m_memid8Eng'>
                         <article className='tri_m_mem'>
-                            <img src='' alt="이환희 이미지" />
+                            <img src='' alt="leehwanhee" />
                             <div>
-                                <h4>이환희</h4>
+                                <h4>leehwanhee</h4>
                             </div>
                         </article>
                     </Link>
@@ -285,19 +285,10 @@ export default function IdnttUnevermetMainEng() {
             </section>
 
 
-            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div >
     );
 };
-
-Think about the heart<br/>
-that connects<br/>
-with &apos;unevermet&apos;!
-
-
-&apos;yesweare&apos;과 함께<br/>
-본질의 감각을<br/>
-생각해 봐요!
 
 Let&apos;s reflect on the<br/>
 sense of essence<br/>
