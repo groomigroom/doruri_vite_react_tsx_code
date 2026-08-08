@@ -23,9 +23,9 @@ export default function BtsNormalAlbumEng() {
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="bts" />NORMAL<img src={MainH2deco} alt="bts" /></h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                #####밤새 내린 비에 젖은<br />
-                꽃잎들까지도 다 봄이라는<br />
-                생각을 해보며 준비한 앨범이에요!
+                This is an album prepared<br />
+                with thoughts of<br />
+                a bigger world as well!
             </p>
             <img src={BtsNormalAlbum_img} alt="NORMAL" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
