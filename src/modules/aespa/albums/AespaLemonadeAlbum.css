@@ -1,1 +1,9 @@
-AespaLemonadeAlbum.css
+.aespa_AespaLemonadeAlbum_full {
+    width: 100vw;
+    height: 1533px;
+    position: relative;
+}
+
+.aespa_AespaLemonadeAlbum_tb2 {
+    height: 600px;
+}
