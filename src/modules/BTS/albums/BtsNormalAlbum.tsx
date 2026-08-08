@@ -119,18 +119,18 @@ export default function BtsNormalAlbum() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
                         <td>
                             <p>
-                                3
+                                4
                             </p>
                         </td>
                         <td>
                             <p>
-                                ㅌㅌ
+                                NORMAL &#40;Korean Ver.&#41; &#40;Clean Ver.&#41;
                             </p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ 켄버스' />
+            <FooterPart FooterPartText='ⓒ 빅히트 뮤직' />
         </div>
     );
 }
