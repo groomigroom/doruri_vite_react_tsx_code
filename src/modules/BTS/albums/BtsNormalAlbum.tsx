@@ -88,7 +88,7 @@ export default function BtsNormalAlbum() {
                         </td>
                         <td>
                             <p>
-                                Find You
+                                NORMAL &#40;Explicit Ver.&#41;
                             </p>
                         </td>
                     </tr>
@@ -100,7 +100,7 @@ export default function BtsNormalAlbum() {
                         </td>
                         <td>
                             <p>
-                                아름다운 안녕
+                                ㅌㅌ
                             </p>
                         </td>
                     </tr>
@@ -112,7 +112,7 @@ export default function BtsNormalAlbum() {
                         </td>
                         <td>
                             <p>
-                                나를 봄으로 데려가!
+                                ㅌㅌ
                             </p>
                         </td>
                     </tr>
