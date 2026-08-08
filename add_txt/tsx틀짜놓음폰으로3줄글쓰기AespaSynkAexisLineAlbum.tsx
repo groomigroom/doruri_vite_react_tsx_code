@@ -3,6 +3,8 @@ AespaSynkAexisLineAlbum.tsx
 3줄 글 폰으로 하기.
 
 
+  This is an album prepared with songs that have matured even further!
+
 import { Link } from 'react-router-dom';
 
 import './TriplesBabyFlowerCityRemixesAlbum.css';
