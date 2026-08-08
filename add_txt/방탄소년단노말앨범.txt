@@ -3,6 +3,8 @@ https://kko.to/BXnKnFAPiK
 3줄 소개 글쓰기!!!!!!!!!!
 
 
+그리고 잉그 하기
+
 BtsNormalAlbum.tsx
 
 
