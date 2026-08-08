@@ -35,7 +35,7 @@ export default function BtsNormalAlbum() {
                         </td>
                         <td>
                             <p>
-                                2026.04.22.
+                                2026.07.17.
                             </p>
                         </td>
                     </tr>
@@ -47,7 +47,7 @@ export default function BtsNormalAlbum() {
                         </td>
                         <td>
                             <p>
-                                인디음악, 포크/블루스, 록/메탈
+                                R&B/Soul
                             </p>
                         </td>
                     </tr>
