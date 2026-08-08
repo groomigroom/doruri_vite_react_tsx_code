@@ -517,6 +517,7 @@ import BTSMain from './BTS/main/BTSMain';
 import BTSMainEng from './BTSEng/main/BTSMainEng';
 
 import BtsNormalAlbum from './BTS/albums/BtsNormalAlbum';
+import BtsNormalAlbumEng from './BTSEng/albums/BtsNormalAlbumEng';
 
 import BTSMemJhope from './BTS/members/BTSMemJhope';
 import BTSMemJhopeEng from './BTSEng/members/BTSMemJhopeEng';
@@ -1051,6 +1052,7 @@ export default function RoutesSetup() {
             <Route path='/BTSMainEng' element={<BTSMainEng />}></Route>
 
             <Route path='/BtsNormalAlbum' element={<BtsNormalAlbum />}></Route>
+            <Route path='/BtsNormalAlbumEng' element={<BtsNormalAlbumEng />}></Route>
 
             <Route path='/BTSMemJhope' element={<BTSMemJhope />}></Route>
             <Route path='/BTSMemJhopeEng' element={<BTSMemJhopeEng />}></Route>
