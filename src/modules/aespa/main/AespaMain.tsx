@@ -1,177 +1,223 @@
 import { Link } from 'react-router-dom';
 
-import '../../triples/main/TriplesMain.css'
-import './AespaMain.css';
+import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
+import './AespaLemonadeAlbum.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-import Aes_m_logo from './img/Aes_m_logo.svg';
-import MainH2Deco from '../../img/main_h2_deco.png';
-import Aes_m_img from './img/aespa_m_aespa.jpg';
+import AespaLemonadeAlbum_img from './img/AespaLemonadeAlbum_img.jpg';
 
-import Aes_m_MemKarina_img from './img/aespa_m_mem_Karina.jpg';
-import Aes_m_MemJijell_img from './img/aespa_m_mem_Jijel.jpg';
-import Aes_m_MemWinter_img from './img/aespa_m_mem_Winter.jpg';
-import Aes_m_MemNingning_img from './img/aespa_m_mem_Ningning.jpg';
+import MainH2deco from '../../img/main_h2_deco.png';
 
-import AespaInstagram_icon_img from '../../triples/main/img/triples_instagram_icon.png';
-import AespaYoutube_icon_img from '../../triples/main/img/triples_youtube_icon.png';
-
-//191919
-//ffffff
-
-export default function AespaMain() {
+export default function AespaLemonadeAlbum() {
     return (
-        <div className='aes_m_full'>
+        <div className="aespa_AespaLemonadeAlbum_full">
             <Menu />
             <section className="home_translate">
-                <Link to='/AespaMain' className="on">한국어</Link>
-                <Link to='/AespaMainEng'>English</Link>
+                <Link to='/AespaLemonadeAlbum' className="on">한국어</Link>
+                <Link to='/AespaLemonadeAlbumEng'>English</Link>
             </section>
-            <img src={Aes_m_logo} alt="aespa 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="aespa 로고 꾸미기" />aespa<img src={MainH2Deco} alt="aespa 로고 꾸미기" /></h2>
-            <p className='tri_m_intropp'>
-                &apos;aespa&apos;와 함께<br />
-                다른 세계에서<br />
-                Lemonade를 만들어 봐요!
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="aespa deco" />LEMONADE - The 2nd Album<img src={MainH2deco} alt="aespa deco" />
+            </h2>
+            <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
+                견고해진 음악적<br />
+                성장의 이야기도<br />
+                담은 앨범이에요!
             </p>
-            <img src={Aes_m_img} className='tri_m_img' alt='aespa' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full aes_m_mem_tr_full'>
-                <section className='tri_m_mem_tr'>
-                    <Link to='/AesMemKarina' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
-                            <img src={Aes_m_MemKarina_img} alt="카리나 이미지" />
-                            <div>
-                                <h4>카리나</h4>
-                            </div>
-                        </article>
-                    </Link>
-                    <Link to='/AesMemJijell' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
-                            <img src={Aes_m_MemJijell_img} alt="지젤 이미지" />
-                            <div>
-                                <h4>지젤</h4>
-                            </div>
-                        </article>
-                    </Link>
+            <img src={AespaLemonadeAlbum_img} alt="Lemonade" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
+                <tbody>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
+                        <td>
+                            <p>
+                                발매일
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                2026. 05. 29.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                장르
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                댄스, 일렉트로니카, 록/메탈, 랩/힙합, R&B/Soul
+                            </p>
+                        </td>
+                    </tr>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
+                        <td>
+                            <p>
+                                기획사
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                SM엔터테인먼트
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 aespa_AespaLemonadeAlbum_tb2'>
+                <tbody>
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
+                        <td>
+                            <p>
+                                번호
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                제목
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                1
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                WDA &#40;Whole Different Animal&#41; &#40;Feat. G-DRAGON&#41;
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                2
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                LEMONADE
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                3
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                SHAKIN&apos;
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                4
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Can&apos;t Help Myself
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                5
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Camouflage
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                6
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Bite
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                7
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Switchblade &#40;Feat. Ty Dolla $ign&#41;
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                8
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Roll
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                9
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                My Plan
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                10
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                &apos;Til We Die
+                            </p>
+                        </td>
+                    </tr>
 
-                </section>
-
-                <section className='tri_m_mem_tr'>
-                    <Link to='/AesMemWinter' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
-                            <img src={Aes_m_MemWinter_img} alt="윈터 이미지" />
-                            <div>
-                                <h4>윈터</h4>
-                            </div>
-                        </article>
-                    </Link>
-                    <Link to='/AesMemNingning' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
-                            <img src={Aes_m_MemNingning_img} alt="닝닝 이미지" />
-                            <div>
-                                <h4>닝닝</h4>
-                            </div>
-                        </article>
-                    </Link>
-
-
-                </section>
-            </section>
-
-            {/* 모바일 멤버 보기 */}
-            <section className="tri_m_mem_tr_full_mobile aes_m_mem_tr_full_mobile">
-                <section className="tri_m_mem_trtr">
-                    <section className='tri_m_mem_tr'>
-                        <Link to='/AesMemKarina' className='tri_m_mem_a'>
-                            <img src={Aes_m_MemKarina_img} alt="카리나 이미지" />
-                            <h4>카리나</h4>
-                        </Link>
-                        <Link to='/AesMemJijell' className='tri_m_mem_a'>
-                            <img src={Aes_m_MemJijell_img} alt="지젤 이미지" />
-                            <h4>지젤</h4>
-                        </Link>
-                    </section>
-                </section>
-                <section className="tri_m_mem_trtr">
-                    <section className='tri_m_mem_tr'>
-                        <Link to='/AesMemWinter' className='tri_m_mem_a'>
-                            <img src={Aes_m_MemWinter_img} alt="윈터 이미지" />
-                            <h4>윈터</h4>
-                        </Link>
-                        <Link to='/AesMemNingning' className='tri_m_mem_a'>
-                            <img src={Aes_m_MemNingning_img} alt="닝닝 이미지" />
-                            <h4>닝닝</h4>
-                        </Link>
-                    </section>
-                </section>
-
-            </section>
-
-            <h2 className='tri_m_h2 aespa_m_h2_4'>▪ 이벤트 ▪</h2>
-            <section className='tri_m_event_tr_full aespa_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/AespaEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
-                            <img src={Aes_m_img} alt="aespa event" />
-                            <div>
-                                <h4>
-                                    aespa<br />
-                                    이벤트
-                                </h4>
-                            </div>
-                        </article>
-                    </Link>
-                </section>
-            </section>
-
-            <h2 className='tri_m_h2 aespa_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full aespa_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/AespaAlbum' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
-                            <img src='' alt="TenCMTheDarkestNightAlbum" />
-                            <div>
-                                <h4>
-                                    aespa<br />
-                                    aespa<br />
-                                    aespa
-                                </h4>
-                            </div>
-                        </article>
-                    </Link>
-                </section>
-            </section>
-
-            <h2 className='tri_m_h2 aespa_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full aespa_m_sns_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <a href="https://www.instagram.com/aespa_official" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={AespaInstagram_icon_img} alt="aespa 인스타그램" />
-                            <div>
-                                <h4>
-                                    인스타그램
-                                </h4>
-                            </div>
-                        </article>
-                    </a>
-                    <a href="https://www.youtube.com/@aespa" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={AespaYoutube_icon_img} alt="aespa 유튜브" />
-                            <div>
-                                <h4>
-                                    유튜브
-                                </h4>
-                            </div>
-                        </article>
-                    </a>
-                </section>
-            </section>
-
+                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9'>
+                        <td>
+                            <p>
+                                11
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                LEMONADE &#40;Feat. Becky G&#41;
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
             <FooterPart FooterPartText='ⓒ SM엔터테인먼트' />
         </div>
     );
-};
+}
