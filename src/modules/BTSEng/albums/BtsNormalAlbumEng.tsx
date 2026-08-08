@@ -30,19 +30,19 @@ export default function BtsNormalAlbumEng() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
                         <td>
                             <p>
-                                발매일
+                                release date
                             </p>
                         </td>
                         <td>
                             <p>
-                                2026.07.17.
+                                July, 17, 2026
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <p>
-                                장르
+                                genre
                             </p>
                         </td>
                         <td>
@@ -54,12 +54,12 @@ export default function BtsNormalAlbumEng() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
                         <td>
                             <p>
-                                기획사
+                                agency
                             </p>
                         </td>
                         <td>
                             <p>
-                                빅히트 뮤직
+                                BIGHIT MUSIC
                             </p>
                         </td>
                     </tr>
@@ -71,12 +71,12 @@ export default function BtsNormalAlbumEng() {
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                         <td>
                             <p>
-                                번호
+                                number
                             </p>
                         </td>
                         <td>
                             <p>
-                                제목
+                                title
                             </p>
                         </td>
                     </tr>
@@ -130,7 +130,7 @@ export default function BtsNormalAlbumEng() {
                     </tr>
                 </tbody>
             </table>
-            <FooterPart FooterPartText='ⓒ 빅히트 뮤직' />
+            <FooterPartEng FooterPartEngText='ⓒ BIGHIT MUSIC' />
         </div>
     );
 }
