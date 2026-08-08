@@ -67,3 +67,77 @@ export default function TimeoutRedirectPage() {
 * 현재 프로젝트에서 어떤 라우터 라이브러리(예: React Router, Next.js 등)를 쓰고 계시나요?
 * 화면에 남은 시간(카운트다운)을 숫자로 보여주고 싶으신가요?
 
+
+
+ㅡㅡㅡㅡㅡㅡ
+
+
+import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+export default function TimeoutForm() {
+  const navigate = useNavigate();
+  
+  // 상태 관리
+  const [inputValue, setInputValue] = useState<string>('');
+  const [timeLeft, setTimeLeft] = useState<number>(10);
+  
+  // 설정 정보
+  const CORRECT_ANSWER = "정답"; // 검증할 정확한 값
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
+
+  // 1단계: 10초 카운트다운 및 시간 초과 시 페이지 이동
+  useEffect(() => {
+    timerRef.current = setInterval(() => {
+      setTimeLeft((prev) => {
+        if (prev <= 1) {
+          clearInterval(timerRef.current!);
+          navigate('/timeout-page'); // 시간 초과 시 이동할 라우트
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    // 컴포넌트 언마운트 시 타이머 클리어 (메모리 누수 방지)
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [navigate]);
+
+  // 2단계: 양식 제출 핸들러
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (inputValue === CORRECT_ANSWER) {
+      if (timerRef.current) clearInterval(timerRef.current); // 타이머 멈춤
+      alert("성공했습니다!");
+      navigate('/success-page'); // 성공 시 이동할 라우트
+    } else {
+      alert("올바른 값이 아닙니다. 다시 시도하세요!");
+    }
+  };
+
+  return (
+    <div style={{ padding: '20px', textAlign: 'center' }}>
+      <h2>제한 시간 내에 입력하세요!</h2>
+      <h3 style={{ color: timeLeft <= 3 ? 'red' : 'black' }}>
+        남은 시간: {timeLeft}초
+      </h3>
+      
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
+          placeholder={`"${CORRECT_ANSWER}"를 입력하세요`}
+          style={{ padding: '8px', marginRight: '8px' }}
+        />
+        <button type="submit" style={{ padding: '8px 16px' }}>
+          제출
+        </button>
+      </form>
+    </div>
+  );
+}
+
