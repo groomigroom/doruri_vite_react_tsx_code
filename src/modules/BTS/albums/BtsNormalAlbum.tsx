@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './Bol4FindYouAlbum.css';
+import './BtsNormalAlbum.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import BtsNormalAlbum_img from './img/BtsNormalAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -24,7 +24,7 @@ export default function BtsNormalAlbum() {
                 꽃잎들까지도 다 봄이라는<br />
                 생각을 해보며 준비한 앨범이에요!
             </p>
-            <img src={Bol4FindYouAlbum_img} alt="NORMAL" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={BtsNormalAlbum_img} alt="NORMAL" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -66,7 +66,7 @@ export default function BtsNormalAlbum() {
                 </tbody>
             </table>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_2'>▪ 곡 목록 ▪</h2>
-            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 Bol4FindYouAlbum_tb2'>
+            <table className='tri_BabyFlowerCityRemixesAlbum_tb2 bts_BtsNormalAlbum_tb2'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                         <td>
@@ -134,4 +134,3 @@ export default function BtsNormalAlbum() {
         </div>
     );
 }
-
