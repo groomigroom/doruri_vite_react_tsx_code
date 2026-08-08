@@ -302,6 +302,7 @@ import AespaMainEng from './aespaEng/main/AespaMainEng';
 import AespaLemonadeAlbum from './aespa/albums/AespaLemonadeAlbum';
 import AespaLemonadeAlbumEng from './aespaEng/albums/AespaLemonadeAlbumEng';
 import AespaSynkAexisLineAlbum from './aespa/albums/AespaSynkAexisLineAlbum';
+import AespaSynkAexisLineAlbumEng from './aespaEng/albums/AespaSynkAexisLineAlbumEng';
 
 import AesMemKarina from './aespa/members/AesMemKarina';
 import AesMemKarinaEng from './aespaEng/members/AesMemKarinaEng';
@@ -841,6 +842,7 @@ export default function RoutesSetup() {
             <Route path='/AespaLemonadeAlbum' element={<AespaLemonadeAlbum />}></Route>
             <Route path='/AespaLemonadeAlbumEng' element={<AespaLemonadeAlbumEng />}></Route>
             <Route path='/AespaSynkAexisLineAlbum' element={<AespaSynkAexisLineAlbum />}></Route>
+            <Route path='/AespaSynkAexisLineAlbumEng' element={<AespaSynkAexisLineAlbumEng />}></Route>
 
             <Route path='/AesMemKarina' element={<AesMemKarina />}></Route>
             <Route path='/AesMemKarinaEng' element={<AesMemKarinaEng />}></Route>
