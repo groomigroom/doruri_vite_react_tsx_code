@@ -111,7 +111,8 @@ in mind as well!
                         </td>
                         <td>
                             <p>
-                                그 여름의 우리
+Us in that summer
+                            
                             </p>
                         </td>
                     </tr>
