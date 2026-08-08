@@ -299,6 +299,8 @@ import TenMemGwonjungyeolEng from './10CMEng/members/TenMemGwonjungyeolEng';
 import AespaMain from './aespa/main/AespaMain';
 import AespaMainEng from './aespaEng/main/AespaMainEng';
 
+import AespaLemonadeAlbum from './aespa/albums/AespaLemonadeAlbum';
+
 import AesMemKarina from './aespa/members/AesMemKarina';
 import AesMemKarinaEng from './aespaEng/members/AesMemKarinaEng';
 import AesMemJijell from './aespa/members/AesMemJijell';
@@ -494,7 +496,7 @@ import BtoMemYookSungjaeEng from './BTOBEng/members/BtoMemYookSungjaeEng';
 import BtoMemSeoEunkwang from './BTOB/members/BtoMemSeoEunkwang';
 import BtoMemSeoEunkwangEng from './BTOBEng/members/BtoMemSeoEunkwangEng';
 
-import SeoEunkwangOurYouthAlbum from './BTOB/members/SeoEunkwang/SeoEunkwangOurYouthAlbum';
+import SeoEunkwangOurYouthAlbum from './BTOB/members/SeoEunkwang/albums/SeoEunkwangOurYouthAlbum';
 
 //HanroroMain
 
@@ -830,6 +832,8 @@ export default function RoutesSetup() {
 
             <Route path='/AespaMain' element={<AespaMain />}></Route>
             <Route path='/AespaMainEng' element={<AespaMainEng />}></Route>
+
+            <Route path='/AespaLemonadeAlbum' element={<AespaLemonadeAlbum />}></Route>
 
             <Route path='/AesMemKarina' element={<AesMemKarina />}></Route>
             <Route path='/AesMemKarinaEng' element={<AesMemKarinaEng />}></Route>
