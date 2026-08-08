@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './TriplesDreamDressAlbum.css';
+import './AespaLemonadeAlbum.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+import AespaLemonadeAlbum_img from './img/AespaLemonadeAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -15,8 +15,8 @@ export default function AespaLemonadeAlbum() {
         <div className="aespa_AespaLemonadeAlbum_full">
             <Menu />
             <section className="home_translate">
-                <Link to='/AespaLemonadeAlbum' >한국어</Link>
-                <Link to='/AespaLemonadeAlbumEng' className="on">English</Link>
+                <Link to='/AespaLemonadeAlbum' className="on">한국어</Link>
+                <Link to='/AespaLemonadeAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
                 <img src={MainH2deco} alt="aespa deco" />LEMONADE - The 2nd Album<img src={MainH2deco} alt="aespa deco" />
@@ -26,7 +26,7 @@ export default function AespaLemonadeAlbum() {
                 성장의 이야기도<br />
                 담은 앨범이에요!
             </p>
-            <img src='' alt="Lemonade" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={AespaLemonadeAlbum_img} alt="Lemonade" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
