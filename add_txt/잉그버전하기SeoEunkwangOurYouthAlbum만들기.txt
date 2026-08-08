@@ -15,7 +15,7 @@ import YenaBloomingWingsAlbum_img from './img/YenaBloomingWingsAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
-export default function SeoEunkwangOurYouthAlbum() {
+export default function SeoEunkwangOurYouthAlbumEng() {
     return (
         <div className="btob_SeoEunkwangOurYouthAlbum_full">
             <Menu />
