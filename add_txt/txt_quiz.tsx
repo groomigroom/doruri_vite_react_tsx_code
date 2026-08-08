@@ -125,4 +125,38 @@ UI 개발을 할 때 특정 항목을 화면에서 지우거나(삭제 기능),
 * 콜백 함수가 false를 반환하는 요소는 버려집니다. 
 
 
- 
+ 1. const handleInputChange = ...
+• 의미: handleInputChange라는 이름의 화살표 함수(Arrow Function)를 선언합니다.
+• 역할: 사용자가 키보드로 글자를 입력할 때마다 이 함수가 실행됩니다.
+
+───
+
+2. (e: React.ChangeEvent<HTMLInputElement>) => { ... }
+• e (이벤트 객체): 사용자가 입력창에 글자를 타이핑할 때 브라우저가 생성하는 '이벤트 정보'를 담고 있는 바구니입니다.
+• : React.ChangeEvent<...>: TypeScript에게 이 이벤트가 "React에서 발생하는 값이 변하는(Change) 이벤트"라고 타입을 지정해 주는 것입니다.
+• <HTMLInputElement>: React의 수많은 변경 이벤트 중에서도 특히 input 태그(입력창)에서 일어난 이벤트라는 것을 명시합니다. (만약 textarea나 select 태그였다면 이 부분이 달라집니다.)
+
+───
+
+3. setStr(e.target.value);
+• e.target: 이벤트가 발생한 진짜 대상, 즉 화면의 input 태그 자체를 가리킵니다.
+• e.target.value: 현재 사용자가 입력창에 타이핑한 실제 텍스트 내용입니다.
+• setStr(...): React의 useState 훅(Hook)에서 가져왔을 상태 변경 함수입니다. 입력창의 새 글자를 str이라는 상태 변수에 업데이트합니다.
+
+───
+
+요약하자면
+이 코드는 "사용자가 HTML 입력창(input)에 글자를 입력할 때마다(ChangeEvent), 그 입력된 텍스트(e.target.value)를 가져와서 React 상태(setStr)에 실시간으로 반영해라"라는 의미입니다.
+
+───
+
+실제 컴포넌트에서는 대략 아래와 같은 방식으로 연결되어 사용됩니다.
+tsx
+const [str, setStr] = useState<string>(""); // input 태그의 onChange 속성에 이 함수를 연결합니다. <input type="text" value={str} onChange={handleInputChange} />
+
+
+───
+
+추가적으로 궁금한 점이 있으시다면 말씀해 주세요.
+• useState를 포함한 전체 컴포넌트 구조가 보고 싶으신가요?
+복수개의 input을 처리하
