@@ -52,12 +52,12 @@ in mind as well!
                     <tr>
                         <td>
                             <p>
-                                장르
+                                genre
                             </p>
                         </td>
                         <td>
                             <p>   
-                                록/메탈, 포크/블루스
+                                rock/metal, folk/blues
                             </p>
                         </td>
                     </tr>
