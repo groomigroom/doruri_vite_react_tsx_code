@@ -22,9 +22,9 @@ export default function AespaSynkAexisLineAlbum() {
                 <img src={MainH2deco} alt="aespa deco" />SYNK : aeXIS LINE - 2025 Special Digital Single<img src={MainH2deco} alt="aespa deco" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                #######견고해진 음악적<br />
-                성장의 이야기도<br />
-                담은 앨범이에요!
+                한층 성숙해진
+                곡들을 담아서
+                준비한 앨범이에요!
             </p>
             <img src='' alt="AespaSynkAexisLineAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
