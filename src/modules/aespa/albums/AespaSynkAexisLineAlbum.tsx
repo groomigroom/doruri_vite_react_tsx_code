@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
-import './TriplesDreamDressAlbum.css';
+import './AespaSynkAexisLineAlbum.css';
 
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+import AespaSynkAexisLineAlbum_img from './img/AespaSynkAexisLineAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -15,8 +15,8 @@ export default function AespaSynkAexisLineAlbum() {
         <div className="aes_AespaSynkAexisLineAlbum_full">
             <Menu />
             <section className="home_translate">
-                <Link to='/AespaSynkAexisLineAlbum' >한국어</Link>
-                <Link to='/AespaSynkAexisLineAlbumEng' className="on">English</Link>
+                <Link to='/AespaSynkAexisLineAlbum' className="on">한국어</Link>
+                <Link to='/AespaSynkAexisLineAlbumEng'>English</Link>
             </section>
             <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
                 <img src={MainH2deco} alt="aespa deco" />SYNK : aeXIS LINE - 2025 Special Digital Single<img src={MainH2deco} alt="aespa deco" />
@@ -26,7 +26,7 @@ export default function AespaSynkAexisLineAlbum() {
                 곡들을 담아서
                 준비한 앨범이에요!
             </p>
-            <img src='' alt="AespaSynkAexisLineAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={AespaSynkAexisLineAlbum_img} alt="AespaSynkAexisLineAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
