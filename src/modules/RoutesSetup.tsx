@@ -300,6 +300,7 @@ import AespaMain from './aespa/main/AespaMain';
 import AespaMainEng from './aespaEng/main/AespaMainEng';
 
 import AespaLemonadeAlbum from './aespa/albums/AespaLemonadeAlbum';
+import AespaLemonadeAlbumEng from './aespaEng/albums/AespaLemonadeAlbumEng';
 
 import AesMemKarina from './aespa/members/AesMemKarina';
 import AesMemKarinaEng from './aespaEng/members/AesMemKarinaEng';
@@ -834,6 +835,7 @@ export default function RoutesSetup() {
             <Route path='/AespaMainEng' element={<AespaMainEng />}></Route>
 
             <Route path='/AespaLemonadeAlbum' element={<AespaLemonadeAlbum />}></Route>
+            <Route path='/AespaLemonadeAlbumEng' element={<AespaLemonadeAlbumEng />}></Route>
 
             <Route path='/AesMemKarina' element={<AesMemKarina />}></Route>
             <Route path='/AesMemKarinaEng' element={<AesMemKarinaEng />}></Route>
