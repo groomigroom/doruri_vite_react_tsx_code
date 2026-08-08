@@ -42,7 +42,7 @@ NORMAL &#40;Clean Ver.&#41;
 
 
 3
- NORMAL &#40;Korean Ver.) (Explicit Ver.)
+ NORMAL &#40;Korean Ver.&#41; &#40;Explicit Ver.&#41;
 방탄소년단
 좋아요 4,904
 
@@ -51,7 +51,7 @@ NORMAL &#40;Clean Ver.&#41;
 
 
 4
-NORMAL (Korean Ver.) (Clean Ver.)
+NORMAL &#40;Korean Ver.&#41; &#40;Clean Ver.&#41;
 방탄소년단
 좋아요 3,737
 
@@ -60,5 +60,5 @@ NORMAL (Korean Ver.) (Clean Ver.)
 
 
 5
-NORMAL (Instrumental)
+NORMAL &#40;Instrumental&#41;
 방탄소년단
