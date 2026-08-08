@@ -494,6 +494,8 @@ import BtoMemYookSungjaeEng from './BTOBEng/members/BtoMemYookSungjaeEng';
 import BtoMemSeoEunkwang from './BTOB/members/BtoMemSeoEunkwang';
 import BtoMemSeoEunkwangEng from './BTOBEng/members/BtoMemSeoEunkwangEng';
 
+import SeoEunkwangOurYouthAlbum from './BTOB/members/SeoEunkwang/SeoEunkwangOurYouthAlbum';
+
 //HanroroMain
 
 import HanroroMain from './Hanroro/main/HanroroMain';
@@ -1022,6 +1024,8 @@ export default function RoutesSetup() {
             <Route path='/BtoMemYookSungjaeEng' element={<BtoMemYookSungjaeEng />}></Route>
             <Route path='/BtoMemSeoEunkwang' element={<BtoMemSeoEunkwang />}></Route>
             <Route path='/BtoMemSeoEunkwangEng' element={<BtoMemSeoEunkwangEng />}></Route>
+
+            <Route path='/SeoEunkwangOurYouthAlbum' element={<SeoEunkwangOurYouthAlbum />}></Route>
 
             {/* HanroroMain */}
             <Route path='/HanroroMain' element={<HanroroMain />}></Route>
