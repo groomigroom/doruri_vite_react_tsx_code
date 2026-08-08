@@ -59,7 +59,7 @@ export default function BtsNormalAlbum() {
                         </td>
                         <td>
                             <p>
-                                Kanverse
+                                빅히트 뮤직
                             </p>
                         </td>
                     </tr>
@@ -100,7 +100,19 @@ export default function BtsNormalAlbum() {
                         </td>
                         <td>
                             <p>
-                                ㅌㅌ
+                                NORMAL &#40;Clean Ver.&#41;
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                3
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                NORMAL &#40;Korean Ver.&#41; &#40;Explicit Ver.&#41;
                             </p>
                         </td>
                     </tr>
