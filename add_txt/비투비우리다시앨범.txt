@@ -3,12 +3,12 @@ https://kko.to/9efjMq2fua
 
 BtobWeAgainAlbum.tsx
 
-진심 가득한
-마음을 담아서
+진심 가득한<br/>
+마음을 담아서<br/>
 준비한 앨범이에요!
 
-This is an album prepared
-with all my heartfelt
+This is an album prepared<br/>
+with all my heartfelt<br/>
 sincerity in it!
 
 
