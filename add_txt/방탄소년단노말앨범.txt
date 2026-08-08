@@ -24,7 +24,7 @@ R&B/Soul
 뮤비
 
 1
-NORMAL (Explicit Ver.)
+NORMAL &#40;Explicit Ver.&#41;
 방탄소년단
 좋아요 332
 
@@ -33,7 +33,7 @@ NORMAL (Explicit Ver.)
 
 
 2
-NORMAL (Clean Ver.)
+NORMAL &#40;Clean Ver.&#41;
 방탄소년단
 좋아요 290
 
@@ -42,7 +42,7 @@ NORMAL (Clean Ver.)
 
 
 3
- NORMAL (Korean Ver.) (Explicit Ver.)
+ NORMAL &#40;Korean Ver.) (Explicit Ver.)
 방탄소년단
 좋아요 4,904
 
