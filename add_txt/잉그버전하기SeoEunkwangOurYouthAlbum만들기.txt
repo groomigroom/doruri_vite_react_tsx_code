@@ -43,7 +43,7 @@ in mind as well!
                         </td>
                         <td>
                             <p>
-                                2025.08.06.
+                                August, 6, 2026
                             </p>
                         </td>
                     </tr>
