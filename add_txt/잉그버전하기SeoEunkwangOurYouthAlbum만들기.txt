@@ -64,7 +64,7 @@ in mind as well!
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3'>
                         <td>
                             <p>
-                                기획사
+                                agency
                             </p>
                         </td>
                         <td>
@@ -81,12 +81,12 @@ in mind as well!
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
                         <td>
                             <p>
-                                번호
+                                number
                             </p>
                         </td>
                         <td>
                             <p>
-                                제목
+                                title
                             </p>
                         </td>
                     </tr>
