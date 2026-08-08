@@ -1,5 +1,7 @@
 SeoEunkwangOurYouthAlbum.tsx
 
+한국어 버전 날짜 확인하기
+
 https://www.melon.com/album/detail.htm?albumId=14424475
 
 
