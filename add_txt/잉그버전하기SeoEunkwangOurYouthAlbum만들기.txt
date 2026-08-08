@@ -31,9 +31,6 @@ export default function SeoEunkwangOurYouthAlbumEng() {
 This is an album prepared<br/>
 with my precious feelings<br/>
 in mind as well!
-                소중한 마음도<br />
-                생각해 보며<br />
-                준비한 앨범이에요!
             </p>
             <img src='' alt="SeoEunkwangOurYouthAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
