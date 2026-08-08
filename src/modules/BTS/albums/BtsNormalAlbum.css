@@ -1,1 +1,9 @@
-BtsNormalAlbum.css
+.bts_BtsNormalAlbum_full {
+    width: 100vw;
+    height: 1183px;
+    position: relative;
+}
+
+.bts_BtsNormalAlbum_tb2 {
+    height: 250px;
+}
