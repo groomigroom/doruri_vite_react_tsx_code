@@ -38,7 +38,7 @@ in mind as well!
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
                         <td>
                             <p>
-                                발매일
+                                release date
                             </p>
                         </td>
                         <td>
