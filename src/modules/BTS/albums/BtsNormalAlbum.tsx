@@ -18,13 +18,13 @@ export default function BtsNormalAlbum() {
                 <Link to='/BtsNormalAlbum' className="on">한국어</Link>
                 <Link to='/BtsNormalAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" />Find You<img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="방탄소년단 앨범 꾸미기" />NORMAL<img src={MainH2deco} alt="방탄소년단 앨범 꾸미기" /></h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
-                밤새 내린 비에 젖은<br />
+                #####밤새 내린 비에 젖은<br />
                 꽃잎들까지도 다 봄이라는<br />
                 생각을 해보며 준비한 앨범이에요!
             </p>
-            <img src={Bol4FindYouAlbum_img} alt="Find You" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={Bol4FindYouAlbum_img} alt="NORMAL" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
