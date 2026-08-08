@@ -27,6 +27,10 @@ export default function SeoEunkwangOurYouthAlbumEng() {
                 <img src={MainH2deco} alt="서은광 앨범 꾸미기" />OUR YOUTH<img src={MainH2deco} alt="서은광 앨범 꾸미기" />
             </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
+
+This is an album prepared<br/>
+with my precious feelings<br/>
+in mind as well!
                 소중한 마음도<br />
                 생각해 보며<br />
                 준비한 앨범이에요!
