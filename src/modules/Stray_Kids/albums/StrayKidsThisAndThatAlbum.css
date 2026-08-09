@@ -1,1 +1,95 @@
-StrayKidsThisAndThatAlbum.css
+.str_StrayKidsThisAndThatAlbum_full {
+    width: 100vw;
+    height: 1383px;
+    position: relative;
+}
+
+.str_StrayKidsThisAndThatAlbum_tb2 {
+    width: 685px;
+    height: 450px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 793px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.str_StrayKidsThisAndThatAlbum_tb2>tbody>tr {
+    position: relative;
+}
+
+.str_StrayKidsThisAndThatAlbum_tb2>tbody>tr>td:first-child {
+    position: absolute;
+    width: 115px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    background-color: #333;
+    border-top: 5px solid #e6e6e6;
+    border-left: 5px solid #e6e6e6;
+    border-right: 5px solid #e6e6e6;
+}
+
+.str_StrayKidsThisAndThatAlbum_tb2>tbody>tr>td:first-child>p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #e6e6e6;
+    transform: translateY(-50%);
+    font-weight: 600;
+}
+
+.str_StrayKidsThisAndThatAlbum_tb2>tbody>tr>td:nth-child(2) {
+    width: 285px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 115px;
+    border-top: 5px solid #333;
+    border-right: 5px solid #333;
+}
+
+.str_StrayKidsThisAndThatAlbum_tb2>tbody>tr>td:nth-child(2)>p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.str_StrayKidsThisAndThatAlbum_tb2>tbody>tr>td:last-child {
+    width: 285px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    border-top: 5px solid #333;
+    border-right: 5px solid #333;
+}
+
+.str_StrayKidsThisAndThatAlbum_tb2>tbody>tr>td:last-child>p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.str_StrayKidsThisAndThatAlbum_intropa_tb2_tr1>td:first-child {
+    border-top-left-radius: 15px;
+}
+
+.str_StrayKidsThisAndThatAlbum_intropa_tb2_tr1>td:last-child {
+    border-top-right-radius: 15px;
+}
+
+.str_StrayKidsThisAndThatAlbum_intropa_tb2_tr9>td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+.str_StrayKidsThisAndThatAlbum_intropa_tb2_tr9>td:nth-child(2) {
+    border-bottom: 5px solid #333;
+}
+
+.str_StrayKidsThisAndThatAlbum_intropa_tb2_tr9>td:last-child {
+    border-bottom-right-radius: 15px;
+    border-bottom: 5px solid #333;
+}
