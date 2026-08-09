@@ -6,7 +6,7 @@ import './BtobWeAgainAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import TenCMTheDarkestNightAlbum_img from './img/TenCMTheDarkestNightAlbum_img.jpg';
+import BtobWeAgainAlbum_img from './img/BtobWeAgainAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -26,7 +26,7 @@ export default function BtobWeAgainAlbum() {
                 마음을 담아서<br />
                 준비한 앨범이에요!
             </p>
-            <img src='' alt="BtobWeAgainAlbum" className='tri_BabyFlowerCityRemixesAlbum_img ten_TenCMSliverOfPossibilityAlbum_img' />
+            <img src={BtobWeAgainAlbum_img} alt="BtobWeAgainAlbum" className='tri_BabyFlowerCityRemixesAlbum_img ten_TenCMSliverOfPossibilityAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
