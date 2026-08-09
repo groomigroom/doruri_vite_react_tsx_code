@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../DoruriDocumentTitle';
 
 import './IdolList.css';
 
@@ -21,6 +22,8 @@ import IdL_Day from '../DAY6/main/img/day6_m_day6.jpg';
 import Menu from '../Menu';
 
 export default function IdolList() {
+    DoruriDocumentTitle('아이돌 목록 1');
+
     return (
         <div className="idolList_full">
             <Menu />
