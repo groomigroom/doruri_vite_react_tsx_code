@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { DoruriDocumentTitle } from "./DoruriDocumentTitle";
 
 import "./home.css";
 
@@ -6,6 +7,8 @@ import Menu from './Menu';
 import FooterPart from "./FooterPart";
 
 export default function Home() {
+    DoruriDocumentTitle('도루리');
+
     return (
         <div className="home_full">
             <Menu />
