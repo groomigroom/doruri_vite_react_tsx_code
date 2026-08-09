@@ -122,7 +122,7 @@ export default function RedVelvetMain() {
 
             </section>
 
-            <FooterPart FooterPartText='SM엔터테인먼트' />
+            <FooterPart FooterPartText='ⓒ SM엔터테인먼트' />
         </div>
     );
 };
