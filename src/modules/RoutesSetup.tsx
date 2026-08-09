@@ -545,6 +545,8 @@ import BTSMemVEng from './BTSEng/members/BTSMemVEng';
 import RedVelvetMain from './RedVelvet/main/RedVelvetMain';
 import RedVelvetMainEng from './RedVelvetEng/main/RedVelvetMainEng';
 
+import RedVelvetVelvetSummerAlbum from './RedVelvet/albums/RedVelvetVelvetSummerAlbum';
+
 export default function RoutesSetup() {
     return (
         <Routes>
@@ -1084,6 +1086,8 @@ export default function RoutesSetup() {
             {/* RedVelvetMain */}
             <Route path='/RedVelvetMain' element={<RedVelvetMain />}></Route>
             <Route path='/RedVelvetMainEng' element={<RedVelvetMainEng />}></Route>
+
+            <Route path='/RedVelvetVelvetSummerAlbum' element={<RedVelvetVelvetSummerAlbum />}></Route>
 
         </Routes>
     );
