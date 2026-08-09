@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import './TriplesBabyFlowerCityRemixesAlbum.css';
 
@@ -10,6 +11,8 @@ import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRe
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TriplesBabyFlowerCityRemixesAlbum() {
+    DoruriDocumentTitle('Baby Flower City');
+
     return (
         <div className="tri_BabyFlowerCityRemixesAlbum_full">
             <Menu />
