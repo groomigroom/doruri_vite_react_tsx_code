@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import './TriplesMain.css';
 
@@ -58,6 +59,8 @@ import TriplesInstagram_img from './img/triples_instagram_icon.png';
 import TriplesYoutube_img from './img/triples_youtube_icon.png';
 
 export default function TriplesMain() {
+    DoruriDocumentTitle('tripleS');
+
     return (
         <div className='tri_m_full'>
             <Menu />
