@@ -8,7 +8,7 @@ AespaSYNKaeXISLINE2026SpecialDigitalSingleAlbum.tsx
 SYNK : aeXIS LINE - 2026 Special Digital Single
 aespa
 발매일
-2026.08.09
+2026.08.09.
 장르
 댄스, R&B/Soul
 발매사
@@ -31,7 +31,7 @@ SM ENTERTAINMENT
 뮤비
 
 1
- Serenade (KARINA & WINTER)
+ Serenade &#40;KARINA & WINTER&#41;
 aespa
 좋아요 4,748
 
@@ -40,7 +40,7 @@ aespa
 
 
 2
- Lollipop (GISELLE & NINGNING)
+ Lollipop &#40;GISELLE & NINGNING&#41;
 aespa
 좋아요 849
 
