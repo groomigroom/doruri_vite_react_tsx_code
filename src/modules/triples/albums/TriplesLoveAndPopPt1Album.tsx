@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import './TriplesBabyFlowerCityRemixesAlbum.css';
 import './TriplesLoveAndPopPt1Album.css'
@@ -11,6 +12,8 @@ import TriplesLoveAndPopPt1Album_img from './img/TriplesLoveAndPopPt1Album_img.j
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TriplesLoveAndPopPt1Album() {
+    DoruriDocumentTitle('Love And Pop Pt1');
+
     return (
         <div className="tri_LoveAndPopPt1Album_full">
             <Menu />
