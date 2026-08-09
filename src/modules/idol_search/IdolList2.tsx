@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../DoruriDocumentTitle';
 
 import './IdolList.css';
 import './IdolList2.css';
@@ -7,6 +8,8 @@ import Menu from '../Menu';
 import FooterPart from '../FooterPart';
 
 export default function IdolList2() {
+    DoruriDocumentTitle('아이돌 목록 2');
+
     return (
         <div className="idolList2_full">
             <Menu />
