@@ -480,6 +480,7 @@ import BTOBMain from './BTOB/main/BTOBMain';
 import BTOBMainEng from './BTOBEng/main/BTOBMainEng';
 
 import BtobWeAgainAlbum from './BTOB/albums/BtobWeAgainAlbum';
+import BtobWeAgainAlbumEng from './BTOBEng/albums/BtobWeAgainAlbumEng';
 
 import BtobBtobBlueMain from './BTOB/units/Btob_blue/BtobBtobBlueMain';
 import BtobBtobBlueMainEng from './BTOBEng/units/Btob_blue/BtobBtobBlueMainEng';
@@ -1021,6 +1022,7 @@ export default function RoutesSetup() {
             <Route path='/BTOBMainEng' element={<BTOBMainEng />}></Route>
 
             <Route path='/BtobWeAgainAlbum' element={<BtobWeAgainAlbum />}></Route>
+            <Route path='/BtobWeAgainAlbumEng' element={<BtobWeAgainAlbumEng />}></Route>
 
             <Route path='/BtobBtobBlueMain' element={<BtobBtobBlueMain />}></Route>
             <Route path='/BtobBtobBlueMainEng' element={<BtobBtobBlueMainEng />}></Route>
