@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import './TriplesMemS1.css';
 import './TriplesMemS2.css';
@@ -11,6 +12,8 @@ import Tri_mm_s2_img from '../main/img/tri_m_memS2.jpg'
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TriplesMemS2() {
+    DoruriDocumentTitle('정혜린');
+
     return (
         <div className="tri_mm_s2_full">
             <Menu />
