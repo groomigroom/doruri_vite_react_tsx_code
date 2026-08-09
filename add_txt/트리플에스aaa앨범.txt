@@ -4,7 +4,7 @@ TriplesAAAAcidAngelFromAsiaAlbum.tsx
 
 
 [EP]
-Acid Angel from Asia <ACCESS>
+Acid Angel from Asia &lt;ACCESS&gt;
 tripleS (트리플에스)
 발매일
 2022.10.28.
