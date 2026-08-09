@@ -546,6 +546,7 @@ import RedVelvetMain from './RedVelvet/main/RedVelvetMain';
 import RedVelvetMainEng from './RedVelvetEng/main/RedVelvetMainEng';
 
 import RedVelvetVelvetSummerAlbum from './RedVelvet/albums/RedVelvetVelvetSummerAlbum';
+import RedVelvetVelvetSummerAlbumEng from './RedVelvetEng/albums/RedVelvetVelvetSummerAlbumEng';
 
 export default function RoutesSetup() {
     return (
@@ -1088,6 +1089,7 @@ export default function RoutesSetup() {
             <Route path='/RedVelvetMainEng' element={<RedVelvetMainEng />}></Route>
 
             <Route path='/RedVelvetVelvetSummerAlbum' element={<RedVelvetVelvetSummerAlbum />}></Route>
+            <Route path='/RedVelvetVelvetSummerAlbumEng' element={<RedVelvetVelvetSummerAlbumEng />}></Route>
 
         </Routes>
     );
