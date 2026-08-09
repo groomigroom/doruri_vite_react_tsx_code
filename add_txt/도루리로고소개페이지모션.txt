@@ -1,1 +1,176 @@
-motion
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>위치 모션</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .full {
+            width: 300px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+
+        .box {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            background-color: brown;
+        }
+
+        .one {
+            top: 10px;
+
+            animation: one 6s ease 0s infinite;
+        }
+
+        /* 16 17 17 이런식으로 */
+        @keyframes one {
+            0% {
+                left: -40px;
+            }
+
+            16% {
+                left: 20px;
+            }
+
+            100% {
+                left: 20px;
+            }
+        }
+
+        .two {
+            left: 20px;
+            animation: two 6s ease 0s infinite;
+        }
+
+        @keyframes two {
+            0% {
+                top: 100px;
+            }
+
+            16% {
+                top: 100px;
+            }
+
+            33% {
+                top: 60px;
+            }
+
+            100% {
+                top: 60px;
+            }
+        }
+
+        .three {
+            left: 120px;
+            animation: three 6s ease 0s infinite;
+        }
+
+        @keyframes three {
+            0% {
+                top: -40px;
+            }
+
+            33% {
+                top: -40px;
+            }
+
+            50% {
+                top: 10px;
+            }
+
+            100% {
+                top: 10px;
+            }
+        }
+
+        .four {
+            left: 120px;
+            animation: four 6s ease 0s infinite;
+        }
+
+        @keyframes four {
+            0% {
+                top: 100px;
+            }
+
+            50% {
+                top: 100px;
+            }
+
+            66% {
+                top: 60px;
+            }
+
+            100% {
+                top: 60px;
+            }
+        }
+
+        .five {
+            top: 10px;
+            animation: five 6s ease 0s infinite;
+        }
+
+        @keyframes five {
+            0% {
+                right: -40px;
+            }
+
+            66% {
+                right: -40px;
+            }
+
+            83% {
+                right: 20px;
+            }
+
+            100% {
+                right: 20px;
+            }
+        }
+
+        .six {
+            right: 20px;
+            animation: six 6s ease 0s infinite;
+        }
+
+        @keyframes six {
+            0% {
+                top: 100px;
+            }
+
+            83% {
+                top: 100px;
+            }
+
+            100% {
+                top: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="full">
+        <div class="one box"></div>
+        <div class="two box"></div>
+        <div class="three box"></div>
+        <div class="four box"></div>
+        <div class="five box"></div>
+        <div class="six box"></div>
+    </div>
+</body>
+
+</html>
