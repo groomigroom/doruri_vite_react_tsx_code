@@ -1,1 +1,9 @@
-BtobWeAgainAlbum.css
+.btob_BtobWeAgainAlbum_full {
+    width: 100vw;
+    height: 1083px;
+    position: relative;
+}
+
+.btob_BtobWeAgainAlbum_tb2 {
+    height: 150px;
+}
