@@ -7,7 +7,7 @@ import '../../RedVelvet/albums/RedVelvetVelvetSummerAlbum.css';
 import MenuEng from '../../HomeEng/MenuEng';
 import FooterPartEng from '../../FooterPartEng';
 
-// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+import RedVelvetVelvetSummerAlbum_img from '../../RedVelvet/albums/img/RedVelvetVelvetSummerAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -28,7 +28,7 @@ export default function RedVelvetVelvetSummerAlbumEng() {
                 prepared with<br />
                 a variety of tracks!
             </p>
-            <img src='' alt="RedVelvetVelvetSummerAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={RedVelvetVelvetSummerAlbum_img} alt="RedVelvetVelvetSummerAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
@@ -84,7 +84,7 @@ export default function RedVelvetVelvetSummerAlbumEng() {
                             </p>
                         </td>
                     </tr>
-                    <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1'>
+                    <tr>
                         <td>
                             <p>
                                 1
