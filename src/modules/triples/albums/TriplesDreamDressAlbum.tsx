@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import './TriplesBabyFlowerCityRemixesAlbum.css';
 import './TriplesDreamDressAlbum.css';
@@ -11,6 +12,8 @@ import TriplesDreamDressAlbum_img from './img/TriplesDreamDressAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TriplesDreamDressAlbum() {
+    DoruriDocumentTitle('Dream Dress');
+
     return (
         <div className="tri_TriplesDreamDressAlbum_full">
             <Menu />
