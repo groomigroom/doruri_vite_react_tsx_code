@@ -6,7 +6,7 @@ import './RedVelvetVelvetSummerAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import TriplesBabyFlowerCityRemixesAlbum_img from './img/TriplesBabyFlowerCityRemixesAlbum_img.jpg';
+import RedVelvetVelvetSummerAlbum_img from './img/RedVelvetVelvetSummerAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
@@ -25,7 +25,7 @@ export default function RedVelvetVelvetSummerAlbum() {
                 곡들로 준비한<br />
                 앨범이에요!
             </p>
-            <img src='' alt="RedVelvetVelvetSummerAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={RedVelvetVelvetSummerAlbum_img} alt="RedVelvetVelvetSummerAlbum" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
