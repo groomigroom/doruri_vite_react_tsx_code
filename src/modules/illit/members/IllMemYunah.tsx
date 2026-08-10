@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './IllMemYunah.css';
@@ -11,6 +12,8 @@ import ill_mm_yunah_img from '../main/img/illit_m_mem_Yunah.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IllMemYunah() {
+    DoruriDocumentTitle('윤아');
+
     return (
         <div className="ill_mm_yunah_full">
             <Menu />
