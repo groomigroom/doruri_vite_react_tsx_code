@@ -1,3 +1,5 @@
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
 import '../../triples/members/TriplesMemS1.css';
 import './DayMemWonpil.css';
 
@@ -9,6 +11,8 @@ import Day_mm_wonpil_img from '../main/img/day6_m_mem_Wonpil.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function DayMemWonpil() {
+    DoruriDocumentTitle('원필');
+
     return (
         <div className="day_mm_wonpil_full">
             <Menu />
