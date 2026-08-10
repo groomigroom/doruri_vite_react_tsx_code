@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './RescenePrettyGirlSpecialSingleAlbum.css';
@@ -11,6 +12,8 @@ import RescenePrettyGirlSpecialSingleAlbum_img from './img/RescenePrettyGirlSpec
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function RescenePrettyGirlSpecialSingleAlbum() {
+    DoruriDocumentTitle('Pretty Girl');
+
     return (
         <div className="res_RescenePrettyGirlSpecialSingleAlbum_full">
             <Menu />
