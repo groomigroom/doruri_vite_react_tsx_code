@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './AkmuMemSuhyun.css';
@@ -11,6 +12,8 @@ import akmu_mm_suhyun_img from '../main/img/aknu_m_suhyun.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AkmuMemSuhyun() {
+    DoruriDocumentTitle('이수현');
+
     return (
         <div className="akmu_mm_suhyun_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function AkmuMemSuhyun() {
                 <Link to='/AkmuMemSuhyun' className="on">한국어</Link>
                 <Link to='/AkmuMemSuhyunEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="AKMU 로고 꾸미기" />이수현<img src={MainH2Deco} alt="AKMU 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="AKMU 로고 꾸미기" />이수현<img src={MainH2Deco} alt="AKMU 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 힘든 일이 있어도<br />
                 잘 이겨내며<br />
