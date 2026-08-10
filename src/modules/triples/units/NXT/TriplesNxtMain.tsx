@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../main/TriplesMain.css';
 import './TriplesNxtMain.css';
@@ -19,6 +20,8 @@ import TriplesNxt_m_S20_img from './img/TriplesNxt_m_S20_img.jpg';
 //191919
 
 export default function TriplesNxtMain() {
+    DoruriDocumentTitle('NXT');
+
     return (
         <div className='tri_nxt_m_full'>
             <Menu />
@@ -69,10 +72,25 @@ export default function TriplesNxtMain() {
                             </div>
                         </article>
                     </Link>
-
                 </section>
-
             </section>
+
+            <h2 className='tri_m_h2 tri_nxt_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full tri_nxt_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={""} alt="Baby Flower City Remixes" />
+                            <div>
+                                <h4>
+                                    &lt;Baby Flower City Remixes&gt;
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
