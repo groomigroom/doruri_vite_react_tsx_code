@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './AesMemKarina.css';
@@ -11,6 +12,8 @@ import Aes_mm_Karina_img from '../main/img/aespa_m_mem_Karina.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AesMemKarina() {
+    DoruriDocumentTitle('카리나');
+
     return (
         <div className="aes_mm_karina_full">
             <Menu />
