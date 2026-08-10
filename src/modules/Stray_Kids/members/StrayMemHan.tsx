@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './StrayMemHan.css';
@@ -11,6 +12,8 @@ import Str_mm_han_img from '../main/img/stray_m_mem_Han.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function StrayMemHan() {
+    DoruriDocumentTitle('한');
+
     return (
         <div className="str_mm_han_full">
             <Menu />
