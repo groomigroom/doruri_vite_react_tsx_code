@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './TxtMain.css';
@@ -24,6 +25,8 @@ import TxtYoutube_icon_img from './img/TxtYoutube_icon_img.png';
 //#FF1E91
 
 export default function TxtMain() {
+    DoruriDocumentTitle('투모로우바이투게더');
+
     return (
         <div className='txt_m_full'>
             <Menu />
