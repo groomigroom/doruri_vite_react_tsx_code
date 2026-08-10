@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './TenCMMain.css';
@@ -18,6 +19,8 @@ import TenCM_youtube_img from './img/TenCM_youtube_icon_img.png';
 //000000
 
 export default function TenCMMain() {
+    DoruriDocumentTitle('10CM');
+
     return (
         <div className='ten_m_full'>
             <Menu />
