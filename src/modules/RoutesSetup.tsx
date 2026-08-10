@@ -30,8 +30,8 @@ import TriplesBabyFlowerCityRemixesAlbum from './triples/albums/TriplesBabyFlowe
 import TriplesBabyFlowerCityRemixesAlbumEng from './triplesEng/albums/TriplesBabyFlowerCityRemixesAlbumEng';
 import TriplesLoveAndPopPt1Album from './triples/albums/TriplesLoveAndPopPt1Album';
 import TriplesLoveAndPopPt1AlbumEng from './triplesEng/albums/TriplesLoveAndPopPt1AlbumEng';
-import TriplesDreamDressAlbum from './triples/albums/TriplesDreamDressAlbum';
-import TriplesDreamDressAlbumEng from './triplesEng/albums/TriplesDreamDressAlbumEng';
+import TriplesDreamDressAlbum from './triples/units/Moon/albums/TriplesDreamDressAlbum';
+import TriplesDreamDressAlbumEng from './triplesEng/units/Moon/albums/TriplesDreamDressAlbumEng';
 
 import TriplesMemS1 from './triples/members/TriplesMemS1';
 import TriplesMemS1Eng from './triplesEng/members/TriplesMemS1Eng';
