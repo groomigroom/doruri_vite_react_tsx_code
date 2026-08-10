@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './IoiMemKimsohye.css';
@@ -11,6 +12,8 @@ import Ioi_m_MemKimsohye_img from '../main/img/ioi_m_mem_Kimsohye.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IoiMemKimsohye() {
+    DoruriDocumentTitle('김소혜');
+
     return (
         <div className="ioi_mm_kimsohye_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function IoiMemKimsohye() {
                 <Link to='/IoiMemKimsohye' className="on">한국어</Link>
                 <Link to='/IoiMemKimsohyeEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />김소혜<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />김소혜<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 다양한 생각과<br />
                 제 개성을 담아서<br />
