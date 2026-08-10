@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './IllitMain.css';
@@ -26,6 +27,8 @@ import IllitYoutube_img from '../../triples/main/img/triples_youtube_icon.png';
 //FFFFFF
 
 export default function IllitMain() {
+    DoruriDocumentTitle('ILLIT');
+
     return (
         <div className='ill_m_full'>
             <Menu />
