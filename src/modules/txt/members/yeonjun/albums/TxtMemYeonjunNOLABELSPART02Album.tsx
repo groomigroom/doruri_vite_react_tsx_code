@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../../DoruriDocumentTitle';
 
 import '../../../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './TxtMemYeonjunNOLABELSPART02Album.css';
@@ -8,8 +9,11 @@ import FooterPart from '../../../../FooterPart';
 
 import MainH2deco from '../../../../img/main_h2_deco.png';
 
+import TxtMemYeonjunNOLABELSPART02Album_img from './img/TxtMemYeonjunNOLABELSPART02Album_img.jpg';
 
 export default function TxtMemYeonjunNOLABELSPART02Album() {
+    DoruriDocumentTitle('NO LABELS: PART 02');
+
     return (
         <div className='txt_mm_yeonjun_NOLABELSPART02Album_full'>
             <Menu />
@@ -25,7 +29,7 @@ export default function TxtMemYeonjunNOLABELSPART02Album() {
                 선명해진 색깔로<br />
                 앨범을 준비해 왔어요!
             </p>
-            <img src="" alt="NO LABELS: PART 01" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={TxtMemYeonjunNOLABELSPART02Album_img} alt="NO LABELS: PART 01" className='tri_BabyFlowerCityRemixesAlbum_img txt_mm_yeonjun_NOLABELSPART02Album_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
