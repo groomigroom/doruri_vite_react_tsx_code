@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './TxtMemBeomgyu.css';
@@ -11,6 +12,8 @@ import Txt_mm_Beomgyu_img from '../main/img/txt_m_mem_beomgyu.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TxtMemBeomgyu() {
+    DoruriDocumentTitle('범규');
+
     return (
         <div className="txt_mm_beomgyu_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function TxtMemBeomgyu() {
                 <Link to='/TxtMemBeomgyu' className="on">한국어</Link>
                 <Link to='/TxtMemBeomgyuEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />범규<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />범규<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 밝고 활발한<br />
                 표정으로<br />
