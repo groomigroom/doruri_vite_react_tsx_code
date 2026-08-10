@@ -1,6 +1,6 @@
 .tri_ari_m_full {
     width: 100vw;
-    height: 1423px;
+    height: 1673px;
     position: relative;
     background-color: #fcfcfc;
 }
@@ -29,4 +29,15 @@
     position: absolute;
     top: 190px;
     left: 95px;
+}
+
+.tri_aria_m_h2_5 {
+    position: absolute;
+    top: 1323px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tri_aria_m_album_tr_full {
+    top: 1383px;
 }
