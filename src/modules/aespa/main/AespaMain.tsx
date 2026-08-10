@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './AespaMain.css';
@@ -22,6 +23,8 @@ import AespaYoutube_icon_img from '../../triples/main/img/triples_youtube_icon.p
 //ffffff
 
 export default function AespaMain() {
+    DoruriDocumentTitle('aespa');
+
     return (
         <div className='aes_m_full'>
             <Menu />
