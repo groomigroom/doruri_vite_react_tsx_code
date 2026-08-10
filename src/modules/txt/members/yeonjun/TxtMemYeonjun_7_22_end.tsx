@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../../triples/members/TriplesMemS1.css';
 import '../TxtMemYeonjun.css';
@@ -11,6 +12,8 @@ import Txt_mm_Yeonjun_img from '../../main/img/txt_m_mem_yeonjun.jpg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
 
 export default function TxtMemYeonjun_7_22_end() {
+    DoruriDocumentTitle('연준');
+
     return (
         <div className="txt_mm_yeonjun_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function TxtMemYeonjun_7_22_end() {
                 <Link to='/TxtMemYeonjun_7_22_end' className="on">한국어</Link>
                 <Link to='/TxtMemYeonjun_7_22_endEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />연준<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />연준<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 매일 노력하고<br />
                 준비해서<br />
@@ -71,9 +76,6 @@ export default function TxtMemYeonjun_7_22_end() {
         </div>
     );
 }
-
-최신 앨범 링크에다가
-앨범 소개 가져다가 넣고,
 
 
 
