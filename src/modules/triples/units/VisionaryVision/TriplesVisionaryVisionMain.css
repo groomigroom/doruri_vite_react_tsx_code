@@ -1,10 +1,21 @@
 .tri_vis_m_full {
     width: 100vw;
-    height: 1613px;
+    height: 1863px;
     position: relative;
     background-color: #fcfcfc;
 }
 
 .tri_vis_m_mem_tr_full {
     height: 530px;
+}
+
+.tri_vis_m_h2_5 {
+    position: absolute;
+    top: 1513px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tri_vis_m_album_tr_full {
+    top: 1573px;
 }
