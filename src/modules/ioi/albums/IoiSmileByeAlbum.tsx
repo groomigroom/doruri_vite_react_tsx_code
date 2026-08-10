@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './IoiSmileByeAlbum.css';
@@ -6,11 +7,13 @@ import './IoiSmileByeAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import IoiSmileByeAlbum_img from './img/IoiSmileByeAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function IoiSmileByeAlbum() {
+    DoruriDocumentTitle('웃으며 안녕');
+
     return (
         <div className='ioi_IoiSmileByeAlbum_full'>
             <Menu />
@@ -26,7 +29,7 @@ export default function IoiSmileByeAlbum() {
                 담아서 앨범을<br />
                 준비했어요!
             </p>
-            <img src='' alt="웃으며 안녕 &#40;Recorded in 2016&#41; &#40;Prod.진영&#41;" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={IoiSmileByeAlbum_img} alt="웃으며 안녕 &#40;Recorded in 2016&#41; &#40;Prod.진영&#41;" className='tri_BabyFlowerCityRemixesAlbum_img ioi_IoiSmileByeAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
