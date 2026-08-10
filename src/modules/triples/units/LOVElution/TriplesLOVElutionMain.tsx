@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../main/TriplesMain.css';
 import './TriplesLOVElutionMain.css';
@@ -22,6 +23,8 @@ import TriplesLov_m_S15_img from './img/TriplesLov_m_S15_img.jpg';
 //#000000
 
 export default function TriplesLOVElutionMain() {
+    DoruriDocumentTitle('LOVElution');
+
     return (
         <div className='tri_lov_m_full'>
             <Menu />
@@ -104,10 +107,25 @@ export default function TriplesLOVElutionMain() {
                             </div>
                         </article>
                     </Link>
-
                 </section>
-
             </section>
+
+            <h2 className='tri_m_h2 tri_lov_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full tri_lov_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_album_a tri_lov_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={""} alt="Baby Flower City Remixes" />
+                            <div>
+                                <h4>
+                                    &lt;Baby Flower City Remixes&gt;
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
