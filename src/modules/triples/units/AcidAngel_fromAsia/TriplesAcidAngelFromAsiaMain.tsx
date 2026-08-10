@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../main/TriplesMain.css';
 import './TriplesAcidAngelFromAsiaMain.css';
@@ -20,6 +21,8 @@ import TriplesAAA_m_S8_img from './img/TriAaa_m_S8_mem_img.png';
 //DB3475
 
 export default function TriplesAcidAngelFromAsiaMain() {
+    DoruriDocumentTitle('Acid Angel from Asia');
+
     return (
         <div className='tri_aaa_m_full'>
             <Menu />
