@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './StrayKidsSKZReplay2026Pt1Album.css';
@@ -11,6 +12,8 @@ import StrayKidsSKZReplay2026Pt1Album_img from './img/StrayKidsSKZReplay2026Pt1A
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function StrayKidsSKZReplay2026Pt1Album() {
+    DoruriDocumentTitle('SKZ-REPLAY 2026 Pt.1');
+
     return (
         <div className='str_StrayKidsSKZReplay2026Pt1Album_full'>
             <Menu />
