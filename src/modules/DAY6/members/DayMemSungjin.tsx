@@ -1,3 +1,5 @@
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
 import '../../triples/members/TriplesMemS1.css';
 import './DayMemSungjin.css';
 
@@ -9,6 +11,8 @@ import Day_mm_sungjin_img from '../main/img/day6_m_mem_Sungjin.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function DayMemSungjin() {
+    DoruriDocumentTitle('성진');
+
     return (
         <div className="day_mm_sungjin_full">
             <Menu />
