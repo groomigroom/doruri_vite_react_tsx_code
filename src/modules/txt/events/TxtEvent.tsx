@@ -4,32 +4,27 @@ import "./TxtEvent.css";
 
 import TxtELogo from "./img/txt_e_logo.png";
 
-interface txt_e_formState {
-    txt_e_in: string;
-}
 
 export default function TxtEvent() {
-    const [txt_e_form, txt_e_setform] = useState<txt_e_formState>({
-        txt_e_in: '',
-    });
+    const [txt_e_str, setTxt_e_str] = useState<string>("");
 
-    const txt_e_handleChange = (txt_e: React.ChangeEvent<HTMLInputElement>) => {
-        const { name, value } = txt_e.target;
-        txt_e_setform((txt_e_prev) => ({
-            ...txt_e_prev,
-            [name]: value,
-        }));
-    };
+    const Txt_e_handle_input_change = (e: React.ChangeEvent<HTMLInputElement>) => {
+        setTxt_e_str(e.target.value);
+    }
 
-    let txt_e_result = '';
-    if (txt_e_form.txt_e_in === "낯설기만") {
-        txt_e_result = '정답입니다.';
+    const txt_e_target = ['낮', '설', '기', '만'];
+    const txt_e_count = txt_e_target.filter((txt_e_char, txt_e_index) => txt_e_str[txt_e_index] === txt_e_char).length;
+
+    let txt_e_last_str: string = "";
+
+    if (txt_e_str.length === 4) {
+        txt_e_last_str = '맞춘 개수: ' + txt_e_count + "개";
     }
     else {
-        txt_e_result = '오답입니다.';
+        txt_e_last_str = '글자 수가 4글자가 아닙니다.';
     }
 
-    console.log(txt_e_result);
+    console.log(txt_e_last_str);
     return (
         <div className="txt_e_full">
             <img src={TxtELogo} alt="TxtELogo" className="txt_e_logo" />
@@ -38,7 +33,7 @@ export default function TxtEvent() {
                 머물러 줘<br />
                 하루에 하루만 더<br />
                 헤어질 수 없어<br />
-                I’ll just stick with you<br />
+                I&apos;ll just stick with you<br />
                 <br />
                 언제부턴지 몰라도<br />
                 미지근한 너의 태도<br />
@@ -48,9 +43,9 @@ export default function TxtEvent() {
                 {/* 낯설기만 */}
             </p>
             <form action="" className="txt_e_form">
-                <input type="text" name="txt_e_in" value={txt_e_form.txt_e_in} onChange={txt_e_handleChange} />
+                <input type="text" name="txt_e_in" value={txt_e_str} onChange={Txt_e_handle_input_change} />
             </form>
-            <button className="txt_e_btn"></button>
+            <button className="txt_e_btn">제출하기</button>
         </div>
     );
 };
