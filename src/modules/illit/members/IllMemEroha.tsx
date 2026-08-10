@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './IllMemEroha.css';
@@ -11,6 +12,8 @@ import ill_mm_eroha_img from '../main/img/illit_m_mem_Iroha.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IllMemEroha() {
+    DoruriDocumentTitle('이로하');
+
     return (
         <div className="ill_mm_eroha_full">
             <Menu />
