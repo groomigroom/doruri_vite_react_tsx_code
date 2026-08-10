@@ -1,3 +1,5 @@
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
 import '../../triples/members/TriplesMemS1.css';
 import './DayMemYoungK.css';
 
@@ -9,6 +11,8 @@ import Day_mm_youngk_img from '../main/img/day6_m_mem_Youngk.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function DayMemYoungK() {
+    DoruriDocumentTitle('Young K');
+
     return (
         <div className="day_mm_youngk_full">
             <Menu />
