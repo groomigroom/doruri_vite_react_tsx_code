@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './AkmuGaehwaAlbum.css';
@@ -11,6 +12,8 @@ import AkmuGaehwaAlbum_img from './img/AkmuGaehwaAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function AkmuGaehwaAlbum() {
+    DoruriDocumentTitle('개화');
+
     return (
         <div className='akmu_AkmuGaehwaAlbum_full'>
             <Menu />
