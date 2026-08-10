@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './TxtStarsChapterTogetherAlbum.css';
@@ -6,11 +7,13 @@ import './TxtStarsChapterTogetherAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import TxtStarsChapterTogetherAlbum_img from './img/TxtStarsChapterTogetherAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TxtStarsChapterTogetherAlbum() {
+    DoruriDocumentTitle('별의 장');
+
     return (
         <div className='txt_TxtStarsChapterTogetherAlbum_full'>
             <Menu />
@@ -26,7 +29,7 @@ export default function TxtStarsChapterTogetherAlbum() {
                 생각해 보며<br />
                 앨범을 준비했어요!
             </p>
-            <img src='' alt="별의 장: TOGETHER" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={TxtStarsChapterTogetherAlbum_img} alt="별의 장: TOGETHER" className='tri_BabyFlowerCityRemixesAlbum_img txt_TxtStarsChapterTogetherAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
