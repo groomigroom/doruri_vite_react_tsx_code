@@ -1,3 +1,5 @@
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
 import '../../triples/members/TriplesMemS1.css';
 import './DayMemDowoon.css';
 
@@ -9,6 +11,8 @@ import Day_mm_dowoon_img from '../main/img/day6_m_mem_Dowoon.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function DayMemDowoon() {
+    DoruriDocumentTitle('도운');
+
     return (
         <div className="day_mm_dowoon_full">
             <Menu />
