@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './AesMemJijell.css';
@@ -11,6 +12,8 @@ import Aes_mm_Jijell_img from '../main/img/aespa_m_mem_Jijel.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AesMemJijell() {
+    DoruriDocumentTitle('지젤');
+
     return (
         <div className="aes_mm_jijell_full">
             <Menu />
