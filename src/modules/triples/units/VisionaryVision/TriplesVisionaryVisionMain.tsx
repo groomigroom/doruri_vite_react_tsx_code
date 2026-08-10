@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../main/TriplesMain.css';
 import './TriplesVisionaryVisionMain.css';
@@ -26,6 +27,8 @@ import TriplesVis_m_S24_img from './img/TriplesVisionaryVision_m_S24_img.jpg';
 //#191919
 
 export default function TriplesVisionaryVisionMain() {
+    DoruriDocumentTitle('Visionary Vision');
+
     return (
         <div className='tri_vis_m_full'>
             <Menu />
@@ -144,19 +147,27 @@ export default function TriplesVisionaryVisionMain() {
                             </div>
                         </article>
                     </Link>
-
                 </section>
-
             </section>
+
+            <h2 className='tri_m_h2 tri_vis_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full tri_vis_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={""} alt="Baby Flower City Remixes" />
+                            <div>
+                                <h4>
+                                    &lt;Baby Flower City Remixes&gt;
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
-
-
-
-
-
-
-
-
