@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './TwsMemSinyu.css';
@@ -11,6 +12,8 @@ import Tws_mm_sinyu_img from '../main/img/tws_m_mem_Sinyu.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TwsMemSinyu() {
+    DoruriDocumentTitle('신유');
+
     return (
         <div className="tws_mm_sinyu_full">
             <Menu />
