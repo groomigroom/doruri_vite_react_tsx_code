@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../../DoruriDocumentTitle';
 
 import '../../../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './TxtMemYeonjunNOLABELSPART01Album.css';
@@ -8,8 +9,12 @@ import FooterPart from '../../../../FooterPart';
 
 import MainH2deco from '../../../../img/main_h2_deco.png';
 
+import TxtMemYeonjunNOLABELSPART01Album_img from '../img/txt_m_mem_yeonjun_7_23.jpg';
+
 
 export default function TxtMemYeonjunNOLABELSPART01Album() {
+    DoruriDocumentTitle('NO LABELS: PART 01');
+
     return (
         <div className='txt_mm_yeonjun_NOLABELSPART01Album_full'>
             <Menu />
@@ -17,13 +22,15 @@ export default function TxtMemYeonjunNOLABELSPART01Album() {
                 <Link to='/TxtMemYeonjunNOLABELSPART01Album' className="on">한국어</Link>
                 <Link to='/TxtMemYeonjunNOLABELSPART01AlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="연준 앨범 꾸미기" />NO LABELS: PART 01<img src={MainH2deco} alt="연준 앨범 꾸미기" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="연준 앨범 꾸미기" />NO LABELS: PART 01<img src={MainH2deco} alt="연준 앨범 꾸미기" />
+            </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 타이틀곡 &apos;Talk to You&apos;,<br />
                 작사 및 작곡 참여해<br />
                 &apos;연준 코어&apos;를 준비했어요!
             </p>
-            <img src="" alt="NO LABELS: PART 01" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={TxtMemYeonjunNOLABELSPART01Album_img} alt="NO LABELS: PART 01" className='tri_BabyFlowerCityRemixesAlbum_img txt_mm_yeonjun_NOLABELSPART01Album_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
