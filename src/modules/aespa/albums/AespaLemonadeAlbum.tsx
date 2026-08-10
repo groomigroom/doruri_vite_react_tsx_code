@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './AespaLemonadeAlbum.css';
@@ -11,6 +12,8 @@ import AespaLemonadeAlbum_img from './img/AespaLemonadeAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function AespaLemonadeAlbum() {
+    DoruriDocumentTitle('LEMONADE');
+
     return (
         <div className="aespa_AespaLemonadeAlbum_full">
             <Menu />
