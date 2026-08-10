@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './StrayKidsThisAndThatAlbum.css';
@@ -6,11 +7,13 @@ import './StrayKidsThisAndThatAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-//import StrayKidsSKZReplay2026Pt1Album_img from './img/StrayKidsSKZReplay2026Pt1Album_img.jpg';
+import StrayKidsThisAndThatAlbum_img from './img/StrayKidsThisAndThatAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function StrayKidsThisAndThatAlbum() {
+    DoruriDocumentTitle('THIS & THAT');
+
     return (
         <div className='str_StrayKidsThisAndThatAlbum_full'>
             <Menu />
@@ -26,7 +29,7 @@ export default function StrayKidsThisAndThatAlbum() {
                 한다는 생각으로<br />
                 준비한 앨범이에요!
             </p>
-            <img src='' alt="StrayKidsSKZReplay2026Pt1Album" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={StrayKidsThisAndThatAlbum_img} alt="StrayKidsSKZReplay2026Pt1Album" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
