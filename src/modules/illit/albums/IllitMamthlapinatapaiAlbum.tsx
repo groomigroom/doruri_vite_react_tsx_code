@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './IllitMamthlapinatapaiAlbum.css';
@@ -11,6 +12,8 @@ import IllitMamthlapinatapaiAlbum_img from './img/IllitMamthlapinatapaiAlbum_img
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function IllitMamthlapinatapaiAlbum() {
+    DoruriDocumentTitle('MAMIHLAPINATAPAI');
+
     return (
         <div className='ill_IllitMamthlapinatapaiAlbum_full'>
             <Menu />
