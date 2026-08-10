@@ -10,6 +10,47 @@ interface Tri_e_popProp {
 
 
 export default function TriplesEventPre({ tri_e_OnCl, tri_e_result }: Tri_e_popProp) {
+    let tri_e_p_floor_num = Math.floor(Math.random() * 3) + 1;
+
+    let tri_e_p_part_num = Math.floor(Math.random() * 10) + 1;
+
+    let tri_e_p_part_letter;
+
+    switch (tri_e_p_part_num) {
+        case 1:
+            tri_e_p_part_letter = '가';
+            break;
+        case 2:
+            tri_e_p_part_letter = '나';
+            break;
+        case 3:
+            tri_e_p_part_letter = '다';
+            break;
+        case 4:
+            tri_e_p_part_letter = '라';
+            break;
+        case 5:
+            tri_e_p_part_letter = '마';
+            break;
+        case 6:
+            tri_e_p_part_letter = '바';
+            break;
+        case 7:
+            tri_e_p_part_letter = '사';
+            break;
+        case 8:
+            tri_e_p_part_letter = '아';
+            break;
+        case 9:
+            tri_e_p_part_letter = '자';
+            break;
+        case 10:
+            tri_e_p_part_letter = '차';
+            break;
+    }
+
+    let tri_e_p_floor_num2 = Math.floor(Math.random() * 100000) + 1;
+
     return (
         <div className="tri_e_p_full">
             {tri_e_result === 24 ?
@@ -18,7 +59,7 @@ export default function TriplesEventPre({ tri_e_OnCl, tri_e_result }: Tri_e_popP
                     <img src={TriplesEventPre_m_logo} alt="트리플에스 로고" className="tri_e_p_logo_img" />
                     {/* #####0층 0구역 0번 랜덤으로 되게 수정하기 */}
                     <p className="tri_e_p_pp"><span>tripleS Baby Flower World Tour</span><br />
-                        0층 0구역 0번<br />
+                        {tri_e_p_floor_num}층 &apos;{tri_e_p_part_letter}&apos;구역 {tri_e_p_floor_num2}번<br />
                         일시 : 0000년 00월 00일<br />
                         장소 : 0000</p>
                 </section>) :
