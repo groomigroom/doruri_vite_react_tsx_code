@@ -1,6 +1,6 @@
 .tri_glo_m_full {
     width: 100vw;
-    height: 1423px;
+    height: 1673px;
     position: relative;
     background-color: #fcfcfc;
 }
@@ -20,4 +20,15 @@
 
 .tri_glo_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>div {
     border: 5px solid #000000;
+}
+
+.tri_glo_m_h2_5 {
+    position: absolute;
+    top: 1323px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tri_glo_m_album_tr_full {
+    top: 1383px;
 }
