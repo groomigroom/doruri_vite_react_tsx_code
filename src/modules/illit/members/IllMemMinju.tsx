@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './IllMemMinju.css';
@@ -11,6 +12,8 @@ import ill_mm_minju_img from '../main/img/illit_m_mem_Minju.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IllMemMinju() {
+    DoruriDocumentTitle('민주');
+
     return (
         <div className="ill_mm_minju_full">
             <Menu />
