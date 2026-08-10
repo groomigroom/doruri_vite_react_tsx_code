@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './AlldayProjectAlldayProjectAlbum.css';
@@ -11,6 +12,8 @@ import FooterPart from '../../FooterPart';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function AlldayProjectAlldayProjectAlbum() {
+    DoruriDocumentTitle('ALLDAY PROJECT');
+
     return (
         <div className="all_AlldayProjectAlldayProjectAlbum_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function AlldayProjectAlldayProjectAlbum() {
                 <Link to='/AlldayProjectAlldayProjectAlbum' className="on">한국어</Link>
                 <Link to='/AlldayProjectAlldayProjectAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="ALLDAY PROJECT deco" />ALLDAY PROJECT<img src={MainH2deco} alt="ALLDAY PROJECT deco" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="ALLDAY PROJECT deco" />ALLDAY PROJECT<img src={MainH2deco} alt="ALLDAY PROJECT deco" />
+            </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 한계를 생각하지<br />
                 않고 열심히<br />
