@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './ResMain.css';
@@ -25,6 +26,8 @@ import ResceneYoutube_img from '../../triples/main/img/triples_youtube_icon.png'
 //ffffff
 
 export default function ResMain() {
+    DoruriDocumentTitle('RESCENE');
+
     return (
         <div className='res_m_full'>
             <Menu />
