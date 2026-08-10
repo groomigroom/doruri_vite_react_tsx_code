@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './TenMemGwonjungyeol.css';
@@ -11,6 +12,8 @@ import Ten_mm_gwonjungyeol_img from '../main/img/10cm_m_mem_Gwonjungyeol.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TenMemGwonjungyeol() {
+    DoruriDocumentTitle('권정열');
+
     return (
         <div className="ten_mm_gwonjungyeol_full">
             <Menu />
