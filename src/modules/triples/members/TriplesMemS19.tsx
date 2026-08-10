@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import './TriplesMemS1.css';
 import './TriplesMemS19.css';
@@ -11,6 +12,8 @@ import Tri_mm_s19_img from '../main/img/tri_m_memS19.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TriplesMemS19() {
+    DoruriDocumentTitle('정하연');
+
     return (
         <div className="tri_mm_s19_full">
             <Menu />
@@ -70,20 +73,3 @@ export default function TriplesMemS19() {
         </div>
     );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
