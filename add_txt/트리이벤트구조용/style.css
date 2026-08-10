@@ -6,7 +6,7 @@
 
 .tri_e_img {
     width: 720px;
-    height: 720px;
+    height: 1300px;
     position: absolute;
     top: 50px;
     left: 100px;
@@ -17,6 +17,8 @@
     height: 150px;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    left: 0px;
 }
 
 .triplesevent_imgt>img {
@@ -26,8 +28,81 @@
     border-radius: 25px;
 }
 
-.tri_e_form>input {
+.tri_e_i_1 {
+    top: 0px;
+}
+
+.tri_e_i_2 {
+    top: 220px;
+}
+
+.tri_e_i_3 {
+    top: 440px;
+}
+
+.tri_e_i_4 {
+    top: 660px;
+}
+
+.tri_e_i_5 {
+    top: 880px;
+}
+
+.tri_e_i_6 {
+    top: 1100px;
+}
+
+
+/* 인풋들 */
+
+.tri_e_form_indivtr {
+    width: 720px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0px;
+}
+
+.tri_e_form_indiv {
     width: 150px;
     height: 30px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    position: relative;
+}
 
+.tri_e_form_indiv>input {
+    width: 130px;
+    background-color: #fcfcfc;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+.tri_e_form_indivtr1 {
+    top: 170px;
+}
+
+.tri_e_form_indivtr2 {
+    top: 390px;
+}
+
+.tri_e_form_indivtr3 {
+    top: 610px;
+}
+
+.tri_e_form_indivtr4 {
+    top: 830px;
+}
+
+.tri_e_form_indivtr5 {
+    top: 1050px;
+}
+
+.tri_e_form_indivtr6 {
+    top: 1270px;
 }
