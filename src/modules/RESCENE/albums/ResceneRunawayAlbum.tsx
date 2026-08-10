@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './ResceneRunawayAlbum.css';
@@ -11,6 +12,8 @@ import ResceneRunawayAlbum_img from './img/ResceneRunawayAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function ResceneRunawayAlbum() {
+    DoruriDocumentTitle('Runaway');
+
     return (
         <div className="res_ResceneRunawayAlbum_full">
             <Menu />
