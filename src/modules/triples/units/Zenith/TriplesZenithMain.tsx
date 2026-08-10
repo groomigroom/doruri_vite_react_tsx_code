@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../main/TriplesMain.css';
 import './TriplesZenithMain.css';
@@ -18,11 +19,11 @@ import TriplesSun_m_S18_img from '../../main/img/tri_m_memS18.jpg';
 import TriplesSun_m_S19_img from '../../main/img/tri_m_memS19.jpg';
 
 
-
-
 //#a2bf99
 
 export default function TriplesZenithMain() {
+    DoruriDocumentTitle('zenith');
+
     return (
         <div className='tri_zen_m_full'>
             <Menu />
@@ -89,10 +90,25 @@ export default function TriplesZenithMain() {
                             </div>
                         </article>
                     </Link>
-
                 </section>
-
             </section>
+
+            <h2 className='tri_m_h2 tri_zen_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full tri_zen_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_album_a tri_zen_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={""} alt="Baby Flower City Remixes" />
+                            <div>
+                                <h4>
+                                    &lt;Baby Flower City Remixes&gt;
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
