@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './StrayKidsMain.css';
@@ -31,6 +32,8 @@ import StrayKidsYoutube_img from '../../triples/main/img/triples_youtube_icon.pn
 
 
 export default function StrayKidsMain() {
+    DoruriDocumentTitle('Stray Kids');
+
     return (
         <div className='str_m_full'>
             <Menu />
@@ -39,7 +42,9 @@ export default function StrayKidsMain() {
                 <Link to='/StrayKidsMainEng'>English</Link>
             </section>
             <img src={Str_m_logo} alt="스트레이 키즈 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" />Stray Kids<img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" /></h2>
+            <h2 className='tri_m_h2 tri_m_h2_1'>
+                <img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" />Stray Kids<img src={MainH2Deco} alt="스트레이 키즈 로고 꾸미기" />
+            </h2>
             <p className='tri_m_intropp'>
                 &apos;Stray Kids&apos;와 함께<br />
                 시련 속에서도 계속<br />
