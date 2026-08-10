@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './DAY6Main.css';
@@ -23,6 +24,8 @@ import Day6Youtube_icon_img from '../../triples/main/img/triples_youtube_icon.pn
 //191919
 
 export default function DAY6Main() {
+    DoruriDocumentTitle('DAY6');
+
     return (
         <div className='day_m_full'>
             <Menu />
