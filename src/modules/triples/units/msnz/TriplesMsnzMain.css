@@ -1,6 +1,6 @@
 .tri_msnz_m_full {
     width: 100vw;
-    height: 2183px;
+    height: 2433px;
     position: relative;
     background-color: #fcfcfc;
 }
@@ -14,5 +14,21 @@
 }
 
 .tri_msnz_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>div {
+    border: 5px solid #9a9a9a;
+}
+
+.tri_msnz_m_h2_5 {
+    position: absolute;
+    top: 2083px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tri_msnz_m_album_tr_full {
+    top: 2143px;
+}
+
+.tri_msnz_m_album_a img,
+.tri_msnz_m_album_a div {
     border: 5px solid #9a9a9a;
 }
