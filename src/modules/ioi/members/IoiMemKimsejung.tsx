@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './IoiMemKimsejung.css';
@@ -11,6 +12,8 @@ import Ioi_m_MemKimsejung_img from '../main/img/ioi_m_mem_Kimsejung.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IoiMemKimsejung() {
+    DoruriDocumentTitle('김세정');
+
     return (
         <div className="ioi_mm_kimsejung_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function IoiMemKimsejung() {
                 <Link to='/IoiMemKimsejung' className="on">한국어</Link>
                 <Link to='/IoiMemKimsejungEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />김세정<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />김세정<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 감성적인 생각과<br />
                 다양한 생각을 가지고<br />
