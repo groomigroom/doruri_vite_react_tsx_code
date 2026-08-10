@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './AesMemNingning.css';
@@ -11,6 +12,8 @@ import Aes_mm_Ningning_img from '../main/img/aespa_m_mem_Ningning.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AesMemNingning() {
+    DoruriDocumentTitle('닝닝');
+
     return (
         <div className="aes_mm_ningning_full">
             <Menu />
