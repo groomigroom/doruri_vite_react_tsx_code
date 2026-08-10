@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './AllMemBailey.css';
@@ -11,6 +12,8 @@ import All_mm_Bailey_img from '../main/img/allday_m_mem_Bailey.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AllMemBailey() {
+    DoruriDocumentTitle('베일리');
+
     return (
         <div className="all_mm_bailey_full">
             <Menu />
