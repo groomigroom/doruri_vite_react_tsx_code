@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../../DoruriDocumentTitle';
 
 import '../../../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './DayMemYoungKEternalAlbum.css';
@@ -11,6 +12,8 @@ import FooterPart from '../../../../FooterPart';
 import MainH2deco from '../../../../img/main_h2_deco.png';
 
 export default function DayMemYoungKEternalAlbum() {
+    DoruriDocumentTitle('Eternal');
+
     return (
         <div className='day_DayMemYoungKEternalAlbum_full'>
             <Menu />
