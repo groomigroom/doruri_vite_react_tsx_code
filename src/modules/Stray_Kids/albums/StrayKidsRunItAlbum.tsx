@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './StrayKidsRunItAlbum.css';
@@ -6,11 +7,13 @@ import './StrayKidsRunItAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import StrayKidsRunItAlbum_img from './img/StrayKidsRunItAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function StrayKidsRunItAlbum() {
+    DoruriDocumentTitle('RUN IT');
+
     return (
         <div className='str_StrayKidsRunItAlbum_full'>
             <Menu />
@@ -26,7 +29,7 @@ export default function StrayKidsRunItAlbum() {
                 뛰어 든다는 생각으로<br />
                 준비한 앨범이에요!
             </p>
-            <img src='' alt="RUN IT" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={StrayKidsRunItAlbum_img} alt="RUN IT" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
