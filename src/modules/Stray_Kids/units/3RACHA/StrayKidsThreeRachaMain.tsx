@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../../triples/main/TriplesMain.css'
 import './StrayKidsThreeRachaMain.css';
@@ -18,6 +19,8 @@ import StrayMemHan_img from '../../main/img/stray_m_mem_Han.jpg';
 //#191919
 
 export default function StrayKidsThreeRachaMain() {
+    DoruriDocumentTitle('3RACHA');
+
     return (
         <div className='str_3racha_m_full'>
             <Menu />
