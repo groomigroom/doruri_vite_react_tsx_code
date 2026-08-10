@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './IoiMemKimchungha.css';
@@ -11,6 +12,8 @@ import Ioi_m_MemKimchungha_img from '../main/img/ioi_m_mem_Kimchungha.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IoiMemKimchungha() {
+    DoruriDocumentTitle('김청하');
+
     return (
         <div className="ioi_mm_kimchungha_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function IoiMemKimchungha() {
                 <Link to='/IoiMemKimchungha' className="on">한국어</Link>
                 <Link to='/IoiMemKimchunghaEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />김청하<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />김청하<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 제가 그동안<br />
                 꿈꿔왔던 노래를<br />
