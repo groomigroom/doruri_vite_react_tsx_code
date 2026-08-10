@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './StrayMemIn.css';
@@ -11,6 +12,8 @@ import Str_mm_in_img from '../main/img/stray_m_mem_In.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function StrayMemIn() {
+    DoruriDocumentTitle('아이엔');
+
     return (
         <div className="str_mm_in_full">
             <Menu />
@@ -48,7 +51,7 @@ export default function StrayMemIn() {
                     </tr>
                     <tr>
                         <td><p>SKZOO</p></td>
-                        <td><p>폭시니</p></td>
+                        <td><p>FoxI.Ny</p></td>
                     </tr>
                     <tr>
                         <td><p>상징 동물</p></td>
