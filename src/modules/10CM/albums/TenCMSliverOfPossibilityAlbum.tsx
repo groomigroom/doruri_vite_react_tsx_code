@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './TenCMSliverOfPossibilityAlbum.css';
@@ -11,6 +12,8 @@ import FooterPart from '../../FooterPart';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TenCMSliverOfPossibilityAlbum() {
+    DoruriDocumentTitle('일말의 가능성');
+
     return (
         <div className='ten_TenCMSliverOfPossibilityAlbum_full'>
             <Menu />
