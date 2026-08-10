@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './AlldayProjectIDonBargainAlbum.css';
@@ -11,6 +12,8 @@ import AlldayProjectIDonBargainAlbum_img from './img/AlldayProjectIDonBargainAlb
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function AlldayProjectIDonBargainAlbum() {
+    DoruriDocumentTitle('I DON\'T BARGAIN');
+
     return (
         <div className="all_AlldayProjectIDonBargainAlbum_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function AlldayProjectIDonBargainAlbum() {
                 <Link to='/AlldayProjectIDonBargainAlbum' className="on">한국어</Link>
                 <Link to='/AlldayProjectIDonBargainAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="ALLDAY PROJECT deco" />I DON&apos;T BARGAIN<img src={MainH2deco} alt="ALLDAY PROJECT deco" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="ALLDAY PROJECT deco" />I DON&apos;T BARGAIN<img src={MainH2deco} alt="ALLDAY PROJECT deco" />
+            </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 독보적인 점을<br />
                 지키는 것을 생각하며<br />
