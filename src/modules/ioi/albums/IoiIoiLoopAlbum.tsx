@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './IoiIoiLoopAlbum.css';
@@ -11,6 +12,8 @@ import IoiIoiLoopAlbum_img from './img/IoiIoiLoopAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function IoiIoiLoopAlbum() {
+    DoruriDocumentTitle('I.O.I : LOOP');
+
     return (
         <div className='ioi_IoiIoiLoopAlbum_full'>
             <Menu />
