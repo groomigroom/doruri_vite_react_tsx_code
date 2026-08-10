@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './TwsMemGyungmin.css';
@@ -11,6 +12,8 @@ import Tws_mm_gyungmin_img from '../main/img/tws_m_mem_Kyungmin.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TwsMemGyungmin() {
+    DoruriDocumentTitle('경민');
+
     return (
         <div className="tws_mm_gyungmin_full">
             <Menu />
