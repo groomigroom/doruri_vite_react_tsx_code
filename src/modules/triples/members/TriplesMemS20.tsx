@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import './TriplesMemS1.css';
 import './TriplesMemS20.css';
@@ -11,6 +12,8 @@ import Tri_mm_s20_img from '../main/img/tri_m_memS20.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TriplesMemS20() {
+    DoruriDocumentTitle('박시온');
+
     return (
         <div className="tri_mm_s20_full">
             <Menu />
@@ -71,20 +74,3 @@ export default function TriplesMemS20() {
         </div>
     );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
