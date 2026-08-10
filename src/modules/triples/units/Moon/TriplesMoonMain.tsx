@@ -17,7 +17,7 @@ import TriplesMoon_m_S20_img from '../../main/img/tri_m_memS20.jpg';
 import TriplesMoon_m_S22_img from '../../main/img/tri_m_memS22.jpg';
 import TriplesMoon_m_S24_img from '../../main/img/tri_m_memS24.jpg';
 
-import TriplesDreamDressAlbum_img from '../../albums/img/TriplesDreamDressAlbum_img.jpg';
+import TriplesDreamDressAlbum_img from './albums/img/TriplesDreamDressAlbum_img.jpg';
 
 //#e7cb82
 
