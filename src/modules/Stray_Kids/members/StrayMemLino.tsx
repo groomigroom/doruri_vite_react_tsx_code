@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './StrayMemLino.css';
@@ -11,6 +12,8 @@ import Str_mm_lino_img from '../main/img/stray_m_mem_Lino.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function StrayMemLino() {
+    DoruriDocumentTitle('리노');
+
     return (
         <div className="str_mm_lino_full">
             <Menu />
@@ -36,7 +39,7 @@ export default function StrayMemLino() {
                     </tr>
                     <tr>
                         <td><p>소속 유닛</p></td>
-                        <td><p>DANCERACHA</p></td>
+                        <td><p>x</p></td>
                     </tr>
                     <tr>
                         <td><p>MBTI</p></td>
