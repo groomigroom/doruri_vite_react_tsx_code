@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './ResMemJena.css';
@@ -11,6 +12,8 @@ import res_mm_jena_img from '../main/img/rescene_m_mem_Jena.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function ResMemJena() {
+    DoruriDocumentTitle('제나');
+
     return (
         <div className="res_mm_jena_full">
             <Menu />
