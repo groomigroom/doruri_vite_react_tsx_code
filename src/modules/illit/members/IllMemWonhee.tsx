@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './IllMemWonhee.css';
@@ -11,6 +12,8 @@ import ill_mm_wonhee_img from '../main/img/illit_m_mem_Wonhee.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IllMemWonhee() {
+    DoruriDocumentTitle('원희');
+
     return (
         <div className="ill_mm_wonhee_full">
             <Menu />
