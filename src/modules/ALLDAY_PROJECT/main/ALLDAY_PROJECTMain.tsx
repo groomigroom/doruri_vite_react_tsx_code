@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './ALLDAY_PROJECTMain.css';
@@ -24,6 +25,8 @@ import AlldayYoutube_icon_img from '../../10CM/main/img/TenCM_youtube_icon_img.p
 // #000000
 
 export default function ALLDAY_PROJECTMain() {
+    DoruriDocumentTitle('ALLDAY PROJECT');
+
     return (
         <div className='all_m_full'>
             <Menu />
