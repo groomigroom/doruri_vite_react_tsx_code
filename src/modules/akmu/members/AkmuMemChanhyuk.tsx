@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './AkmuMemChanhyuk.css';
@@ -11,6 +12,8 @@ import akmu_mm_chanhyuk_img from '../main/img/aknu_m_chanhyuk.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AkmuMemChanhyuk() {
+    DoruriDocumentTitle('이찬혁');
+
     return (
         <div className="akmu_mm_chanhyuk_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function AkmuMemChanhyuk() {
                 <Link to='/AkmuMemChanhyuk' className="on">한국어</Link>
                 <Link to='/AkmuMemChanhyukEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />이찬혁<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />이찬혁<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 오늘도 고민하며<br />
                 잘 준비해서<br />
