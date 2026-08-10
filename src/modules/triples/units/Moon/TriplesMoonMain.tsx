@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../main/TriplesMain.css';
 import './TriplesMoonMain.css';
@@ -22,6 +23,8 @@ import TriplesDreamDressAlbum_img from './albums/img/TriplesDreamDressAlbum_img.
 //#e7cb82
 
 export default function TriplesMoonMain() {
+    DoruriDocumentTitle('moon');
+
     return (
         <div className='tri_moo_m_full'>
             <Menu />
