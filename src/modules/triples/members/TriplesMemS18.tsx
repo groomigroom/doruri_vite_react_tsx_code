@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import './TriplesMemS1.css';
 import './TriplesMemS18.css';
@@ -11,6 +12,8 @@ import Tri_mm_s18_img from '../main/img/tri_m_memS18.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TriplesMemS18() {
+    DoruriDocumentTitle('주빈');
+
     return (
         <div className="tri_mm_s18_full">
             <Menu />
@@ -70,20 +73,3 @@ export default function TriplesMemS18() {
         </div>
     );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
