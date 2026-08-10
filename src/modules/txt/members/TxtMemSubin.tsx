@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './TxtMemSubin.css';
@@ -11,6 +12,8 @@ import Txt_mm_Subin_img from '../main/img/txt_m_mem_subin.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TxtMemSubin() {
+    DoruriDocumentTitle('수빈');
+
     return (
         <div className="txt_mm_subin_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function TxtMemSubin() {
                 <Link to='/TxtMemSubin' className="on">한국어</Link>
                 <Link to='/TxtMemSubinEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />수빈<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />수빈<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 강단있고<br />
                 신중하게<br />
