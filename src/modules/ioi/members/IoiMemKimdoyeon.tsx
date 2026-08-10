@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './IoiMemKimdoyeon.css';
@@ -11,6 +12,8 @@ import Ioi_m_MemKimdoyeon_img from '../main/img/ioi_m_mem_Kimdoyeon.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IoiMemKimdoyeon() {
+    DoruriDocumentTitle('김도연');
+
     return (
         <div className="ioi_mm_kimdoyeon_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function IoiMemKimdoyeon() {
                 <Link to='/IoiMemKimdoyeon' className="on">한국어</Link>
                 <Link to='/IoiMemKimdoyeonEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />김도연<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />김도연<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 눈물이 많지만<br />
                 마음을 굳게 먹고<br />
