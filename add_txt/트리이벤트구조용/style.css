@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tri_e_img {
+    width: 720px;
+    height: 720px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.triplesevent_imgt {
+    width: 720px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.triplesevent_imgt>img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #333;
+    border-radius: 25px;
+}
+
+.tri_e_form>input {
+    width: 150px;
+    height: 30px;
+
+}
