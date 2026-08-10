@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './TenCMTheDarkestNightAlbum.css';
@@ -11,6 +12,8 @@ import TenCMTheDarkestNightAlbum_img from './img/TenCMTheDarkestNightAlbum_img.j
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TenCMTheDarkestNightAlbum() {
+    DoruriDocumentTitle('The Darkest Night');
+
     return (
         <div className='ten_TenCMTheDarkestNightAlbum_full'>
             <Menu />
