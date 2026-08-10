@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../main/TriplesMain.css';
 import './TriplesAlphieMain.css';
@@ -22,6 +23,8 @@ import TriplesAlphie_s24_img from './img/TriplesAlphie_s24_img.jpg';
 //#191919
 
 export default function TriplesAlphieMain() {
+    DoruriDocumentTitle('Alphie');
+
     return (
         <div className='tri_alp_m_full'>
             <Menu />
