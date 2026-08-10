@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './StrayKidsStarLightAlbum.css';
@@ -6,11 +7,13 @@ import './StrayKidsStarLightAlbum.css';
 import Menu from '../../Menu';
 import FooterPart from '../../FooterPart';
 
-// import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
+import StrayKidsStarLightAlbum_img from './img/StrayKidsStarLightAlbum_img.jpg';
 
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function StrayKidsStarLightAlbum() {
+    DoruriDocumentTitle('별, 빛 (STAY)');
+
     return (
         <div className='str_StrayKidsStarLightAlbum_full'>
             <Menu />
@@ -26,7 +29,7 @@ export default function StrayKidsStarLightAlbum() {
                 편지의 마음으로<br />
                 준비한 앨범이에요!
             </p>
-            <img src='' alt="별, 빛 &#40;STAY&#41;" className='tri_BabyFlowerCityRemixesAlbum_img' />
+            <img src={StrayKidsStarLightAlbum_img} alt="별, 빛 &#40;STAY&#41;" className='tri_BabyFlowerCityRemixesAlbum_img' />
             <table className='tri_BabyFlowerCityRemixesAlbum_tb1'>
                 <tbody>
                     <tr className='tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1'>
