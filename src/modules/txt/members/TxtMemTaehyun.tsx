@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './TxtMemTaehyun.css';
@@ -11,6 +12,8 @@ import Txt_mm_Taehyun_img from '../main/img/txt_m_mem_taehyun.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TxtMemTaehyun() {
+    DoruriDocumentTitle('태현');
+
     return (
         <div className="txt_mm_taehyun_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function TxtMemTaehyun() {
                 <Link to='/TxtMemTaehyun' className="on">한국어</Link>
                 <Link to='/TxtMemTaehyunEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />태현<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />태현<img src={MainH2Deco} alt="투모로우바이투게더 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 멤버들을 잘 챙기고<br />
                 침착하게<br />
