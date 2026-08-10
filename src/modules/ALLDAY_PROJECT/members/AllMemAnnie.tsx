@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './AllMemAnnie.css';
@@ -11,6 +12,8 @@ import All_mm_Annie_img from '../main/img/allday_m_mem_Annie.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AllMemAnnie() {
+    DoruriDocumentTitle('애니');
+
     return (
         <div className="all_mm_annie_full">
             <Menu />
