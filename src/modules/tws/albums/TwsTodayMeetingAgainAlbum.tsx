@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './TwsTodayMeetingAgainAlbum.css';
@@ -11,6 +12,8 @@ import FooterPart from '../../FooterPart';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function TwsTodayMeetingAgainAlbum() {
+    DoruriDocumentTitle('다시 만난 오늘');
+
     return (
         <div className='tws_TwsTodayMeetingAgainAlbum_full'>
             <Menu />
