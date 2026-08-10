@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './AllMemYoungseo.css';
@@ -11,6 +12,8 @@ import All_mm_youngseo_img from '../main/img/allday_m_mem_Youngseo.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AllMemYoungseo() {
+    DoruriDocumentTitle('영서');
+
     return (
         <div className="all_mm_youngseo_full">
             <Menu />
