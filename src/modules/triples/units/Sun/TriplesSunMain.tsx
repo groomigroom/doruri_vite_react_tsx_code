@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../main/TriplesMain.css';
 import './TriplesSunMain.css';
@@ -21,6 +22,8 @@ import TriplesSun_m_S21_img from '../../main/img/tri_m_memS21.jpg';
 //#e3b4c8
 
 export default function TriplesSunMain() {
+    DoruriDocumentTitle('sun');
+
     return (
         <div className='tri_sun_m_full'>
             <Menu />
@@ -87,15 +90,26 @@ export default function TriplesSunMain() {
                             </div>
                         </article>
                     </Link>
-
                 </section>
-
             </section>
+
+            <h2 className='tri_m_h2 tri_sun_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full tri_sun_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_album_a tri_sun_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={""} alt="Baby Flower City Remixes" />
+                            <div>
+                                <h4>
+                                    &lt;Baby Flower City Remixes&gt;
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
-
-
-
-
