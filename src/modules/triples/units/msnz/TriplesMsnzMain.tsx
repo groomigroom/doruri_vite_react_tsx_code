@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../main/TriplesMain.css';
 import './TriplesMsnzMain.css';
@@ -39,6 +40,8 @@ import TriMsnz_m_memS24 from '../../main/img/tri_m_memS24.jpg';
 //#9a9a9a
 
 export default function TriplesMsnzMain() {
+    DoruriDocumentTitle('msnz');
+
     return (
         <div className='tri_msnz_m_full'>
             <Menu />
@@ -446,13 +449,22 @@ export default function TriplesMsnzMain() {
                 </section>
             </section> */}
 
-            <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_ins'>
-                <h3>트리플에스 인스타그램</h3>
-            </a>
-            <a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_a_you'>
-                <h3>트리플에스 유튜브</h3>
-            </a>
-            <Link to="/TriplesEvent" className='tri_m_e'>이벤트</Link>
+            <h2 className='tri_m_h2 tri_msnz_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full tri_msnz_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_album_a tri_msnz_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={""} alt="Baby Flower City Remixes" />
+                            <div>
+                                <h4>
+                                    &lt;Baby Flower City Remixes&gt;
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div >
     );
