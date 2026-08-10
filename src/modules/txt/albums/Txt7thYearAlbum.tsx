@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './Txt7thYearAlbum.css';
@@ -11,6 +12,8 @@ import Txt7thYearAlbum_img from './img/Txt7thYearAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function Txt7thYearAlbum() {
+    DoruriDocumentTitle('7TH YEAR');
+
     return (
         <div className='txt_Txt7thYearAlbum_full'>
             <Menu />
