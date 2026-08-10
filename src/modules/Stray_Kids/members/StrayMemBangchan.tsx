@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './StrayMemBangchan.css';
@@ -11,6 +12,8 @@ import Str_mm_bangchan_img from '../main/img/stray_m_mem_Bangchan.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function StrayMemBangchan() {
+    DoruriDocumentTitle('방찬');
+
     return (
         <div className="str_mm_bangchan_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function StrayMemBangchan() {
                 <Link to='/StrayMemBangchan' className="on">한국어</Link>
                 <Link to='/StrayMemBangchanEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" />방찬<img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" />방찬<img src={MainH2Deco} alt="Stray Kids 로고 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 언제나 힘내면서<br />
                 다정한 마음으로<br />
