@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './AespaSynkAexisLineAlbum.css';
@@ -11,6 +12,8 @@ import AespaSynkAexisLineAlbum_img from './img/AespaSynkAexisLineAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function AespaSynkAexisLineAlbum() {
+    DoruriDocumentTitle('SYNK : aeXIS LINE');
+
     return (
         <div className="aes_AespaSynkAexisLineAlbum_full">
             <Menu />
