@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './TwsMain.css';
@@ -26,6 +27,8 @@ import TwsYoutube_img from '../../triples/main/img/triples_youtube_icon.png';
 //#ffffff
 
 export default function TwsMain() {
+    DoruriDocumentTitle('TWS');
+
     return (
         <div className='tws_m_full'>
             <Menu />
