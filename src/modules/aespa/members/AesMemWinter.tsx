@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './AesMemNingning.css';
@@ -11,6 +12,8 @@ import Aes_mm_Winter_img from '../main/img/aespa_m_mem_Winter.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AesMemWinter() {
+    DoruriDocumentTitle('윈터');
+
     return (
         <div className="aes_mm_winter_full">
             <Menu />
