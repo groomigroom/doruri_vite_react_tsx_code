@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import "../../triples/main/TriplesMain.css";
 import "./AkmuMain.css";
@@ -22,6 +23,8 @@ import FooterPart from '../../FooterPart';
 //#13983f
 
 export default function AkmuMain() {
+    DoruriDocumentTitle('AKMU');
+
     return (
         <div className='akmu_m_full'>
             <Menu />
@@ -30,8 +33,11 @@ export default function AkmuMain() {
                 <Link to='/AkmuMainEng'>English</Link>
             </section>
             <img src={Akmu_m_logo} alt="AKMU 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="AKMU 로고 꾸미기" />AKMU<img src={MainH2Deco} alt="AKMU 로고 꾸미기" /></h2>
-            <p className='tri_m_intropp'>지치고 병들지 말고<br />
+            <h2 className='tri_m_h2 tri_m_h2_1'>
+                <img src={MainH2Deco} alt="AKMU 로고 꾸미기" />AKMU<img src={MainH2Deco} alt="AKMU 로고 꾸미기" />
+            </h2>
+            <p className='tri_m_intropp'>
+                지치고 병들지 말고<br />
                 &apos;AKMU&apos;와 함께<br />
                 오늘도 힘내길 바래요!
             </p>
