@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../main/TriplesMain.css';
 import './TriplesAriaMain.css';
@@ -21,6 +22,8 @@ import TriplesAria_m_S13_img from './img/TriplesAria_m_S13_img.jpg';
 //191919
 
 export default function TriplesAriaMain() {
+    DoruriDocumentTitle('Aria');
+
     return (
         <div className='tri_ari_m_full'>
             <Menu />
@@ -79,11 +82,24 @@ export default function TriplesAriaMain() {
                             </div>
                         </article>
                     </Link>
-
                 </section>
-
             </section>
 
+            <h2 className='tri_m_h2 tri_aria_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full tri_aria_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={""} alt="Baby Flower City Remixes" />
+                            <div>
+                                <h4>
+                                    &lt;Baby Flower City Remixes&gt;
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
