@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css';
 import './IoiMain.css';
@@ -31,6 +32,8 @@ import FooterPart from '../../FooterPart';
 
 
 export default function IoiMain() {
+    DoruriDocumentTitle('아이오아이');
+
     return (
         <div className='ioi_m_full'>
             <Menu />
@@ -39,7 +42,9 @@ export default function IoiMain() {
                 <Link to='/IoiMainEng'>English</Link>
             </section>
             <img src={Ioi_m_logo} alt="아이오아이 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />아이오아이<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" /></h2>
+            <h2 className='tri_m_h2 tri_m_h2_1'>
+                <img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />아이오아이<img src={MainH2Deco} alt="아이오아이 로고 꾸미기" />
+            </h2>
             <p className='tri_m_intropp'>갑자기 찾아온<br />
                 &apos;아이오아이&apos;와 함께<br />
                 오늘도 좋은 생각에 잠겨 보아요!
