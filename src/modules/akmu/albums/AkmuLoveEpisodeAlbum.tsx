@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './AkmuLoveEpisodeAlbum.css';
@@ -11,6 +12,8 @@ import AkmuLoveEpisodeAlbum_img from './img/AkmuLoveEpisodeAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function AkmuLoveEpisodeAlbum() {
+    DoruriDocumentTitle('LOVE EPISODE');
+
     return (
         <div className='akmu_AkmuLoveEpisodeAlbum_full'>
             <Menu />
