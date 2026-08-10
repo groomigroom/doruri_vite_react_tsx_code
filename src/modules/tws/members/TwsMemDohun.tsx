@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './TwsMemDohun.css';
@@ -11,6 +12,8 @@ import Tws_mm_dohun_img from '../main/img/tws_m_mem_Dohun.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TwsMemDohun() {
+    DoruriDocumentTitle('도훈');
+
     return (
         <div className="tws_mm_dohun_full">
             <Menu />
