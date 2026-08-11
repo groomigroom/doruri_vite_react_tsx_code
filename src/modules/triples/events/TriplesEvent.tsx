@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import TriplesEventPre from "./TriplesEventPre";
 
 import Menu from "../../Menu";
+import FooterPart from "../../FooterPart";
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
@@ -279,6 +280,7 @@ export default function TriplesEvent() {
             {tri_e_PopupO && (
                 <TriplesEventPre tri_e_OnCl={tri_e_ClPopup} tri_e_result={tri_e_result} />
             )}
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div>
     );
 };
