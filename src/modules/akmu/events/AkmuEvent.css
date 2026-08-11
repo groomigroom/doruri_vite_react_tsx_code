@@ -1,5 +1,42 @@
 .akmuevent_full {
-    width: 800px;
-    height: 800px;
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+}
 
+.akmu_e_form {
+    position: absolute;
+    top: 401px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input[name=akmu_event] {
+    display: none;
+}
+
+.akmu_e_result {
+    position: absolute;
+    top: 600px;
+}
+
+.akmu_e_checklabel {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[id=akmu_e_check1]:checked~.akmu_e_check1_label {
+    background-color: black;
+}
+
+input[id=akmu_e_check2]:checked~.akmu_e_check2_label {
+    background-color: black;
+}
+
+input[id=akmu_e_check3]:checked~.akmu_e_check3_label {
+    background-color: black;
 }
