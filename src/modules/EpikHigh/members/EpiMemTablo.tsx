@@ -1,3 +1,5 @@
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
 import '../../triples/members/TriplesMemS1.css';
 import './EpiMemTablo.css';
 
@@ -9,6 +11,8 @@ import EpikHighTablo_m_img from '../main/img/Epi_mm_Tablo_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function EpiMemTablo() {
+    DoruriDocumentTitle('타블로');
+
     return (
         <div className="epi_mm_tablo_full">
             <Menu />
