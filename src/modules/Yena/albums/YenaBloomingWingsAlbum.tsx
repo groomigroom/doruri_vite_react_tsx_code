@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './YenaBloomingWingsAlbum.css';
@@ -11,6 +12,8 @@ import YenaBloomingWingsAlbum_img from './img/YenaBloomingWingsAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function YenaBloomingWingsAlbum() {
+    DoruriDocumentTitle('Blooming Wings');
+
     return (
         <div className="yena_YenaBloomingWingsAlbum_full">
             <Menu />
