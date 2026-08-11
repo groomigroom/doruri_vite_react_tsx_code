@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../../triples/main/TriplesMain.css';
 import '../Bol4Main.css';
@@ -14,6 +15,8 @@ import Bol_m_img from '../../main/img/bol4_m_mem_Anjiyoung.jpg';
 //ffffff
 
 export default function Bol4Main_7_23() {
+    DoruriDocumentTitle('볼빨간사춘기');
+
     return (
         <div className='bol_m_full'>
             <Menu />
