@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './EpikHighBruzHalipaOursVersionAlbum.css';
@@ -11,6 +12,8 @@ import EpikHighBruzHalipaOursVersionAlbum_img from './img/EpikHighBruzHalipaOurs
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function EpikHighBruzHalipaOursVersionAlbum() {
+    DoruriDocumentTitle('부르즈 할리파');
+
     return (
         <div className="epi_EpikHighBruzHalipaOursVersionAlbum_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function EpikHighBruzHalipaOursVersionAlbum() {
                 <Link to='/EpikHighBruzHalipaOursVersionAlbum' className="on">한국어</Link>
                 <Link to='/EpikHighBruzHalipaOursVersionAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="에픽하이" />부르즈 할리파 &#40;Ours Version&#41;<img src={MainH2deco} alt="에픽하이" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="에픽하이" />부르즈 할리파 &#40;Ours Version&#41;<img src={MainH2deco} alt="에픽하이" />
+            </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 높은 곳을<br />
                 생각하며 준비한<br />
