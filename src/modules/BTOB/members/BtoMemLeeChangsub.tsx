@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css'
 import './BtoMemLeeChangsub.css';
@@ -11,6 +12,8 @@ import Btob_m_LeeChangsub_img from '../main/img/Bto_mm_Leechangsub_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BtoMemLeeChangsub() {
+    DoruriDocumentTitle('이창섭');
+
     return (
         <div className="bto_mm_leechangsub_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function BtoMemLeeChangsub() {
                 <Link to='/BtoMemLeeChangsub' className="on">한국어</Link>
                 <Link to='/BtoMemLeeChangsubEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="BTOB 꾸미기" />이창섭<img src={MainH2Deco} alt="BTOB 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="BTOB 꾸미기" />이창섭<img src={MainH2Deco} alt="BTOB 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;이창섭&apos;과 함께<br />
                 높이높이<br />
