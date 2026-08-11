@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './ArtMemChoerry.css';
@@ -11,6 +12,8 @@ import Art_mm_Choerry_img from '../main/img/Art_mm_Choerry_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function ArtMemChoerry() {
+    DoruriDocumentTitle('최리');
+
     return (
         <div className="art_mm_choerry_full">
             <Menu />
