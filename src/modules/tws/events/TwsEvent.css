@@ -1,1 +1,37 @@
-TwsEvent.css
+.twsEvent_full {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fcfcfc;
+    position: relative;
+}
+
+.tws_e_moving_object {
+    position: absolute;
+    background-color: aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: tws_e_moving_object 10s linear 0s infinite;
+}
+
+@keyframes tws_e_moving_object {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+
+    80% {
+        width: 0px;
+        height: 0px;
+    }
+
+    90% {
+        width: 20px;
+        height: 20px;
+    }
+
+    100% {
+        width: 0px;
+        height: 0px;
+    }
+}
