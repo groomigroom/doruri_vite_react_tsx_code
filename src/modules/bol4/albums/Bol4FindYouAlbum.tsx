@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './Bol4FindYouAlbum.css';
@@ -11,6 +12,8 @@ import Bol4FindYouAlbum_img from './img/Bol4FindYouAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function Bol4FindYouAlbum() {
+    DoruriDocumentTitle('Find You');
+
     return (
         <div className='bol_Bol4FindYouAlbum_full'>
             <Menu />
@@ -18,7 +21,9 @@ export default function Bol4FindYouAlbum() {
                 <Link to='/Bol4FindYouAlbum' className="on">한국어</Link>
                 <Link to='/Bol4FindYouAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" />Find You<img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" />Find You<img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" />
+            </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 밤새 내린 비에 젖은<br />
                 꽃잎들까지도 다 봄이라는<br />
