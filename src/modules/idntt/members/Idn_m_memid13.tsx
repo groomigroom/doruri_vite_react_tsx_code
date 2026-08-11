@@ -70,17 +70,3 @@ export default function Idn_m_memid13() {
     );
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
