@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './BtobWeAgainAlbum.css';
@@ -11,6 +12,8 @@ import BtobWeAgainAlbum_img from './img/BtobWeAgainAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function BtobWeAgainAlbum() {
+    DoruriDocumentTitle('우리 다시');
+
     return (
         <div className='btob_BtobWeAgainAlbum_full'>
             <Menu />
