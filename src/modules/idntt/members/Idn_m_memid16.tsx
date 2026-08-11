@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import './Idn_m_memid16.css';
 
@@ -10,6 +11,8 @@ import Idn_mm_memid16_img from '../main/img/Idn_mm_id16_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function Idn_m_memid16() {
+    DoruriDocumentTitle('황은수');
+
     return (
         <div className="idn_mm_id16_full">
             <Menu />
