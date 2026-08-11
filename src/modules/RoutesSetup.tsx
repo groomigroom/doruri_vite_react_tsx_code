@@ -188,6 +188,8 @@ import IoiMemJeonsomiEng from './ioiEng/members/IoiMemJeonsomiEng';
 import StrayKidsMain from './Stray_Kids/main/StrayKidsMain';
 import StrayKidsMainEng from './Stray_KidsEng/main/StrayKidsMainEng';
 
+import StrayKidsEvent from './Stray_Kids/events/StrayKidsEvent';
+
 import StrayKidsRunItAlbum from './Stray_Kids/albums/StrayKidsRunItAlbum';
 import StrayKidsRunItAlbumEng from './Stray_KidsEng/albums/StrayKidsRunItAlbumEng';
 import StrayKidsStarLightAlbum from './Stray_Kids/albums/StrayKidsStarLightAlbum';
@@ -736,6 +738,8 @@ export default function RoutesSetup() {
 
             <Route path='/StrayKidsMain' element={<StrayKidsMain />}></Route>
             <Route path='/StrayKidsMainEng' element={<StrayKidsMainEng />}></Route>
+
+            <Route path='/StrayKidsEvent' element={<StrayKidsEvent />}></Route>
 
             <Route path='/StrayKidsRunItAlbum' element={<StrayKidsRunItAlbum />}></Route>
             <Route path='/StrayKidsRunItAlbumEng' element={<StrayKidsRunItAlbumEng />}></Route>
