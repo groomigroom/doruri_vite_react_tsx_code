@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './HanroroJpopRemakeVol2Album.css';
@@ -11,6 +12,8 @@ import FooterPart from '../../FooterPart';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function HanroroJpopRemakeVol2Album() {
+    DoruriDocumentTitle('J-POP REMAKE Vol.2');
+
     return (
         <div className='han_HanroroJpopRemakeVol2Album_full'>
             <Menu />
