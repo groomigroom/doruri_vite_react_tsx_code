@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './BTSMain.css';
@@ -24,6 +25,8 @@ import Bts_JungKook_m_img from './img/Bts_mm_Jungkook_img.jpg';
 
 
 export default function BTSMain() {
+    DoruriDocumentTitle('방탄소년단');
+
     return (
         <div className='bts_m_full'>
             <Menu />
@@ -32,7 +35,9 @@ export default function BTSMain() {
                 <Link to='/BTSMainEng'>English</Link>
             </section>
             <img src={Bts_m_logo} alt="방탄소년단 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />방탄소년단<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
+            <h2 className='tri_m_h2 tri_m_h2_1'>
+                <img src={MainH2Deco} alt="방탄소년단 꾸미기" />방탄소년단<img src={MainH2Deco} alt="방탄소년단 꾸미기" />
+            </h2>
             <p className='tri_m_intropp'>
                 #####
                 &apos;Stray Kids&apos;와 함께<br />
