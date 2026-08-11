@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './BtoMemLimHyunsik.css';
@@ -11,6 +12,8 @@ import Btob_m_LimHyunsik_img from '../main/img/Bto_mm_Limhyunsik_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BtoMemLimHyunsik() {
+    DoruriDocumentTitle('임현식');
+
     return (
         <div className="bto_mm_limhyunsik_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function BtoMemLimHyunsik() {
                 <Link to='/BtoMemLimHyunsik' className="on">한국어</Link>
                 <Link to='/BtoMemLimHyunsikEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="BTOB 꾸미기" />임현식<img src={MainH2Deco} alt="BTOB 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="BTOB 꾸미기" />임현식<img src={MainH2Deco} alt="BTOB 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;임현식&apos;과 함께<br />
                 더 담아 두고<br />
