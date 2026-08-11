@@ -1,12 +1,38 @@
 .tri_e_p_full {
-    width: 600px;
-    height: 600px;
+    width: 100vw;
+    height: 700px;
     position: absolute;
     z-index: 100;
-    top: 50%;
+    top: 401px;
+    left: 0px;
+    background-color: #fcfcfc;
+}
+
+.tri_e_p_h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: aquamarine;
+    transform: translateX(-50%);
+}
+
+.tri_e_p_h2>img {
+    margin: 0 20px;
+}
+
+.tri_e_p_h2>img:last-child {
+    transform: rotateZ(180deg);
+}
+
+.tri_e_p_win {
+    width: 400px;
+    height: 210px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .tri_e_p_ticket {
@@ -17,9 +43,8 @@
     border-radius: 25px;
     overflow: hidden;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0px;
+    left: 0px;
 }
 
 .tri_e_p_members_img {
@@ -51,4 +76,40 @@
 
 .tri_e_p_pp>span {
     font-weight: 600;
+}
+
+.tri_e_p_close {
+    width: 150px;
+    height: 40px;
+    border: 5px solid #191919;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    font-weight: 700;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tri_e_p_close_win {
+    top: 190px;
+}
+
+.tri_e_p_close:hover {
+    background-color: #191919;
+    color: #fcfcfc;
+}
+
+.tri_e_p_pp_lose {
+    font-size: 14px;
+    text-align: right;
+    line-height: 14px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tri_e_p_close_lose {
+    top: 114px;
 }
