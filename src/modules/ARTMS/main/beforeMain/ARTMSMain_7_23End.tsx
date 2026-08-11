@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../../triples/main/TriplesMain.css'
 import '../ARTMSMain.css';
@@ -19,6 +20,8 @@ import Art_m_MemChoerry_img from '../img/Art_mm_Choerry_img.jpg';
 //191919
 
 export default function ARTMSMain_7_23End() {
+    DoruriDocumentTitle('ARTMS');
+
     return (
         <div className='art_m_full'>
             <Menu />
