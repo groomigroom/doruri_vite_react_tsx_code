@@ -1,6 +1,6 @@
 .triplesevent_full {
     width: 100vw;
-    height: 1000px;
+    height: 1921px;
     position: relative;
     background-color: #fcfcfc;
 }
@@ -152,12 +152,19 @@
 
 .tri_e_btn {
     width: 150px;
-    height: 30px;
+    height: 40px;
     border: 5px solid #191919;
     border-radius: 10px;
     background-color: #fcfcfc;
+    font-weight: 700;
+    font-size: 16px;
     position: absolute;
     top: 1741px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.tri_e_btn:hover {
+    background-color: #191919;
+    color: #fcfcfc;
 }
