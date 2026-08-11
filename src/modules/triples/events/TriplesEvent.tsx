@@ -1,6 +1,11 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import TriplesEventPre from "./TriplesEventPre";
+
+import Menu from "../../Menu";
+
+import MainH2Deco from '../../img/main_h2_deco.png';
 
 import "./TriplesEvent.css";
 import TriEventLogo from "./img/tri_events_logo.png";
@@ -127,36 +132,104 @@ export default function TriplesEvent() {
 
     return (
         <div className="triplesevent_full">
+            <Menu />
+            <section className="home_translate">
+                <Link to='/TriplesEvent' className="on">한국어</Link>
+                <Link to='/TriplesEventEng'>English</Link>
+            </section>
             <img src="" alt="" className="tri_e_toback" />
-
             <img src={TriEventLogo} alt="트리플에스 이벤트 로고" className="tri_e_logo" />
-            <h2 className="tri_e_h2">이름 맞히기 이벤트</h2>
+            <h2 className="tri_e_h2"><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />이름 맞히기 이벤트<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
+            <p className='tri_e_intropp'>3줄 소개글<br />
+                3줄 소개글<br />
+                3줄 소개글
+            </p>
             <section className="tri_e_img">
                 <form className="tri_e_form" action="">
-                    <input className="tri_e_fo1" type="text" name="tri_e_s1" value={tri_e_form.tri_e_s1} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo2" type="text" name="tri_e_s2" value={tri_e_form.tri_e_s2} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo3" type="text" name="tri_e_s3" value={tri_e_form.tri_e_s3} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo4" type="text" name="tri_e_s4" value={tri_e_form.tri_e_s4} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo5" type="text" name="tri_e_s5" value={tri_e_form.tri_e_s5} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo6" type="text" name="tri_e_s6" value={tri_e_form.tri_e_s6} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo7" type="text" name="tri_e_s7" value={tri_e_form.tri_e_s7} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo8" type="text" name="tri_e_s8" value={tri_e_form.tri_e_s8} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo9" type="text" name="tri_e_s9" value={tri_e_form.tri_e_s9} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo10" type="text" name="tri_e_s10" value={tri_e_form.tri_e_s10} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo11" type="text" name="tri_e_s11" value={tri_e_form.tri_e_s11} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo12" type="text" name="tri_e_s12" value={tri_e_form.tri_e_s12} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo13" type="text" name="tri_e_s13" value={tri_e_form.tri_e_s13} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo14" type="text" name="tri_e_s14" value={tri_e_form.tri_e_s14} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo15" type="text" name="tri_e_s15" value={tri_e_form.tri_e_s15} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo16" type="text" name="tri_e_s16" value={tri_e_form.tri_e_s16} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo17" type="text" name="tri_e_s17" value={tri_e_form.tri_e_s17} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo18" type="text" name="tri_e_s18" value={tri_e_form.tri_e_s18} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo19" type="text" name="tri_e_s19" value={tri_e_form.tri_e_s19} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo20" type="text" name="tri_e_s20" value={tri_e_form.tri_e_s20} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo21" type="text" name="tri_e_s21" value={tri_e_form.tri_e_s21} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo22" type="text" name="tri_e_s22" value={tri_e_form.tri_e_s22} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo23" type="text" name="tri_e_s23" value={tri_e_form.tri_e_s23} onChange={tri_e_handleChange} />
-                    <input className="tri_e_fo24" type="text" name="tri_e_s24" value={tri_e_form.tri_e_s24} onChange={tri_e_handleChange} />
+                    <section className="tri_e_form_indivtr tri_e_form_indivtr1">
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo1" type="text" name="tri_e_s1" value={tri_e_form.tri_e_s1} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo2" type="text" name="tri_e_s2" value={tri_e_form.tri_e_s2} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo3" type="text" name="tri_e_s3" value={tri_e_form.tri_e_s3} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo4" type="text" name="tri_e_s4" value={tri_e_form.tri_e_s4} onChange={tri_e_handleChange} />
+                        </div>
+                    </section>
+                    <section className="tri_e_form_indivtr tri_e_form_indivtr2">
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo5" type="text" name="tri_e_s5" value={tri_e_form.tri_e_s5} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo6" type="text" name="tri_e_s6" value={tri_e_form.tri_e_s6} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo7" type="text" name="tri_e_s7" value={tri_e_form.tri_e_s7} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo8" type="text" name="tri_e_s8" value={tri_e_form.tri_e_s8} onChange={tri_e_handleChange} />
+                        </div>
+                    </section>
+                    <section className="tri_e_form_indivtr tri_e_form_indivtr3">
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo9" type="text" name="tri_e_s9" value={tri_e_form.tri_e_s9} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo10" type="text" name="tri_e_s10" value={tri_e_form.tri_e_s10} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo11" type="text" name="tri_e_s11" value={tri_e_form.tri_e_s11} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo12" type="text" name="tri_e_s12" value={tri_e_form.tri_e_s12} onChange={tri_e_handleChange} />
+                        </div>
+                    </section>
+                    <section className="tri_e_form_indivtr tri_e_form_indivtr4">
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo13" type="text" name="tri_e_s13" value={tri_e_form.tri_e_s13} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo14" type="text" name="tri_e_s14" value={tri_e_form.tri_e_s14} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo15" type="text" name="tri_e_s15" value={tri_e_form.tri_e_s15} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo16" type="text" name="tri_e_s16" value={tri_e_form.tri_e_s16} onChange={tri_e_handleChange} />
+                        </div>
+                    </section>
+                    <section className="tri_e_form_indivtr tri_e_form_indivtr5">
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo17" type="text" name="tri_e_s17" value={tri_e_form.tri_e_s17} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo18" type="text" name="tri_e_s18" value={tri_e_form.tri_e_s18} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo19" type="text" name="tri_e_s19" value={tri_e_form.tri_e_s19} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo20" type="text" name="tri_e_s20" value={tri_e_form.tri_e_s20} onChange={tri_e_handleChange} />
+                        </div>
+                    </section>
+                    <section className="tri_e_form_indivtr tri_e_form_indivtr6">
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo21" type="text" name="tri_e_s21" value={tri_e_form.tri_e_s21} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo22" type="text" name="tri_e_s22" value={tri_e_form.tri_e_s22} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo23" type="text" name="tri_e_s23" value={tri_e_form.tri_e_s23} onChange={tri_e_handleChange} />
+                        </div>
+                        <div className="tri_e_form_indiv">
+                            <input className="tri_e_fo24" type="text" name="tri_e_s24" value={tri_e_form.tri_e_s24} onChange={tri_e_handleChange} />
+                        </div>
+                    </section>
                 </form>
                 <section className="triplesevent_imgt tri_e_i_1">
                     <img src={TriEventS1} alt="윤서연 이미지" />
