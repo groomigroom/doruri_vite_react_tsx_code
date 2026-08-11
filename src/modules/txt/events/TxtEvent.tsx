@@ -1,9 +1,15 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
+import "../../triples/events/TriplesEvent.css";
 import "./TxtEvent.css";
 
 import TxtELogo from "./img/txt_e_logo.png";
 import TxtEventPre from "./TxtEventPre";
+import Menu from "../../Menu";
+import FooterPart from "../../FooterPart";
+
+import MainH2Deco from '../../img/main_h2_deco.png';
 
 
 export default function TxtEvent() {
@@ -32,8 +38,15 @@ export default function TxtEvent() {
     const txt_e_ClPopup = () => txt_e_SetPopupO(false);
     return (
         <div className="txt_e_full">
-            <img src={TxtELogo} alt="TxtELogo" className="txt_e_logo" />
-            <h2 className="txt_e_h2">"하루에 하루만 더" 가사 맟주기 이벤트</h2>
+            <Menu />
+            <section className="home_translate">
+                <Link to='/TxtEvent' className="on">한국어</Link>
+                <Link to='/TxtEventEng'>English</Link>
+            </section>
+            <img src={TxtELogo} alt="TxtELogo" className="tri_e_logo" />
+            <h2 className="tri_e_h2">
+                <img src={MainH2Deco} alt="투모루우바이투게더" />&apos;하루에 하루만 더&apos; 가사 맟주기 이벤트<img src={MainH2Deco} alt="투모루우바이투게더" />
+            </h2>
             <p className="txt_e_mp">
                 머물러 줘<br />
                 하루에 하루만 더<br />
@@ -48,12 +61,15 @@ export default function TxtEvent() {
                 {/* 낯설기만 */}
             </p>
             <form action="" className="txt_e_form">
-                <input type="text" name="txt_e_in" value={txt_e_str} onChange={Txt_e_handle_input_change} />
+                <div className="txt_e_form_indiv">
+                    <input className="txt_e_fo" type="text" name="txt_e_in" value={txt_e_str} onChange={Txt_e_handle_input_change} />
+                </div>
             </form>
             <button className="txt_e_btn" onClick={txt_e_OpPopup}>제출하기</button>
             {txt_e_PopopO && (
                 <TxtEventPre txt_e_OnCl={txt_e_ClPopup} txt_e_result={txt_e_last_str} />
             )}
+            <FooterPart FooterPartText='ⓒ 빅히트 뮤직' />
         </div>
     );
 };
