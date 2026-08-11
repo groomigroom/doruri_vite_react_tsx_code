@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './BtoMemYookSungjae.css';
@@ -11,6 +12,8 @@ import Btob_m_YookSungjae_img from '../main/img/Bto_mm_Yooksungjae_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BtoMemYookSungjae() {
+    DoruriDocumentTitle('육성재');
+
     return (
         <div className="bto_mm_yooksungjae_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function BtoMemYookSungjae() {
                 <Link to='/BtoMemYookSungjae' className="on">한국어</Link>
                 <Link to='/BtoMemYookSungjaeEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="BTOB 꾸미기" />육성재<img src={MainH2Deco} alt="BTOB 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="BTOB 꾸미기" />육성재<img src={MainH2Deco} alt="BTOB 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;육성재&apos;와 함께<br />
                 좋은 기억을<br />
