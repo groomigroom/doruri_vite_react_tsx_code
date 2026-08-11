@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './Idn_m_memid12.css';
@@ -11,6 +12,8 @@ import Idn_mm_memid12_img from '../main/img/Idn_mm_id12_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function Idn_m_memid12() {
+    DoruriDocumentTitle('박누리');
+
     return (
         <div className="idn_mm_id12_full">
             <Menu />
