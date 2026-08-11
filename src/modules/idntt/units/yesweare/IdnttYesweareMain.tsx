@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../../triples/main/TriplesMain.css';
 import './IdnttYesweareMain.css';
@@ -37,6 +38,8 @@ import FooterPart from '../../../FooterPart';
 // import Idn_m_memid24 from './img/tri_m_memS24.jpg';
 
 export default function IdnttYesweareMain() {
+    DoruriDocumentTitle('yesweare');
+
     return (
         <div className='idn_Yesweare_m_full'>
             <Menu />
