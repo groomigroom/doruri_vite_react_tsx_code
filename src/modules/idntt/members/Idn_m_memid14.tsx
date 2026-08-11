@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import './Idn_m_memid14.css';
 
@@ -10,6 +11,8 @@ import Idn_mm_memid14_img from '../main/img/Idn_mm_id14_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function Idn_m_memid14() {
+    DoruriDocumentTitle('한예준');
+
     return (
         <div className="idn_mm_id14_full">
             <Menu />
@@ -65,20 +68,4 @@ export default function Idn_m_memid14() {
         </div>
     );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
