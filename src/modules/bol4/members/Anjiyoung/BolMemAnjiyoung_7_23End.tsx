@@ -1,3 +1,5 @@
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
+
 import '../../../triples/members/TriplesMemS1.css';
 import '../BolMemAnjiyoung.css';
 
@@ -9,6 +11,8 @@ import Bol_mm_Anjiyoung_img from '../../main/img/bol4_m_mem_Anjiyoung.jpg';
 import MainH2Deco from '../../../img/main_h2_deco.png';
 
 export default function BolMemAnjiyoung_7_23End() {
+    DoruriDocumentTitle('안지영');
+
     return (
         <div className="bol_mm_anjiyoung_full">
             <Menu />
