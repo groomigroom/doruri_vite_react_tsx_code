@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './BTSMemJungKook.css';
@@ -11,6 +12,8 @@ import Bts_Jungkook_m_img from '../main/img/Bts_mm_Jungkook_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BTSMemJungKook() {
+    DoruriDocumentTitle('정국');
+
     return (
         <div className="bts_mm_jungkook_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function BTSMemJungKook() {
                 <Link to='/BTSMemJungKook' className="on">한국어</Link>
                 <Link to='/BTSMemJungKookEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />정국<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="방탄소년단 꾸미기" />정국<img src={MainH2Deco} alt="방탄소년단 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;정국&apos;과 함께<br />
                 더 나은 방향으로<br />
