@@ -1,0 +1,25 @@
+react tsx에서 <div className="groom"></div>와 같은 방식으로 있을 때, 이 div에 on 클래스가 따로 또 붙어있는지 판단하는 법?                    React TSX에서 className에 "on" 클래스가 포함되어 있는지 확인하려면 className 값을 문자열이나 배열로 처리하면 됩니다. className이 "groom on"처럼 여러 개일 수 있으므로 공백으로 나눈 뒤 포함 여부를 찾거나, classList를 쓰는 것처럼 처리합니다.클래스 포함 여부 확인 방법includes 사용: className이 단순 문자열일 때 'on' 단어가 들어있는지 빠르게 검사합니다.split 사용: 공백으로 분리해 정확히 'on'이라는 클래스 이름이 독립적으로 존재하는지 확인합니다.DOM 직접 접근: useRef를 써서 실제 DOM 요소의 classList.contains('on')을 확인합니다.코드 예시1. 문자열 메서드 (includes / split) 사용하기className prop을 문자열로 받고 있을 때 가장 쉽고 빠른 방법입니다.tsxfunction MyComponent({ className }: { className?: string }) {
+  // 1. 단순 포함 여부 확인 (groom on extra 등이면 true)
+  const hasOn = className?.includes('on') ?? false;
+
+  // 2. 정확한 클래스 명으로 분리해서 확인 (권장)
+  const hasOnExact = className?.split(' ').includes('on') ?? false;
+
+  return <div>{hasOnExact ? 'On 상태입니다' : 'Off 상태입니다'}</div>;
+}
+코드를 사용할 때는 주의가 필요합니다.2. useRef로 실제 DOM 확인하기컴포넌트 내부에서 렌더링된 DOM의 실제 클래스 상태를 직접 읽어야 할 때 사용합니다.tsximport { useRef, useEffect } from 'react';
+
+function MyComponent() {
+  const divRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (divRef.current) {
+      // classList.contains를 사용해 'on' 클래스 존재 여부 판단
+      const isOn = divRef.current.classList.contains('on');
+      console.log('on 클래스 존재 여부:', isOn);
+    }
+  }, []);
+
+  return <div ref={divRef} className="groom on"></div>;
+}
+코드를 사용할 때는 주의가 필요합니다.만약 이 코드를 상태(State)에 따라 동적으로 제어하거나, 부모 컴포넌트에서 값을 전달받는 상황이라면 더 알맞은 코드를 제안해 드릴 수 있습니다. 어떤 상황인지 말씀해 주시겠어요?    AI 답변에 오류가 있을 수 있습니다. 자세히 알아보기
