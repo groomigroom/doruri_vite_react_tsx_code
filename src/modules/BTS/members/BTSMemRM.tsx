@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './BTSMemRM.css';
@@ -11,6 +12,8 @@ import Bts_Rm_m_img from '../main/img/Bts_mm_Rm_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BTSMemRM() {
+    DoruriDocumentTitle('RM');
+
     return (
         <div className="bts_mm_rm_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function BTSMemRM() {
                 <Link to='/BTSMemRM' className="on">한국어</Link>
                 <Link to='/BTSMemRMEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />RM<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="방탄소년단 꾸미기" />RM<img src={MainH2Deco} alt="방탄소년단 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;RM&apos;과 함께<br />
                 비오는 날에도<br />
