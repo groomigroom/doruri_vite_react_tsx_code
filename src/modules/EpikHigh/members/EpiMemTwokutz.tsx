@@ -1,3 +1,5 @@
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
 import '../../triples/members/TriplesMemS1.css';
 import './EpiMemTwokutz.css';
 
@@ -9,6 +11,8 @@ import EpikHighTukutz_m_img from '../main/img/Epi_mm_Tukutz_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function EpiMemTwokutz() {
+    DoruriDocumentTitle('투컷');
+
     return (
         <div className="epi_mm_twokutz_full">
             <Menu />
