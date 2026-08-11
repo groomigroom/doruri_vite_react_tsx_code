@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './YenaMem.css';
@@ -11,6 +12,8 @@ import Yen_mm_yena_img from '../main/img/Yen_m_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function YenaMem() {
+    DoruriDocumentTitle('최예나');
+
     return (
         <div className="yen_mm_yena_full">
             <Menu />
