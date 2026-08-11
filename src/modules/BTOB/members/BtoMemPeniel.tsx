@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './BtoMemPeniel.css';
@@ -11,6 +12,8 @@ import Btob_m_Peniel_img from '../main/img/Bto_mm_Peniel_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BtoMemPeniel() {
+    DoruriDocumentTitle('프니엘');
+
     return (
         <div className="bto_mm_peniel_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function BtoMemPeniel() {
                 <Link to='/BtoMemPeniel' className="on">한국어</Link>
                 <Link to='/BtoMemPenielEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="BTOB 꾸미기" />프니엘<img src={MainH2Deco} alt="BTOB 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="BTOB 꾸미기" />프니엘<img src={MainH2Deco} alt="BTOB 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;프니엘&apos;과 함께<br />
                 발견된 문제를<br />
