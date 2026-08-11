@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './YenaMain.css';
@@ -18,6 +19,8 @@ import YenaYoutube_icon_img from '../../triples/main/img/triples_youtube_icon.pn
 //#191919
 
 export default function YenaMain() {
+    DoruriDocumentTitle('최예나');
+
     return (
         <div className='yen_m_full'>
             <Menu />
