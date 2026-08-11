@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './ArtMemHaseul.css';
@@ -11,6 +12,8 @@ import Art_mm_Haseul_img from '../main/img/Art_mm_Haseul_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function ArtMemHaseul() {
+    DoruriDocumentTitle('하슬');
+
     return (
         <div className="art_mm_haseul_full">
             <Menu />
