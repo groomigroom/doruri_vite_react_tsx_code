@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './BtsNormalAlbum.css';
@@ -11,6 +12,8 @@ import BtsNormalAlbum_img from './img/BtsNormalAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function BtsNormalAlbum() {
+    DoruriDocumentTitle('NORMAL');
+
     return (
         <div className='bts_BtsNormalAlbum_full'>
             <Menu />
@@ -18,7 +21,9 @@ export default function BtsNormalAlbum() {
                 <Link to='/BtsNormalAlbum' className="on">한국어</Link>
                 <Link to='/BtsNormalAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="방탄소년단 앨범 꾸미기" />NORMAL<img src={MainH2deco} alt="방탄소년단 앨범 꾸미기" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="방탄소년단 앨범 꾸미기" />NORMAL<img src={MainH2deco} alt="방탄소년단 앨범 꾸미기" />
+            </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 더 큰 세상도<br />
                 생각해 보며<br />
