@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './EpikHighPumpCollectorsEditionAlbum.css';
@@ -11,6 +12,8 @@ import EpikHighPumpCollectorsEditionAlbum_img from './img/EpikHighPumpCollectors
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function EpikHighPumpCollectorsEditionAlbum() {
+    DoruriDocumentTitle('PUMP COLLECTOR\'S EDITION');
+
     return (
         <div className="epi_EpikHighPumpCollectorsEditionAlbum_full">
             <Menu />
