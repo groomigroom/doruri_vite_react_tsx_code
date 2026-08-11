@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../../triples/main/TriplesMain.css'
 import './Day6EvenOfDayMain.css';
@@ -18,6 +19,8 @@ import Day6EvenOfDay_dowoon_img from './img/Day6EvenOfDay_mem_dowoon_img.jpg';
 //#191919
 
 export default function Day6EvenOfDayMain() {
+    DoruriDocumentTitle('Even of Day');
+
     return (
         <div className='day_EvenOfDay_m_full'>
             <Menu />
