@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../../DoruriDocumentTitle';
 
 import '../../../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './SeoEunkwangOurYouthAlbum.css';
@@ -11,6 +12,8 @@ import SeoEunkwangOurYouthAlbum_img from './img/SeoEunkwangOurYouthAlbum_img.jpg
 import MainH2deco from '../../../../img/main_h2_deco.png';
 
 export default function SeoEunkwangOurYouthAlbum() {
+    DoruriDocumentTitle('OUR YOUTH');
+
     return (
         <div className="btob_SeoEunkwangOurYouthAlbum_full">
             <Menu />
