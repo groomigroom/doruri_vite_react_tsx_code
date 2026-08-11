@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './EpikHighMain.css';
@@ -21,6 +22,8 @@ import EpikHighYoutube_icon_img from '../../10CM/main/img/TenCM_youtube_icon_img
 //#000000
 
 export default function EpikHighMain() {
+    DoruriDocumentTitle('에픽하이');
+
     return (
         <div className='epi_m_full'>
             <Menu />
