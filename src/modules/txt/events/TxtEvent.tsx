@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./TxtEvent.css";
 
 import TxtELogo from "./img/txt_e_logo.png";
+import TxtEventPre from "./TxtEventPre";
 
 
 export default function TxtEvent() {
@@ -25,6 +26,10 @@ export default function TxtEvent() {
     }
 
     console.log(txt_e_last_str);
+
+    const [txt_e_PopopO, txt_e_SetPopupO] = useState<boolean>(false);
+    const txt_e_OpPopup = () => txt_e_SetPopupO(true);
+    const txt_e_ClPopup = () => txt_e_SetPopupO(false);
     return (
         <div className="txt_e_full">
             <img src={TxtELogo} alt="TxtELogo" className="txt_e_logo" />
@@ -45,7 +50,10 @@ export default function TxtEvent() {
             <form action="" className="txt_e_form">
                 <input type="text" name="txt_e_in" value={txt_e_str} onChange={Txt_e_handle_input_change} />
             </form>
-            <button className="txt_e_btn">제출하기</button>
+            <button className="txt_e_btn" onClick={txt_e_OpPopup}>제출하기</button>
+            {txt_e_PopopO && (
+                <TxtEventPre txt_e_OnCl={txt_e_ClPopup} txt_e_result={txt_e_last_str} />
+            )}
         </div>
     );
 };
