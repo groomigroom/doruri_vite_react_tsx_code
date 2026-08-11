@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../../triples/main/TriplesMain.css';
 import './ArtmsOddEyeCircleMain.css';
@@ -19,6 +20,8 @@ import MainH2Deco from '../../../img/main_h2_deco.png';
 //191919
 
 export default function ArtmsOddEyeCircleMain() {
+    DoruriDocumentTitle('ODD EYE CIRCLE');
+
     return (
         <div className='art_OddEyeCircle_m_full'>
             <Menu />
