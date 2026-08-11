@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './BTSMemJimin.css';
@@ -11,6 +12,8 @@ import Bts_Jimin_m_img from '../main/img/Bts_mm_Jimin_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BTSMemJimin() {
+    DoruriDocumentTitle('지민');
+
     return (
         <div className="bts_mm_jimin_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function BTSMemJimin() {
                 <Link to='/BTSMemJimin' className="on">한국어</Link>
                 <Link to='/BTSMemJiminEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />지민<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="방탄소년단 꾸미기" />지민<img src={MainH2Deco} alt="방탄소년단 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;지민&apos;과 함께<br />
                 나에게 맞는 것을<br />
