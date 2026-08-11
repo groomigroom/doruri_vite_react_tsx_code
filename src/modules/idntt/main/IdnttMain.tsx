@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css';
 import './IdnttMain.css';
@@ -40,6 +41,8 @@ import IdnttYoutube_icon_img from './img/IdnttYoutube_icon_img.png';
 //#0957c3
 
 export default function IdnttMain() {
+    DoruriDocumentTitle('idntt');
+
     return (
         <div className='idn_m_full'>
             <Menu />
