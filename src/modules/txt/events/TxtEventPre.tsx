@@ -1,3 +1,5 @@
+import './TxtEventPre.css';
+
 interface Txt_e_popProp {
     txt_e_OnCl: () => void;
     txt_e_result: string;
