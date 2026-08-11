@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './Bol4SummerPleaseAlbum.css';
@@ -11,6 +12,8 @@ import Bol4SummerPleaseAlbum_img from './img/Bol4SummerPleaseAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function Bol4SummerPleaseAlbum() {
+    DoruriDocumentTitle('여름아 부탁해');
+
     return (
         <div className='bol_Bol4SummerPleaseAlbum_full'>
             <Menu />
@@ -18,7 +21,9 @@ export default function Bol4SummerPleaseAlbum() {
                 <Link to='/Bol4SummerPleaseAlbum' className="on">한국어</Link>
                 <Link to='/Bol4SummerPleaseAlbumEng'>English</Link>
             </section>
-            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'><img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" />여름아 부탁해<img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" /></h2>
+            <h2 className='tri_BabyFlowerCityRemixesAlbum_h2 tri_BabyFlowerCityRemixesAlbum_h2_1'>
+                <img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" />여름아 부탁해<img src={MainH2deco} alt="볼빨간 사춘기 앨범 꾸미기" />
+            </h2>
             <p className='tri_BabyFlowerCityRemixesAlbum_intropp'>
                 가장 푸르렀던<br />
                 계절로 데려가,<br />
