@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './ArtMemKimlip.css';
@@ -11,6 +12,8 @@ import Art_mm_Kimlip_img from '../main/img/Art_mm_Kimlip_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function ArtMemKimlip() {
+    DoruriDocumentTitle('김립');
+
     return (
         <div className="art_mm_kimlip_full">
             <Menu />
