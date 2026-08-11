@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './BTSMemSUGA.css';
@@ -11,6 +12,8 @@ import Bts_Suga_m_img from '../main/img/Bts_mm_Suga_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BTSMemSUGA() {
+    DoruriDocumentTitle('슈가');
+
     return (
         <div className="bts_mm_suga_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function BTSMemSUGA() {
                 <Link to='/BTSMemSUGA' className="on">한국어</Link>
                 <Link to='/BTSMemSUGAEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="방탄소년단 꾸미기" />슈가<img src={MainH2Deco} alt="방탄소년단 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="방탄소년단 꾸미기" />슈가<img src={MainH2Deco} alt="방탄소년단 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;슈가&apos;과 함께<br />
                 자신에 대한<br />
