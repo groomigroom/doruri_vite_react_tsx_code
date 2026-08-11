@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/members/TriplesMemS1.css';
 import './BtoMemLeeMinhyuk.css';
@@ -11,6 +12,8 @@ import Btob_m_LeeMinhyuk_img from '../main/img/Bto_mm_Leeminhyuk_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function BtoMemLeeMinhyuk() {
+    DoruriDocumentTitle('이민혁');
+
     return (
         <div className="bto_mm_leeminhyuk_full">
             <Menu />
@@ -18,7 +21,9 @@ export default function BtoMemLeeMinhyuk() {
                 <Link to='/BtoMemLeeMinhyuk' className="on">한국어</Link>
                 <Link to='/BtoMemLeeMinhyukEng'>English</Link>
             </section>
-            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="BTOB 꾸미기" />이민혁<img src={MainH2Deco} alt="BTOB 꾸미기" /></h2>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'>
+                <img src={MainH2Deco} alt="BTOB 꾸미기" />이민혁<img src={MainH2Deco} alt="BTOB 꾸미기" />
+            </h2>
             <p className='tri_mm_s1_intropp'>
                 &apos;이민혁&apos;과 함께<br />
                 Pedal down,<br />
