@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/main/TriplesMain.css'
 import './HanroroMain.css';
@@ -16,6 +17,8 @@ import HanroroYoutube_icon_img from '../../triples/main/img/triples_youtube_icon
 //191919
 
 export default function HanroroMain() {
+    DoruriDocumentTitle('한로로');
+
     return (
         <div className='han_m_full'>
             <Menu />
@@ -24,7 +27,9 @@ export default function HanroroMain() {
                 <Link to='/HanroroMainEng'>English</Link>
             </section>
             <img src={Han_m_logo} alt="한로로 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="한로로 꾸미기" />한로로<img src={MainH2Deco} alt="한로로 꾸미기" /></h2>
+            <h2 className='tri_m_h2 tri_m_h2_1'>
+                <img src={MainH2Deco} alt="한로로 꾸미기" />한로로<img src={MainH2Deco} alt="한로로 꾸미기" />
+            </h2>
             <p className='tri_m_intropp'>
                 &apos;한로로&apos;와 함께<br />
                 돌고도는 세계에서<br />
