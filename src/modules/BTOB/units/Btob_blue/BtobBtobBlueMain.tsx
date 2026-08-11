@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../../triples/main/TriplesMain.css';
 import './BtobBtobBlueMain.css';
@@ -20,6 +21,8 @@ import MainH2Deco from '../../../img/main_h2_deco.png';
 //#191919
 
 export default function BtobBtobBlueMain() {
+    DoruriDocumentTitle('비투비-블루');
+
     return (
         <div className='bto_BtobBlue_m_full'>
             <Menu />
@@ -28,7 +31,9 @@ export default function BtobBtobBlueMain() {
                 <Link to='/BtobBtobBlueMainEng'>English</Link>
             </section>
             <img src='' alt="비투비 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="비투비-블루 로고 꾸미기" />비투비-블루<img src={MainH2Deco} alt="비투비-블루 로고 꾸미기" /></h2>
+            <h2 className='tri_m_h2 tri_m_h2_1'>
+                <img src={MainH2Deco} alt="비투비-블루 로고 꾸미기" />비투비-블루<img src={MainH2Deco} alt="비투비-블루 로고 꾸미기" />
+            </h2>
             <p className='tri_m_intropp'>
                 &apos;비투비-블루&apos;와 함께<br />
                 비가 내려도 좋은<br />
