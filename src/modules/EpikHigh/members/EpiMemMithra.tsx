@@ -1,3 +1,5 @@
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
 import '../../triples/members/TriplesMemS1.css';
 import './EpiMemMithra.css';
 
@@ -9,6 +11,8 @@ import EpikHighMithra_m_img from '../main/img/Epi_mm_Mithra_img.jpg';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function EpiMemMithra() {
+    DoruriDocumentTitle('미쓰라');
+
     return (
         <div className="epi_mm_mithra_full">
             <Menu />
