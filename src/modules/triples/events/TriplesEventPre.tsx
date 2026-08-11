@@ -2,6 +2,7 @@ import "./TriplesEventPre.css";
 
 import BabyFlowerAllImg from "./img/baby_flower_img/tri_events_pre_all_s.png"
 import TriplesEventPre_m_logo from '../main/img/tri_m_logo.svg';
+import MainH2Deco from "../../img/main_h2_deco.png";
 
 interface Tri_e_popProp {
     tri_e_OnCl: () => void;
@@ -53,23 +54,24 @@ export default function TriplesEventPre({ tri_e_OnCl, tri_e_result }: Tri_e_popP
 
     return (
         <div className="tri_e_p_full">
+            <h2 className="tri_e_p_h2"><img src={MainH2Deco} alt="트리플에스" />정답 : {tri_e_result}개<img src={MainH2Deco} alt="트리플에스" /></h2>
             {tri_e_result === 24 ?
-                (< section className="tri_e_p_ticket">
-                    <img src={BabyFlowerAllImg} alt="트리플에스" className="tri_e_p_members_img" />
-                    <img src={TriplesEventPre_m_logo} alt="트리플에스 로고" className="tri_e_p_logo_img" />
-                    {/* #####0층 0구역 0번 랜덤으로 되게 수정하기 */}
-                    <p className="tri_e_p_pp"><span>tripleS Baby Flower World Tour</span><br />
-                        {tri_e_p_floor_num}층 &apos;{tri_e_p_part_letter}&apos;구역 {tri_e_p_floor_num2}번<br />
-                        일시 : 0000년 00월 00일<br />
-                        장소 : 0000</p>
-                </section>) :
+                (<section className="tri_e_p_win">
+                    <section className="tri_e_p_ticket">
+                        <img src={BabyFlowerAllImg} alt="트리플에스" className="tri_e_p_members_img" />
+                        <img src={TriplesEventPre_m_logo} alt="트리플에스 로고" className="tri_e_p_logo_img" />
+                        {/* #####0층 0구역 0번 랜덤으로 되게 수정하기 */}
+                        <p className="tri_e_p_pp"><span>tripleS Baby Flower World Tour</span><br />
+                            {tri_e_p_floor_num}층 &apos;{tri_e_p_part_letter}&apos;구역 {tri_e_p_floor_num2}번<br />
+                            일시 : 0000년 00월 00일<br />
+                            장소 : 0000</p>
+                    </section>
+                    <button onClick={tri_e_OnCl} className="tri_e_p_close tri_e_p_close_win">닫기</button></section>
+                ) :
                 (<section className="tri_e_p_lose">
-                    아쉽지만 모두 정답이 아니에요.
+                    <p className="tri_e_p_pp_lose">아쉽지만 모두 정답이 아니에요.</p>
+                    <button onClick={tri_e_OnCl} className="tri_e_p_close tri_e_p_close_lose">닫기</button>
                 </section>)}
-            <section className="tri_e_p_pp">
-                <h2>정답 : {tri_e_result}개</h2>
-            </section>
-            <button onClick={tri_e_OnCl}>닫기</button>
         </div >
     );
 };
