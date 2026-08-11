@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
 import '../../triples/albums/TriplesBabyFlowerCityRemixesAlbum.css';
 import './YenaNemonemoAlbum.css';
@@ -11,6 +12,8 @@ import YenaNemonemoAlbum_img from './img/YenaNemonemoAlbum_img.jpg';
 import MainH2deco from '../../img/main_h2_deco.png';
 
 export default function YenaNemonemoAlbum() {
+    DoruriDocumentTitle('네모네모');
+
     return (
         <div className="yena_YenaNemonemoAlbum_full">
             <Menu />
