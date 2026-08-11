@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../../DoruriDocumentTitle';
 
 import '../../../triples/main/TriplesMain.css';
 import './Btob90TanMain.css';
@@ -20,6 +21,8 @@ import MainH2Deco from '../../../img/main_h2_deco.png';
 //#191919
 
 export default function Btob90TanMain() {
+    DoruriDocumentTitle('구공탄');
+
     return (
         <div className='bto_90Tan_m_full'>
             <Menu />
@@ -28,7 +31,9 @@ export default function Btob90TanMain() {
                 <Link to='/Btob90TanMainEng'>English</Link>
             </section>
             <img src='' alt="구공탄 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="구공탄 로고 꾸미기" />구공탄<img src={MainH2Deco} alt="구공탄 꾸미기" /></h2>
+            <h2 className='tri_m_h2 tri_m_h2_1'>
+                <img src={MainH2Deco} alt="구공탄 로고 꾸미기" />구공탄<img src={MainH2Deco} alt="구공탄 꾸미기" />
+            </h2>
             <p className='tri_m_intropp'>
                 &apos;구공탄&apos;과 함께<br />
                 오늘도 열심히<br />
