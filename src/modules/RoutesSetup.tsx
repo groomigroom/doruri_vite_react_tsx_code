@@ -331,6 +331,8 @@ import AesMemNingningEng from './aespaEng/members/AesMemNingningEng';
 import ALLDAY_PROJECTMain from './ALLDAY_PROJECT/main/ALLDAY_PROJECTMain';
 import ALLDAY_PROJECTMainEng from './ALLDAY_PROJECTEng/main/ALLDAY_PROJECTMainEng';
 
+import AlldayProjectEvent from './ALLDAY_PROJECT/events/AlldayProjectEvent';
+
 import AlldayProjectAlldayProjectAlbum from './ALLDAY_PROJECT/albums/AlldayProjectAlldayProjectAlbum';
 import AlldayProjectAlldayProjectAlbumEng from './ALLDAY_PROJECTEng/albums/AlldayProjectAlldayProjectAlbumEng';
 import AlldayProjectIDonBargainAlbum from './ALLDAY_PROJECT/albums/AlldayProjectIDonBargainAlbum';
@@ -889,6 +891,8 @@ export default function RoutesSetup() {
 
             <Route path='/ALLDAY_PROJECTMain' element={<ALLDAY_PROJECTMain />}></Route>
             <Route path='/ALLDAY_PROJECTMainEng' element={<ALLDAY_PROJECTMainEng />}></Route>
+
+            <Route path='/AlldayProjectEvent' element={<AlldayProjectEvent />}></Route>
 
             <Route path='/AlldayProjectAlldayProjectAlbum' element={<AlldayProjectAlldayProjectAlbum />}></Route>
             <Route path='/AlldayProjectAlldayProjectAlbumEng' element={<AlldayProjectAlldayProjectAlbumEng />}></Route>
