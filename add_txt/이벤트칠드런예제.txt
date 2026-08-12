@@ -1,0 +1,86 @@
+React TSX에서 children은 컴포넌트의 여는 태그와 닫는 태그 사이에 위치하는 모든 자식 요소를 받아오는 특수한 props입니다. [1, 2] 
+이를 활용하면 컴포넌트 내부에 다른 HTML 태그, 텍스트, 혹은 또 다른 커스텀 컴포넌트를 자유롭게 주입할 수 있어 컴포넌트의 재사용성과 합성(Composition) 기능이 극대화됩니다. [3, 4] 
+------------------------------
+## 1. children의 기본 사용 예제
+간단한 카드 레이아웃 컴포넌트를 만드는 예시입니다. [4] 
+## 📦 자식 요소를 받아들이는 부모 컴포넌트 (Card.tsx) [1] 
+TypeScript에서는 children을 안전하게 사용하기 위해 React.ReactNode 타입을 지정해야 합니다. (문자열, 숫자, JSX, Null 등 리액트가 렌더링할 수 있는 모든 것이 포함됩니다.) [4, 5, 6] 
+
+import React from 'react';
+// props 타입 정의interface CardProps {
+  title: string;
+  children: React.ReactNode; // children의 표준 타입
+}
+export default function Card({ title, children }: CardProps) {
+  return (
+    <div style={{ border: '1px solid #ccc', padding: '16px', borderRadius: '8px' }}>
+      <h2>{title}</h2>
+      {/* 이 자리에 여는 태그와 닫는 태그 사이의 내용이 렌더링됩니다 */}
+      <div className="card-content">
+        {children}
+      </div>
+    </div>
+  );
+}
+
+## 🚀 실제 사용하는 곳 (App.tsx)
+Card 컴포넌트 사이에 텍스트를 넣든, 버튼을 넣든 부모가 선언한 {children} 위치에 그대로 들어갑니다.
+
+import Card from './Card';
+export default function App() {
+  return (
+    <div>
+      {/* 예시 1: 텍스트와 단순 태그를 주입 */}
+      <Card title="공지사항">
+        <p>새로운 업데이트가 적용되었습니다.</p>
+        <button>자세히 보기</button>
+      </Card>
+
+      {/* 예시 2: 또 다른 컴포넌트를 주입 */}
+      <Card title="사용자 프로필">
+        <UserProfile name="홍길동" age={25} />
+      </Card>
+    </div>
+  );
+}
+
+------------------------------
+## 2. TypeScript에서 children 타입을 지정하는 방법
+리액트 버전과 스타일에 따라 타입을 지정하는 방식이 조금씩 다릅니다. [2, 7] 
+## 1) React.ReactNode 사용 (가장 추천)
+가장 보편적이고 안전한 방법입니다. 문자열, 배열, JSX 요소를 가리지 않고 모두 수용합니다. [5, 6] 
+
+type Props = {
+  children: React.ReactNode;
+};
+
+## 2) PropsWithChildren 유틸리티 타입 사용
+매번 children: React.ReactNode를 적기 귀찮다면 리액트가 제공하는 내장 제네릭을 사용할 수 있습니다. 기존 props 타입에 children을 자동으로 합성해 줍니다. [6, 7] 
+
+import { PropsWithChildren } from 'react';
+interface ButtonProps {
+  color: string;
+}
+// 자동으로 children: React.ReactNode가 추가됨export default function Button({ color, children }: PropsWithChildren<ButtonProps>) {
+  return <button style={{ backgroundColor: color }}>{children}</button>;
+}
+
+------------------------------
+## 3. 주요 핵심 요약
+
+* 
+* 유연성: 컴포넌트 내부의 공통 레이아웃(공통 모달, 레이아웃 프레임, 카드 등) 구조만 잡아두고, 알맹이는 쓰는 사람이 마음대로 바꿀 수 있게 디자인할 때 핵심적으로 쓰입니다. [8] 
+* 전달 방식: 속성(attribute) 형태로 넘기는 일반 props와 달리, HTML 태그 감싸듯 감싸서 데이터를 넘깁니다. [2, 6] 
+* 
+
+이외에도 특정 컴포넌트 요소만 자식으로 강제하거나 children을 함수 형태로 받아 동적 데이터를 다루는(Render Props 패턴) 고급 기법도 존재합니다.
+혹시 구현하려는 구체적인 컴포넌트 디자인(예: 모달, 레이아웃 등)이 있으시다면, 이에 맞는 맞춤형 예제 코드를 더 짜드릴 수 있는데 필요하신가요?
+
+[1] [https://velog.io](https://velog.io/@jjjjournal/React-TypeScript%EC%97%90%EC%84%9C-children-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+[2] [https://shape-coding.tistory.com](https://shape-coding.tistory.com/entry/TypeScript-%EB%A6%AC%EC%95%A1%ED%8A%B8-children-%ED%83%80%EC%9E%85-%EC%A7%80%EC%A0%95%ED%95%B4%EC%A3%BC%EA%B8%B0-%ED%83%80%EC%9E%85%EB%B3%84-%ED%8A%B9%EC%A7%95)
+[3] [https://medium.com](https://medium.com/@yihimin01/react-%ED%8A%B9%EC%88%98%ED%95%9C-prop-children-b3a2715a37fd)
+[4] [https://noah-dev.gitbook.io](https://noah-dev.gitbook.io/til/typescript/typescriptinreact/reactchidren)
+[5] [https://www.youtube.com](https://www.youtube.com/shorts/eP4qtu4IsGE)
+[6] [https://www.youtube.com](https://www.youtube.com/watch?v=fiae5lnVFKo)
+[7] [https://www.frontoverflow.com](https://www.frontoverflow.com/question/11)
+[8] [https://dayoung-archive.tistory.com](https://dayoung-archive.tistory.com/33)
