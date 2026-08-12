@@ -310,6 +310,8 @@ import TenMemGwonjungyeolEng from './10CMEng/members/TenMemGwonjungyeolEng';
 import AespaMain from './aespa/main/AespaMain';
 import AespaMainEng from './aespaEng/main/AespaMainEng';
 
+import AespaEvent from './aespa/events/AespaEvent';
+
 import AespaLemonadeAlbum from './aespa/albums/AespaLemonadeAlbum';
 import AespaLemonadeAlbumEng from './aespaEng/albums/AespaLemonadeAlbumEng';
 import AespaSynkAexisLineAlbum from './aespa/albums/AespaSynkAexisLineAlbum';
@@ -866,6 +868,8 @@ export default function RoutesSetup() {
 
             <Route path='/AespaMain' element={<AespaMain />}></Route>
             <Route path='/AespaMainEng' element={<AespaMainEng />}></Route>
+
+            <Route path='/AespaEvent' element={<AespaEvent />}></Route>
 
             <Route path='/AespaLemonadeAlbum' element={<AespaLemonadeAlbum />}></Route>
             <Route path='/AespaLemonadeAlbumEng' element={<AespaLemonadeAlbumEng />}></Route>
