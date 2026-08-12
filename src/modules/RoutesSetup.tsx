@@ -25,6 +25,7 @@ import LoginMain from './login/LoginMain';
 
 import TriplesMain from './triples/main/TriplesMain';
 import TriplesMainEng from './triplesEng/main/TriplesMainEng';
+import TriplesMain20250512End from './triples/main/beforeMain/TriplesMain20250512End';
 
 import TriplesBabyFlowerCityRemixesAlbum from './triples/albums/TriplesBabyFlowerCityRemixesAlbum';
 import TriplesBabyFlowerCityRemixesAlbumEng from './triplesEng/albums/TriplesBabyFlowerCityRemixesAlbumEng';
@@ -586,6 +587,7 @@ export default function RoutesSetup() {
 
             <Route path='/TriplesMain' element={<TriplesMain />}></Route>
             <Route path='/TriplesMainEng' element={<TriplesMainEng />}></Route>
+            <Route path='/TriplesMain20250512End' element={<TriplesMain20250512End />}></Route>
 
             <Route path='/TriplesBabyFlowerCityRemixesAlbum' element={<TriplesBabyFlowerCityRemixesAlbum />}></Route>
             <Route path='/TriplesBabyFlowerCityRemixesAlbumEng' element={<TriplesBabyFlowerCityRemixesAlbumEng />}></Route>
