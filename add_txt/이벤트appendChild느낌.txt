@@ -1,0 +1,90 @@
+React(TSX)에서 appendChild 같은 직접적인 DOM 조작은 useRef와 useEffect 훅을 사용해 구현해야 합니다.
+React는 기본적으로 가상 DOM(Virtual DOM)을 사용하여 상태(State) 변화에 따라 UI를 자동으로 업데이트하므로 직접 DOM을 수정하는 것은 권장되지 않습니다. 하지만 외부 타사(Third-party) 라이브러리를 연동하거나 동적으로 외부 <script> 태그를 추가해야 할 때는 예외적으로 appendChild를 사용합니다. [1, 2] 
+가장 대표적인 활용 사례인 외부 스크립트 동적 추가(예: 카카오맵, 구글 애널리틱스 등)와 특정 DOM 영역 내 일반 HTML 요소 직접 삽입 예제를 소개합니다.
+------------------------------
+## 1. 외부 스크립트 태그 동적 삽입 예제 (가장 흔한 사례)
+외부 SDK 스크립트를 컴포넌트가 마운트될 때 document.head나 document.body에 appendChild로 주입하는 방식입니다. [1] 
+
+import { useEffect } from 'react';
+export default function ScriptLoader() {
+  useEffect(() => {
+    // 1. script 엘리먼트 생성
+    const script = document.createElement('script');
+    script.src = 'https://example.com';
+    script.async = true;
+
+    // 2. body 끝에 생성한 script 추가
+    document.body.appendChild(script);
+
+    // 3. cleanup 함수: 컴포넌트가 언마운트될 때 메모리 누수 방지를 위해 제거
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []); // 빈 배열: 마운트 시 최초 1회만 실행
+
+  return (
+    <div>
+      <h1>외부 라이브러리 로드 컴포넌트</h1>
+    </div>
+  );
+}
+
+------------------------------
+## 2. useRef를 활용한 특정 컨테이너 내부 appendChild 예제
+React가 관리하는 특정 div 영역 안에 동적으로 바닐라 자바스크립트 요소를 생성해 넣고 싶을 때는 useRef로 DOM 접근 권한을 획득해야 합니다. [3, 4] 
+
+import { useRef } from 'react';
+export default function DomManipulator() {
+  // TypeScript를 위해 제네릭으로 HTMLDivElement 타입을 지정합니다.
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const handleAddElement = () => {
+    if (!containerRef.current) return;
+
+    // 1. 새로운 텍스트가 담긴 p 태그 생성
+    const newParagraph = document.createElement('p');
+    newParagraph.textContent = `새로 추가된 항목 (${new Date().toLocaleTimeString()})`;
+    newParagraph.style.color = 'blue';
+
+    // 2. useRef로 붙잡아 둔 div 컨테이너 안에 자식으로 삽입
+    containerRef.current.appendChild(newParagraph);
+  };
+
+  return (
+    <div style={{ padding: '20px' }}>
+      <button onClick={handleAddElement}>자식 요소 직접 추가하기</button>
+      
+      {/* React 영역 내부에 빈 컨테이너를 만들고 ref를 연결합니다 */}
+      <div 
+        ref={containerRef} 
+        style={{ border: '1px solid #ccc', marginTop: '10px', padding: '10px' }}
+      >
+        <h4>아래에 요소가 추가됩니다:</h4>
+      </div>
+    </div>
+  );
+}
+
+------------------------------
+## ⚠️ React에서 appendChild 사용 시 주의사항
+
+* 
+* 가상 DOM과의 충돌: React가 렌더링하고 상태를 추적하는 DOM 요소 내부를 appendChild로 강제 수정하면, 다음 리렌더링 때 React가 변화를 감지하지 못하거나 덮어써 버릴 수 있습니다.
+* Cleanup 필수: useEffect 내에서 appendChild를 했다면 부모 컴포넌트가 사라질 때(Unmount) 반드시 removeChild로 지워주어야 메모리 누수 및 중복 등록 버그를 방지할 수 있습니다.
+* 대안 권장: 단순히 화면에 엘리먼트를 추가·삭제하고 싶다면 appendChild 대신 React의 상태(State)와 배열 map 함수를 활용해 선언형으로 작성하는 것이 좋습니다.
+* 
+
+// 권장되는 React 정석 방식 (appendChild 미사용)const [items, setItems] = useState<string[]>([]);const addItem = () => setItems([...items, '새 항목']);
+return (
+  <div>
+    <button onClick={addItem}>추가</button>
+    {items.map((item, index) => <p key={index}>{item}</p>)}
+  </div>
+);
+
+추가로 구현하고자 하시는 기능이 특정 외부 라이브러리 연동 때문인지, 혹은 단순히 UI에 요소를 동적 추가하기 위함인지 알려주시면 상황에 맞는 가장 알맞은 컴포넌트 구조를 안내해 드릴게요!
+
+[1] [https://daleseo.com](https://daleseo.com/react-hooks-use-script/)
+[2] [https://jeonghwan-kim.github.io](https://jeonghwan-kim.github.io/series/2021/04/08/lecture-react-intro.html)
+[3] [https://junheelab.tistory.com](https://junheelab.tistory.com/109)
+[4] [https://velog.io](https://velog.io/@minh0518/TypeScript%EC%97%90%EC%84%9C-DOM-%EB%8B%A4%EB%A3%A8%EA%B8%B0-getElementById-createElement-appendChild-%EB%A9%94%EC%86%8C%EB%93%9C%EC%99%80-%ED%83%80%EC%9E%85)
