@@ -22,7 +22,16 @@ export default function AlldayProjectEvent() {
     };
 
     useEffect(() => {
-        if (all_e_maze_running_box_top === 200 && all_e_maze_running_box_left === 200 || all_e_maze_running_box_top === 120 && all_e_maze_running_box_left === 120) {
+        if (all_e_maze_running_box_top === 40 && all_e_maze_running_box_left === 40 || all_e_maze_running_box_top === 40 && all_e_maze_running_box_left === 120 || all_e_maze_running_box_top === 40 && all_e_maze_running_box_left === 200
+            || all_e_maze_running_box_top === 120 && all_e_maze_running_box_left === 40 || all_e_maze_running_box_top === 120 && all_e_maze_running_box_left === 120 || all_e_maze_running_box_top === 120 && all_e_maze_running_box_left === 200
+            || all_e_maze_running_box_top === 200 && all_e_maze_running_box_left === 40 || all_e_maze_running_box_top === 200 && all_e_maze_running_box_left === 120 || all_e_maze_running_box_top === 200 && all_e_maze_running_box_left === 200
+            || all_e_maze_running_box_left === -40 || all_e_maze_running_box_left === 280 ||
+            all_e_maze_running_box_top === -80 || all_e_maze_running_box_top === 320 ||
+            all_e_maze_running_box_top === 280 && all_e_maze_running_box_left === 80 || all_e_maze_running_box_top === 280 && all_e_maze_running_box_left === 40 || all_e_maze_running_box_top === 280 && all_e_maze_running_box_left === 0
+            || all_e_maze_running_box_top === 280 && all_e_maze_running_box_left === 160 || all_e_maze_running_box_top === 280 && all_e_maze_running_box_left === 200 || all_e_maze_running_box_top === 280 && all_e_maze_running_box_left === 240
+            || all_e_maze_running_box_top === -40 && all_e_maze_running_box_left === 80 || all_e_maze_running_box_top === -40 && all_e_maze_running_box_left === 40 || all_e_maze_running_box_top === -40 && all_e_maze_running_box_left === 0
+            || all_e_maze_running_box_top === -40 && all_e_maze_running_box_left === 160 || all_e_maze_running_box_top === -40 && all_e_maze_running_box_left === 200 || all_e_maze_running_box_top === -40 && all_e_maze_running_box_left === 240
+        ) {
             setAll_e_maze_running_box_top(280);
             // left는 어차피 200이므로 다시 설정할 필요는 없지만 명시적으로 지정 가능
             setAll_e_maze_running_box_left(120);
@@ -33,6 +42,15 @@ export default function AlldayProjectEvent() {
         <div className="AlldayProjectEvent_full">
             <section className="alldayproject_e_maze">
                 <section className='alldayproject_e_maze_realfield'>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box1'>x</div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box2'>x</div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box3'>x</div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box4'>x</div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box5'>x</div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box6'>x</div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box7'>x</div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box8'>x</div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box9'>x</div>
                     <div className="alldayproject_e_maze_running_box" style={{
                         top: `${all_e_maze_running_box_top}px`, left: `${all_e_maze_running_box_left}px`
                     }}></div>
@@ -42,6 +60,9 @@ export default function AlldayProjectEvent() {
             <button className='alldayproject_e_maze_RB_to_top' onClick={all_e_maze_running_box_top_down}>아래로가기</button>
             <button className='alldayproject_e_maze_RB_to_top' onClick={all_e_maze_running_box_left_left}>왼쪽으로가기</button>
             <button className='alldayproject_e_maze_RB_to_top' onClick={all_e_maze_running_box_left_right}>오른쪽으로가기</button>
+            {all_e_maze_running_box_top === -40 && all_e_maze_running_box_left === 120 && (<section>
+                <p>당첨</p>
+            </section>)}
         </div>
     );
 }
