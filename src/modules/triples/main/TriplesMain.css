@@ -16,7 +16,7 @@
 
     .tri_m_full {
         width: 100vw;
-        height: 3753px;
+        height: 4253px;
         position: relative;
         background-color: #fcfcfc;
     }
@@ -479,6 +479,38 @@
     .tri_m_snss:hover>div {
         opacity: 1;
         transform: rotateY(0deg);
+    }
+
+    .tri_m_h2_7 {
+        position: absolute;
+        top: 3653px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tri_m_before_album_tr_full {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 3713px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tri_m_h2_8 {
+        position: absolute;
+        top: 3903px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tri_m_before_page_tr_full {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 3963px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
