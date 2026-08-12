@@ -53,7 +53,8 @@ export default function AlldayProjectEvent() {
                     <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box9'><p>x</p></div>
                     <div className="alldayproject_e_maze_running_box" style={{
                         top: `${all_e_maze_running_box_top}px`, left: `${all_e_maze_running_box_left}px`
-                    }}></div>
+                    }}><p>A</p></div>
+                    <div className='alldayproject_e_maze_goal'><p>o</p></div>
                 </section>
             </section>
             <button className='alldayproject_e_maze_RB_to_top' onClick={all_e_maze_running_box_top_up}>위로가기</button>
