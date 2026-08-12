@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 import './AlldayProjectEvent.css';
+import Menu from '../../Menu';
 
 export default function AlldayProjectEvent() {
+    DoruriDocumentTitle('ALLDAY PROJECT 이벤트');
+
     const [all_e_maze_running_box_top, setAll_e_maze_running_box_top] = useState(280);
     const [all_e_maze_running_box_left, setAll_e_maze_running_box_left] = useState(120);
 
@@ -40,6 +44,7 @@ export default function AlldayProjectEvent() {
 
     return (
         <div className="AlldayProjectEvent_full">
+            <Menu />
             <section className="alldayproject_e_maze">
                 <section className='alldayproject_e_maze_realfield'>
                     <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box1'><p>x</p></div>
