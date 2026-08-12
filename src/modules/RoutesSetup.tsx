@@ -271,6 +271,8 @@ import TwsMemGyungminEng from './twsEng/members/TwsMemGyungminEng';
 import ResMain from './RESCENE/main/ResMain';
 import ResMainEng from './RESCENEEng/main/ResMainEng';
 
+import ResceneEvent from './RESCENE/events/ResceneEvent';
+
 import RescenePrettyGirlSpecialSingleAlbum from './RESCENE/albums/RescenePrettyGirlSpecialSingleAlbum';
 import RescenePrettyGirlSpecialSingleAlbumEng from './RESCENEEng/albums/RescenePrettyGirlSpecialSingleAlbumEng';
 import ResceneRunawayAlbum from './RESCENE/albums/ResceneRunawayAlbum';
@@ -823,6 +825,8 @@ export default function RoutesSetup() {
 
             <Route path='/ResMain' element={<ResMain />}></Route>
             <Route path='/ResMainEng' element={<ResMainEng />}></Route>
+
+            <Route path='/ResceneEvent' element={<ResceneEvent />}></Route>
 
             <Route path='/RescenePrettyGirlSpecialSingleAlbum' element={<RescenePrettyGirlSpecialSingleAlbum />}></Route>
             <Route path='/RescenePrettyGirlSpecialSingleAlbumEng' element={<RescenePrettyGirlSpecialSingleAlbumEng />}></Route>
