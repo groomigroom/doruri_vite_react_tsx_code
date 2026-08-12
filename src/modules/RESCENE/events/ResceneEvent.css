@@ -49,3 +49,15 @@
         left: 0px;
     }
 }
+
+.rescene_e_last_count {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+}
+
+.rescene_e_last_result {
+    position: absolute;
+    top: 600px;
+    left: 0px;
+}
