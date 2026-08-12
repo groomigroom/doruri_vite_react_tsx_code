@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { DoruriDocumentTitle } from "../../DoruriDocumentTitle";
 
 import TriplesEventPre from "./TriplesEventPre";
 
@@ -64,6 +65,8 @@ interface tri_e_formState {
 }
 
 export default function TriplesEvent() {
+    DoruriDocumentTitle('tripleS 이벤트');
+
     const [tri_e_form, tri_e_setform] = useState<tri_e_formState>({
         tri_e_s1: '',
         tri_e_s2: '',
@@ -148,7 +151,8 @@ export default function TriplesEvent() {
             <img src="" alt="" className="tri_e_toback" />
             <img src={TriEventLogo} alt="트리플에스 이벤트 로고" className="tri_e_logo" />
             <h2 className="tri_e_h2"><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />이름 맞히기 이벤트<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
-            <p className='tri_e_intropp'>3줄 소개글<br />
+            <p className='tri_e_intropp'>
+                3줄 소개글<br />
                 3줄 소개글<br />
                 3줄 소개글
             </p>
