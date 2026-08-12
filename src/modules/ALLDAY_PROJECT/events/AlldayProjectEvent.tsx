@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './AlldayProjectEvent.css';
 
 export default function AlldayProjectEvent() {
@@ -21,10 +21,13 @@ export default function AlldayProjectEvent() {
         setAll_e_maze_running_box_left((PrevAll_e_maze_running_box_left) => (PrevAll_e_maze_running_box_left + 40));
     };
 
-    if (all_e_maze_running_box_top === 200 && all_e_maze_running_box_left === 200) {
-        all_e_maze_running_box_top = 280;
-        all_e_maze_running_box_left = 200;
-    }
+    useEffect(() => {
+        if (all_e_maze_running_box_top === 200 && all_e_maze_running_box_left === 200 || all_e_maze_running_box_top === 120 && all_e_maze_running_box_left === 120) {
+            setAll_e_maze_running_box_top(280);
+            // left는 어차피 200이므로 다시 설정할 필요는 없지만 명시적으로 지정 가능
+            setAll_e_maze_running_box_left(120);
+        }
+    }, [all_e_maze_running_box_top, all_e_maze_running_box_left]); // 두 값이 바뀔 때마다 실행
 
     return (
         <div className="AlldayProjectEvent_full">
