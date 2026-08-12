@@ -1,3 +1,9 @@
+.AlldayProjectEvent_full {
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+}
+
 .alldayproject_e_maze {
     width: 370px;
     height: 370px;
