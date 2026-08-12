@@ -1,1 +1,26 @@
-AlldayProjectEvent.css
+.alldayproject_e_maze {
+    width: 360px;
+    height: 360px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    overflow: hidden;
+}
+
+.alldayproject_e_maze_realfield {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: blanchedalmond;
+}
+
+.alldayproject_e_maze_running_box {
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    position: absolute;
+    transition: all 0.6s ease 0s;
+}
