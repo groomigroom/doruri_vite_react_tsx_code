@@ -1,3 +1,16 @@
 This 앤 댓 1 2 3번 트랙 제목을 맞혀 보세요.
 힌트는 아래 링크에 있어요.
 링크 
+
+용어 사전에도 정리하기...
+
+react tsx에서 Link에 a 태그처럼 _blank 효과 쓰는 법?    +1                    React Router의 <Link> 컴포넌트나 Next.js의 <Link> 컴포넌트에서 새 탭으로 열기(_blank)를 적용하려면, 일반 <a> 태그처럼 target="_blank"와 보안을 위한 rel="noopener noreferrer" 속성을 그대로 전달하면 됩니다.사용 방법<Link> 컴포넌트에 target="_blank" 속성을 적어줍니다.보안과 성능을 위해 rel="noopener noreferrer"를 함께 쓰는 것이 좋습니다.코드 예시tsximport { Link } from 'react-router-dom'; // 또는 next/link
+
+function MyComponent() {
+  return (
+    <Link to="/about" target="_blank" rel="noopener noreferrer">
+      새 탭에서 열기
+    </Link>
+  );
+}
+코드를 사용할 때는 주의가 필요합니다.외부 사이트 주소로 이동할 때는 react-router-dom의 <Link> 대신 일반 <a href="..." target="_blank" rel="noopener noreferrer"> 태그를 사용하는 것이 더 알맞습니다.혹시 사용 중이신 라우터 라이브러리가 React Router DOM인가요, 아니면 Next.js인가요? 추가로 궁금한 점이 있다면 알려주세요!티스토리Next.js의 Link 컴포넌트와 target="_blank" 속성 이해하기2025. 3. 31. — 오늘은 Next.js가 제공해주는 Link 태그를 사용하다가 새탭에서 열고 싶을 때 어떻게 해야하는지 정리해보려고 합니다! 간단한 target="_blank" 추...티스토리[Next.js 14] 새 탭에서 링크 열기 [React] - solar_system_11 - 티스토리2024. 3. 20. — 태그에 target="_blank" 속성을 추가해준다. Google 도 마찬가지로 작성해주면 된다. Google rel="noopener noreferrer" 속...GitHub리액트에서 링크 연결 시 href 대신 to로 써야 하는 이유 - STAY BEAUTIFUL2022. 2. 4. — 일반적으로 페이지를 이동시킬 때 사용하는 a href 는 페이지를 이동시키면서 아예 새로 불러온다. 그렇게 되면 리액트 앱이 가지고 있던 상태들도 초기화 ...티스토리[React] 새 탭으로 열기 - MrGreen - 티스토리2024. 4. 4. — 간단하게 현재 탭에서 페이지가 바뀌게 할 수 있지만, 새 탭에서 열려면 a 태그를 쓸 수밖에 없습니다. a 태그에 target 속성을 사용하면 됩니다. <a hr...    AI 답변에 오류가 있을 수 있습니다. 자세히 알아보기
