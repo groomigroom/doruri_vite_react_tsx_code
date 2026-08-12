@@ -42,15 +42,15 @@ export default function AlldayProjectEvent() {
         <div className="AlldayProjectEvent_full">
             <section className="alldayproject_e_maze">
                 <section className='alldayproject_e_maze_realfield'>
-                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box1'>x</div>
-                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box2'>x</div>
-                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box3'>x</div>
-                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box4'>x</div>
-                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box5'>x</div>
-                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box6'>x</div>
-                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box7'>x</div>
-                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box8'>x</div>
-                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box9'>x</div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box1'><p>x</p></div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box2'><p>x</p></div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box3'><p>x</p></div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box4'><p>x</p></div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box5'><p>x</p></div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box6'><p>x</p></div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box7'><p>x</p></div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box8'><p>x</p></div>
+                    <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box9'><p>x</p></div>
                     <div className="alldayproject_e_maze_running_box" style={{
                         top: `${all_e_maze_running_box_top}px`, left: `${all_e_maze_running_box_left}px`
                     }}></div>
