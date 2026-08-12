@@ -1,4 +1,8 @@
-React(TSX) 환경에서 일반 Class 객체(도메인 모델 또는 비즈니스 로직 캡슐화)를 정의하고 상태(State)와 연동하여 사용하는 정석적인 예시입니다. [until.blog](https://until.blog/@octoping/react%EC%97%90%EC%84%9C-class-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0)
+React(TSX) 환경에서 일반 Class 
+객체(도메인 모델 또는 비즈니스 로직 캡슐화)를 
+정의하고 상태(State)와 연동하여 사용하는 
+정석적인 예시입니다.
+
 React는 기본적으로 불변성(Immutability)을 기반으로 변경 사항을 감지하므로, 클래스 인스턴스의 내부 값만 바꾸면 리렌더링이 일어나지 않습니다. 따라서 인스턴스를 복사하거나 새로운 객체를 만들어 상태를 업데이트해야 합니다. [reddit](https://www.reddit.com/r/reactjs/comments/yb5uaa/class_in_typescript_use_for_what/?tl=ko) [1, 2, 3] 
 ------------------------------
 ## 1. Class 정의하기 (Todo.ts)
