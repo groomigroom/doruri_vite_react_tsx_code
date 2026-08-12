@@ -665,6 +665,39 @@ export default function TriplesMain() {
                 </section>
             </section>
 
+            <h2 className='tri_m_h2 tri_m_h2_7'>▪ 등록 앨범 목록 보기 ▪</h2>
+            <section className='tri_m_before_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_before_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={Tri_m_img} alt="트리플에스" />
+                            <div>
+                                <h4>
+                                    tripleS<br />
+                                    앨범 목록
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 tri_m_h2_8'>▪ tripleS 과거?? 페이지 목록 ▪</h2>
+            <section className='tri_m_before_page_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_before_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src={Tri_m_img} alt="트리플에스" />
+                            <div>
+                                <h4>
+                                    tripleS<br />
+                                    앨범 목록
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
             <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
         </div >
     );
