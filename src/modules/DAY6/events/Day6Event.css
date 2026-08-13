@@ -23,7 +23,7 @@
     left: 50%;
     z-index: 3;
     display: flex;
-    animation: day6_e_event_real_part_menu 15s linear 1s infinite;
+    animation: day6_e_event_real_part_menu 15s linear 0s infinite;
 }
 
 @keyframes day6_e_event_real_part_menu {
@@ -84,4 +84,9 @@
 
 .day6_e_event_real_part_menu>li>ul>li>p:hover {
     background-color: red;
+}
+
+.day6_e_lose_count_pp {
+    position: absolute;
+    top: 700px;
 }
