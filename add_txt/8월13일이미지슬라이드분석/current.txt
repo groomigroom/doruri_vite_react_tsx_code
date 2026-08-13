@@ -1,0 +1,70 @@
+React TSX에서 .current는 useRef 훅(Hook)이 반환하는 객체의 유일한 프로퍼티(속성)를 의미합니다.
+useRef를 생성하면 리액트는 { current: 초기값 } 모양의 일반 자바스크립트 객체를 만들어 줍니다. 이 객체 안의 값을 읽거나 쓸 때 항상 .current를 붙여서 접근해야 합니다.
+------------------------------
+## 🔎 .current를 사용하는 2가지 핵심 이유## 1. DOM 요소에 직접 접근할 때 (가장 흔한 케이스)
+HTML 태그(인풋창, 스크롤 박스 등)에 포커스를 주거나 크기를 측정할 때 사용합니다. 리액트가 렌더링을 완료하면 .current 안에 실제 DOM 주소를 넣어줍니다.
+
+import { useRef } from 'react';
+function TextInputWithFocusButton() {
+  // 1. HTMLInputElement 타입을 지정하고 null로 초기화
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const onButtonClick = () => {
+    // 3. inputRef.current를 통해 실제 DOM 요소의 focus() 메서드 호출
+    // TypeScript에서는 null일 수 있으므로 옵셔널 체이닝(?.)을 주로 사용합니다.
+    inputRef.current?.focus();
+  };
+
+  return (
+    <>
+      {/* 2. ref 속성에 연결 */}
+      <input ref={inputRef} type="text" />
+      <button onClick={onButtonClick}>인풋창에 포커스 주기</button>
+    </>
+  );
+}
+
+## 2. 리렌더링을 일으키지 않는 변수를 저장할 때
+useState는 값이 바뀌면 화면이 다시 그려지지만(리렌더링), useRef의 .current 값을 바꿀 때는 화면이 다시 그려지지 않습니다.
+타이머 ID, 이전 상태 값, 렌더링 횟수 등 화면에 직접 그릴 필요는 없지만 기억해야 하는 데이터를 다룰 때 씁니다.
+
+import { useRef, useState } from 'react';
+function TimerComponent() {
+  const [seconds, setSeconds] = useState(0);
+  // setInterval ID를 .current에 저장 (화면 감지용이 아님)
+  const timerIdRef = useRef<number | null>(null);
+
+  const startTimer = () => {
+    if (timerIdRef.current !== null) return;
+    
+    timerIdRef.current = window.setInterval(() => {
+      setSeconds((prev) => prev + 1);
+    }, 1000);
+  };
+
+  const stopTimer = () => {
+    if (timerIdRef.current !== null) {
+      clearInterval(timerIdRef.current);
+      timerIdRef.current = null; // .current 값을 직접 변경해도 리렌더링 안 됨
+    }
+  };
+
+  return (
+    <div>
+      <p>시간: {seconds}초</p>
+      <button onClick={startTimer}>시작</button>
+      <button onClick={stopTimer}>정지</button>
+    </div>
+  );
+}
+
+------------------------------
+## 💡 TypeScript(TSX) 환경에서 쓸 때 주의할 점
+TypeScript에서는 useRef를 선언할 때 초기값을 어떻게 주느냐에 따라 .current 속성의 수정 가능 여부가 달라집니다.
+
+* useRef<T>(null) (DOM 참조용): .current 속성이 Read-only(읽기 전용)가 됩니다. 리액트가 내부적으로 DOM을 직접 넣어주기 때문입니다. 그래서 개발자가 ref.current = 다른값 처럼 강제로 쓰려고 하면 TS 에러가 납니다.
+* useRef<T>(초기값) (변수 저장용): .current 속성을 마음대로 읽고 쓸 수 있는 가변(Mutable) 변수가 됩니다.
+
+------------------------------
+현재 어떤 기능을 구현하기 위해 useRef와 .current를 보고 계신가요? 구현하려는 기능(예: 모달 바깥 클릭 시 닫기, 스크롤 위치 제어 등)을 알려주시면 알맞은 TypeScript 코드를 작성해 드릴 수 있습니다.
+
