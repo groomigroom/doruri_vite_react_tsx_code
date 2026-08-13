@@ -1,4 +1,5 @@
 import './TxtEventPre.css';
+import Txt_keying_img from './img/txt_e_keyring_img.jpg';
 
 interface Txt_e_popProp {
     txt_e_OnCl: () => void;
@@ -12,6 +13,7 @@ export default function TxtEventPre({ txt_e_OnCl, txt_e_result }: Txt_e_popProp)
                 (<section>당첨</section>) :
                 (<section>당첨 아님</section>)
             }
+            <img src={Txt_keying_img} alt="투모로우바이투게더 키링" />
             <h2>{txt_e_result}</h2>
             <button onClick={txt_e_OnCl}>닫기</button>
         </div>
