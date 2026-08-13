@@ -1,0 +1,54 @@
+IllitEvent.tsx?t=1786584482451:445 In HTML, <p> cannot be a descendant of <p>.
+This will cause a hydration error.
+
+  <App>
+    <BrowserRouter>
+      <Router basename={undefined} location={{pathname:"...", ...}} navigationType="POP" navigator={{action:"POP", ...}} ...>
+        <ScrollToTop>
+        <RoutesSetup>
+          <Routes>
+            <RenderedRoute match={{params:{}, ...}} routeContext={{outlet:null, ...}}>
+              <IllitEvent>
+                <div className="IllitEvent...">
+                  <Menu>
+                  <section>
+                  <img>
+                  <h2>
+                  <p>
+                  <section>
+>                 <p className="ill_e_last_answer">
+                    <span>
+                    <span>
+                    <span>
+                    <span>
+                    <span>
+                    <section className="ill_e_last...">
+>                     <p>
+
+IllitEvent.tsx?t=1786584185129:468 <p> cannot contain a nested <p>.
+See this log for the ancestor stack trace.
+IllitEvent.tsx?t=1786584482451:443 In HTML, <section> cannot be a descendant of <p>.
+This will cause a hydration error.
+
+  <App>
+    <BrowserRouter>
+      <Router basename={undefined} location={{pathname:"...", ...}} navigationType="POP" navigator={{action:"POP", ...}} ...>
+        <ScrollToTop>
+        <RoutesSetup>
+          <Routes>
+            <RenderedRoute match={{params:{}, ...}} routeContext={{outlet:null, ...}}>
+              <IllitEvent>
+                <div className="IllitEvent...">
+                  <Menu>
+                  <section>
+                  <img>
+                  <h2>
+                  <p>
+                  <section>
+>                 <p className="ill_e_last_answer">
+                    <span>
+                    <span>
+                    <span>
+                    <span>
+                    <span>
+>                   <section className="ill_e_last_result">
