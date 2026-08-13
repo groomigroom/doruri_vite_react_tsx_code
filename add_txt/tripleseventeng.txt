@@ -154,7 +154,7 @@ export default function TriplesEvent() {
             <h2 className="tri_e_h2"><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />이름 맞히기 이벤트<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
             <p className='tri_e_intropp'>
 트리플에스 멤버 전원 이름을 맞추는 이벤트입니다.
-
+This is an event where you guess the names of all Triple S members.
                 3줄 소개글<br />
                 3줄 소개글<br />
                 3줄 소개글
