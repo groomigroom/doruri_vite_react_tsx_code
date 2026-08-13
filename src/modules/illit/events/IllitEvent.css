@@ -1,1 +1,54 @@
-IllitEvent.css
+.IllitEvent_full {
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+}
+
+.ill_e_button_train_full {
+    width: 280px;
+    height: 220px;
+    position: absolute;
+    top: 401px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ill_e_button_train {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ill_e_button_train>button {
+    width: 40px;
+    height: 40px;
+    border: 5px solid #191919;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.ill_e_button_train>button:hover {
+    background-color: #191919;
+    color: #fcfcfc;
+}
+
+.ill_e_last_answer {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 661px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ill_e_last_result {
+    position: absolute;
+    top: 621px;
+}
