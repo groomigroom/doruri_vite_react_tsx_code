@@ -355,6 +355,8 @@ import AllMemYoungseoEng from './ALLDAY_PROJECTEng/members/AllMemYoungseoEng';
 import DAY6Main from './DAY6/main/DAY6Main';
 import DAY6MainEng from './DAY6Eng/main/DAY6MainEng';
 
+import Day6Event from './DAY6/events/Day6Event';
+
 import Day6EvenOfDayMain from './DAY6/units/EvenOfDay/Day6EvenOfDayMain';
 import Day6EvenOfDayMainEng from './DAY6Eng/units/EvenOfDay/Day6EvenOfDayMainEng';
 
@@ -916,6 +918,8 @@ export default function RoutesSetup() {
 
             <Route path='/DAY6Main' element={<DAY6Main />}></Route>
             <Route path='/DAY6MainEng' element={<DAY6MainEng />}></Route>
+
+            <Route path='/Day6Event' element={<Day6Event />}></Route>
 
             <Route path='/Day6EvenOfDayMain' element={<Day6EvenOfDayMain />}></Route>
             <Route path='/Day6EvenOfDayMainEng' element={<Day6EvenOfDayMainEng />}></Route>
