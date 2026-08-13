@@ -32,9 +32,9 @@ export default function AkmuEvent() {
                 <input type="radio" name="akmu_event" value="1" checked={akmu_e_check_value === '1'} onChange={akmu_e_handleChange} id="akmu_e_check1" />
                 <input type="radio" name="akmu_event" value="2" checked={akmu_e_check_value === '2'} onChange={akmu_e_handleChange} id="akmu_e_check2" />
                 <input type="radio" name="akmu_event" value="3" checked={akmu_e_check_value === '3'} onChange={akmu_e_handleChange} id="akmu_e_check3" />
-                <label htmlFor="akmu_e_check1" className="akmu_e_checklabel akmu_e_check1_label"></label>
-                <label htmlFor="akmu_e_check2" className="akmu_e_checklabel akmu_e_check2_label"></label>
-                <label htmlFor="akmu_e_check3" className="akmu_e_checklabel akmu_e_check3_label"></label>
+                <label htmlFor="akmu_e_check1" className="akmu_e_checklabel akmu_e_check1_label"><h4>1</h4></label>
+                <label htmlFor="akmu_e_check2" className="akmu_e_checklabel akmu_e_check2_label"><h4>2</h4></label>
+                <label htmlFor="akmu_e_check3" className="akmu_e_checklabel akmu_e_check3_label"><h4>3</h4></label>
             </form>
             <div>
                 {akmu_e_check_value === '1' && <p className="akmu_e_result">1번 선택함 당첨</p>}
