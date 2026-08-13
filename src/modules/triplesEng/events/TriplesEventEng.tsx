@@ -246,22 +246,22 @@ export default function TriplesEventEng() {
                     </section>
                 </form>
                 <section className="triplesevent_imgt tri_e_i_1">
-                    <img src={TriEventS1} alt="윤서연 이미지" />
-                    <img src={TriEventS2} alt="정혜린 이미지" />
-                    <img src={TriEventS3} alt="이지우 이미지" />
-                    <img src={TriEventS4} alt="김채연 이미지" />
+                    <img src={TriEventS1} alt="Yoon SeoYeon" />
+                    <img src={TriEventS2} alt="Jeong HyeRin" />
+                    <img src={TriEventS3} alt="Lee JiWoo" />
+                    <img src={TriEventS4} alt="Kim ChaeYeon" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_2">
-                    <img src={TriEventS5} alt="김유연 이미지" />
-                    <img src={TriEventS6} alt="김수민 이미지" />
-                    <img src={TriEventS7} alt="김나경 이미지" />
-                    <img src={TriEventS8} alt="공유빈 이미지" />
+                    <img src={TriEventS5} alt="Kim YooYeon" />
+                    <img src={TriEventS6} alt="Kim SooMin" />
+                    <img src={TriEventS7} alt="Kim NaKyoung" />
+                    <img src={TriEventS8} alt="Gong YuBin" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_3">
-                    <img src={TriEventS9} alt="카에데 이미지" />
-                    <img src={TriEventS10} alt="서다현 이미지" />
-                    <img src={TriEventS11} alt="코토네 이미지" />
-                    <img src={TriEventS12} alt="곽연지 이미지" />
+                    <img src={TriEventS9} alt="Kaede" />
+                    <img src={TriEventS10} alt="Seo DaHyun" />
+                    <img src={TriEventS11} alt="Kotone" />
+                    <img src={TriEventS12} alt="Kwak YeonJi" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_4">
                     <img src={TriEventS13} alt="니엔 이미지" />
