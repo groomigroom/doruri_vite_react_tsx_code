@@ -12,3 +12,136 @@ const addItem = (newItem: string) => {
 코드를 사용할 때는 주의가 필요합니다.배열 상태 관리 핵심 방법타입 지정: useState<타입[]>(초기값) 형태로 배열 안의 데이터 타입을 정합니다. (예: number[], 객체형태면 인터페이스 지정)값 추가: 기존 배열을 복사한 뒤 새 항목을 붙여서 업데이트 함수에 넣습니다.값 삭제: filter 메서드를 써서 특정 조건의페이지만 제외한 새 배열을 만듭니다.값 변경: map 메서드를 써서 원하는 인덱스의 값만 바꾼 새 배열을 만듭니다.
 https://www.youtube.com/watch?v=A9Bz2YxhAQk
 
+
+
+React와 TypeScript(TSX) 환경에서 선형 리스트(배열)를 조작하는 방법입니다. React에서는 상태(State)의 불변성(Immutability)을 유지하며 배열을 수정해야 합니다.
+요청하신 세 가지 기능(추가, 삽입, 삭제 후 이동)을 구현한 핵심 로직과 전체 컴포넌트 코드입니다.
+## 핵심 상태 변동 로직
+
+// 1. 추가: 2번 배열의 첫 요소를 1번 배열 끝에 추가const handleAdd = () => {
+  if (array2.length === 0) return;
+  const [target, ...rest2] = array2;
+  setArray1([...array1, target]);
+  setArray2(rest2);
+};
+// 2. 삽입: 2번 배열의 첫 요소를 1번 배열의 특정 인덱스에 삽입const handleInsert = (index: number) => {
+  if (array2.length === 0) return;
+  const [target, ...rest2] = array2;
+  
+  const newArray1 = [...array1];
+  newArray1.splice(index, 0, target); // 지정 위치에 삽입
+  
+  setArray1(newArray1);
+  setArray2(rest2);
+};
+// 3. 삭제: 1번 배열의 요소를 삭제하고 2번 배열의 끝으로 이동const handleDeleteAndMoveBack = (index: number) => {
+  const target = array1[index];
+  
+  // 1번 배열에서 제거
+  setArray1(array1.filter((_, i) => i !== index));
+  // 2번 배열 끝에 추가
+  setArray2([...array2, target]);
+};
+
+------------------------------
+## 전체 예제 코드 (TSX)
+이해를 돕기 위해 브라우저에서 바로 확인할 수 있는 컴포넌트 구조로 작성했습니다.
+
+import React, { useState } from 'react';
+export default function ListManager() {
+  // 1번 배열: 초기값은 비어있는 배열
+  const [array1, setArray1] = useState<string[]>([]);
+  
+  // 2번 배열: 초기값은 5개의 요소가 있는 배열
+  const [array2, setArray2] = useState<string[]>([
+    '요소 A', '요소 B', '요소 C', '요소 D', '요소 E'
+  ]);
+
+  // [추가] 2번 배열의 앞 요소를 1번 배열의 끝으로
+  const addFromTwoToOne = () => {
+    if (array2.length === 0) return;
+    const nextItem = array2[0];
+    
+    setArray1([...array1, nextItem]);
+    setArray2(array2.slice(1));
+  };
+
+  // [삽입] 2번 배열의 앞 요소를 1번 배열의 맨 앞으로 (원하는 index 지정 가능)
+  const insertFromTwoToOne = (targetIndex: number) => {
+    if (array2.length === 0) return;
+    const nextItem = array2[0];
+    
+    const updatedArray1 = [...array1];
+    updatedArray1.splice(targetIndex, 0, nextItem);
+    
+    setArray1(updatedArray1);
+    setArray2(array2.slice(1));
+  };
+
+  // [삭제 및 이동] 1번 배열의 요소를 꺼내 2번 배열의 맨 끝으로
+  const deleteFromOneToTwo = (indexToRemove: number) => {
+    const itemToMove = array1[indexToRemove];
+    
+    // 1번 배열에서 제거
+    setArray1(array1.filter((_, index) => index !== indexToRemove));
+    // 2번 배열 끝에 추가
+    setArray2([...array2, itemToMove]);
+  };
+
+  return (
+    <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
+      <h2>선형 리스트 조작하기</h2>
+      
+      {/* 컨트롤 버튼 */}
+      <div style={{ marginBottom: '20px' }}>
+        <button onClick={addFromTwoToOne} disabled={array2.length === 0}>
+          1번 배열 끝에 [추가]
+        </button>
+        <button onClick={() => insertFromTwoToOne(0)} disabled={array2.length === 0} style={{ marginLeft: '10px' }}>
+          1번 배열 맨 앞에 [삽입]
+        </button>
+      </div>
+
+      {/* 리스트 화면 표시 */}
+      <div style={{ display: 'flex', gap: '40px' }}>
+        {/* 1번 배열 구역 */}
+        <div style={{ border: '1px solid #ccc', padding: '15px', minWidth: '200px' }}>
+          <h3>1번 배열 (개수: {array1.length})</h3>
+          {array1.length === 0 ? <p style={{ color: 'gray' }}>비어 있음</p> : (
+            <ul>
+              {array1.map((item, index) => (
+                <li key={index} style={{ marginBottom: '8px' }}>
+                  {item} {' '}
+                  <button onClick={() => deleteFromOneToTwo(index)} style={{ color: 'red' }}>
+                    삭제
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+
+        {/* 2번 배열 구역 */}
+        <div style={{ border: '1px solid #ccc', padding: '15px', minWidth: '200px' }}>
+          <h3>2번 배열 (개수: {array2.length})</h3>
+          {array2.length === 0 ? <p style={{ color: 'gray' }}>비어 있음</p> : (
+            <ul>
+              {array2.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+## 주요 포인트
+
+* 불변성 유지: React state를 변경할 때는 원래 배열을 직접 수정(push, splice 등)하면 안 됩니다. 반드시 스프레드 연산자(...)나 slice, filter 같은 새로운 배열을 반환하는 메서드를 사용해야 화면이 정상적으로 업데이트됩니다.
+* 삭제 및 이동: filter를 통해 선택한 요소를 제외한 새 배열을 만들어 1번 상태에 넣고, 기존 요소는 [...array2, item] 형태로 2번 배열 끝에 붙여줍니다.
+
+원하시는 기능이 특정 조건이나 애니메이션과 함께 동작해야 하나요? 이 코드를 실제 다루시는 데이터 구조에 맞춰 변형하고 싶으시거나 원하는 특정 삽입 위치(인덱스)를 지정하는 처리가 필요하시다면 말씀해 주세요!
+
+
