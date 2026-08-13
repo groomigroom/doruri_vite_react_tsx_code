@@ -5,6 +5,17 @@
     position: relative;
 }
 
+.tws_e_bulb_part {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 401px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #191919;
+    border-radius: 25px;
+}
+
 .tws_e_moving_object {
     position: absolute;
     background-color: aqua;
@@ -34,4 +45,11 @@
         width: 0px;
         height: 0px;
     }
+}
+
+.tws_e_last_result {
+    position: absolute;
+    top: 741px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
