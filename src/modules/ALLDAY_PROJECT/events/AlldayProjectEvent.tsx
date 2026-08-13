@@ -53,7 +53,7 @@ export default function AlldayProjectEvent() {
                 <Link to='/AlldayProjectEventEng'>English</Link>
             </section>
             <img src={""} alt="ALLDAY PROJECT 이벤트 로고" className="tri_e_logo" />
-            <h2 className="tri_e_h2"><img src={MainH2Deco} alt="ALLDAY PROJECT" />미로 탈출??<img src={MainH2Deco} alt="ALLDAY PROJECT" /></h2>
+            <h2 className="tri_e_h2"><img src={MainH2Deco} alt="ALLDAY PROJECT" />간단한 미로 탈출 이벤트<img src={MainH2Deco} alt="ALLDAY PROJECT" /></h2>
             <p className='tri_e_intropp'>
                 3줄 소개글<br />
                 3줄 소개글<br />
