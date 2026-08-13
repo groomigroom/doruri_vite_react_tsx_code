@@ -1,7 +1,14 @@
 import { useState } from 'react';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+import { Link } from 'react-router-dom';
+import '../../triples/events/TriplesEvent.css';
 import './IllitEvent.css';
+import Menu from '../../Menu';
+import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function IllitEvent() {
+    DoruriDocumentTitle('ILLIT 이벤트');
+
     const [Illit_e_letter_i_result, setIllit_e_letter_i_result] = useState<boolean>(false);
 
     const OpenIllit_e_letter_i_result = () => setIllit_e_letter_i_result(true);
@@ -30,31 +37,49 @@ export default function IllitEvent() {
 
     return (
         <div className="IllitEvent_full">
-            <button>a</button>
-            <button>b</button>
-            <button>c</button>
-            <button>d</button>
-            <button onClick={OpenIllit_e_letter_i_result}>i</button>
-
-            <button>g</button>
-            <button>h</button>
-            <button onClick={OpenIllit_e_letter_t_result}>t</button>
-            <button>j</button>
-            <button>k</button>
-
-            <button>l</button>
-            <button>m</button>
-            <button>n</button>
-            <button onClick={OpenIllit_e_letter_s_result}>s</button>
-            <button>o</button>
-
-            <button>x</button>
-            <button onClick={OpenIllit_e_letter_m_result}>m</button>
-            <button>y</button>
-            <button onClick={OpenIllit_e_letter_e_result}>e</button>
-            <button>z</button>
-
-            <p>
+            <Menu />
+            <section className="home_translate">
+                <Link to='/IllitEvent' className="on">한국어</Link>
+                <Link to='/IllitEventEng'>English</Link>
+            </section>
+            <img src={""} alt="ILLIT 이벤트 로고" className="tri_e_logo" />
+            <h2 className="tri_e_h2"><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />노래 제목 맞히기 이벤트<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
+            <p className='tri_e_intropp'>
+                3줄 소개글<br />
+                3줄 소개글<br />
+                3줄 소개글
+            </p>
+            <section className='ill_e_button_train_full'>
+                <section className='ill_e_button_train'>
+                    <button>a</button>
+                    <button>b</button>
+                    <button>c</button>
+                    <button>d</button>
+                    <button onClick={OpenIllit_e_letter_i_result}>i</button>
+                </section>
+                <section className='ill_e_button_train'>
+                    <button>g</button>
+                    <button>h</button>
+                    <button onClick={OpenIllit_e_letter_t_result}>t</button>
+                    <button>j</button>
+                    <button>k</button>
+                </section>
+                <section className='ill_e_button_train'>
+                    <button>l</button>
+                    <button>m</button>
+                    <button>n</button>
+                    <button onClick={OpenIllit_e_letter_s_result}>s</button>
+                    <button>o</button>
+                </section>
+                <section className='ill_e_button_train'>
+                    <button>x</button>
+                    <button onClick={OpenIllit_e_letter_m_result}>m</button>
+                    <button>y</button>
+                    <button onClick={OpenIllit_e_letter_e_result}>e</button>
+                    <button>z</button>
+                </section>
+            </section>
+            <p className='ill_e_last_answer'>
                 {Illit_e_letter_i_result && (
                     <span>i</span>
                 )
@@ -64,7 +89,7 @@ export default function IllitEvent() {
                 )
                 }
                 {Illit_e_letter_s_result && (
-                    <span>'s </span>
+                    <span>&apos;s </span>
                 )
                 }
                 {Illit_e_letter_m_result && (
@@ -75,13 +100,14 @@ export default function IllitEvent() {
                     <span>e</span>
                 )
                 }
-                {Illit_e_letter_all_checked && (
-                    <section>
-                        <p>당첨!!!!!!</p>
-                    </section>
-                )
-                }
             </p>
+            {Illit_e_letter_all_checked && (
+                <section className='ill_e_last_result'>
+                    <p>당첨!!!!!!</p>
+                </section>
+            )
+            }
+
         </div >
     );
 }
