@@ -132,7 +132,7 @@ export default function ALLDAY_PROJECTMain() {
             <h2 className='tri_m_h2 allday_m_h2_4'>▪ 이벤트 ▪</h2>
             <section className='tri_m_event_tr_full allday_m_event_tr_full'>
                 <section className='tri_m_event_tr'>
-                    <Link to='/ResceneEvent' className='tri_m_event_a'>
+                    <Link to='/AlldayProjectEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
                             <img src={All_m_img} alt="allday project event" />
                             <div>
