@@ -195,3 +195,41 @@
         left: 200px;
     }
 }
+
+.bol4_e_event_r_p_m_pp {
+    cursor: pointer;
+    position: absolute;
+    animation: bol4_e_event_r_p_m_pp 5s ease 0s infinite;
+}
+
+@keyframes bol4_e_event_r_p_m_pp {
+    0% {
+        top: 20px;
+        left: 20px;
+    }
+
+    25% {
+        top: 20px;
+        left: 295px;
+    }
+
+    50% {
+        top: 360px;
+        left: 295px;
+    }
+
+    75% {
+        top: 360px;
+        left: 20px;
+    }
+
+    100% {
+        top: 20px;
+        left: 20px;
+    }
+}
+
+.bol4_e_last_r_win {
+    position: absolute;
+    top: 500px;
+}
