@@ -152,9 +152,9 @@ export default function TriplesEvent() {
             <img src={TriEventLogo} alt="트리플에스 이벤트 로고" className="tri_e_logo" />
             <h2 className="tri_e_h2"><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />이름 맞히기 이벤트<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
             <p className='tri_e_intropp'>
-                3줄 소개글<br />
-                3줄 소개글<br />
-                3줄 소개글
+                &apos;tripleS&apos;<br />
+                멤버들 이름을<br />
+                모두 맞혀 보세요!
             </p>
             <section className="tri_e_img">
                 <form className="tri_e_form" action="">
