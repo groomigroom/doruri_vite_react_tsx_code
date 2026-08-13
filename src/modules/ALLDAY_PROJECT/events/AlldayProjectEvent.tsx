@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
 import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+import { Link } from 'react-router-dom';
+
 import './AlldayProjectEvent.css';
 import Menu from '../../Menu';
+import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AlldayProjectEvent() {
     DoruriDocumentTitle('ALLDAY PROJECT 이벤트');
@@ -45,6 +48,17 @@ export default function AlldayProjectEvent() {
     return (
         <div className="AlldayProjectEvent_full">
             <Menu />
+            <section className="home_translate">
+                <Link to='/AlldayProjectEvent' className="on">한국어</Link>
+                <Link to='/AlldayProjectEventEng'>English</Link>
+            </section>
+            <img src={""} alt="ALLDAY PROJECT 이벤트 로고" className="tri_e_logo" />
+            <h2 className="tri_e_h2"><img src={MainH2Deco} alt="ALLDAY PROJECT" />미로 탈출??<img src={MainH2Deco} alt="ALLDAY PROJECT" /></h2>
+            <p className='tri_e_intropp'>
+                3줄 소개글<br />
+                3줄 소개글<br />
+                3줄 소개글
+            </p>
             <section className="alldayproject_e_maze">
                 <section className='alldayproject_e_maze_realfield'>
                     <div className='alldayproject_e_maze_x_box alldayproject_e_maze_x_box1'><p>x</p></div>
@@ -62,12 +76,14 @@ export default function AlldayProjectEvent() {
                     <div className='alldayproject_e_maze_goal'><p>o</p></div>
                 </section>
             </section>
-            <button className='alldayproject_e_maze_RB_to_top' onClick={all_e_maze_running_box_top_up}>위로가기</button>
-            <button className='alldayproject_e_maze_RB_to_top' onClick={all_e_maze_running_box_top_down}>아래로가기</button>
-            <button className='alldayproject_e_maze_RB_to_top' onClick={all_e_maze_running_box_left_left}>왼쪽으로가기</button>
-            <button className='alldayproject_e_maze_RB_to_top' onClick={all_e_maze_running_box_left_right}>오른쪽으로가기</button>
+            <section className='alldayproject_e_maze_RB_buttons'>
+                <button className='alldayproject_e_maze_RB_button alldayproject_e_maze_RB_to_top' onClick={all_e_maze_running_box_top_up}>위로가기</button>
+                <button className='alldayproject_e_maze_RB_button alldayproject_e_maze_RB_to_down' onClick={all_e_maze_running_box_top_down}>아래로가기</button>
+                <button className='alldayproject_e_maze_RB_button alldayproject_e_maze_RB_to_left' onClick={all_e_maze_running_box_left_left}>왼쪽으로가기</button>
+                <button className='alldayproject_e_maze_RB_button alldayproject_e_maze_RB_to_right' onClick={all_e_maze_running_box_left_right}>오른쪽으로가기</button>
+            </section>
             {all_e_maze_running_box_top === -40 && all_e_maze_running_box_left === 120 && (<section>
-                <p>당첨</p>
+                <p>당첨팝업으로하기</p>
             </section>)}
         </div>
     );
