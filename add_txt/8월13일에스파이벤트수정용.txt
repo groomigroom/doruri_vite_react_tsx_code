@@ -1,0 +1,287 @@
+가능합니다. 지금처럼 **조건부 렌더링으로 다음 input이 나타나는 순간 자동으로 focus를 이동**시키려면 `useRef`와 `useEffect`를 사용하는 방법이 가장 깔끔합니다.
+
+핵심은:
+
+1. 각각의 input에 `ref`를 연결
+2. 값이 `'l'`, `'e'`, `'m'`처럼 변경될 때 `useEffect` 실행
+3. 다음 input이 나타나면 `.focus()` 실행
+
+### 1. `useRef`, `useEffect` 추가
+
+```tsx
+import { useEffect, useRef, useState } from "react";
+```
+
+### 2. 각 input의 ref 만들기
+
+```tsx
+const aespa_e_ref1 = useRef<HTMLInputElement>(null);
+const aespa_e_ref2 = useRef<HTMLInputElement>(null);
+const aespa_e_ref3 = useRef<HTMLInputElement>(null);
+const aespa_e_ref4 = useRef<HTMLInputElement>(null);
+const aespa_e_ref5 = useRef<HTMLInputElement>(null);
+const aespa_e_ref6 = useRef<HTMLInputElement>(null);
+const aespa_e_ref7 = useRef<HTMLInputElement>(null);
+const aespa_e_ref8 = useRef<HTMLInputElement>(null);
+```
+
+그리고 값이 바뀌었을 때 다음 input으로 이동시킵니다.
+
+```tsx
+useEffect(() => {
+    if (aespa_e_value1 === "l") {
+        aespa_e_ref2.current?.focus();
+    }
+}, [aespa_e_value1]);
+
+useEffect(() => {
+    if (aespa_e_value2 === "e") {
+        aespa_e_ref3.current?.focus();
+    }
+}, [aespa_e_value2]);
+
+useEffect(() => {
+    if (aespa_e_value3 === "m") {
+        aespa_e_ref4.current?.focus();
+    }
+}, [aespa_e_value3]);
+
+useEffect(() => {
+    if (aespa_e_value4 === "o") {
+        aespa_e_ref5.current?.focus();
+    }
+}, [aespa_e_value4]);
+
+useEffect(() => {
+    if (aespa_e_value5 === "n") {
+        aespa_e_ref6.current?.focus();
+    }
+}, [aespa_e_value5]);
+
+useEffect(() => {
+    if (aespa_e_value6 === "a") {
+        aespa_e_ref7.current?.focus();
+    }
+}, [aespa_e_value6]);
+
+useEffect(() => {
+    if (aespa_e_value7 === "d") {
+        aespa_e_ref8.current?.focus();
+    }
+}, [aespa_e_value7]);
+```
+
+그리고 input에 `ref`를 연결합니다.
+
+```tsx
+<input
+    ref={aespa_e_ref1}
+    type="text"
+    name="aespa_e_value1"
+    value={aespa_e_value1}
+    onChange={(e) => setAespa_e_value1(e.target.value)}
+/>
+
+{aespa_e_value1 === 'l' && (
+    <input
+        ref={aespa_e_ref2}
+        type="text"
+        name="aespa_e_value2"
+        value={aespa_e_value2}
+        onChange={(e) => setAespa_e_value2(e.target.value)}
+    />
+)}
+```
+
+이런 식으로 각각 연결하면 됩니다.
+
+### 전체적으로 보면
+
+```tsx
+import { useEffect, useRef, useState } from "react";
+
+export default function AespaEvent() {
+    const [aespa_e_value1, setAespa_e_value1] = useState<string>("");
+    const [aespa_e_value2, setAespa_e_value2] = useState<string>("");
+    const [aespa_e_value3, setAespa_e_value3] = useState<string>("");
+    const [aespa_e_value4, setAespa_e_value4] = useState<string>("");
+    const [aespa_e_value5, setAespa_e_value5] = useState<string>("");
+    const [aespa_e_value6, setAespa_e_value6] = useState<string>("");
+    const [aespa_e_value7, setAespa_e_value7] = useState<string>("");
+    const [aespa_e_value8, setAespa_e_value8] = useState<string>("");
+
+    const aespa_e_ref1 = useRef<HTMLInputElement>(null);
+    const aespa_e_ref2 = useRef<HTMLInputElement>(null);
+    const aespa_e_ref3 = useRef<HTMLInputElement>(null);
+    const aespa_e_ref4 = useRef<HTMLInputElement>(null);
+    const aespa_e_ref5 = useRef<HTMLInputElement>(null);
+    const aespa_e_ref6 = useRef<HTMLInputElement>(null);
+    const aespa_e_ref7 = useRef<HTMLInputElement>(null);
+    const aespa_e_ref8 = useRef<HTMLInputElement>(null);
+
+    // 다음 input으로 자동 이동
+    useEffect(() => {
+        if (aespa_e_value1 === "l") {
+            aespa_e_ref2.current?.focus();
+        }
+    }, [aespa_e_value1]);
+
+    useEffect(() => {
+        if (aespa_e_value2 === "e") {
+            aespa_e_ref3.current?.focus();
+        }
+    }, [aespa_e_value2]);
+
+    useEffect(() => {
+        if (aespa_e_value3 === "m") {
+            aespa_e_ref4.current?.focus();
+        }
+    }, [aespa_e_value3]);
+
+    useEffect(() => {
+        if (aespa_e_value4 === "o") {
+            aespa_e_ref5.current?.focus();
+        }
+    }, [aespa_e_value4]);
+
+    useEffect(() => {
+        if (aespa_e_value5 === "n") {
+            aespa_e_ref6.current?.focus();
+        }
+    }, [aespa_e_value5]);
+
+    useEffect(() => {
+        if (aespa_e_value6 === "a") {
+            aespa_e_ref7.current?.focus();
+        }
+    }, [aespa_e_value6]);
+
+    useEffect(() => {
+        if (aespa_e_value7 === "d") {
+            aespa_e_ref8.current?.focus();
+        }
+    }, [aespa_e_value7]);
+
+    let aespa_e_count_now = 1;
+
+    if (aespa_e_value1 === 'l') aespa_e_count_now = 2;
+    if (aespa_e_value2 === 'e') aespa_e_count_now = 3;
+    if (aespa_e_value3 === 'm') aespa_e_count_now = 4;
+    if (aespa_e_value4 === 'o') aespa_e_count_now = 5;
+    if (aespa_e_value5 === 'n') aespa_e_count_now = 6;
+    if (aespa_e_value6 === 'a') aespa_e_count_now = 7;
+    if (aespa_e_value7 === 'd') aespa_e_count_now = 8;
+
+    return (
+        <div className="AespaEvent_full">
+            <p>현재: {aespa_e_count_now}번째 글자</p>
+
+            <form onSubmit={(e) => e.preventDefault()}>
+
+                <input
+                    ref={aespa_e_ref1}
+                    type="text"
+                    value={aespa_e_value1}
+                    onChange={(e) => setAespa_e_value1(e.target.value)}
+                />
+
+                {aespa_e_value1 === 'l' && (
+                    <input
+                        ref={aespa_e_ref2}
+                        type="text"
+                        value={aespa_e_value2}
+                        onChange={(e) => setAespa_e_value2(e.target.value)}
+                    />
+                )}
+
+                {aespa_e_value2 === 'e' && (
+                    <input
+                        ref={aespa_e_ref3}
+                        type="text"
+                        value={aespa_e_value3}
+                        onChange={(e) => setAespa_e_value3(e.target.value)}
+                    />
+                )}
+
+                {aespa_e_value3 === 'm' && (
+                    <input
+                        ref={aespa_e_ref4}
+                        type="text"
+                        value={aespa_e_value4}
+                        onChange={(e) => setAespa_e_value4(e.target.value)}
+                    />
+                )}
+
+                {aespa_e_value4 === 'o' && (
+                    <input
+                        ref={aespa_e_ref5}
+                        type="text"
+                        value={aespa_e_value5}
+                        onChange={(e) => setAespa_e_value5(e.target.value)}
+                    />
+                )}
+
+                {aespa_e_value5 === 'n' && (
+                    <input
+                        ref={aespa_e_ref6}
+                        type="text"
+                        value={aespa_e_value6}
+                        onChange={(e) => setAespa_e_value6(e.target.value)}
+                    />
+                )}
+
+                {aespa_e_value6 === 'a' && (
+                    <input
+                        ref={aespa_e_ref7}
+                        type="text"
+                        value={aespa_e_value7}
+                        onChange={(e) => setAespa_e_value7(e.target.value)}
+                    />
+                )}
+
+                {aespa_e_value7 === 'd' && (
+                    <input
+                        ref={aespa_e_ref8}
+                        type="text"
+                        value={aespa_e_value8}
+                        onChange={(e) => setAespa_e_value8(e.target.value)}
+                    />
+                )}
+
+                {aespa_e_value8 === 'e' && (
+                    <section>
+                        <p>당첨</p>
+                    </section>
+                )}
+
+            </form>
+        </div>
+    );
+}
+```
+
+### 그런데 한 가지 더 중요한 부분
+
+현재 코드는 `input`에 **한 글자만 입력하도록 제한하지 않았습니다.**
+
+예를 들어 첫 번째 input에 `lemonade`를 한꺼번에 입력할 수도 있습니다. 이 이벤트가 **한 칸에 한 글자씩 입력하는 게임/이벤트**라면 다음처럼 `maxLength`를 넣는 것을 추천합니다.
+
+```tsx
+<input
+    ref={aespa_e_ref1}
+    type="text"
+    maxLength={1}
+    value={aespa_e_value1}
+    onChange={(e) => setAespa_e_value1(e.target.value)}
+/>
+```
+
+그리고 각 input에도 `maxLength={1}`을 넣으면 됩니다.
+
+그러면 사용자가
+
+**`l` 입력 → 2번 input 생성 → 커서 자동 이동 → `e` 입력 → 3번으로 이동 → ... → `e` 입력 → 당첨**
+
+이라는 흐름이 정확하게 만들어집니다.
+
+추가로 원한다면 **틀린 글자를 입력했을 때 자동으로 첫 번째 칸으로 돌아가게 하는 기능**도 쉽게 붙일 수 있습니다.
