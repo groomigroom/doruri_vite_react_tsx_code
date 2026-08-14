@@ -397,6 +397,8 @@ import BolMemAnjiyoungEng from './bol4Eng/members/BolMemAnjiyoungEng';
 import EpikHighMain from './EpikHigh/main/EpikHighMain';
 import EpikHighMainEng from './EpikHighEng/main/EpikHighMainEng';
 
+import EpikHighEvent from './EpikHigh/events/EpikHighEvent';
+
 import EpikHighBruzHalipaOursVersionAlbum from './EpikHigh/albums/EpikHighBruzHalipaOursVersionAlbum';
 import EpikHighBruzHalipaOursVersionAlbumEng from './EpikHighEng/albums/EpikHighBruzHalipaOursVersionAlbumEng';
 import EpikHighPumpCollectorsEditionAlbum from './EpikHigh/albums/EpikHighPumpCollectorsEditionAlbum';
@@ -964,6 +966,8 @@ export default function RoutesSetup() {
 
             <Route path='/EpikHighMain' element={<EpikHighMain />}></Route>
             <Route path='/EpikHighMainEng' element={<EpikHighMainEng />}></Route>
+
+            <Route path='/EpikHighEvent' element={<EpikHighEvent />}></Route>
 
             <Route path='/EpikHighBruzHalipaOursVersionAlbum' element={<EpikHighBruzHalipaOursVersionAlbum />}></Route>
             <Route path='/EpikHighBruzHalipaOursVersionAlbumEng' element={<EpikHighBruzHalipaOursVersionAlbumEng />}></Route>
