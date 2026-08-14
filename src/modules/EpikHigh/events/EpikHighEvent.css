@@ -56,8 +56,7 @@
     background-color: aquamarine;
     border-radius: 30px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    transition: all 0.6s ease 0s;
 }
 
 .epikhigh_e_fake_lp {
