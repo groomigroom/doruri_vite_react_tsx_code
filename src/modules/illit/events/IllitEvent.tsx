@@ -66,7 +66,7 @@ export default function IllitEvent() {
                 </section>
                 <section className='ill_e_button_train'>
                     <button>l</button>
-                    <button>m</button>
+                    <button>w</button>
                     <button>n</button>
                     <button onClick={OpenIllit_e_letter_s_result}>s</button>
                     <button>o</button>
