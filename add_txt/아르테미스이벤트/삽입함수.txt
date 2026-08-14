@@ -1,0 +1,73 @@
+이미지 속 파이썬으로 구현된 선형 리스트의 데이터 삽입 로직을 React와 TypeScript(TSX)로 변환한 코드입니다.
+React에서는 기존 배열을 직접 변경(Mutation)하지 않고, 불변성(Immutability)을 유지하며 새로운 배열을 생성해 상태를 업데이트해야 합니다.
+------------------------------
+## 💻 React TypeScript 구현 코드
+
+import React, { useState } from 'react';
+// 초기 데이터 배열 (이미지의 katok 배열에 대응)const initialData: string[] = ["다현", "정연", "쯔위", "사나", "지효"];
+export default function LinearListInsert() {
+  // 선형 리스트 상태 관리
+  const [katok, setKatok] = useState<string[]>(initialData);
+
+  // 데이터 삽입 함수 (파이썬의 insert_data 함수 기능 구현)
+  const insertData = (position: number, friend: string): void => {
+    // 1. 인덱스 범위 체크 (예외 처리)
+    if (position < 0 || position > katok.length) {
+      console.log("데이터를 삽입할 범위를 벗어났습니다.");
+      return;
+    }
+
+    // 2. 파이썬의 빈칸 추가(append) 및 데이터 이동(for문) 로직을 JS 배열 메서드로 변환
+    // slice를 이용하여 지정 위치 전후를 나누고 그 사이에 새 데이터를 삽입합니다.
+    const newKatok = [
+      ...katok.slice(0, position), // 지정 위치 앞의 요소들
+      friend,                      // 삽입할 새 데이터
+      ...katok.slice(position)     // 지정 위치 뒤의 요소들 (자동으로 뒤로 밀림)
+    ];
+
+    // 3. 상태 업데이트
+    setKatok(newKatok);
+  };
+
+  return (
+    <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
+      <h3>📱 카톡 친구 목록 (선형 리스트)</h3>
+      
+      {/* 현재 리스트 출력 */}
+      <div style={{ marginBottom: '20px', backgroundColor: '#f5f5f5', padding: '10px' }}>
+        <strong>현재 배열:</strong> {JSON.stringify(katok)}
+      </div>
+
+      {/* 테스트 버튼 */}
+      <div style={{ display: 'flex', gap: '10px' }}>
+        <button 
+          onClick={() => insertData(2, '솔라')}
+          style={{ padding: '8px 12px', cursor: 'pointer' }}
+        >
+          2번 위치에 '솔라' 삽입
+        </button>
+        
+        <button 
+          onClick={() => insertData(6, '문별')}
+          style={{ padding: '8px 12px', cursor: 'pointer' }}
+        >
+          6번 위치에 '문별' 삽입 (오류 케이스)
+        </button>
+      </div>
+    </div>
+  );
+}
+
+------------------------------
+## 🔍 주요 변경 및 매칭 포인트
+
+   1. 메모리 수동 이동 ➡️ JavaScript 내장 메서드 (slice, Spread 연산자)
+   * 파이썬 코드의 9~15행(katok.append(None) 후 for문을 돌려 데이터를 한 칸씩 뒤로 밀던 과정)은 JavaScript/TypeScript에서 slice()와 전개 연산자(...)를 사용하면 한 줄로 안전하고 깔끔하게 처리됩니다.
+   2. 배열 불변성(Immutability)
+   * React에서는 katok[position] = friend처럼 배열을 직접 수정하면 화면이 리렌더링되지 않습니다. 따라서 useState의 setter 함수(setKatok)를 통해 새로운 배열을 전달해야 합니다.
+   3. TypeScript 타입 지정
+   * 배열은 문자열 배열이므로 string[] 타입을 지정하였고, 함수의 매개변수와 반환 타입(position: number, friend: string, : void)을 명시하여 안정성을 높였습니다.
+   
+------------------------------
+혹시 배열 메서드를 쓰지 않고 파이썬 원본처럼 for문을 이용해 빈 요소를 만들고 뒤에서부터 직접 값을 이동시키는 로직을 그대로 TSX 배열로 구현하고 싶으신가요? 아니면 컴포넌트에 사용자가 직접 인덱스와 이름을 입력할 수 있는 입력창(Input)을 추가해 드릴까요?
+
