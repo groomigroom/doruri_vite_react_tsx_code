@@ -56,6 +56,24 @@
     background-color: aquamarine;
     border-radius: 30px;
     position: absolute;
-    top: 120px;
+    top: 20px;
+    left: 20px;
+}
+
+.epikhigh_e_fake_lp {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 127, 127);
+    border-radius: 30px;
+    position: absolute;
+    z-index: 2;
+    top: 220px;
     left: 120px;
+}
+
+.epikhigh_e_lp_mv_buttons {
+    position: absolute;
+    top: 751px;
+    left: 50%;
+    transform: translateX(-50%);
 }
