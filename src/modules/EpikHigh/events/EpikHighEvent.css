@@ -1,1 +1,61 @@
-EpikHighEvent.css
+.epikhighEvent_full {
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+}
+
+.epikhigh_e_lp_move_part {
+    width: 310px;
+    height: 310px;
+    border-radius: 25px;
+    border: 5px solid red;
+    position: absolute;
+    top: 401px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blue;
+}
+
+.epikhigh_e_lp_m_divide_y {
+    width: 5px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+}
+
+.epikhigh_e_lp_m_divide1 {
+    top: 0px;
+    left: 97.5px;
+}
+
+.epikhigh_e_lp_m_divide2 {
+    top: 0px;
+    left: 197.5px;
+}
+
+.epikhigh_e_lp_m_divide_x {
+    width: 300px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+}
+
+.epikhigh_e_lp_m_divide3 {
+    top: 97.5px;
+    left: 0px;
+}
+
+.epikhigh_e_lp_m_divide4 {
+    top: 197.5px;
+    left: 0px;
+}
+
+.epikhigh_e_real_lp {
+    width: 60px;
+    height: 60px;
+    background-color: aquamarine;
+    border-radius: 30px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
