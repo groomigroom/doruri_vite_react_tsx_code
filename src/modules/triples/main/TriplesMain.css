@@ -512,12 +512,16 @@
         left: 50%;
         transform: translateX(-50%);
     }
+
+    .tri_m_units_tr_full_mobile {
+        display: none;
+    }
 }
 
 @media (max-width: 975px) {
     .tri_m_full {
         width: 100vw;
-        height: 3126px;
+        height: 4942px;
         position: relative;
     }
 
@@ -673,5 +677,41 @@
         left: 0px;
     }
 
+    .tri_m_h2_3 {
+        position: absolute;
+        top: 3046px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
+    .tri_m_units_tr_full {
+        display: none;
+    }
+
+    .tri_m_units_tr_full_mobile {
+        width: 100vw;
+        height: 1472px;
+        position: absolute;
+        top: 3106px;
+    }
+
+    /* 184씩 더하기 */
+
+    .tri_m_h2_4 {
+        position: absolute;
+        top: 4598px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tri_m_event_tr_full {
+        display: none;
+    }
+
+    .tri_m_event_tr_full_mobile {
+        width: 100vw;
+        height: 184px;
+        position: absolute;
+        top: 4658px;
+    }
 }
