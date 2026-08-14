@@ -28,12 +28,22 @@
 
 .tri_e_p_win {
     width: 400px;
-    height: 210px;
+    height: 375px;
     position: absolute;
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
 }
+
+.tri_e_p_win_intropp {
+    text-align: center;
+    font-size: 15px;
+    line-height: 140%;
+    font-weight: 500;
+}
+
+/* 105px */
+
 
 .tri_e_p_ticket {
     width: 400px;
@@ -43,7 +53,7 @@
     border-radius: 25px;
     overflow: hidden;
     position: absolute;
-    top: 0px;
+    top: 145px;
     left: 0px;
 }
 
@@ -92,7 +102,7 @@
 }
 
 .tri_e_p_close_win {
-    top: 190px;
+    top: 335px;
 }
 
 .tri_e_p_close:hover {
