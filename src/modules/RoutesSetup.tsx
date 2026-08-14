@@ -381,6 +381,8 @@ import Bol4Main from './bol4/main/Bol4Main';
 import Bol4Main_7_23 from './bol4/main/BeforeMain/Bol4Main_7_23';
 import Bol4MainEng from './bol4Eng/main/Bol4MainEng';
 
+import Bol4Event from './bol4/events/Bol4Event';
+
 import Bol4FindYouAlbum from './bol4/albums/Bol4FindYouAlbum';
 import Bol4FindYouAlbumEng from './bol4Eng/albums/Bol4FindYouAlbumEng';
 import Bol4SummerPleaseAlbum from './bol4/albums/Bol4SummerPleaseAlbum';
@@ -477,6 +479,8 @@ import Idn_m_memid21Eng from './idnttEng/members/Idn_m_memid21Eng';
 import ARTMSMain from './ARTMS/main/ARTMSMain';
 import ARTMSMain_7_23End from './ARTMS/main/beforeMain/ARTMSMain_7_23End';
 import ARTMSMainEng from './ARTMSEng/main/ARTMSMainEng';
+
+import ArtmsEvent from './ARTMS/events/ArtmsEvent';
 
 import ArtmsOddEyeCircleMain from './ARTMS/units/OddEyeCircle/ArtmsOddEyeCircleMain';
 import ArtmsOddEyeCircleMainEng from './ARTMSEng/units/OddEyeCircle/ArtmsOddEyeCircleMainEng';
@@ -945,6 +949,8 @@ export default function RoutesSetup() {
             <Route path='/Bol4Main_7_23' element={<Bol4Main_7_23 />}></Route>
             <Route path='/Bol4MainEng' element={<Bol4MainEng />}></Route>
 
+            <Route path='/Bol4Event' element={<Bol4Event />}></Route>
+
             <Route path='/Bol4FindYouAlbum' element={<Bol4FindYouAlbum />}></Route>
             <Route path='/Bol4FindYouAlbumEng' element={<Bol4FindYouAlbumEng />}></Route>
             <Route path='/Bol4SummerPleaseAlbum' element={<Bol4SummerPleaseAlbum />}></Route>
@@ -1041,6 +1047,8 @@ export default function RoutesSetup() {
             <Route path='/ARTMSMain' element={<ARTMSMain />}></Route>
             <Route path='/ARTMSMain_7_23End' element={<ARTMSMain_7_23End />}></Route>
             <Route path='/ARTMSMainEng' element={<ARTMSMainEng />}></Route>
+
+            <Route path='/ArtmsEvent' element={<ArtmsEvent />}></Route>
 
             <Route path='/ArtmsOddEyeCircleMain' element={<ArtmsOddEyeCircleMain />}></Route>
             <Route path='/ArtmsOddEyeCircleMainEng' element={<ArtmsOddEyeCircleMainEng />}></Route>
