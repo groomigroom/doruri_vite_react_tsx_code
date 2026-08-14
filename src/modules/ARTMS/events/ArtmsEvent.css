@@ -28,6 +28,21 @@
     top: 461px;
 }
 
+.artms_e_correct_arr_append {
+    position: absolute;
+    top: 700px;
+}
+
+.artms_e_correct_arr_insert {
+    position: absolute;
+    top: 750px;
+}
+
+.artms_e_correct_arr_pop {
+    position: absolute;
+    top: 800px;
+}
+
 .artms_e_h2_3 {
     top: 600px;
 }
