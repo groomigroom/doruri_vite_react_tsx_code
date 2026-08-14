@@ -1,1 +1,37 @@
-ArtmsEvent.css
+.ArtmsEvent_full {
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+}
+
+.artms_e_h2_2 {
+    top: 401px;
+}
+
+.artms_e_array {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: aqua;
+    display: flex;
+}
+
+.artms_e_array>div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+}
+
+.artms_e_correct_array {
+    top: 461px;
+}
+
+.artms_e_h2_3 {
+    top: 600px;
+}
+
+.artms_e_before_array {
+    top: 800px;
+}
