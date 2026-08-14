@@ -51,8 +51,11 @@ Red Velvet red
 멤버 mm
 
 
-npm i react-router-dom하기
+이벤트 효과 정리
 
+볼빨간사춘기 -> keyframe css 랑  onclick 한 화면에 나오는 당첨 section
+
+npm i react-router-dom하기
 
 
 
