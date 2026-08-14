@@ -10,6 +10,10 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 export default function EpikHighEvent() {
     DoruriDocumentTitle('에픽하이 이벤트');
 
+    const [epikhigh_e_real_lp_top, setEpikhigh_e_real_lp_top] = useState(20);
+
+    const epikhigh_e_real_lp_go_up = () => { };
+
     return (
         <div className="epikhighEvent_full">
             <Menu />
@@ -26,10 +30,17 @@ export default function EpikHighEvent() {
             </p>
             <section className="epikhigh_e_lp_move_part">
                 <div className="epikhigh_e_real_lp"></div>
+                <div className="epikhigh_e_fake_lp"></div>
                 <div className="epikhigh_e_lp_m_divide_y epikhigh_e_lp_m_divide1"></div>
                 <div className="epikhigh_e_lp_m_divide_y epikhigh_e_lp_m_divide2"></div>
                 <div className="epikhigh_e_lp_m_divide_x epikhigh_e_lp_m_divide3"></div>
                 <div className="epikhigh_e_lp_m_divide_x epikhigh_e_lp_m_divide4"></div>
+            </section>
+            <section className="epikhigh_e_lp_mv_buttons">
+                <button>위로 이동</button>
+                <button>아래로 이동</button>
+                <button>왼쪽으로 이동</button>
+                <button>오른쪽으로 이동</button>
             </section>
         </div>
     );
