@@ -19,7 +19,7 @@ export default function TxtEvent() {
         setTxt_e_str(e.target.value);
     }
 
-    const txt_e_target = ['낮', '설', '기', '만'];
+    const txt_e_target = ['낯', '설', '기', '만'];
     const txt_e_count = txt_e_target.filter((txt_e_char, txt_e_index) => txt_e_str[txt_e_index] === txt_e_char).length;
 
     let txt_e_last_str: string = "";
