@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { DoruriDocumentTitle } from "../../DoruriDocumentTitle";
 
@@ -12,7 +13,31 @@ export default function EpikHighEvent() {
 
     const [epikhigh_e_real_lp_top, setEpikhigh_e_real_lp_top] = useState(20);
 
-    const epikhigh_e_real_lp_go_up = () => { };
+    const epikhigh_e_real_lp_go_up = () => {
+        if (epikhigh_e_real_lp_top !== 20) {
+            setEpikhigh_e_real_lp_top((PrevEpikhigh_e_real_lp_top) => (PrevEpikhigh_e_real_lp_top - 100));
+        }
+    };
+
+    const epikhigh_e_real_lp_go_down = () => {
+        if (epikhigh_e_real_lp_top !== 220) {
+            setEpikhigh_e_real_lp_top((PrevEpikhigh_e_real_lp_top) => (PrevEpikhigh_e_real_lp_top + 100));
+        }
+    };
+
+    const [epikhigh_e_real_lp_left, setEpikhigh_e_real_lp_left] = useState(20);
+
+    const epikhigh_e_real_lp_go_left = () => {
+        if (epikhigh_e_real_lp_left !== 20) {
+            setEpikhigh_e_real_lp_left((PrevEpikhigh_e_real_lp_left) => (PrevEpikhigh_e_real_lp_left - 100));
+        }
+    }
+
+    const epikhigh_e_real_lp_go_right = () => {
+        if (epikhigh_e_real_lp_left !== 220) {
+            setEpikhigh_e_real_lp_left((PrevEpikhigh_e_real_lp_left) => (PrevEpikhigh_e_real_lp_left + 100));
+        }
+    }
 
     return (
         <div className="epikhighEvent_full">
@@ -29,7 +54,7 @@ export default function EpikHighEvent() {
                 피하기
             </p>
             <section className="epikhigh_e_lp_move_part">
-                <div className="epikhigh_e_real_lp"></div>
+                <div className="epikhigh_e_real_lp" style={{ top: `${epikhigh_e_real_lp_top}px`, left: `${epikhigh_e_real_lp_left}px` }}></div>
                 <div className="epikhigh_e_fake_lp"></div>
                 <div className="epikhigh_e_lp_m_divide_y epikhigh_e_lp_m_divide1"></div>
                 <div className="epikhigh_e_lp_m_divide_y epikhigh_e_lp_m_divide2"></div>
@@ -37,11 +62,11 @@ export default function EpikHighEvent() {
                 <div className="epikhigh_e_lp_m_divide_x epikhigh_e_lp_m_divide4"></div>
             </section>
             <section className="epikhigh_e_lp_mv_buttons">
-                <button>위로 이동</button>
-                <button>아래로 이동</button>
-                <button>왼쪽으로 이동</button>
-                <button>오른쪽으로 이동</button>
+                <button onClick={epikhigh_e_real_lp_go_up}>위로 이동</button>
+                <button onClick={epikhigh_e_real_lp_go_down}>아래로 이동</button>
+                <button onClick={epikhigh_e_real_lp_go_left}>왼쪽으로 이동</button>
+                <button onClick={epikhigh_e_real_lp_go_right}>오른쪽으로 이동</button>
             </section>
-        </div>
+        </div >
     );
 }
