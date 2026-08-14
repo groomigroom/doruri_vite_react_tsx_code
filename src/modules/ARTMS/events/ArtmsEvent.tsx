@@ -18,6 +18,20 @@ export default function ArtmsEvent() {
         '구름', '멍멍이', '비숑', '구름구름', '구름이'
     ]);
 
+    const artms_e_correct_append = () => {
+        SetArtms_e_correct_arr([...artms_e_correct_arr, artms_e_before_arr[0]]);
+        SetArtms_e_before_arr(artms_e_before_arr.toSpliced(0, 1));
+    };
+
+    const artms_e_correct_insert = () => {
+        SetArtms_e_correct_arr(artms_e_correct_arr.toSpliced(1, 0, artms_e_before_arr[1]));
+    };
+
+    const artms_e_correct_pop = () => {
+        SetArtms_e_before_arr([...artms_e_before_arr, artms_e_correct_arr[0]])
+        SetArtms_e_correct_arr(artms_e_correct_arr.toSpliced(0, 1));
+    };
+
     return (
         <div className="ArtmsEvent_full">
             <Menu />
@@ -36,12 +50,15 @@ export default function ArtmsEvent() {
             </p>
             <h2 className="tri_e_h2 artms_e_h2_2">▪ 정답 배열칸??? ▪</h2>
             <section className="artms_e_array artms_e_correct_array">
-                <div>{""}</div>
-                <div>{""}</div>
-                <div>{""}</div>
-                <div>{""}</div>
-                <div>{""}</div>
+                <div>{artms_e_correct_arr[0]}</div>
+                <div>{artms_e_correct_arr[1]}</div>
+                <div>{artms_e_correct_arr[2]}</div>
+                <div>{artms_e_correct_arr[3]}</div>
+                <div>{artms_e_correct_arr[4]}</div>
             </section>
+            <button className='artms_e_correct_arr_append' onClick={artms_e_correct_append}>뒤에 추가하기</button>
+            <button className='artms_e_correct_arr_insert' onClick={artms_e_correct_insert}>사이에 삽입하기</button>
+            <button className='artms_e_correct_arr_pop' onClick={artms_e_correct_pop}>사이에서 삭제하기</button>
             <h2 className="tri_e_h2 artms_e_h2_3">▪ 기존 배열칸?? ▪</h2>
             <section className="artms_e_array artms_e_before_array">
                 <div>{artms_e_before_arr[0]}</div>
