@@ -537,6 +537,8 @@ import SeoEunkwangOurYouthAlbum from './BTOB/members/SeoEunkwang/albums/SeoEunkw
 import HanroroMain from './Hanroro/main/HanroroMain';
 import HanroroMainEng from './HanroroEng/main/HanroroMainEng';
 
+import HanroroEvent from './Hanroro/events/HanroroEvent';
+
 import HanroroJpopRemakeVol2Album from './Hanroro/albums/HanroroJpopRemakeVol2Album';
 import HanroroJpopRemakeVol2AlbumEng from './HanroroEng/albums/HanroroJpopRemakeVol2AlbumEng';
 import HanroroLoveAndHatredAlbum from './Hanroro/albums/HanroroLoveAndHatredAlbum';
@@ -1108,6 +1110,8 @@ export default function RoutesSetup() {
             {/* HanroroMain */}
             <Route path='/HanroroMain' element={<HanroroMain />}></Route>
             <Route path='/HanroroMainEng' element={<HanroroMainEng />}></Route>
+
+            <Route path='/HanroroEvent' element={<HanroroEvent />}></Route>
 
             <Route path='/HanroroJpopRemakeVol2Album' element={<HanroroJpopRemakeVol2Album />}></Route>
             <Route path='/HanroroJpopRemakeVol2AlbumEng' element={<HanroroJpopRemakeVol2AlbumEng />}></Route>
