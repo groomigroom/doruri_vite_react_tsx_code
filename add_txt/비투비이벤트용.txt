@@ -1,0 +1,31 @@
+import { useState } from 'react';
+
+export default function ButtonClickCounter() {
+  const [count, setCount] = useState<number>(0);
+  // 1번 버튼이 클릭되었는지 추적하는 상태
+  const [isFirstButtonClicked, setIsFirstButtonClicked] = useState<boolean>(false);
+
+  const handleFirstClick = () => {
+    setIsFirstButtonClicked(true);
+    // 필요 시 여기에 1번 버튼 클릭 로직 추가
+  };
+
+  const handleSecondClick = () => {
+    // 1번 버튼을 누르기 "전"에만 count를 -1 감소
+    if (!isFirstButtonClicked) {
+      setCount((prev) => prev - 1);
+    }
+  };
+
+  return (
+    <div style={{ padding: '20px' }}>
+      <h2>Count: {count}</h2>
+      <p>1번 버튼 클릭 여부: {isFirstButtonClicked ? "⭕ 눌림" : "❌ 안 눌림"}</p>
+      
+      <button onClick={handleFirstClick}>1번 버튼</button>
+      <button onClick={handleSecondClick}>2번 버튼</button>
+    </div>
+  );
+}
+
+
