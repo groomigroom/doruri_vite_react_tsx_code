@@ -505,6 +505,8 @@ import ArtMemChoerryEng from './ARTMSEng/members/ArtMemChoerryEng';
 import BTOBMain from './BTOB/main/BTOBMain';
 import BTOBMainEng from './BTOBEng/main/BTOBMainEng';
 
+import BtobEvent from './BTOB/events/BtobEvent';
+
 import BtobWeAgainAlbum from './BTOB/albums/BtobWeAgainAlbum';
 import BtobWeAgainAlbumEng from './BTOBEng/albums/BtobWeAgainAlbumEng';
 
@@ -1075,6 +1077,8 @@ export default function RoutesSetup() {
             {/* BTOBMain */}
             <Route path='/BTOBMain' element={<BTOBMain />}></Route>
             <Route path='/BTOBMainEng' element={<BTOBMainEng />}></Route>
+
+            <Route path='/BtobEvent' element={<BtobEvent />}></Route>
 
             <Route path='/BtobWeAgainAlbum' element={<BtobWeAgainAlbum />}></Route>
             <Route path='/BtobWeAgainAlbumEng' element={<BtobWeAgainAlbumEng />}></Route>
