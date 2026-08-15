@@ -9,21 +9,26 @@ export default function BtobEvent() {
 
     const [Btob_e_con_start_mem, SetBtob_e_con_start_mem] = useState<string>("");
 
-    const [Btob_e_concert_real_wa_push, SetBtob_e_concert_real_wa_push] = useState<boolean>(false);
+    const [Btob_e_concert_real_wa_push, SetBtob_e_concert_real_wa_push] = useState<string>("0단계");
 
     let [Btob_e_last_count, SetBtob_e_last_count] = useState<number>(0);
 
     const Btob_e_concert_real_wait = () => {
-        SetBtob_e_con_real_wait_mem(Btob_e_wait_arr[0]);
-        SetBtob_e_wait_arr(Btob_e_wait_arr.toSpliced(0, 1));
-        SetBtob_e_concert_real_wa_push(true);
+        if (Btob_e_concert_real_wa_push === "0단계") {
+            SetBtob_e_con_real_wait_mem(Btob_e_wait_arr[0]);
+            SetBtob_e_wait_arr(Btob_e_wait_arr.toSpliced(0, 1));
+            SetBtob_e_concert_real_wa_push("1단계");
+        }
+        else {
+            SetBtob_e_last_count((PrevBtob_e_last_count) => (PrevBtob_e_last_count - 1));
+        }
     };
 
     const Btob_e_concert_start = () => {
-        if (Btob_e_concert_real_wa_push === true) {
+        if (Btob_e_concert_real_wa_push === "1단계") {
             SetBtob_e_con_start_mem(Btob_e_con_real_wait_mem);
             SetBtob_e_con_real_wait_mem("");
-            SetBtob_e_concert_real_wa_push(false);
+            SetBtob_e_concert_real_wa_push("2단계");
         }
         else {
             SetBtob_e_last_count((PrevBtob_e_last_count) => (PrevBtob_e_last_count - 1));
@@ -31,7 +36,14 @@ export default function BtobEvent() {
     };
 
     const Btob_e_concert_end = () => {
-        SetBtob_e_con_start_mem("");
+        if (Btob_e_concert_real_wa_push === "2단계") {
+            SetBtob_e_con_start_mem("");
+            SetBtob_e_concert_real_wa_push("0단계");
+            SetBtob_e_last_count((PrevBtob_e_last_count) => (PrevBtob_e_last_count + 1));
+        }
+        else {
+            SetBtob_e_last_count((PrevBtob_e_last_count) => (PrevBtob_e_last_count - 1));
+        }
     };
 
 
@@ -54,6 +66,11 @@ export default function BtobEvent() {
             <button onClick={Btob_e_concert_end}>공연 끝내기</button>
             <button onClick={Btob_e_concert_start}>공연 시작하기</button>
             <button onClick={Btob_e_concert_real_wait}>대기 시키기</button>
+            {Btob_e_last_count === 6 && (
+                <section>
+                    <p>당첨</p>
+                </section>
+            )}
         </div>
     );
 }
