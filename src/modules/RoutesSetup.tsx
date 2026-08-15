@@ -298,6 +298,8 @@ import TenCMMain from './10CM/main/TenCMMain';
 import TenCMMain_7_23End from './10CM/main/beforeMain/TenCMMain_7_23End';
 import TenCMMainEng from './10CMEng/main/TenCMMainEng';
 
+import TenCMEvent from './10CM/events/TenCMEvent';
+
 import TenCMTheDarkestNightAlbum from './10CM/albums/TenCMTheDarkestNightAlbum';
 import TenCMTheDarkestNightAlbumEng from './10CMEng/albums/TenCMTheDarkestNightAlbumEng';
 import TenCMSliverOfPossibilityAlbum from './10CM/albums/TenCMSliverOfPossibilityAlbum';
@@ -867,6 +869,8 @@ export default function RoutesSetup() {
             <Route path='/TenCMMain' element={<TenCMMain />}></Route>
             <Route path='/TenCMMain_7_23End' element={<TenCMMain_7_23End />}></Route>
             <Route path='/TenCMMainEng' element={<TenCMMainEng />}></Route>
+
+            <Route path='/TenCMEvent' element={<TenCMEvent />}></Route>
 
             <Route path='/TenCMTheDarkestNightAlbum' element={<TenCMTheDarkestNightAlbum />}></Route>
             <Route path='/TenCMTheDarkestNightAlbumEng' element={<TenCMTheDarkestNightAlbumEng />}></Route>
