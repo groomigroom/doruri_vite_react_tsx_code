@@ -264,22 +264,22 @@ export default function TriplesEventEng() {
                     <img src={TriEventS12} alt="Kwak YeonJi" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_4">
-                    <img src={TriEventS13} alt="니엔 이미지" />
-                    <img src={TriEventS14} alt="박소현 이미지" />
-                    <img src={TriEventS15} alt="신위 이미지" />
-                    <img src={TriEventS16} alt="마유 이미지" />
+                    <img src={TriEventS13} alt="Nien" />
+                    <img src={TriEventS14} alt="Park SoHyun" />
+                    <img src={TriEventS15} alt="Xinyu" />
+                    <img src={TriEventS16} alt="Mayu" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_5">
-                    <img src={TriEventS17} alt="린 이미지" />
-                    <img src={TriEventS18} alt="주빈 이미지" />
-                    <img src={TriEventS19} alt="정하연 이미지" />
-                    <img src={TriEventS20} alt="박시온 이미지" />
+                    <img src={TriEventS17} alt="Lynn" />
+                    <img src={TriEventS18} alt="JooBin" />
+                    <img src={TriEventS19} alt="Jeong HaYeon" />
+                    <img src={TriEventS20} alt="Park ShiOn" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_6">
-                    <img src={TriEventS21} alt="김채원 이미지" />
-                    <img src={TriEventS22} alt="설린 이미지" />
-                    <img src={TriEventS23} alt="서아 이미지" />
-                    <img src={TriEventS24} alt="지연 이미지" />
+                    <img src={TriEventS21} alt="Kim ChaeWon" />
+                    <img src={TriEventS22} alt="Sullin" />
+                    <img src={TriEventS23} alt="SeoAh" />
+                    <img src={TriEventS24} alt="JiYeon" />
                 </section>
             </section>
             <button className="tri_e_btn" onClick={tri_e_OpPopup}>제출하기</button>
