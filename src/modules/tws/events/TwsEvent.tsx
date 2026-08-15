@@ -6,6 +6,8 @@ import './TwsEvent.css';
 import Menu from '../../Menu';
 import MainH2Deco from '../../img/main_h2_deco.png';
 
+import Tws_e_star_img from './img/tws_event_star.png';
+
 export default function TwsEvent() {
     DoruriDocumentTitle('TWS 이벤트');
 
@@ -28,7 +30,7 @@ export default function TwsEvent() {
                 3줄 소개글
             </p>
             <section className='tws_e_bulb_part'>
-                <div className="tws_e_moving_object" onClick={OpenTws_e_result}></div>
+                <div className="tws_e_moving_object" onClick={OpenTws_e_result}><img src={Tws_e_star_img} alt="별 모양" /></div>
             </section>
             {tws_e_result && (
                 <section className='tws_e_last_result'>
