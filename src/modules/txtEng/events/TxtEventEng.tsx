@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { DoruriDocumentTitle } from "../../DoruriDocumentTitle";
+import { EngPage } from "../../HomeEng/EngPage";
 
 import "../../triples/events/TriplesEvent.css";
 import "../../txt/events/TxtEvent.css";
@@ -13,6 +15,9 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 
 export default function TxtEventEng() {
+    DoruriDocumentTitle('TOMORROW X TOGETHER event');
+    EngPage('en', 'ko');
+
     //#####이 부분 수정하기
     const [txt_e_str, setTxt_e_str] = useState<string>("");
 
