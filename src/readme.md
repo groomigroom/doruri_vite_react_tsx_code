@@ -52,7 +52,7 @@ Red Velvet red
 
 
 이벤트 효과 정리
-
+트리플에스 love and pop pt1 이벤트 -> 인풋에 있는 글자 비교, 후 점수 더하기, 팝업
 볼빨간사춘기 -> keyframe css 랑  onclick 한 화면에 나오는 당첨 section
 
 npm i react-router-dom하기
