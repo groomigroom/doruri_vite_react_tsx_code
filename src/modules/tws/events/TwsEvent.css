@@ -18,11 +18,16 @@
 
 .tws_e_moving_object {
     position: absolute;
-    background-color: aqua;
+    overflow: hidden;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: tws_e_moving_object 5s linear 0s infinite;
+}
+
+.tws_e_moving_object>img {
+    width: 40px;
+    height: 40px;
 }
 
 @keyframes tws_e_moving_object {
@@ -37,8 +42,8 @@
     }
 
     90% {
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
     }
 
     100% {
