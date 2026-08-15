@@ -5,10 +5,14 @@ https://www.melon.com/album/detail.htm?albumId=14431264
 
 AespaSYNKaeXISLINE2026SpecialDigitalSingleAlbum.tsx
 
-새로운 느낌을 담아서 준비한 앨범이에요!
+새로운 느낌을<br>
+담아서 준비한<br>
+앨범이에요!
 
 
-This is an album prepared with a fresh feeling in it!
+This is an album<br>
+prepared with a fresh<br>
+feeling in it!
 
 
 위에꺼가 진짜
