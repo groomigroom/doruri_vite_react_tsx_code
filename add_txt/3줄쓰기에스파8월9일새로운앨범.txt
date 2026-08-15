@@ -7,6 +7,12 @@ AespaSYNKaeXISLINE2026SpecialDigitalSingleAlbum.tsx
 
 새로운 느낌을 담아서 준비한 앨범이에요!
 
+
+This is an album prepared with a fresh feeling in it!
+
+
+위에꺼가 진짜
+
 당당하게 나아가겠다는<br/>
 의미도 담은<br/>
 앨범이에요!
