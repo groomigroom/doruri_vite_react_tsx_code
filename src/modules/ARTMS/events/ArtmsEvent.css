@@ -33,6 +33,12 @@
     top: 700px;
 }
 
+.artms_e_correct_arr_ins_num {
+    position: absolute;
+    top: 750px;
+    left: 200px;
+}
+
 .artms_e_correct_arr_insert {
     position: absolute;
     top: 750px;
@@ -49,4 +55,9 @@
 
 .artms_e_before_array {
     top: 800px;
+}
+
+.artms_e_real_result {
+    position: absolute;
+    top: 900px;
 }
