@@ -1,0 +1,69 @@
+이벤트 페이지처럼 특정 화면만 React(TypeScript)로 개발하고, 기존 Java Spring Boot + Thymeleaf 서버에서 이를 서빙(Rendering)하는 방식은 실무에서 매우 자주 쓰이는 패턴입니다.
+Thymeleaf가 기본 뼈대(HTML)와 초기 데이터(Model)를 제공하고, React가 해당 영역의 UI/이벤트 제어를 완전히 위임받는 구조로 구현합니다.
+------------------------------
+## 🛠️ 핵심 구현 3단계## 1. React 빌드 결과물(Bundle)을 Spring에 배치
+React 프로젝트를 빌드(npm run build 또는 vite build)하면 하나의 JS 파일과 CSS 파일이 생성됩니다. 이 파일을 Spring Boot의 정적 자원 폴더로 복사해야 합니다. [1] 
+
+* Spring 정적 자원 위치: src/main/resources/static/js/ 및 src/main/resources/static/css/
+* 팁: 매번 수동 복사가 귀찮다면 frontend-maven-plugin이나 Gradle의 vaadin 관련 플러그인을 쓰거나, React 빌드 스크립트(package.json)의 outDir을 Spring static 폴더로 지정하면 편리합니다.
+
+## 2. Thymeleaf 템플릿 작성 (event.html)
+Thymeleaf HTML 파일 안에 React가 렌더링될 Root 디브(<div>)를 만들고, 빌드된 React 자바스크립트 파일을 로드합니다. Spring 백엔드에서 넘겨주는 초기 데이터는 HTML의 data-* 속성이나 전역 변수로 주입합니다.
+
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>특별 이벤트 페이지</title>
+    <!-- React 빌드 결과물 CSS 로드 -->
+    <link rel="stylesheet" th:href="@{/css/event-page.css}">
+</head>
+<body>
+
+    <!-- 1. 기존 Thymeleaf 공통 레이아웃 (GNB, 푸터 등) -->
+    <header th:replace="~{fragments/header :: header}"></header>
+
+    <!-- 2. React가 들어갈 마운트 포인트 (Spring 데이터를 data 속성으로 전달) -->
+    <div id="react-event-root" 
+         th:data-user-id="${userId}" 
+         th:data-event-status="${eventStatus}">
+         <!-- 로딩 중 표시나 서버사이드 대체 텍스트 배치 가능 -->
+         <p>이벤트 페이지를 불러오는 중입니다...</p>
+    </div>
+
+    <!-- 3. React 빌드 결과물 JS 로드 -->
+    <script th:src="@{/js/event-page.js}"></script>
+</body>
+</html>
+
+## 3. React의 Entry Point (index.tsx) 설정
+React의 시작점 파일에서 Thymeleaf가 그려준 div를 찾아 마운트하고, 그 안에 담긴 Spring의 초기 데이터를 읽어서 React 앱 내부로 주입합니다.
+
+import React from 'react';import { createRoot } from 'react-dom/client';import EventApp from './EventApp';
+// Thymeleaf가 생성한 root 엘리먼트 탐색const container = document.getElementById('react-event-root');
+if (container) {
+  // Thymeleaf가 넣어준 data-* 속성 데이터 읽기
+  const userId = container.getAttribute('data-user-id') || '';
+  const eventStatus = container.getAttribute('data-event-status') || 'READY';
+
+  const root = createRoot(container);
+  
+  // React 앱을 실행하며 초기 데이터 props로 전달
+  root.render(
+    <React.StrictMode>
+      <EventApp userId={userId} eventStatus={eventStatus} />
+    </React.StrictMode>
+  );
+}
+
+------------------------------
+## 💡 실무에서 반드시 알아야 할 팁
+
+* API 통신 (Axios / Fetch): 이벤트 응모, 쿠폰 발급 등 동적 기능은 기존 Spring Boot에 @RestController를 만들어 JSON 데이터를 주고받도록 구현합니다. 동일 도메인이므로 CORS 에러 걱정 없이 깔끔하게 통신 가능합니다.
+* 상태 관리: 페이지가 하나뿐인 단발성 이벤트라면 Redux나 Zustand 같은 거대한 상태 관리 라이브러리 없이, React 기본 useState와 useEffect만으로도 충분합니다.
+* 라우팅: 이벤트 페이지 안에서 탭 이동이나 멀티 스텝(Step 1 -> Step 2)이 필요하다면 react-router-dom을 쓰지 말고, React 내부 State(예: const [step, setStep] = useState(1))로 화면을 스위칭하는 것이 정적 페이지 접목에 훨씬 유리합니다.
+
+------------------------------
+현재 이 프로젝트의 빌드 도구로 Gradle을 쓰시나요, 아니면 Maven을 쓰시나요? 빌드 도구를 알려주시면 React 빌드와 Spring 빌드를 한 번에 묶는 자동화 스크립트 설정법을 추가로 소개해 드릴 수 있습니다.
+
+[1] [https://yoo11052.tistory.com](https://yoo11052.tistory.com/66)
