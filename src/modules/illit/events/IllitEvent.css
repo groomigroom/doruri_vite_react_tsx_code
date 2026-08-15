@@ -50,5 +50,7 @@
 
 .ill_e_last_result {
     position: absolute;
-    top: 621px;
+    top: 721px;
+    left: 50%;
+    transform: translateX(-50%);
 }
