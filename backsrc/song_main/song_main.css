@@ -80,6 +80,7 @@ body {
 @media (min-width: 975px) {
     .song_main_full {
         width: 100vw;
+        background-color: #fcfcfc;
     }
 
     header {
@@ -177,6 +178,222 @@ body {
     .header_ghost {
         width: 100vw;
         height: 140px;
-        background-color: blueviolet;
+    }
+
+    .song_main_h2_section {
+        width: 100vw;
+        height: 60px;
+        position: relative;
+        background-color: brown;
+    }
+
+    .song_main_h2 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .song_main_h2>img {
+        margin: 0 20px;
+    }
+
+    .song_main_h2>img:last-child {
+        transform: rotateZ(180deg);
+    }
+
+    .song_main_intropp {
+        width: 100vw;
+        height: 103px;
+    }
+
+    .song_main_intropp>p {
+        text-align: center;
+        font-size: 15px;
+        line-height: 140%;
+        font-weight: 500;
+    }
+
+    .song_main_img {
+        width: 100vw;
+        height: 240px;
+        position: relative;
+    }
+
+    .song_main_img>img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 25px;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .song_main_tb1 {
+        width: 400px;
+        height: 150px;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    .song_main_tb1>tbody>tr {
+        position: relative;
+    }
+
+    .song_main_tb1>tbody>tr>td:first-child {
+        position: absolute;
+        width: 115px;
+        height: 50px;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+        background-color: #333;
+        border-top: 5px solid #e6e6e6;
+        border-left: 5px solid #e6e6e6;
+        border-right: 5px solid #e6e6e6;
+
+    }
+
+    .song_main_tb1>tbody>tr>td:first-child>p {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        color: #e6e6e6;
+        transform: translateY(-50%);
+        font-weight: 600;
+    }
+
+    /* 좌우 15이상 되게 */
+
+    .song_main_tb1>tbody>tr>td:last-child {
+        width: 285px;
+        height: 50px;
+        position: absolute;
+        top: 0px;
+        left: 115px;
+        border-top: 5px solid #333;
+        border-right: 5px solid #333;
+    }
+
+    .song_main_tb1>tbody>tr>td:last-child>p {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+    }
+
+    .song_main_tb1_tr1>td:first-child {
+        border-top-left-radius: 15px;
+    }
+
+    .song_main_tb1_tr1>td:last-child {
+        border-top-right-radius: 15px;
+    }
+
+    .song_main_tb1_tr3>td:first-child {
+        border-bottom-left-radius: 15px;
+    }
+
+    .song_main_tb1_tr3>td:last-child {
+        border-bottom-right-radius: 15px;
+        border-bottom: 5px solid #333;
+    }
+
+    .song_main_tb1_ghost {
+        width: 100vw;
+        height: 40px;
+        background-color: aqua;
+    }
+
+    .song_main_tb2 {
+        width: 400px;
+        /* height: 150px; */
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    .song_main_tb2>tbody>tr {
+        height: 50px;
+        position: relative;
+    }
+
+    .song_main_tb2>tbody>tr>td:first-child {
+        position: absolute;
+        width: 115px;
+        height: 50px;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+        background-color: #333;
+        border-top: 5px solid #e6e6e6;
+        border-left: 5px solid #e6e6e6;
+        border-right: 5px solid #e6e6e6;
+    }
+
+    .song_main_tb2>tbody>tr>td:first-child>p {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        color: #e6e6e6;
+        transform: translateY(-50%);
+        font-weight: 600;
+    }
+
+    /* 좌우 15이상 되게 */
+
+    .song_main_tb2>tbody>tr>td:last-child {
+        width: 285px;
+        height: 50px;
+        position: absolute;
+        top: 0px;
+        left: 115px;
+        border-top: 5px solid #333;
+        border-right: 5px solid #333;
+    }
+
+    .song_main_tb2>tbody>tr>td:last-child>p {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+    }
+
+    .song_main_tb2_tr1>td:first-child {
+        border-top-left-radius: 15px;
+    }
+
+    .song_main_tb2_tr1>td:last-child {
+        border-top-right-radius: 15px;
+    }
+
+    .song_main_tb2_tr9>td:first-child {
+        border-bottom-left-radius: 15px;
+    }
+
+    .song_main_tb2_tr9>td:last-child {
+        border-bottom-right-radius: 15px;
+        border-bottom: 5px solid #333;
+    }
+
+    footer {
+        width: 100vw;
+        height: 100px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        position: relative;
+        background-color: #333;
+    }
+
+    footer>p {
+        position: absolute;
+        right: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #e6e6e6;
     }
 }
