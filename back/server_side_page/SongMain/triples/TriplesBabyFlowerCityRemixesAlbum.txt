@@ -1,8 +1,8 @@
 List.of(
             "Baby Flower (Seoul Remix : Vendors)",
-            "Baby Flower &#40;Bangkok Remix : Kurtz&#41;",
-            "Baby Flower &#40;Taipei Remix : ntrophy&#41;",
-            "Baby Flower &#40;Tokyo Remix : Full8loom&#41;"
+            "Baby Flower (Bangkok Remix : Kurtz&#41;",
+            "Baby Flower (Taipei Remix : ntrophy&#41;",
+            "Baby Flower (Tokyo Remix : Full8loom&#41;"
         );
 
 (
