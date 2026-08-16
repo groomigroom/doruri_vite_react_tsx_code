@@ -1,0 +1,90 @@
+제공해주신 코드는 버튼을 클릭하면 결과 배열에 값을 추가하고, 해당 버튼을 다시 누르지 못하도록 상태(Boolean)를 변경하는 좋은 로직입니다.
+다만, 버튼이 늘어날 때마다 useState 상태와 클릭 함수를 계속해서 복사 붙여넣기 해야 하는 구조이므로 데이터 중심의 구조화를 진행하면 코드를 훨씬 더 효율적이고 간결하게 최적화할 수 있습니다.
+두 가지 최적화 방법을 제안해 드립니다.
+------------------------------
+## 방법 1. 클릭된 ID 목록을 관리하여 최적화 (가장 추천)
+각 버튼마다 clickBool 상태를 따로 만들지 않고, 이미 클릭된 버튼의 번호들을 배열(또는 Set)로 통합 관리하는 방식입니다. 함수 하나로 모든 버튼을 처리할 수 있습니다.
+
+import { useState } from "react";
+export default function HanroroEvent() {
+    // 1. 선택된 결과를 순서대로 저장하는 배열
+    const [lastResultArr, setLastResultArr] = useState<string[]>([]);
+    
+    // 2. 이미 클릭 완료된 버튼의 ID(번호)를 기록하는 배열
+    const [clickedButtons, setClickedButtons] = useState<number[]>([]);
+
+    // 3. 단 하나의 통합 클릭 핸들러 함수
+    const handleButtonClick = (buttonNum: number) => {
+        // 이미 클릭된 버튼이면 아무 동작도 하지 않음 (중복 방지)
+        if (clickedButtons.includes(buttonNum)) return;
+
+        setLastResultArr(prev => [...prev, `${buttonNum}번`]);
+        setClickedButtons(prev => [...prev, buttonNum]);
+    };
+
+    return (
+        <div>
+            {/* JSX 영역에서 조건부 활성화 처리 */}
+            <button 
+                disabled={clickedButtons.includes(1)} 
+                onClick={() => handleButtonClick(1)}
+            >
+                1번 버튼
+            </button>
+
+            <button 
+                disabled={clickedButtons.includes(2)} 
+                onClick={() => handleButtonClick(2)}
+            >
+                2번 버튼
+            </button>
+            
+            {/* 이후 3번, 4번 버튼이 추가되어도 이 한 줄씩만 더 적어주면 됩니다 */}
+        </div>
+    );
+}
+
+💡 이 방식의 장점:
+
+* useState 개수가 버튼 개수와 상관없이 단 2개로 고정됩니다.
+* 버튼이 10개, 20개로 늘어나도 자바스크립트 로직(handleButtonClick)을 수정할 필요가 없습니다.
+* HTML 표준 속성인 disabled를 활용해 클릭 불가능한 상태의 시각적 UI 제어도 쉬워집니다.
+
+------------------------------
+## 방법 2. 객체(Object) 상태를 활용한 최적화
+만약 꼭 버튼별 활성화 여부를 Boolean 형태의 쌍으로 직관적으로 유지하고 싶다면, 개별 상태 대신 하나의 객체 상태로 묶어주는 것이 효율적입니다.
+
+import { useState } from "react";
+export default function HanroroEvent() {
+    const [lastResultArr, setLastResultArr] = useState<string[]>([]);
+    
+    // 버튼들의 활성화 상태를 하나의 객체로 묶음 (기본값 true)
+    const [buttonStates, setButtonStates] = useState<Record<string, boolean>>({
+        btn1: true,
+        btn2: true,
+        btn3: true, // 확장하기 매우 편리함
+    });
+
+    const handleButtonClick = (btnKey: string, resultText: string) => {
+        if (!buttonStates[btnKey]) return; // 이미 false면 실행 금지
+
+        setLastResultArr(prev => [...prev, resultText]);
+        setButtonStates(prev => ({
+            ...prev,
+            [btnKey]: false // 해당 버튼만 false로 변경
+        }));
+    };
+
+    return (
+        <div>
+            {buttonStates.btn1 && <button onClick={() => handleButtonClick("btn1", "1번")}>1번</button>}
+            {buttonStates.btn2 && <button onClick={() => handleButtonClick("btn2", "2번")}>2번</button>}
+        </div>
+    );
+}
+
+------------------------------
+## 💡 요약 및 추천
+버튼을 아예 화면에서 사라지게(안 보이게) 만들고 싶다면 방법 2의 조건부 렌더링 형식을, 버튼은 그대로 두되 회색으로 클릭을 막고 싶다면 방법 1의 disabled 구조를 적용하시는 것을 권장합니다.
+혹시 버튼 클릭 시 결과 배열에 담긴 값들을 화면에 리스트 형식으로 출력하는 타임리프나 React map 코드도 같이 정돈하고 싶으신가요? 편하게 말씀해 주세요!
+
