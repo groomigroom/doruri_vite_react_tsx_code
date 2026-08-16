@@ -1,0 +1,20 @@
+List.of(
+"웃으며 안녕 (Recorded in 2016) (Prod.진영)"
+);
+
+(
+"IoiSmileByeAlbum",
+"웃으며 안녕",
+"웃으며 안녕 (Recorded in 2016) (Prod.진영)",
+"10년전의 기억을<br />
+담아서 앨범을<br />
+준비했어요!",
+"#333333??",
+"발라드",
+"스윙엔터테인먼트",
+1,
+"Baby Flower (Original)",
+4,
+"Baby Flower (Tokyo Remix)",
+"Kakao Entertainment"
+)
