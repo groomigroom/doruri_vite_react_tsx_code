@@ -1,8 +1,8 @@
 List.of(
             "Baby Flower (Seoul Remix : Vendors)",
-            "Baby Flower (Tokyo Remix : Full8loom)",
-            "Baby Flower (Instrumental)",
-            "Baby Flower (Acapella Ver.)"
+            "Baby Flower (Bangkok Remix : Kurtz)",
+            "Baby Flower (Taipei Remix : ntrophy)",
+            "Baby Flower (Tokyo Remix : Full8loom)"
         );
 
 (
