@@ -1,26 +1,23 @@
 List.of(
-"Sad Girls Schemin'",
-"Peer",
-"Baby Flower",
-"Type of Girl",
-"Sleek",
-"I Like That",
-"Me Myself Mode"
-);
+            "Sad Girls Schemin&apos;",
+            "Peer",
+            "Baby Flower",
+            "Type of Girl",
+            "Sleek",
+            "I Like That",
+            "Me Myself Mode"
+        );
 
 (
-"TriplesLoveAndPopPt1Album",
-"<LOVE&POP> pt.1",
-"<LOVE&POP> pt.1",
-"고개를 들고,<br />
-우리는 힘을 합쳐 세상을<br />
-향해 나아가 볼게요!",
-"#333333??",
-"댄스",
-"모드하우스",
-1,
-"Baby Flower (Original)",
-4,
-"Baby Flower (Tokyo Remix)",
-"Kakao Entertainment"
-)
+            "TriplesLoveAndPopPt1Album", 
+            "<LOVE&POP> pt.1",   
+            "&lt;LOVE&POP&gt; pt.1",  
+            "고개를 들고,",
+            "우리는 힘을 합쳐 세상을",
+            "향해 나아가 볼게요!", 
+            "#191919", 
+            "댄스", 
+            "모드하우스",
+            리스트 이름--------------------,
+            "모드하우스"
+        ));
