@@ -1,1 +1,39 @@
-BtsEvent.css
+.bts_e_moving_div {
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+    animation: bts_e_moving_div 1.5s ease 0s infinite;
+    position: absolute;
+}
+
+@keyframes bts_e_moving_div {
+    0% {
+        top: 20px;
+        left: 20px;
+        opacity: 1;
+    }
+
+    25% {
+        top: 280px;
+        left: 20px;
+        opacity: 0;
+    }
+
+    50% {
+        top: 280px;
+        left: 280px;
+        opacity: 1;
+    }
+
+    75% {
+        top: 20px;
+        left: 280px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 20px;
+        left: 20px;
+        opacity: 1;
+    }
+}
