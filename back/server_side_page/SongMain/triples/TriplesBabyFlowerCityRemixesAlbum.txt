@@ -9,7 +9,9 @@ List.of(
             "TriplesBabyFlowerCityRemixesAlbum", 
             "<Baby Flower City Remixes>", 
             "<Baby Flower City Remixes>", 
-            "소개글 1줄<br>소개글 2줄<br>소개글 3줄", 
+            "우리도 다 똑같으니까<br />
+이제 꽃처럼 피어나자는<br />
+마음으로 준비한 앨범이에요!", 
             "#333333", 
             "Dance/Remix", 
             "MODHAUS", 
