@@ -551,6 +551,8 @@ import HanMemHanroroEng from './HanroroEng/members/HanMemHanroroEng';
 import BTSMain from './BTS/main/BTSMain';
 import BTSMainEng from './BTSEng/main/BTSMainEng';
 
+import BtsEvent from './BTS/events/BtsEvent';
+
 import BtsNormalAlbum from './BTS/albums/BtsNormalAlbum';
 import BtsNormalAlbumEng from './BTSEng/albums/BtsNormalAlbumEng';
 
@@ -1123,6 +1125,8 @@ export default function RoutesSetup() {
             {/* BTSMain */}
             <Route path='/BTSMain' element={<BTSMain />}></Route>
             <Route path='/BTSMainEng' element={<BTSMainEng />}></Route>
+
+            <Route path='/BtsEvent' element={<BtsEvent />}></Route>
 
             <Route path='/BtsNormalAlbum' element={<BtsNormalAlbum />}></Route>
             <Route path='/BtsNormalAlbumEng' element={<BtsNormalAlbumEng />}></Route>
