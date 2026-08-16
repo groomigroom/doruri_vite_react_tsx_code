@@ -12,8 +12,8 @@ List.of(
             "우리도 다 똑같으니까<br />
 이제 꽃처럼 피어나자는<br />
 마음으로 준비한 앨범이에요!", 
-            "#333333", 
-            "Dance/Remix", 
+            "#333333??", 
+            "댄스", 
             "MODHAUS", 
             1, 
             "Baby Flower (Original)", 
