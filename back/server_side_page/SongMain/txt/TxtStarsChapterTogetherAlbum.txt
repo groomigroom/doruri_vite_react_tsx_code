@@ -1,0 +1,27 @@
+List.of(
+"Upside Down Kiss",
+"Beautiful Strangers",
+"Ghost Girl",
+"Sunday Driver",
+"Dance With You",
+"Take My Half",
+"Bird of Night",
+"별의 노래"
+);
+
+(
+"TxtStarsChapterTogetherAlbum",
+"별의 장: TOGETHER",
+"별의 장: TOGETHER",
+"함께의 의미를<br />
+생각해 보며<br />
+앨범을 준비했어요!",
+"#333333??",
+"록/메탈, 댄스, R&B/Soul, 랩/힙합",
+"BIGHIT MUSIC",
+1,
+"Baby Flower (Original)",
+4,
+"Baby Flower (Tokyo Remix)",
+"Kakao Entertainment"
+)
