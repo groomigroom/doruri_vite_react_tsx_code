@@ -1,23 +1,20 @@
 List.of(
-            "Baby Flower (Seoul Remix : Vendors)",
-            "Baby Flower (Bangkok Remix : Kurtz)",
-            "Baby Flower (Taipei Remix : ntrophy)",
-            "Baby Flower (Tokyo Remix : Full8loom)"
+            "Baby Flower &#40;Seoul Remix : Vendors&#41;",
+            "Baby Flower &#40;Bangkok Remix : Kurtz&#41;",
+            "Baby Flower &#40;Taipei Remix : ntrophy&#41;",
+            "Baby Flower &#40;Tokyo Remix : Full8loom&#41;"
         );
 
 (
             "TriplesBabyFlowerCityRemixesAlbum", 
-            "<Baby Flower City Remixes>", 
-            "<Baby Flower City Remixes>", 
-            "우리도 다 똑같으니까<br />
-이제 꽃처럼 피어나자는<br />
-마음으로 준비한 앨범이에요!", 
-            "#333333??", 
+            "<Baby Flower City Remixes>",     
+            "&lt;Baby Flower City Remixes&gt;",  
+            "우리도 다 똑같으니까",
+            "이제 꽃처럼 피어나자는",
+            "마음으로 준비한 앨범이에요!", 
+            "#191919", 
             "댄스", 
-            "모드하우스", 
-            1, 
-            "Baby Flower (Original)", 
-            4, 
-            "Baby Flower (Tokyo Remix)", 
-            "Kakao Entertainment"
-        )
+            "모드하우스",
+            리스트 이름----------------,
+            "모드하우스"
+        ));
