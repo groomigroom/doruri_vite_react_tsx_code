@@ -84,6 +84,7 @@ import TriplesMemS24 from './triples/members/TriplesMemS24';
 import TriplesMemS24Eng from './triplesEng/members/TriplesMemS24Eng';
 
 import TriplesEvent from "./triples/events/TriplesEvent";
+import TriplesAssemble25Event from './triples/events/TriplesAssemble25Event/TriplesAssemble25Event';
 
 import TriplesAcidAngelFromAsiaMain from './triples/units/AcidAngel_fromAsia/TriplesAcidAngelFromAsiaMain';
 import TriplesKRystalEyesMain from './triples/units/KRystalEyes/TriplesKRystalEyesMain';
@@ -662,6 +663,7 @@ export default function RoutesSetup() {
             <Route path='/TriplesMemS24Eng' element={<TriplesMemS24Eng />}></Route>
 
             <Route path='/TriplesEvent' element={<TriplesEvent />}></Route>
+            <Route path='/TriplesAssemble25Event' element={<TriplesAssemble25Event />}></Route>
 
             <Route path='/TriplesAcidAngelFromAsiaMain' element={<TriplesAcidAngelFromAsiaMain />}></Route>
             <Route path='/TriplesKRystalEyesMain' element={<TriplesKRystalEyesMain />}></Route>
