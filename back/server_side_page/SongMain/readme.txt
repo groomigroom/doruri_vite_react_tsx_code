@@ -1,3 +1,10 @@
+List.of(
+            "Baby Flower (Original)",
+            "Baby Flower (Tokyo Remix : Full8loom)",
+            "Baby Flower (Instrumental)",
+            "Baby Flower (Acapella Ver.)"
+        );
+
 (
             "baby-flower-remix", 
             "Baby Flower City", 
