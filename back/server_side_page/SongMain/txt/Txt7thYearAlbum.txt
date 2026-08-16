@@ -1,0 +1,25 @@
+List.of(
+"Bed of Thorns",
+"하루에 하루만 더 (Stick With You)",
+"Take Me to Nirvana (feat. 万妮达Vinida Weng)",
+"So What",
+"21st Century Romance",
+"다음의 다음"
+);
+
+(
+"Txt7thYearAlbum",
+"7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때",
+"7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때",
+"불안과 미래를<br />
+잘 생각해 보며<br />
+앨범을 준비했어요!",
+"#333333??",
+"댄스, R&B/Soul, 록/메탈",
+"BIGHIT MUSIC",
+1,
+"Baby Flower (Original)",
+4,
+"Baby Flower (Tokyo Remix)",
+"Kakao Entertainment"
+)
