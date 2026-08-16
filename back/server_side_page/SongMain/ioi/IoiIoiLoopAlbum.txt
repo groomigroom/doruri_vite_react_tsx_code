@@ -1,0 +1,25 @@
+List.of(
+"IOI (Where My Girls At)",
+"갑자기",
+"SPF 100+ (Summer Pop Fantasy)",
+"IF I",
+"그때 우리 지금",
+"웃으며 안녕 (Recorded in 2016) (Prod.진영)"
+);
+
+(
+"IoiIoiLoopAlbum",
+"[I.O.I : LOOP]",
+"I.O.I 3rd MINI ALBUM [I.O.I : LOOP] 이거특수문자 확인",
+"멈춰 있던 시간을<br />
+다시 이어서<br />
+찾아 왔어요!",
+"#333333??",
+"발라드, 댄스",
+"스윙엔터테인먼트",
+1,
+"Baby Flower (Original)",
+4,
+"Baby Flower (Tokyo Remix)",
+"Kakao Entertainment"
+)
