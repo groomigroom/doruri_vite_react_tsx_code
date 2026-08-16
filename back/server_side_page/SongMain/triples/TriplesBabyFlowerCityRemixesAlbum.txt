@@ -1,5 +1,5 @@
 List.of(
-            "Baby Flower (Original)",
+            "Baby Flower (Seoul Remix : Vendors)",
             "Baby Flower (Tokyo Remix : Full8loom)",
             "Baby Flower (Instrumental)",
             "Baby Flower (Acapella Ver.)"
@@ -14,7 +14,7 @@ List.of(
 마음으로 준비한 앨범이에요!", 
             "#333333??", 
             "댄스", 
-            "MODHAUS", 
+            "모드하우스", 
             1, 
             "Baby Flower (Original)", 
             4, 
