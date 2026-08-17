@@ -1,0 +1,26 @@
+List.of(
+"Twenty",
+"Kids Return",
+"Run It Up",
+"Lovestruck",
+"Trainspotting",
+"It's Not Over",
+"Boys Gonna Dive"
+);
+
+(
+"IdnttIstnotoverAlbum",
+"<itsnotover>",
+"<itsnotover>",
+"열심히 달려가는",
+"마음도 생각해 보며",
+"준비한 앨범이에요!",
+"#333333",
+LocalDate.of(2026, 7, 13),
+"댄스",
+"모드하우스",
+리스트 이름--------------------,
+"모드하우스"
+)
+
+mmmmmmmmmmmmm
