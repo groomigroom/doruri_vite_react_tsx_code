@@ -11,15 +11,14 @@ List.of(
 "AkmuLoveEpisodeAlbum",
 "LOVE EPISODE",
 "LOVE EPISODE",
-"어느 때 듣더라도<br />
-편안한 곡들을 담은<br />
-앨범을 준비했어요!",
+"어느 때 듣더라도",
+"편안한 곡들을 담은",
+"앨범을 준비했어요!",
 "#333333??",
 "포크/블루스, 댄스, R&B/Soul",
 "YG Entertainment",
-1,
-"Baby Flower (Original)",
-4,
-"Baby Flower (Tokyo Remix)",
-"Kakao Entertainment"
+리스트 이름--------------------,
+"YG Entertainment"
 )
+
+------------------------------------------------
