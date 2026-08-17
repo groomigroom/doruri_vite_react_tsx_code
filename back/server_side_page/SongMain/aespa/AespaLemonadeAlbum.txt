@@ -7,9 +7,9 @@ List.of(
 );
 
 (
-"TenCMTheDarkestNightAlbum",
-"The Darkest Night",
-"The Darkest Night",
+"AespaLemonadeAlbum",
+"LEMONADE - The 2nd Album",
+"LEMONADE - The 2nd Album",
 "고독한 마음을",
 "생각해 보며",
 "앨범을 준비했어요!",
