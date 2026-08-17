@@ -10,16 +10,15 @@ List.of(
 (
 "IoiIoiLoopAlbum",
 "[I.O.I : LOOP]",
-"I.O.I 3rd MINI ALBUM [I.O.I : LOOP] 이거특수문자 확인",
-"멈춰 있던 시간을<br />
-다시 이어서<br />
-찾아 왔어요!",
+"I.O.I 3rd MINI ALBUM [I.O.I : LOOP]",
+"멈춰 있던 시간을",
+"다시 이어서",
+"찾아 왔어요!",
 "#333333??",
 "발라드, 댄스",
 "스윙엔터테인먼트",
-1,
-"Baby Flower (Original)",
-4,
-"Baby Flower (Tokyo Remix)",
-"Kakao Entertainment"
+리스트 이름--------------------,
+"스윙엔터테인먼트"
 )
+
+mmmmmmmmmmmmm
