@@ -22,3 +22,19 @@ List.of(
 )
 
 mmmmmmmmmmmmm
+
+"#13983f",
+LocalDate.of(2024, 6, 3),
+"포크/블루스, 댄스, R&B/Soul",
+"YG Entertainment",
+리스트 이름--------------------,
+"YG Entertainment"
+)
+
+------------------------------------------------
+
+
+
+
+
+날짜는 함
