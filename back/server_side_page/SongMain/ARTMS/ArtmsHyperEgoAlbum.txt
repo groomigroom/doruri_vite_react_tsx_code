@@ -1,11 +1,10 @@
 List.of(
-"Twenty",
-"Kids Return",
-"Run It Up",
-"Lovestruck",
-"Trainspotting",
-"It's Not Over",
-"Boys Gonna Dive"
+"From Wings To Soul",
+"Born Stunner",
+"Blue Blood",
+Icarus Gang
+Hyper Crush
+Pixel Memory
 );
 
 (
