@@ -8,18 +8,18 @@ Pixel Memory
 );
 
 (
-"ArtmsHyperEgoAlbum",
-"<Hyper-Ego>",
-"<Hyper-Ego>",
-"새로운 시도를",
-"한다는 생각도 담아서",
+"BtobWeAgainAlbum",
+"우리 다시",
+"우리 다시",
+"진심 가득한",
+"마음을 담아서",
 "준비한 앨범이에요!",
 "#333333",
-LocalDate.of(2026, 8, 7),
-"댄스",
-"모드하우스",
+LocalDate.of(2026, 3, 21),
+"발라드",
+"비투비 컴퍼니",
 리스트 이름--------------------,
-"모드하우스"
+"비투비 컴퍼니"
 )
 
 mmmmmmmmmmmmm
