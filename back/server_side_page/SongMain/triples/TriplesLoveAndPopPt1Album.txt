@@ -11,7 +11,7 @@ List.of(
 (
             "TriplesLoveAndPopPt1Album", 
             "<LOVE&POP> pt.1",   
-            "&lt;LOVE&POP&gt; pt.1",  
+            "<LOVE&POP> pt.1",  
             "고개를 들고,",
             "우리는 힘을 합쳐 세상을",
             "향해 나아가 볼게요!", 
