@@ -1,0 +1,29 @@
+List.of(
+"PRETTY MUCH (Intro)",
+"ANTIHERO",
+"미슐랭 CYPHER",
+"LATE CHECKOUT (GO Edit)",
+"K-DRAMA",
+"신사들의 소신 (GOOD RIDDANCE)",
+"GROUP CHAT FREESTYLE (Full Ver.)",
+"OK GOOD",
+"OFF DAY (Verse Ver.)",
+"행복했습니다 (Feat. Kim Jong Wan of Nell)"
+);
+
+(
+"EpikHighPumpCollectorsEditionAlbum",
+"PUMP COLLECTOR'S EDITION",
+"PUMP COLLECTOR'S EDITION",
+"깊은 생각도 해보며",
+"준비한",
+"앨범이에요!",
+"#333333",
+LocalDate.of(2024, 10, 18),
+"랩/힙합",
+"아워즈",
+리스트 이름--------------------,
+"아워즈"
+)
+
+mmmmmmmmmmmmm
