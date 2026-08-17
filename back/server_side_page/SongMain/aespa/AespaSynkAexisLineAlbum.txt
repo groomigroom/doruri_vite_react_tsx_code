@@ -3,7 +3,9 @@
 
 List.of(
 "BLUE (WINTER Solo)",
-
+"Ketchup And Lemonade (NINGNING Solo)",
+"Tornado (GISELLE Solo)",
+"GOOD STUFF (KARINA Solo)"
 );
 
 (
