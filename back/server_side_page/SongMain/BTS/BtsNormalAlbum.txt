@@ -1,6 +1,8 @@
 List.of(
-"게임 오버 ?",
-"1111"
+"NORMAL (Explicit Ver.)",
+"NORMAL (Clean Ver.)",
+"NORMAL (Korean Ver.) (Explicit Ver.)",
+"NORMAL (Korean Ver.) (Clean Ver.)"
 );
 
 (
