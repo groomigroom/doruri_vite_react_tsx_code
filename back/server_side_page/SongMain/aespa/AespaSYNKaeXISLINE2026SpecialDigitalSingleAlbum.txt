@@ -2,17 +2,8 @@
 
 
 List.of(
-"WDA (Whole Different Animal) (Feat. G-DRAGON)",
-"LEMONADE",
-"SHAKIN'",
-"Can't Help Myself",
-"Camouflage",
-"Bite",
-"Switchblade (Feat. Ty Dolla $ign)",
-"Roll",
-"My Plan",
-"'Til We Die",
-"LEMONADE (Feat. Becky G)"
+"Serenade (KARINA & WINTER)",
+"Lollipop (GISELLE & NINGNING)"
 );
 
 (
