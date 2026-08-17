@@ -1,0 +1,23 @@
+RescenePrettyGirlSpecialSingleAlbum.txt
+
+
+List.of(
+"일말의 가능성",
+"일말의 가능성 (Inst.)"
+);
+
+(
+"TenCMSliverOfPossibilityAlbum",
+"일말의 가능성",
+"일말의 가능성",
+"기대하는 마음도",
+"가지면서",
+"앨범을 준비했어요!",
+"#333333??",
+"포크/블루스",
+"씨에이엠위더스",
+리스트 이름--------------------,
+"씨에이엠위더스"
+)
+
+mmmmmmmmmmmmm
