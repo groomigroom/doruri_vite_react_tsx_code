@@ -248,7 +248,65 @@ export default function App() {
           </a >
         </section>
 
+        <section className='tri_m_mem_tr1'>
+          <a href='/TriplesMemS1' className='tri_m_mem_a'>
+            <article className='tri_m_mem'>
+              <img src={""} alt="김구름 이미지" />
+              <div>
+                <h4>김구름1번줄</h4>
+              </div>
+            </article>
+          </a>
+        </section>
+
+        <section className='tri_m_mem_tr2'>
+          <a href='/TriplesMemS1' className='tri_m_mem_a'>
+            <article className='tri_m_mem'>
+              <img src={""} alt="김구름 이미지" />
+              <div>
+                <h4>김구름2번줄</h4>
+              </div>
+            </article>
+          </a>
+          <a href='/TriplesMemS1' className='tri_m_mem_a'>
+            <article className='tri_m_mem'>
+              <img src={""} alt="김구름 이미지" />
+              <div>
+                <h4>김구름2번줄</h4>
+              </div>
+            </article>
+          </a>
+        </section>
+
+        <section className='tri_m_mem_tr3'>
+          <a href='/TriplesMemS1' className='tri_m_mem_a'>
+            <article className='tri_m_mem'>
+              <img src={""} alt="김구름 이미지" />
+              <div>
+                <h4>김구름3번줄</h4>
+              </div>
+            </article>
+          </a>
+          <a href='/TriplesMemS1' className='tri_m_mem_a'>
+            <article className='tri_m_mem'>
+              <img src={""} alt="김구름 이미지" />
+              <div>
+                <h4>김구름3번줄</h4>
+              </div>
+            </article>
+          </a>
+          <a href='/TriplesMemS1' className='tri_m_mem_a'>
+            <article className='tri_m_mem'>
+              <img src={""} alt="김구름 이미지" />
+              <div>
+                <h4>김구름3번줄</h4>
+              </div>
+            </article>
+          </a>
+        </section>
+
       </section>
+
       <section className='tri_m_h2'>
         <h2>▪ 유닛 ▪</h2>
       </section>
