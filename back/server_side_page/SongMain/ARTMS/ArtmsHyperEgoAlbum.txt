@@ -2,9 +2,9 @@ List.of(
 "From Wings To Soul",
 "Born Stunner",
 "Blue Blood",
-Icarus Gang
-Hyper Crush
-Pixel Memory
+"Icarus Gang",
+"Hyper Crush",
+"Pixel Memory"
 );
 
 (
