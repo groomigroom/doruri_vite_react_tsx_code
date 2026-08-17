@@ -1,9 +1,10 @@
 List.of(
-"GRWM (Get Ready With Me)",
-"It's Me",
-"paw, paw!",
-"Mamihlapinatapai",
-"Love, older you"
+"너의 모든 가능성이 되어 줄게",
+"널 따라가 (You, You)",
+"Why You So Bad?",
+"Get It Now",
+"Fire Escape",
+"Back To Strangers",
 );
 
 (
@@ -15,9 +16,9 @@ List.of(
 "앨범이에요!",
 "#333333??",
 "댄스, 랩/힙합, POP",
-"빌리프랩",
+"플레디스 엔터테인먼트",
 리스트 이름--------------------,
-"빌리프랩"
+"플레디스 엔터테인먼트"
 )
 
 mmmmmmmmmmmmm
