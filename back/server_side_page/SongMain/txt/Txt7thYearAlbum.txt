@@ -23,3 +23,26 @@ List.of(
 "Baby Flower (Tokyo Remix)",
 "Kakao Entertainment"
 )
+
+
+-------------------------
+
+List.of(
+"Dream Dress"
+);
+
+(
+"TriplesMoonDreamDressAlbum",
+"Dream Dress",
+"Dream Dress",
+"자신의 존재와",
+가치를 생각해 보며",
+준비한 앨범이에요!",
+"#191919",
+"J-POP",
+"모드하우스",
+리스트 이름--------------------,
+"모드하우스"
+)
+
+-=------------------------
