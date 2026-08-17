@@ -1,1 +1,23 @@
+List.of(
+"GRWM (Get Ready With Me)",
+"It's Me",
+"paw, paw!",
+"Mamihlapinatapai",
+"Love, older you"
+);
 
+(
+"TwsNoTragedyAlbum",
+"NO TRAGEDY",
+"NO TRAGEDY",
+"예측 불가한",
+"느낌으로 준비한",
+"앨범이에요!",
+"#333333??",
+"일렉트로니카, 발라드, 댄스",
+"빌리프랩",
+리스트 이름--------------------,
+"빌리프랩"
+)
+
+mmmmmmmmmmmmm
