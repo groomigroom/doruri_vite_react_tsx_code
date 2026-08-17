@@ -5,7 +5,10 @@ List.of(
 "WDA (Whole Different Animal) (Feat. G-DRAGON)",
 "LEMONADE",
 "SHAKIN'",
-
+"Can't Help Myself",
+"Camouflage",
+"Bite",
+"Switchblade &#40;Feat. Ty Dolla $ign&#41;",
 );
 
 (
