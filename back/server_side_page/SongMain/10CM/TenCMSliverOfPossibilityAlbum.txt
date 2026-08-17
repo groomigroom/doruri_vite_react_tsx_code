@@ -2,21 +2,22 @@ RescenePrettyGirlSpecialSingleAlbum.txt
 
 
 List.of(
-"Runaway"
+"일말의 가능성",
+"일말의 가능성 (Inst.)"
 );
 
 (
-"ResceneRunawayAlbum",
-"Runaway",
-"Runaway",
-"주체적으로 나아간다는",
-"생각을 담아서",
+"TenCMSliverOfPossibilityAlbum",
+"일말의 가능성",
+"일말의 가능성",
+"기대하는 마음도",
+"가지면서",
 "앨범을 준비했어요!",
 "#333333??",
-"댄스",
-"더뮤즈엔터테인먼트",
+"포크/블루스",
+"씨에이엠위더스",
 리스트 이름--------------------,
-"더뮤즈엔터테인먼트"
+"씨에이엠위더스"
 )
 
 mmmmmmmmmmmmm
