@@ -11,38 +11,15 @@ List.of(
 "Txt7thYearAlbum",
 "7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때",
 "7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때",
-"불안과 미래를<br />
-잘 생각해 보며<br />
-앨범을 준비했어요!",
+"불안과 미래를",
+"잘 생각해 보며",
+"앨범을 준비했어요!",
 "#333333??",
 "댄스, R&B/Soul, 록/메탈",
 "BIGHIT MUSIC",
-1,
-"Baby Flower (Original)",
-4,
-"Baby Flower (Tokyo Remix)",
-"Kakao Entertainment"
+리스트 이름--------------------,
+"BIGHIT MUSIC"
 )
 
 
 -------------------------
-
-List.of(
-"Dream Dress"
-);
-
-(
-"TriplesMoonDreamDressAlbum",
-"Dream Dress",
-"Dream Dress",
-"자신의 존재와",
-가치를 생각해 보며",
-준비한 앨범이에요!",
-"#191919",
-"J-POP",
-"모드하우스",
-리스트 이름--------------------,
-"모드하우스"
-)
-
--=------------------------
