@@ -1,16 +1,17 @@
 List.of(
-"Bubee (Korean Ver.)"
+"GRWM (Get Ready With Me)",
+
 );
 
 (
-"IllitBubeeKoreanVerAlbum",
-"Bubee (Korean Ver.)",
-"Bubee (Korean Ver.)",
-"청량하고",
-"통통튀는 느낌으로",
-"준비한 앨범이에요!",
+"IllitMamthlapinatapaiAlbum",
+"MAMIHLAPINATAPAI",
+"MAMIHLAPINATAPAI",
+"예측 불가한",
+"느낌으로 준비한",
+"앨범이에요!",
 "#333333??",
-"댄스",
+"일렉트로니카, 발라드, 댄스",
 "빌리프랩",
 리스트 이름--------------------,
 "빌리프랩"
