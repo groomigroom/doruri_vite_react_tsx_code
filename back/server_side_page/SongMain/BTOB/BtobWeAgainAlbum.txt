@@ -1,10 +1,6 @@
 List.of(
-"From Wings To Soul",
-"Born Stunner",
-"Blue Blood",
-Icarus Gang
-Hyper Crush
-Pixel Memory
+"우리 다시",
+"우리 다시 (Inst.)"
 );
 
 (
