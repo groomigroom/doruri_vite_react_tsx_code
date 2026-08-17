@@ -1,0 +1,24 @@
+List.of(
+"너의 모든 가능성이 되어 줄게",
+"널 따라가 (You, You)",
+"Why You So Bad?",
+"Get It Now",
+"Fire Escape",
+"Back To Strangers",
+);
+
+(
+"TwsNoTragedyAlbum",
+"NO TRAGEDY",
+"NO TRAGEDY",
+"주체적인 마음을",
+"담아서 준비한",
+"앨범이에요!",
+"#333333??",
+"댄스, 랩/힙합, POP",
+"플레디스 엔터테인먼트",
+리스트 이름--------------------,
+"플레디스 엔터테인먼트"
+)
+
+mmmmmmmmmmmmm
