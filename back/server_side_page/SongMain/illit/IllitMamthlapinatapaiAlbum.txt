@@ -1,6 +1,9 @@
 List.of(
 "GRWM (Get Ready With Me)",
-It's Me
+"It's Me",
+"paw, paw!",
+"Mamihlapinatapai",
+"Love, older you"
 );
 
 (
