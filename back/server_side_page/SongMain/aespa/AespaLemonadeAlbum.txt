@@ -2,8 +2,10 @@
 
 
 List.of(
-"The Darkest Night",
-"The Darkest Night (Inst.)"
+"WDA (Whole Different Animal) (Feat. G-DRAGON)",
+"LEMONADE",
+"SHAKIN'",
+
 );
 
 (
