@@ -1,0 +1,29 @@
+List.of(
+"꿈의 버스",
+"INSIDE OUT",
+"해야 뜨지 말아 줘",
+"Disco Day",
+"My Way",
+"별들 앞에서",
+"Take All My Heart",
+"날아라! 드림라이더",
+"드디어 끝나갑니다",
+"우리의 계절"
+);
+
+(
+"Day6TheDecadeAlbum",
+"The DECADE",
+"The DECADE",
+"앞으로의 미래도",
+"생각해보며",
+"준비한 앨범이에요!",
+"#333333",
+LocalDate.of(2025, 9, 5),
+"록/메탈",
+"JYP엔터테인먼트",
+리스트 이름--------------------,
+"JYP엔터테인먼트"
+)
+
+mmmmmmmmmmmmm
