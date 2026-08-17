@@ -1,1 +1,22 @@
 RescenePrettyGirlSpecialSingleAlbum.txt
+
+
+List.of(
+"다시 만난 오늘"
+);
+
+(
+"TwsTodayMeetingAgainAlbum",
+"다시 만난 오늘",
+"다시 만난 오늘",
+"새롭게 만난다는",
+"마음으로 앨범을",
+"준비했어요!",
+"#333333??",
+"댄스",
+"플레디스 엔터테인먼트",
+리스트 이름--------------------,
+"플레디스 엔터테인먼트"
+)
+
+mmmmmmmmmmmmm
