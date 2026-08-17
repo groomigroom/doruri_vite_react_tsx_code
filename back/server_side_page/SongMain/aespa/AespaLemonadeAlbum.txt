@@ -9,6 +9,10 @@ List.of(
 "Camouflage",
 "Bite",
 "Switchblade (Feat. Ty Dolla $ign)",
+"Roll",
+"My Plan",
+"'Til We Die",
+"LEMONADE (Feat. Becky G)"
 );
 
 (
