@@ -1,14 +1,14 @@
 List.of(
             "Baby Flower (Seoul Remix : Vendors)",
-            "Baby Flower (Bangkok Remix : Kurtz&#41;",
-            "Baby Flower (Taipei Remix : ntrophy&#41;",
-            "Baby Flower (Tokyo Remix : Full8loom&#41;"
+            "Baby Flower (Bangkok Remix : Kurtz)",
+            "Baby Flower (Taipei Remix : ntrophy)",
+            "Baby Flower (Tokyo Remix : Full8loom)"
         );
 
 (
             "TriplesBabyFlowerCityRemixesAlbum", 
             "<Baby Flower City Remixes>",     
-            "&lt;Baby Flower City Remixes&gt;",  
+            "<Baby Flower City Remixes>",  
             "우리도 다 똑같으니까",
             "이제 꽃처럼 피어나자는",
             "마음으로 준비한 앨범이에요!", 
