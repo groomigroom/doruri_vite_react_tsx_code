@@ -27,7 +27,7 @@ export default function IdnttEvent() {
     const [Idntt_e_node19, setIdntt_e_node19] = useState<IdnttEventNodeType>({ Idntt_e_mem_name: "19번", Idntt_e_link: null });
     const [Idntt_e_node20, setIdntt_e_node20] = useState<IdnttEventNodeType>({ Idntt_e_mem_name: "20번", Idntt_e_link: null });
 
-    const Idntt_e_node21 = {
+    const Idntt_e_node21: IdnttEventNodeType = {
         Idntt_e_mem_name: "21번",
         Idntt_e_link: null,
     };
