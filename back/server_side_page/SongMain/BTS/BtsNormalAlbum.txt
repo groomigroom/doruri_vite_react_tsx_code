@@ -4,18 +4,18 @@ List.of(
 );
 
 (
-"HanroroLoveAndHatredAlbum",
-"애증",
-"애증",
-"'한로로'와 함께",
-"좋은 마음을",
-"가져 보아요!",
+"BtsNormalAlbum",
+"NORMAL",
+"NORMAL",
+"더 큰 세상도",
+"생각해 보며",
+"준비한 앨범이에요!",
 "#333333",
-LocalDate.of(2026, 4, 2),
-"인디음악, 록/메탈",
-"authentic",
+LocalDate.of(2026, 7, 17),
+"R&B/Soul",
+"빅히트 뮤직",
 리스트 이름--------------------,
-"authentic"
+"빅히트 뮤직"
 )
 
 mmmmmmmmmmmmm
