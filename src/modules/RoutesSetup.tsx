@@ -431,6 +431,8 @@ import YenaMemEng from './YenaEng/members/YenaMemEng';
 import IdnttMain from './idntt/main/IdnttMain';
 import IdnttMainEng from './idnttEng/main/IdnttMainEng';
 
+import IdnttEvent from './idntt/events/IdnttEvent';
+
 import IdnttUnevermetMain from './idntt/units/unevermet/IdnttUnevermetMain';
 import IdnttUnevermetMainEng from './idnttEng/units/unevermet/IdnttUnevermetMainEng';
 import IdnttYesweareMain from './idntt/units/yesweare/IdnttYesweareMain';
@@ -1009,6 +1011,8 @@ export default function RoutesSetup() {
 
             <Route path='/IdnttMain' element={<IdnttMain />}></Route>
             <Route path='/IdnttMainEng' element={<IdnttMainEng />}></Route>
+
+            <Route path='/IdnttEvent' element={<IdnttEvent />}></Route>
 
             <Route path='/IdnttUnevermetMain' element={<IdnttUnevermetMain />}></Route>
             <Route path='/IdnttUnevermetMainEng' element={<IdnttUnevermetMainEng />}></Route>
