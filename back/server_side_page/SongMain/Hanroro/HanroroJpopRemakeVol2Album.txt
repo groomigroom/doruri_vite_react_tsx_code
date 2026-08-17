@@ -1,2 +1,20 @@
-HanroroJpopRemakeVol2Album.txt
+List.of(
+"잔혹한 천사의 테제"
+);
 
+(
+"HanroroJpopRemakeVol2Album",
+"J-POP REMAKE Vol.2",
+"J-POP REMAKE Vol.2",
+"저만의 새로운",
+"목소리를 담아서",
+"앨범을 준비했어요!",
+"#333333",
+LocalDate.of(2026, 7, 30),
+"록/메탈",
+"SHGOLD NETWORKS",
+리스트 이름--------------------,
+"authentic"
+)
+
+mmmmmmmmmmmmm
