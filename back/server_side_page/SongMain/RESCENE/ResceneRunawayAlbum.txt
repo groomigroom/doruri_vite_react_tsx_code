@@ -2,15 +2,15 @@ RescenePrettyGirlSpecialSingleAlbum.txt
 
 
 List.of(
-"Pretty Girl"
+"Runaway"
 );
 
 (
 "ResceneRunawayAlbum",
-"Pretty Girl - Special Single",
-"Pretty Girl - Special Single",
-"선명하고 당당한",
-"노래를 담은",
+"Runaway",
+"Runaway",
+"주체적으로 나아간다는",
+"생각을 담아서",
 "앨범을 준비했어요!",
 "#333333??",
 "댄스",
