@@ -97,6 +97,31 @@ header {
   justify-content: space-between;
 }
 
+.tri_m_mem_tr1 {
+  width: 150px;
+  height: 190px;
+  background-color: aquamarine;
+  margin: 0 auto;
+}
+
+.tri_m_mem_tr2 {
+  width: 340px;
+  height: 190px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(24, 116, 85);
+  margin: 0 auto;
+}
+
+.tri_m_mem_tr3 {
+  width: 530px;
+  height: 190px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(123, 110, 245);
+  margin: 0 auto;
+}
+
 .tri_m_mem_a {
   display: block;
   width: 150px;
