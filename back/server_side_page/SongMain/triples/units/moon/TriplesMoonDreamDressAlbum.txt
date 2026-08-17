@@ -7,30 +7,13 @@ List.of(
 "Dream Dress",
 "Dream Dress",
 "자신의 존재와",
-가치를 생각해 보며<br />
+가치를 생각해 보며",
 준비한 앨범이에요!",
-"#333333??",
-"J-POP",
-"모드하우스",
-1,
-"Baby Flower (Original)",
-4,
-"Baby Flower (Tokyo Remix)",
-"Kakao Entertainment"
-)
-
--=------------------------
-
-(
-"TriplesAssemble25Album",
-"<ASSEMBLE25>",
-"<ASSEMBLE25>",
-"저희가 힘을 합쳐서",
-"열심히 준비한",
-"앨범이에요!",
 "#191919",
-"댄스, R&B/Soul",
+"J-POP",
 "모드하우스",
 리스트 이름--------------------,
 "모드하우스"
 )
+
+-=------------------------
