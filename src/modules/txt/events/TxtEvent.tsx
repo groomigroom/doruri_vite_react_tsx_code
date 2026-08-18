@@ -38,33 +38,43 @@ export default function TxtEvent() {
     const txt_e_ClPopup = () => txt_e_SetPopupO(false);
     return (
         <div className="txt_e_full">
-            <Menu />
-            <section className="home_translate">
-                <Link to='/TxtEvent' className="on">한국어</Link>
-                <Link to='/TxtEventEng'>English</Link>
+            <header className="triples_e_header">
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/TxtEvent' className="on">한국어</Link>
+                    <Link to='/TxtEventEng'>English</Link>
+                </section>
+            </header>
+            <section className="tri_e_logo">
+                <img src={TxtELogo} alt="TxtELogo" />
             </section>
-            <img src={TxtELogo} alt="TxtELogo" className="tri_e_logo" />
-            <h2 className="tri_e_h2">
-                <img src={MainH2Deco} alt="투모루우바이투게더" />&apos;하루에 하루만 더&apos; 가사 맟주기 이벤트<img src={MainH2Deco} alt="투모루우바이투게더" />
-            </h2>
-            <p className="txt_e_mp">
-                머물러 줘<br />
-                하루에 하루만 더<br />
-                헤어질 수 없어<br />
-                I&apos;ll just stick with you<br />
-                <br />
-                언제부턴지 몰라도<br />
-                미지근한 너의 태도<br />
-                ㅁㅁㅁㅁ 한 표정, 말투도<br />
-                <br />
-                ㅁㅁㅁㅁ에 들어갈 말을 아래에 입력해 주세요.
-                {/* 낯설기만 */}
-            </p>
-            <form action="" className="txt_e_form">
-                <div className="txt_e_form_indiv">
-                    <input className="txt_e_fo" type="text" name="txt_e_in" value={txt_e_str} onChange={Txt_e_handle_input_change} />
-                </div>
-            </form>
+            <section className="tri_e_h2">
+                <h2>
+                    <img src={MainH2Deco} alt="투모루우바이투게더" />&apos;하루에 하루만 더&apos; 가사 맟주기 이벤트<img src={MainH2Deco} alt="투모루우바이투게더" />
+                </h2>
+            </section>
+            <section className='txt_e_intropp'>
+                <p className="txt_e_mp">
+                    머물러 줘<br />
+                    하루에 하루만 더<br />
+                    헤어질 수 없어<br />
+                    I&apos;ll just stick with you<br />
+                    <br />
+                    언제부턴지 몰라도<br />
+                    미지근한 너의 태도<br />
+                    ㅁㅁㅁㅁ 한 표정, 말투도<br />
+                    <br />
+                    ㅁㅁㅁㅁ에 들어갈 말을 아래에 입력해 주세요.
+                    {/* 낯설기만 */}
+                </p>
+            </section>
+            <section className="txt_e_form">
+                <form action="">
+                    <div className="txt_e_form_indiv">
+                        <input className="txt_e_fo" type="text" name="txt_e_in" value={txt_e_str} onChange={Txt_e_handle_input_change} />
+                    </div>
+                </form>
+            </section>
             <button className="txt_e_btn" onClick={txt_e_OpPopup}>제출하기</button>
             {txt_e_PopopO && (
                 <TxtEventPre txt_e_OnCl={txt_e_ClPopup} txt_e_result={txt_e_last_str} />
