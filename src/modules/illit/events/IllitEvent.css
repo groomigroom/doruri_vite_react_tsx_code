@@ -4,11 +4,17 @@
     position: relative;
 }
 
+.ill_e_button_train_full_wrap {
+    width: 100vw;
+    height: 260px;
+    position: relative;
+}
+
 .ill_e_button_train_full {
     width: 280px;
     height: 220px;
     position: absolute;
-    top: 401px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -39,11 +45,17 @@
 }
 
 .ill_e_last_answer {
+    width: 100vw;
+    height: 60px;
+    position: relative;
+}
+
+.ill_e_last_answer>p {
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     position: absolute;
-    top: 661px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
 }
