@@ -7,6 +7,8 @@ import Menu from "../../Menu";
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
+import StrayKids_e_m_logo from './img/StrayKids_e_m_logo.png';
+
 export default function StrayKidsEvent() {
     DoruriDocumentTitle('Stray Kids 이벤트');
 
@@ -31,25 +33,33 @@ export default function StrayKidsEvent() {
 
     return (
         <div className="straykidsEvent_full">
-            <Menu />
-            <img src={""} alt="Stray Kids 이벤트 로고" className="tri_e_logo" />
-            <h2 className="tri_e_h2"><img src={MainH2Deco} alt="Stray Kids" />ddd<img src={MainH2Deco} alt="Stray Kids" /></h2>
-            <p className='tri_e_intropp'>
-                3줄 소개글<br />
-                3줄 소개글<br />
-                3줄 소개글
-            </p>
+            <header className="triples_e_header">
+                <Menu />
+            </header>
+            <section className="tri_e_logo">
+                <img src={StrayKids_e_m_logo} alt="Stray Kids 이벤트 로고" />
+            </section>
+            <section className="tri_e_h2">
+                <h2><img src={MainH2Deco} alt="Stray Kids" />ddd<img src={MainH2Deco} alt="Stray Kids" /></h2>
+            </section>
+            <section className='tri_e_intropp'>
+                <p>
+                    3줄 소개글<br />
+                    3줄 소개글<br />
+                    3줄 소개글
+                </p>
+            </section>
             <form action="" className="str_e_form_part">
                 <div className="str_e_form_indiv str_e_form_indiv1">
                     <input type="text" name="straykids_e_value1" value={straykids_e_value1} onChange={StrayKids_e_handle_input_change1} />
                 </div>
-                {straykids_e_value1 === "1번답" && (<div className="str_e_form_indiv str_e_form_indiv2">
+                {straykids_e_value1 === "Battle Ground" && (<div className="str_e_form_indiv str_e_form_indiv2">
                     <input type="text" name="straykids_e_value1" value={straykids_e_value2} onChange={StrayKids_e_handle_input_change2} />
                 </div>)}
-                {straykids_e_value2 === "2번답" && (<div className="str_e_form_indiv str_e_form_indiv3">
+                {straykids_e_value2 === "Roman Empire" && (<div className="str_e_form_indiv str_e_form_indiv3">
                     <input type="text" name="straykids_e_value1" value={straykids_e_value3} onChange={StrayKids_e_handle_input_change3} />
                 </div>)}
-                {straykids_e_value3 === "3번답" &&
+                {straykids_e_value3 === "LOVER" &&
                     (<section className="str_e_last_result">
                         <p>당첨</p>
                     </section>)
