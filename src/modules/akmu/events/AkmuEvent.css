@@ -8,10 +8,8 @@
 .akmu_e_form {
     width: 240px;
     height: 40px;
-    position: absolute;
-    top: 401px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    margin: 0 auto;
 }
 
 input[name=akmu_event] {
