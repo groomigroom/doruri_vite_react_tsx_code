@@ -6,11 +6,9 @@
 
 .str_e_form_part {
     width: 150px;
-    height: 300px;
-    position: absolute;
-    top: 401px;
-    left: 50%;
-    transform: translateX(-50%);
+    height: 210px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .str_e_form_indiv {
