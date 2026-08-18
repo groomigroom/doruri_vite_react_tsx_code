@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${}">Document</title>
+    <!-- <link rel="stylesheet" th:href="@{}"> -->
+    <link rel="stylesheet" href="./MemberMain.css">
+</head>
+
+<body>
+    <div class="member_main_full">
+        <header>
+            <a to='/' class='menu_logo'>
+                <img src="" alt="">
+            </a>
+            <section class="home_translate">
+                <a href='/TriplesBabyFlowerCityRemixesAlbum' class="on">한국어</a>
+                <a href='/TriplesBabyFlowerCityRemixesAlbumEng'>English</a>
+            </section>
+            <!-- <div className="menu_mobile_button" onClick={MenuOnToggle}>보기</div> -->
+            <nav class="menu_nav">
+                <!-- <div className="menu_mobile_off" onClick={MenuOffToggle}>닫기</div> -->
+                <ul>
+                    <li><a href="#">도루리는?</a><!--<button className='menu_nav_li_btn1'>메뉴 버튼1</button>-->
+                        <ul>
+                            <li><a href="#">소개</a></li>
+                            <li>
+                                <a href="/DoruriMap">도루리 사이트 구조</a>
+                            </li>
+                            <li>
+                                <a href='/DoruriUpdate'>업데이트 내역</a>
+                            </li>
+                            <li><a href="#">세부4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href='#'>아이돌 탐색</a>
+                        <ul>
+                            <li>
+                                <a href='/IdolList'>목록</a>
+                            </li>
+                            <li><a href="#">세부2</a></li>
+                            <li><a href="#">세부3</a></li>
+                            <li><a href="#">세부4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">메뉴1</a>
+                        <ul>
+                            <li><a href="#">세부1</a></li>
+                            <li><a href="#">세부2</a></li>
+                            <li><a href="#">세부3</a></li>
+                            <li><a href="#">세부4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">메뉴1</a>
+                        <ul>
+                            <li><a href="#">세부1</a></li>
+                            <li><a href="#">세부2</a></li>
+                            <li><a href="#">세부3</a></li>
+                            <li><a href="#">세부4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="header_ghost"></div>
+        <section class="member_main_h2_section">
+            <h2 class='member_main_h2'><img th:src="${}" alt="멤버" /><span th:text="${}">멤버 이름
+                    제목</span><img th:src="${}" alt="멤버" />
+            </h2>
+        </section>
+        <section class="member_main_intropp">
+            <p>
+                <span th:text="${}">1번줄</span><br>
+                <span th:text="${}">2번줄</span><br>
+                <span th:text="${}">3번줄</span>
+            </p>
+        </section>
+        <section class="member_main_img">
+            <img th:src="${}" alt="앨범 이미지" style="border: 5px solid #333">
+        </section>
+        <table class='member_main_tb'>
+            <tbody>
+                <tr class='member_main_tb_tr1'>
+                    <td>
+                        <p>
+                            출생
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            내용
+                        </p>
+                    </td>
+                </tr>
+                <!-- ⭕ 핵심: th:each를 통해 자바 리스트에 담긴 데이터 수만큼 <tr> 행이 자동 생성됩니다 -->
+                <!-- song : 리스트에서 순서대로 꺼낸 한 곡의 제목 문자열 -->
+                <!-- status : 타임리프가 제공하는 상태 변수로 인덱스, 순번 등을 계산할 때 씁니다 -->
+                <tr th:each="${}">
+                    <td>
+                        <p th:text="${}">
+                            번호
+                        </p>
+                    </td>
+                    <td>
+                        <p th:text="${}">
+                            제목11
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="member_main_tb_ghost"></div>
+        <footer>
+            <p th:text="'ⓒ ' + ${}">ⓒ 회사 이름</p>
+        </footer>
+    </div>
+</body>
+
+</html>
