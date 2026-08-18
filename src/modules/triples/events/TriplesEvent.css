@@ -1,45 +1,69 @@
 .triplesevent_full {
     width: 100vw;
-    height: 1921px;
-    position: relative;
     background-color: #fcfcfc;
 }
 
-.tri_e_toback {}
+.triples_e_header {
+    width: 100vw;
+    height: 140px;
+    position: relative;
+    background-color: aqua;
+}
 
 .tri_e_logo {
+    width: 100vw;
+    height: 98px;
+    position: relative;
+    background-color: rgb(228, 163, 66);
+}
+
+.tri_e_logo>img {
     height: 58px;
     position: absolute;
-    top: 140px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .tri_e_h2 {
+    width: 100vw;
+    height: 60px;
+    position: relative;
+    background-color: brown;
+}
+
+.tri_e_h2>h2 {
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     position: absolute;
-    top: 238px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.tri_e_h2>img {
+.tri_e_h2>h2>img {
     margin: 0 20px;
 }
 
-.tri_e_h2>img:last-child {
+.tri_e_h2>h2>img:last-child {
     transform: rotateZ(180deg);
 }
 
 .tri_e_intropp {
+    width: 100vw;
+    height: 103px;
+    background-color: blue;
+    position: relative;
+}
+
+.tri_e_intropp>p {
     text-align: center;
     font-size: 15px;
     line-height: 140%;
     font-weight: 500;
     position: absolute;
-    top: 298px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -48,11 +72,9 @@
 
 .tri_e_img {
     width: 720px;
-    height: 1300px;
-    position: absolute;
-    top: 401px;
-    left: 50%;
-    transform: translateX(-50%);
+    height: 1340px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .triplesevent_imgt {
@@ -151,6 +173,13 @@
 }
 
 .tri_e_btn {
+    width: 100vw;
+    height: 80px;
+    position: relative;
+    background-color: aquamarine;
+}
+
+.tri_e_btn>button {
     width: 150px;
     height: 40px;
     border: 5px solid #191919;
@@ -159,12 +188,12 @@
     font-weight: 700;
     font-size: 16px;
     position: absolute;
-    top: 1741px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.tri_e_btn:hover {
+.tri_e_btn>button:hover {
     background-color: #191919;
     color: #fcfcfc;
 }
