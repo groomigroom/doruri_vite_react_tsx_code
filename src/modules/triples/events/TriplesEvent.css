@@ -7,14 +7,12 @@
     width: 100vw;
     height: 140px;
     position: relative;
-    background-color: aqua;
 }
 
 .tri_e_logo {
     width: 100vw;
     height: 98px;
     position: relative;
-    background-color: rgb(228, 163, 66);
 }
 
 .tri_e_logo>img {
@@ -29,7 +27,6 @@
     width: 100vw;
     height: 60px;
     position: relative;
-    background-color: brown;
 }
 
 .tri_e_h2>h2 {
@@ -53,7 +50,6 @@
 .tri_e_intropp {
     width: 100vw;
     height: 103px;
-    background-color: blue;
     position: relative;
 }
 
@@ -176,7 +172,6 @@
     width: 100vw;
     height: 80px;
     position: relative;
-    background-color: aquamarine;
 }
 
 .tri_e_btn>button {
