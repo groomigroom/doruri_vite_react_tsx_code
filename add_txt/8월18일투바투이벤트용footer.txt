@@ -1,0 +1,54 @@
+React와 TypeScript(tsx) 환경에서 <Home className="bg-blue-500" />과 같이 커스텀 컴포넌트에 className을 전달하려면, Home 컴포넌트 내부에서 props로 className을 받아 HTML 태그에 직접 주입해주어야 합니다.
+HTML 기본 태그(div, button 등)와 달리, 직접 만든 커스텀 컴포넌트는 className을 전달받아도 내부에서 처리해주지 않으면 브라우저가 인식하지 못하기 때문입니다.
+구현하는 방법은 크게 두 가지가 있습니다.
+------------------------------
+## 방법 1: 가장 표준적인 방법 (인터페이스 정의)
+Home 컴포넌트가 받을 Props의 타입을 TypeScript 인터페이스로 정의하고, 내부 HTML 태그의 className에 합쳐주는 방식입니다.
+1. 부모 컴포넌트에서 사용 (넣는 법)
+
+import Home from './Home';
+function App() {
+  return (
+    // 부모 쪽에서 원하는 스타일의 클래스명을 마음대로 넘깁니다.
+    <Home className="custom-home-style bg-gray-100 p-4" />
+  );
+}
+
+2. 자식 컴포넌트 (Home.tsx) 내부 구현 (받는 법)
+
+// 1. props 타입 정의 (className은 선택적일 수 있으므로 ?를 붙입니다)interface HomeProps {
+  className?: string;
+}
+// 2. props에서 className을 구조 분해 할당으로 받습니다.export default function Home({ className }: HomeProps) {
+  return (
+    // 3. 내부 템플릿 리터럴(``)을 사용해 기존 스타일과 합쳐서 주입합니다.
+    <div className={`home-container ${className || ''}`}>
+      <h1>홈 컴포넌트입니다.</h1>
+    </div>
+  );
+}
+
+------------------------------
+## 방법 2: HTML 속성을 그대로 상속받는 방법 (추천 ⭐️)
+Home 컴포넌트가 기본적으로 div 태그처럼 동작하도록 만들고 싶다면, React가 제공하는 HTML 속성 타입을 확장(Extend)하는 것이 편합니다. 이 방식을 쓰면 className뿐만 아니라 id, style 등도 자동으로 지원됩니다.
+
+import React from 'react';
+// React의 기본 div 속성 타입을 그대로 상속받습니다.interface HomeProps extends React.HTMLAttributes<HTMLDivElement> {}
+export default function Home({ className, ...rest }: HomeProps) {
+  return (
+    // ...rest를 통해 className을 포함한 모든 나머지 속성이 자동으로 주입됩니다.
+    <div className={`base-home-class ${className || ''}`} {...rest}>
+      <h1>홈 컴포넌트입니다.</h1>
+    </div>
+  );
+}
+
+------------------------------
+## 💡 팁: 클래스명이 지저분해진다면?
+만약 조건부 스타일링을 하거나 기존 클래스명과 합치는 과정이 번잡하다면, 실무에서는 clsx나 tailwind-merge 라이브러리를 많이 사용합니다.
+
+// clsx 라이브러리를 썼을 때의 코드 예시
+<div className={clsx('base-home-class', className)}>
+
+혹시 현재 프로젝트에서 Tailwind CSS나 CSS Modules 중 어떤 방식으로 스타일을 적용하고 계신가요? 사용 중인 스타일링 방식을 알려주시면 코드에 바로 복사해서 붙여넣을 수 있는 맞춤형 컴포넌트 코드를 작성해 드리겠습니다.
+
