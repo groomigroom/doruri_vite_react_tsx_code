@@ -35,6 +35,17 @@ export default function AkmuEvent() {
                 <label htmlFor="akmu_e_check1" className="akmu_e_checklabel akmu_e_check1_label"><h4>1</h4></label>
                 <label htmlFor="akmu_e_check2" className="akmu_e_checklabel akmu_e_check2_label"><h4>2</h4></label>
                 <label htmlFor="akmu_e_check3" className="akmu_e_checklabel akmu_e_check3_label"><h4>3</h4></label>
+                <div className="akmu_e_answer akmu_e_answer1">
+                    <p>기쁨, 슬픔, 아름다운 마음</p>
+                </div>
+                <div className="akmu_e_answer akmu_e_answer2">
+                    <p>슬픔, 기쁨, 아름다운 마음</p>
+                </div>
+                <div className="akmu_e_answer akmu_e_answer3">
+                    <p>아름다운 마음, 슬픔, 기쁨</p>
+                </div>
+
+
             </form>
             <div>
                 {akmu_e_check_value === '1' && <p className="akmu_e_result">1번 선택함 당첨</p>}
