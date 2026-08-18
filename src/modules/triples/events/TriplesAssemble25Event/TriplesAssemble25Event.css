@@ -1,3 +1,5 @@
+/* 가장 위층만 둥글게 css radius 해놓음 */
+
 .TriplesAssemble25Event_full_tree_part {
     width: 600px;
     height: 280px;
@@ -12,11 +14,13 @@
 }
 
 .TriplesAssemble25Event_one_3_1_to_one_2 {
+    border-top-left-radius: 5px;
     bottom: 0px;
     left: 137.5px;
 }
 
 .TriplesAssemble25Event_one_3_2_to_one_2 {
+    border-top-right-radius: 5px;
     bottom: 0px;
     right: 137.5px;
 }
@@ -25,6 +29,8 @@
     width: 325px;
     height: 5px;
     background-color: blue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     position: absolute;
     bottom: 17.5px;
     left: 137.5px;
