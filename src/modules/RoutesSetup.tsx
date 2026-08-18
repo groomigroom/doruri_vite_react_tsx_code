@@ -419,6 +419,8 @@ import EpiMemTwokutzEng from './EpikHighEng/members/EpiMemTwokutzEng';
 import YenaMain from './Yena/main/YenaMain';
 import YenaMainEng from './YenaEng/main/YenaMainEng';
 
+import YenaEvent from './Yena/events/YenaEvent';
+
 import YenaNemonemoAlbum from './Yena/albums/YenaNemonemoAlbum';
 import YenaNemonemoAlbumEng from './YenaEng/albums/YenaNemonemoAlbumEng';
 import YenaBloomingWingsAlbum from './Yena/albums/YenaBloomingWingsAlbum';
@@ -999,6 +1001,8 @@ export default function RoutesSetup() {
 
             <Route path='/YenaMain' element={<YenaMain />}></Route>
             <Route path='/YenaMainEng' element={<YenaMainEng />}></Route>
+
+            <Route path='/YenaEvent' element={<YenaEvent />}></Route>
 
             <Route path='/YenaNemonemoAlbum' element={<YenaNemonemoAlbum />}></Route>
             <Route path='/YenaNemonemoAlbumEng' element={<YenaNemonemoAlbumEng />}></Route>
