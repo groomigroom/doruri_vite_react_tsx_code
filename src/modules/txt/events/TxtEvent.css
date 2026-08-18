@@ -5,13 +5,20 @@
     background-color: #fcfcfc;
 }
 
+.txt_e_intropp {
+    width: 100vw;
+    height: 250px;
+    position: relative;
+    background-color: rgb(150, 65, 65);
+}
+
 .txt_e_mp {
     text-align: center;
     font-size: 15px;
     line-height: 140%;
     font-weight: 500;
     position: absolute;
-    top: 298px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -19,6 +26,12 @@
 /* 위에꺼 height 210px  */
 
 .txt_e_form {
+    width: 100vw;
+    height: 70px;
+    position: relative;
+}
+
+.txt_e_form>form {
     width: 150px;
     height: 30px;
     position: absolute;
