@@ -28,14 +28,20 @@ export default function TwsEvent() {
             <section className="tri_e_logo">
                 <img src={Tws_e_m_logo} alt="TWS 이벤트 로고" />
             </section>
-            <h2 className="tri_e_h2"><img src={MainH2Deco} alt="TWS" />전구 클릭 이벤트<img src={MainH2Deco} alt="TWS" /></h2>
-            <p className='tri_e_intropp'>
-                3줄 소개글<br />
-                3줄 소개글<br />
-                3줄 소개글
-            </p>
-            <section className='tws_e_bulb_part'>
-                <div className="tws_e_moving_object" onClick={OpenTws_e_result}><img src={Tws_e_star_img} alt="별 모양" /></div>
+            <section className="tri_e_h2">
+                <h2><img src={MainH2Deco} alt="TWS" />별 클릭 이벤트<img src={MainH2Deco} alt="TWS" /></h2>
+            </section>
+            <section className='tri_e_intropp'>
+                <p>
+                    3줄 소개글<br />
+                    3줄 소개글<br />
+                    3줄 소개글
+                </p>
+            </section>
+            <section className='tws_e_star_part_full'>
+                <section className='tws_e_star_part'>
+                    <div className="tws_e_moving_object" onClick={OpenTws_e_result}><img src={Tws_e_star_img} alt="별 모양" /></div>
+                </section>
             </section>
             {tws_e_result && (
                 <section className='tws_e_last_result'>
