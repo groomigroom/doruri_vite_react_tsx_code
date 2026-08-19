@@ -1,12 +1,12 @@
 특징 정보 리스트(
 "160.1cm",
 "A형",
-"카에",
-"게임",
-"집중력",
-"보쌈",
-"LOVElution, Aria, Visionary Vision, moon",
-"다정함"
+"소다",
+"고양이 영상 보기",
+"뭐든지 맛있게 먹기",
+"떡볶이",
+"LOVElution, Aria, neptune",
+"수줍음"
 );
 
 (
