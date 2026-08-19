@@ -1,12 +1,12 @@
 특징 정보 리스트(
-           "172.7cm",
-            "O형",
-            "쥬",
-            "베이킹하기",
-            "하키",
-            "마라탕",
-            "+(KR)ystal Eyes, Acid Eyes, EVOLution, Aria, ∞!, zenith",
-            "좋음"
+           "170.8cm",
+            "B형",
+            "채욤미",
+            "영화보기",
+            "연기",
+            "차돌박이",
+            "+(KR)ystal Eyes, Acid Eyes, EVOLution, Aria, ∞!, sun",
+            "활발함"
         );
 
 (
