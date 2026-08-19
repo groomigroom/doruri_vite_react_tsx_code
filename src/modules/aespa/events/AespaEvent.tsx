@@ -1,4 +1,11 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
+import '../../triples/events/TriplesEvent.css';
+import './AespaEvent.css';
+
+import Menu from "../../Menu";
+import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function AespaEvent() {
     const [aespa_e_value1, setAespa_e_value1] = useState<string>("");
@@ -22,22 +29,44 @@ export default function AespaEvent() {
 
     return (
         <div className="AespaEvent_full">
-            <p>현재: {aespa_e_count_now}번째 글자</p>
-            <form action="" onSubmit={(e) => e.preventDefault()}>
-                <input type="text" name="aespa_e_value1" value={aespa_e_value1} onChange={(e) => setAespa_e_value1(e.target.value)} />
-                {aespa_e_value1 === 'l' && <input type="text" name="aespa_e_value2" value={aespa_e_value2} onChange={(e) => setAespa_e_value2(e.target.value)} />}
-                {aespa_e_value2 === 'e' && <input type="text" name="aespa_e_value3" value={aespa_e_value3} onChange={(e) => setAespa_e_value3(e.target.value)} />}
-                {aespa_e_value3 === 'm' && <input type="text" name="aespa_e_value4" value={aespa_e_value4} onChange={(e) => setAespa_e_value4(e.target.value)} />}
-                {aespa_e_value4 === 'o' && <input type="text" name="aespa_e_value5" value={aespa_e_value5} onChange={(e) => setAespa_e_value5(e.target.value)} />}
-                {aespa_e_value5 === 'n' && <input type="text" name="aespa_e_value6" value={aespa_e_value6} onChange={(e) => setAespa_e_value6(e.target.value)} />}
-                {aespa_e_value6 === 'a' && <input type="text" name="aespa_e_value7" value={aespa_e_value7} onChange={(e) => setAespa_e_value7(e.target.value)} />}
-                {aespa_e_value7 === 'd' && <input type="text" name="aespa_e_value8" value={aespa_e_value8} onChange={(e) => setAespa_e_value8(e.target.value)} />}
-                {aespa_e_value8 === 'e' && (
-                    <section>
-                        <p>당첨</p>
-                    </section>
-                )}
+            <header className="triples_e_header">
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/AespaEvent' className="on">한국어</Link>
+                    <Link to='/AespaEventEng'>English</Link>
+                </section>
+            </header>
+            <section className="tri_e_logo">
+                <img src={""} alt="aespa 이벤트 로고" />
+            </section>
+            <section className="tri_e_h2">
+                <h2><img src={MainH2Deco} alt="10CM" />앨범 제목 1글자씩 맞히기 이벤트<img src={MainH2Deco} alt="10CM" /></h2>
+            </section>
+            <section className='tri_e_intropp'>
+                <p>
+                    3줄 소개글<br />
+                    3줄 소개글<br />
+                    3줄 소개글
+                </p>
+            </section>
+            <section className="aespa_e_intropp2">
+                <p>현재: {aespa_e_count_now}번째 글자</p>
+            </section>
+            <form className="aespa_e_form" action="" onSubmit={(e) => e.preventDefault()}>
+                <input className="aespa_e_value" type="text" name="aespa_e_value1" value={aespa_e_value1} onChange={(e) => setAespa_e_value1(e.target.value)} />
+                {aespa_e_value1 === 'l' && <input className="aespa_e_value" type="text" name="aespa_e_value2" value={aespa_e_value2} onChange={(e) => setAespa_e_value2(e.target.value)} />}
+                {aespa_e_value2 === 'e' && <input className="aespa_e_value" type="text" name="aespa_e_value3" value={aespa_e_value3} onChange={(e) => setAespa_e_value3(e.target.value)} />}
+                {aespa_e_value3 === 'm' && <input className="aespa_e_value" type="text" name="aespa_e_value4" value={aespa_e_value4} onChange={(e) => setAespa_e_value4(e.target.value)} />}
+                {aespa_e_value4 === 'o' && <input className="aespa_e_value" type="text" name="aespa_e_value5" value={aespa_e_value5} onChange={(e) => setAespa_e_value5(e.target.value)} />}
+                {aespa_e_value5 === 'n' && <input className="aespa_e_value" type="text" name="aespa_e_value6" value={aespa_e_value6} onChange={(e) => setAespa_e_value6(e.target.value)} />}
+                {aespa_e_value6 === 'a' && <input className="aespa_e_value" type="text" name="aespa_e_value7" value={aespa_e_value7} onChange={(e) => setAespa_e_value7(e.target.value)} />}
+                {aespa_e_value7 === 'd' && <input className="aespa_e_value" type="text" name="aespa_e_value8" value={aespa_e_value8} onChange={(e) => setAespa_e_value8(e.target.value)} />}
             </form>
+            {aespa_e_value8 === 'e' && (
+                <section>
+                    <p>당첨</p>
+                </section>
+            )}
         </div>
     );
 }
