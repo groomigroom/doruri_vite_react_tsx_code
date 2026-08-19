@@ -5,6 +5,7 @@ import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 import './ResceneEvent.css';
 import Menu from '../../Menu';
 import MainH2Deco from '../../img/main_h2_deco.png';
+import Rescene_e_m_logo from './img/Rescene_e_m_logo.png';
 
 export default function ResceneEvent() {
     DoruriDocumentTitle('RESCENE 이벤트');
@@ -17,18 +18,26 @@ export default function ResceneEvent() {
 
     return (
         <div className="ResceneEvent_full">
-            <Menu />
-            <section className="home_translate">
-                <Link to='/ResceneEvent' className="on">한국어</Link>
-                <Link to='/ResceneEventEng'>English</Link>
+            <header className="triples_e_header">
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/ResceneEvent' className="on">한국어</Link>
+                    <Link to='/ResceneEventEng'>English</Link>
+                </section>
+            </header>
+            <section className="tri_e_logo">
+                <img src={Rescene_e_m_logo} alt="RESCENE 이벤트 로고" />
             </section>
-            <img src={""} alt="RESCENE 이벤트 로고" className="tri_e_logo" />
-            <h2 className="tri_e_h2"><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />자동차 클릭 이벤트<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
-            <p className='tri_e_intropp'>
-                3줄 소개글<br />
-                3줄 소개글<br />
-                3줄 소개글
-            </p>
+            <section className="tri_e_h2">
+                <h2><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />자동차 클릭 이벤트<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
+            </section>
+            <section className='tri_e_intropp'>
+                <p>
+                    3줄 소개글<br />
+                    3줄 소개글<br />
+                    3줄 소개글
+                </p>
+            </section>
             <section className="rescene_e_moving_car_section">
                 <div className="rescene_e_moving_car" onClick={rescene_e_moving_clickChange}>
 
