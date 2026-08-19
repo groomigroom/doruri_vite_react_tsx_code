@@ -1,4 +1,11 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
+import '../../triples/events/TriplesEvent.css';
+import './TenCMEvent.css';
+import Menu from "../../Menu";
+import TenCM_e_m_logo from './img/10CM_e_m_logo.png';
+import MainH2Deco from '../../img/main_h2_deco.png';
 
 export default function TenCMEvent() {
     const [Tencm_e_number_input1, SetTencm_e_number_input1] = useState<string>("");
@@ -33,16 +40,28 @@ export default function TenCMEvent() {
 
     let Tencm_e_number_last_result: number = parseInt(Tencm_e_number_input1) * parseInt(Tencm_e_number_input2) + parseInt(Tencm_e_number_input3) - parseInt(Tencm_e_number_input4) - parseInt(Tencm_e_number_input5);
 
-    let Tencm_e_number_last_result_true: boolean = Tencm_e_number_last_result === 10 &&
-        parseInt(Tencm_e_number_input1) <= 5 && parseInt(Tencm_e_number_input1) >= 1 &&
-        parseInt(Tencm_e_number_input2) <= 5 && parseInt(Tencm_e_number_input2) >= 1 &&
-        parseInt(Tencm_e_number_input3) <= 5 && parseInt(Tencm_e_number_input3) >= 1 &&
-        parseInt(Tencm_e_number_input4) <= 5 && parseInt(Tencm_e_number_input4) >= 1 &&
-        parseInt(Tencm_e_number_input5) <= 5 && parseInt(Tencm_e_number_input5) >= 1;
-
-
     return (
         <div className="TenCMEvent_full">
+            <header className="triples_e_header">
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/TenCMEvent' className="on">한국어</Link>
+                    <Link to='/TenCMEventEng'>English</Link>
+                </section>
+            </header>
+            <section className="tri_e_logo">
+                <img src={TenCM_e_m_logo} alt="10CM 이벤트 로고" />
+            </section>
+            <section className="tri_e_h2">
+                <h2><img src={MainH2Deco} alt="10CM" />계산 이벤트<img src={MainH2Deco} alt="10CM" /></h2>
+            </section>
+            <section className='tri_e_intropp'>
+                <p>
+                    3줄 소개글<br />
+                    3줄 소개글<br />
+                    3줄 소개글
+                </p>
+            </section>
             <p>1부터 5의 숫자를 넣어서 10이 되게 하세요</p>
             {/* 5 */}
             <input type="text" name="Tencm_e_number_input1" value={Tencm_e_number_input1} onChange={Tencm_e_number_input1_change} />
@@ -60,7 +79,7 @@ export default function TenCMEvent() {
             <input type="text" name="Tencm_e_number_input5" value={Tencm_e_number_input5} onChange={Tencm_e_number_input5_change} />
             <p>= 10</p>
             <p>최종 결과 : {Tencm_e_number_last_result}</p>
-            {Tencm_e_number_last_result_true && (
+            {Tencm_e_number_last_result === 10 && (
                 <section>
                     <p>당첨입니다.</p>
                 </section>
