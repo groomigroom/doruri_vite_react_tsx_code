@@ -1,0 +1,22 @@
+특징 정보 리스트(
+           "162cm",
+            "B형",
+            "리네",
+            "노래 듣기",
+            "과자 던져먹기",
+            "떡볶이",
+            "Acid Angel from Asia, Acid Eyes, LOVElution, Visionary Vision, sun",
+            "완벽?!"
+        );
+
+(
+            "TriplesMemS3",
+            "이지우",
+            "저는 한가지 모양이 아닌",
+            "다양한 제 개성들을",
+            "보여 드릴게요!",
+            "#191919",
+            LocalDate.of(2005, 10, 24),
+           리스트 2개
+            "모드하우스"
+        ));
