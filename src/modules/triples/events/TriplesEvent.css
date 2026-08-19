@@ -192,3 +192,43 @@
     background-color: #191919;
     color: #fcfcfc;
 }
+
+.tri_e_last_win_part {
+    width: 100vw;
+    height: 700px;
+    position: absolute;
+    z-index: 100;
+    top: 401px;
+    left: 0px;
+    background-color: #fcfcfc;
+}
+
+.tri_e_p_win_intropp {
+    width: 100vw;
+    height: 145px;
+}
+
+.tri_e_p_win_intropp>p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 140%;
+    font-weight: 500;
+}
+
+.tri_e_p_win_present_150 {
+    width: 100vw;
+    height: 190px;
+    position: relative;
+}
+
+.tri_e_p_win_present_150>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* border: 5px solid #191919; */
