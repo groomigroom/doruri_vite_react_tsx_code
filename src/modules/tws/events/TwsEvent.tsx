@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import './TwsEvent.css';
 import Menu from '../../Menu';
 import MainH2Deco from '../../img/main_h2_deco.png';
+import Tws_e_m_logo from './img/tws_e_m_logo.png';
 
 import Tws_e_star_img from './img/tws_event_star.png';
 
@@ -17,12 +18,16 @@ export default function TwsEvent() {
 
     return (
         <div className="twsEvent_full">
-            <Menu />
-            <section className="home_translate">
-                <Link to='/TwsEvent' className="on">한국어</Link>
-                <Link to='/TwsEventEng'>English</Link>
+            <header className="triples_e_header">
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/TwsEvent' className="on">한국어</Link>
+                    <Link to='/TwsEventEng'>English</Link>
+                </section>
+            </header>
+            <section className="tri_e_logo">
+                <img src={Tws_e_m_logo} alt="TWS 이벤트 로고" />
             </section>
-            <img src={""} alt="TWS 이벤트 로고" className="tri_e_logo" />
             <h2 className="tri_e_h2"><img src={MainH2Deco} alt="TWS" />전구 클릭 이벤트<img src={MainH2Deco} alt="TWS" /></h2>
             <p className='tri_e_intropp'>
                 3줄 소개글<br />
