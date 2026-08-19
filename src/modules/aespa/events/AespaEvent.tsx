@@ -6,6 +6,7 @@ import './AespaEvent.css';
 
 import Menu from "../../Menu";
 import MainH2Deco from '../../img/main_h2_deco.png';
+import Aespa_e_m_logo from './img/Aespa_e_m_logo.png';
 
 export default function AespaEvent() {
     const [aespa_e_value1, setAespa_e_value1] = useState<string>("");
@@ -37,16 +38,16 @@ export default function AespaEvent() {
                 </section>
             </header>
             <section className="tri_e_logo">
-                <img src={""} alt="aespa 이벤트 로고" />
+                <img src={Aespa_e_m_logo} alt="aespa 이벤트 로고" />
             </section>
             <section className="tri_e_h2">
-                <h2><img src={MainH2Deco} alt="10CM" />앨범 제목 1글자씩 맞히기 이벤트<img src={MainH2Deco} alt="10CM" /></h2>
+                <h2><img src={MainH2Deco} alt="aespa" />앨범 제목 1글자씩 맞히기 이벤트<img src={MainH2Deco} alt="aespa" /></h2>
             </section>
             <section className='tri_e_intropp'>
                 <p>
-                    3줄 소개글<br />
-                    3줄 소개글<br />
-                    3줄 소개글
+                    2026년 5월 29일에<br />
+                    발매된 &apos;aespa&apos;의<br />
+                    앨범 제목을 1글자씩 맞혀 보세요!
                 </p>
             </section>
             <section className="aespa_e_intropp2">
