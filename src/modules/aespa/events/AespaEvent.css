@@ -1,1 +1,46 @@
-AespaEvent.css
+.AespaEvent_full {
+    width: 100vw;
+    position: relative;
+    background-color: #fcfcfc;
+}
+
+.aespa_e_intropp2 {
+    width: 100vw;
+    height: 55px;
+    position: relative;
+}
+
+.aespa_e_intropp2>p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.aespa_e_form {
+    width: 100vw;
+    height: 120px;
+    background-color: blue;
+    position: relative;
+}
+
+.aespa_e_value {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border: 5px solid #191919;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.6s ease 0s;
+}
+
+.aespa_e_value:focus {
+    top: 0px;
+}
