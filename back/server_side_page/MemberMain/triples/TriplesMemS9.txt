@@ -1,0 +1,22 @@
+특징 정보 리스트(
+"165cm",
+"B형",
+"공유밤",
+"양모펠트",
+"요리",
+"고기",
+"Acid Angel from Asia, Acid Eyes, LOVElution, Visionary Vision, zenith",
+"냉철함"
+);
+
+(
+"TriplesMemS9",
+"공유빈",
+"제가 맡은 역할에",
+"최선을 다하며",
+"'트리플에스'로서 활동 할게요!",
+"#191919",
+LocalDate.of(2005, 2, 3),
+리스트 2개
+"모드하우스"
+));
