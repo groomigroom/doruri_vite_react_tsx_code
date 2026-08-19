@@ -40,6 +40,23 @@ export default function TenCMEvent() {
 
     let Tencm_e_number_last_result: number = parseInt(Tencm_e_number_input1) * parseInt(Tencm_e_number_input2) + parseInt(Tencm_e_number_input3) - parseInt(Tencm_e_number_input4) - parseInt(Tencm_e_number_input5);
 
+    let Tencm_number_all_correct_case: boolean = parseInt(Tencm_e_number_input1) <= 5 && parseInt(Tencm_e_number_input1) >= 1 &&
+        parseInt(Tencm_e_number_input2) <= 5 && parseInt(Tencm_e_number_input2) >= 1 &&
+        parseInt(Tencm_e_number_input3) <= 5 && parseInt(Tencm_e_number_input3) >= 1 &&
+        parseInt(Tencm_e_number_input4) <= 5 && parseInt(Tencm_e_number_input4) >= 1 &&
+        parseInt(Tencm_e_number_input5) <= 5 && parseInt(Tencm_e_number_input5) >= 1 &&
+        parseInt(Tencm_e_number_input1) != parseInt(Tencm_e_number_input2) &&
+        parseInt(Tencm_e_number_input1) != parseInt(Tencm_e_number_input3) &&
+        parseInt(Tencm_e_number_input1) != parseInt(Tencm_e_number_input4) &&
+        parseInt(Tencm_e_number_input1) != parseInt(Tencm_e_number_input5) &&
+        parseInt(Tencm_e_number_input2) != parseInt(Tencm_e_number_input3) &&
+        parseInt(Tencm_e_number_input2) != parseInt(Tencm_e_number_input4) &&
+        parseInt(Tencm_e_number_input2) != parseInt(Tencm_e_number_input5) &&
+        parseInt(Tencm_e_number_input3) != parseInt(Tencm_e_number_input4) &&
+        parseInt(Tencm_e_number_input3) != parseInt(Tencm_e_number_input5) &&
+        parseInt(Tencm_e_number_input4) != parseInt(Tencm_e_number_input5);
+
+
     return (
         <div className="TenCMEvent_full">
             <header className="triples_e_header">
@@ -53,33 +70,34 @@ export default function TenCMEvent() {
                 <img src={TenCM_e_m_logo} alt="10CM 이벤트 로고" />
             </section>
             <section className="tri_e_h2">
-                <h2><img src={MainH2Deco} alt="10CM" />계산 이벤트<img src={MainH2Deco} alt="10CM" /></h2>
+                <h2><img src={MainH2Deco} alt="10CM" />숫자 입력 이벤트<img src={MainH2Deco} alt="10CM" /></h2>
             </section>
             <section className='tri_e_intropp'>
                 <p>
-                    3줄 소개글<br />
-                    3줄 소개글<br />
-                    3줄 소개글
+                    1부터 5까지의<br />
+                    숫자를 1번씩 사용해서<br />
+                    10을 만들어 주세요!
                 </p>
             </section>
-            <p>1부터 5의 숫자를 넣어서 10이 되게 하세요</p>
-            {/* 5 */}
-            <input type="text" name="Tencm_e_number_input1" value={Tencm_e_number_input1} onChange={Tencm_e_number_input1_change} />
-            <p>x</p>
-            {/* 2 */}
-            <input type="text" name="Tencm_e_number_input2" value={Tencm_e_number_input2} onChange={Tencm_e_number_input2_change} />
-            <p>+</p>
-            {/* 4 */}
-            <input type="text" name="Tencm_e_number_input3" value={Tencm_e_number_input3} onChange={Tencm_e_number_input3_change} />
-            <p>-</p>
-            {/* 1 */}
-            <input type="text" name="Tencm_e_number_input4" value={Tencm_e_number_input4} onChange={Tencm_e_number_input4_change} />
-            <p>-</p>
-            {/* 3 */}
-            <input type="text" name="Tencm_e_number_input5" value={Tencm_e_number_input5} onChange={Tencm_e_number_input5_change} />
-            <p>= 10</p>
-            <p>최종 결과 : {Tencm_e_number_last_result}</p>
-            {Tencm_e_number_last_result === 10 && (
+            <section className="TenCM_e_last_input_part">
+                {/* 5 */}
+                <input className="TenCM_e_last_input" type="text" name="Tencm_e_number_input1" value={Tencm_e_number_input1} onChange={Tencm_e_number_input1_change} />
+                <p>x</p>
+                {/* 2 */}
+                <input className="TenCM_e_last_input" type="text" name="Tencm_e_number_input2" value={Tencm_e_number_input2} onChange={Tencm_e_number_input2_change} />
+                <p>+</p>
+                {/* 4 */}
+                <input className="TenCM_e_last_input" type="text" name="Tencm_e_number_input3" value={Tencm_e_number_input3} onChange={Tencm_e_number_input3_change} />
+                <p>-</p>
+                {/* 1 */}
+                <input className="TenCM_e_last_input" type="text" name="Tencm_e_number_input4" value={Tencm_e_number_input4} onChange={Tencm_e_number_input4_change} />
+                <p>-</p>
+                {/* 3 */}
+                <input className="TenCM_e_last_input" type="text" name="Tencm_e_number_input5" value={Tencm_e_number_input5} onChange={Tencm_e_number_input5_change} />
+                <p>= 10</p>
+                <p>최종 결과 : {Tencm_e_number_last_result}</p>
+            </section>
+            {Tencm_e_number_last_result === 10 && Tencm_number_all_correct_case && (
                 <section>
                     <p>당첨입니다.</p>
                 </section>
