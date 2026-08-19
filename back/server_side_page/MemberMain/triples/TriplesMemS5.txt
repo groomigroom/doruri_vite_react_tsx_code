@@ -1,0 +1,22 @@
+특징 정보 리스트(
+"165cm",
+"B형",
+"이대다니는 애?",
+"스키",
+"엔딩요정",
+"스시",
+"Acid Angel from Asia, Acid Eyes, EVOLution, Visionary Vision, ∞!, Alphie, sun",
+"침착함"
+);
+
+(
+"TriplesMemS5",
+"김유연",
+"다른 멤버들을",
+"잘 챙기면서 더 발전하는",
+"모습을 보여 드릴게요!",
+"#191919",
+LocalDate.of(2001, 2, 9),
+리스트 2개
+"모드하우스"
+));
