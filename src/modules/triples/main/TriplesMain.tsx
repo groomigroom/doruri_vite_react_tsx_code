@@ -79,14 +79,14 @@ export default function TriplesMain() {
             <section className='tri_m_mem_tr_full'>
 
                 <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS1' className='tri_m_mem_a'>
+                    <a href='http://localhost:8080/members/TriplesMemS1' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS1} alt="윤서연 이미지" />
                             <div>
                                 <h4>윤서연</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
                     <Link to='/TriplesMemS2'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS2} alt="정혜린 이미지" />
