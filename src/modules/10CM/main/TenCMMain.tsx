@@ -65,7 +65,7 @@ export default function TenCMMain() {
             <h2 className='tri_m_h2 ten_m_h2_4'>▪ 이벤트 ▪</h2>
             <section className='tri_m_event_tr_full ten_m_event_tr_full'>
                 <section className='tri_m_event_tr'>
-                    <Link to='/ResceneEvent' className='tri_m_event_a'>
+                    <Link to='/TenCMEvent' className='tri_m_event_a'>
                         <article className='tri_m_events'>
                             <img src={Ten_m_img} alt="10cm event" />
                             <div>
