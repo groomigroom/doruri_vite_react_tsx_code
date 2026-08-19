@@ -1,13 +1,17 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { DoruriDocumentTitle } from "../../DoruriDocumentTitle";
 
 import '../../triples/events/TriplesEvent.css';
 import './TenCMEvent.css';
 import Menu from "../../Menu";
 import TenCM_e_m_logo from './img/10CM_e_m_logo.png';
 import MainH2Deco from '../../img/main_h2_deco.png';
+import TenCM_e_pencil_set_img from './img/TenCM_e_pencil_set_illust.png';
 
 export default function TenCMEvent() {
+    DoruriDocumentTitle('10CM 이벤트');
+
     const [Tencm_e_number_input1, SetTencm_e_number_input1] = useState<string>("");
 
     const Tencm_e_number_input1_change = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -98,8 +102,19 @@ export default function TenCMEvent() {
                 <p>최종 결과 : {Tencm_e_number_last_result}</p>
             </section>
             {Tencm_e_number_last_result === 10 && Tencm_number_all_correct_case && (
-                <section>
-                    <p>당첨입니다.</p>
+                <section className="tri_e_last_win_part">
+                    <section className="tri_e_p_win_intropp">
+                        <p>
+                            당첨을 축하드려요!<br />
+                            상품은 연필 세트입니다.<br />
+                            이벤트에 관심가져 주셔서 감사합니다.<br />
+                            이 이벤트는 가상의 이벤트입니다.<br />
+                            참고해 주시길 부탁드리겠습니다.<br />
+                        </p>
+                    </section>
+                    <section className="tri_e_p_win_present_150">
+                        <img src={TenCM_e_pencil_set_img} alt="" className="TenCM_e_p_win_present_img" />
+                    </section>
                 </section>
             )}
         </div>
