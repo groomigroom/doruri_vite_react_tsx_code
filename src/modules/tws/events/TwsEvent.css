@@ -1,15 +1,20 @@
 .twsEvent_full {
     width: 100vw;
-    height: 100vh;
     background-color: #fcfcfc;
     position: relative;
 }
 
-.tws_e_bulb_part {
+.tws_e_star_part_full {
+    width: 100vw;
+    height: 340px;
+    position: relative;
+}
+
+.tws_e_star_part {
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 401px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     border: 5px solid #191919;
