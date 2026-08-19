@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
+import '../../triples/events/TriplesEvent.css';
 import './ResceneEvent.css';
 import Menu from '../../Menu';
 import MainH2Deco from '../../img/main_h2_deco.png';
