@@ -1,0 +1,76 @@
+React + TypeScript(tsx) 환경에서 카카오맵 API를 로드하고 사용하는 가장 깔끔하고 안정적인 방법은 Kakao Maps SDK의 Type 정의(정의 파일)를 설치하고, useEffect를 이용해 지도를 초기화하는 것입니다.
+React는 가상 DOM을 쓰기 때문에 HTML 스크립트가 로드되는 시점과 컴포넌트가 마운트되는 시점을 잘 맞추어주어야 합니다.
+------------------------------
+## 1. Kakao Map 타입 설치 (TypeScript 설정)
+카카오맵 API는 전역 window.kakao 객체를 사용합니다. TypeScript가 이를 인식할 수 있도록 커뮤니티에서 제공하는 타입 정의 패키지를 설치합니다.
+
+npm install -D @types/kakao.maps.d.ts
+
+설치 후 tsconfig.json의 compilerOptions.types에 "kakao.maps.d.ts"를 추가하거나, 별도의 선언 없이도 자동으로 타입을 인식하게 됩니다.
+## 2. index.html에 스크립트 추가
+React 프로젝트의 public/index.html 파일의 <head> 태그 안에 카카오맵 스크립트를 넣습니다.
+
+<script type="text/html" src="https://kakao.com"></script>
+
+## 3. KakaoMap 컴포넌트 작성 (.tsx)
+React의 useRef와 useEffect를 활용하여 DOM에 지도를 띄우는 컴포넌트 예시입니다.
+
+import React, { useEffect, useRef } from 'react';
+const KakaoMap: React.FC = () => {
+  // 지도를 담을 영역의 DOM 레퍼런스 생성
+  const mapContainerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // 카카오맵 API가 정상적으로 로드되었는지 확인
+    if (window.kakao && window.kakao.maps) {
+      window.kakao.maps.load(() => {
+        const container = mapContainerRef.current;
+        
+        if (container) {
+          const options = {
+            center: new window.kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표 (카카오 본사)
+            level: 3, // 지도의 확대 레벨
+          };
+
+          // 지도 생성 및 객체 리턴
+          const map = new window.kakao.maps.Map(container, options);
+          console.log("지도 로드 완료:", map);
+        }
+      });
+    }
+  }, []);
+
+  return (
+    <div>
+      {/* 스타일을 인라인 또는 CSS/Styled-components로 지정 */}
+      <div
+        id="map"
+        ref={mapContainerRef}
+        style={{ width: '500px', height: '400px' }}
+      ></div>
+    </div>
+  );
+};
+export default KakaoMap;
+
+------------------------------
+## 💡 주요 핵심 포인트
+
+   1. useRef 사용: React에서는 document.getElementById('map') 대신 useRef를 사용하여 DOM 요소에 접근하는 것이 React의 라이프사이클 관리 측면에서 안전합니다.
+   2. window.kakao.maps.load(): 스크립트가 비동기로 로드될 때 지도를 그리는 코드가 먼저 실행되어 에러가 나는 것을 방지하기 위해, load 메서드 안에서 지도 초기화 로직을 실행하는 것이 안전합니다.
+   3. window 객체 타입 에러 발생 시: 만약 타입 패키지를 설치했는데도 window.kakao에서 에러가 난다면 컴포넌트 파일 최상단에 아래 코드를 한 줄 추가해주면 해결됩니다.
+   
+   declare global {
+     interface Window {
+       kakao: any;
+     }
+   }
+   
+   
+더 나아가 지도 위에 마커를 찍거나, 주소로 좌표를 검색하는 기능(Services 라이브러리)도 추가로 구현하고 싶으신가요? 필요하시다면 해당 코드도 바로 안내해 드리겠습니다.
+
+
+mmmmmmmmm
+
+
+https://cafe.naver.com/xxxjjhhh/680
