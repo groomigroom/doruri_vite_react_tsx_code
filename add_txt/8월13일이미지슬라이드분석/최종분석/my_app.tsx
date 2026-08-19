@@ -1,4 +1,4 @@
-import { useState, uesEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 //https://github.com/groomigroom/react_vite_study/blob/main/dictionary_web_parts/u/useEffect.txt
 //https://github.com/groomigroom/react_vite_study/blob/main/dictionary_web_parts/u/useRef.html
 
@@ -17,8 +17,11 @@ function App() {
   //https://github.com/groomigroom/react_vite_study/blob/main/dictionary_web_parts/r/ReturnType.txt
 
   useEffect(() => {
-    timeoutRef.current
-    //https://github.com/groomigroom/react_vite_study/blob/main/dictionary_web_parts/c/current.txt
+    timeoutRef.current = setTimeout(() => {
+      //https://github.com/groomigroom/react_vite_study/blob/main/dictionary_web_parts/c/current.txt
+      setCurrentIndex((prev) => prev + 1);
+    });
+
 
   });
 
