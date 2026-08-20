@@ -5,7 +5,7 @@
 "독서",
 "글쓰기",
 "떡볶이",
-"LOVElution, Aria, Visionary Vision, Alphie, neptune",
+"LOVElution, Visionary Vision, moon",
 "활발함"
 );
 
