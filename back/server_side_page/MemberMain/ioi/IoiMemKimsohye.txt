@@ -10,7 +10,7 @@
         );
 
 (
-            "IoiMemKimsejung",
+            "IoiMemKimsohye",
             "김세정",
             "감성적인 생각과",
             "다양한 생각을 가지고",
