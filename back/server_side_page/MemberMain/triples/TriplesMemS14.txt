@@ -3,8 +3,8 @@
 "B형",
 "박쌤",
 "독서",
-"춤추기",
-"비빔밥",
+"글쓰기",
+"떡볶이",
 "LOVElution, Aria, Visionary Vision, Alphie, neptune",
 "활발함"
 );
