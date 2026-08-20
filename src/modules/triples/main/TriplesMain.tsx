@@ -721,7 +721,7 @@ export default function TriplesMain() {
             </section>
 
             <section className='tri_m_h2'>
-                <h2 className='tri_m_h2'>▪ 이벤트 ▪</h2>
+                <h2>▪ 이벤트 ▪</h2>
             </section>
             <section className='tri_m_mem_tr_full'>
                 <section className='tri_m_mem_tr1'>
@@ -753,11 +753,13 @@ export default function TriplesMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 tri_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
+            <section className='tri_m_h2'>
+                <h2>▪ 최신 앨범 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesBabyFlowerCityRemixesAlbum_img} alt="Baby Flower City Remixes" />
                             <div>
                                 <h4>
@@ -769,11 +771,13 @@ export default function TriplesMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 tri_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
+            <section className='tri_m_h2'>
+                <h2>▪ sns ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr2'>
+                    <a href="https://www.instagram.com/triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesInstagram_img} alt="트리플에스 인스타그램" />
                             <div>
                                 <h4>
@@ -782,8 +786,8 @@ export default function TriplesMain() {
                             </div>
                         </article>
                     </a>
-                    <a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
+                    <a href="https://www.youtube.com/@triplescosmos" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesYoutube_img} alt="트리플에스 유튜브" />
                             <div>
                                 <h4>
@@ -795,11 +799,13 @@ export default function TriplesMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 tri_m_h2_7'>▪ 등록 앨범 목록 보기 ▪</h2>
-            <section className='tri_m_before_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_before_album_a'>
-                        <article className='tri_m_albums'>
+            <section className='tri_m_h2'>
+                <h2>▪ 등록 앨범 목록 보기 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={Tri_m_img} alt="트리플에스" />
                             <div>
                                 <h4>
@@ -812,11 +818,13 @@ export default function TriplesMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 tri_m_h2_8'>▪ tripleS 과거?? 페이지 목록 ▪</h2>
-            <section className='tri_m_before_page_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_before_album_a'>
-                        <article className='tri_m_albums'>
+            <section className='tri_m_h2'>
+                <h2>▪ tripleS 과거?? 페이지 목록 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/TriplesBabyFlowerCityRemixesAlbum' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={Tri_m_img} alt="트리플에스" />
                             <div>
                                 <h4>
