@@ -73,41 +73,41 @@ export default function TxtMain() {
 
                     {/* 여기부터 확인하기 ##### */}
 
-                    <Link to='/TxtMemYeonjun' className='tri_m_mem_a'>
+                    <a href='http://localhost:8080/members/TxtMemYeonjun' className='tri_m_mem_a'>
                         <article className='txt_m_mem'>
                             <img src={Txt_m_memYeonjun} alt="연준 이미지" />
                             <div>
                                 <h4>연준</h4>
                             </div>
                         </article>
-                    </Link>
-                    <Link to='/TxtMemBeomgyu' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
+                    </a>
+                    <a href='http://localhost:8080/members/TxtMemBeomgyu' className='tri_m_mem_a'>
+                        <article className='txt_m_mem'>
                             <img src={Txt_m_memBeomgyu} alt="범규 이미지" />
                             <div>
                                 <h4>범규</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
                 </section>
 
-                <section className='tri_m_mem_tr txt_m_mem_tr'>
-                    <Link to='/TxtMemTaehyun' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
+                <section className='tri_m_mem_tr2'>
+                    <a href='http://localhost:8080/members/TxtMemTaehyun' className='tri_m_mem_a'>
+                        <article className='txt_m_mem'>
                             <img src={Txt_m_memTaehyun} alt="태현 이미지" />
                             <div>
                                 <h4>태현</h4>
                             </div>
                         </article>
-                    </Link>
-                    <Link to='/TxtMemHueningkai' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
+                    </a>
+                    <a href='http://localhost:8080/members/TxtMemHueningkai' className='tri_m_mem_a'>
+                        <article className='txt_m_mem'>
                             <img src={Txt_m_memHueningkai} alt="휴닝카이 이미지" />
                             <div>
                                 <h4>휴닝카이</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
                 </section>
 
@@ -166,11 +166,13 @@ export default function TxtMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 txt_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full txt_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/Txt7thYearAlbum' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
+            <section className='tri_m_h2'>
+                <h2>▪ 최신 앨범 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <a href='http://localhost:8080/members/TxtMemHueningkai' className='tri_m_mem_a'>
+                        <article className='txt_m_mem'>
                             <img src={Txt7thYearAlbum_img} alt="7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때" />
                             <div>
                                 <h4>
@@ -180,15 +182,17 @@ export default function TxtMain() {
                                 </h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 txt_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full txt_m_sns_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <a href="https://www.instagram.com/txt_bighit" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a txt_m_sns_a'>
-                        <article className='tri_m_snss'>
+            <section className='tri_m_h2'>
+                <h2>▪ sns ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr2'>
+                    <a href="https://www.instagram.com/txt_bighit" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='txt_m_mem'>
                             <img src={TxtInstagram_icon_img} alt="투모로우바이투게더 인스타그램" />
                             <div>
                                 <h4>
@@ -197,8 +201,8 @@ export default function TxtMain() {
                             </div>
                         </article>
                     </a>
-                    <a href="https://www.youtube.com/TXT_bighit" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a txt_m_sns_a'>
-                        <article className='tri_m_snss'>
+                    <a href="https://www.youtube.com/TXT_bighit" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='txt_m_mem'>
                             <img src={TxtYoutube_icon_img} alt="투모로우바이투게더 유튜브" />
                             <div>
                                 <h4>
