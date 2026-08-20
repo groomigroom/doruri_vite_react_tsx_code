@@ -24,6 +24,10 @@ import TxtYoutube_icon_img from './img/TxtYoutube_icon_img.png';
 
 //#FF1E91
 
+// css할거
+// txt_m_real_img
+//txt_m_mem
+
 export default function TxtMain() {
     DoruriDocumentTitle('투모로우바이투게더');
 
@@ -50,22 +54,27 @@ export default function TxtMain() {
                 </p>
             </section>
             <section className='tri_m_img'>
-                <img src={txt_m_img} alt='투모로우바이투게더' />
+                <img src={txt_m_img} alt='투모로우바이투게더' className='txt_m_real_img' />
                 {/* border color 넣기 */}
             </section>
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
-                <section className='tri_m_mem_tr'>
-                    <Link to='/TxtMemSubin' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
+            <section className='tri_m_h2'>
+                <h2>▪ 멤버 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr3'>
+                    <a href='http://localhost:8080/members/TxtMemSubin' className='tri_m_mem_a'>
+                        <article className='txt_m_mem'>
                             <img src={Txt_m_memSubin} alt="수빈 이미지" />
                             <div>
                                 <h4>수빈</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
+
+                    {/* 여기부터 확인하기 ##### */}
+
                     <Link to='/TxtMemYeonjun' className='tri_m_mem_a'>
-                        <article className='tri_m_mem'>
+                        <article className='txt_m_mem'>
                             <img src={Txt_m_memYeonjun} alt="연준 이미지" />
                             <div>
                                 <h4>연준</h4>
