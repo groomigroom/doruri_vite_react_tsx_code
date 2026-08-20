@@ -1,8 +1,8 @@
 특징 정보 리스트(
-"169cm",
-"O형",
-"낸시",
-"드라마 보기",
+"167.3cm",
+"B형",
+"박쌤",
+"독서",
 "춤추기",
 "비빔밥",
 "LOVElution, Aria, Visionary Vision, Alphie, neptune",
