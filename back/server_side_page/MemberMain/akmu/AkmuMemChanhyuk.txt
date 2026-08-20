@@ -9,6 +9,10 @@
 
 특징 정보 리스트(
             "168cm",  
+            "B형",  
+            "이PD",  
+            "ENTJ",  
+            "준비성이 뛰어남",  
             
         );
 
@@ -24,23 +28,3 @@
             "빅히트 뮤직"
         ));
 
-
-
-                        <td><p>168cm</p></td>
-                    </tr>
-                    <tr>
-          
-                        <td><p>B형</p></td>
-                    </tr>
-                    <tr>
-                        <td><p></p></td>
-                        <td><p>이PD</p></td>
-                    </tr>
-                    <tr>
-                        <td><p></p></td>
-                        <td>
-                            <p>ENTJ</p></td>
-                    </tr>
-                    <tr className='tri_mm_s1_intropa_tb_tr9'>
-                        <td><p></p></td>
-                        <td><p>준비성이 뛰어남</p></td>
