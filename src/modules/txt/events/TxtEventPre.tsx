@@ -14,7 +14,7 @@ export default function TxtEventPre({ txt_e_OnCl, txt_e_result }: Txt_e_popProp)
             <h2 className="tri_e_p_h2"><img src={MainH2Deco} alt="트리플에스" />{txt_e_result}<img src={MainH2Deco} alt="트리플에스" /></h2>
             {txt_e_result === "맞춘 개수: 4개" ?
                 (<section className='txt_e_p_win'>
-                    <p cla></p>
+                    <p className=''>당첨입니다.</p>
                 </section>) :
                 (<section>당첨 아님</section>)
             }
