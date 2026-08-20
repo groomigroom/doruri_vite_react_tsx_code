@@ -6,7 +6,7 @@
 "글쓰기",
 "떡볶이",
 "LOVElution, Visionary Vision, moon",
-"활발함"
+"차분함"
 );
 
 (
