@@ -1,12 +1,12 @@
 특징 정보 리스트(
-"167.3cm",
-"B형",
-"박쌤",
-"독서",
-"글쓰기",
+"174cm",
+"O형",
+"여신위",
+"영화 보기",
+"춤",
 "떡볶이",
-"LOVElution, Visionary Vision, moon",
-"차분함"
+"LOVElution, Visionary Vision, sun",
+"적극적임"
 );
 
 (
