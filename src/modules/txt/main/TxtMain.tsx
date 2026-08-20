@@ -29,18 +29,30 @@ export default function TxtMain() {
 
     return (
         <div className='txt_m_full'>
-            <Menu />
-            <section className="home_translate">
-                <Link to='/TxtMain' className="on">한국어</Link>
-                <Link to='/TxtMainEng'>English</Link>
+            <header className='tri_m_header'>
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/TxtMain' className="on">한국어</Link>
+                    <Link to='/TxtMainEng'>English</Link>
+                </section>
+            </header>
+            <section className='tri_m_logo_section'>
+                <img src={Txt_m_logo} alt="투바투 로고" />
             </section>
-            <img src={Txt_m_logo} alt="투바투 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="투바투 로고 꾸미기" />투모로우바이투게더<img src={MainH2Deco} alt="투바투 로고 꾸미기" /></h2>
-            <p className='tri_m_intropp'>
-                one! dream!<br />
-                하루에 하루만 더<br />
-                &apos;투모로우바이투게더&apos;와 함께 힘내 보아요.</p>
-            <img src={txt_m_img} className='tri_m_img txt_m_img' alt='투모로우바이투게더' />
+            <section className='tri_m_h2'>
+                <h2><img src={MainH2Deco} alt="투바투 로고 꾸미기" />투모로우바이투게더<img src={MainH2Deco} alt="투바투 로고 꾸미기" /></h2>
+            </section>
+            <section className='tri_m_intropp'>
+                <p>
+                    one! dream!<br />
+                    하루에 하루만 더<br />
+                    &apos;투모로우바이투게더&apos;와 함께 힘내 보아요.
+                </p>
+            </section>
+            <section className='tri_m_img'>
+                <img src={txt_m_img} alt='투모로우바이투게더' />
+                {/* border color 넣기 */}
+            </section>
             <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
             <section className='tri_m_mem_tr_full txt_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
