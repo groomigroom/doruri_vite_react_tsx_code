@@ -194,34 +194,10 @@
         transform: rotateY(0deg);
     }
 
-    .tri_m_h2_3 {
-        position: absolute;
-        top: 2083px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
     /* 높이 20px */
-
-    .tri_m_unit_tr_full {
-        position: absolute;
-        top: 2143px;
-    }
 
     .tri_m_mem_tr_full_mobile {
         display: none;
-    }
-
-    .tri_m_units_tr_full {
-        width: 720px;
-        height: 720px;
-        position: absolute;
-        top: 2143px;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
     .tri_m_units_tr4 {
