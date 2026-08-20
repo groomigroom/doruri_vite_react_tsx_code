@@ -738,10 +738,9 @@ export default function TriplesMain() {
                 </section>
             </section>
 
-            {/* 여기까지 일단함 ##### */}
 
             {/* 이벤트 모바일 보기 */}
-            <section className='tri_m_event_tr_full_mobile'>
+            {/* <section className='tri_m_event_tr_full_mobile'>
                 <section className="tri_m_mem_trtr">
                     <section className='tri_m_mem_tr1'>
                         <Link to='/TriplesEvent' className='tri_m_event_a'>
@@ -751,7 +750,7 @@ export default function TriplesMain() {
                         </Link>
                     </section>
                 </section>
-            </section>
+            </section> */}
 
             <section className='tri_m_h2'>
                 <h2>▪ 최신 앨범 ▪</h2>
