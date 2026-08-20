@@ -5,8 +5,8 @@
 "드라마 보기",
 "사진 찍기",
 "삼겹살",
-"LOVElution, Visionary Vision, sun",
-"적극적임"
+"EVOLution, ∞!, sun",
+"온화함"
 );
 
 (
