@@ -2,11 +2,11 @@
 "167cm",
 "O형",
 "백조",
-"OTT 보기",
-"태권도",
-"떡볶이",
-"Glow, neptune",
-"멘탈 강함"
+"글쓰기",
+"발레",
+"아보카도",
+"Glow, Visionary Vision, Alphie, moon",
+"사교적임"
 );
 
 (
