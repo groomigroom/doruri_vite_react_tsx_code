@@ -63,22 +63,33 @@ export default function TriplesMain() {
 
     return (
         <div className='tri_m_full'>
-            <Menu />
-            <section className="home_translate">
-                <Link to='/TriplesMain' className="on">한국어</Link>
-                <Link to='/TriplesMainEng'>English</Link>
+            <header className='tri_m_header'>
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/TriplesMain' className="on">한국어</Link>
+                    <Link to='/TriplesMainEng'>English</Link>
+                </section>
+            </header>
+            <section className='tri_m_logo_section'>
+                <img src={Tri_m_logo} alt="트리플에스 로고" />
             </section>
-            <img src={Tri_m_logo} alt="트리플에스 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />tripleS<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
-            <p className='tri_m_intropp'>우리는 하나이자 스물넷입니다.<br />
-                상처, 고난, 또 눈물이 길을 막아도<br />
-                &apos;트리플에스&apos;와 함께 고개를 들어 보아요.
-            </p>
-            <img src={Tri_m_img} className='tri_m_img' alt='트리플에스 이미지' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
+            <section className='tri_m_h2'>
+                <h2><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />tripleS<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
+            </section >
+            <section className='tri_m_intropp'>
+                <p>우리는 하나이자 스물넷입니다.<br />
+                    상처, 고난, 또 눈물이 길을 막아도<br />
+                    &apos;트리플에스&apos;와 함께 고개를 들어 보아요.
+                </p>
+            </section>
+            <section className='tri_m_img'>
+                <img src={Tri_m_img} alt='트리플에스 이미지' className='tri_m_real_img' />
+            </section>
+            <section className='tri_m_h2'>
+                <h2>▪ 멤버 ▪</h2>
+            </section>
             <section className='tri_m_mem_tr_full'>
-
-                <section className='tri_m_mem_tr'>
+                <section className='tri_m_mem_tr4'>
                     <a href='http://localhost:8080/members/TriplesMemS1' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS1} alt="윤서연 이미지" />
@@ -87,223 +98,223 @@ export default function TriplesMain() {
                             </div>
                         </article>
                     </a>
-                    <Link to='/TriplesMemS2'>
+                    <a href='http://localhost:8080/members/TriplesMemS2' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS2} alt="정혜린 이미지" />
                             <div>
                                 <h4>정혜린</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS3'>
+                    <a href='http://localhost:8080/members/TriplesMemS3' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS3} alt="이지우 이미지" />
                             <div>
                                 <h4>이지우</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS4'>
+                    <a href='http://localhost:8080/members/TriplesMemS4' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS4} alt="김채연 이미지" />
                             <div>
                                 <h4>김채연</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
                 </section>
 
-                <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS5'>
+                <section className='tri_m_mem_tr4'>
+                    <a href='http://localhost:8080/members/TriplesMemS5' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS5} alt="김유연 이미지" />
                             <div>
                                 <h4>김유연</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS6'>
+                    <a href='http://localhost:8080/members/TriplesMemS6' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS6} alt="김수민 이미지" />
                             <div>
                                 <h4>김수민</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS7'>
+                    <a href='http://localhost:8080/members/TriplesMemS7' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS7} alt="김나경 이미지" />
                             <div>
                                 <h4>김나경</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS8'>
+                    <a href='http://localhost:8080/members/TriplesMemS8' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS8} alt="공유빈 이미지" />
                             <div>
                                 <h4>공유빈</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
                 </section>
 
-                <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS9'>
+                <section className='tri_m_mem_tr4'>
+                    <a href='http://localhost:8080/members/TriplesMemS9' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS9} alt="카에데 이미지" />
                             <div>
                                 <h4>카에데</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS10'>
+                    <a href='http://localhost:8080/members/TriplesMemS10' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS10} alt="서다현 이미지" />
                             <div>
                                 <h4>서다현</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS11'>
+                    <a href='http://localhost:8080/members/TriplesMemS11' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS11} alt="코토네 이미지" />
                             <div>
                                 <h4>코토네</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS12'>
+                    <a href='http://localhost:8080/members/TriplesMemS12' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS12} alt="곽연지 이미지" />
                             <div>
                                 <h4>곽연지</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
                 </section>
 
-                <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS13'>
+                <section className='tri_m_mem_tr4'>
+                    <a href='http://localhost:8080/members/TriplesMemS13' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS13} alt="니엔 이미지" />
                             <div>
                                 <h4>니엔</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS14'>
+                    <a href='http://localhost:8080/members/TriplesMemS14' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS14} alt="박소현 이미지" />
                             <div>
                                 <h4>박소현</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS15'>
+                    <a href='http://localhost:8080/members/TriplesMemS15' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS15} alt="신위 이미지" />
                             <div>
                                 <h4>신위</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS16'>
+                    <a href='http://localhost:8080/members/TriplesMemS16' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS16} alt="마유 이미지" />
                             <div>
                                 <h4>마유</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
                 </section>
 
-                <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS17'>
+                <section className='tri_m_mem_tr4'>
+                    <a href='http://localhost:8080/members/TriplesMemS17' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS17} alt="린 이미지" />
                             <div>
                                 <h4>린</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
 
-                    <Link to='/TriplesMemS18'>
+                    <a href='http://localhost:8080/members/TriplesMemS18' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS18} alt="주빈 이미지" />
                             <div>
                                 <h4>주빈</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS19'>
+                    <a href='http://localhost:8080/members/TriplesMemS19' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS19} alt="정하연 이미지" />
                             <div>
                                 <h4>정하연</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS20'>
+                    <a href='http://localhost:8080/members/TriplesMemS20' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS20} alt="박시온 이미지" />
                             <div>
                                 <h4>박시온</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
                 </section>
 
-                <section className='tri_m_mem_tr'>
-                    <Link to='/TriplesMemS21'>
+                <section className='tri_m_mem_tr4'>
+                    <a href='http://localhost:8080/members/TriplesMemS21' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS21} alt="김채원 이미지" />
                             <div>
                                 <h4>김채원</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS22'>
+                    <a href='http://localhost:8080/members/TriplesMemS22' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS22} alt="설린 이미지" />
                             <div>
                                 <h4>설린</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS23'>
+                    <a href='http://localhost:8080/members/TriplesMemS23' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS23} alt="서아 이미지" />
                             <div>
                                 <h4>서아</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
 
-                    <Link to='/TriplesMemS24'>
+                    <a href='http://localhost:8080/members/TriplesMemS24' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Tri_m_memS24} alt="지연 이미지" />
                             <div>
                                 <h4>지연</h4>
                             </div>
                         </article>
-                    </Link>
+                    </a>
                 </section>
             </section>
 
@@ -466,8 +477,9 @@ export default function TriplesMain() {
                     </section>
                 </section>
             </section>
-
-            <h2 className='tri_m_h2 tri_m_h2_3'>▪ 유닛 ▪</h2>
+            <section className='tri_m_h2'>
+                <h2>▪ 유닛 ▪</h2>
+            </section>
             <section className='tri_m_units_tr_full'>
                 <section className='tri_m_units_tr4'>
                     <Link to='/TriplesAcidAngelFromAsiaMain' className='tri_m_units_a'>
