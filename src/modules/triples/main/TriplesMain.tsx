@@ -480,34 +480,34 @@ export default function TriplesMain() {
             <section className='tri_m_h2'>
                 <h2>▪ 유닛 ▪</h2>
             </section>
-            <section className='tri_m_units_tr_full'>
-                <section className='tri_m_units_tr4'>
-                    <Link to='/TriplesAcidAngelFromAsiaMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr4'>
+                    <Link to='/TriplesAcidAngelFromAsiaMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitAcidAngelFromAsia_m_img} alt="Acid Angel from Asia" />
                             <div>
                                 <h4>Acid<br />Angel<br />from<br />Asia</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesKRystalEyesMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesKRystalEyesMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitKrystalEyes_m_img} alt="+&#40;KR&#41;ystal Eyes" />
                             <div>
                                 <h4>+&#40;KR&#41;ystal Eyes</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesAcidEyesMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesAcidEyesMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitAcidEyes} alt="Acid Eyes" />
                             <div>
                                 <h4>Acid Eyes</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesLOVElutionMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesLOVElutionMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitLoveLution_m_img} alt="LOVElution" />
                             <div>
                                 <h4>LOVElution</h4>
@@ -515,33 +515,33 @@ export default function TriplesMain() {
                         </article>
                     </Link>
                 </section>
-                <section className='tri_m_units_tr4'>
-                    <Link to='/TriplesEvolutionMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                <section className='tri_m_mem_tr4'>
+                    <Link to='/TriplesEvolutionMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitEvoLution_m_img} alt="EVOLution" />
                             <div>
                                 <h4>EVOLution</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesNxtMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesNxtMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitNxt_m_img} alt="NXT" />
                             <div>
                                 <h4>NXT</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesGlowMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesGlowMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitGlow_m_img} alt="Glow" />
                             <div>
                                 <h4>Glow</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesAriaMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesAriaMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitAria_m_img} alt="Aria" />
                             <div>
                                 <h4>Aria</h4>
@@ -549,33 +549,33 @@ export default function TriplesMain() {
                         </article>
                     </Link>
                 </section>
-                <section className='tri_m_units_tr4'>
-                    <Link to='/TriplesVisionaryVisionMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                <section className='tri_m_mem_tr4'>
+                    <Link to='/TriplesVisionaryVisionMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitVisionaryVision_m_img} alt="Visionary Vision" />
                             <div>
                                 <h4>Visionary Vision</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesHatchMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesHatchMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitHatch_m_img} alt="∞! &#40;Hatch!&#41;" />
                             <div>
                                 <h4>∞! &#40;Hatch!&#41;</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesAlphieMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesAlphieMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitAlphie_m_img} alt="Alphie" />
                             <div>
                                 <h4>Alphie</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesNeptuneMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesNeptuneMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitNeptune_m_img} alt="neptune" />
                             <div>
                                 <h4>neptune</h4>
@@ -583,33 +583,33 @@ export default function TriplesMain() {
                         </article>
                     </Link>
                 </section>
-                <section className='tri_m_units_tr4'>
-                    <Link to='/TriplesMoonMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                <section className='tri_m_mem_tr4'>
+                    <Link to='/TriplesMoonMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitMoon_m_img} alt="moon" />
                             <div>
                                 <h4>moon</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesSunMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesSunMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitSun_m_img} alt="sun" />
                             <div>
                                 <h4>sun</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesZenithMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesZenithMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitZenith_m_img} alt="zenith" />
                             <div>
                                 <h4>zenith</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/TriplesMsnzMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+                    <Link to='/TriplesMsnzMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={TriplesUnitMsnz_m_img} alt="msnz" />
                             <div>
                                 <h4>msnz</h4>
@@ -720,11 +720,13 @@ export default function TriplesMain() {
 
             </section>
 
-            <h2 className='tri_m_h2 tri_m_h2_4'>▪ 이벤트 ▪</h2>
-            <section className='tri_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/TriplesEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
+            <section className='tri_m_h2'>
+                <h2 className='tri_m_h2'>▪ 이벤트 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/TriplesEvent' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={Tri_m_img} alt="triples event" />
                             <div>
                                 <h4>baby<br />
@@ -735,6 +737,8 @@ export default function TriplesMain() {
                     </Link>
                 </section>
             </section>
+
+            {/* 여기까지 일단함 ##### */}
 
             {/* 이벤트 모바일 보기 */}
             <section className='tri_m_event_tr_full_mobile'>
