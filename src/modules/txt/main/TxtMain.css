@@ -11,7 +11,11 @@
         background-color: #fcfcfc;
     }
 
-    .txt_m_mem_tr_full {
+    .txt_e_mem_imgborder {
+        border: 5px solid #FF1E91;
+    }
+
+    /* .txt_m_mem_tr_full {
         width: 530px;
         height: 340px;
     }
@@ -84,7 +88,7 @@
     .txt_m_sns_a img,
     .txt_m_sns_a div {
         border: 5px solid #FF1E91;
-    }
+    } */
 }
 
 @media (max-width: 975px) {
