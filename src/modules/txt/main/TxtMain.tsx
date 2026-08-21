@@ -54,7 +54,7 @@ export default function TxtMain() {
                 </p>
             </section>
             <section className='tri_m_img'>
-                <img src={txt_m_img} alt='투모로우바이투게더' className='txt_m_real_img' />
+                <img src={txt_m_img} alt='투모로우바이투게더' className='txt_e_mem_imgborder' />
                 {/* border color 넣기 */}
             </section>
             <section className='tri_m_h2'>
@@ -63,28 +63,26 @@ export default function TxtMain() {
             <section className='tri_m_mem_tr_full'>
                 <section className='tri_m_mem_tr3'>
                     <a href='http://localhost:8080/members/TxtMemSubin' className='tri_m_mem_a'>
-                        <article className='txt_m_mem'>
-                            <img src={Txt_m_memSubin} alt="수빈 이미지" />
-                            <div>
+                        <article className='tri_m_mem'>
+                            <img src={Txt_m_memSubin} alt="수빈 이미지" className='txt_e_mem_imgborder' />
+                            <div className='txt_e_mem_imgborder' >
                                 <h4>수빈</h4>
                             </div>
                         </article>
                     </a>
 
-                    {/* 여기부터 확인하기 ##### */}
-
                     <a href='http://localhost:8080/members/TxtMemYeonjun' className='tri_m_mem_a'>
-                        <article className='txt_m_mem'>
-                            <img src={Txt_m_memYeonjun} alt="연준 이미지" />
-                            <div>
+                        <article className='tri_m_mem'>
+                            <img src={Txt_m_memYeonjun} alt="연준 이미지" className='txt_e_mem_imgborder' />
+                            <div className='txt_e_mem_imgborder' >
                                 <h4>연준</h4>
                             </div>
                         </article>
                     </a>
                     <a href='http://localhost:8080/members/TxtMemBeomgyu' className='tri_m_mem_a'>
-                        <article className='txt_m_mem'>
-                            <img src={Txt_m_memBeomgyu} alt="범규 이미지" />
-                            <div>
+                        <article className='tri_m_mem'>
+                            <img src={Txt_m_memBeomgyu} alt="범규 이미지" className='txt_e_mem_imgborder' />
+                            <div className='txt_e_mem_imgborder' >
                                 <h4>범규</h4>
                             </div>
                         </article>
@@ -93,17 +91,17 @@ export default function TxtMain() {
 
                 <section className='tri_m_mem_tr2'>
                     <a href='http://localhost:8080/members/TxtMemTaehyun' className='tri_m_mem_a'>
-                        <article className='txt_m_mem'>
-                            <img src={Txt_m_memTaehyun} alt="태현 이미지" />
-                            <div>
+                        <article className='tri_m_mem'>
+                            <img src={Txt_m_memTaehyun} alt="태현 이미지" className='txt_e_mem_imgborder' />
+                            <div className='txt_e_mem_imgborder' >
                                 <h4>태현</h4>
                             </div>
                         </article>
                     </a>
                     <a href='http://localhost:8080/members/TxtMemHueningkai' className='tri_m_mem_a'>
-                        <article className='txt_m_mem'>
-                            <img src={Txt_m_memHueningkai} alt="휴닝카이 이미지" />
-                            <div>
+                        <article className='tri_m_mem'>
+                            <img src={Txt_m_memHueningkai} alt="휴닝카이 이미지" className='txt_e_mem_imgborder' />
+                            <div className='txt_e_mem_imgborder' >
                                 <h4>휴닝카이</h4>
                             </div>
                         </article>
@@ -150,13 +148,15 @@ export default function TxtMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 txt_m_h2_4'>▪ 이벤트 ▪</h2>
-            <section className='tri_m_event_tr_full txt_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/TxtEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
-                            <img src={txt_m_img} alt="txt event" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ 이벤트 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/TxtEvent' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={txt_m_img} alt="txt event" className='txt_e_mem_imgborder' />
+                            <div className='txt_e_mem_imgborder' >
                                 <h4>7TH<br />
                                     YEAR<br />
                                     이벤트</h4>
@@ -172,9 +172,9 @@ export default function TxtMain() {
             <section className='tri_m_mem_tr_full'>
                 <section className='tri_m_mem_tr1'>
                     <a href='http://localhost:8080/members/TxtMemHueningkai' className='tri_m_mem_a'>
-                        <article className='txt_m_mem'>
-                            <img src={Txt7thYearAlbum_img} alt="7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때" />
-                            <div>
+                        <article className='tri_m_mem'>
+                            <img src={Txt7thYearAlbum_img} alt="7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때" className='txt_e_mem_imgborder' />
+                            <div className='txt_e_mem_imgborder' >
                                 <h4>
                                     7TH<br />
                                     YEAR<br />
@@ -192,9 +192,9 @@ export default function TxtMain() {
             <section className='tri_m_mem_tr_full'>
                 <section className='tri_m_mem_tr2'>
                     <a href="https://www.instagram.com/txt_bighit" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
-                        <article className='txt_m_mem'>
-                            <img src={TxtInstagram_icon_img} alt="투모로우바이투게더 인스타그램" />
-                            <div>
+                        <article className='tri_m_mem'>
+                            <img src={TxtInstagram_icon_img} alt="투모로우바이투게더 인스타그램" className='txt_e_mem_imgborder' />
+                            <div className='txt_e_mem_imgborder' >
                                 <h4>
                                     인스타그램
                                 </h4>
@@ -202,9 +202,9 @@ export default function TxtMain() {
                         </article>
                     </a>
                     <a href="https://www.youtube.com/TXT_bighit" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
-                        <article className='txt_m_mem'>
-                            <img src={TxtYoutube_icon_img} alt="투모로우바이투게더 유튜브" />
-                            <div>
+                        <article className='tri_m_mem'>
+                            <img src={TxtYoutube_icon_img} alt="투모로우바이투게더 유튜브" className='txt_e_mem_imgborder' />
+                            <div className='txt_e_mem_imgborder' >
                                 <h4>
                                     유튜브
                                 </h4>
