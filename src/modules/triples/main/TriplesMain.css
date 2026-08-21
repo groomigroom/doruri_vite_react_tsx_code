@@ -39,7 +39,6 @@
         width: 100vw;
         height: 60px;
         position: relative;
-        background-color: burlywood;
     }
 
     .tri_m_h2>h2>img {
@@ -73,7 +72,6 @@
         width: 100vw;
         height: 440px;
         position: relative;
-        background-color: rgb(18, 53, 255);
     }
 
     .tri_m_img>img {
@@ -93,7 +91,6 @@
     .tri_m_mem_tr_full {
         width: 720px;
         margin: 0 auto;
-        background-color: brown;
     }
 
     .tri_m_mem_tr4 {
@@ -106,7 +103,6 @@
     .tri_m_mem_tr1 {
         width: 150px;
         height: 190px;
-        background-color: aquamarine;
         margin: 0 auto;
     }
 
@@ -115,7 +111,6 @@
         height: 190px;
         display: flex;
         justify-content: space-between;
-        background-color: rgb(24, 116, 85);
         margin: 0 auto;
     }
 
@@ -124,7 +119,6 @@
         height: 190px;
         display: flex;
         justify-content: space-between;
-        background-color: rgb(123, 110, 245);
         margin: 0 auto;
     }
 
