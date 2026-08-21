@@ -11,30 +11,30 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 
 import "./TriplesEvent.css";
 import TriEventLogo from "./img/tri_events_logo.png";
-// import TriEventS1 from "../main/img/tri_m_memS1.jpg";
-// import TriEventS2 from "../main/img/tri_m_memS2.jpg";
-// import TriEventS3 from "../main/img/tri_m_memS3.jpg";
-// import TriEventS4 from "../main/img/tri_m_memS4.jpg";
-// import TriEventS5 from "../main/img/tri_m_memS5.jpg";
-// import TriEventS6 from "../main/img/tri_m_memS6.jpg";
-// import TriEventS7 from "../main/img/tri_m_memS7.jpg";
-// import TriEventS8 from "../main/img/tri_m_memS8.jpg";
-// import TriEventS9 from "../main/img/tri_m_memS9.jpg";
-// import TriEventS10 from "../main/img/tri_m_memS10.jpg";
-// import TriEventS11 from "../main/img/tri_m_memS11.jpg";
-// import TriEventS12 from "../main/img/tri_m_memS12.jpg";
-// import TriEventS13 from "../main/img/tri_m_memS13.jpg";
-// import TriEventS14 from "../main/img/tri_m_memS14.jpg";
-// import TriEventS15 from "../main/img/tri_m_memS15.jpg";
-// import TriEventS16 from "../main/img/tri_m_memS16.jpg";
-// import TriEventS17 from "../main/img/tri_m_memS17.jpg";
-// import TriEventS18 from "../main/img/tri_m_memS18.jpg";
-// import TriEventS19 from "../main/img/tri_m_memS19.jpg";
-// import TriEventS20 from "../main/img/tri_m_memS20.jpg";
-// import TriEventS21 from "../main/img/tri_m_memS21.jpg";
-// import TriEventS22 from "../main/img/tri_m_memS22.jpg";
-// import TriEventS23 from "../main/img/tri_m_memS23.jpg";
-// import TriEventS24 from "../main/img/tri_m_memS24.jpg";
+import TriEventS1 from "../main/img/tri_m_memS1.jpg";
+import TriEventS2 from "../main/img/tri_m_memS2.jpg";
+import TriEventS3 from "../main/img/tri_m_memS3.jpg";
+import TriEventS4 from "../main/img/tri_m_memS4.jpg";
+import TriEventS5 from "../main/img/tri_m_memS5.jpg";
+import TriEventS6 from "../main/img/tri_m_memS6.jpg";
+import TriEventS7 from "../main/img/tri_m_memS7.jpg";
+import TriEventS8 from "../main/img/tri_m_memS8.jpg";
+import TriEventS9 from "../main/img/tri_m_memS9.jpg";
+import TriEventS10 from "../main/img/tri_m_memS10.jpg";
+import TriEventS11 from "../main/img/tri_m_memS11.jpg";
+import TriEventS12 from "../main/img/tri_m_memS12.jpg";
+import TriEventS13 from "../main/img/tri_m_memS13.jpg";
+import TriEventS14 from "../main/img/tri_m_memS14.jpg";
+import TriEventS15 from "../main/img/tri_m_memS15.jpg";
+import TriEventS16 from "../main/img/tri_m_memS16.jpg";
+import TriEventS17 from "../main/img/tri_m_memS17.jpg";
+import TriEventS18 from "../main/img/tri_m_memS18.jpg";
+import TriEventS19 from "../main/img/tri_m_memS19.jpg";
+import TriEventS20 from "../main/img/tri_m_memS20.jpg";
+import TriEventS21 from "../main/img/tri_m_memS21.jpg";
+import TriEventS22 from "../main/img/tri_m_memS22.jpg";
+import TriEventS23 from "../main/img/tri_m_memS23.jpg";
+import TriEventS24 from "../main/img/tri_m_memS24.jpg";
 
 
 interface tri_e_formState {
@@ -251,40 +251,40 @@ export default function TriplesEvent() {
                     </section>
                 </form>
                 <section className="triplesevent_imgt tri_e_i_1">
-                    <img src={""} alt="윤서연 이미지" />
-                    <img src={""} alt="정혜린 이미지" />
-                    <img src={""} alt="이지우 이미지" />
-                    <img src={""} alt="김채연 이미지" />
+                    <img src={TriEventS1} alt="윤서연 이미지" />
+                    <img src={TriEventS2} alt="정혜린 이미지" />
+                    <img src={TriEventS3} alt="이지우 이미지" />
+                    <img src={TriEventS4} alt="김채연 이미지" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_2">
-                    <img src={""} alt="김유연 이미지" />
-                    <img src={""} alt="김수민 이미지" />
-                    <img src={""} alt="김나경 이미지" />
-                    <img src={""} alt="공유빈 이미지" />
+                    <img src={TriEventS5} alt="김유연 이미지" />
+                    <img src={TriEventS6} alt="김수민 이미지" />
+                    <img src={TriEventS7} alt="김나경 이미지" />
+                    <img src={TriEventS8} alt="공유빈 이미지" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_3">
-                    <img src={""} alt="카에데 이미지" />
-                    <img src={""} alt="서다현 이미지" />
-                    <img src={""} alt="코토네 이미지" />
-                    <img src={""} alt="곽연지 이미지" />
+                    <img src={TriEventS9} alt="카에데 이미지" />
+                    <img src={TriEventS10} alt="서다현 이미지" />
+                    <img src={TriEventS11} alt="코토네 이미지" />
+                    <img src={TriEventS12} alt="곽연지 이미지" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_4">
-                    <img src={""} alt="니엔 이미지" />
-                    <img src={""} alt="박소현 이미지" />
-                    <img src={""} alt="신위 이미지" />
-                    <img src={""} alt="마유 이미지" />
+                    <img src={TriEventS13} alt="니엔 이미지" />
+                    <img src={TriEventS14} alt="박소현 이미지" />
+                    <img src={TriEventS15} alt="신위 이미지" />
+                    <img src={TriEventS16} alt="마유 이미지" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_5">
-                    <img src={""} alt="린 이미지" />
-                    <img src={""} alt="주빈 이미지" />
-                    <img src={""} alt="정하연 이미지" />
-                    <img src={""} alt="박시온 이미지" />
+                    <img src={TriEventS17} alt="린 이미지" />
+                    <img src={TriEventS18} alt="주빈 이미지" />
+                    <img src={TriEventS19} alt="정하연 이미지" />
+                    <img src={TriEventS20} alt="박시온 이미지" />
                 </section>
                 <section className="triplesevent_imgt tri_e_i_6">
-                    <img src={""} alt="김채원 이미지" />
-                    <img src={""} alt="설린 이미지" />
-                    <img src={""} alt="서아 이미지" />
-                    <img src={""} alt="지연 이미지" />
+                    <img src={TriEventS21} alt="김채원 이미지" />
+                    <img src={TriEventS22} alt="설린 이미지" />
+                    <img src={TriEventS23} alt="서아 이미지" />
+                    <img src={TriEventS24} alt="지연 이미지" />
                 </section>
             </section>
             <section className="tri_e_btn">
