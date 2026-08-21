@@ -80,18 +80,35 @@ export default function TxtEvent() {
             {
                 txt_e_PopopO && (
                     <section className="tri_e_last_win_part">
-                        <section className="tri_e_p_win_intropp">
-                            <p>
-                                당첨을 축하드려요!<br />
-                                상품은 키링입니다.<br />
-                                이벤트에 관심가져 주셔서 감사합니다.<br />
-                                이 이벤트는 가상의 이벤트입니다.<br />
-                                참고해 주시길 부탁드리겠습니다.<br />
-                            </p>
+                        <div className="tri_e_ghost_40px"></div>
+                        <section className="tri_e_h2">
+                            <h2>
+                                <img src={MainH2Deco} alt="투모루우바이투게더" />{txt_e_last_str}<img src={MainH2Deco} alt="투모루우바이투게더" />
+                            </h2>
                         </section>
-                        <section className="tri_e_p_win_present_150">
-                            <img src={Txt_e_keyring_set_img} alt="" className="TenCM_e_p_win_present_img" />
-                        </section>
+                        {txt_e_last_str === "맞춘 개수: 4개" ?
+                            (<>
+                                <section className="tri_e_p_win_intropp">
+                                    <p>
+                                        당첨을 축하드려요!<br />
+                                        상품은 키링입니다.<br />
+                                        이벤트에 관심가져 주셔서 감사합니다.<br />
+                                        이 이벤트는 가상의 이벤트입니다.<br />
+                                        참고해 주시길 부탁드리겠습니다.<br />
+                                    </p>
+                                </section>
+                                <section className="tri_e_p_win_present_150">
+                                    <img src={Txt_e_keyring_set_img} alt="" className="txt_e_p_win_present_img" />
+                                </section>
+                            </>) :
+                            (<section>
+                                <section className="tri_e_h2">
+                                    <h2>
+                                        당첨이 아닙니다.
+                                    </h2>
+                                </section>
+                            </section>)
+                        }
                     </section>
                 )
             }
@@ -99,3 +116,5 @@ export default function TxtEvent() {
         </div >
     );
 };
+
+//버튼 닫기 트리플에스 이벤트 css에서 가져오기...
