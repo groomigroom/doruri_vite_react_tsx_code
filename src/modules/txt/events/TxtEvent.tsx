@@ -109,6 +109,9 @@ export default function TxtEvent() {
                                 </section>
                             </section>)
                         }
+                        <section className="txt_e_btn">
+                            <button onClick={txt_e_ClPopup}>닫기</button>
+                        </section>
                     </section>
                 )
             }
@@ -116,5 +119,3 @@ export default function TxtEvent() {
         </div >
     );
 };
-
-//버튼 닫기 트리플에스 이벤트 css에서 가져오기...
