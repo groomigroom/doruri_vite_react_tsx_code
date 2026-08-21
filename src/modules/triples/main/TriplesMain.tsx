@@ -620,7 +620,7 @@ export default function TriplesMain() {
             </section>
 
             {/* 모바일 유닛 보기 */}
-            <section className="tri_m_units_tr_full_mobile">
+            {/* <section className="tri_m_units_tr_full_mobile">
                 <section className="tri_m_mem_trtr">
                     <section className='tri_m_mem_tr'>
                         <Link to='/TriplesAcidAngelFromAsiaMain' className='tri_m_units_a'>
@@ -718,7 +718,7 @@ export default function TriplesMain() {
                     </section>
                 </section>
 
-            </section>
+            </section> */}
 
             <section className='tri_m_h2'>
                 <h2>▪ 이벤트 ▪</h2>
