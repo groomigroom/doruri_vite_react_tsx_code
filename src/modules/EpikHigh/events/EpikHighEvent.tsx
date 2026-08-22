@@ -126,6 +126,11 @@ export default function EpikHighEvent() {
                     <p>당첨입니다.</p>
                 </section>
             )}
+            {epikhigh_e_real_lp_top === epikhigh_e_fake_lp_top && epikhigh_e_real_lp_left === epikhigh_e_fake_lp_left && (
+                <section className="epikhigh_e_win">
+                    <p>당첨아님</p>
+                </section>
+            )}
         </div >
     );
 }
