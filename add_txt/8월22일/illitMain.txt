@@ -54,8 +54,9 @@ export default function IllitMain() {
  <section className='tri_m_img'>
             <img src={Ill_m_img} className='tri_m_img' alt='illit' 트리플에스border/>
 </section>
-
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
+<section className='tri_m_h2'>
+            <h2>▪ 멤버 ▪</h2>
+</section>
             <section className='tri_m_mem_tr_full ill_m_mem_tr_full'>
                 <section className='ill_m_mem_tr3'>
                     <Link to='/IllMemYunah' className='tri_m_mem_a'>
