@@ -143,11 +143,13 @@ export default function IllitMain() {
 
             </section>
 
-            <h2 className='tri_m_h2 illit_m_h2_4'>▪ 이벤트 ▪</h2>
-            <section className='tri_m_event_tr_full illit_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/IllitEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
+<section className='tri_m_h2'>
+            <h2>▪ 이벤트 ▪</h2>
+ </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/IllitEvent' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={Ill_m_img} alt="illit event" />
                             <div>
                                 <h4>MAMIH<br />
@@ -158,11 +160,13 @@ export default function IllitMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 illit_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full illit_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/IllitMamthlapinatapaiAlbum' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
+<section className='tri_m_h2'>
+            <h2>▪ 최신 앨범 ▪</h2>
+ </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/IllitMamthlapinatapaiAlbum' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={IllitMamthlapinatapaiAlbum_img} alt="IllitMamthlapinatapaiAlbum" />
                             <div>
                                 <h4>
