@@ -286,7 +286,7 @@ export default function IoiMain() {
             </section>
 
 <section className='tri_m_h2'>
-            <h2 className='tri_m_h2 ioi_m_h2_6'>▪ sns ▪</h2>
+            <h2>▪ sns ▪</h2>
  </section>
             <section className='tri_m_mem_tr_full'>
                 <section className='tri_m_mem_tr1'>
