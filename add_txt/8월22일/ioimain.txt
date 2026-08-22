@@ -248,13 +248,15 @@ export default function IoiMain() {
 
             </section>
 
-            <h2 className='tri_m_h2 ioi_m_h2_4'>▪ 이벤트 ▪</h2>
-            <section className='tri_m_event_tr_full ioi_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/IoiEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
-                            <img src={Ioi_m_img} alt="ioi event" />
-                            <div>
+<section className='tri_m_h2'>
+            <h2>▪ 이벤트 ▪</h2>
+ </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/IoiEvent' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={Ioi_m_img} alt="ioi event" className='ioi_m_mem_imgborder'/>
+                            <div className='ioi_m_mem_imgborder'>
                                 <h4>LOOP<br />
                                     이벤트</h4>
                             </div>
