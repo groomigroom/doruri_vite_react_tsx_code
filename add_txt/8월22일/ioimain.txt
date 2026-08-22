@@ -74,19 +74,19 @@ export default function IoiMain() {
                             </div>
                         </article>
                     </Link>
-                    <Link to='/IoiMemKimchungha'>
+                    <Link to='/IoiMemKimchungha' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ioi_m_MemKimchungha_img} alt="김청하 이미지" />
-                            <div>
+                            <img src={Ioi_m_MemKimchungha_img} alt="김청하 이미지" className='ioi_m_mem_imgborder'/>
+                            <div className='ioi_m_mem_imgborder'>
                                 <h4>김청하</h4>
                             </div>
                         </article>
                     </Link>
 
-                    <Link to='/IoiMemKimsejung'>
+                    <Link to='/IoiMemKimsejung' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ioi_m_MemKimsejung_img} alt="김세정 이미지" />
-                            <div>
+                            <img src={Ioi_m_MemKimsejung_img} alt="김세정 이미지" className='ioi_m_mem_imgborder'/>
+                            <div className='ioi_m_mem_imgborder'>
                                 <h4>김세정</h4>
                             </div>
                         </article>
