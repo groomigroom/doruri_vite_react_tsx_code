@@ -285,13 +285,15 @@ export default function IoiMain() {
                 </section>
             </section>
 
+<section className='tri_m_h2'>
             <h2 className='tri_m_h2 ioi_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full ioi_m_sns_tr_full'>
-                <section className='tri_m_album_tr ioi_m_sns_tr'>
-                    <a href="https://www.instagram.com/ioi_10th" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a ioi_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={IoiInstagram_img} alt="아이오아이 인스타그램" />
-                            <div>
+ </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <a href="https://www.instagram.com/ioi_10th" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={IoiInstagram_img} alt="아이오아이 인스타그램" className='ioi_m_mem_imgborder'/>
+                            <div className='ioi_m_mem_imgborder'>
                                 <h4>
                                     인스타그램
                                 </h4>
