@@ -92,30 +92,30 @@ export default function IoiMain() {
                         </article>
                     </Link>
 
-                    <Link to='/IoiMemJungcheyun'>
+                    <Link to='/IoiMemJungcheyun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ioi_m_MemJungcheyun_img} alt="정채연 이미지" />
-                            <div>
+                            <img src={Ioi_m_MemJungcheyun_img} alt="정채연 이미지" className='ioi_m_mem_imgborder'/>
+                            <div className='ioi_m_mem_imgborder'>
                                 <h4>정채연</h4>
                             </div>
                         </article>
                     </Link>
                 </section>
 
-                <section className='ioi_m_mem_tr4'>
-                    <Link to='/IoiMemJugyulgyoung'>
+                <section className='tri_m_mem_tr4'>
+                    <Link to='/IoiMemJugyulgyoung' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ioi_m_MemJugyulgyoung_img} alt="주결경 이미지" />
-                            <div>
+                            <img src={Ioi_m_MemJugyulgyoung_img} alt="주결경 이미지" className='ioi_m_mem_imgborder'/>
+                            <div className='ioi_m_mem_imgborder'>
                                 <h4>주결경</h4>
                             </div>
                         </article>
                     </Link>
 
-                    <Link to='/IoiMemKimsohye'>
+                    <Link to='/IoiMemKimsohye' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ioi_m_MemKimsohye_img} alt="김소혜 이미지" />
-                            <div>
+                            <img src={Ioi_m_MemKimsohye_img} alt="김소혜 이미지" className='ioi_m_mem_imgborder'/>
+                            <div className='ioi_m_mem_imgborder'>
                                 <h4>김소혜</h4>
                             </div>
                         </article>
