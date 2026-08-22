@@ -197,11 +197,14 @@ export default function StrayKidsMain() {
                 </section>
 
             </section>
-            <h2 className='tri_m_h2 str_m_h2_3'>▪ 유닛 ▪</h2>
-            <section className='str_m_units_tr_full'>
-                <section className='tri_m_units_tr1'>
-                    <Link to='/StrayKidsThreeRachaMain' className='tri_m_units_a'>
-                        <article className='tri_m_units'>
+
+<section className='tri_m_h2'>
+            <h2>▪ 유닛 ▪</h2>
+</section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/StrayKidsThreeRachaMain' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={StrayKids3Racha_m_img} alt="3RACHA" />
                             <div>
                                 <h4>3RACHA</h4>
@@ -211,7 +214,9 @@ export default function StrayKidsMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 stray_m_h2_4'>▪ 이벤트 ▪</h2>
+<section className='tri_m_h2'>
+            <h2>▪ 이벤트 ▪</h2>
+</section>
             <section className='tri_m_event_tr_full stray_m_event_tr_full'>
                 <section className='tri_m_event_tr'>
                     <Link to='/StrayKidsEvent' className='tri_m_event_a'>
