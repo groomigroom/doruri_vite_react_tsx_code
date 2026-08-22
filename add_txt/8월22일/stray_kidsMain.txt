@@ -217,10 +217,10 @@ export default function StrayKidsMain() {
 <section className='tri_m_h2'>
             <h2>▪ 이벤트 ▪</h2>
 </section>
-            <section className='tri_m_event_tr_full stray_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/StrayKidsEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/StrayKidsEvent' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={Str_m_img} alt="stray kids event" />
                             <div>
                                 <h4>Replay<br />
@@ -231,11 +231,13 @@ export default function StrayKidsMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 stray_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full stray_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/StrayKidsSKZReplay2026Pt1Album' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
+<section className='tri_m_h2'>
+            <h2>▪ 최신 앨범 ▪</h2>
+</section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/StrayKidsSKZReplay2026Pt1Album' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={StrayKidsSKZReplay2026Pt1Album_img} alt="StrayKidsSKZReplay2026Pt1Album" />
                             <div>
                                 <h4>
