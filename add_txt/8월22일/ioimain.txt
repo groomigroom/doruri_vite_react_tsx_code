@@ -265,13 +265,15 @@ export default function IoiMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 ioi_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full ioi_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/IoiIoiLoopAlbum' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
-                            <img src={IoiIoiLoopAlbum_img} alt="ioi loop" />
-                            <div>
+<section className='tri_m_h2'>
+            <h2>▪ 최신 앨범 ▪</h2>
+ </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/IoiIoiLoopAlbum' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={IoiIoiLoopAlbum_img} alt="ioi loop" className='ioi_m_mem_imgborder'/>
+                            <div className='ioi_m_mem_imgborder'>
                                 <h4>
                                     I.O.I<br />
                                     :<br />
