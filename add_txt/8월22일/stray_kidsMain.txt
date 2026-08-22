@@ -115,14 +115,14 @@ export default function StrayKidsMain() {
 
                     <Link to='/StrayMemFilix' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Str_m_MemFilix_img} alt="필릭스 이미지" className='stray_m_mem_imgborder'/>
+                            <img src={Str_m_MemFilix_img} alt="필릭스 이미지" className='stray_m_mem_imgborder' 트리플에스꺼border로 수정하기/>
                             <div className='stray_m_mem_imgborder'>
                                 <h4>필릭스</h4>
                             </div>
                         </article>
                     </Link>
 
-                    <Link to='/StrayMemSeungmin'>
+                    <Link to='/StrayMemSeungmin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Str_m_MemSeungmin_img} alt="승민 이미지" />
                             <div>
@@ -131,7 +131,7 @@ export default function StrayKidsMain() {
                         </article>
                     </Link>
 
-                    <Link to='/StrayMemIn'>
+                    <Link to='/StrayMemIn' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Str_m_MemIn_img} alt="아이엔 이미지" />
                             <div>
