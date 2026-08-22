@@ -103,20 +103,20 @@ export default function StrayKidsMain() {
                     </Link>
                 </section>
 
-                <section className='tri_m_mem_tr'>
-                    <Link to='/StrayMemHan'>
+                <section className='tri_m_mem_tr4'>
+                    <Link to='/StrayMemHan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Str_m_MemHan_img} alt="한 이미지" />
-                            <div>
+                            <img src={Str_m_MemHan_img} alt="한 이미지" className='stray_m_mem_imgborder'/>
+                            <div className='stray_m_mem_imgborder'>
                                 <h4>한</h4>
                             </div>
                         </article>
                     </Link>
 
-                    <Link to='/StrayMemFilix'>
+                    <Link to='/StrayMemFilix' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Str_m_MemFilix_img} alt="필릭스 이미지" />
-                            <div>
+                            <img src={Str_m_MemFilix_img} alt="필릭스 이미지" className='stray_m_mem_imgborder'/>
+                            <div className='stray_m_mem_imgborder'>
                                 <h4>필릭스</h4>
                             </div>
                         </article>
