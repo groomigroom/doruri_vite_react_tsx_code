@@ -57,11 +57,11 @@ export default function IllitMain() {
 <section className='tri_m_h2'>
             <h2>▪ 멤버 ▪</h2>
 </section>
-            <section className='tri_m_mem_tr_full ill_m_mem_tr_full'>
-                <section className='ill_m_mem_tr3'>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr3'>
                     <Link to='/IllMemYunah' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ill_m_MemYunah_img} alt="윤아 이미지" className='ill_m_mem_img' />
+                            <img src={Ill_m_MemYunah_img} alt="윤아 이미지" className='ill_m_mem_img' 트리플에스border/>
                             <div>
                                 <h4>윤아</h4>
                             </div>
@@ -85,7 +85,7 @@ export default function IllitMain() {
                     </Link>
                 </section>
 
-                <section className='ill_m_mem_tr2'>
+                <section className='tri_m_mem_tr2'>
                     <Link to='/IllMemWonhee' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Ill_m_MemWonhee_img} alt="원희 이미지" />
