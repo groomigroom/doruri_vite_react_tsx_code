@@ -58,18 +58,18 @@ export default function IoiMain() {
             </p>
  </section>
 <section className='tri_m_img'>
-            <img src={Ioi_m_img} className='ioi_e_mem_imgborder' alt='아이오아이 이미지' />
+            <img src={Ioi_m_img} className='ioi_m_mem_imgborder' alt='아이오아이 이미지' />
  </section>
 <section className='tri_m_h2'>
             <h2>▪ 멤버 ▪</h2>
  </section>
-            <section className='ioi_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full'>
 
-                <section className='ioi_m_mem_tr4'>
+                <section className='tri_m_mem_tr4>
                     <Link to='/IoiMemImnayoung' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ioi_m_MemImnayoung_img} alt="임나영 이미지" />
-                            <div>
+                            <img src={Ioi_m_MemImnayoung_img} alt="임나영 이미지" className='ioi_m_mem_imgborder'/>
+                            <div className='ioi_m_mem_imgborder'>
                                 <h4>임나영</h4>
                             </div>
                         </article>
