@@ -58,45 +58,45 @@ export default function StrayKidsMain() {
                 running out!</p>
 </section>
 <section className='tri_m_img'>
-            <img src={Str_m_img} alt='스트레이 키즈' className='txt_m_mem_imgborder' />
+            <img src={Str_m_img} alt='스트레이 키즈' className='stray_m_mem_imgborder' />
 </section>
 <section className='tri_m_h2'>
             <h2>▪ 멤버 ▪</h2>
 </section>
 
-            <section className='tri_m_mem_tr_full str_m_mem_tr_full'>
+            <section className='tri_m_mem_tr_full'>
 
-                <section className='tri_m_mem_tr str_m_mem_tr'>
+                <section className='tri_m_mem_tr4'>
                     <Link to='/StrayMemBangchan' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Str_m_MemBangchan_img} alt="방찬 이미지" />
-                            <div>
+                            <img src={Str_m_MemBangchan_img} alt="방찬 이미지" className='stray_m_mem_imgborder' />
+                            <div className='stray_m_mem_imgborder'>
                                 <h4>방찬</h4>
                             </div>
                         </article>
                     </Link>
-                    <Link to='/StrayMemLino'>
+                    <Link to='/StrayMemLino' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Str_m_MemLino_img} alt="리노 이미지" />
-                            <div>
+                            <img src={Str_m_MemLino_img} alt="리노 이미지" className='stray_m_mem_imgborder'/>
+                            <div className='stray_m_mem_imgborder'>
                                 <h4>리노</h4>
                             </div>
                         </article>
                     </Link>
 
-                    <Link to='/StrayMemChangbin'>
+                    <Link to='/StrayMemChangbin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Str_m_MemChangbin_img} alt="창빈 이미지" />
-                            <div>
+                            <img src={Str_m_MemChangbin_img} alt="창빈 이미지" className='stray_m_mem_imgborder'/>
+                            <div className='stray_m_mem_imgborder'>
                                 <h4>창빈</h4>
                             </div>
                         </article>
                     </Link>
 
-                    <Link to='/StrayMemHyunjin'>
+                    <Link to='/StrayMemHyunjin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Str_m_MemHyunjin_img} alt="현진 이미지" />
-                            <div>
+                            <img src={Str_m_MemHyunjin_img} alt="현진 이미지" className='stray_m_mem_imgborder'/>
+                            <div className='stray_m_mem_imgborder'>
                                 <h4>현진</h4>
                             </div>
                         </article>
