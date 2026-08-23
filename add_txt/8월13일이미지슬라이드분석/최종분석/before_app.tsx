@@ -64,6 +64,7 @@ export default function App() {
                     transition: isTransitioning ? "transform 0.5s ease-in-out" : "none",
                 }}
             >
+                {/* ##### 여기부터 보기 */}
                 {SLIDES.map((src, index) => (
                     <div key={index} style={{ width: "100%", flexShrink: 0 }}>
                         <img
