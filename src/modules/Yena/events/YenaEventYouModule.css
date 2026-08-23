@@ -20,12 +20,12 @@
 
 .yena_e_you_div1 {
     left: 0px;
-    animation: yena_e_you_div1 2s linear 0s infinite;
+    animation: yena_e_you_div1 4s linear 0s infinite;
 }
 
 .yena_e_you_div2 {
     left: 15px;
-    animation: yena_e_you_div2 2s linear 0s infinite;
+    animation: yena_e_you_div2 4s linear 0s infinite;
 }
 
 @keyframes yena_e_you_div1 {
