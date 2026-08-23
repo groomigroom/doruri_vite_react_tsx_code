@@ -69,40 +69,37 @@ export default function Day6Event() {
             </p>
             <section className="day6_e_event_real_part">
                 <ul className="day6_e_event_real_part_menu">
-                    <li><p>ㅇ</p>
+                    <li><p>드럼</p>
                         <ul>
-                            {/* 오답 클릭 */}
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
+                            <li><p onClick={day6_lose_count_up}>독음</p></li>
+                            <li><p onClick={day6_lose_count_up}>도음</p></li>
+                            <li><p onClick={day6_lose_count_up}>도은</p></li>
+                            <li><p onClick={day6_lose_count_up}>도웆</p></li>
                         </ul>
                     </li>
-                    <li><p>ㅇ</p>
+                    <li><p>기타</p>
                         <ul>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
+                            <li><p onClick={day6_lose_count_up}>도오운</p></li>
                             {/* 정답 클릭 */}
-                            <li><p onClick={day6_e_win_result}>w</p></li>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
+                            <li><p onClick={day6_e_win_result}>도운</p></li>
+                            <li><p onClick={day6_lose_count_up}>도훈</p></li>
+                            <li><p onClick={day6_lose_count_up}>돌훈</p></li>
                         </ul>
                     </li>
-                    <li><p>ㅇ</p>
+                    <li><p>베이스</p>
                         <ul>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
-                            {/* 정답 클릭 */}
-                            <li><p onClick={day6_e_win_result}>w</p></li>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
+                            <li><p onClick={day6_lose_count_up}>도욱</p></li>
+                            <li><p onClick={day6_lose_count_up}>두운</p></li>
+                            <li><p onClick={day6_lose_count_up}>고운</p></li>
+                            <li><p onClick={day6_lose_count_up}>도군</p></li>
                         </ul>
                     </li>
-                    <li><p>ㅇ</p>
+                    <li><p>보컬</p>
                         <ul>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
-                            {/* 정답 클릭 */}
-                            <li><p onClick={day6_e_win_result}>w</p></li>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
-                            <li><p onClick={day6_lose_count_up}>o</p></li>
+                            <li><p onClick={day6_lose_count_up}>도욱</p></li>
+                            <li><p onClick={day6_lose_count_up}>두움</p></li>
+                            <li><p onClick={day6_lose_count_up}>도음</p></li>
+                            <li><p onClick={day6_lose_count_up}>도오움</p></li>
                         </ul>
                     </li>
                     {/* ... 아래 생략 (동일하게 오답 리스트에 day6_lose_count_up 바인딩) ... */}
