@@ -1,5 +1,8 @@
 import { useState } from "react";
 
+import './YenaEvent.css';
+import YenaEventYouModule from "./YenaEventYouModule";
+
 export default function YenaEvent() {
 
     const [Yena_e_false_click, setYena_e_false_click] = useState<boolean>(false);
@@ -19,14 +22,78 @@ export default function YenaEvent() {
 
     return (
         <div>
-            <p onClick={Yena_e_true_cl_change}>나</p>
-            <section onClick={Yena_e_false_cl_change}>
-                <p>너</p>
-                <p>너</p>
-                <p>너</p>
-                <p>너</p>
-                <p>너</p>
-                <p>너</p>
+            <section className="yena_e_moving_part">
+                <p onClick={Yena_e_true_cl_change} className="yena_e_me_part">나</p>
+                <section onClick={Yena_e_false_cl_change} className="yena_e_you_part">
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+                    <YenaEventYouModule />
+
+                </section>
             </section>
             {Yena_e_false_click && (
                 <section>
