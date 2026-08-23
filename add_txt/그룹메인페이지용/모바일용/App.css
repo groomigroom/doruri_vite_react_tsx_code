@@ -1,0 +1,169 @@
+.tri_m_mem_tr_full {
+  width: 100vw;
+  background-color: blue;
+}
+
+.tri_m_mem_tr4 {
+  width: 100vw;
+  height: 368px;
+  position: relative;
+}
+
+.tri_m_mem_tr3_1 {
+  width: 100vw;
+  height: 368px;
+  position: relative;
+}
+
+.tri_m_mem_tr3_2 {
+  width: 100vw;
+  height: 184px;
+  position: relative;
+}
+
+.tri_m_mem_tr3_3 {
+  width: 100vw;
+  height: 368px;
+  position: relative;
+}
+
+.tri_m_mem_tr2 {
+  width: 100vw;
+  height: 184px;
+  position: relative;
+}
+
+.tri_m_mem_tr1 {
+  width: 100vw;
+  height: 184px;
+  position: relative;
+}
+
+.tri_m_mem_a {
+  display: block;
+  width: 145px;
+  height: 184px;
+  background-color: aquamarine;
+  position: absolute;
+}
+
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(1),
+.tri_m_mem_tr3_1>.tri_m_mem_a:nth-child(1),
+.tri_m_mem_tr3_2>.tri_m_mem_a:nth-child(2),
+.tri_m_mem_tr3_3>.tri_m_mem_a:nth-child(1),
+.tri_m_mem_tr2>.tri_m_mem_a:nth-child(1) {
+  top: 0px;
+  left: calc(50vw - 145px);
+}
+
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(2),
+.tri_m_mem_tr3_1>.tri_m_mem_a:nth-child(2),
+.tri_m_mem_tr3_2>.tri_m_mem_a:nth-child(3),
+.tri_m_mem_tr3_3>.tri_m_mem_a:nth-child(2),
+.tri_m_mem_tr2>.tri_m_mem_a:nth-child(2) {
+  top: 0px;
+  left: 50vw;
+}
+
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(3),
+.tri_m_mem_tr3_1>.tri_m_mem_a:nth-child(3) {
+  top: 184px;
+  left: calc(50vw - 145px);
+}
+
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(4) {
+  top: 184px;
+  left: 50vw;
+}
+
+.tri_m_mem_tr3_2>.tri_m_mem_a:nth-child(1) {
+  top: -184px;
+  left: 50vw;
+}
+
+.tri_m_mem_tr3_3>.tri_m_mem_a:nth-child(3) {
+  top: 184px;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+.tri_m_mem_tr1>.tri_m_mem_a {
+  top: 0px;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+.tri_m_mem {
+  width: 145px;
+  height: 184px;
+  background-color: rgb(151, 81, 231);
+  position: relative;
+}
+
+.tri_m_mem>img {
+  display: block;
+  width: 125px;
+  height: 125px;
+  border-radius: 25px;
+  position: absolute;
+  top: 0px;
+  background-color: brown;
+}
+
+.tri_m_mem>div {
+  width: 125px;
+  height: 19px;
+  position: absolute;
+  top: 145px;
+  background-color: cyan;
+}
+
+.tri_m_mem>div>h4 {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 19px;
+  width: 125px;
+  text-align: center;
+}
+
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(1)>.tri_m_mem>img,
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(1)>.tri_m_mem>div,
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(3)>.tri_m_mem>img,
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(3)>.tri_m_mem>div,
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(1)>.tri_m_mem>div,
+.tri_m_mem_tr3_1>.tri_m_mem_a:nth-child(1)>.tri_m_mem>img,
+.tri_m_mem_tr3_1>.tri_m_mem_a:nth-child(1)>.tri_m_mem>div,
+.tri_m_mem_tr3_1>.tri_m_mem_a:nth-child(3)>.tri_m_mem>img,
+.tri_m_mem_tr3_1>.tri_m_mem_a:nth-child(3)>.tri_m_mem>div,
+.tri_m_mem_tr3_2>.tri_m_mem_a:nth-child(2)>.tri_m_mem>img,
+.tri_m_mem_tr3_2>.tri_m_mem_a:nth-child(2)>.tri_m_mem>div,
+.tri_m_mem_tr3_3>.tri_m_mem_a:nth-child(1)>.tri_m_mem>img,
+.tri_m_mem_tr3_3>.tri_m_mem_a:nth-child(1)>.tri_m_mem>div,
+.tri_m_mem_tr2>.tri_m_mem_a:nth-child(1)>.tri_m_mem>img,
+.tri_m_mem_tr2>.tri_m_mem_a:nth-child(1)>.tri_m_mem>div {
+  right: 20px;
+}
+
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(2)>.tri_m_mem>img,
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(2)>.tri_m_mem>div,
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(4)>.tri_m_mem>img,
+.tri_m_mem_tr4>.tri_m_mem_a:nth-child(4)>.tri_m_mem>div,
+.tri_m_mem_tr3_1>.tri_m_mem_a:nth-child(2)>.tri_m_mem>img,
+.tri_m_mem_tr3_1>.tri_m_mem_a:nth-child(2)>.tri_m_mem>div,
+.tri_m_mem_tr3_2>.tri_m_mem_a:nth-child(1)>.tri_m_mem>img,
+.tri_m_mem_tr3_2>.tri_m_mem_a:nth-child(1)>.tri_m_mem>div,
+.tri_m_mem_tr3_2>.tri_m_mem_a:nth-child(3)>.tri_m_mem>img,
+.tri_m_mem_tr3_2>.tri_m_mem_a:nth-child(3)>.tri_m_mem>div,
+.tri_m_mem_tr3_3>.tri_m_mem_a:nth-child(2)>.tri_m_mem>img,
+.tri_m_mem_tr3_3>.tri_m_mem_a:nth-child(2)>.tri_m_mem>div,
+.tri_m_mem_tr2>.tri_m_mem_a:nth-child(2)>.tri_m_mem>img,
+.tri_m_mem_tr2>.tri_m_mem_a:nth-child(2)>.tri_m_mem>div {
+  left: 20px;
+}
+
+.tri_m_mem_tr3_3>.tri_m_mem_a:nth-child(3)>.tri_m_mem>img,
+.tri_m_mem_tr3_3>.tri_m_mem_a:nth-child(3)>.tri_m_mem>div,
+.tri_m_mem_tr1>.tri_m_mem_a>.tri_m_mem>img,
+.tri_m_mem_tr1>.tri_m_mem_a>.tri_m_mem>div {
+  left: 10px;
+}
