@@ -1,1 +1,22 @@
-YenaEvent.css
+.yena_e_moving_part {
+    width: calc(100vw - 80px);
+    height: 440px;
+    position: relative;
+    background-color: darkorange;
+}
+
+.yena_e_me_part {
+    position: absolute;
+    z-index: 2;
+}
+
+.yena_e_you_part {
+    width: calc(100vw - 80px);
+    height: 400px;
+    display: flex;
+    background-color: rgb(88, 88, 173);
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
