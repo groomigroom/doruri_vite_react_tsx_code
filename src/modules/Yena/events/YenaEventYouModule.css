@@ -1,1 +1,57 @@
-YenaEventYouModule.css
+.YenaEventYouModule_e_full {
+    width: 30px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.YenaEventYouModule_e_full>div {
+    width: 15px;
+    height: 600px;
+    position: absolute;
+}
+
+.YenaEventYouModule_e_full>div>p {
+    font-size: 15px;
+    line-height: 140%;
+    font-weight: 500;
+}
+
+.yena_e_you_div1 {
+    left: 0px;
+    animation: yena_e_you_div1 2s linear 0s infinite;
+}
+
+.yena_e_you_div2 {
+    left: 15px;
+    animation: yena_e_you_div2 2s linear 0s infinite;
+}
+
+@keyframes yena_e_you_div1 {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: -200px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes yena_e_you_div2 {
+    0% {
+        bottom: 0px;
+    }
+
+    50% {
+        bottom: -200px;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+}
