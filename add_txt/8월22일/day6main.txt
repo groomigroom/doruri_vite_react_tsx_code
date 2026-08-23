@@ -1,0 +1,208 @@
+import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
+import '../../triples/main/TriplesMain.css'
+import './DAY6Main.css';
+
+import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
+
+import Day_m_logo from './img/Day_m_logo.svg';
+import MainH2Deco from '../../img/main_h2_deco.png';
+import Day_m_img from './img/day6_m_day6.jpg';
+
+import Day_m_MemSungjin_img from './img/day6_m_mem_Sungjin.jpg';
+import Day_m_MemYoungK_img from './img/day6_m_mem_Youngk.jpg';
+import Day_m_MemWonpil_img from './img/day6_m_mem_Wonpil.jpg';
+import Day_m_MemDowoon_img from './img/day6_m_mem_Dowoon.jpg';
+
+import Day6EvenOfDay_m_img from '../units/EvenOfDay/img/Day6EvenOfDay_m_img.jpg';
+
+import Day6Instagram_icon_img from '../../triples/main/img/triples_instagram_icon.png';
+import Day6Youtube_icon_img from '../../triples/main/img/triples_youtube_icon.png';
+
+//191919
+
+export default function DAY6Main() {
+DoruriDocumentTitle('DAY6');
+
+return (
+<div className='day_m_full'>
+<header className='tri_m_header'>
+<Menu />
+            </header>
+<section className='tri_m_logo_section'>
+<img src={Day_m_logo} alt="day6 로고"/>
+            </section>
+<section className='tri_m_h2'>
+<h2><img src={MainH2Deco} alt="DAY6 꾸미기" />DAY6<img src={MainH2Deco} alt="DAY6 꾸미기" /></h2>
+      </section>
+<section className='tri_m_intropp'>
+<p>
+혹시 꿈을 찾고 있나요?<br />
+아니면 접고 있나요?<br />
+'DAY6'와 함께 꿈을 꿔봐요!
+</p>
+</section>
+<section className='tri_m_img'>
+<img src={Day_m_img} alt='DAY6' />
+</section>
+<section className='tri_m_h2'>
+<h2>▪ 멤버 ▪</h2>
+</section>
+<section className='tri_m_mem_tr_full'>
+<section className='tri_m_mem_tr2'>
+<Link to='/DayMemSungjin' className='tri_m_mem_a'>
+<article className='tri_m_mem'>
+<img src={Day_m_MemSungjin_img} alt="성진 이미지" /> 트리플에스 border
+<div>
+<h4>성진</h4>
+</div>
+</article>
+</Link>
+<Link to='/DayMemYoungK' className='tri_m_mem_a'>
+<article className='tri_m_mem'>
+<img src={Day_m_MemYoungK_img} alt="Young K 이미지" />
+<div>
+<h4>Young K</h4>
+</div>
+</article>
+</Link>
+
+</section>
+
+<section className='tri_m_mem_tr2'>
+<Link to='/DayMemWonpil' className='tri_m_mem_a'>
+<article className='tri_m_mem'>
+<img src={Day_m_MemWonpil_img} alt="원필 이미지" />
+<div>
+<h4>원필</h4>
+</div>
+</article>
+</Link>
+<Link to='/DayMemDowoon' className='tri_m_mem_a'>
+<article className='tri_m_mem'>
+<img src={Day_m_MemDowoon_img} alt="도운 이미지" />
+<div>
+<h4>도운</h4>
+</div>
+</article>
+</Link>
+
+</section>
+</section>
+
+{/* 모바일 멤버 보기 */}
+<section className="tri_m_mem_tr_full_mobile day_m_mem_tr_full_mobile">
+<section className="tri_m_mem_trtr">
+<section className='tri_m_mem_tr'>
+<Link to='/DayMemSungjin' className='tri_m_mem_a'>
+<img src={Day_m_MemSungjin_img} alt="성진 이미지" />
+<h4>성진</h4>
+</Link>
+<Link to='/DayMemYoungK' className='tri_m_mem_a'>
+<img src={Day_m_MemYoungK_img} alt="Young K 이미지" />
+<h4>Young K</h4>
+</Link>
+</section>
+</section>
+<section className="tri_m_mem_trtr">
+<section className='tri_m_mem_tr'>
+<Link to='/DayMemWonpil' className='tri_m_mem_a'>
+<img src={Day_m_MemWonpil_img} alt="원필 이미지" />
+<h4>원필</h4>
+</Link>
+<Link to='/DayMemDowoon' className='tri_m_mem_a'>
+<img src={Day_m_MemDowoon_img} alt="도운 이미지" />
+<h4>도운</h4>
+</Link>
+</section>
+</section>
+
+</section>
+<section className='tri_m_h2'>
+<h2>▪ 유닛 ▪</h2>
+</section>
+<section className='tro_m_mem_tr_full'>
+<section className='tri_m_mem_tr1'>
+<Link to='/Day6EvenOfDayMain' className='tri_m_mem_a'>
+<article className='tri_m_mem'>
+<img src={Day6EvenOfDay_m_img} alt="DAY6 (Even of Day)" />
+<div>
+<h4>DAY6 (Even<br />of Day)</h4>
+</div>
+</article>
+</Link>
+</section>
+</section>
+
+<section className='tri_m_h2'>
+<h2>▪ 이벤트 ▪</h2>
+</section>
+<section className='tri_m_mem_tr_full'>
+<section className='tri_m_mem_tr1'>
+<Link to='/Day6Event' className='tri_m_mem_a'>
+<article className='tri_m_mem'>
+<img src={Day_m_img} alt="day6 event" />
+<div>
+<h4>
+day6<br />
+이벤트
+</h4>
+</div>
+</article>
+</Link>
+</section>
+</section>
+
+<section className='tri_m_h2'>
+<h2>▪ 최신 앨범 ▪</h2>
+</section>
+<section className='tri_m_mem_tr_full'>
+<section className='tri_m_mem_tr1'>
+<Link to='/album' className='tri_m_mem_a'>
+<article className='tri_m_mem'>
+<img src='' alt="AlldayProjectIDonBargainAlbum" />
+<div>
+<h4>
+day6<br />
+BARGAIN
+</h4>
+</div>
+</article>
+</Link>
+</section>
+</section>
+
+<section className='tri_m_h2'>
+<h2>▪ sns ▪</h2>
+</section>
+<section className='tri_m_mem_tr_full'>
+<section className='tri_m_mem_tr2'>
+<a href="https://www.instagram.com/day6kilogram" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+<article className='tri_m_mem'>
+<img src={Day6Instagram_icon_img} alt="DAY6 인스타그램" />
+<div>
+<h4>
+인스타그램
+</h4>
+</div>
+</article>
+</a>
+<a href="https://www.youtube.com/channel/UCp-pqXsizklX3ZHvLxXyhxw" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+<article className='tri_m_mem'>
+<img src={Day6Youtube_icon_img} alt="DAY6 유튜브" />
+<div>
+<h4>
+유튜브
+</h4>
+</div>
+</article>
+</a>
+</section>
+</section>
+
+<FooterPart FooterPartText='ⓒ JYP엔터테인먼트' />
+</div>
+);
+};
