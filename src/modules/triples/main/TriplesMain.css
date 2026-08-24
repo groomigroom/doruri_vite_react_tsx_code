@@ -139,7 +139,6 @@
         height: 150px;
         display: block;
         border-radius: 25px;
-        border: 5px solid #191919;
         opacity: 1;
         transform: rotateY(0deg);
         transition: all 0.6s ease 0s;
@@ -160,7 +159,6 @@
         opacity: 0;
         transform: rotateY(-180deg);
         transition: all 0.6s ease 0s;
-        border: 5px solid #191919;
     }
 
     .tri_m_mem>div>h4 {
@@ -180,6 +178,15 @@
         opacity: 1;
         transform: rotateY(0deg);
     }
+
+    .tri_e_mem_imgborder {
+        border: 5px solid #191919;
+    }
+
+    /* 
+    .tri_e_mem_div {
+        border: 5px solid #191919;
+    } */
 
     /* 높이 20px */
 
