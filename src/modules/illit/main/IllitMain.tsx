@@ -31,61 +31,73 @@ export default function IllitMain() {
 
     return (
         <div className='ill_m_full'>
-            <Menu />
-            <section className="home_translate">
-                <Link to='/IllitMain' className="on">한국어</Link>
-                <Link to='/IllitMainEng'>English</Link>
+            <header className='tri_m_header'>
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/IllitMain' className="on">한국어</Link>
+                    <Link to='/IllitMainEng'>English</Link>
+                </section>
+            </header>
+            <section className='tri_m_logo_section'>
+                <img src={Ill_m_logo} alt="illit 로고" />
             </section>
-            <img src={Ill_m_logo} alt="illit 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="illit 로고 꾸미기" />ILLIT<img src={MainH2Deco} alt="illit 로고 꾸미기" /></h2>
-            <p className='tri_m_intropp'>
-                &apos;ILLIT&apos;과 함께<br />
-                Who's your bias?<br />
-                I'm your bias!
-            </p>
-            <img src={Ill_m_img} className='tri_m_img' alt='illit' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full ill_m_mem_tr_full'>
-                <section className='ill_m_mem_tr3'>
+            <section className='tri_m_h2'>
+                <h2><img src={MainH2Deco} alt="illit 로고 꾸미기" />ILLIT<img src={MainH2Deco} alt="illit 로고 꾸미기" /></h2>
+            </section>
+            <section className='tri_m_intropp'>
+                <p>
+                    &apos;ILLIT&apos;과 함께<br />
+                    Who's your bias?<br />
+                    I'm your bias!
+                </p>
+            </section>
+            <section className='tri_m_img'>
+                <img src={Ill_m_img} className='tri_m_mem_imgborder' alt='illit' />
+            </section>
+            <section className='tri_m_h2'>
+                <h2>▪ 멤버 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr3'>
                     <Link to='/IllMemYunah' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ill_m_MemYunah_img} alt="윤아 이미지" className='ill_m_mem_img' />
-                            <div>
+                            <img src={Ill_m_MemYunah_img} alt="윤아 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>윤아</h4>
                             </div>
                         </article>
                     </Link>
                     <Link to='/IllMemMinju' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ill_m_MemMinju_img} alt="민주 이미지" />
-                            <div>
+                            <img src={Ill_m_MemMinju_img} alt="민주 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>민주</h4>
                             </div>
                         </article>
                     </Link>
                     <Link to='/IllMemMoka' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ill_m_MemMoka_img} alt="모카 이미지" />
-                            <div>
+                            <img src={Ill_m_MemMoka_img} alt="모카 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>모카</h4>
                             </div>
                         </article>
                     </Link>
                 </section>
 
-                <section className='ill_m_mem_tr2'>
+                <section className='tri_m_mem_tr2'>
                     <Link to='/IllMemWonhee' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ill_m_MemWonhee_img} alt="원희 이미지" />
-                            <div>
+                            <img src={Ill_m_MemWonhee_img} alt="원희 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>원희</h4>
                             </div>
                         </article>
                     </Link>
                     <Link to='/IllMemEroha' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ill_m_MemEroha_img} alt="이로하 이미지" />
-                            <div>
+                            <img src={Ill_m_MemEroha_img} alt="이로하 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>이로하</h4>
                             </div>
                         </article>
@@ -131,13 +143,15 @@ export default function IllitMain() {
 
             </section>
 
-            <h2 className='tri_m_h2 illit_m_h2_4'>▪ 이벤트 ▪</h2>
-            <section className='tri_m_event_tr_full illit_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/IllitEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
-                            <img src={Ill_m_img} alt="illit event" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ 이벤트 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/IllitEvent' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={Ill_m_img} alt="illit event" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>MAMIH<br />
                                     이벤트</h4>
                             </div>
@@ -146,13 +160,15 @@ export default function IllitMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 illit_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full illit_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/IllitMamthlapinatapaiAlbum' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
-                            <img src={IllitMamthlapinatapaiAlbum_img} alt="IllitMamthlapinatapaiAlbum" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ 최신 앨범 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/IllitMamthlapinatapaiAlbum' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={IllitMamthlapinatapaiAlbum_img} alt="IllitMamthlapinatapaiAlbum" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>
                                     MAMIH<br />
                                     LAPINA<br />
@@ -164,23 +180,25 @@ export default function IllitMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 illit_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full illit_m_sns_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <a href="https://www.instagram.com/illit_official" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={IllitInstagram_img} alt="illit 인스타그램" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ sns ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr2'>
+                    <a href="https://www.instagram.com/illit_official" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={IllitInstagram_img} alt="illit 인스타그램" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>
                                     인스타그램
                                 </h4>
                             </div>
                         </article>
                     </a>
-                    <a href="https://www.youtube.com/@ILLIT_official" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={IllitYoutube_img} alt="illit 유튜브" />
-                            <div>
+                    <a href="https://www.youtube.com/@ILLIT_official" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={IllitYoutube_img} alt="illit 유튜브" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>
                                     유튜브
                                 </h4>
