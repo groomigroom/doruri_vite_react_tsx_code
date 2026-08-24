@@ -30,61 +30,73 @@ export default function ResMain() {
 
     return (
         <div className='res_m_full'>
-            <Menu />
-            <section className="home_translate">
-                <Link to='/ResMain' className="on">한국어</Link>
-                <Link to='/ResMainEng'>English</Link>
+            <header className='tri_m_header'>
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/ResMain' className="on">한국어</Link>
+                    <Link to='/ResMainEng'>English</Link>
+                </section>
+            </header>
+            <section className='tri_m_logo_section'>
+                <img src={Res_m_logo} alt="RESCENE 로고" />
             </section>
-            <img src={Res_m_logo} alt="RESCENE 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="RESCENE 꾸미기" />RESCENE<img src={MainH2Deco} alt="RESCENE 꾸미기" /></h2>
-            <p className='tri_m_intropp'>
-                &apos;RESCENE&apos;와 함께<br />
-                좋은 곳으로<br />
-                Runaway!
-            </p>
-            <img src={Res_m_img} className='tri_m_img' alt="rescene" />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full res_m_mem_tr_full'>
-                <section className='res_m_mem_tr3'>
+            <section className='tri_m_h2'>
+                <h2><img src={MainH2Deco} alt="RESCENE 꾸미기" />RESCENE<img src={MainH2Deco} alt="RESCENE 꾸미기" /></h2>
+            </section>
+            <section className='tri_m_intropp'>
+                <p>
+                    'RESCENE'와 함께<br />
+                    좋은 곳으로<br />
+                    Runaway!
+                </p>
+            </section>
+            <section className='tri_m_img'>
+                <img src={Res_m_img} alt="rescene" className='tri_m_mem_imgborder' />
+            </section>
+            <section className='tri_m_h2'>
+                <h2>▪ 멤버 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr3'>
                     <Link to='/ResMemWoni' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Res_m_MemWoni_img} alt="원이 이미지" />
-                            <div>
+                            <img src={Res_m_MemWoni_img} alt="원이 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder'>
                                 <h4>원이</h4>
                             </div>
                         </article>
                     </Link>
                     <Link to='/ResMemLiv' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Res_m_MemLiv_img} alt="리브 이미지" />
-                            <div>
+                            <img src={Res_m_MemLiv_img} alt="리브 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder'>
                                 <h4>리브</h4>
                             </div>
                         </article>
                     </Link>
                     <Link to='/ResMemMinami' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Res_m_MemMinami_img} alt="미나미 이미지" />
-                            <div>
+                            <img src={Res_m_MemMinami_img} alt="미나미 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder'>
                                 <h4>미나미</h4>
                             </div>
                         </article>
                     </Link>
                 </section>
 
-                <section className='res_m_mem_tr2'>
+                <section className='tri_m_mem_tr2'>
                     <Link to='/ResMemMay' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Res_m_MemMay_img} alt="메이 이미지" />
-                            <div>
+                            <img src={Res_m_MemMay_img} alt="메이 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder'>
                                 <h4>메이</h4>
                             </div>
                         </article>
                     </Link>
                     <Link to='/ResMemJena' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Res_m_MemJena_img} alt="제나 이미지" />
-                            <div>
+                            <img src={Res_m_MemJena_img} alt="제나 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder'>
                                 <h4>제나</h4>
                             </div>
                         </article>
@@ -130,13 +142,15 @@ export default function ResMain() {
 
             </section >
 
-            <h2 className='tri_m_h2 rescene_m_h2_4'>▪ 이벤트 ▪</h2>
-            <section className='tri_m_event_tr_full rescene_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/ResceneEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
-                            <img src={Res_m_img} alt="rescene event" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ 이벤트 ▪</h2>
+            </section >
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/ResceneEvent' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={Res_m_img} alt="rescene event" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder'>
                                 <h4>
                                     album<br />
                                     이벤트
@@ -147,13 +161,15 @@ export default function ResMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 rescene_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full rescene_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/RescenePrettyGirlSpecialSingleAlbum' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
-                            <img src={RescenePrettyGirlSpecialSingleAlbum_img} alt="Pretty Girl - Special Single" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ 최신 앨범 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/RescenePrettyGirlSpecialSingleAlbum' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={RescenePrettyGirlSpecialSingleAlbum_img} alt="Pretty Girl - Special Single" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder'>
                                 <h4>
                                     Pretty<br />
                                     Girl
@@ -164,23 +180,26 @@ export default function ResMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 rescene_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full rescene_m_sns_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <a href="https://www.instagram.com/rescene_official" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={ResceneInstagram_img} alt="리센느 인스타그램" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ sns ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr2'>
+
+                    <a href="https://www.instagram.com/rescene_official" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={ResceneInstagram_img} alt="리센느 인스타그램" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder'>
                                 <h4>
                                     인스타그램
                                 </h4>
                             </div>
                         </article>
                     </a>
-                    <a href="https://www.youtube.com/channel/UCtKtCiaWRz-d3EZn2xd1mdA" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={ResceneYoutube_img} alt="리센느 유튜브" />
-                            <div>
+                    <a href="https://www.youtube.com/channel/UCtKtCiaWRz-d3EZn2xd1mdA" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={ResceneYoutube_img} alt="리센느 유튜브" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder'>
                                 <h4>
                                     유튜브
                                 </h4>
@@ -194,4 +213,3 @@ export default function ResMain() {
         </div >
     );
 };
-
