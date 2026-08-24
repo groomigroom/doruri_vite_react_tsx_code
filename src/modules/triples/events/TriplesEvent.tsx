@@ -9,6 +9,7 @@ import FooterPart from "../../FooterPart";
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 
+import '../main/TriplesMain.css';
 import "./TriplesEvent.css";
 import TriEventLogo from "./img/tri_events_logo.png";
 import TriEventS1 from "../main/img/tri_m_memS1.jpg";
@@ -143,7 +144,7 @@ export default function TriplesEvent() {
 
     return (
         <div className="triplesevent_full">
-            <header className="triples_e_header">
+            <header className="tri_m_header">
                 <Menu />
                 <section className="home_translate">
                     <Link to='/TriplesEvent' className="on">한국어</Link>
@@ -153,10 +154,10 @@ export default function TriplesEvent() {
             <section className="tri_e_logo">
                 <img src={TriEventLogo} alt="트리플에스 이벤트 로고" />
             </section>
-            <section className="tri_e_h2">
+            <section className="tri_m_h2">
                 <h2><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />이름 맞히기 이벤트<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
             </section>
-            <section className='tri_e_intropp'>
+            <section className='tri_m_intropp'>
                 <p>
                     &apos;tripleS&apos;<br />
                     멤버들 이름을<br />
