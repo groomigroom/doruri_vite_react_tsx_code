@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
+import '../../triples/main/TriplesMain.css';
 import "../../triples/events/TriplesEvent.css";
 import "./AkmuEvent.css";
 import Menu from "../../Menu";
@@ -17,7 +18,7 @@ export default function AkmuEvent() {
 
     return (
         <div className="akmuevent_full">
-            <header className="triples_e_header">
+            <header className="tri_m_header">
                 <Menu />
                 <section className="home_translate">
                     <Link to='/AkmuEvent' className="on">한국어</Link>
@@ -27,10 +28,10 @@ export default function AkmuEvent() {
             <section className="tri_e_logo">
                 <img src={Akmu_e_m_logo} alt="악뮤 이벤트 로고" />
             </section>
-            <section className="tri_e_h2">
+            <section className="tri_m_h2">
                 <h2><img src={MainH2Deco} alt="" />ㅇㅇ<img src={MainH2Deco} alt="" /></h2>
             </section>
-            <section className='tri_e_intropp'>
+            <section className='tri_m_intropp'>
                 <p>
                     3줄 소개글<br />
                     3줄 소개글<br />
@@ -55,7 +56,22 @@ export default function AkmuEvent() {
                 </div>
             </form>
             <div>
-                {akmu_e_check_value === '1' && <p className="akmu_e_result">1번 선택함 당첨</p>}
+                {akmu_e_check_value === '1' && 
+                    (<>
+                                <section className="tri_e_p_win_intropp">
+                                    <p>
+                                        당첨을 축하드려요!<br />
+                                        상품은 키링입니다.<br />
+                                        이벤트에 관심가져 주셔서 감사합니다.<br />
+                                        이 이벤트는 가상의 이벤트입니다.<br />
+                                        참고해 주시길 부탁드리겠습니다.<br />
+                                    </p>
+                                </section>
+                                <section className="tri_e_p_win_present_150">
+                                    <img src={""} alt="" className="txt_e_p_win_present_img" />
+                                </section>
+                            </>)
+                }
                 {akmu_e_check_value === '2' && <p className="akmu_e_result">2번 선택함</p>}
                 {akmu_e_check_value === '3' && <p className="akmu_e_result">3번 선택함</p>}
             </div>
