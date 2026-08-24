@@ -386,6 +386,8 @@ import Bol4MainEng from './bol4Eng/main/Bol4MainEng';
 
 import Bol4Event from './bol4/events/Bol4Event';
 
+import Bol4FindYouEvent from './bol4/events/Bol4FindYouEvent';
+
 import Bol4FindYouAlbum from './bol4/albums/Bol4FindYouAlbum';
 import Bol4FindYouAlbumEng from './bol4Eng/albums/Bol4FindYouAlbumEng';
 import Bol4SummerPleaseAlbum from './bol4/albums/Bol4SummerPleaseAlbum';
@@ -968,6 +970,8 @@ export default function RoutesSetup() {
             <Route path='/Bol4MainEng' element={<Bol4MainEng />}></Route>
 
             <Route path='/Bol4Event' element={<Bol4Event />}></Route>
+
+            <Route path='/Bol4FindYouEvent' element={<Bol4FindYouEvent />}></Route>
 
             <Route path='/Bol4FindYouAlbum' element={<Bol4FindYouAlbum />}></Route>
             <Route path='/Bol4FindYouAlbumEng' element={<Bol4FindYouAlbumEng />}></Route>
