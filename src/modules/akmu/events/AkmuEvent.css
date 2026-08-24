@@ -1,7 +1,5 @@
 .akmuevent_full {
     width: 100vw;
-    height: 1000px;
-    position: relative;
     background-color: #fcfcfc;
 }
 
@@ -16,10 +14,6 @@ input[name=akmu_event] {
     display: none;
 }
 
-.akmu_e_result {
-    position: absolute;
-    top: 600px;
-}
 
 .akmu_e_checklabel {
     width: 40px;
