@@ -3,11 +3,6 @@
     background-color: #fcfcfc;
 }
 
-.triples_e_header {
-    width: 100vw;
-    height: 140px;
-    position: relative;
-}
 
 .tri_e_logo {
     width: 100vw;
@@ -21,36 +16,6 @@
     top: 0px;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.tri_e_h2 {
-    width: 100vw;
-    height: 60px;
-    position: relative;
-}
-
-.tri_e_h2>h2 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.tri_e_h2>h2>img {
-    margin: 0 20px;
-}
-
-.tri_e_h2>h2>img:last-child {
-    transform: rotateZ(180deg);
-}
-
-.tri_e_intropp {
-    width: 100vw;
-    height: 103px;
-    position: relative;
 }
 
 .tri_e_intropp>p {
