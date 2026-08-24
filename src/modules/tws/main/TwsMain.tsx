@@ -31,68 +31,80 @@ export default function TwsMain() {
 
     return (
         <div className='tws_m_full'>
-            <Menu />
-            <section className="home_translate">
-                <Link to='/TwsMain' className="on">한국어</Link>
-                <Link to='/TwsMainEng'>English</Link>
+            <header className='tri_m_header'>
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/TwsMain' className="on">한국어</Link>
+                    <Link to='/TwsMainEng'>English</Link>
+                </section>
+            </header>
+            <section className='tri_m_logo_section'>
+                <img src={Tws_m_logo} alt="TWS 로고" />
             </section>
-            <img src={Tws_m_logo} alt="TWS 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="TWS 로고 꾸미기" />TWS<img src={MainH2Deco} alt="TWS 로고 꾸미기" /></h2>
-            <p className='tri_m_intropp'>
-                Twenty four seven<br />
-                &apos;TWS&apos;와 함께<br />
-                새로운 가능성을 찾아 봐요!</p>
-            <img src={Tws_m_img} className='tri_m_img' alt='tws' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full tws_m_mem_tr_full'>
-                <section className='tri_m_mem_tr'>
+            <section className='tri_m_h2'>
+                <h2><img src={MainH2Deco} alt="TWS 로고 꾸미기" />TWS<img src={MainH2Deco} alt="TWS 로고 꾸미기" /></h2>
+            </section>
+            <section className='tri_m_intropp'>
+                <p>
+                    Twenty four seven<br />
+                    'TWS'와 함께<br />
+                    새로운 가능성을 찾아 봐요!</p>
+            </section>
+            <section className='tri_m_img'>
+                <img src={Tws_m_img} alt='tws' className='tri_m_mem_imgborder' />
+            </section>
+            <section className='tri_m_h2'>
+                <h2>▪ 멤버 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr3'>
                     <Link to='/TwsMemSinyu' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Tws_m_MemSinyu_img} alt="신유 이미지" />
-                            <div>
+                            <img src={Tws_m_MemSinyu_img} alt="신유 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>신유</h4>
                             </div>
                         </article>
                     </Link>
                     <Link to='/TwsMemDohun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Tws_m_MemDohun_img} alt="도훈 이미지" />
-                            <div>
+                            <img src={Tws_m_MemDohun_img} alt="도훈 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>도훈</h4>
                             </div>
                         </article>
                     </Link>
                     <Link to='/TwsMemYoungjae' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Tws_m_MemYoungjae_img} alt="영재 이미지" />
-                            <div>
+                            <img src={Tws_m_MemYoungjae_img} alt="영재 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>영재</h4>
                             </div>
                         </article>
                     </Link>
                 </section>
 
-                <section className='tri_m_mem_tr'>
+                <section className='tri_m_mem_tr3'>
                     <Link to='/TwsMemHanjin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Tws_m_MemHanjin_img} alt="한진 이미지" />
-                            <div>
+                            <img src={Tws_m_MemHanjin_img} alt="한진 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>한진</h4>
                             </div>
                         </article>
                     </Link>
                     <Link to='/TwsMemJihun' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Tws_m_MemJihun_img} alt="지훈 이미지" />
-                            <div>
+                            <img src={Tws_m_MemJihun_img} alt="지훈 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>지훈</h4>
                             </div>
                         </article>
                     </Link>
                     <Link to='/TwsMemGyungmin' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Tws_m_MemGyungmin_img} alt="경민 이미지" />
-                            <div>
+                            <img src={Tws_m_MemGyungmin_img} alt="경민 이미지" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>경민</h4>
                             </div>
                         </article>
@@ -142,13 +154,16 @@ export default function TwsMain() {
 
             </section>
 
-            <h2 className='tri_m_h2 tws_m_h2_4'>▪ 이벤트 ▪</h2>
-            <section className='tri_m_event_tr_full tws_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/TwsEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
-                            <img src={Tws_m_img} alt="tws event" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ 이벤트 ▪</h2>
+            </section>
+
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/TwsEvent' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={Tws_m_img} alt="tws event" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>
                                     NO<br />
                                     TRAGEDY<br />
@@ -160,13 +175,16 @@ export default function TwsMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 tws_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full tws_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/TwsNoTragedyAlbum' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
-                            <img src={TwsNoTragedyAlbum_img} alt="TwsNoTragedyAlbum" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ 최신 앨범 ▪</h2>
+            </section>
+
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/TwsNoTragedyAlbum' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={TwsNoTragedyAlbum_img} alt="TwsNoTragedyAlbum" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>
                                     NO<br />
                                     TRAGEDY
@@ -177,23 +195,25 @@ export default function TwsMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 tws_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full tws_m_sns_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <a href="https://www.instagram.com/tws_pledis" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={TwsInstagram_img} alt="tws 인스타그램" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ sns ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr2'>
+                    <a href="https://www.instagram.com/tws_pledis" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={TwsInstagram_img} alt="tws 인스타그램" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>
                                     인스타그램
                                 </h4>
                             </div>
                         </article>
                     </a>
-                    <a href="https://www.youtube.com/@TWS_PLEDIS" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={TwsYoutube_img} alt="tws 유튜브" />
-                            <div>
+                    <a href="https://www.youtube.com/@TWS_PLEDIS" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={TwsYoutube_img} alt="tws 유튜브" className='tri_m_mem_imgborder' />
+                            <div className='tri_m_mem_imgborder' >
                                 <h4>
                                     유튜브
                                 </h4>
