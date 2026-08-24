@@ -27,25 +27,37 @@ export default function AespaMain() {
 
     return (
         <div className='aes_m_full'>
-            <Menu />
-            <section className="home_translate">
-                <Link to='/AespaMain' className="on">한국어</Link>
-                <Link to='/AespaMainEng'>English</Link>
+            <header className='tri_m_header'>
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/AespaMain' className="on">한국어</Link>
+                    <Link to='/AespaMainEng'>English</Link>
+                </section>
+            </header>
+            <section className='tri_m_logo_section'>
+                <img src={Aes_m_logo} alt="aespa 로고" />
             </section>
-            <img src={Aes_m_logo} alt="aespa 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="aespa 로고 꾸미기" />aespa<img src={MainH2Deco} alt="aespa 로고 꾸미기" /></h2>
-            <p className='tri_m_intropp'>
-                &apos;aespa&apos;와 함께<br />
-                다른 세계에서<br />
-                Lemonade를 만들어 봐요!
-            </p>
-            <img src={Aes_m_img} className='tri_m_img' alt='aespa' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full aes_m_mem_tr_full'>
-                <section className='tri_m_mem_tr'>
+            <section className='tri_m_h2'>
+                <h2><img src={MainH2Deco} alt="aespa 로고 꾸미기" />aespa<img src={MainH2Deco} alt="aespa 로고 꾸미기" /></h2>
+            </section>
+            <section className='tri_m_intropp'>
+                <p>
+                    'aespa'와 함께<br />
+                    다른 세계에서<br />
+                    Lemonade를 만들어 봐요!
+                </p>
+            </section>
+            <section className='tri_m_img'>
+                <img src={Aes_m_img} alt='aespa' />
+            </section>
+            <section className='tri_m_h2'>
+                <h2>▪ 멤버 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr2'>
                     <Link to='/AesMemKarina' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Aes_m_MemKarina_img} alt="카리나 이미지" />
+                            <img src={Aes_m_MemKarina_img} alt="카리나 이미지" />트리플에스꺼 border
                             <div>
                                 <h4>카리나</h4>
                             </div>
@@ -62,7 +74,7 @@ export default function AespaMain() {
 
                 </section>
 
-                <section className='tri_m_mem_tr'>
+                <section className='tri_m_mem_tr2'>
                     <Link to='/AesMemWinter' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
                             <img src={Aes_m_MemWinter_img} alt="윈터 이미지" />
@@ -79,7 +91,6 @@ export default function AespaMain() {
                             </div>
                         </article>
                     </Link>
-
 
                 </section>
             </section>
@@ -112,12 +123,13 @@ export default function AespaMain() {
                 </section>
 
             </section>
-
-            <h2 className='tri_m_h2 aespa_m_h2_4'>▪ 이벤트 ▪</h2>
-            <section className='tri_m_event_tr_full aespa_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/AespaEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
+            <section className='tri_m_h2'>
+                <h2>▪ 이벤트 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/AespaEvent' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={Aes_m_img} alt="aespa event" />
                             <div>
                                 <h4>
@@ -130,11 +142,13 @@ export default function AespaMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 aespa_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full aespa_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/AespaAlbum' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
+            <section className='tri_m_h2'>
+                <h2>▪ 최신 앨범 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/AespaAlbum' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src='' alt="TenCMTheDarkestNightAlbum" />
                             <div>
                                 <h4>
@@ -148,11 +162,13 @@ export default function AespaMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 aespa_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full aespa_m_sns_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <a href="https://www.instagram.com/aespa_official" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
+            <section className='tri_m_h2'>
+                <h2>▪ sns ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr2'>
+                    <a href="https://www.instagram.com/aespa_official" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={AespaInstagram_icon_img} alt="aespa 인스타그램" />
                             <div>
                                 <h4>
@@ -161,8 +177,8 @@ export default function AespaMain() {
                             </div>
                         </article>
                     </a>
-                    <a href="https://www.youtube.com/@aespa" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
+                    <a href="https://www.youtube.com/@aespa" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
                             <img src={AespaYoutube_icon_img} alt="aespa 유튜브" />
                             <div>
                                 <h4>
