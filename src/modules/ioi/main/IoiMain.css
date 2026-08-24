@@ -1,11 +1,10 @@
-.ioi_m_img {
+.ioi_m_mem_imgborder {
     border: 5px solid #F4CE9D;
 }
 
 @media (min-width: 975px) {
     .ioi_m_full {
         width: 100vw;
-        height: 2413px;
         position: relative;
         background-color: #fcfcfc;
     }
