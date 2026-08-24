@@ -23,26 +23,38 @@ export default function TenCMMain() {
 
     return (
         <div className='ten_m_full'>
-            <Menu />
-            <section className="home_translate">
-                <Link to='/TenCMMain' className="on">한국어</Link>
-                <Link to='/TenCMMainEng'>English</Link>
+            <header className='tri_m_header'>
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/TenCMMain' className="on">한국어</Link>
+                    <Link to='/TenCMMainEng'>English</Link>
+                </section>
+            </header>
+            <section className='tri_m_logo_section'>
+                <img src={Ten_m_logo} alt="10CM 로고" className='tri_m_logo' />
             </section>
-            <img src={Ten_m_logo} alt="10CM 로고" className='tri_m_logo' />
-            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="10CM 꾸미기" />10CM<img src={MainH2Deco} alt="10CM 꾸미기" /></h2>
-            <p className='tri_m_intropp'>
-                &apos;10CM&apos;와 함께<br />
-                불안한 마음이 있더라도<br />
-                힘내 보아요!
-            </p>
-            <img src={Ten_m_img} className='tri_m_img ten_m_img' alt='10CM' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full ten_m_mem_tr_full'>
-                <section className='tri_m_mem_tr'>
+            <section className='tri_m_h2'>
+                <h2><img src={MainH2Deco} alt="10CM 꾸미기" />10CM<img src={MainH2Deco} alt="10CM 꾸미기" /></h2>
+            </section>
+            <section className='tri_m_intropp'>
+                <p>
+                    '10CM'와 함께<br />
+                    불안한 마음이 있더라도<br />
+                    힘내 보아요!
+                </p>
+            </section>
+            <section className='tri_m_img'>
+                <img src={Ten_m_img} className='TenCm_m_mem_imgborder' alt='10CM' />
+            </section>
+            <section className='tri_m_h2'>
+                <h2>▪ 멤버 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
                     <Link to='/TenMemGwonjungyeol' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
-                            <img src={Ten_m_img} alt="권정열 이미지" />
-                            <div>
+                            <img src={Ten_m_img} alt="권정열 이미지" className='TenCm_m_mem_imgborder' />
+                            <div className='TenCm_m_mem_imgborder'>
                                 <h4>권정열</h4>
                             </div>
                         </article>
@@ -62,13 +74,15 @@ export default function TenCMMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 ten_m_h2_4'>▪ 이벤트 ▪</h2>
-            <section className='tri_m_event_tr_full ten_m_event_tr_full'>
-                <section className='tri_m_event_tr'>
-                    <Link to='/TenCMEvent' className='tri_m_event_a'>
-                        <article className='tri_m_events'>
-                            <img src={Ten_m_img} alt="10cm event" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ 이벤트 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/TenCMEvent' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={Ten_m_img} alt="10cm event" className='TenCm_m_mem_imgborder' />
+                            <div className='TenCm_m_mem_imgborder'>
                                 <h4>
                                     Darkest<br />
                                     Night<br />
@@ -80,13 +94,15 @@ export default function TenCMMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 ten_m_h2_5'>▪ 최신 앨범 ▪</h2>
-            <section className='tri_m_album_tr_full ten_m_album_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <Link to='/TenCMTheDarkestNightAlbum' className='tri_m_album_a'>
-                        <article className='tri_m_albums'>
-                            <img src={TenCMTheDarkestNightAlbum_img} alt="TenCMTheDarkestNightAlbum" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ 최신 앨범 ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr1'>
+                    <Link to='/TenCMTheDarkestNightAlbum' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={TenCMTheDarkestNightAlbum_img} alt="TenCMTheDarkestNightAlbum" className='TenCm_m_mem_imgborder' />
+                            <div className='TenCm_m_mem_imgborder'>
                                 <h4>
                                     The<br />
                                     Darkest<br />
@@ -98,23 +114,25 @@ export default function TenCMMain() {
                 </section>
             </section>
 
-            <h2 className='tri_m_h2 ten_m_h2_6'>▪ sns ▪</h2>
-            <section className='tri_m_sns_tr_full ten_m_sns_tr_full'>
-                <section className='tri_m_album_tr'>
-                    <a href="https://www.instagram.com/10cm_official_kr" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={TenCM_instagram_img} alt="10CM 인스타그램" />
-                            <div>
+            <section className='tri_m_h2'>
+                <h2>▪ sns ▪</h2>
+            </section>
+            <section className='tri_m_mem_tr_full'>
+                <section className='tri_m_mem_tr2'>
+                    <a href="https://www.instagram.com/10cm_official_kr" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={TenCM_instagram_img} alt="10CM 인스타그램" className='TenCm_m_mem_imgborder' />
+                            <div className='TenCm_m_mem_imgborder'>
                                 <h4>
                                     인스타그램
                                 </h4>
                             </div>
                         </article>
                     </a>
-                    <a href="https://www.youtube.com/@10cmofficial_channel" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-                        <article className='tri_m_snss'>
-                            <img src={TenCM_youtube_img} alt="10CM 유튜브" />
-                            <div>
+                    <a href="https://www.youtube.com/@10cmofficial_channel" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={TenCM_youtube_img} alt="10CM 유튜브" className='TenCm_m_mem_imgborder' />
+                            <div className='TenCm_m_mem_imgborder'>
                                 <h4>
                                     유튜브
                                 </h4>
