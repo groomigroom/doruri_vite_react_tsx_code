@@ -24,3 +24,5 @@ export default function BtsEvent() {
         </div>
     );
 }
+
+// 10초 뒤에 싹 다 가려버리고 결과 등장하게
