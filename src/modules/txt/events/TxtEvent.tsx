@@ -6,7 +6,7 @@ import "./TxtEvent.css";
 
 import TxtELogo from "./img/txt_e_logo.png";
 import Menu from "../../Menu";
-import FooterPart from "../../FooterPart";
+import FooterPart100vh from "../../FooterPart100vh";
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 import Txt_e_keyring_set_img from './img/txt_e_keyring_img.jpg';
@@ -37,7 +37,7 @@ export default function TxtEvent() {
     const txt_e_ClPopup = () => txt_e_SetPopupO(false);
     return (
         <div className="txt_e_full">
-            <header className="triples_e_header">
+            <header className="tri_m_header">
                 <Menu />
                 <section className="home_translate">
                     <Link to='/TxtEvent' className="on">한국어</Link>
@@ -47,7 +47,7 @@ export default function TxtEvent() {
             <section className="tri_e_logo">
                 <img src={TxtELogo} alt="TxtELogo" />
             </section>
-            <section className="tri_e_h2">
+            <section className="tri_m_h2">
                 <h2>
                     <img src={MainH2Deco} alt="투모루우바이투게더" />&apos;하루에 하루만 더&apos; 가사 맟주기 이벤트<img src={MainH2Deco} alt="투모루우바이투게더" />
                 </h2>
@@ -81,7 +81,7 @@ export default function TxtEvent() {
                 txt_e_PopopO && (
                     <section className="tri_e_last_win_part">
                         <div className="tri_e_ghost_40px"></div>
-                        <section className="tri_e_h2">
+                        <section className="tri_m_h2">
                             <h2>
                                 <img src={MainH2Deco} alt="투모루우바이투게더" />{txt_e_last_str}<img src={MainH2Deco} alt="투모루우바이투게더" />
                             </h2>
@@ -115,7 +115,7 @@ export default function TxtEvent() {
                     </section>
                 )
             }
-            <FooterPart FooterPartText='ⓒ 빅히트 뮤직' />
+            <FooterPart100vh FooterPartText='ⓒ 빅히트 뮤직' />
         </div >
     );
 };
