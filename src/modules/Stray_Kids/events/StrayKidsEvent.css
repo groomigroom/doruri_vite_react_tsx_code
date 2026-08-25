@@ -1,14 +1,17 @@
 .straykidsEvent_full {
     width: 100vw;
-    height: 1000px;
-    position: relative;
+    background-color: #fcfcfc;
 }
 
 .str_e_form_part {
-    width: 150px;
-    height: 210px;
+    width: 100vw;
+}
+
+.str_e_form_indiv_wrap {
+    width: 100vw;
+    height: 70px;
     position: relative;
-    margin: 0 auto;
+
 }
 
 .str_e_form_indiv {
@@ -17,6 +20,9 @@
     border: 5px solid #191919;
     border-radius: 10px;
     position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .str_e_form_indiv>input {
@@ -28,22 +34,4 @@
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
-}
-
-.str_e_form_indiv1 {
-    top: 0px;
-
-}
-
-.str_e_form_indiv2 {
-    top: 70px;
-}
-
-.str_e_form_indiv3 {
-    top: 140px;
-}
-
-.str_e_last_result {
-    position: absolute;
-    top: 210px;
 }
