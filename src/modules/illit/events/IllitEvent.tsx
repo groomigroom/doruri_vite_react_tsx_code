@@ -38,7 +38,7 @@ export default function IllitEvent() {
 
     return (
         <div className="IllitEvent_full">
-            <header className="triples_e_header">
+            <header className="tri_m_header">
                 <Menu />
                 <section className="home_translate">
                     <Link to='/IllitEvent' className="on">한국어</Link>
@@ -48,14 +48,14 @@ export default function IllitEvent() {
             <section className="tri_e_logo">
                 <img src={Illit_e_m_logo} alt="ILLIT 이벤트 로고" />
             </section>
-            <section className="tri_e_h2">
-                <h2><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />노래 제목 맞히기 이벤트<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
+            <section className="tri_m_h2">
+                <h2><img src={MainH2Deco} alt="ILLIT" />노래 제목 맞히기 이벤트<img src={MainH2Deco} alt="ILLIT" /></h2>
             </section>
-            <section className='tri_e_intropp'>
+            <section className='tri_m_intropp'>
                 <p>
-                    3줄 소개글<br />
-                    3줄 소개글<br />
-                    3줄 소개글
+                    &apos;MAMIHLAPINATAPAI&apos; 앨범의<br />
+                    타이틀 곡 제목에<br />
+                    들어 가는 알파벳을 골라 주세요!
                 </p>
             </section>
             <section className='ill_e_button_train_full_wrap'>
