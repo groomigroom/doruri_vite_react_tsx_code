@@ -11,7 +11,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 import Akmu_e_m_logo from './img/akmu_e_m_logo.png';
 
 export default function AkmuEvent() {
-    DoruriDocumentTitle('AKMU 개화 이벤트');
+    DoruriDocumentTitle('AKMU 이벤트');
 
     const [akmu_e_check_value, setAkmu_e_check_value] = useState<string>('');
 
