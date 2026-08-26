@@ -106,3 +106,7 @@ input[id=akmu_e_check3]:checked~.akmu_e_check3_label>h4 {
     left: 20px;
 
 }
+
+.akmu_e_p_win_present_img {
+    border: 5px solid #13983f;
+}
