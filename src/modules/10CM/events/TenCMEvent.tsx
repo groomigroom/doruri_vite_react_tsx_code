@@ -63,7 +63,7 @@ export default function TenCMEvent() {
 
     return (
         <div className="TenCMEvent_full">
-            <header className="triples_e_header">
+            <header className="tri_m_header">
                 <Menu />
                 <section className="home_translate">
                     <Link to='/TenCMEvent' className="on">한국어</Link>
@@ -73,10 +73,10 @@ export default function TenCMEvent() {
             <section className="tri_e_logo">
                 <img src={TenCM_e_m_logo} alt="10CM 이벤트 로고" />
             </section>
-            <section className="tri_e_h2">
+            <section className="tri_m_h2">
                 <h2><img src={MainH2Deco} alt="10CM" />숫자 입력 이벤트<img src={MainH2Deco} alt="10CM" /></h2>
             </section>
-            <section className='tri_e_intropp'>
+            <section className='tri_m_intropp'>
                 <p>
                     1부터 5까지의<br />
                     숫자를 1번씩 사용해서<br />
