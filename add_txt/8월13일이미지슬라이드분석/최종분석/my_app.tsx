@@ -2,6 +2,8 @@ import { useState, useEffect, useRef } from 'react';
 //https://github.com/groomigroom/react_vite_study/blob/main/dictionary_web_parts/u/useEffect.txt
 //https://github.com/groomigroom/react_vite_study/blob/main/dictionary_web_parts/u/useRef.html
 
+import './App.css';
+
 import groomi1 from './groomi_imgs/groomi1.jpg';
 import groomi2 from './groomi_imgs/groomi2.jpg';
 import groomi3 from './groomi_imgs/groomi3.jpg';
@@ -56,18 +58,20 @@ function App() {
 
   return (
     <>
-      <div
-        onTransitionEnd={handleTransitionEnd}
-        style={{
-          display: "flex",
-          transform: `translateX(-${currentIndex * 100}%)`,
-          transition: isTransitioning ? "transform 0.6s ease 0s" : "none",
-        }}
-      >
-        {/* onTransitionEnd는 React TSX에서 CSS Transition(애니메이션 효과)이 완전히 끝났을 때 특정 함수를 실행하도록 만드는 이벤트 핸들러입니다. */}
-        <img src={IMAGES[0]} alt="" />
-        <img src={IMAGES[1]} alt="" />
-        <img src={IMAGES[2]} alt="" />
+      <div style={{ width: "300px", height: "500px", overflow: "hidden" }}>
+        <div
+          onTransitionEnd={handleTransitionEnd}
+          style={{
+            display: "flex",
+            transform: `translateX(-${currentIndex * 300}px)`,
+            transition: isTransitioning ? "transform 0.6s ease 0s" : "none",
+          }}
+        >
+          {/* onTransitionEnd는 React TSX에서 CSS Transition(애니메이션 효과)이 완전히 끝났을 때 특정 함수를 실행하도록 만드는 이벤트 핸들러입니다. */}
+          <img src={IMAGES[0]} alt="" className="slide_image" />
+          <img src={IMAGES[1]} alt="" className="slide_image" />
+          <img src={IMAGES[2]} alt="" className="slide_image" />
+        </div>
       </div>
     </>
   )
