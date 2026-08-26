@@ -18,7 +18,7 @@ export default function TwsEvent() {
 
     return (
         <div className="twsEvent_full">
-            <header className="triples_e_header">
+            <header className="tri_m_header">
                 <Menu />
                 <section className="home_translate">
                     <Link to='/TwsEvent' className="on">한국어</Link>
@@ -28,14 +28,14 @@ export default function TwsEvent() {
             <section className="tri_e_logo">
                 <img src={Tws_e_m_logo} alt="TWS 이벤트 로고" />
             </section>
-            <section className="tri_e_h2">
+            <section className="tri_m_h2">
                 <h2><img src={MainH2Deco} alt="TWS" />별 클릭 이벤트<img src={MainH2Deco} alt="TWS" /></h2>
             </section>
-            <section className='tri_e_intropp'>
+            <section className='tri_m_intropp'>
                 <p>
-                    3줄 소개글<br />
-                    3줄 소개글<br />
-                    3줄 소개글
+                    빠르게 나타났다가<br />
+                    사라지는 별을<br />
+                    클릭해 주세요!
                 </p>
             </section>
             <section className='tws_e_star_part_full'>
