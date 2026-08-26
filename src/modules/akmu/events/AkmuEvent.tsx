@@ -9,6 +9,7 @@ import Menu from "../../Menu";
 
 import MainH2Deco from '../../img/main_h2_deco.png';
 import Akmu_e_m_logo from './img/akmu_e_m_logo.png';
+import Akmu_e_p_win_present from './img/akmu_event_eco_bag_img.jpg';
 
 export default function AkmuEvent() {
     DoruriDocumentTitle('AKMU 이벤트');
@@ -77,7 +78,7 @@ export default function AkmuEvent() {
                                     </p>
                                 </section>
                                 <section className="tri_e_p_win_present_150">
-                                    <img src={''} alt="" className="txt_e_p_win_present_img" />
+                                    <img src={Akmu_e_p_win_present} alt="" className="akmu_e_p_win_present_img" />
                                 </section>
                     </section>)
                 }
