@@ -95,6 +95,20 @@ export default function StrayKidsEvent() {
                                 <img src={MainH2Deco} alt="stray kids" />당첨입니다.<img src={MainH2Deco} alt="stray kids" />
                             </h2>
                         </section>
+                        <section className="tri_e_p_win_present_150">
+                            <div>
+                                <h3>가사집</h3>
+                                <p>가사 내용 ----<br/>
+                                ----------------<br/>
+                                ----------------<br/>
+                                ----------------<br/>
+                                ----------------<br/>
+                                ----------------<br/>
+                                ----------------
+                                </p>
+                            </div>
+                            <img src={''} alt="" className="akmu_e_p_win_present_img" />
+                        </section>
                     </section>)
                 }
             </form>
