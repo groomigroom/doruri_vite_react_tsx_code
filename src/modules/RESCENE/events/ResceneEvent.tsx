@@ -19,7 +19,7 @@ export default function ResceneEvent() {
 
     return (
         <div className="ResceneEvent_full">
-            <header className="triples_e_header">
+            <header className="tri_m_header">
                 <Menu />
                 <section className="home_translate">
                     <Link to='/ResceneEvent' className="on">한국어</Link>
@@ -29,14 +29,14 @@ export default function ResceneEvent() {
             <section className="tri_e_logo">
                 <img src={Rescene_e_m_logo} alt="RESCENE 이벤트 로고" />
             </section>
-            <section className="tri_e_h2">
+            <section className="tri_m_h2">
                 <h2><img src={MainH2Deco} alt="트리플에스 로고 꾸미기" />자동차 클릭 이벤트<img src={MainH2Deco} alt="트리플에스 로고 꾸미기" /></h2>
             </section>
-            <section className='tri_e_intropp'>
+            <section className='tri_m_intropp'>
                 <p>
-                    3줄 소개글<br />
-                    3줄 소개글<br />
-                    3줄 소개글
+                    어디서나 당당하게<br />
+                    나아가는 자동차를<br />
+                    3번 클릭해 주세요!
                 </p>
             </section>
             <section className="rescene_e_moving_car_section">
