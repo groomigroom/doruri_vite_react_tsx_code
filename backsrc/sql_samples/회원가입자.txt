@@ -1,4 +1,4 @@
-('kimgroomiee', '김구름', 'groom333@@@'),
+8('kimgroomiee', '김구름', 'groom333@@@'),
 ('bbkimgroomiee', '박구름', 'grdbme333@@@'),
 ('dgurime', '구루미', '!djopw3323'),
 ('kimkimgugu', '김구름', 'lalalalww@@11'),
@@ -8,3 +8,4 @@
 ('burisae', '임리오', 'buriburidd22'),
 ('zuri11@2', '코네토', 'konetoneto##'),
 ('barkhunggungju', '박헝주', 'djkwkl33@@!!'),
+('hangjijiwon', '항지원', 'hhajjs@@!!'),
