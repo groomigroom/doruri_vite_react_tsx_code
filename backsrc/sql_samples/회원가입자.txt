@@ -1,2 +1,3 @@
 ('kimgroomiee', '김구름', 'groom333@@@'),
 ('bbkimgroomiee', '박구름', 'grdbme333@@@'),
+('dgurime', '구루미', '!djopw3323'),
