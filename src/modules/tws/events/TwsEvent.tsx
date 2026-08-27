@@ -50,7 +50,7 @@ export default function TwsEvent() {
                     <div className="tri_e_ghost_40px"></div>
                     <section className="tri_m_h2">
                         <h2>
-                            <img src={MainH2Deco} alt="stray kids" />당첨입니다.<img src={MainH2Deco} alt="stray kids" />
+                            <img src={MainH2Deco} alt="tws" />당첨입니다.<img src={MainH2Deco} alt="tws" />
                         </h2>
                     </section>
                     <section className="tri_e_p_win_intropp">
