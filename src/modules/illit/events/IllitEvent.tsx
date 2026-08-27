@@ -6,6 +6,7 @@ import './IllitEvent.css';
 import Menu from '../../Menu';
 import MainH2Deco from '../../img/main_h2_deco.png';
 import Illit_e_m_logo from './img/Illit_e_m_logo.png';
+import Illit_e_p_win_present from './img/illit_event_rhythm_instrument_img.png';
 
 export default function IllitEvent() {
     DoruriDocumentTitle('ILLIT 이벤트');
@@ -115,8 +116,25 @@ export default function IllitEvent() {
                 </p>
             </section>
             {Illit_e_letter_all_checked && (
-                <section className='ill_e_last_result'>
-                    <p>당첨!!!!!!</p>
+                <section className="tri_e_last_win_part">
+                    <div className="tri_e_ghost_40px"></div>
+                    <section className="tri_m_h2">
+                        <h2>
+                            <img src={MainH2Deco} alt="stray kids" />당첨입니다.<img src={MainH2Deco} alt="stray kids" />
+                        </h2>
+                    </section>
+                    <section className="tri_e_p_win_intropp">
+                        <p>
+                            당첨을 축하드려요!<br />
+                            상품은 리듬악기세트입니다.<br />
+                            이벤트에 관심가져 주셔서 감사합니다.<br />
+                            이 이벤트는 가상의 이벤트입니다.<br />
+                            참고해 주시길 부탁드리겠습니다.<br />
+                        </p>
+                    </section>
+                    <section className="tri_e_p_win_present_150">
+                        <img src={Illit_e_p_win_present} alt="" className="triples_e_p_win_present_img" />
+                    </section>
                 </section>
             )
             }
