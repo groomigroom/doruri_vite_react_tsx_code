@@ -4,3 +4,4 @@
 ('kimkimgugu', '김구름', 'lalalalww@@11'),
 ('groomsiwjn', '구구구', 'djfki33###22'),
 ('gbuk33kek!', '지북이', '33@@dkjekw'),
+('bubuzski', '부수임', 'dk3kek#243'),
