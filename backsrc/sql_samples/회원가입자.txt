@@ -10,7 +10,7 @@
 ('barkhunggungju', '박헝주', 'djkwkl33@@!!'),
 ('hangjijiwon', '항지원', 'hhajjs@@!!'),
 ('hahahyungjun', '한홍준', 'hgyu6677'),
-('kimbunghuunn', '', 'hhajjs@@!!'),
+('kimbunghuunn', '김벙헌', 'hhvg@77@!!'),
 ('leeeeuichaan!!', '', 'hhajjs@@!!'),
 ('kiimminngsseng232', '', 'hhajjs@@!!'),
 ('googoogoo', '', 'hhajjs@@!!'),
