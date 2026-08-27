@@ -46,9 +46,28 @@ export default function ResceneEvent() {
             </section>
             <p className='rescene_e_last_count'>클릭 횟수: {rescene_e_moving_count}회</p>
             {rescene_e_moving_count === 3 ?
-                (<section className='rescene_e_last_result'>
-                    <p>당첨</p>
-                </section>) : null
+                (
+                <section className="tri_e_last_win_part">
+                    <div className="tri_e_ghost_40px"></div>
+                    <section className="tri_m_h2">
+                        <h2>
+                            <img src={MainH2Deco} alt="stray kids" />당첨입니다.<img src={MainH2Deco} alt="stray kids" />
+                        </h2>
+                    </section>
+                    <section className="tri_e_p_win_intropp">
+                        <p>
+                            당첨을 축하드려요!<br />
+                            상품은 팔찌입니다.<br />
+                            이벤트에 관심가져 주셔서 감사합니다.<br />
+                            이 이벤트는 가상의 이벤트입니다.<br />
+                            참고해 주시길 부탁드리겠습니다.<br />
+                        </p>
+                    </section>
+                    <section className="tri_e_p_win_present_150">
+                        <img src={''} alt="" className="triples_e_p_win_present_img" />
+                    </section>
+                </section>
+                ) : null
             }
         </div>
     );
