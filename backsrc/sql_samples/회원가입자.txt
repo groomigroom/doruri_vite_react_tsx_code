@@ -11,7 +11,7 @@
 ('hangjijiwon', '항지원', 'hhajjs@@!!'),
 ('hahahyungjun', '한홍준', 'hgyu6677'),
 ('kimbunghuunn', '김벙헌', 'hhvg@77@!!'),
-('leeeeuichaan!!', '', 'hhajjs@@!!'),
+('leeeeuichaan!!', '이찬이', 'hhhhnb7777'),
 ('kiimminngsseng232', '', 'hhajjs@@!!'),
 ('googoogoo', '', 'hhajjs@@!!'),
 ('grooooomgoo', '', 'hhajjs@@!!'),
