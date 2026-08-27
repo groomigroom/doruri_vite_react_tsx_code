@@ -9,4 +9,5 @@
 ('zuri11@2', '코네토', 'konetoneto##'),
 ('barkhunggungju', '박헝주', 'djkwkl33@@!!'),
 ('hangjijiwon', '항지원', 'hhajjs@@!!'),
-('hahahyungjun', '항지원', 'hhajjs@@!!'),
+('hahahyungjun', '', 'hhajjs@@!!'),
+('kimbunghuunn', '', 'hhajjs@@!!'),
