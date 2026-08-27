@@ -11,3 +11,4 @@
 ('hangjijiwon', '항지원', 'hhajjs@@!!'),
 ('hahahyungjun', '', 'hhajjs@@!!'),
 ('kimbunghuunn', '', 'hhajjs@@!!'),
+('leeeeuichaan!!', '', 'hhajjs@@!!'),
