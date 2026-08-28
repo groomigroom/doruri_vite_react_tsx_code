@@ -1,25 +1,28 @@
 .ResceneEvent_full {
     width: 100vw;
-    height: 1000px;
+    height: 100vh;
     position: relative;
     background-color: #fcfcfc;
 }
 
 .rescene_e_moving_car_section {
+    width: 100vw;
+    height: 340px;
+    position: relative;
+}
+
+.rescene_e_moving_car_section>section {
     width: 500px;
     height: 300px;
     background-color: aqua;
     overflow: hidden;
-    position: absolute;
-    top: 401px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    margin: 0 auto;
 }
 
 .rescene_e_moving_car {
-    width: 100px;
+    width: 62px;
     height: 50px;
-    background-color: blue;
     position: absolute;
     animation: rescene_e_moving_car 3s linear 0s infinite;
 }
@@ -59,16 +62,4 @@
         top: 0px;
         left: 0px;
     }
-}
-
-.rescene_e_last_count {
-    position: absolute;
-    top: 400px;
-    left: 0px;
-}
-
-.rescene_e_last_result {
-    position: absolute;
-    top: 600px;
-    left: 0px;
 }
