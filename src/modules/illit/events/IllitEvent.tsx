@@ -7,6 +7,7 @@ import Menu from '../../Menu';
 import MainH2Deco from '../../img/main_h2_deco.png';
 import Illit_e_m_logo from './img/Illit_e_m_logo.png';
 import Illit_e_p_win_present from './img/illit_event_rhythm_instrument_img.png';
+import FooterPart100vh from '../../FooterPart100vh';
 
 export default function IllitEvent() {
     DoruriDocumentTitle('ILLIT 이벤트');
@@ -115,6 +116,7 @@ export default function IllitEvent() {
                     }
                 </p>
             </section>
+            <FooterPart100vh FooterPartText='ⓒ 빌리프랩' />
             {Illit_e_letter_all_checked && (
                 <section className="tri_e_last_win_part">
                     <div className="tri_e_ghost_40px"></div>
