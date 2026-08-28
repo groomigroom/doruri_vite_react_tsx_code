@@ -1,7 +1,8 @@
 .IllitEvent_full {
     width: 100vw;
-    height: 1000px;
+    height: 100vh;
     position: relative;
+    background-color: #fcfcfc;
 }
 
 .ill_e_button_train_full_wrap {
