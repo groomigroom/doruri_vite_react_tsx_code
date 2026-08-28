@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { DoruriDocumentTitle } from "../../DoruriDocumentTitle";
 
 import "../../triples/events/TriplesEvent.css";
 import "./TxtEvent.css";
@@ -12,6 +13,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 import Txt_e_keyring_set_img from './img/txt_e_keyring_img.jpg';
 
 export default function TxtEvent() {
+    DoruriDocumentTitle('투모로우바이투게더 이벤트');
     const [txt_e_str, setTxt_e_str] = useState<string>("");
 
     const Txt_e_handle_input_change = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -102,7 +104,7 @@ export default function TxtEvent() {
                                 </section>
                             </>) :
                             (<section>
-                                <section className="tri_e_h2">
+                                <section className="tri_m_h2">
                                     <h2>
                                         당첨이 아닙니다.
                                     </h2>
