@@ -10,6 +10,7 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 import Rescene_e_m_logo from './img/Rescene_e_m_logo.png';
 import Rescene_e_present from './img/rescene_bangsuk_illust.png';
 import Rescene_e_car from './img/rescene_e_car_illust_last.png';
+import FooterPart100vh from '../../FooterPart100vh';
 
 export default function ResceneEvent() {
     DoruriDocumentTitle('RESCENE 이벤트');
@@ -50,6 +51,7 @@ export default function ResceneEvent() {
             <section className="tri_m_h2">
                 <h2>클릭 횟수: {rescene_e_moving_count}회</h2>
             </section>
+            <FooterPart100vh FooterPartText='ⓒ 더뮤즈엔터테인먼트' />
             {rescene_e_moving_count === 3 &&
                 (
                     <section className="tri_e_last_win_part">
