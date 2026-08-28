@@ -9,6 +9,7 @@ import Tws_e_m_logo from './img/tws_e_m_logo.png';
 
 import Tws_e_star_img from './img/tws_event_star.png';
 import Tws_e_p_win_present from './img/tws_event_palzzi.jpg';
+import FooterPart100vh from '../../FooterPart100vh';
 
 
 export default function TwsEvent() {
@@ -45,6 +46,7 @@ export default function TwsEvent() {
                     <div className="tws_e_moving_object" onClick={OpenTws_e_result}><img src={Tws_e_star_img} alt="별 모양" /></div>
                 </section>
             </section>
+            <FooterPart100vh FooterPartText='ⓒ 플레디스 엔터테인먼트' />
             {tws_e_result && (
                 <section className="tri_e_last_win_part">
                     <div className="tri_e_ghost_40px"></div>
