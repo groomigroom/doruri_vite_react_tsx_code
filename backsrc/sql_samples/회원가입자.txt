@@ -14,7 +14,7 @@
 ('leeeeuichaan!!', '이찬이', 'hhhhnb7777'),
 ('kiimminngsseng232', '김미승', 'grtdnwnw!'),
 ('googoogoo', '구르미', 'gghhwwwj22'),
-('grooooomgoo', '', 'hhajjs@@!!'),
+('grooooomgoo', '구우름', 'iamgromm1122'),
 ('gjjejjwkkwk', '', 'hhajjs@@!!'),
 ('123gdgertyjjekk$$', '', 'hhajjs@@!!'),
 ('chutSnowsnow1', '', 'hhajjs@@!!'),
