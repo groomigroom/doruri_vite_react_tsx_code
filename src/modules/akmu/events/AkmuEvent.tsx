@@ -10,6 +10,7 @@ import Menu from "../../Menu";
 import MainH2Deco from '../../img/main_h2_deco.png';
 import Akmu_e_m_logo from './img/akmu_e_m_logo.png';
 import Akmu_e_p_win_present from './img/akmu_event_eco_bag_img.jpg';
+import FooterPart100vh from "../../FooterPart100vh";
 
 export default function AkmuEvent() {
     DoruriDocumentTitle('AKMU 이벤트');
@@ -59,41 +60,40 @@ export default function AkmuEvent() {
                     <p>아름다운 마음, 슬픔, 기쁨</p>
                 </div>
             </form>
-            <div>
-                {akmu_e_check_value === '1' && 
-                    (<section className="tri_e_last_win_part">
-                        <div className="tri_e_ghost_40px"></div>
-                        <section className="tri_m_h2">
-                            <h2>
-                                <img src={MainH2Deco} alt="악뮤" />당첨입니다.<img src={MainH2Deco} alt="악뮤" />
-                            </h2>
-                        </section>
-                        <section className="tri_e_p_win_intropp">
-                                    <p>
-                                        당첨을 축하드려요!<br />
-                                        상품은 에코백입니다.<br />
-                                        이벤트에 관심가져 주셔서 감사합니다.<br />
-                                        이 이벤트는 가상의 이벤트입니다.<br />
-                                        참고해 주시길 부탁드리겠습니다.<br />
-                                    </p>
-                                </section>
-                                <section className="tri_e_p_win_present_150">
-                                    <img src={Akmu_e_p_win_present} alt="" className="akmu_e_p_win_present_img" />
-                                </section>
-                    </section>)
-                }
-                {(akmu_e_check_value === '2' || akmu_e_check_value === '3') && 
-                    (<section className="tri_e_last_win_part">
-                        <div className="tri_e_ghost_40px"></div>
-                        <section className="tri_m_h2">
-                            <h2>
-                                <img src={MainH2Deco} alt="악뮤" />당첨이 아닙니다...<img src={MainH2Deco} alt="악뮤" />
-                            </h2>
-                        </section>
+            <FooterPart100vh FooterPartText='ⓒ 영감의 샘터' />
+            {akmu_e_check_value === '1' &&
+                (<section className="tri_e_last_win_part">
+                    <div className="tri_e_ghost_40px"></div>
+                    <section className="tri_m_h2">
+                        <h2>
+                            <img src={MainH2Deco} alt="악뮤" />당첨입니다.<img src={MainH2Deco} alt="악뮤" />
+                        </h2>
+                    </section>
+                    <section className="tri_e_p_win_intropp">
+                        <p>
+                            당첨을 축하드려요!<br />
+                            상품은 에코백입니다.<br />
+                            이벤트에 관심가져 주셔서 감사합니다.<br />
+                            이 이벤트는 가상의 이벤트입니다.<br />
+                            참고해 주시길 부탁드리겠습니다.<br />
+                        </p>
+                    </section>
+                    <section className="tri_e_p_win_present_150">
+                        <img src={Akmu_e_p_win_present} alt="" className="akmu_e_p_win_present_img" />
+                    </section>
+                </section>)
+            }
+            {(akmu_e_check_value === '2' || akmu_e_check_value === '3') &&
+                (<section className="tri_e_last_win_part">
+                    <div className="tri_e_ghost_40px"></div>
+                    <section className="tri_m_h2">
+                        <h2>
+                            <img src={MainH2Deco} alt="악뮤" />당첨이 아닙니다...<img src={MainH2Deco} alt="악뮤" />
+                        </h2>
+                    </section>
 
-                    </section>)
-                }
-            </div>
+                </section>)
+            }
         </div>
     );
 }
