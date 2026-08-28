@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
+import '../../triples/main/TriplesMain.css';
 import '../../triples/events/TriplesEvent.css';
 import './ResceneEvent.css';
 import Menu from '../../Menu';
@@ -41,10 +42,14 @@ export default function ResceneEvent() {
                     3번 클릭해 주세요!
                 </p>
             </section>
-            <section className="rescene_e_moving_car_section">
-                <img className="rescene_e_moving_car" src={Rescene_e_car} alt='' onClick={rescene_e_moving_clickChange} />
+            <section className='rescene_e_moving_car_section'>
+                <section>
+                    <img className="rescene_e_moving_car" src={Rescene_e_car} alt='' onClick={rescene_e_moving_clickChange} />
+                </section>
             </section>
-            <p className='rescene_e_last_count'>클릭 횟수: {rescene_e_moving_count}회</p>
+            <section className="tri_m_h2">
+                <h2>클릭 횟수: {rescene_e_moving_count}회</h2>
+            </section>
             {rescene_e_moving_count === 3 &&
                 (
                     <section className="tri_e_last_win_part">
