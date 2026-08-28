@@ -8,6 +8,7 @@ import Menu from "../../Menu";
 import TenCM_e_m_logo from './img/10CM_e_m_logo.png';
 import MainH2Deco from '../../img/main_h2_deco.png';
 import TenCM_e_pencil_set_img from './img/TenCM_e_pencil_set_illust.png';
+import FooterPart100vh from "../../FooterPart100vh";
 
 export default function TenCMEvent() {
     DoruriDocumentTitle('10CM 이벤트');
@@ -101,6 +102,7 @@ export default function TenCMEvent() {
                 <p>= 10</p>
                 <p>최종 결과 : {Tencm_e_number_last_result}</p>
             </section>
+            <FooterPart100vh FooterPartText='ⓒ 씨에이엠위더스' />
             {Tencm_e_number_last_result === 10 && Tencm_number_all_correct_case && (
                 <section className="tri_e_last_win_part">
                     <section className="tri_e_p_win_intropp">
