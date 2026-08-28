@@ -12,7 +12,7 @@
 ('hahahyungjun', '한홍준', 'hgyu6677'),
 ('kimbunghuunn', '김벙헌', 'hhvg@77@!!'),
 ('leeeeuichaan!!', '이찬이', 'hhhhnb7777'),
-('kiimminngsseng232', '', 'hhajjs@@!!'),
+('kiimminngsseng232', '김미승', 'grtdnwnw!'),
 ('googoogoo', '', 'hhajjs@@!!'),
 ('grooooomgoo', '', 'hhajjs@@!!'),
 ('gjjejjwkkwk', '', 'hhajjs@@!!'),
