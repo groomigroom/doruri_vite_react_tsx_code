@@ -11,6 +11,7 @@ import Rescene_e_m_logo from './img/Rescene_e_m_logo.png';
 import Rescene_e_present from './img/rescene_bangsuk_illust.png';
 import Rescene_e_car from './img/rescene_e_car_illust_last.png';
 import FooterPart100vh from '../../FooterPart100vh';
+import Rescene_e_aspalt from './img/rescene_e_aspalt.jpg';
 
 export default function ResceneEvent() {
     DoruriDocumentTitle('RESCENE 이벤트');
@@ -45,7 +46,8 @@ export default function ResceneEvent() {
             </section>
             <section className='rescene_e_moving_car_section'>
                 <section>
-                    <img className="rescene_e_moving_car" src={Rescene_e_car} alt='' onClick={rescene_e_moving_clickChange} />
+                    <img className="rescene_e_moving_car" src={Rescene_e_car} alt='리센느 자동차' onClick={rescene_e_moving_clickChange} />
+                    <img src={Rescene_e_aspalt} alt="아스팔트" className='rescene_e_aspalt' />
                 </section>
             </section>
             <section className="tri_m_h2">
