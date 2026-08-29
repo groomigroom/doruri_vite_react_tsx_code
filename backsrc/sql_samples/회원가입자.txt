@@ -19,7 +19,7 @@
 ('123gdgertyjjekk$$', '구루미', 'gooorooomii'),
 ('chutSnowsnow1', '유서연', 'gogodjejn223'),
 ('53##fdeg', '박한송', 'parkhanhanssodn@'),
-('##FF33ww', '', 'hhajjs@@!!'),
+('##FF33ww', '위승유', '!!!@@@sdfwjw'),
 ('fedsoroo', '', 'hhajjs@@!!'),
 ('foododfj', '', 'hhajjs@@!!'),
 ('dsfsdfdsf', '', 'hhajjs@@!!'),
