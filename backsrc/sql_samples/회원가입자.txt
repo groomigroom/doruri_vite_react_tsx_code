@@ -18,7 +18,7 @@
 ('gjjejjwkkwk', '기욱', 'KkirukKkirjk!'),
 ('123gdgertyjjekk$$', '구루미', 'gooorooomii'),
 ('chutSnowsnow1', '유서연', 'gogodjejn223'),
-('53##fdeg', '', 'hhajjs@@!!'),
+('53##fdeg', '박한송', 'parkhanhanssodn@'),
 ('##FF33ww', '', 'hhajjs@@!!'),
 ('fedsoroo', '', 'hhajjs@@!!'),
 ('foododfj', '', 'hhajjs@@!!'),
