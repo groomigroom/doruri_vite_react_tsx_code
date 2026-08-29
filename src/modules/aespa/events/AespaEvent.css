@@ -1,5 +1,6 @@
 .AespaEvent_full {
     width: 100vw;
+    height: 100vh;
     position: relative;
     background-color: #fcfcfc;
 }
@@ -24,7 +25,6 @@
 .aespa_e_form {
     width: 100vw;
     height: 120px;
-    background-color: blue;
     position: relative;
 }
 
