@@ -2,11 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { DoruriDocumentTitle } from "../../DoruriDocumentTitle";
 
+import '../../triples/main/TriplesMain.css';
 import '../../triples/events/TriplesEvent.css';
 import './EpikHighEvent.css';
 import Menu from "../../Menu";
 
 import MainH2Deco from '../../img/main_h2_deco.png';
+import epikhigh_e_real_lp_img from './img/epikhigh_e_real_lp_img.png';
+import epikhigh_e_fake_lp_img from './img/epikhigh_e_fake_lp_img.png';
 
 export default function EpikHighEvent() {
     DoruriDocumentTitle('에픽하이 이벤트');
@@ -94,25 +97,39 @@ export default function EpikHighEvent() {
 
     return (
         <div className="epikhighEvent_full">
-            <Menu />
-            <section className="home_translate">
-                <Link to='/EpikHighEvent' className="on">한국어</Link>
-                <Link to='/EpikHighEventEng'>English</Link>
+            <header className="tri_m_header">
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/EpikHighEvent' className="on">한국어</Link>
+                    <Link to='/EpikHighEventEng'>English</Link>
+                </section>
+            </header>
+            <section className="tri_e_logo">
+                <img src={""} alt="에픽하이 이벤트 로고" />
             </section>
-            <img src={""} alt="에픽하이 이벤트 로고" className="tri_e_logo" />
-            <h2 className="tri_e_h2"><img src={MainH2Deco} alt="에픽하이" />LP판 피하기????<img src={MainH2Deco} alt="에픽하이" /></h2>
-            <p className='tri_e_intropp'>
-                #####빨간색 LP판 피하기<br />
-                피하기<br />
-                피하기
-            </p>
-            <section className="epikhigh_e_lp_move_part">
-                <div className="epikhigh_e_real_lp" style={{ top: `${epikhigh_e_real_lp_top}px`, left: `${epikhigh_e_real_lp_left}px` }}></div>
-                <div className="epikhigh_e_fake_lp" style={{ top: `${epikhigh_e_fake_lp_top}px`, left: `${epikhigh_e_fake_lp_left}px` }}></div>
-                <div className="epikhigh_e_lp_m_divide_y epikhigh_e_lp_m_divide1"></div>
-                <div className="epikhigh_e_lp_m_divide_y epikhigh_e_lp_m_divide2"></div>
-                <div className="epikhigh_e_lp_m_divide_x epikhigh_e_lp_m_divide3"></div>
-                <div className="epikhigh_e_lp_m_divide_x epikhigh_e_lp_m_divide4"></div>
+            <section className="tri_m_h2">
+                <h2><img src={MainH2Deco} alt="에픽하이" />빨간색 LP판 피하기 이벤트<img src={MainH2Deco} alt="에픽하이" /></h2>
+            </section>
+            <section className='tri_m_intropp'>
+                <p>
+                    빨간색 LP판을<br />
+                    5번 피하면<br />
+                    당첨이에요!
+                </p>
+            </section>
+            <section className="epikhigh_e_lp_move_part_full">
+                <section className="epikhigh_e_lp_move_part">
+                    <div className="epikhigh_e_real_lp" style={{ top: `${epikhigh_e_real_lp_top}px`, left: `${epikhigh_e_real_lp_left}px` }}>
+                        <img src={epikhigh_e_real_lp_img} alt='real_lp' />
+                    </div>
+                    <div className="epikhigh_e_fake_lp" style={{ top: `${epikhigh_e_fake_lp_top}px`, left: `${epikhigh_e_fake_lp_left}px` }}>
+                        <img src={epikhigh_e_fake_lp_img} alt='real_lp' />
+                    </div>
+                    <div className="epikhigh_e_lp_m_divide_y epikhigh_e_lp_m_divide1"></div>
+                    <div className="epikhigh_e_lp_m_divide_y epikhigh_e_lp_m_divide2"></div>
+                    <div className="epikhigh_e_lp_m_divide_x epikhigh_e_lp_m_divide3"></div>
+                    <div className="epikhigh_e_lp_m_divide_x epikhigh_e_lp_m_divide4"></div>
+                </section>
             </section>
             <section className="epikhigh_e_lp_mv_buttons">
                 <button onClick={epikhigh_e_real_lp_go_up}>위로 이동</button>
@@ -120,6 +137,7 @@ export default function EpikHighEvent() {
                 <button onClick={epikhigh_e_real_lp_go_left}>왼쪽으로 이동</button>
                 <button onClick={epikhigh_e_real_lp_go_right}>오른쪽으로 이동</button>
             </section>
+
 
             {epikhigh_e_lp_move_count === 5 && (epikhigh_e_real_lp_top != epikhigh_e_fake_lp_top || epikhigh_e_real_lp_left != epikhigh_e_fake_lp_left) && (
                 <section className="epikhigh_e_win">
