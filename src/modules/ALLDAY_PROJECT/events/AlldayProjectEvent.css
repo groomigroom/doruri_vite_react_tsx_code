@@ -4,11 +4,17 @@
     position: relative;
 }
 
+.alldayproject_e_maze_full {
+    width: 100vw;
+    height: 410px;
+    position: relative;
+}
+
 .alldayproject_e_maze {
     width: 370px;
     height: 370px;
     position: absolute;
-    top: 401px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     overflow: hidden;
@@ -111,14 +117,19 @@
     left: 120px;
 }
 
+.alldayproject_e_maze_RB_buttons_full {
+    width: 100vw;
+    height: 200px;
+    position: relative;
+}
+
 .alldayproject_e_maze_RB_buttons {
     width: 340px;
     height: 160px;
     position: absolute;
-    top: 811px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: aqua;
 }
 
 .alldayproject_e_maze_RB_button {
