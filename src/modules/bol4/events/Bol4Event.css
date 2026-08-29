@@ -5,11 +5,17 @@
     background-color: #fcfcfc;
 }
 
+.bol4_e_event_real_part_full {
+    width: 100vw;
+    height: 440px;
+    position: relative;
+}
+
 .bol4_e_event_real_part {
     width: 400px;
     height: 400px;
     position: absolute;
-    top: 401px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     border: 5px solid #191919;
@@ -227,9 +233,4 @@
         top: 20px;
         left: 20px;
     }
-}
-
-.bol4_e_last_r_win {
-    position: absolute;
-    top: 500px;
 }
