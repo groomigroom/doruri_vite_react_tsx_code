@@ -2,15 +2,23 @@
     width: 100vw;
     height: 1000px;
     position: relative;
+    background-color: #fcfcfc;
+}
+
+.day6_e_event_real_part_full {
+    width: 100vw;
+    height: 440px;
+    position: relative;
 }
 
 .day6_e_event_real_part {
     width: 400px;
     height: 400px;
     overflow: hidden;
-    background-color: aqua;
+    border: 5px solid #191919;
+    border-radius: 25px;
     position: absolute;
-    top: 401px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -51,13 +59,15 @@
     display: block;
     width: 80px;
     height: 40px;
-    background-color: rgb(155, 155, 245);
+    background-color: #191919;
+    color: #fcfcfc;
     line-height: 40px;
     text-align: center;
 }
 
 .day6_e_event_real_part_menu>li:hover>p {
-    background-color: red;
+    background-color: #fcfcfc;
+    color: #191919;
 }
 
 .day6_e_event_real_part_menu>li:first-child>p {
@@ -72,7 +82,8 @@
     display: block;
     width: 80px;
     height: 40px;
-    background-color: rgb(155, 155, 245);
+    background-color: #191919;
+    color: #fcfcfc;
     line-height: 40px;
     text-align: center;
 }
@@ -83,10 +94,6 @@
 }
 
 .day6_e_event_real_part_menu>li>ul>li>p:hover {
-    background-color: red;
-}
-
-.day6_e_lose_count_pp {
-    position: absolute;
-    top: 700px;
+    background-color: #fcfcfc;
+    color: #191919;
 }
