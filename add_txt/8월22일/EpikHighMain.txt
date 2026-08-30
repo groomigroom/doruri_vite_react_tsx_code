@@ -44,8 +44,10 @@ export default function EpikHighMain() {
 <section className='tri_m_img'>
             <img src={EpikHigh_m_img} alt='EpikHigh' />
 </section>
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
-            <section className='tri_m_mem_tr_full epi_m_mem_tr_full'>
+<section className='tri_m_h2'>
+            <h2>▪ 멤버 ▪</h2>
+</section>
+            <section className='tri_m_mem_tr_full'>
                 <section className='tri_m_mem_tr'>
                     <Link to='/EpiMemTablo' className='tri_m_mem_a'>
                         <article className='tri_m_mem'>
