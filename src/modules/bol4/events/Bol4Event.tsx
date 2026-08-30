@@ -8,6 +8,7 @@ import './Bol4Event.css';
 
 import Menu from "../../Menu";
 import MainH2Deco from '../../img/main_h2_deco.png';
+import FooterPart from "../../FooterPart";
 
 
 
@@ -52,12 +53,13 @@ export default function Bol4Event() {
                     <p className="bol4_e_event_r_p_m_pp" onClick={OpBol4_e_last_result}>여름아 부탁해</p>
                 </section>
             </section>
+            <FooterPart FooterPartText='ⓒ 켄버스' />
             {bol4_e_last_result && (
                 <section className="tri_e_last_win_part">
                     <div className="tri_e_ghost_40px"></div>
                     <section className="tri_m_h2">
                         <h2>
-                            <img src={MainH2Deco} alt="stray kids" />당첨입니다.<img src={MainH2Deco} alt="stray kids" />
+                            <img src={MainH2Deco} alt="볼빨간사춘기" />당첨입니다.<img src={MainH2Deco} alt="볼빨간사춘기" />
                         </h2>
                     </section>
                     <section className="tri_e_p_win_intropp">
