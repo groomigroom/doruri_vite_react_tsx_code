@@ -23,7 +23,7 @@
 ('fedsoroo', '이승헌', 'ssenggdhund@'),
 ('foododfj', '표구름', 'ppyyooodnn232'),
 ('dsfsdfdsf', '두루미', 'kimdkurisjsn222'),
-('gorrooemem', '', 'hhajjs@@!!'),
+('gorrooemem', '굴흠', 'kooollloookggem'),
 ('showworldname', '', 'hhajjs@@!!'),
 ('ohohsskwwkne', '', 'hhajjs@@!!'),
 ('Swjdjek', '', 'hhajjs@@!!'),
