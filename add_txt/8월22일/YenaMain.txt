@@ -93,7 +93,9 @@ yena<br />
 </section>
 </section>
 
-<h2 className='tri_m_h2 yena_m_h2_5'>▪ 최신 앨범 ▪</h2>
+<section className='tri_m_h2'>
+<h2>▪ 최신 앨범 ▪</h2>
+</section>
 <section className='tri_m_album_tr_full yena_m_album_tr_full'>
 <section className='tri_m_album_tr'>
 <Link to='/YenaBloomingWingsAlbum' className='tri_m_album_a'>
