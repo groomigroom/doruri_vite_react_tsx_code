@@ -115,10 +115,10 @@ Wings
 <section className='tri_m_h2'>
 <h2>▪ sns ▪</h2>
 </section>
-<section className='tri_m_sns_tr_full yena_m_sns_tr_full'>
-<section className='tri_m_album_tr'>
-<a href="https://www.instagram.com/_yenacore" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a'>
-<article className='tri_m_snss'>
+<section className='tri_m_mem_tr_full'>
+<section className='tri_m_mem_tr2'>
+<a href="https://www.instagram.com/_yenacore" target='_blank' rel='noopener noreferrer' className='tri_m_mem_a'>
+<article className='tri_m_mem'>
 <img src={YenaInstagram_icon_img} alt="최예나 인스타그램" />
 <div>
 <h4>
