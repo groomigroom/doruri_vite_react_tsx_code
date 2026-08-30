@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
 
-import '../../triples/main/TriplesMain.css'
+import '../../triples/main/TriplesMain.css';
 import './EpikHighMain.css';
 
 import Menu from '../../Menu';
@@ -26,7 +26,9 @@ export default function EpikHighMain() {
 
     return (
         <div className='epi_m_full'>
+<header className='tri_m_header'>
             <Menu />
+</header>
             <img src={EpikHigh_m_logo} alt="EpikHigh 로고" className='tri_m_logo' />
             <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="EpikHigh 로고 꾸미기" />에픽하이<img src={MainH2Deco} alt="EpikHigh 로고 꾸미기" /></h2>
             <p className='tri_m_intropp'>
