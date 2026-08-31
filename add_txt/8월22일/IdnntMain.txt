@@ -65,8 +65,12 @@ export default function IdnttMain() {
                 거침없이 나아가 봐요!
             </p>
 </section>
-            <img src={Idntt_m_img} className='tri_m_img idntt_m_img' alt='idntt 이미지' />
-            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
+<section className='tri_m_img'>
+            <img src={Idntt_m_img} alt='idntt 이미지' />
+</section>
+<section className='tri_m_h2'>
+            <h2>▪ 멤버 ▪</h2>
+</section>
             <section className='tri_m_mem_tr_full idntt_m_mem_tr_full'>
 
                 <section className='tri_m_mem_tr'>
