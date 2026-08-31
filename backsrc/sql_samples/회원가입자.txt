@@ -24,7 +24,7 @@
 ('foododfj', '표구름', 'ppyyooodnn232'),
 ('dsfsdfdsf', '두루미', 'kimdkurisjsn222'),
 ('gorrooemem', '굴흠', 'kooollloookggem'),
-('showworldname', '', 'hhajjs@@!!'),
+('showworldname', '설구름', 'sulgroogmdiid'),
 ('ohohsskwwkne', '', 'hhajjs@@!!'),
 ('Swjdjek', '', 'hhajjs@@!!'),
 ('SSSinthe11', '', 'hhajjs@@!!'),
