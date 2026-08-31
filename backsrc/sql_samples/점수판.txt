@@ -8,3 +8,6 @@
 ('burisae', 0),
 ('zuri11@2', 0),
 ('barkhunggungju', 0),
+('hangjijiwon', 0),
+('hahahyungjun', '한홍준', 'hgyu6677'),
+('kimbunghuunn', '김벙헌', 'hhvg@77@!!'),
