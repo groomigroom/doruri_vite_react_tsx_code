@@ -27,23 +27,13 @@
 }
 
 .tri_e_p_win {
-    width: 400px;
+    width: 100vw;
     height: 375px;
     position: absolute;
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
 }
-
-.tri_e_p_win_intropp {
-    text-align: center;
-    font-size: 15px;
-    line-height: 140%;
-    font-weight: 500;
-}
-
-/* 105px */
-
 
 .tri_e_p_ticket {
     width: 400px;
@@ -54,7 +44,8 @@
     overflow: hidden;
     position: absolute;
     top: 145px;
-    left: 0px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .tri_e_p_members_img {
