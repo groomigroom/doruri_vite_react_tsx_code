@@ -1,3 +1,5 @@
+import '../../triples/main/TriplesMain.css';
+import '../../triples/events/TriplesEvent.css';
 import "./TriplesEventPre.css";
 
 import BabyFlowerAllImg from "./img/baby_flower_img/tri_events_pre_all_s.png"
@@ -54,16 +56,20 @@ export default function TriplesEventPre({ tri_e_OnCl, tri_e_result }: Tri_e_popP
 
     return (
         <div className="tri_e_p_full">
-            <h2 className="tri_e_p_h2"><img src={MainH2Deco} alt="트리플에스" />정답 : {tri_e_result}개<img src={MainH2Deco} alt="트리플에스" /></h2>
+            <section className="tri_m_h2">
+                <h2><img src={MainH2Deco} alt="트리플에스" />정답 : {tri_e_result}개<img src={MainH2Deco} alt="트리플에스" /></h2>
+            </section>
             {tri_e_result === 24 ?
                 (<section className="tri_e_p_win">
-                    <p className="tri_e_p_win_intropp">
-                        당첨을 축하드려요!<br />
-                        상품은 트리플에스 콘서트 티켓입니다.<br />
-                        이벤트에 관심가져 주셔서 감사합니다.<br />
-                        이 이벤트는 가상의 이벤트입니다.<br />
-                        참고해 주시길 부탁드리겠습니다.<br />
-                    </p>
+                    <section className="tri_e_p_win_intropp">
+                        <p>
+                            당첨을 축하드려요!<br />
+                            상품은 트리플에스 콘서트 티켓입니다.<br />
+                            이벤트에 관심가져 주셔서 감사합니다.<br />
+                            이 이벤트는 가상의 이벤트입니다.<br />
+                            참고해 주시길 부탁드리겠습니다.<br />
+                        </p>
+                    </section>
                     <section className="tri_e_p_ticket">
                         <img src={BabyFlowerAllImg} alt="트리플에스" className="tri_e_p_members_img" />
                         <img src={TriplesEventPre_m_logo} alt="트리플에스 로고" className="tri_e_p_logo_img" />
