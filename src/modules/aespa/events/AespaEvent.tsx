@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { DoruriDocumentTitle } from "../../DoruriDocumentTitle";
 
 import '../../triples/events/TriplesEvent.css';
 import './AespaEvent.css';
@@ -8,8 +9,11 @@ import Menu from "../../Menu";
 import MainH2Deco from '../../img/main_h2_deco.png';
 import Aespa_e_m_logo from './img/Aespa_e_m_logo.png';
 import FooterPart100vh from "../../FooterPart100vh";
+import Aespa_e_present_ring from './img/aespa_e_ring.png';
 
 export default function AespaEvent() {
+    DoruriDocumentTitle('aespa 이벤트');
+
     const [aespa_e_value1, setAespa_e_value1] = useState<string>("");
     const [aespa_e_value2, setAespa_e_value2] = useState<string>("");
     const [aespa_e_value3, setAespa_e_value3] = useState<string>("");
@@ -76,14 +80,14 @@ export default function AespaEvent() {
                     <section className="tri_e_p_win_intropp">
                         <p>
                             당첨을 축하드려요!<br />
-                            상품은 팔찌입니다.<br />
+                            상품은 반지입니다.<br />
                             이벤트에 관심가져 주셔서 감사합니다.<br />
                             이 이벤트는 가상의 이벤트입니다.<br />
                             참고해 주시길 부탁드리겠습니다.<br />
                         </p>
                     </section>
                     <section className="tri_e_p_win_present_150">
-                        <img src={''} alt="" className="triples_e_p_win_present_img" />
+                        <img src={Aespa_e_present_ring} alt="반지" className="triples_e_p_win_present_img" />
                     </section>
                 </section>
             )}
