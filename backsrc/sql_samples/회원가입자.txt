@@ -25,7 +25,7 @@
 ('dsfsdfdsf', '두루미', 'kimdkurisjsn222'),
 ('gorrooemem', '굴흠', 'kooollloookggem'),
 ('showworldname', '설구름', 'sulgroogmdiid'),
-('ohohsskwwkne', '', 'hhajjs@@!!'),
+('ohohsskwwkne', '옥수수', 'ojokokosusuqu'),
 ('Swjdjek', '', 'hhajjs@@!!'),
 ('SSSinthe11', '', 'hhajjs@@!!'),
 ('love2love', '', 'hhajjs@@!!'),
