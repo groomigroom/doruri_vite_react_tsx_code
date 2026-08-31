@@ -1,12 +1,12 @@
 : "txt-yeonjun",
-htmlTitle: "연준",
-introPp1: "Ice cream처럼",
-introPp2: "시원한 하루",
-introPp3: "되시길 바래요!",
-imgLocation: "./img/img.jpg",
-imgBorderColor: "#FF1E91",
-birthDate: "1999.09.13.",
-characterNames: ["키", "혈액형", "별명", "취미", "특기", "포지션", "MBTI", "성격"],
-characterInfor: ["181.5cm", "A형", "연또", "춤추기", "춤", "x", "ESTP", "활발함"],
-company: "빅히트 뮤직"
+: "연준",
+: "Ice cream처럼",
+: "시원한 하루",
+: "되시길 바래요!",
+: "./img/img.jpg",
+: "#FF1E91",
+: "1999.09.13.",
+: ["키", "혈액형", "별명", "취미", "특기", "포지션", "MBTI", "성격"],
+: ["181.5cm", "A형", "연또", "춤추기", "춤", "x", "ESTP", "활발함"],
+: "빅히트 뮤직"
 };
