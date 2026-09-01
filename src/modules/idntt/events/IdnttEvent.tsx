@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import './IdnttEvent.css';
+
 interface IdnttEventNodeType {
     Idntt_e_mem_name: string;
     Idntt_e_link: IdnttEventNodeType | null;
@@ -174,34 +176,34 @@ export default function IdnttEvent() {
 
     return (
         <div>
-            <section>
-                <p onClick={Idntt_e_node1Link}>{Idntt_e_node1.Idntt_e_mem_name}</p>
+            <section className="idntt_e_real_part">
+                <p onClick={Idntt_e_node1Link} className="idntt_e_mem_node1">{Idntt_e_node1.Idntt_e_mem_name}</p>
                 {Idntt_e_node1.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node2Link}>{Idntt_e_node2.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node2Link} className="idntt_e_mem_node2">{Idntt_e_node2.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node2.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node3Link}>{Idntt_e_node3.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node3Link} className="idntt_e_mem_node3">{Idntt_e_node3.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node3.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node4Link}>{Idntt_e_node4.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node4Link} className="idntt_e_mem_node4">{Idntt_e_node4.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node4.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node5Link}>{Idntt_e_node5.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node5Link} className="idntt_e_mem_node5">{Idntt_e_node5.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node5.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node6Link}>{Idntt_e_node6.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node6Link} className="idntt_e_mem_node6">{Idntt_e_node6.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node6.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node7Link}>{Idntt_e_node7.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node7Link} className="idntt_e_mem_node7">{Idntt_e_node7.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node7.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node8Link}>{Idntt_e_node8.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node8Link} className="idntt_e_mem_node8">{Idntt_e_node8.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node8.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node9Link}>{Idntt_e_node9.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node9Link} className="idntt_e_mem_node9">{Idntt_e_node9.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node9.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node10Link}>{Idntt_e_node10.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node10Link} className="idntt_e_mem_node10">{Idntt_e_node10.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node10.Idntt_e_link !== null && (
                     <p onClick={Idntt_e_node11Link}>{Idntt_e_node11.Idntt_e_mem_name}</p>
