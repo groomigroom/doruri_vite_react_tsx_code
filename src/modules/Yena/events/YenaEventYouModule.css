@@ -4,6 +4,7 @@
     overflow: hidden;
     display: flex;
     position: relative;
+    flex-shrink: 0;
 }
 
 .YenaEventYouModule_e_full>div {
