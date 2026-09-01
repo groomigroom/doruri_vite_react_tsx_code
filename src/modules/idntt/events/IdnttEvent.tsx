@@ -206,25 +206,25 @@ export default function IdnttEvent() {
                     <p onClick={Idntt_e_node10Link} className="idntt_e_mem_node10">{Idntt_e_node10.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node10.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node11Link}>{Idntt_e_node11.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node11Link} className="idntt_e_mem_node11">{Idntt_e_node11.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node11.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node12Link}>{Idntt_e_node12.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node12Link} className="idntt_e_mem_node12">{Idntt_e_node12.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node12.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node13Link}>{Idntt_e_node13.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node13Link} className="idntt_e_mem_node13">{Idntt_e_node13.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node13.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node14Link}>{Idntt_e_node14.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node14Link} className="idntt_e_mem_node14">{Idntt_e_node14.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node14.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node15Link}>{Idntt_e_node15.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node15Link} className="idntt_e_mem_node15">{Idntt_e_node15.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node15.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node16Link}>{Idntt_e_node16.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node16Link} className="idntt_e_mem_node16">{Idntt_e_node16.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node16.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node17Link}>{Idntt_e_node17.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node17Link} className="idntt_e_mem_node17">{Idntt_e_node17.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node17.Idntt_e_link !== null && (
                     <p onClick={Idntt_e_node18Link}>{Idntt_e_node18.Idntt_e_mem_name}</p>
