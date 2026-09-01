@@ -234,3 +234,164 @@
         left: 40px;
     }
 }
+
+.idntt_e_mem_node11 {
+    position: absolute;
+    animation: idntt_e_mem_node11 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node11 {
+    0% {
+        top: 450px;
+        left: 430px;
+    }
+
+    50% {
+        top: 40px;
+        left: 430px;
+    }
+
+    100% {
+        top: 450px;
+        left: 430px;
+    }
+}
+
+.idntt_e_mem_node12 {
+    position: absolute;
+    animation: idntt_e_mem_node12 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node12 {
+    0% {
+        top: 40px;
+        left: 430px;
+    }
+
+    50% {
+        top: 450px;
+        left: 430px;
+    }
+
+    100% {
+        top: 40px;
+        left: 430px;
+    }
+}
+
+.idntt_e_mem_node13 {
+    position: absolute;
+    animation: idntt_e_mem_node13 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node13 {
+    0% {
+        top: 40px;
+        left: 40px;
+    }
+
+    50% {
+        top: 40px;
+        left: 430px;
+    }
+
+    100% {
+        top: 40px;
+        left: 40px;
+    }
+}
+
+.idntt_e_mem_node14 {
+    position: absolute;
+    animation: idntt_e_mem_node14 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node14 {
+    0% {
+        top: 40px;
+        left: 430px;
+    }
+
+    50% {
+        top: 40px;
+        left: 40px;
+    }
+
+    100% {
+        top: 40px;
+        left: 430px;
+    }
+}
+
+.idntt_e_mem_node15 {
+    position: absolute;
+    animation: idntt_e_mem_node15 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node15 {
+    0% {
+        top: 450px;
+        left: 40px;
+    }
+
+    50% {
+        top: 450px;
+        left: 430px;
+    }
+
+    100% {
+        top: 450px;
+        left: 40px;
+    }
+}
+
+.idntt_e_mem_node16 {
+    position: absolute;
+    animation: idntt_e_mem_node16 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node16 {
+    0% {
+        top: 450px;
+        left: 430px;
+    }
+
+    50% {
+        top: 450px;
+        left: 40px;
+    }
+
+    100% {
+        top: 450px;
+        left: 430px;
+    }
+}
+
+.idntt_e_mem_node17 {
+    position: absolute;
+    animation: idntt_e_mem_node17 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node17 {
+    0% {
+        top: 60px;
+        left: 60px;
+    }
+
+    50% {
+        top: 430px;
+        left: 60px;
+    }
+
+    100% {
+        top: 60px;
+        left: 60px;
+    }
+}
