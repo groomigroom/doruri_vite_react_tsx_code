@@ -1,1 +1,236 @@
-IdnttEvent.css
+.idntt_e_real_part {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.idntt_e_mem_node1 {
+    position: absolute;
+    animation: idntt_e_mem_node1 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node1 {
+    0% {
+        top: 20px;
+        left: 20px;
+    }
+
+    50% {
+        top: 470px;
+        left: 20px;
+    }
+
+    100% {
+        top: 20px;
+        left: 20px;
+    }
+}
+
+.idntt_e_mem_node2 {
+    position: absolute;
+    animation: idntt_e_mem_node2 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node2 {
+    0% {
+        top: 470px;
+        left: 20px;
+    }
+
+    50% {
+        top: 20px;
+        left: 20px;
+    }
+
+    100% {
+        top: 470px;
+        left: 20px;
+    }
+}
+
+.idntt_e_mem_node3 {
+    position: absolute;
+    animation: idntt_e_mem_node3 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node3 {
+    0% {
+        top: 470px;
+        left: 450px;
+    }
+
+    50% {
+        top: 20px;
+        left: 450px;
+    }
+
+    100% {
+        top: 470px;
+        left: 450px;
+    }
+}
+
+.idntt_e_mem_node4 {
+    position: absolute;
+    animation: idntt_e_mem_node4 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node4 {
+    0% {
+        top: 20px;
+        left: 450px;
+    }
+
+    50% {
+        top: 470px;
+        left: 450px;
+    }
+
+    100% {
+        top: 20px;
+        left: 450px;
+    }
+}
+
+.idntt_e_mem_node5 {
+    position: absolute;
+    animation: idntt_e_mem_node5 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node5 {
+    0% {
+        top: 20px;
+        left: 20px;
+    }
+
+    50% {
+        top: 20px;
+        left: 450px;
+    }
+
+    100% {
+        top: 20px;
+        left: 20px;
+    }
+}
+
+.idntt_e_mem_node6 {
+    position: absolute;
+    animation: idntt_e_mem_node6 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node6 {
+    0% {
+        top: 20px;
+        left: 450px;
+    }
+
+    50% {
+        top: 20px;
+        left: 20px;
+    }
+
+    100% {
+        top: 20px;
+        left: 450px;
+    }
+}
+
+.idntt_e_mem_node7 {
+    position: absolute;
+    animation: idntt_e_mem_node7 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node7 {
+    0% {
+        top: 470px;
+        left: 20px;
+    }
+
+    50% {
+        top: 470px;
+        left: 450px;
+    }
+
+    100% {
+        top: 470px;
+        left: 20px;
+    }
+}
+
+.idntt_e_mem_node8 {
+    position: absolute;
+    animation: idntt_e_mem_node8 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node8 {
+    0% {
+        top: 470px;
+        left: 450px;
+    }
+
+    50% {
+        top: 470px;
+        left: 20px;
+    }
+
+    100% {
+        top: 470px;
+        left: 450px;
+    }
+}
+
+.idntt_e_mem_node9 {
+    position: absolute;
+    animation: idntt_e_mem_node9 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node9 {
+    0% {
+        top: 40px;
+        left: 40px;
+    }
+
+    50% {
+        top: 450px;
+        left: 40px;
+    }
+
+    100% {
+        top: 40px;
+        left: 40px;
+    }
+}
+
+.idntt_e_mem_node10 {
+    position: absolute;
+    animation: idntt_e_mem_node10 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node10 {
+    0% {
+        top: 450px;
+        left: 40px;
+    }
+
+    50% {
+        top: 40px;
+        left: 40px;
+    }
+
+    100% {
+        top: 450px;
+        left: 40px;
+    }
+}
