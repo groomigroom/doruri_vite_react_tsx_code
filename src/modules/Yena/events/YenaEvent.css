@@ -1,22 +1,76 @@
+.yenaevent_full {
+    width: 100vw;
+    background-color: #fcfcfc;
+}
+
 .yena_e_moving_part {
     width: calc(100vw - 80px);
     height: 440px;
     position: relative;
-    background-color: darkorange;
+    margin: 0 auto;
 }
 
 .yena_e_me_part {
     position: absolute;
     z-index: 2;
+    animation: yena_e_me_part 8s ease 0s infinite;
+}
+
+@keyframes yena_e_me_part {
+    0% {
+        top: 30px;
+        left: 30px;
+    }
+
+    12.5% {
+        top: 30px;
+        left: 30px;
+    }
+
+    25% {
+        top: 340px;
+        left: 30px;
+    }
+
+    37.5% {
+        top: 340px;
+        left: 30px;
+    }
+
+    50% {
+        top: 340px;
+        left: calc(100vw - 140px);
+    }
+
+    62.5% {
+        top: 340px;
+        left: calc(100vw - 140px);
+    }
+
+    75% {
+        top: 30px;
+        left: calc(100vw - 140px);
+    }
+
+    87.5% {
+        top: 30px;
+        left: calc(100vw - 140px);
+    }
+
+    100% {
+        top: 30px;
+        left: 30px;
+    }
 }
 
 .yena_e_you_part {
     width: calc(100vw - 80px);
     height: 400px;
     display: flex;
-    background-color: rgb(88, 88, 173);
     overflow: hidden;
     position: absolute;
     top: 0px;
     left: 0px;
+    border: 5px solid #191919;
+    border-radius: 25px;
 }
