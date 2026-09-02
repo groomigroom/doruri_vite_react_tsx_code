@@ -6,6 +6,8 @@ import './AlldayProjectEvent.css';
 import Menu from '../../Menu';
 import MainH2Deco from '../../img/main_h2_deco.png';
 import FooterPart from '../../FooterPart';
+import AlldayProject_e_logo from './img/allday_project_e_logo.png';
+import AlldayProject_e_magnet from './img/allday_e_magnet.png';
 
 export default function AlldayProjectEvent() {
     DoruriDocumentTitle('ALLDAY PROJECT 이벤트');
@@ -56,7 +58,7 @@ export default function AlldayProjectEvent() {
                 </section>
             </header>
             <section className="tri_e_logo">
-                <img src={""} alt="ALLDAY PROJECT 이벤트 로고" />
+                <img src={AlldayProject_e_logo} alt="ALLDAY PROJECT 이벤트 로고" />
             </section>
             <section className="tri_m_h2">
                 <h2><img src={MainH2Deco} alt="ALLDAY PROJECT" />간단한 미로 탈출 이벤트<img src={MainH2Deco} alt="ALLDAY PROJECT" /></h2>
@@ -100,20 +102,20 @@ export default function AlldayProjectEvent() {
                 <div className="tri_e_ghost_40px"></div>
                 <section className="tri_m_h2">
                     <h2>
-                        <img src={MainH2Deco} alt="stray kids" />당첨입니다.<img src={MainH2Deco} alt="stray kids" />
+                        <img src={MainH2Deco} alt="allday project" />당첨입니다.<img src={MainH2Deco} alt="allday project" />
                     </h2>
                 </section>
                 <section className="tri_e_p_win_intropp">
                     <p>
                         당첨을 축하드려요!<br />
-                        상품은 팔찌입니다.<br />
+                        상품은 자석입니다.<br />
                         이벤트에 관심가져 주셔서 감사합니다.<br />
                         이 이벤트는 가상의 이벤트입니다.<br />
                         참고해 주시길 부탁드리겠습니다.<br />
                     </p>
                 </section>
                 <section className="tri_e_p_win_present_150">
-                    <img src={''} alt="" className="triples_e_p_win_present_img" />
+                    <img src={AlldayProject_e_magnet} alt="자석" className="alldayproject_e_p_win_present_img" />
                 </section>
             </section>)}
         </div>
