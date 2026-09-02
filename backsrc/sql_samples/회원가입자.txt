@@ -28,7 +28,7 @@
 ('ohohsskwwkne', '옥수수', 'ojokokosusuqu'),
 ('Swjdjek', '손경이', 'songyunggudnsee!!'),
 ('SSSinthe11', '심기리', 'girrrruuhg7'),
-('love2love', '', 'hhajjs@@!!'),
+('love2love', '트리', 'hhtrreeffg@@!!'),
 ('babyflower', '', 'hhajjs@@!!'),
 ('areYoualive', '', 'hhajjs@@!!'),
 ('Memoria32354r', '', 'hhajjs@@!!'),
