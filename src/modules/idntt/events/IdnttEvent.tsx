@@ -29,6 +29,8 @@ export default function IdnttEvent() {
     const [Idntt_e_node19, setIdntt_e_node19] = useState<IdnttEventNodeType>({ Idntt_e_mem_name: "19번", Idntt_e_link: null });
     const [Idntt_e_node20, setIdntt_e_node20] = useState<IdnttEventNodeType>({ Idntt_e_mem_name: "20번", Idntt_e_link: null });
 
+    const [Idntt_e_last_win, setIdntt_e_last_win] = useState<boolean>(false);
+
     const Idntt_e_node21: IdnttEventNodeType = {
         Idntt_e_mem_name: "21번",
         Idntt_e_link: null,
@@ -174,6 +176,11 @@ export default function IdnttEvent() {
         });
     };
 
+    const changeIdntt_e_last_win = () => {
+        setIdntt_e_last_win(true);
+    };
+
+
     return (
         <div>
             <section className="idntt_e_real_part">
@@ -227,17 +234,21 @@ export default function IdnttEvent() {
                     <p onClick={Idntt_e_node17Link} className="idntt_e_mem_node17">{Idntt_e_node17.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node17.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node18Link}>{Idntt_e_node18.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node18Link} className="idntt_e_mem_node18">{Idntt_e_node18.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node18.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node19Link}>{Idntt_e_node19.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node19Link} className="idntt_e_mem_node19">{Idntt_e_node19.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node19.Idntt_e_link !== null && (
-                    <p onClick={Idntt_e_node20Link}>{Idntt_e_node20.Idntt_e_mem_name}</p>
+                    <p onClick={Idntt_e_node20Link} className="idntt_e_mem_node20">{Idntt_e_node20.Idntt_e_mem_name}</p>
                 )}
                 {Idntt_e_node20.Idntt_e_link !== null && (
-                    <p>{Idntt_e_node21.Idntt_e_mem_name}</p>
+                    <p className="idntt_e_mem_node21" onClick={changeIdntt_e_last_win}>{Idntt_e_node21.Idntt_e_mem_name}</p>
                 )}
+                {Idntt_e_last_win && (
+                    <p>당첨</p>
+                )}
+
             </section>
         </div>
     );
