@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from "react-router-dom";
 import { DoruriDocumentTitle } from "../../DoruriDocumentTitle";
 
+import '../../triples/main/TriplesMain.css';
 import '../../triples/events/TriplesEvent.css';
 import './ArtmsEvent.css';
 
@@ -15,7 +16,7 @@ export default function ArtmsEvent() {
     const [artms_e_correct_arr, SetArtms_e_correct_arr] = useState<string[]>([]);
 
     const [artms_e_before_arr, SetArtms_e_before_arr] = useState<string[]>([
-        '구름', '멍멍이', '비숑', '구름구름', '구름이'
+        '3번', '2번', '4번', '1번', '5번'
     ]);
 
     const artms_e_correct_append = () => {
@@ -45,26 +46,36 @@ export default function ArtmsEvent() {
         }
     };
 
-    let artms_e_correct_all = artms_e_correct_arr[0] === '구름' && artms_e_correct_arr[1] === '구름구름' && artms_e_correct_arr[2] === '구름이'
-        && artms_e_correct_arr[3] === '멍멍이' && artms_e_correct_arr[4] === '비숑';
+    let artms_e_correct_all = artms_e_correct_arr[0] === '1번' && artms_e_correct_arr[1] === '2번' && artms_e_correct_arr[2] === '3번'
+        && artms_e_correct_arr[3] === '4번' && artms_e_correct_arr[4] === '5번';
 
     return (
         <div className="ArtmsEvent_full">
-            <Menu />
-            <section className="home_translate">
-                <Link to='/ArtmsEvent' className="on">한국어</Link>
-                <Link to='/ArtmsEventEng'>English</Link>
+            <header className="tri_m_header">
+                <Menu />
+                <section className="home_translate">
+                    <Link to='/ArtmsEvent' className="on">한국어</Link>
+                    <Link to='/ArtmsEventEng'>English</Link>
+                </section>
+            </header>
+            <section className="tri_e_logo">
+                <img src={""} alt="ARTMSELogo" />
             </section>
-            <img src={""} alt="ARTMSELogo" className="tri_e_logo" />
-            <h2 className="tri_e_h2">
-                <img src={MainH2Deco} alt="ARTMS" />배열 이벤트??<img src={MainH2Deco} alt="ARTMS" />
-            </h2>
-            <p className='tri_e_intropp'>
-                ㅌㅌㅌㅌ<br />
-                ㅌㅌㅌㅌ<br />
-                ㅌㅌㅌㅌ
-            </p>
-            <h2 className="tri_e_h2 artms_e_h2_2">▪ 정답 배열칸??? ▪</h2>
+            <section className="tri_m_h2">
+                <h2>
+                    <img src={MainH2Deco} alt="ARTMS" />멤버 이름 가나다 순서로 정렬하기 이벤트<img src={MainH2Deco} alt="ARTMS" />
+                </h2>
+            </section>
+            <section className='tri_m_intropp'>
+                <p>
+                    &apos;ARTMS&apos; 멤버들의<br />
+                    이름을 가나다 순서대로<br />
+                    정렬해 주세요!
+                </p>
+            </section>
+            <section className="tri_m_h2">
+                <h2>▪ 정답 정렬칸 ▪</h2>
+            </section>
             <section className="artms_e_array artms_e_correct_array">
                 <div>{artms_e_correct_arr[0]}</div>
                 <div>{artms_e_correct_arr[1]}</div>
