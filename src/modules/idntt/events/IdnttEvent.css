@@ -395,3 +395,95 @@
         left: 60px;
     }
 }
+
+.idntt_e_mem_node18 {
+    position: absolute;
+    animation: idntt_e_mem_node18 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node18 {
+    0% {
+        top: 430px;
+        left: 60px;
+    }
+
+    50% {
+        top: 60px;
+        left: 60px;
+    }
+
+    100% {
+        top: 430px;
+        left: 60px;
+    }
+}
+
+.idntt_e_mem_node19 {
+    position: absolute;
+    animation: idntt_e_mem_node19 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node19 {
+    0% {
+        top: 430px;
+        left: 410px;
+    }
+
+    50% {
+        top: 60px;
+        left: 410px;
+    }
+
+    100% {
+        top: 430px;
+        left: 410px;
+    }
+}
+
+.idntt_e_mem_node20 {
+    position: absolute;
+    animation: idntt_e_mem_node20 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node20 {
+    0% {
+        top: 60px;
+        left: 410px;
+    }
+
+    50% {
+        top: 430px;
+        left: 410px;
+    }
+
+    100% {
+        top: 60px;
+        left: 410px;
+    }
+}
+
+.idntt_e_mem_node21 {
+    position: absolute;
+    animation: idntt_e_mem_node21 4s ease 0s infinite;
+    cursor: pointer;
+}
+
+@keyframes idntt_e_mem_node21 {
+    0% {
+        top: 60px;
+        left: 60px;
+    }
+
+    50% {
+        top: 60px;
+        left: 410px;
+    }
+
+    100% {
+        top: 60px;
+        left: 60px;
+    }
+}
