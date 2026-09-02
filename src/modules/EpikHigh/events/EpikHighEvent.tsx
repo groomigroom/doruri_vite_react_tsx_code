@@ -12,6 +12,8 @@ import MainH2Deco from '../../img/main_h2_deco.png';
 import epikhigh_e_real_lp_img from './img/epikhigh_e_real_lp_img.png';
 import epikhigh_e_fake_lp_img from './img/epikhigh_e_fake_lp_img.png';
 import FooterPart from "../../FooterPart";
+import epikhigh_e_logo from './img/epikhigh_e_logo.png';
+import epikhigh_e_pick from './img/epikhigh_e_pick.png';
 
 export default function EpikHighEvent() {
     DoruriDocumentTitle('에픽하이 이벤트');
@@ -107,7 +109,7 @@ export default function EpikHighEvent() {
                 </section>
             </header>
             <section className="tri_e_logo">
-                <img src={""} alt="에픽하이 이벤트 로고" />
+                <img src={epikhigh_e_logo} alt="에픽하이 이벤트 로고" />
             </section>
             <section className="tri_m_h2">
                 <h2><img src={MainH2Deco} alt="에픽하이" />빨간색 LP판 피하기 이벤트<img src={MainH2Deco} alt="에픽하이" /></h2>
@@ -154,14 +156,14 @@ export default function EpikHighEvent() {
                         <section className="tri_e_p_win_intropp">
                             <p>
                                 당첨을 축하드려요!<br />
-                                상품은 ---입니다.<br />
+                                상품은 기타 피크입니다.<br />
                                 이벤트에 관심가져 주셔서 감사합니다.<br />
                                 이 이벤트는 가상의 이벤트입니다.<br />
                                 참고해 주시길 부탁드리겠습니다.<br />
                             </p>
                         </section>
                         <section className="tri_e_p_win_present_150">
-                            <img src={''} alt="" className="triples_e_p_win_present_img" />
+                            <img src={epikhigh_e_pick} alt="" className="epikhigh_e_p_win_present_img" />
                         </section>
                     </section>
                 )
