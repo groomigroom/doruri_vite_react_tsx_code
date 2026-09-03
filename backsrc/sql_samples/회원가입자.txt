@@ -209,3 +209,8 @@
 ('pianoomaiin', '', ''),
 ('duiabooolldo', '', ''),
 ('diablooodoeik', '', ''),
+('meemmymssellf', '', ''),
+('selklfkmmem', '', ''),
+('systemoutprintln', '', ''),
+('publicstatic', '', ''),
+('voidmain', '', ''),
