@@ -174,3 +174,8 @@
 ('doliiiiee2', '', ''),
 ('looollly', '', ''),
 ('hjanhannhan', '', ''),
+('hannrooroo', '', ''),
+('roooopppy', '', ''),
+('ooodddooo', '', ''),
+('gawhii', '', ''),
+('tapetapppe', '', ''),
