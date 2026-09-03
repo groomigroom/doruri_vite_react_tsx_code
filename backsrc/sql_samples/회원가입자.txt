@@ -204,3 +204,8 @@
 ('balloinnng', '', ''),
 ('jungboo', '', ''),
 ('secciiene', '', ''),
+('chuiiim', '', ''),
+('guitarmaiin', '', ''),
+('pianoomaiin', '', ''),
+('duiabooolldo', '', ''),
+('diablooodoeik', '', ''),
