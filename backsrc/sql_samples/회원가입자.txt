@@ -179,3 +179,8 @@
 ('ooodddooo', '', ''),
 ('gawhii', '', ''),
 ('tapetapppe', '', ''),
+('spraykkdk', '', ''),
+('koreaiodol', '', ''),
+('dolliiiimmooii', '', ''),
+('moaaiiiskwh', '', ''),
+('stupopiid', '', ''),
