@@ -106,6 +106,14 @@
 ('gigiaaabyete', '', ''),
 ('bytebyword', '', ''),
 ('wordisfullllee', '', ''),
+('bubbleegum', '', ''),
+('gumbubble', '', ''),
+('bulllbbujjle', '', ''),
+('myshearrrt', '', ''),
+
+
+
+
 
 
 
