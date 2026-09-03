@@ -110,6 +110,13 @@
 ('gumbubble', '', ''),
 ('bulllbbujjle', '', ''),
 ('myshearrrt', '', ''),
+('tooooooodoooodooo', '', ''),
+('tellmewhattodo', '', ''),
+('showdjeje', '', ''),
+('technology', '', ''),
+
+
+
 
 
 
