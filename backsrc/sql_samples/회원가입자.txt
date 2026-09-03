@@ -81,6 +81,7 @@
 ('3sdfg3e', '소망', 'sdfg3e2?'),
 ('doridori222', '', ''),
 ('lobootjj', '', ''),
+('shoolwjj', '', ''),
 ('javaprograming222', '', ''),
 ('proprooooo22', '', ''),
 ('aliceintherworld', '', ''),
