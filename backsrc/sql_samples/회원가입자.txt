@@ -49,10 +49,10 @@
 ('234@fdfe', '이사', 'fdfes234@'),
 ('dhdj3j3jW', '데이지', 'dhdj333?'),
 ('kimkimgoogooremrem', '김김구구르르름', 'goorem23*'),
-('goooooorem', '', ''),
-('gogogoorem', '', ''),
-('gooooohhhh', '', ''),
-('horooooodh33', '', ''),
+('goooooorem', '푸른구름', 'goorem12!'),
+('gogogoorem', '하늘구름', 'goorem33?'),
+('gooooohhhh', '고은', 'goooohh1@'),
+('horooooodh33', '호두', 'horoodh3?'),
 ('fsdfsdfds####', '', ''),
 ('fffddd###2', '', ''),
 ('dddkek@@@', '', ''),
@@ -90,6 +90,7 @@
 ('dnadnadna', '', ''),
 ('dreamandaccess', '', ''),
 ('acturalrator334ee', '', ''),
+('lolooojjpop', '', ''),
 
 
 
