@@ -3,7 +3,7 @@
 : "언제나 힘내면서",
 : "다정한 마음으로",
 : "여러분을 찾아 갈게요!",
-: "/MemberMain/MemberMainClass/stray_kids/img/stray_m_mem_Bangchan.jpg",
+: "/jpg",
 : "#191919",
 : "1997.10.03.",
 : ["혈액형", "소속 유닛", "MBTI", "별명", "SKZOO", "상징 동물", "포지션", "성격"],
