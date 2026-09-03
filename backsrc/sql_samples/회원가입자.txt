@@ -214,3 +214,9 @@
 ('systemoutprintln', '', ''),
 ('publicstatic', '', ''),
 ('voidmain', '', ''),
+('carmmmmeooo', '', ''),
+('mewooow', '', ''),
+('mysqll22', '', ''),
+('selectbyulfrom', '', ''),
+('qluerjllSelector', '', ''),
+
