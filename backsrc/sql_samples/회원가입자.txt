@@ -227,3 +227,12 @@
 ('aretyyoyu', '', ''),
 ('toootoooto', '', ''),
 ('toroodii', '', ''),
+('mmmnmmoooste', '', ''),
+('ittalllaia', '', ''),
+('looovoooetow', '', ''),
+('bonjjdii', '', ''),
+('bonjurueu', '', ''),
+
+
+
+
