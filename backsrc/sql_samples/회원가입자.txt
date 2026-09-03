@@ -80,6 +80,7 @@
 ('sakskek', '심해주', 'sakskek1!'),
 ('3sdfg3e', '소망', 'sdfg3e2?'),
 ('doridori222', '', ''),
+('typeofdj', '', ''),
 ('lobootjj', '', ''),
 ('shoolwjj', '', ''),
 ('javaprograming222', '', ''),
