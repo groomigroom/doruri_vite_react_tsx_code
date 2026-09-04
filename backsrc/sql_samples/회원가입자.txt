@@ -232,11 +232,13 @@
 ('looovoooetow', '', ''),
 ('bonjjdii', '', ''),
 ('bonjurueu', '', ''),
+('nieng', '', ''),
+('goraegorae', '', ''),
+('bbooookmmmm', '', ''),
+('mm9mmo0', '', ''),
 
-nieng
-goraegorae
-bbooookmmmm
-mm9mmo0
+
+
 0okone0k
 roooogoooto
 jiphap
