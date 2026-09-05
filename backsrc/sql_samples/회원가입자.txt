@@ -393,11 +393,11 @@
 ('intfloatfijntn', '', ''),
 ('numberstringwo', '', ''),
 ('worldleldl', '', ''),
-('delletefrom', '', ''),
-('tabnbenkwhamsu', '', ''),
-('defdjsuudj', '', ''),
-('dellfkfek', '', ''),
-('susikkwik', '', ''),
+('delletefrom', 'delete', 'sakjaejjjwn22'),
+('tabnbenkwhamsu', '탁지우', 'tkakk!!'),
+('defdjsuudj', '동미리', 'mirii3ij3'),
+('dellfkfek', '파닥파닥', 'paaakkdkkks'),
+('susikkwik', '수수이', 'susuuiiei33'),
 
 
 
