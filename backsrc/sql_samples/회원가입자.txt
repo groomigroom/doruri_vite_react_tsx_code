@@ -398,16 +398,16 @@
 ('defdjsuudj', '동미리', 'mirii3ij3'),
 ('dellfkfek', '파닥파닥', 'paaakkdkkks'),
 ('susikkwik', '수수이', 'susuuiiei33'),
+('wiksikwiiksk', '', ''),
+('skwooowjjjejj', '', ''),
+('cooodiiijnnnf', '', ''),
+('ginngudiinf', '', ''),
+('dingdingsuririi', '', ''),
+('whosbiasim', '', ''),
+('yourbiaass', '', ''),
 
 
 
-wiksikwiiksk
-skwooowjjjejj
-cooodiiijnnnf
-ginngudiinf
-dingdingsuririi
-whosbiasim
-yourbiaass
 itsnemkmek
 itsssttkekme
 yekchekkek
