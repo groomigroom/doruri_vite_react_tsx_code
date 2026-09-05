@@ -492,16 +492,19 @@
 ('jtgtjuadorh5038', '', ''),
 ('codwwbpvfwmt4769', '', ''),
 ('gduowrj28', '', ''),
-('yegqogzyo506', '', ''),
-('vdjwjag53', '', ''),
+('yegqogzyo506', '코끼리', 'kjooooriiriiid'),
+('vdjwjag53', '카아아', 'jkjdk22jkejek'),
 ('wwwrcaurcw531', '뮤직카', 'musiicidiikdk'),
 ('ftymnzmlnd57', 'iriirii', 'iridoojnen'),
 ('szppjirbco83', '소우리', 'souruudii'),
 ('wuzwbjnz5741', '', ''),
+('rtljnhbnejbshec977', '', ''),
+('tlmwiiiezfs015', '', ''),
+('bkalmhbe6626', '', ''),
 
-rtljnhbnejbshec977
-tlmwiiiezfs015
-bkalmhbe6626
+
+
+
 qxqovumoju15
 wgvyijhrt1029
 zhpnulxsjd90
