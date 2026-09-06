@@ -101,6 +101,9 @@ import TriplesAlphieMain from './triples/units/Alphie/TriplesAlphieMain';
 import TriplesNeptuneMain from './triples/units/Neptune/TriplesNeptuneMain';
 import TriplesMoonMain from './triples/units/Moon/TriplesMoonMain';
 import TriplesSunMain from './triples/units/Sun/TriplesSunMain';
+
+import TriplesSunEvent20260901 from './triples/units/Sun/events/TriplesSunEvent20260901';
+
 import TriplesZenithMain from './triples/units/Zenith/TriplesZenithMain';
 import TriplesMsnzMain from './triples/units/msnz/TriplesMsnzMain';
 
@@ -660,6 +663,9 @@ export default function RoutesSetup() {
             <Route path='/TriplesNeptuneMain' element={<TriplesNeptuneMain />}></Route>
             <Route path='/TriplesMoonMain' element={<TriplesMoonMain />}></Route>
             <Route path='/TriplesSunMain' element={<TriplesSunMain />}></Route>
+
+            <Route path='/triples-sun-event-20260901' element={<TriplesSunEvent20260901 />}></Route>
+
             <Route path='/TriplesZenithMain' element={<TriplesZenithMain />}></Route>
             <Route path='/TriplesMsnzMain' element={<TriplesMsnzMain />}></Route>
 
