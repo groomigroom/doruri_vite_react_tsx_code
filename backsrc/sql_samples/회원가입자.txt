@@ -108,7 +108,7 @@
 ('gigiaaabyete', '다올', 'Silver25#?'),
 ('bytebyword', '양수채', 'Lion89?!'),
 ('wordisfullllee', '한길', 'pple44@@'),
-('bubbleegum', '', ''),
+('bubbleegum', '정도올', 'Phoenix64#@'),
 ('gumbubble', '', ''),
 ('bulllbbujjle', '', ''),
 ('myshearrrt', '', ''),
