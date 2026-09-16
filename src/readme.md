@@ -23,9 +23,10 @@
 * tri_sun
 * tri_zen
 * tri_msnz
-
-투모로우바이투게더 txt 
-악뮤 akmu
+<br>
+* 투모로우바이투게더 txt
+<br>
+* 악뮤 akmu
 아이오아이 ioi
 Stray Kids str
 str_3racha
