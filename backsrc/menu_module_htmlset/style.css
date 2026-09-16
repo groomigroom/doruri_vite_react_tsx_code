@@ -16,3 +16,9 @@
     border: 5px solid #333;
     background-color: #fcfcfc;
 }
+
+.Menu_button {
+    width: 35px;
+    height: 35px;
+    background-color: antiquewhite;
+}
