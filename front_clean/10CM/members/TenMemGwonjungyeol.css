@@ -1,1 +1,10 @@
+.ten_mm_gwonjungyeol_full {
+    width: 100vw;
+    height: 1133px;
+    position: relative;
+    background-color: #fcfcfc;
+}
 
+.ten_mm_gwonjungyeol_img {
+    border: 5px solid #000000;
+}
