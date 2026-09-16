@@ -5,24 +5,24 @@
 
 ------------------------------------
 
-고유 변수
-트리플에스 tri #191919
-tri_aaa
-tri_kre
-tri_aci
-tri_lov
-tri_evo
-tri_nxt
-tri_ari
-tri_glo
-tri_vis
-tri_hat
-tri_alp
-tri_nep
-tri_moo
-tri_sun
-tri_zen
-tri_msnz
+# 고유 변수
+* 트리플에스 tri #191919
+* tri_aaa
+* tri_kre
+* tri_aci
+* tri_lov
+* tri_evo
+* tri_nxt
+* tri_ari
+* tri_glo
+* tri_vis
+* tri_hat
+* tri_alp
+* tri_nep
+* tri_moo
+* tri_sun
+* tri_zen
+* tri_msnz
 
 투모로우바이투게더 txt 
 악뮤 akmu
