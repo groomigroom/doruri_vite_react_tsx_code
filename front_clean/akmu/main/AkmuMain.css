@@ -1,1 +1,95 @@
-AkmuMain.css
+.akmu_m_mem_imgborder {
+    border: 5px solid #13983f;
+}
+
+@media (min-width: 975px) {
+    .akmu_m_full {
+        width: 100vw;
+        height: 1993px;
+        position: relative;
+        background-color: #fcfcfc;
+    }
+
+    .akmu_m_mem_tr_full {
+        width: 340px;
+        height: 150px;
+    }
+
+    .akmu_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>img {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>div {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_h2_4 {
+        position: absolute;
+        top: 1143px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .akmu_m_event_tr_full {
+        top: 1203px;
+    }
+
+    .akmu_m_event_tr_full img {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_event_tr_full div {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_h2_5 {
+        position: absolute;
+        top: 1393px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .akmu_m_album_tr_full {
+        top: 1453px;
+    }
+
+    .akmu_m_album_tr_full img {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_album_tr_full div {
+        border: 5px solid #13983f;
+    }
+
+    .akmu_m_h2_6 {
+        position: absolute;
+        top: 1643px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .akmu_m_sns_tr_realfull {
+        top: 1703px;
+    }
+
+    .akmu_m_sns_a img,
+    .akmu_m_sns_a div {
+        border: 5px solid #13983f;
+    }
+}
+
+@media (max-width: 975px) {
+    .akmu_m_full {
+        width: 100vw;
+        height: 1102px;
+        position: relative;
+    }
+
+    .akmu_m_mem_tr_full_mobile {
+        height: 184px;
+    }
+
+    .akmu_m_mem_tr_full_mobile>.tri_m_mem_trtr>.tri_m_mem_tr>a>img {
+        border: 5px solid #13983f;
+    }
+}
