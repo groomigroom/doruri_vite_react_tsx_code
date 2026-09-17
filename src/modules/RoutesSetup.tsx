@@ -33,17 +33,6 @@ import TriplesSunEvent20260901 from './triples/units/Sun/events/TriplesSunEvent2
 
 //TxtMain
 
-import TxtMemBeomgyu from './txt/members/TxtMemBeomgyu';
-import TxtMemBeomgyuEng from './txtEng/members/TxtMemBeomgyuEng';
-import TxtMemHueningkai from './txt/members/TxtMemHueningkai';
-import TxtMemHueningkaiEng from './txtEng/members/TxtMemHueningkaiEng';
-import TxtMemSubin from './txt/members/TxtMemSubin';
-import TxtMemSubinEng from './txtEng/members/TxtMemSubinEng';
-import TxtMemTaehyun from './txt/members/TxtMemTaehyun';
-import TxtMemTaehyunEng from './txtEng/members/TxtMemTaehyunEng';
-import TxtMemYeonjun from './txt/members/TxtMemYeonjun';
-import TxtMemYeonjun_7_22_end from './txt/members/yeonjun/TxtMemYeonjun_7_22_end';
-
 import TxtMemYeonjunNOLABELSPART01Album from './txt/members/yeonjun/albums/TxtMemYeonjunNOLABELSPART01Album';
 import TxtMemYeonjunNOLABELSPART01AlbumEng from './txtEng/members/yeonjun/albums/TxtMemYeonjunNOLABELSPART01AlbumEng';
 import TxtMemYeonjunNOLABELSPART02Album from './txt/members/yeonjun/albums/TxtMemYeonjunNOLABELSPART02Album';
