@@ -1,0 +1,52 @@
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
+import '../../triples/members/TriplesMemS1.css';
+import './EpiMemTablo.css';
+
+import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
+
+import EpikHighTablo_m_img from '../main/img/Epi_mm_Tablo_img.jpg';
+
+import MainH2Deco from '../../img/main_h2_deco.png';
+
+export default function EpiMemTablo() {
+    DoruriDocumentTitle('타블로');
+
+    return (
+        <div className="epi_mm_tablo_full">
+            <Menu />
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="EpikHigh 꾸미기" />타블로<img src={MainH2Deco} alt="EpikHigh 꾸미기" /></h2>
+            <p className='tri_mm_s1_intropp'>
+                &apos;타블로&apos;와 함께<br />
+                밑을 바친다는 마음으로<br />
+                뭐든 준비해 봐요!</p>
+            <img src={EpikHighTablo_m_img} alt="타블로 이미지" className='tri_mm_s1_img epi_mm_tablo_img' />
+            <table className='tri_mm_s1_intropa_tb epi_mm_tablo_intropa_tb'>
+                <tbody>
+                    <tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>출생</p></td>
+                        <td><p>1980년 7월 22일</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>키</p></td>
+                        <td><p>170cm</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>혈액형</p></td>
+                        <td><p>A형</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>ENFP</p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>성격</p></td>
+                        <td><p>정이 많음</p></td>
+                    </tr>
+                </tbody>
+            </table>
+            <FooterPart FooterPartText='ⓒ 아워즈' />
+        </div>
+    );
+};
