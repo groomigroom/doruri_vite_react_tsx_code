@@ -33,14 +33,6 @@ import TriplesSunEvent20260901 from './triples/units/Sun/events/TriplesSunEvent2
 
 //TxtMain
 
-import TxtMain from './txt/main/TxtMain';
-import TxtMainEng from './txtEng/main/TxtMainEng';
-
-import TxtStarsChapterTogetherAlbum from './txt/albums/TxtStarsChapterTogetherAlbum';
-import TxtStarsChapterTogetherAlbumEng from './txtEng/albums/TxtStarsChapterTogetherAlbumEng';
-import Txt7thYearAlbum from './txt/albums/Txt7thYearAlbum';
-import Txt7thYearAlbumEng from './txtEng/albums/Txt7thYearAlbumEng';
-
 import TxtMemBeomgyu from './txt/members/TxtMemBeomgyu';
 import TxtMemBeomgyuEng from './txtEng/members/TxtMemBeomgyuEng';
 import TxtMemHueningkai from './txt/members/TxtMemHueningkai';
