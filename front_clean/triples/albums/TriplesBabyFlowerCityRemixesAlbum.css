@@ -1,0 +1,204 @@
+.tri_BabyFlowerCityRemixesAlbum_full {
+    width: 100vw;
+    height: 1183px;
+    position: relative;
+    background-color: #fcfcfc;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_h2_1 {
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tri_BabyFlowerCityRemixesAlbum_h2_1>img {
+    margin: 0 20px;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_h2_1>img:last-child {
+    transform: rotateZ(180deg);
+}
+
+.tri_BabyFlowerCityRemixesAlbum_intropp {
+    text-align: center;
+    font-size: 15px;
+    line-height: 140%;
+    font-weight: 500;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 63px */
+
+.tri_BabyFlowerCityRemixesAlbum_img {
+    height: 200px;
+    border-radius: 25px;
+    position: absolute;
+    top: 303px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #191919;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_tb1 {
+    width: 400px;
+    height: 150px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 543px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tri_BabyFlowerCityRemixesAlbum_tb1>tbody>tr {
+    position: relative;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_tb1>tbody>tr>td:first-child {
+    position: absolute;
+    width: 115px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-color: #333;
+    border-top: 5px solid #e6e6e6;
+    border-left: 5px solid #e6e6e6;
+    border-right: 5px solid #e6e6e6;
+
+}
+
+.tri_BabyFlowerCityRemixesAlbum_tb1>tbody>tr>td:first-child>p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #e6e6e6;
+    transform: translateY(-50%);
+    font-weight: 600;
+}
+
+/* 좌우 15이상 되게 */
+
+.tri_BabyFlowerCityRemixesAlbum_tb1>tbody>tr>td:last-child {
+    width: 285px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 115px;
+    border-top: 5px solid #333;
+    border-right: 5px solid #333;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_tb1>tbody>tr>td:last-child>p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1>td:first-child {
+    border-top-left-radius: 15px;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr1>td:last-child {
+    border-top-right-radius: 15px;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3>td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb1_tr3>td:last-child {
+    border-bottom-right-radius: 15px;
+    border-bottom: 5px solid #333;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_h2_2 {
+    position: absolute;
+    top: 733px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* height 20px */
+
+.tri_BabyFlowerCityRemixesAlbum_tb2 {
+    width: 400px;
+    height: 250px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 793px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tri_BabyFlowerCityRemixesAlbum_tb2>tbody>tr {
+    position: relative;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_tb2>tbody>tr>td:first-child {
+    position: absolute;
+    width: 115px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-color: #333;
+    border-top: 5px solid #e6e6e6;
+    border-left: 5px solid #e6e6e6;
+    border-right: 5px solid #e6e6e6;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_tb2>tbody>tr>td:first-child>p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #e6e6e6;
+    transform: translateY(-50%);
+    font-weight: 600;
+}
+
+/* 좌우 15이상 되게 */
+
+.tri_BabyFlowerCityRemixesAlbum_tb2>tbody>tr>td:last-child {
+    width: 285px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 115px;
+    border-top: 5px solid #333;
+    border-right: 5px solid #333;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_tb2>tbody>tr>td:last-child>p {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1>td:first-child {
+    border-top-left-radius: 15px;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr1>td:last-child {
+    border-top-right-radius: 15px;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9>td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+.tri_BabyFlowerCityRemixesAlbum_intropa_tb2_tr9>td:last-child {
+    border-bottom-right-radius: 15px;
+    border-bottom: 5px solid #333;
+}
