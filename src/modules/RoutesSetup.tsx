@@ -31,18 +31,6 @@ import LoginMain from './login/LoginMain';
 import TriplesEvent from "./triples/events/TriplesEvent";
 import TriplesAssemble25Event from './triples/events/TriplesAssemble25Event/TriplesAssemble25Event';
 
-import TriplesAcidAngelFromAsiaMain from './triples/units/AcidAngel_fromAsia/TriplesAcidAngelFromAsiaMain';
-import TriplesKRystalEyesMain from './triples/units/KRystalEyes/TriplesKRystalEyesMain';
-import TriplesAcidEyesMain from './triples/units/AcidEyes/TriplesAcidEyesMain';
-import TriplesLOVElutionMain from './triples/units/LOVElution/TriplesLOVElutionMain';
-import TriplesEvolutionMain from './triples/units/EVOLution/TriplesEvolutionMain';
-import TriplesNxtMain from './triples/units/NXT/TriplesNxtMain';
-import TriplesAriaMain from './triples/units/Aria/TriplesAriaMain';
-import TriplesAriaMainEng from './triplesEng/units/Aria/TriplesAriaMainEng';
-import TriplesGlowMain from './triples/units/Glow/TriplesGlowMain';
-import TriplesVisionaryVisionMain from './triples/units/VisionaryVision/TriplesVisionaryVisionMain';
-import TriplesHatchMain from './triples/units/Hatch/TriplesHatchMain';
-import TriplesAlphieMain from './triples/units/Alphie/TriplesAlphieMain';
 import TriplesNeptuneMain from './triples/units/Neptune/TriplesNeptuneMain';
 import TriplesMoonMain from './triples/units/Moon/TriplesMoonMain';
 import TriplesSunMain from './triples/units/Sun/TriplesSunMain';
