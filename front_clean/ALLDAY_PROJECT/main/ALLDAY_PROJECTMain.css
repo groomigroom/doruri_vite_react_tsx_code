@@ -1,0 +1,105 @@
+.all_m_img {
+    border: 5px solid #000000;
+}
+
+@media (min-width: 975px) {
+
+    .all_m_full {
+        width: 100vw;
+        height: 2183px;
+        position: relative;
+        background-color: #fcfcfc;
+    }
+
+    .all_m_mem_tr_full {
+        width: 530px;
+        height: 340px;
+    }
+
+    .all_m_mem_tr_full img {
+        border: 5px solid #000000;
+    }
+
+    .all_m_mem_tr_full div {
+        border: 5px solid #000000;
+    }
+
+    .all_m_mem_tr3 {
+        width: 530px;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    .all_m_mem_tr2 {
+        width: 340px;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 190px;
+        left: 95px;
+    }
+
+    .allday_m_h2_4 {
+        position: absolute;
+        top: 1333px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .allday_m_event_tr_full {
+        top: 1393px;
+    }
+
+    .allday_m_h2_5 {
+        position: absolute;
+        top: 1583px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .allday_m_album_tr_full {
+        top: 1643px;
+    }
+
+    .allday_m_h2_6 {
+        position: absolute;
+        top: 1833px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .allday_m_sns_tr_full {
+        top: 1893px;
+    }
+
+    .allday_m_sns_a img,
+    .allday_m_sns_a div {
+        border: 5px solid #000000;
+    }
+}
+
+@media (max-width: 975px) {
+    .all_m_full {
+        width: 100vw;
+        height: 1470px;
+        position: relative;
+    }
+
+    .all_m_mem_tr_full_mobile {
+        height: 552px;
+    }
+
+    .all_m_mem_tr_full_mobile>.tri_m_mem_trtr>.tri_m_mem_tr>a>img {
+        border: 5px solid #000000;
+    }
+
+    .all_m_mem_tr_full_mobile>.tri_m_mem_trtr>.tri_m_mem_tr1>a>img {
+        border: 5px solid #000000;
+    }
+}
