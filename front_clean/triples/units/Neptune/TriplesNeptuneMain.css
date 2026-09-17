@@ -1,0 +1,39 @@
+.tri_nep_m_full {
+    width: 100vw;
+    height: 1673px;
+    position: relative;
+    background-color: #fcfcfc;
+}
+
+.tri_nep_m_img {
+    border: 5px solid #99ACCC;
+}
+
+.tri_nep_m_mem_tr_full {
+    width: 530px;
+    height: 340px;
+}
+
+.tri_nep_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>img {
+    border: 5px solid #99ACCC;
+}
+
+.tri_nep_m_mem_tr_full>.tri_m_mem_tr>a>.tri_m_mem>div {
+    border: 5px solid #99ACCC;
+}
+
+.tri_nep_m_h2_5 {
+    position: absolute;
+    top: 1323px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tri_nep_m_album_tr_full {
+    top: 1383px;
+}
+
+.tri_nep_m_album_a img,
+.tri_nep_m_album_a div {
+    border: 5px solid #99ACCC;
+}
