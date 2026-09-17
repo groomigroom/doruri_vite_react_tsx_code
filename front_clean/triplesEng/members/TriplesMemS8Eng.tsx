@@ -1,0 +1,79 @@
+import { Link } from 'react-router-dom';
+import { EngPage } from '../../HomeEng/EngPage';
+
+import '../../triples/members/TriplesMemS1.css';
+import '../../triples/members/TriplesMemS8.css';
+
+import MenuEng from '../../HomeEng/MenuEng';
+import FooterPartEng from '../../FooterPartEng';
+
+import Tri_mm_s8_img from '../../triples/main/img/tri_m_memS8.jpg';
+
+import MainH2Deco from '../../img/main_h2_deco.png';
+
+export default function TriplesMemS8Eng() {
+    EngPage('en', 'ko');
+
+    return (
+        <div className="tri_mm_s8_full">
+            <MenuEng />
+            <section className="home_translate">
+                <Link to='/TriplesMemS8'>한국어</Link>
+                <Link to='/TriplesMemS8Eng' className="on">English</Link>
+            </section>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="triplesS deco" />Gong YuBin<img src={MainH2Deco} alt="triplesS deco" /></h2>
+            <p className='tri_mm_s1_intropp'>
+                I'll do my best<br />
+                in my role and<br />
+                promote as &apos;tripleS&apos;!</p>
+            <img src={Tri_mm_s8_img} alt="Gong YuBin img" className='tri_mm_s1_img' />
+            <table className='tri_mm_s1_intropa_tb'>
+                <tbody>
+                    <tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>birth</p></td>
+                        <td><p>February 3, 2005</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>height</p></td>
+                        <td><p>165cm</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>blood type</p></td>
+                        <td><p>B</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>nickname</p></td>
+                        <td><p>Gongyubam</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>hobby</p></td>
+                        <td><p>Wool felt</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>speciality</p></td>
+                        <td><p>Cooking</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>favorite food</p></td>
+                        <td><p>Meat</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>units</p></td>
+                        <td>
+                            <p>
+                                Acid Angel from Asia, Acid Eyes, <br />
+                                LOVElution, Visionary Vision, zenith
+                            </p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>character</p></td>
+                        <td><p>cool-headedness</p></td>
+                    </tr>
+                </tbody>
+            </table>
+            <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
+        </div>
+    );
+
+};
+
