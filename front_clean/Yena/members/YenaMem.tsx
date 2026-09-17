@@ -1,0 +1,75 @@
+import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
+import '../../triples/members/TriplesMemS1.css';
+import './YenaMem.css';
+
+import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
+
+import Yen_mm_yena_img from '../main/img/Yen_m_img.jpg';
+
+import MainH2Deco from '../../img/main_h2_deco.png';
+
+export default function YenaMem() {
+    DoruriDocumentTitle('최예나');
+
+    return (
+        <div className="yen_mm_yena_full">
+            <Menu />
+            <section className="home_translate">
+                <Link to='/YenaMem' className="on">한국어</Link>
+                <Link to='/YenaMemEng'>English</Link>
+            </section>
+            <h2 className='tri_mm_s1_h2 tri_mm_s1_h2_1'><img src={MainH2Deco} alt="최예나 꾸미기" />최예나<img src={MainH2Deco} alt="최예나 꾸미기" /></h2>
+            <p className='tri_mm_s1_intropp'>
+                뛰어난 친화력으로<br />
+                여러분을<br />
+                만나러 갈게요!</p>
+            <img src={Yen_mm_yena_img} alt="최예나" className='tri_mm_s1_img yen_mm_yena_img' />
+            <table className='tri_mm_s1_intropa_tb'>
+                <tbody>
+                    <tr className='tri_mm_s1_intropa_tb_tr1'>
+                        <td><p>출생</p></td>
+                        <td><p>1999년 9월 29일</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>키</p></td>
+                        <td><p>162cm</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>혈액형</p></td>
+                        <td><p>A형</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>응원봉</p></td>
+                        <td><p>구미봉</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>별명</p></td>
+                        <td><p>오리</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>MBTI</p></td>
+                        <td><p>ENFP</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>취미</p></td>
+                        <td><p>게임</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>특기</p></td>
+                        <td>
+                            <p>삼행시</p></td>
+                    </tr>
+                    <tr className='tri_mm_s1_intropa_tb_tr9'>
+                        <td><p>성격</p></td>
+                        <td><p>사교적임</p></td>
+                    </tr>
+                </tbody>
+            </table>
+            <FooterPart FooterPartText='ⓒ YH엔터테인먼트' />
+        </div>
+    );
+
+};
