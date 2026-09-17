@@ -1,0 +1,14 @@
+.akmu_AkmuGaehwaAlbum_full {
+    width: 100vw;
+    height: 1533px;
+    position: relative;
+    background-color: #fcfcfc;
+}
+
+.akmu_AkmuGaehwaAlbum_img {
+    border: 5px solid #13983f;
+}
+
+.akmu_AkmuGaehwaAlbum_tb2 {
+    height: 600px;
+}
