@@ -26,19 +26,10 @@ import LoginMain from './login/LoginMain';
 
 //TriplesMain
 
-
-
 import TriplesEvent from "./triples/events/TriplesEvent";
 import TriplesAssemble25Event from './triples/events/TriplesAssemble25Event/TriplesAssemble25Event';
 
-import TriplesNeptuneMain from './triples/units/Neptune/TriplesNeptuneMain';
-import TriplesMoonMain from './triples/units/Moon/TriplesMoonMain';
-import TriplesSunMain from './triples/units/Sun/TriplesSunMain';
-
 import TriplesSunEvent20260901 from './triples/units/Sun/events/TriplesSunEvent20260901';
-
-import TriplesZenithMain from './triples/units/Zenith/TriplesZenithMain';
-import TriplesMsnzMain from './triples/units/msnz/TriplesMsnzMain';
 
 //TxtMain
 
