@@ -1,0 +1,52 @@
+.bts_m_full {
+    width: 100vw;
+    height: 1933px;
+    position: relative;
+    background-color: #fcfcfc;
+}
+
+.bts_m_mem_tr_full {
+    height: 340px;
+}
+
+.bts_m_mem_tr4 {
+    width: 720px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.bts_m_mem_tr3 {
+    width: 530px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 190px;
+    left: 95px;
+}
+
+.bts_m_h2_4 {
+    position: absolute;
+    top: 1333px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bts_m_event_tr_full {
+    top: 1393px;
+}
+
+.bts_m_h2_5 {
+    position: absolute;
+    top: 1583px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bts_m_album_tr_full {
+    top: 1643px;
+}
