@@ -1,0 +1,546 @@
+import { Link } from 'react-router-dom';
+import { DoruriDocumentTitle } from '../../DoruriDocumentTitle';
+
+import '../../triples/main/TriplesMain.css';
+import './IdnttMain.css';
+
+import Idntt_m_logo from './img/idntt_m_logo_0957c3.svg';
+import Idntt_m_img from './img/Idn_m_idntt_img.jpg';
+
+import MainH2Deco from '../../img/main_h2_deco.png';
+
+import Menu from '../../Menu';
+import FooterPart from '../../FooterPart';
+
+import Idn_m_memid1_img from './img/Idn_mm_id1_img.jpg';
+import Idn_m_memid2_img from './img/Idn_mm_id2_img.jpg';
+import Idn_m_memid4_img from './img/Idn_mm_id4_img.jpg';
+import Idn_m_memid5_img from './img/Idn_mm_id5_img.jpg';
+import Idn_m_memid6_img from './img/Idn_mm_id6_img.jpg';
+import Idn_m_memid7_img from './img/Idn_mm_id7_img.jpg';
+import Idn_m_memid8_img from './img/Idn_mm_id8_img.jpg';
+import Idn_m_memid9_img from './img/Idn_mm_id9_img.jpg';
+import Idn_m_memid10_img from './img/Idn_mm_id10_img.jpg';
+import Idn_m_memid11_img from './img/Idn_mm_id11_img.jpg';
+import Idn_m_memid12_img from './img/Idn_mm_id12_img.jpg';
+import Idn_m_memid13_img from './img/Idn_mm_id13_img.jpg';
+import Idn_m_memid14_img from './img/Idn_mm_id14_img.jpg';
+import Idn_m_memid15_img from './img/Idn_mm_id15_img.jpg';
+import Idn_m_memid16_img from './img/Idn_mm_id16_img.jpg';
+import Idn_m_memid17_img from './img/Idn_mm_id17_img.jpg';
+import Idn_m_memid18_img from './img/Idn_mm_id18_img.jpg';
+import Idn_m_memid19_img from './img/Idn_mm_id19_img.jpg';
+import Idn_m_memid20_img from './img/Idn_mm_id20_img.jpg';
+import Idn_m_memid21_img from './img/Idn_mm_id21_img.jpg';
+
+import IdnttInstagram_icon_img from './img/IdnttInstgram_icon_img.png';
+import IdnttYoutube_icon_img from './img/IdnttYoutube_icon_img.png';
+
+// import IdnttUnevermet_m_img from '../units';
+
+//#0957c3
+
+export default function IdnttMain() {
+    DoruriDocumentTitle('idntt');
+
+    return (
+        <div className='idn_m_full'>
+            <Menu />
+            <section className="home_translate">
+                <Link to='/IdnttMain' className="on">한국어</Link>
+                <Link to='/IdnttMainEng'>English</Link>
+            </section>
+            <img src={Idntt_m_logo} alt="idntt 로고" className='tri_m_logo' />
+            <h2 className='tri_m_h2 tri_m_h2_1'><img src={MainH2Deco} alt="idntt 로고 꾸미기" />idntt<img src={MainH2Deco} alt="idntt 로고 꾸미기" /></h2>
+            <p className='tri_m_intropp'>
+                &apos;itsnotover&apos;와 함께<br />
+                힘을 내고<br />
+                거침없이 나아가 봐요!
+            </p>
+            <img src={Idntt_m_img} className='tri_m_img idntt_m_img' alt='idntt 이미지' />
+            <h2 className='tri_m_h2 tri_m_h2_2'>▪ 멤버 ▪</h2>
+            <section className='tri_m_mem_tr_full idntt_m_mem_tr_full'>
+
+                <section className='tri_m_mem_tr'>
+                    <Link to='/Idn_m_memid1' className='tri_m_mem_a'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid1_img} alt="김도훈 이미지" />
+                            <div>
+                                <h4>김도훈</h4>
+                            </div>
+                        </article>
+                    </Link>
+                    <Link to='/Idn_m_memid2'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid2_img} alt="김희주 이미지" />
+                            <div>
+                                <h4>김희주</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/IdnttMain'>
+                        <article className='tri_m_mem'>
+                            <img src='' alt="id3" />
+                            <div>
+                                <h4>id3</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid4'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid4_img} alt="최태인 이미지" />
+                            <div>
+                                <h4>최태인</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+
+                <section className='tri_m_mem_tr'>
+                    <Link to='/Idn_m_memid5'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid5_img} alt="이재영 이미지" />
+                            <div>
+                                <h4>이재영</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid6'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid6_img} alt="김주호 이미지" />
+                            <div>
+                                <h4>김주호</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid7'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid7_img} alt="남지운 이미지" />
+                            <div>
+                                <h4>남지운</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid8'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid8_img} alt="이환희 이미지" />
+                            <div>
+                                <h4>이환희</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+
+                <section className='tri_m_mem_tr'>
+                    <Link to='/Idn_m_memid9'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid9_img} alt="이청명 이미지" />
+                            <div>
+                                <h4>이청명</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid10'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid10_img} alt="토와 이미지" />
+                            <div>
+                                <h4>토와</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid11'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid11_img} alt="이규혁 이미지" />
+                            <div>
+                                <h4>이규혁</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid12'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid12_img} alt="박누리 이미지" />
+                            <div>
+                                <h4>박누리</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+
+                <section className='tri_m_mem_tr'>
+                    <Link to='/Idn_m_memid13'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid13_img} alt="김성준 이미지" />
+                            <div>
+                                <h4>김성준</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid14'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid14_img} alt="한예준 이미지" />
+                            <div>
+                                <h4>한예준</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid15'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid15_img} alt="최경빈 이미지" />
+                            <div>
+                                <h4>최경빈</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid16'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid16_img} alt="황은수 이미지" />
+                            <div>
+                                <h4>황은수</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+
+                <section className='tri_m_mem_tr'>
+                    <Link to='/Idn_m_memid17'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid17_img} alt="곽기웅 이미지" />
+                            <div>
+                                <h4>곽기웅</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+
+                    <Link to='/Idn_m_memid18'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid18_img} alt="이주헌 이미지" />
+                            <div>
+                                <h4>이주헌</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid19'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid19_img} alt="양경호 이미지" />
+                            <div>
+                                <h4>양경호</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/Idn_m_memid20'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid20_img} alt="조은찬 이미지" />
+                            <div>
+                                <h4>조은찬</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+
+                <section className='tri_m_mem_tr'>
+                    <Link to='/Idn_m_memid21'>
+                        <article className='tri_m_mem'>
+                            <img src={Idn_m_memid21_img} alt="김은성 이미지" />
+                            <div>
+                                <h4>김은성</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/IdnttMain'>
+                        <article className='tri_m_mem'>
+                            <img src='' alt="id22" />
+                            <div>
+                                <h4>id22</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/IdnttMain'>
+                        <article className='tri_m_mem'>
+                            <img src='' alt="id23" />
+                            <div>
+                                <h4>id23</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to='/IdnttMain'>
+                        <article className='tri_m_mem'>
+                            <img src='' alt="id24" />
+                            <div>
+                                <h4>id24</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            {/* 모바일 멤버 보기 */}
+            <section className="tri_m_mem_tr_full_mobile idn_m_mem_tr_full_mobile">
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid1' className='tri_m_mem_a'>
+                            <img src='' alt="김도훈 이미지" />
+                            <h4>김도훈</h4>
+                        </Link>
+                        <Link to='/Idn_m_memid2'>
+                            <img src='' alt="김희주 이미지" />
+                            <h4>김희주</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/IdnttMain'>
+                            <img src='' alt="id3" />
+                            <h4>id3</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid4'>
+                            <img src='' alt="최태인 이미지" />
+                            <h4>최태인</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid5'>
+                            <img src='' alt="이재영 이미지" />
+                            <h4>이재영</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid6'>
+                            <img src='' alt="김주호 이미지" />
+                            <h4>김주호</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid7'>
+                            <img src='' alt="남지운 이미지" />
+                            <h4>남지운</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid8'>
+                            <img src='' alt="이환희 이미지" />
+                            <h4>이환희</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid9'>
+                            <img src='' alt="이청명 이미지" />
+                            <h4>이청명</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid10'>
+                            <img src='' alt="토와 이미지" />
+                            <h4>토와</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid11'>
+                            <img src='' alt="이규혁 이미지" />
+                            <h4>이규혁</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid12'>
+                            <img src='' alt="박누리 이미지" />
+                            <h4>박누리</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid13'>
+                            <img src='' alt="김성준 이미지" />
+                            <h4>김성준</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid14'>
+                            <img src='' alt="한예준 이미지" />
+                            <h4>한예준</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid15'>
+                            <img src='' alt="최경빈 이미지" />
+                            <h4>최경빈</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid16'>
+                            <img src='' alt="황은수 이미지" />
+                            <h4>황은수</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid17'>
+                            <img src='' alt="곽기웅 이미지" />
+                            <h4>곽기웅</h4>
+                        </Link>
+
+
+                        <Link to='/Idn_m_memid18'>
+                            <img src='' alt="이주헌 이미지" />
+                            <h4>이주헌</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid19'>
+                            <img src='' alt="양경호 이미지" />
+                            <h4>양경호</h4>
+                        </Link>
+
+                        <Link to='/Idn_m_memid20'>
+                            <img src='' alt="조은찬 이미지" />
+                            <h4>조은찬</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/Idn_m_memid21'>
+                            <img src='' alt="김은성 이미지" />
+                            <h4>김은성</h4>
+                        </Link>
+                        <Link to='/IdnttMain'>
+                            <img src='' alt="id22" />
+                            <h4>id22</h4>
+                        </Link>
+                    </section>
+                </section>
+                <section className="tri_m_mem_trtr">
+                    <section className='tri_m_mem_tr'>
+                        <Link to='/IdnttMain'>
+                            <img src='' alt="id23" />
+                            <h4>id23</h4>
+                        </Link>
+
+                        <Link to='/IdnttMain'>
+                            <img src='' alt="id24" />
+                            <h4>id24</h4>
+                        </Link>
+                    </section>
+                </section>
+
+            </section>
+
+            <h2 className='tri_m_h2 tri_m_h2_3'>▪ 유닛 ▪</h2>
+
+            <section className='tri_m_units_tr_full idntt_m_units_tr_full'>
+                <section className='idntt_m_units_tr3'>
+                    <Link to='/IdnttUnevermetMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src='' alt="unevermet" />
+                            <div>
+                                <h4>unevermet</h4>
+                            </div>
+                        </article>
+                    </Link>
+                    <Link to='/IdnttYesweareMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src='' alt="yesweare" />
+                            <div>
+                                <h4>yesweare</h4>
+                            </div>
+                        </article>
+                    </Link>
+                    <Link to='/IdnttItsnotoverMain' className='tri_m_units_a'>
+                        <article className='tri_m_units'>
+                            <img src='' alt="itsnotover" />
+                            <div>
+                                <h4>itsnotover</h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 idntt_m_h2_4'>▪ 이벤트 ▪</h2>
+            <section className='tri_m_event_tr_full idntt_m_event_tr_full'>
+                <section className='tri_m_event_tr'>
+                    <Link to='/idnttEvent' className='tri_m_event_a idntt_m_event_a'>
+                        <article className='tri_m_events'>
+                            <img src={Idntt_m_img} alt="idntt event" />
+                            <div>
+                                <h4>
+                                    idntt<br />
+                                    이벤트
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 idntt_m_h2_5'>▪ 최신 앨범 ▪</h2>
+            <section className='tri_m_album_tr_full idntt_m_album_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <Link to='/idntt' className='tri_m_album_a idntt_m_album_a'>
+                        <article className='tri_m_albums'>
+                            <img src='' alt="Bol4SummerPleaseAlbum" />
+                            <div>
+                                <h4>
+                                    idntt
+                                </h4>
+                            </div>
+                        </article>
+                    </Link>
+                </section>
+            </section>
+
+            <h2 className='tri_m_h2 idntt_m_h2_6'>▪ sns ▪</h2>
+            <section className='tri_m_sns_tr_full idntt_m_sns_tr_full'>
+                <section className='tri_m_album_tr'>
+                    <a href="https://www.instagram.com/idntt_cosmo" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a idntt_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={IdnttInstagram_icon_img} alt="DAY6 인스타그램" />
+                            <div>
+                                <h4>
+                                    인스타그램
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCmnuDfK6fqL2hIWKjAmXJ-Q" target='_blank' rel='noopener noreferrer' className='tri_m_sns_a idntt_m_sns_a'>
+                        <article className='tri_m_snss'>
+                            <img src={IdnttYoutube_icon_img} alt="DAY6 유튜브" />
+                            <div>
+                                <h4>
+                                    유튜브
+                                </h4>
+                            </div>
+                        </article>
+                    </a>
+                </section>
+            </section>
+
+            <FooterPart FooterPartText='ⓒ ㈜모드하우스' />
+        </div >
+    );
+};
