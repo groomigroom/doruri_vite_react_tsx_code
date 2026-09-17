@@ -1,5 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 
+//수정하기
+import TriplesSunEventSuntekArray from './triples/units/Sun/events/TriplesSunEventSuntekArray';
+
 import Home from './Home';
 
 import HomeEng from './HomeEng/HomeEng';
@@ -566,6 +569,8 @@ import RedVelvetVelvetSummerAlbumEng from './RedVelvetEng/albums/RedVelvetVelvet
 export default function RoutesSetup() {
     return (
         <Routes>
+            <Route path='/triples=sun-event-suntek-array' element={<TriplesSunEventSuntekArray />}></Route>
+
             <Route path='/' element={<Home />}></Route>
 
             <Route path='/Eng' element={<HomeEng />}></Route>
