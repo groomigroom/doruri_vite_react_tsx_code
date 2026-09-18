@@ -282,7 +282,8 @@ export default function TriplesEventEng() {
                     <img src={TriEventS24} alt="JiYeon" />
                 </section>
             </section>
-            <button className="tri_e_btn" onClick={tri_e_OpPopup}>제출하기</button>
+            <button className="tri_e_btn" >제출하기</button>
+            {/* onClick={tri_e_OpPopup} */}
             {/* {tri_e_PopupO && (
                 <TriplesEventPre tri_e_OnCl={tri_e_ClPopup} tri_e_result={tri_e_result} />
             )} */}
