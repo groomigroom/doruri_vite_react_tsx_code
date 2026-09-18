@@ -176,47 +176,11 @@ export default function RoutesSetup() {
 
             {/* AespaMain */}
 
-            <Route path='/AespaMain' element={<AespaMain />}></Route>
-            <Route path='/AespaMainEng' element={<AespaMainEng />}></Route>
-
             <Route path='/AespaEvent' element={<AespaEvent />}></Route>
-
-            <Route path='/AespaLemonadeAlbum' element={<AespaLemonadeAlbum />}></Route>
-            <Route path='/AespaLemonadeAlbumEng' element={<AespaLemonadeAlbumEng />}></Route>
-            <Route path='/AespaSynkAexisLineAlbum' element={<AespaSynkAexisLineAlbum />}></Route>
-            <Route path='/AespaSynkAexisLineAlbumEng' element={<AespaSynkAexisLineAlbumEng />}></Route>
-
-            <Route path='/AesMemKarina' element={<AesMemKarina />}></Route>
-            <Route path='/AesMemKarinaEng' element={<AesMemKarinaEng />}></Route>
-            <Route path='/AesMemJijell' element={<AesMemJijell />}></Route>
-            <Route path='/AesMemJijellEng' element={<AesMemJijellEng />}></Route>
-            <Route path='/AesMemWinter' element={<AesMemWinter />}></Route>
-            <Route path='/AesMemWinterEng' element={<AesMemWinterEng />}></Route>
-            <Route path='/AesMemNingning' element={<AesMemNingning />}></Route>
-            <Route path='/AesMemNingningEng' element={<AesMemNingningEng />}></Route>
 
             {/* ALLDAY_PROJECTMain */}
 
-            <Route path='/ALLDAY_PROJECTMain' element={<ALLDAY_PROJECTMain />}></Route>
-            <Route path='/ALLDAY_PROJECTMainEng' element={<ALLDAY_PROJECTMainEng />}></Route>
-
             <Route path='/AlldayProjectEvent' element={<AlldayProjectEvent />}></Route>
-
-            <Route path='/AlldayProjectAlldayProjectAlbum' element={<AlldayProjectAlldayProjectAlbum />}></Route>
-            <Route path='/AlldayProjectAlldayProjectAlbumEng' element={<AlldayProjectAlldayProjectAlbumEng />}></Route>
-            <Route path='/AlldayProjectIDonBargainAlbum' element={<AlldayProjectIDonBargainAlbum />}></Route>
-            <Route path='/AlldayProjectIDonBargainAlbumEng' element={<AlldayProjectIDonBargainAlbumEng />}></Route>
-
-            <Route path='/AllMemAnnie' element={<AllMemAnnie />}></Route>
-            <Route path='/AllMemAnnieEng' element={<AllMemAnnieEng />}></Route>
-            <Route path='/AllMemTarzan' element={<AllMemTarzan />}></Route>
-            <Route path='/AllMemTarzanEng' element={<AllMemTarzanEng />}></Route>
-            <Route path='/AllMemBailey' element={<AllMemBailey />}></Route>
-            <Route path='/AllMemBaileyEng' element={<AllMemBaileyEng />}></Route>
-            <Route path='/AllMemWoochan' element={<AllMemWoochan />}></Route>
-            <Route path='/AllMemWoochanEng' element={<AllMemWoochanEng />}></Route>
-            <Route path='/AllMemYoungseo' element={<AllMemYoungseo />}></Route>
-            <Route path='/AllMemYoungseoEng' element={<AllMemYoungseoEng />}></Route>
 
             {/* Day6Main */}
 
