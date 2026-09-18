@@ -26,8 +26,6 @@ import LoginMain from './login/LoginMain';
 import TriplesEvent from "./triples/events/TriplesEvent";
 import TriplesAssemble25Event from './triples/events/TriplesAssemble25Event/TriplesAssemble25Event';
 
-import TriplesSunEvent20260901 from './triples/units/Sun/events/TriplesSunEvent20260901';
-
 //TxtMain
 
 import TxtEvent from "./txt/events/TxtEvent";
@@ -135,8 +133,6 @@ export default function RoutesSetup() {
 
             <Route path='/TriplesEvent' element={<TriplesEvent />}></Route>
             <Route path='/TriplesAssemble25Event' element={<TriplesAssemble25Event />}></Route>
-
-            <Route path='/triples-sun-event-20260901' element={<TriplesSunEvent20260901 />}></Route>
 
             {/* TxtMain */}
 
