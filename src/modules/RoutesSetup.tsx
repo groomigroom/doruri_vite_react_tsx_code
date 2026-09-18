@@ -160,26 +160,7 @@ export default function RoutesSetup() {
 
             {/* IllitMain */}
 
-            <Route path='/IllitMain' element={<IllitMain />}></Route>
-            <Route path='/IllitMainEng' element={<IllitMainEng />}></Route>
-
             <Route path='/IllitEvent' element={<IllitEvent />}></Route>
-
-            <Route path='/IllitMamthlapinatapaiAlbum' element={<IllitMamthlapinatapaiAlbum />}></Route>
-            <Route path='/IllitMamthlapinatapaiAlbumEng' element={<IllitMamthlapinatapaiAlbumEng />}></Route>
-            <Route path='/IllitBubeeKoreanVerAlbum' element={<IllitBubeeKoreanVerAlbum />}></Route>
-            <Route path='/IllitBubeeKoreanVerAlbumEng' element={<IllitBubeeKoreanVerAlbumEng />}></Route>
-
-            <Route path='/IllMemYunah' element={<IllMemYunah />}></Route>
-            <Route path='/IllMemYunahEng' element={<IllMemYunahEng />}></Route>
-            <Route path='/IllMemMinju' element={<IllMemMinju />}></Route>
-            <Route path='/IllMemMinjuEng' element={<IllMemMinjuEng />}></Route>
-            <Route path='/IllMemMoka' element={<IllMemMoka />}></Route>
-            <Route path='/IllMemMokaEng' element={<IllMemMokaEng />}></Route>
-            <Route path='/IllMemWonhee' element={<IllMemWonhee />}></Route>
-            <Route path='/IllMemWonheeEng' element={<IllMemWonheeEng />}></Route>
-            <Route path='/IllMemEroha' element={<IllMemEroha />}></Route>
-            <Route path='/IllMemErohaEng' element={<IllMemErohaEng />}></Route>
 
             {/* TwsMain */}
 
