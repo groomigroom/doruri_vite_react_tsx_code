@@ -135,10 +135,6 @@ export default function RoutesSetup() {
 
             <Route path='/LoginMain' element={<LoginMain />}></Route>
 
-            <Route path='/TriplesMain' element={<TriplesMain />}></Route>
-            <Route path='/TriplesMainEng' element={<TriplesMainEng />}></Route>
-            <Route path='/TriplesMain20250512End' element={<TriplesMain20250512End />}></Route>
-
             <Route path='/TriplesBabyFlowerCityRemixesAlbum' element={<TriplesBabyFlowerCityRemixesAlbum />}></Route>
             <Route path='/TriplesBabyFlowerCityRemixesAlbumEng' element={<TriplesBabyFlowerCityRemixesAlbumEng />}></Route>
             <Route path='/TriplesLoveAndPopPt1Album' element={<TriplesLoveAndPopPt1Album />}></Route>
