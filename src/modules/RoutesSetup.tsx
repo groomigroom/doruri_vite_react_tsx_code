@@ -37,11 +37,6 @@ import TxtEvent from "./txt/events/TxtEvent";
 
 //AkmuMain
 
-import AkmuMemChanhyuk from './akmu/members/AkmuMemChanhyuk';
-import AkmuMemChanhyukEng from './akmuEng/members/AkmuMemChanhyukEng';
-import AkmuMemSuhyun from './akmu/members/AkmuMemSuhyun';
-import AkmuMemSuhyunEng from './akmuEng/members/AkmuMemSuhyunEng';
-
 import AkmuEvent from "./akmu/events/AkmuEvent";
 
 //IoiMain
