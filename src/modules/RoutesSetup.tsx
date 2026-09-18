@@ -125,14 +125,14 @@ export default function RoutesSetup() {
             <Route path='/idol-list' element={<IdolList />}></Route>
             <Route path='/idol-list-eng' element={<IdolListEng />}></Route>
             <Route path='/idol-list2' element={<IdolList2 />}></Route>
-            <Route path='/IdolList2Eng' element={<IdolList2Eng />}></Route>
+            <Route path='/idol-list2-eng' element={<IdolList2Eng />}></Route>
 
-            <Route path='/LoginMain' element={<LoginMain />}></Route>
+            <Route path='/login/login-main' element={<LoginMain />}></Route>
 
             {/* triplesMain */}
 
-            <Route path='/TriplesEvent' element={<TriplesEvent />}></Route>
-            <Route path='/TriplesAssemble25Event' element={<TriplesAssemble25Event />}></Route>
+            <Route path='/events/triples-event' element={<TriplesEvent />}></Route>
+            <Route path='/events/TriplesAssemble25Event' element={<TriplesAssemble25Event />}></Route>
 
             {/* TxtMain */}
 
