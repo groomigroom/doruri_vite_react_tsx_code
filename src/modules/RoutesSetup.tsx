@@ -51,22 +51,6 @@ import StrayKidsEvent from './Stray_Kids/events/StrayKidsEvent';
 
 import IllitEvent from './illit/events/IllitEvent';
 
-import IllitMamthlapinatapaiAlbum from './illit/albums/IllitMamthlapinatapaiAlbum';
-import IllitMamthlapinatapaiAlbumEng from './illitEng/albums/IllitMamthlapinatapaiAlbumEng';
-import IllitBubeeKoreanVerAlbum from './illit/albums/IllitBubeeKoreanVerAlbum';
-import IllitBubeeKoreanVerAlbumEng from './illitEng/albums/IllitBubeeKoreanVerAlbumEng';
-
-import IllMemYunah from './illit/members/IllMemYunah';
-import IllMemYunahEng from './illitEng/members/IllMemYunahEng';
-import IllMemMinju from './illit/members/IllMemMinju';
-import IllMemMinjuEng from './illitEng/members/IllMemMinjuEng';
-import IllMemMoka from './illit/members/IllMemMoka';
-import IllMemMokaEng from './illitEng/members/IllMemMokaEng';
-import IllMemWonhee from './illit/members/IllMemWonhee';
-import IllMemWonheeEng from './illitEng/members/IllMemWonheeEng';
-import IllMemEroha from './illit/members/IllMemEroha';
-import IllMemErohaEng from './illitEng/members/IllMemErohaEng';
-
 //TwsMain
 
 import TwsMain from './tws/main/TwsMain';
