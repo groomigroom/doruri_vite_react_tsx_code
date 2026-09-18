@@ -168,42 +168,11 @@ export default function RoutesSetup() {
 
             {/* ResceneMain */}
 
-            <Route path='/ResMain' element={<ResMain />}></Route>
-            <Route path='/ResMainEng' element={<ResMainEng />}></Route>
-
             <Route path='/ResceneEvent' element={<ResceneEvent />}></Route>
-
-            <Route path='/RescenePrettyGirlSpecialSingleAlbum' element={<RescenePrettyGirlSpecialSingleAlbum />}></Route>
-            <Route path='/RescenePrettyGirlSpecialSingleAlbumEng' element={<RescenePrettyGirlSpecialSingleAlbumEng />}></Route>
-            <Route path='/ResceneRunawayAlbum' element={<ResceneRunawayAlbum />}></Route>
-            <Route path='/ResceneRunawayAlbumEng' element={<ResceneRunawayAlbumEng />}></Route>
-
-            <Route path='/ResMemWoni' element={<ResMemWoni />}></Route>
-            <Route path='/ResMemWoniEng' element={<ResMemWoniEng />}></Route>
-            <Route path='/ResMemLiv' element={<ResMemLiv />}></Route>
-            <Route path='/ResMemLivEng' element={<ResMemLivEng />}></Route>
-            <Route path='/ResMemMinami' element={<ResMemMinami />}></Route>
-            <Route path='/ResMemMinamiEng' element={<ResMemMinamiEng />}></Route>
-            <Route path='/ResMemMay' element={<ResMemMay />}></Route>
-            <Route path='/ResMemMayEng' element={<ResMemMayEng />}></Route>
-            <Route path='/ResMemJena' element={<ResMemJena />}></Route>
-            <Route path='/ResMemJenaEng' element={<ResMemJenaEng />}></Route>
 
             {/* TenCMMain */}
 
-            <Route path='/TenCMMain' element={<TenCMMain />}></Route>
-            <Route path='/TenCMMain_7_23End' element={<TenCMMain_7_23End />}></Route>
-            <Route path='/TenCMMainEng' element={<TenCMMainEng />}></Route>
-
             <Route path='/TenCMEvent' element={<TenCMEvent />}></Route>
-
-            <Route path='/TenCMTheDarkestNightAlbum' element={<TenCMTheDarkestNightAlbum />}></Route>
-            <Route path='/TenCMTheDarkestNightAlbumEng' element={<TenCMTheDarkestNightAlbumEng />}></Route>
-            <Route path='/TenCMSliverOfPossibilityAlbum' element={<TenCMSliverOfPossibilityAlbum />}></Route>
-            <Route path='/TenCMSliverOfPossibilityAlbumEng' element={<TenCMSliverOfPossibilityAlbumEng />}></Route>
-
-            <Route path='/TenMemGwonjungyeol' element={<TenMemGwonjungyeol />}></Route>
-            <Route path='/TenMemGwonjungyeolEng' element={<TenMemGwonjungyeolEng />}></Route>
 
             {/* AespaMain */}
 
