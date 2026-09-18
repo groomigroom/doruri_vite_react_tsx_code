@@ -130,7 +130,7 @@ export default function TriplesEventEng() {
     if (tri_e_form.tri_e_s23 === "SeoAh") tri_e_result++;
     if (tri_e_form.tri_e_s24 === "JiYeon") tri_e_result++;
 
-    const [tri_e_PopupO, tri_e_SetPopupO] = useState<boolean>(false);
+    //const [tri_e_PopupO, tri_e_SetPopupO] = useState<boolean>(false);
     const tri_e_OpPopup = () => {
         tri_e_SetPopupO(true);
         window.scrollTo({
@@ -139,7 +139,7 @@ export default function TriplesEventEng() {
         });
     };
     //const tri_e_OpPopup = () => tri_e_SetPopupO(true);
-    const tri_e_ClPopup = () => tri_e_SetPopupO(false);
+    //const tri_e_ClPopup = () => tri_e_SetPopupO(false);
 
     console.log(tri_e_result);
 
