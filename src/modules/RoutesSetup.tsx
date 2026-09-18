@@ -144,30 +144,6 @@ export default function RoutesSetup() {
 
             {/* TxtMain */}
 
-           <Route path='/TxtStarsChapterTogetherAlbum' element={<TxtStarsChapterTogetherAlbum />}></Route>
-            <Route path='/TxtStarsChapterTogetherAlbumEng' element={<TxtStarsChapterTogetherAlbumEng />}></Route>
-            <Route path='/Txt7thYearAlbum' element={<Txt7thYearAlbum />}></Route>
-            <Route path='/Txt7thYearAlbumEng' element={<Txt7thYearAlbumEng />}></Route>
-
-            <Route path='/TxtMemBeomgyu' element={<TxtMemBeomgyu />}></Route>
-            <Route path='/TxtMemBeomgyuEng' element={<TxtMemBeomgyuEng />}></Route>
-            <Route path='/TxtMemHueningkai' element={<TxtMemHueningkai />}></Route>
-            <Route path='/TxtMemHueningkaiEng' element={<TxtMemHueningkaiEng />}></Route>
-            <Route path='/TxtMemSubin' element={<TxtMemSubin />}></Route>
-            <Route path='/TxtMemSubinEng' element={<TxtMemSubinEng />}></Route>
-            <Route path='/TxtMemTaehyun' element={<TxtMemTaehyun />}></Route>
-            <Route path='/TxtMemTaehyunEng' element={<TxtMemTaehyunEng />}></Route>
-            <Route path='/TxtMemYeonjun' element={<TxtMemYeonjun />}></Route>
-            <Route path='/TxtMemYeonjun_7_22_end' element={<TxtMemYeonjun_7_22_end />}></Route>
-
-            <Route path='/TxtMemYeonjunNOLABELSPART01Album' element={<TxtMemYeonjunNOLABELSPART01Album />}></Route>
-            <Route path='/TxtMemYeonjunNOLABELSPART01AlbumEng' element={<TxtMemYeonjunNOLABELSPART01AlbumEng />}></Route>
-            <Route path='/TxtMemYeonjunNOLABELSPART02Album' element={<TxtMemYeonjunNOLABELSPART02Album />}></Route>
-            <Route path='/TxtMemYeonjunNOLABELSPART02AlbumEng' element={<TxtMemYeonjunNOLABELSPART02AlbumEng />}></Route>
-
-            <Route path='/TxtMemYeonjunEng' element={<TxtMemYeonjunEng />}></Route>
-            <Route path='/TxtMemYeonjun_7_22_endEng' element={<TxtMemYeonjun_7_22_endEng />}></Route>
-
             <Route path='/TxtEvent' element={<TxtEvent />}></Route>
 
             {/* AkmuMain */}
