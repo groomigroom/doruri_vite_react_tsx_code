@@ -71,7 +71,7 @@ export default function TxtEventEng() {
                     <input className="txt_e_fo" type="text" name="txt_e_in" value={txt_e_str} onChange={Txt_e_handle_input_change} />
                 </div>
             </form>
-            <button className="txt_e_btn" onClick={txt_e_OpPopup}>submit</button>
+            {/* <button className="txt_e_btn" onClick={txt_e_OpPopup}>submit</button> */}
             {/* {txt_e_PopopO && (
                 // <TxtEventPre txt_e_OnCl={txt_e_ClPopup} txt_e_result={txt_e_last_str} />
             )} */}
