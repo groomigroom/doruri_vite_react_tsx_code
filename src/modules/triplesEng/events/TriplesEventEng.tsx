@@ -11,10 +11,10 @@ import FooterPartEng from "../../FooterPartEng";
 import MainH2Deco from '../../img/main_h2_deco.png';
 
 import "../../triples/events/TriplesEvent.css";
-// import TriEventLogo from "./img/tri_events_logo.png";
-// import TriEventS1 from "../main/img/tri_m_memS1.jpg";
-// import TriEventS2 from "../main/img/tri_m_memS2.jpg";
-// import TriEventS3 from "../main/img/tri_m_memS3.jpg";
+import TriEventLogo from "./img/tri_events_logo.png";
+import TriEventS1 from "../main/img/tri_m_memS1.jpg";
+import TriEventS2 from "../main/img/tri_m_memS2.jpg";
+import TriEventS3 from "../main/img/tri_m_memS3.jpg";
 // import TriEventS4 from "../main/img/tri_m_memS4.jpg";
 // import TriEventS5 from "../main/img/tri_m_memS5.jpg";
 // import TriEventS6 from "../main/img/tri_m_memS6.jpg";
