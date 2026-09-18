@@ -53,28 +53,7 @@ import IllitEvent from './illit/events/IllitEvent';
 
 //TwsMain
 
-import TwsMain from './tws/main/TwsMain';
-import TwsMainEng from './twsEng/main/TwsMainEng';
-
-import TwsNoTragedyAlbum from './tws/albums/TwsNoTragedyAlbum';
-import TwsNoTragedyAlbumEng from './twsEng/albums/TwsNoTragedyAlbumEng';
-import TwsTodayMeetingAgainAlbum from './tws/albums/TwsTodayMeetingAgainAlbum';
-import TwsTodayMeetingAgainAlbumEng from './twsEng/albums/TwsTodayMeetingAgainAlbumEng';
-
 import TwsEvent from './tws/events/TwsEvent';
-
-import TwsMemSinyu from './tws/members/TwsMemSinyu';
-import TwsMemSinyuEng from './twsEng/members/TwsMemSinyuEng';
-import TwsMemDohun from './tws/members/TwsMemDohun';
-import TwsMemDohunEng from './twsEng/members/TwsMemDohunEng';
-import TwsMemYoungjae from './tws/members/TwsMemYoungjae';
-import TwsMemYoungjaeEng from './twsEng/members/TwsMemYoungjaeEng';
-import TwsMemHanjin from './tws/members/TwsMemHanjin';
-import TwsMemHanjinEng from './twsEng/members/TwsMemHanjinEng';
-import TwsMemJihun from './tws/members/TwsMemJihun';
-import TwsMemJihunEng from './twsEng/members/TwsMemJihunEng';
-import TwsMemGyungmin from './tws/members/TwsMemGyungmin';
-import TwsMemGyungminEng from './twsEng/members/TwsMemGyungminEng';
 
 //ResMain
 
