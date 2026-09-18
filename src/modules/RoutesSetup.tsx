@@ -204,69 +204,15 @@ export default function RoutesSetup() {
 
             {/* ARTMSMain */}
 
-            <Route path='/ARTMSMain' element={<ARTMSMain />}></Route>
-            <Route path='/ARTMSMain_7_23End' element={<ARTMSMain_7_23End />}></Route>
-            <Route path='/ARTMSMainEng' element={<ARTMSMainEng />}></Route>
-
             <Route path='/ArtmsEvent' element={<ArtmsEvent />}></Route>
 
-            <Route path='/ArtmsOddEyeCircleMain' element={<ArtmsOddEyeCircleMain />}></Route>
-            <Route path='/ArtmsOddEyeCircleMainEng' element={<ArtmsOddEyeCircleMainEng />}></Route>
-
-            <Route path='/ArtMemHeejin' element={<ArtMemHeejin />}></Route>
-            <Route path='/ArtMemHeejinEng' element={<ArtMemHeejinEng />}></Route>
-            <Route path='/ArtMemHaseul' element={<ArtMemHaseul />}></Route>
-            <Route path='/ArtMemHaseulEng' element={<ArtMemHaseulEng />}></Route>
-            <Route path='/ArtMemKimlip' element={<ArtMemKimlip />}></Route>
-            <Route path='/ArtMemKimlipEng' element={<ArtMemKimlipEng />}></Route>
-            <Route path='/ArtMemJinsoul' element={<ArtMemJinsoul />}></Route>
-            <Route path='/ArtMemJinsoulEng' element={<ArtMemJinsoulEng />}></Route>
-            <Route path='/ArtMemChoerry' element={<ArtMemChoerry />}></Route>
-            <Route path='/ArtMemChoerryEng' element={<ArtMemChoerryEng />}></Route>
-
             {/* BTOBMain */}
-            <Route path='/BTOBMain' element={<BTOBMain />}></Route>
-            <Route path='/BTOBMainEng' element={<BTOBMainEng />}></Route>
-
+ 
             <Route path='/BtobEvent' element={<BtobEvent />}></Route>
 
-            <Route path='/BtobWeAgainAlbum' element={<BtobWeAgainAlbum />}></Route>
-            <Route path='/BtobWeAgainAlbumEng' element={<BtobWeAgainAlbumEng />}></Route>
-
-            <Route path='/BtobBtobBlueMain' element={<BtobBtobBlueMain />}></Route>
-            <Route path='/BtobBtobBlueMainEng' element={<BtobBtobBlueMainEng />}></Route>
-            <Route path='/BtobBtob4uMain' element={<BtobBtob4uMain />}></Route>
-            <Route path='/BtobBtob4uMainEng' element={<BtobBtob4uMainEng />}></Route>
-            <Route path='/Btob90TanMain' element={<Btob90TanMain />}></Route>
-            <Route path='/Btob90TanMainEng' element={<Btob90TanMainEng />}></Route>
-
-            <Route path='/BtoMemPeniel' element={<BtoMemPeniel />}></Route>
-            <Route path='/BtoMemPenielEng' element={<BtoMemPenielEng />}></Route>
-            <Route path='/BtoMemLeeChangsub' element={<BtoMemLeeChangsub />}></Route>
-            <Route path='/BtoMemLeeChangsubEng' element={<BtoMemLeeChangsubEng />}></Route>
-            <Route path='/BtoMemLeeMinhyuk' element={<BtoMemLeeMinhyuk />}></Route>
-            <Route path='/BtoMemLeeMinhyukEng' element={<BtoMemLeeMinhyukEng />}></Route>
-            <Route path='/BtoMemLimHyunsik' element={<BtoMemLimHyunsik />}></Route>
-            <Route path='/BtoMemLimHyunsikEng' element={<BtoMemLimHyunsikEng />}></Route>
-            <Route path='/BtoMemYookSungjae' element={<BtoMemYookSungjae />}></Route>
-            <Route path='/BtoMemYookSungjaeEng' element={<BtoMemYookSungjaeEng />}></Route>
-            <Route path='/BtoMemSeoEunkwang' element={<BtoMemSeoEunkwang />}></Route>
-            <Route path='/BtoMemSeoEunkwangEng' element={<BtoMemSeoEunkwangEng />}></Route>
-
-            <Route path='/SeoEunkwangOurYouthAlbum' element={<SeoEunkwangOurYouthAlbum />}></Route>
-
             {/* HanroroMain */}
-            <Route path='/HanroroMain' element={<HanroroMain />}></Route>
-            <Route path='/HanroroMainEng' element={<HanroroMainEng />}></Route>
-
+ 
             <Route path='/HanroroEvent' element={<HanroroEvent />}></Route>
-
-            <Route path='/HanroroJpopRemakeVol2Album' element={<HanroroJpopRemakeVol2Album />}></Route>
-            <Route path='/HanroroJpopRemakeVol2AlbumEng' element={<HanroroJpopRemakeVol2AlbumEng />}></Route>
-            <Route path='/HanroroLoveAndHatredAlbum' element={<HanroroLoveAndHatredAlbum />}></Route>
-
-            <Route path='/HanMemHanroro' element={<HanMemHanroro />}></Route>
-            <Route path='/HanMemHanroroEng' element={<HanMemHanroroEng />}></Route>
 
             {/* BTSMain */}
             <Route path='/BTSMain' element={<BTSMain />}></Route>
