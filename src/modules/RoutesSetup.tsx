@@ -83,36 +83,11 @@ import Bol4FindYouEvent from './bol4/events/Bol4FindYouEvent';
 
 //EpikHighMain
 
-import EpikHighMain from './EpikHigh/main/EpikHighMain';
-import EpikHighMainEng from './EpikHighEng/main/EpikHighMainEng';
-
 import EpikHighEvent from './EpikHigh/events/EpikHighEvent';
-
-import EpikHighBruzHalipaOursVersionAlbum from './EpikHigh/albums/EpikHighBruzHalipaOursVersionAlbum';
-import EpikHighBruzHalipaOursVersionAlbumEng from './EpikHighEng/albums/EpikHighBruzHalipaOursVersionAlbumEng';
-import EpikHighPumpCollectorsEditionAlbum from './EpikHigh/albums/EpikHighPumpCollectorsEditionAlbum';
-import EpikHighPumpCollectorsEditionAlbumEng from './EpikHighEng/albums/EpikHighPumpCollectorsEditionAlbumEng';
-
-import EpiMemMithra from './EpikHigh/members/EpiMemMithra';
-import EpiMemMithraEng from './EpikHighEng/members/EpiMemMithraEng';
-import EpiMemTablo from './EpikHigh/members/EpiMemTablo';
-import EpiMemTabloEng from './EpikHighEng/members/EpiMemTabloEng';
-import EpiMemTwokutz from './EpikHigh/members/EpiMemTwokutz';
-import EpiMemTwokutzEng from './EpikHighEng/members/EpiMemTwokutzEng';
 
 //YenaMain
 
-import YenaMain from './Yena/main/YenaMain';
-import YenaMainEng from './YenaEng/main/YenaMainEng';
-
 import YenaEvent from './Yena/events/YenaEvent';
-
-import YenaNemonemoAlbum from './Yena/albums/YenaNemonemoAlbum';
-import YenaNemonemoAlbumEng from './YenaEng/albums/YenaNemonemoAlbumEng';
-import YenaBloomingWingsAlbum from './Yena/albums/YenaBloomingWingsAlbum';
-
-import YenaMem from './Yena/members/YenaMem';
-import YenaMemEng from './YenaEng/members/YenaMemEng';
 
 //IdnttMain
 
