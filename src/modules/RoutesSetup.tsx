@@ -135,24 +135,6 @@ export default function RoutesSetup() {
 
             <Route path='/LoginMain' element={<LoginMain />}></Route>
 
-            <Route path='/TriplesBabyFlowerCityRemixesAlbum' element={<TriplesBabyFlowerCityRemixesAlbum />}></Route>
-            <Route path='/TriplesBabyFlowerCityRemixesAlbumEng' element={<TriplesBabyFlowerCityRemixesAlbumEng />}></Route>
-            <Route path='/TriplesLoveAndPopPt1Album' element={<TriplesLoveAndPopPt1Album />}></Route>
-            <Route path='/TriplesLoveAndPopPt1AlbumEng' element={<TriplesLoveAndPopPt1AlbumEng />}></Route>
-            <Route path='/TriplesDreamDressAlbum' element={<TriplesDreamDressAlbum />}></Route>
-            <Route path='/TriplesDreamDressAlbumEng' element={<TriplesDreamDressAlbumEng />}></Route>
-
-            <Route path='/TriplesMemS1' element={<TriplesMemS1 />}></Route>
-            <Route path='/TriplesMemS1Eng' element={<TriplesMemS1Eng />}></Route>
-            <Route path='/TriplesMemS2' element={<TriplesMemS2 />}></Route>
-            <Route path='/TriplesMemS2Eng' element={<TriplesMemS2Eng />}></Route>
-            <Route path='/TriplesMemS3' element={<TriplesMemS3 />}></Route>
-            <Route path='/TriplesMemS3Eng' element={<TriplesMemS3Eng />}></Route>
-            <Route path='/TriplesMemS4' element={<TriplesMemS4 />}></Route>
-            <Route path='/TriplesMemS4Eng' element={<TriplesMemS4Eng />}></Route>
-            <Route path='/TriplesMemS5' element={<TriplesMemS5 />}></Route>
-            <Route path='/TriplesMemS5Eng' element={<TriplesMemS5Eng />}></Route>
-            <Route path='/TriplesMemS6' element={<TriplesMemS6 />}></Route>
             <Route path='/TriplesMemS6Eng' element={<TriplesMemS6Eng />}></Route>
             <Route path='/TriplesMemS7' element={<TriplesMemS7 />}></Route>
             <Route path='/TriplesMemS7Eng' element={<TriplesMemS7Eng />}></Route>
