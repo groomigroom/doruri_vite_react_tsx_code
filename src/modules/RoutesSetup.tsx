@@ -118,13 +118,13 @@ export default function RoutesSetup() {
             <Route path='/doruri-map/idollist' element={<DoruriMapIdolList />}></Route>
             <Route path='/doruri-map/idollist2' element={<DoruriMapIdolList2 />}></Route>
 
-            <Route path='/DoruriUpdate' element={<DoruriUpdate />}></Route>
+            <Route path='/doruri-update' element={<DoruriUpdate />}></Route>
 
-            <Route path='/DoruriUpdateAugust5th2026' element={<DoruriUpdateAugust5th2026 />}></Route>
+            <Route path='/doruri-update-august-5th-2026' element={<DoruriUpdateAugust5th2026 />}></Route>
 
-            <Route path='/IdolList' element={<IdolList />}></Route>
-            <Route path='/IdolListEng' element={<IdolListEng />}></Route>
-            <Route path='/IdolList2' element={<IdolList2 />}></Route>
+            <Route path='/idol-list' element={<IdolList />}></Route>
+            <Route path='/idol-list-eng' element={<IdolListEng />}></Route>
+            <Route path='/idol-list2' element={<IdolList2 />}></Route>
             <Route path='/IdolList2Eng' element={<IdolList2Eng />}></Route>
 
             <Route path='/LoginMain' element={<LoginMain />}></Route>
