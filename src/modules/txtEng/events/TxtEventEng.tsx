@@ -38,9 +38,9 @@ export default function TxtEventEng() {
 
     console.log(txt_e_last_str);
 
-    const [txt_e_PopopO, txt_e_SetPopupO] = useState<boolean>(false);
-    const txt_e_OpPopup = () => txt_e_SetPopupO(true);
-    const txt_e_ClPopup = () => txt_e_SetPopupO(false);
+    // const [txt_e_PopopO, txt_e_SetPopupO] = useState<boolean>(false);
+    // const txt_e_OpPopup = () => txt_e_SetPopupO(true);
+    // const txt_e_ClPopup = () => txt_e_SetPopupO(false);
     return (
         <div className="txt_e_full">
             <MenuEng />
