@@ -103,50 +103,13 @@ import BtobEvent from './BTOB/events/BtobEvent';
 
 //HanroroMain
 
-import HanroroMain from './Hanroro/main/HanroroMain';
-import HanroroMainEng from './HanroroEng/main/HanroroMainEng';
-
 import HanroroEvent from './Hanroro/events/HanroroEvent';
-
-import HanroroJpopRemakeVol2Album from './Hanroro/albums/HanroroJpopRemakeVol2Album';
-import HanroroJpopRemakeVol2AlbumEng from './HanroroEng/albums/HanroroJpopRemakeVol2AlbumEng';
-import HanroroLoveAndHatredAlbum from './Hanroro/albums/HanroroLoveAndHatredAlbum';
-
-import HanMemHanroro from './Hanroro/members/HanMemHanroro';
-import HanMemHanroroEng from './HanroroEng/members/HanMemHanroroEng';
 
 //BTSMain
 
-import BTSMain from './BTS/main/BTSMain';
-import BTSMainEng from './BTSEng/main/BTSMainEng';
-
 import BtsEvent from './BTS/events/BtsEvent';
 
-import BtsNormalAlbum from './BTS/albums/BtsNormalAlbum';
-import BtsNormalAlbumEng from './BTSEng/albums/BtsNormalAlbumEng';
-
-import BTSMemJhope from './BTS/members/BTSMemJhope';
-import BTSMemJhopeEng from './BTSEng/members/BTSMemJhopeEng';
-import BTSMemJimin from './BTS/members/BTSMemJimin';
-import BTSMemJiminEng from './BTSEng/members/BTSMemJiminEng';
-import BTSMemJin from './BTS/members/BTSMemJin';
-import BTSMemJinEng from './BTSEng/members/BTSMemJinEng';
-import BTSMemJungKook from './BTS/members/BTSMemJungKook';
-import BTSMemJungKookEng from './BTSEng/members/BTSMemJungKookEng';
-import BTSMemRM from './BTS/members/BTSMemRM';
-import BTSMemRMEng from './BTSEng/members/BTSMemRMEng';
-import BTSMemSUGA from './BTS/members/BTSMemSUGA';
-import BTSMemSUGAEng from './BTSEng/members/BTSMemSUGAEng';
-import BTSMemV from './BTS/members/BTSMemV';
-import BTSMemVEng from './BTSEng/members/BTSMemVEng';
-
 //RedVelvetMain
-
-import RedVelvetMain from './RedVelvet/main/RedVelvetMain';
-import RedVelvetMainEng from './RedVelvetEng/main/RedVelvetMainEng';
-
-import RedVelvetVelvetSummerAlbum from './RedVelvet/albums/RedVelvetVelvetSummerAlbum';
-import RedVelvetVelvetSummerAlbumEng from './RedVelvetEng/albums/RedVelvetVelvetSummerAlbumEng';
 
 export default function RoutesSetup() {
     return (
