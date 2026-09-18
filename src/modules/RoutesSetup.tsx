@@ -37,9 +37,6 @@ import TxtEvent from "./txt/events/TxtEvent";
 
 //AkmuMain
 
-import AkmuMain from './akmu/main/AkmuMain';
-import AkmuMainEng from './akmuEng/main/AkmuMainEng';
-
 import AkmuLoveEpisodeAlbum from './akmu/albums/AkmuLoveEpisodeAlbum';
 import AkmuLoveEpisodeAlbumEng from './akmuEng/albums/AkmuLoveEpisodeAlbumEng';
 import AkmuGaehwaAlbum from './akmu/albums/AkmuGaehwaAlbum';
