@@ -131,16 +131,16 @@ export default function RoutesSetup() {
 
             {/* triplesMain */}
 
-            <Route path='/events/triples-event' element={<TriplesEvent />}></Route>
-            <Route path='/events/TriplesAssemble25Event' element={<TriplesAssemble25Event />}></Route>
+            <Route path='/events/triples-love-and-pop-pt1-event' element={<TriplesEvent />}></Route>
+            <Route path='/events/triples-assemble25-event' element={<TriplesAssemble25Event />}></Route>
 
             {/* TxtMain */}
 
-            <Route path='/TxtEvent' element={<TxtEvent />}></Route>
+            <Route path='/events/txt-7th-year-event' element={<TxtEvent />}></Route>
 
             {/* AkmuMain */}
 
-            <Route path='/AkmuEvent' element={<AkmuEvent />}></Route>
+            <Route path='/events/AkmuEvent' element={<AkmuEvent />}></Route>
 
             {/* IoiMain */}
 
