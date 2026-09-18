@@ -215,35 +215,10 @@ export default function RoutesSetup() {
             <Route path='/HanroroEvent' element={<HanroroEvent />}></Route>
 
             {/* BTSMain */}
-            <Route path='/BTSMain' element={<BTSMain />}></Route>
-            <Route path='/BTSMainEng' element={<BTSMainEng />}></Route>
 
             <Route path='/BtsEvent' element={<BtsEvent />}></Route>
 
-            <Route path='/BtsNormalAlbum' element={<BtsNormalAlbum />}></Route>
-            <Route path='/BtsNormalAlbumEng' element={<BtsNormalAlbumEng />}></Route>
-
-            <Route path='/BTSMemJhope' element={<BTSMemJhope />}></Route>
-            <Route path='/BTSMemJhopeEng' element={<BTSMemJhopeEng />}></Route>
-            <Route path='/BTSMemJimin' element={<BTSMemJimin />}></Route>
-            <Route path='/BTSMemJiminEng' element={<BTSMemJiminEng />}></Route>
-            <Route path='/BTSMemJin' element={<BTSMemJin />}></Route>
-            <Route path='/BTSMemJinEng' element={<BTSMemJinEng />}></Route>
-            <Route path='/BTSMemJungKook' element={<BTSMemJungKook />}></Route>
-            <Route path='/BTSMemJungKookEng' element={<BTSMemJungKookEng />}></Route>
-            <Route path='/BTSMemRM' element={<BTSMemRM />}></Route>
-            <Route path='/BTSMemRMEng' element={<BTSMemRMEng />}></Route>
-            <Route path='/BTSMemSUGA' element={<BTSMemSUGA />}></Route>
-            <Route path='/BTSMemSUGAEng' element={<BTSMemSUGAEng />}></Route>
-            <Route path='/BTSMemV' element={<BTSMemV />}></Route>
-            <Route path='/BTSMemVEng' element={<BTSMemVEng />}></Route>
-
             {/* RedVelvetMain */}
-            <Route path='/RedVelvetMain' element={<RedVelvetMain />}></Route>
-            <Route path='/RedVelvetMainEng' element={<RedVelvetMainEng />}></Route>
-
-            <Route path='/RedVelvetVelvetSummerAlbum' element={<RedVelvetVelvetSummerAlbum />}></Route>
-            <Route path='/RedVelvetVelvetSummerAlbumEng' element={<RedVelvetVelvetSummerAlbumEng />}></Route>
 
         </Routes>
     );
