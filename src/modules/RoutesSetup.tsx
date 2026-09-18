@@ -45,9 +45,6 @@ import IoiEvent from './ioi/events/IoiEvent';
 
 //StrayKidsMain
 
-import StrayKidsMain from './Stray_Kids/main/StrayKidsMain';
-import StrayKidsMainEng from './Stray_KidsEng/main/StrayKidsMainEng';
-
 import StrayKidsEvent from './Stray_Kids/events/StrayKidsEvent';
 
 import StrayKidsRunItAlbum from './Stray_Kids/albums/StrayKidsRunItAlbum';
