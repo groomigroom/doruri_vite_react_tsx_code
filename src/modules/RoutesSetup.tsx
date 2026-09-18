@@ -164,52 +164,52 @@ export default function RoutesSetup() {
 
             {/* TenCMMain */}
 
-            <Route path='/TenCMEvent' element={<TenCMEvent />}></Route>
+            <Route path='/events/ten-cm-sliver-of-possibility-event' element={<TenCMEvent />}></Route>
 
             {/* AespaMain */}
 
-            <Route path='/AespaEvent' element={<AespaEvent />}></Route>
+            <Route path='/events/aespa-lemonade-event' element={<AespaEvent />}></Route>
 
             {/* ALLDAY_PROJECTMain */}
 
-            <Route path='/AlldayProjectEvent' element={<AlldayProjectEvent />}></Route>
+            <Route path='/events/allday-project-allday-project-event' element={<AlldayProjectEvent />}></Route>
 
             {/* Day6Main */}
 
-            <Route path='/Day6Event' element={<Day6Event />}></Route>
+            <Route path='/events/day6-lovin-the-christmas-event' element={<Day6Event />}></Route>
 
             {/* Bol4Main */}
 
-            <Route path='/Bol4Event' element={<Bol4Event />}></Route>
+            <Route path='/events/bol4-please-summer-event' element={<Bol4Event />}></Route>
             <Route path='/events/bol4-find-you-event' element={<Bol4FindYouEvent />}></Route>
 
             {/* EpikHighMain */}
 
-            <Route path='/EpikHighEvent' element={<EpikHighEvent />}></Route>
+            <Route path='/events/epik-high-pump-collections-edition-event' element={<EpikHighEvent />}></Route>
 
             {/* YenaMain */}
 
-            <Route path='/YenaEvent' element={<YenaEvent />}></Route>
+            <Route path='/events/yena-blooming-wings-event' element={<YenaEvent />}></Route>
 
             {/* IdnttMain */}
 
-            <Route path='/IdnttEvent' element={<IdnttEvent />}></Route>
+            <Route path='/events/idntt-istnotover-event' element={<IdnttEvent />}></Route>
 
             {/* ARTMSMain */}
 
-            <Route path='/ArtmsEvent' element={<ArtmsEvent />}></Route>
+            <Route path='/events/artms-hyper-ego-event' element={<ArtmsEvent />}></Route>
 
             {/* BTOBMain */}
  
-            <Route path='/BtobEvent' element={<BtobEvent />}></Route>
+            <Route path='/events/btob-we-again-event' element={<BtobEvent />}></Route>
 
             {/* HanroroMain */}
  
-            <Route path='/HanroroEvent' element={<HanroroEvent />}></Route>
+            <Route path='/events/hanroro-j-pop-remake-vol2-event' element={<HanroroEvent />}></Route>
 
             {/* BTSMain */}
 
-            <Route path='/BtsEvent' element={<BtsEvent />}></Route>
+            <Route path='/events-bts-normal-event' element={<BtsEvent />}></Route>
 
             {/* RedVelvetMain */}
 
