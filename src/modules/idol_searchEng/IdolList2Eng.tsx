@@ -144,7 +144,7 @@ export default function IdolList2Eng() {
                 <Link to='/'>4</Link>
                 <Link to='/'>5</Link>
             </section>
-            <FooterPartEng />
+            <FooterPartEng FooterPartEngText="doruri"/>
         </div>
     );
 };
