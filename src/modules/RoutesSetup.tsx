@@ -156,11 +156,11 @@ export default function RoutesSetup() {
 
             {/* TwsMain */}
 
-            <Route path='/TwsEvent' element={<TwsEvent />}></Route>
+            <Route path='/events/tws-no-tragedy-event' element={<TwsEvent />}></Route>
 
             {/* ResceneMain */}
 
-            <Route path='/ResceneEvent' element={<ResceneEvent />}></Route>
+            <Route path='/events/rescene-pretty-girl-special-single-event' element={<ResceneEvent />}></Route>
 
             {/* TenCMMain */}
 
