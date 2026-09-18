@@ -7,7 +7,6 @@ import "../../triples/events/TriplesEvent.css";
 import "../../txt/events/TxtEvent.css";
 
 import TxtELogo from "../../txt/events/img/txt_e_logo.png";
-import TxtEventPre from "./TxtEventPre";
 import MenuEng from "../../HomeEng/MenuEng";
 import FooterPartEng from "../../FooterPartEng";
 
