@@ -61,63 +61,15 @@ import ResceneEvent from './RESCENE/events/ResceneEvent';
 
 //TenCMMain
 
-import TenCMMain from './10CM/main/TenCMMain';
-import TenCMMain_7_23End from './10CM/main/beforeMain/TenCMMain_7_23End';
-import TenCMMainEng from './10CMEng/main/TenCMMainEng';
-
 import TenCMEvent from './10CM/events/TenCMEvent';
-
-import TenCMTheDarkestNightAlbum from './10CM/albums/TenCMTheDarkestNightAlbum';
-import TenCMTheDarkestNightAlbumEng from './10CMEng/albums/TenCMTheDarkestNightAlbumEng';
-import TenCMSliverOfPossibilityAlbum from './10CM/albums/TenCMSliverOfPossibilityAlbum';
-import TenCMSliverOfPossibilityAlbumEng from './10CMEng/albums/TenCMSliverOfPossibilityAlbumEng';
-
-import TenMemGwonjungyeol from './10CM/members/TenMemGwonjungyeol';
-import TenMemGwonjungyeolEng from './10CMEng/members/TenMemGwonjungyeolEng';
 
 //AespaMain
 
-import AespaMain from './aespa/main/AespaMain';
-import AespaMainEng from './aespaEng/main/AespaMainEng';
-
 import AespaEvent from './aespa/events/AespaEvent';
-
-import AespaLemonadeAlbum from './aespa/albums/AespaLemonadeAlbum';
-import AespaLemonadeAlbumEng from './aespaEng/albums/AespaLemonadeAlbumEng';
-import AespaSynkAexisLineAlbum from './aespa/albums/AespaSynkAexisLineAlbum';
-import AespaSynkAexisLineAlbumEng from './aespaEng/albums/AespaSynkAexisLineAlbumEng';
-
-import AesMemKarina from './aespa/members/AesMemKarina';
-import AesMemKarinaEng from './aespaEng/members/AesMemKarinaEng';
-import AesMemJijell from './aespa/members/AesMemJijell';
-import AesMemJijellEng from './aespaEng/members/AesMemJijellEng';
-import AesMemWinter from './aespa/members/AesMemWinter';
-import AesMemWinterEng from './aespaEng/members/AesMemWinterEng';
-import AesMemNingning from './aespa/members/AesMemNingning';
-import AesMemNingningEng from './aespaEng/members/AesMemNingningEng';
 
 //ALLDAY_PROJECTMain
 
-import ALLDAY_PROJECTMain from './ALLDAY_PROJECT/main/ALLDAY_PROJECTMain';
-import ALLDAY_PROJECTMainEng from './ALLDAY_PROJECTEng/main/ALLDAY_PROJECTMainEng';
-
 import AlldayProjectEvent from './ALLDAY_PROJECT/events/AlldayProjectEvent';
-
-import AlldayProjectAlldayProjectAlbum from './ALLDAY_PROJECT/albums/AlldayProjectAlldayProjectAlbum';
-import AlldayProjectAlldayProjectAlbumEng from './ALLDAY_PROJECTEng/albums/AlldayProjectAlldayProjectAlbumEng';
-import AlldayProjectIDonBargainAlbum from './ALLDAY_PROJECT/albums/AlldayProjectIDonBargainAlbum';
-import AlldayProjectIDonBargainAlbumEng from './ALLDAY_PROJECTEng/albums/AlldayProjectIDonBargainAlbumEng';
-
-import AllMemAnnie from './ALLDAY_PROJECT/members/AllMemAnnie';
-import AllMemAnnieEng from './ALLDAY_PROJECTEng/members/AllMemAnnieEng';
-import AllMemTarzan from './ALLDAY_PROJECT/members/AllMemTarzan';
-import AllMemTarzanEng from './ALLDAY_PROJECTEng/members/AllMemTarzanEng';
-import AllMemBailey from './ALLDAY_PROJECT/members/AllMemBailey';
-import AllMemBaileyEng from './ALLDAY_PROJECTEng/members/AllMemBaileyEng';
-import AllMemWoochan from './ALLDAY_PROJECT/members/AllMemWoochan';
-import AllMemWoochanEng from './ALLDAY_PROJECTEng/members/AllMemWoochanEng';
-import AllMemYoungseo from './ALLDAY_PROJECT/members/AllMemYoungseo';
-import AllMemYoungseoEng from './ALLDAY_PROJECTEng/members/AllMemYoungseoEng';
 
 //DAY6Main
 
