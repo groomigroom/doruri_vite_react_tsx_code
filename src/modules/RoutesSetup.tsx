@@ -135,36 +135,16 @@ export default function RoutesSetup() {
 
             <Route path='/LoginMain' element={<LoginMain />}></Route>
 
+            {/* triplesMain */}
+
             <Route path='/TriplesEvent' element={<TriplesEvent />}></Route>
             <Route path='/TriplesAssemble25Event' element={<TriplesAssemble25Event />}></Route>
 
-            <Route path='/TriplesAcidAngelFromAsiaMain' element={<TriplesAcidAngelFromAsiaMain />}></Route>
-            <Route path='/TriplesKRystalEyesMain' element={<TriplesKRystalEyesMain />}></Route>
-            <Route path='/TriplesAcidEyesMain' element={<TriplesAcidEyesMain />}></Route>
-            <Route path='/TriplesLOVElutionMain' element={<TriplesLOVElutionMain />}></Route>
-            <Route path='/TriplesEvolutionMain' element={<TriplesEvolutionMain />}></Route>
-            <Route path='/TriplesNxtMain' element={<TriplesNxtMain />}></Route>
-            <Route path='/TriplesAriaMain' element={<TriplesAriaMain />}></Route>
-            <Route path='/TriplesAriaMainEng' element={<TriplesAriaMainEng />}></Route>
-            <Route path='/TriplesGlowMain' element={<TriplesGlowMain />}></Route>
-            <Route path='/TriplesVisionaryVisionMain' element={<TriplesVisionaryVisionMain />}></Route>
-            <Route path='/TriplesHatchMain' element={<TriplesHatchMain />}></Route>
-            <Route path='/TriplesAlphieMain' element={<TriplesAlphieMain />}></Route>
-            <Route path='/TriplesNeptuneMain' element={<TriplesNeptuneMain />}></Route>
-            <Route path='/TriplesMoonMain' element={<TriplesMoonMain />}></Route>
-            <Route path='/TriplesSunMain' element={<TriplesSunMain />}></Route>
-
             <Route path='/triples-sun-event-20260901' element={<TriplesSunEvent20260901 />}></Route>
-
-            <Route path='/TriplesZenithMain' element={<TriplesZenithMain />}></Route>
-            <Route path='/TriplesMsnzMain' element={<TriplesMsnzMain />}></Route>
 
             {/* TxtMain */}
 
-            <Route path='/TxtMain' element={<TxtMain />}></Route>
-            <Route path='/TxtMainEng' element={<TxtMainEng />}></Route>
-
-            <Route path='/TxtStarsChapterTogetherAlbum' element={<TxtStarsChapterTogetherAlbum />}></Route>
+           <Route path='/TxtStarsChapterTogetherAlbum' element={<TxtStarsChapterTogetherAlbum />}></Route>
             <Route path='/TxtStarsChapterTogetherAlbumEng' element={<TxtStarsChapterTogetherAlbumEng />}></Route>
             <Route path='/Txt7thYearAlbum' element={<Txt7thYearAlbum />}></Route>
             <Route path='/Txt7thYearAlbumEng' element={<Txt7thYearAlbumEng />}></Route>
