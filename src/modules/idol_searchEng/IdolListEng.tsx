@@ -161,7 +161,7 @@ export default function IdolListEng() {
                 <Link to='/'>5</Link>
                 Copyright ⓒ Modhaus
             </section>
-            <FooterPartEng />
+            <FooterPartEng FooterPartEngText="ⓒ doruri" />
         </div>
     );
 };
