@@ -154,11 +154,6 @@ export default function RoutesSetup() {
 
             <Route path='/IoiEvent' element={<IoiEvent />}></Route>
 
-            <Route path='/IoiSmileByeAlbum' element={<IoiSmileByeAlbum />}></Route>
-            <Route path='/IoiSmileByeAlbumEng' element={<IoiSmileByeAlbumEng />}></Route>
-            <Route path='/IoiIoiLoopAlbum' element={<IoiIoiLoopAlbum />}></Route>
-            <Route path='/IoiIoiLoopAlbumEng' element={<IoiIoiLoopAlbumEng />}></Route>
-
             {/* StrayKidsMain */}
 
             <Route path='/StrayKidsMain' element={<StrayKidsMain />}></Route>
