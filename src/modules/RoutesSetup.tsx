@@ -135,22 +135,6 @@ export default function RoutesSetup() {
 
             <Route path='/LoginMain' element={<LoginMain />}></Route>
 
-            <Route path='/TriplesMemS6Eng' element={<TriplesMemS6Eng />}></Route>
-            <Route path='/TriplesMemS7' element={<TriplesMemS7 />}></Route>
-            <Route path='/TriplesMemS7Eng' element={<TriplesMemS7Eng />}></Route>
-            <Route path='/TriplesMemS8' element={<TriplesMemS8 />}></Route>
-            <Route path='/TriplesMemS8Eng' element={<TriplesMemS8Eng />}></Route>
-            <Route path='/TriplesMemS9' element={<TriplesMemS9 />}></Route>
-            <Route path='/TriplesMemS9Eng' element={<TriplesMemS9Eng />}></Route>
-            <Route path='/TriplesMemS10' element={<TriplesMemS10 />}></Route>
-            <Route path='/TriplesMemS10Eng' element={<TriplesMemS10Eng />}></Route>
-            <Route path='/TriplesMemS11' element={<TriplesMemS11 />}></Route>
-            <Route path='/TriplesMemS11Eng' element={<TriplesMemS11Eng />}></Route>
-            <Route path='/TriplesMemS12' element={<TriplesMemS12 />}></Route>
-            <Route path='/TriplesMemS12Eng' element={<TriplesMemS12Eng />}></Route>
-            <Route path='/TriplesMemS13' element={<TriplesMemS13 />}></Route>
-            <Route path='/TriplesMemS13Eng' element={<TriplesMemS13Eng />}></Route>
-            <Route path='/TriplesMemS14' element={<TriplesMemS14 />}></Route>
             <Route path='/TriplesMemS14Eng' element={<TriplesMemS14Eng />}></Route>
             <Route path='/TriplesMemS15' element={<TriplesMemS15 />}></Route>
             <Route path='/TriplesMemS15Eng' element={<TriplesMemS15Eng />}></Route>
