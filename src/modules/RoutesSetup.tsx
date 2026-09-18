@@ -73,47 +73,13 @@ import AlldayProjectEvent from './ALLDAY_PROJECT/events/AlldayProjectEvent';
 
 //DAY6Main
 
-import DAY6Main from './DAY6/main/DAY6Main';
-import DAY6MainEng from './DAY6Eng/main/DAY6MainEng';
-
 import Day6Event from './DAY6/events/Day6Event';
 
-import Day6EvenOfDayMain from './DAY6/units/EvenOfDay/Day6EvenOfDayMain';
-import Day6EvenOfDayMainEng from './DAY6Eng/units/EvenOfDay/Day6EvenOfDayMainEng';
-
-import DayMemSungjin from './DAY6/members/DayMemSungjin';
-import DayMemSungjinEng from './DAY6Eng/members/DayMemSungjinEng';
-import DayMemYoungK from './DAY6/members/DayMemYoungK';
-import DayMemYoungKEng from './DAY6Eng/members/DayMemYoungKEng';
-
-import DayMemYoungKYOUNGESTAlbum from './DAY6/members/YoungK/albums/DayMemYoungKYOUNGESTAlbum';
-import DayMemYoungKYOUNGESTAlbumEng from './DAY6Eng/members/YoungK/albums/DayMemYoungKYOUNGESTAlbumEng';
-import DayMemYoungKEternalAlbum from './DAY6/members/YoungK/albums/DayMemYoungKEternalAlbum';
-import DayMemYoungKEternalAlbumEng from './DAY6Eng/members/YoungK/albums/DayMemYoungKEternalAlbumEng';
-
-import DayMemWonpil from './DAY6/members/DayMemWonpil';
-import DayMemWonpilEng from './DAY6Eng/members/DayMemWonpilEng';
-import DayMemDowoon from './DAY6/members/DayMemDowoon';
-import DayMemDowoonEng from './DAY6Eng/members/DayMemDowoonEng';
-
 //Bol4Main
-
-import Bol4Main from './bol4/main/Bol4Main';
-import Bol4Main_7_23 from './bol4/main/BeforeMain/Bol4Main_7_23';
-import Bol4MainEng from './bol4Eng/main/Bol4MainEng';
 
 import Bol4Event from './bol4/events/Bol4Event';
 
 import Bol4FindYouEvent from './bol4/events/Bol4FindYouEvent';
-
-import Bol4FindYouAlbum from './bol4/albums/Bol4FindYouAlbum';
-import Bol4FindYouAlbumEng from './bol4Eng/albums/Bol4FindYouAlbumEng';
-import Bol4SummerPleaseAlbum from './bol4/albums/Bol4SummerPleaseAlbum';
-import Bol4SummerPleaseAlbumEng from './bol4Eng/albums/Bol4SummerPleaseAlbumEng';
-
-import BolMemAnjiyoung from './bol4/members/BolMemAnjiyoung';
-import BolMemAnjiyoung_7_23End from './bol4/members/Anjiyoung/BolMemAnjiyoung_7_23End';
-import BolMemAnjiyoungEng from './bol4Eng/members/BolMemAnjiyoungEng';
 
 //EpikHighMain
 
