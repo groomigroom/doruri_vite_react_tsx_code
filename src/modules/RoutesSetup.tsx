@@ -140,11 +140,11 @@ export default function RoutesSetup() {
 
             {/* AkmuMain */}
 
-            <Route path='/events/AkmuEvent' element={<AkmuEvent />}></Route>
+            <Route path='/events/akmu-blooming-event' element={<AkmuEvent />}></Route>
 
             {/* IoiMain */}
 
-            <Route path='/IoiEvent' element={<IoiEvent />}></Route>
+            <Route path='/events/ioi-ioi-loop-event' element={<IoiEvent />}></Route>
 
             {/* StrayKidsMain */}
 
