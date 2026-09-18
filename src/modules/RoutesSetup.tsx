@@ -181,6 +181,7 @@ export default function RoutesSetup() {
             {/* Bol4Main */}
 
             <Route path='/Bol4Event' element={<Bol4Event />}></Route>
+            <Route path='/events/bol4-find-you-event' element={<Bol4FindYouEvent />}></Route>
 
             {/* EpikHighMain */}
 
