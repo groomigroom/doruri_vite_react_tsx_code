@@ -15,27 +15,27 @@ import TriEventLogo from "./img/tri_events_logo.png";
 import TriEventS1 from "../main/img/tri_m_memS1.jpg";
 import TriEventS2 from "../main/img/tri_m_memS2.jpg";
 import TriEventS3 from "../main/img/tri_m_memS3.jpg";
-// import TriEventS4 from "../main/img/tri_m_memS4.jpg";
-// import TriEventS5 from "../main/img/tri_m_memS5.jpg";
-// import TriEventS6 from "../main/img/tri_m_memS6.jpg";
-// import TriEventS7 from "../main/img/tri_m_memS7.jpg";
-// import TriEventS8 from "../main/img/tri_m_memS8.jpg";
-// import TriEventS9 from "../main/img/tri_m_memS9.jpg";
-// import TriEventS10 from "../main/img/tri_m_memS10.jpg";
-// import TriEventS11 from "../main/img/tri_m_memS11.jpg";
-// import TriEventS12 from "../main/img/tri_m_memS12.jpg";
-// import TriEventS13 from "../main/img/tri_m_memS13.jpg";
-// import TriEventS14 from "../main/img/tri_m_memS14.jpg";
-// import TriEventS15 from "../main/img/tri_m_memS15.jpg";
-// import TriEventS16 from "../main/img/tri_m_memS16.jpg";
-// import TriEventS17 from "../main/img/tri_m_memS17.jpg";
-// import TriEventS18 from "../main/img/tri_m_memS18.jpg";
-// import TriEventS19 from "../main/img/tri_m_memS19.jpg";
-// import TriEventS20 from "../main/img/tri_m_memS20.jpg";
-// import TriEventS21 from "../main/img/tri_m_memS21.jpg";
-// import TriEventS22 from "../main/img/tri_m_memS22.jpg";
-// import TriEventS23 from "../main/img/tri_m_memS23.jpg";
-// import TriEventS24 from "../main/img/tri_m_memS24.jpg";
+import TriEventS4 from "../main/img/tri_m_memS4.jpg";
+import TriEventS5 from "../main/img/tri_m_memS5.jpg";
+import TriEventS6 from "../main/img/tri_m_memS6.jpg";
+import TriEventS7 from "../main/img/tri_m_memS7.jpg";
+import TriEventS8 from "../main/img/tri_m_memS8.jpg";
+import TriEventS9 from "../main/img/tri_m_memS9.jpg";
+import TriEventS10 from "../main/img/tri_m_memS10.jpg";
+import TriEventS11 from "../main/img/tri_m_memS11.jpg";
+import TriEventS12 from "../main/img/tri_m_memS12.jpg";
+import TriEventS13 from "../main/img/tri_m_memS13.jpg";
+import TriEventS14 from "../main/img/tri_m_memS14.jpg";
+import TriEventS15 from "../main/img/tri_m_memS15.jpg";
+import TriEventS16 from "../main/img/tri_m_memS16.jpg";
+import TriEventS17 from "../main/img/tri_m_memS17.jpg";
+import TriEventS18 from "../main/img/tri_m_memS18.jpg";
+import TriEventS19 from "../main/img/tri_m_memS19.jpg";
+import TriEventS20 from "../main/img/tri_m_memS20.jpg";
+import TriEventS21 from "../main/img/tri_m_memS21.jpg";
+import TriEventS22 from "../main/img/tri_m_memS22.jpg";
+import TriEventS23 from "../main/img/tri_m_memS23.jpg";
+import TriEventS24 from "../main/img/tri_m_memS24.jpg";
 
 
 interface tri_e_formState {
@@ -283,9 +283,9 @@ export default function TriplesEventEng() {
                 </section>
             </section>
             <button className="tri_e_btn" onClick={tri_e_OpPopup}>제출하기</button>
-            {tri_e_PopupO && (
+            {/* {tri_e_PopupO && (
                 <TriplesEventPre tri_e_OnCl={tri_e_ClPopup} tri_e_result={tri_e_result} />
-            )}
+            )} */}
             <FooterPartEng FooterPartEngText='ⓒ Modhaus' />
         </div>
     );
