@@ -43,11 +43,6 @@ import AkmuEvent from "./akmu/events/AkmuEvent";
 
 import IoiEvent from './ioi/events/IoiEvent';
 
-import IoiSmileByeAlbum from './ioi/albums/IoiSmileByeAlbum';
-import IoiSmileByeAlbumEng from './ioiEng/albums/IoiSmileByeAlbumEng';
-import IoiIoiLoopAlbum from './ioi/albums/IoiIoiLoopAlbum';
-import IoiIoiLoopAlbumEng from './ioiEng/albums/IoiIoiLoopAlbumEng';
-
 //StrayKidsMain
 
 import StrayKidsMain from './Stray_Kids/main/StrayKidsMain';
