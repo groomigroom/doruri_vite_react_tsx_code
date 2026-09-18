@@ -156,38 +156,7 @@ export default function RoutesSetup() {
 
             {/* StrayKidsMain */}
 
-            <Route path='/StrayKidsMain' element={<StrayKidsMain />}></Route>
-            <Route path='/StrayKidsMainEng' element={<StrayKidsMainEng />}></Route>
-
             <Route path='/StrayKidsEvent' element={<StrayKidsEvent />}></Route>
-
-            <Route path='/StrayKidsRunItAlbum' element={<StrayKidsRunItAlbum />}></Route>
-            <Route path='/StrayKidsRunItAlbumEng' element={<StrayKidsRunItAlbumEng />}></Route>
-            <Route path='/StrayKidsStarLightAlbum' element={<StrayKidsStarLightAlbum />}></Route>
-            <Route path='/StrayKidsStarLightAlbumEng' element={<StrayKidsStarLightAlbumEng />}></Route>
-            <Route path='/StrayKidsSKZReplay2026Pt1Album' element={<StrayKidsSKZReplay2026Pt1Album />}></Route>
-            <Route path='/StrayKidsSKZReplay2026Pt1AlbumEng' element={<StrayKidsSKZReplay2026Pt1AlbumEng />}></Route>
-            <Route path='/StrayKidsThisAndThatAlbum' element={<StrayKidsThisAndThatAlbum />}></Route>
-
-            <Route path='/StrayKidsThreeRachaMain' element={<StrayKidsThreeRachaMain />}></Route>
-            <Route path='/StrayKidsThreeRachaMainEng' element={<StrayKidsThreeRachaMainEng />}></Route>
-
-            <Route path='/StrayMemBangchan' element={<StrayMemBangchan />}></Route>
-            <Route path='/StrayMemBangchanEng' element={<StrayMemBangchanEng />}></Route>
-            <Route path='/StrayMemLino' element={<StrayMemLino />}></Route>
-            <Route path='/StrayMemLinoEng' element={<StrayMemLinoEng />}></Route>
-            <Route path='/StrayMemChangbin' element={<StrayMemChangbin />}></Route>
-            <Route path='/StrayMemChangbinEng' element={<StrayMemChangbinEng />}></Route>
-            <Route path='/StrayMemHyunjin' element={<StrayMemHyunjin />}></Route>
-            <Route path='/StrayMemHyunjinEng' element={<StrayMemHyunjinEng />}></Route>
-            <Route path='/StrayMemHan' element={<StrayMemHan />}></Route>
-            <Route path='/StrayMemHanEng' element={<StrayMemHanEng />}></Route>
-            <Route path='/StrayMemFilix' element={<StrayMemFilix />}></Route>
-            <Route path='/StrayMemFilixEng' element={<StrayMemFilixEng />}></Route>
-            <Route path='/StrayMemSeungmin' element={<StrayMemSeungmin />}></Route>
-            <Route path='/StrayMemSeungminEng' element={<StrayMemSeungminEng />}></Route>
-            <Route path='/StrayMemIn' element={<StrayMemIn />}></Route>
-            <Route path='/StrayMemInEng' element={<StrayMemInEng />}></Route>
 
             {/* IllitMain */}
 
