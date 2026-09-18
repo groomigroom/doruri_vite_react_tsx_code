@@ -164,28 +164,7 @@ export default function RoutesSetup() {
 
             {/* TwsMain */}
 
-            <Route path='/TwsMain' element={<TwsMain />}></Route>
-            <Route path='/TwsMainEng' element={<TwsMainEng />}></Route>
-
-            <Route path='/TwsNoTragedyAlbum' element={<TwsNoTragedyAlbum />}></Route>
-            <Route path='/TwsNoTragedyAlbumEng' element={<TwsNoTragedyAlbumEng />}></Route>
-            <Route path='/TwsTodayMeetingAgainAlbum' element={<TwsTodayMeetingAgainAlbum />}></Route>
-            <Route path='/TwsTodayMeetingAgainAlbumEng' element={<TwsTodayMeetingAgainAlbumEng />}></Route>
-
             <Route path='/TwsEvent' element={<TwsEvent />}></Route>
-
-            <Route path='/TwsMemSinyu' element={<TwsMemSinyu />}></Route>
-            <Route path='/TwsMemSinyuEng' element={<TwsMemSinyuEng />}></Route>
-            <Route path='/TwsMemDohun' element={<TwsMemDohun />}></Route>
-            <Route path='/TwsMemDohunEng' element={<TwsMemDohunEng />}></Route>
-            <Route path='/TwsMemYoungjae' element={<TwsMemYoungjae />}></Route>
-            <Route path='/TwsMemYoungjaeEng' element={<TwsMemYoungjaeEng />}></Route>
-            <Route path='/TwsMemHanjin' element={<TwsMemHanjin />}></Route>
-            <Route path='/TwsMemHanjinEng' element={<TwsMemHanjinEng />}></Route>
-            <Route path='/TwsMemJihun' element={<TwsMemJihun />}></Route>
-            <Route path='/TwsMemJihunEng' element={<TwsMemJihunEng />}></Route>
-            <Route path='/TwsMemGyungmin' element={<TwsMemGyungmin />}></Route>
-            <Route path='/TwsMemGyungminEng' element={<TwsMemGyungminEng />}></Route>
 
             {/* ResceneMain */}
 
