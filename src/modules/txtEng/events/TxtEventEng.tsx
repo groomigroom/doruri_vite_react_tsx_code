@@ -73,7 +73,7 @@ export default function TxtEventEng() {
             </form>
             <button className="txt_e_btn" onClick={txt_e_OpPopup}>submit</button>
             {txt_e_PopopO && (
-                <TxtEventPre txt_e_OnCl={txt_e_ClPopup} txt_e_result={txt_e_last_str} />
+                // <TxtEventPre txt_e_OnCl={txt_e_ClPopup} txt_e_result={txt_e_last_str} />
             )}
             <FooterPartEng FooterPartEngText='ⓒ BIGHIT MUSIC' />
         </div>
