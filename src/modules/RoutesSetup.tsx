@@ -148,19 +148,6 @@ export default function RoutesSetup() {
 
             {/* AkmuMain */}
 
-            <Route path='/AkmuMain' element={<AkmuMain />}></Route>
-            <Route path='/AkmuMainEng' element={<AkmuMainEng />}></Route>
-
-            <Route path='/AkmuLoveEpisodeAlbum' element={<AkmuLoveEpisodeAlbum />}></Route>
-            <Route path='/AkmuLoveEpisodeAlbumEng' element={<AkmuLoveEpisodeAlbumEng />}></Route>
-            <Route path='/AkmuGaehwaAlbum' element={<AkmuGaehwaAlbum />}></Route>
-            <Route path='/AkmuGaehwaAlbumEng' element={<AkmuGaehwaAlbumEng />}></Route>
-
-            <Route path='/AkmuMemChanhyuk' element={<AkmuMemChanhyuk />}></Route>
-            <Route path='/AkmuMemChanhyukEng' element={<AkmuMemChanhyukEng />}></Route>
-            <Route path='/AkmuMemSuhyun' element={<AkmuMemSuhyun />}></Route>
-            <Route path='/AkmuMemSuhyunEng' element={<AkmuMemSuhyunEng />}></Route>
-
             <Route path='/AkmuEvent' element={<AkmuEvent />}></Route>
 
             {/* IoiMain */}
