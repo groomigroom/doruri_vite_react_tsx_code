@@ -192,91 +192,15 @@ export default function RoutesSetup() {
 
             {/* EpikHighMain */}
 
-            <Route path='/EpikHighMain' element={<EpikHighMain />}></Route>
-            <Route path='/EpikHighMainEng' element={<EpikHighMainEng />}></Route>
-
             <Route path='/EpikHighEvent' element={<EpikHighEvent />}></Route>
-
-            <Route path='/EpikHighBruzHalipaOursVersionAlbum' element={<EpikHighBruzHalipaOursVersionAlbum />}></Route>
-            <Route path='/EpikHighBruzHalipaOursVersionAlbumEng' element={<EpikHighBruzHalipaOursVersionAlbumEng />}></Route>
-            <Route path='/EpikHighPumpCollectorsEditionAlbum' element={<EpikHighPumpCollectorsEditionAlbum />}></Route>
-            <Route path='/EpikHighPumpCollectorsEditionAlbumEng' element={<EpikHighPumpCollectorsEditionAlbumEng />}></Route>
-
-            <Route path='/EpiMemMithra' element={<EpiMemMithra />}></Route>
-            <Route path='/EpiMemMithraEng' element={<EpiMemMithraEng />}></Route>
-            <Route path='/EpiMemTablo' element={<EpiMemTablo />}></Route>
-            <Route path='/EpiMemTabloEng' element={<EpiMemTabloEng />}></Route>
-            <Route path='/EpiMemTwokutz' element={<EpiMemTwokutz />}></Route>
-            <Route path='/EpiMemTwokutzEng' element={<EpiMemTwokutzEng />}></Route>
 
             {/* YenaMain */}
 
-            <Route path='/YenaMain' element={<YenaMain />}></Route>
-            <Route path='/YenaMainEng' element={<YenaMainEng />}></Route>
-
             <Route path='/YenaEvent' element={<YenaEvent />}></Route>
-
-            <Route path='/YenaNemonemoAlbum' element={<YenaNemonemoAlbum />}></Route>
-            <Route path='/YenaNemonemoAlbumEng' element={<YenaNemonemoAlbumEng />}></Route>
-            <Route path='/YenaBloomingWingsAlbum' element={<YenaBloomingWingsAlbum />}></Route>
-
-            <Route path='/YenaMem' element={<YenaMem />}></Route>
-            <Route path='/YenaMemEng' element={<YenaMemEng />}></Route>
 
             {/* IdnttMain */}
 
-            <Route path='/IdnttMain' element={<IdnttMain />}></Route>
-            <Route path='/IdnttMainEng' element={<IdnttMainEng />}></Route>
-
             <Route path='/IdnttEvent' element={<IdnttEvent />}></Route>
-
-            <Route path='/IdnttUnevermetMain' element={<IdnttUnevermetMain />}></Route>
-            <Route path='/IdnttUnevermetMainEng' element={<IdnttUnevermetMainEng />}></Route>
-            <Route path='/IdnttYesweareMain' element={<IdnttYesweareMain />}></Route>
-            <Route path='/IdnttYesweareMainEng' element={<IdnttYesweareMainEng />}></Route>
-            <Route path='/IdnttItsnotoverMain' element={<IdnttItsnotoverMain />}></Route>
-            <Route path='/IdnttItsnotoverMainEng' element={<IdnttItsnotoverMainEng />}></Route>
-
-            <Route path='/Idn_m_memid1' element={<Idn_m_memid1 />}></Route>
-            <Route path='/Idn_m_memid1Eng' element={<Idn_m_memid1Eng />}></Route>
-            <Route path='/Idn_m_memid2' element={<Idn_m_memid2 />}></Route>
-            <Route path='/Idn_m_memid2Eng' element={<Idn_m_memid2Eng />}></Route>
-            <Route path='/Idn_m_memid4' element={<Idn_m_memid4 />}></Route>
-            <Route path='/Idn_m_memid4Eng' element={<Idn_m_memid4Eng />}></Route>
-            <Route path='/Idn_m_memid5' element={<Idn_m_memid5 />}></Route>
-            <Route path='/Idn_m_memid5Eng' element={<Idn_m_memid5Eng />}></Route>
-            <Route path='/Idn_m_memid6' element={<Idn_m_memid6 />}></Route>
-            <Route path='/Idn_m_memid6Eng' element={<Idn_m_memid6Eng />}></Route>
-            <Route path='/Idn_m_memid7' element={<Idn_m_memid7 />}></Route>
-            <Route path='/Idn_m_memid7Eng' element={<Idn_m_memid7Eng />}></Route>
-            <Route path='/Idn_m_memid8' element={<Idn_m_memid8 />}></Route>
-            <Route path='/Idn_m_memid8Eng' element={<Idn_m_memid8Eng />}></Route>
-            <Route path='/Idn_m_memid9' element={<Idn_m_memid9 />}></Route>
-            <Route path='/Idn_m_memid9Eng' element={<Idn_m_memid9Eng />}></Route>
-            <Route path='/Idn_m_memid10' element={<Idn_m_memid10 />}></Route>
-            <Route path='/Idn_m_memid10Eng' element={<Idn_m_memid10Eng />}></Route>
-            <Route path='/Idn_m_memid11' element={<Idn_m_memid11 />}></Route>
-            <Route path='/Idn_m_memid11Eng' element={<Idn_m_memid11Eng />}></Route>
-            <Route path='/Idn_m_memid12' element={<Idn_m_memid12 />}></Route>
-            <Route path='/Idn_m_memid12Eng' element={<Idn_m_memid12Eng />}></Route>
-            <Route path='/Idn_m_memid13' element={<Idn_m_memid13 />}></Route>
-            <Route path='/Idn_m_memid13Eng' element={<Idn_m_memid13Eng />}></Route>
-            <Route path='/Idn_m_memid14' element={<Idn_m_memid14 />}></Route>
-            <Route path='/Idn_m_memid14Eng' element={<Idn_m_memid14Eng />}></Route>
-            <Route path='/Idn_m_memid15' element={<Idn_m_memid15 />}></Route>
-            <Route path='/Idn_m_memid15Eng' element={<Idn_m_memid15Eng />}></Route>
-            <Route path='/Idn_m_memid16' element={<Idn_m_memid16 />}></Route>
-            <Route path='/Idn_m_memid16Eng' element={<Idn_m_memid16Eng />}></Route>
-            <Route path='/Idn_m_memid17' element={<Idn_m_memid17 />}></Route>
-            <Route path='/Idn_m_memid17Eng' element={<Idn_m_memid17Eng />}></Route>
-            <Route path='/Idn_m_memid18' element={<Idn_m_memid18 />}></Route>
-            <Route path='/Idn_m_memid18Eng' element={<Idn_m_memid18Eng />}></Route>
-            <Route path='/Idn_m_memid19' element={<Idn_m_memid19 />}></Route>
-            <Route path='/Idn_m_memid19Eng' element={<Idn_m_memid19Eng />}></Route>
-            <Route path='/Idn_m_memid20' element={<Idn_m_memid20 />}></Route>
-            <Route path='/Idn_m_memid20Eng' element={<Idn_m_memid20Eng />}></Route>
-            <Route path='/Idn_m_memid21' element={<Idn_m_memid21 />}></Route>
-            <Route path='/Idn_m_memid21Eng' element={<Idn_m_memid21Eng />}></Route>
 
             {/* ARTMSMain */}
 
