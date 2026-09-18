@@ -148,11 +148,11 @@ export default function RoutesSetup() {
 
             {/* StrayKidsMain */}
 
-            <Route path='/StrayKidsEvent' element={<StrayKidsEvent />}></Route>
+            <Route path='/events/stray-kids-skz-replay-2026-pt1-event' element={<StrayKidsEvent />}></Route>
 
             {/* IllitMain */}
 
-            <Route path='/IllitEvent' element={<IllitEvent />}></Route>
+            <Route path='/events/illit-mamihlapinatapai-event' element={<IllitEvent />}></Route>
 
             {/* TwsMain */}
 
