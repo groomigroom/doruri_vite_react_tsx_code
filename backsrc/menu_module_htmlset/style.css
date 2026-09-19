@@ -20,7 +20,7 @@
 header {
     width: calc(100vw - 10px);
     height: 65px;
-    background-color: aqua;
+    position: relative;
 }
 
 .Menu_button {
