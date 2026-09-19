@@ -26,10 +26,12 @@ header {
 .Menu_button {
     width: 35px;
     height: 35px;
-    background-color: antiquewhite;
     position: absolute;
     top: 17.5px;
     left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Menu_button>div {
