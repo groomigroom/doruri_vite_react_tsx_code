@@ -36,4 +36,5 @@ header {
     width: 35px;
     height: 7px;
     background-color: #333;
+    border-radius: 3.5px;
 }
