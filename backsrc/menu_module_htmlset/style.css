@@ -71,3 +71,9 @@ header {
     background-color: #333;
     border-radius: 3.5px;
 }
+
+.header_wrap {
+    width: 100vw;
+    height: 400px;
+    background-color: blue;
+}
