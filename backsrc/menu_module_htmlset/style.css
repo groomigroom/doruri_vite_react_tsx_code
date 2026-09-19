@@ -22,6 +22,7 @@ header {
     width: calc(100vw - 10px);
     height: 70px;
     position: relative;
+    z-index: 999;
 }
 
 .Menu_button {
@@ -75,5 +76,9 @@ header {
 .header_wrap {
     width: 100vw;
     height: 400px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
     background-color: blue;
+    z-index: 99;
 }
