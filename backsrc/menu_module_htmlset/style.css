@@ -17,6 +17,12 @@
     background-color: #fcfcfc;
 }
 
+header {
+    width: 100vw;
+    height: 75px;
+    background-color: aqua;
+}
+
 .Menu_button {
     width: 35px;
     height: 35px;
