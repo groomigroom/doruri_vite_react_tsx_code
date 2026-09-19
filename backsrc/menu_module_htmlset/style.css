@@ -79,6 +79,10 @@ nav {
     right: 200px;
 }
 
+nav>ul {
+    display: flex;
+}
+
 .header_wrap {
     width: 100vw;
     height: 0px;
