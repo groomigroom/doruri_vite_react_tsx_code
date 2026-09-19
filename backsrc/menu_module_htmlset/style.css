@@ -32,6 +32,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+}
+
+.Menu_button.on {
     animation: Menu_button_on 0.6s ease 0s;
 }
 
