@@ -18,8 +18,8 @@
 }
 
 header {
-    width: 100vw;
-    height: 75px;
+    width: calc(100vw - 10px);
+    height: 65px;
     background-color: aqua;
 }
 
