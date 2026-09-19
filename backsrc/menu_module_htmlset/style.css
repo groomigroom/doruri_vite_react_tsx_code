@@ -75,12 +75,18 @@ header {
 
 nav {
     position: absolute;
-    top: 80px;
-    right: 200px;
+    top: 75px;
+    right: 100px;
 }
 
 nav>ul {
     display: flex;
+}
+
+nav>ul>li {
+    width: 150px;
+    height: 30px;
+    background-color: beige;
 }
 
 .header_wrap {
