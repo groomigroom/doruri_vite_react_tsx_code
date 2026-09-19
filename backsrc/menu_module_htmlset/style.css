@@ -31,3 +31,9 @@ header {
     top: 17.5px;
     left: 20px;
 }
+
+.Menu_button>div {
+    width: 35px;
+    height: 7px;
+    background-color: #333;
+}
