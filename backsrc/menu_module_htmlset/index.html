@@ -22,6 +22,11 @@
         const Menu_button = document.querySelector(".Menu_button");
         Menu_button.addEventListener("mouseover", () => {
             Menu_button.classList.add("on");
+            Menu_button.classList.remove("off");
+        });
+        Menu_button.addEventListener("mouseleave", () => {
+            Menu_button.classList.add("off");
+            Menu_button.classList.remove("on");
         });
     </script>
 </body>
