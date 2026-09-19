@@ -73,6 +73,12 @@ header {
     border-radius: 3.5px;
 }
 
+nav {
+    position: absolute;
+    top: 80px;
+    right: 200px;
+}
+
 .header_wrap {
     width: 100vw;
     height: 0px;
