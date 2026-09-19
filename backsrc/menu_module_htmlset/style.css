@@ -35,6 +35,16 @@ header {
     animation: Menu_button_on 0.6s ease 0s;
 }
 
+@keyframes Menu_button_on {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .Menu_button>div {
     width: 35px;
     height: 7px;
