@@ -27,4 +27,6 @@ header {
     width: 35px;
     height: 35px;
     background-color: antiquewhite;
+    position: absolute;
+    top: 15px;
 }
