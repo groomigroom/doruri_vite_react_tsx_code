@@ -89,6 +89,11 @@ nav>ul li {
     background-color: beige;
 }
 
+nav>ul>li {
+    text-align: center;
+    line-height: 40px;
+}
+
 .header_wrap {
     width: 100vw;
     height: 0px;
