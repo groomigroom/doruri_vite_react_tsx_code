@@ -47,6 +47,9 @@ ARTMS art
 한로로 Hanroro han
 방탄소년단 bts
 Red Velvet red
+지코
+프로미스나인
+코르티스
 
 고유 페이지
 이벤트 e
