@@ -58,15 +58,18 @@
     <script>
         const Menu_button = document.querySelector(".Menu_button");
         const header_wrap = document.querySelector(".header_wrap");
+        const nav = document.querySelector("nav");
         Menu_button.addEventListener("mouseover", () => {
             Menu_button.classList.add("on");
             Menu_button.classList.remove("off");
             header_wrap.classList.add("on");
+            nav.style.height = "200px";
         });
         Menu_button.addEventListener("mouseleave", () => {
             Menu_button.classList.add("off");
             Menu_button.classList.remove("on");
             header_wrap.classList.remove("on");
+            nav.style.height = "0px";
         });
     </script>
 </body>
