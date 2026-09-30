@@ -17,10 +17,6 @@
 header {
     width: 100vw;
     height: 80px;
-    /* border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border: 5px solid #333;
-    background-color: #fcfcfc; */
     position: relative;
     z-index: 999;
 }
@@ -103,24 +99,27 @@ nav {
     position: absolute;
     top: 85px;
     right: 100px;
-    width: 600px;
-    height: 0px;
+    width: 630px;
+    height: 200px;
     overflow: hidden;
 }
 
 nav>ul {
     display: flex;
+    justify-content: space-between;
 }
 
 nav>ul li {
     width: 150px;
     height: 40px;
-    background-color: beige;
+    text-align: center;
+    line-height: 30px;
+    border: 5px solid #333;
+    border-radius: 25px;
 }
 
 nav>ul>li {
-    text-align: center;
-    line-height: 40px;
+    position: relative;
 }
 
 .header_wrap.on {
