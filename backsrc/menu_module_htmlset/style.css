@@ -84,7 +84,7 @@ header {
 
 .header_wrap {
     width: 100vw;
-    height: 330px;
+    height: 0px;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -93,6 +93,11 @@ header {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     transition: all 0.6s ease 0s;
+    overflow: hidden;
+}
+
+.header_wrap.on {
+    height: 370px;
 }
 
 nav {
@@ -160,8 +165,4 @@ nav>ul>li>ul>li:hover {
 
 nav>ul>li>ul>li:hover>a {
     color: #fcfcfc;
-}
-
-.header_wrap.on {
-    height: 400px;
 }
