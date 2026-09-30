@@ -62,7 +62,10 @@
     <script>
         const Menu_button = document.querySelector(".Menu_button");
         const header_wrap = document.querySelector(".header_wrap");
-        
+
+        Menu_button.addEventListener("click", () => {
+            header_wrap.classList.toggle("on");
+        });
     </script>
 </body>
 
