@@ -85,7 +85,7 @@
 ('shoolwjj', '조유모', 'Shadow83!#'),
 ('javaprograming222', '최차우', 'na66@?'),
 ('proprooooo22', '권보세', 'Phoenix64!#'),
-('aliceintherworld', '우주', 'ple41@!''),
+('aliceintherworld', '우주', 'ple41@!'),
 ('wohooohwoh', '로운', 'Black62?'),
 ('doollloiiii', '권석연', 'Diamond66#'),
 ('idddoooll33', '윤재성', 'Yellow66@'),
