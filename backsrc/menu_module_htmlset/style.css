@@ -154,6 +154,14 @@ nav>ul>li>ul>li:nth-child(4) {
     top: 150px;
 }
 
+nav>ul>li>ul>li:hover {
+    background-color: #333;
+}
+
+nav>ul>li>ul>li:hover>a {
+    color: #fcfcfc;
+}
+
 .header_wrap.on {
     height: 400px;
 }
