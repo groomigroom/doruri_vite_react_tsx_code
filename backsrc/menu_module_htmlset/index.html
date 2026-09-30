@@ -12,7 +12,7 @@
     <div class="Menu_full">
         <header>
             <section class="header_structure">
-                <div class="Menu_button">
+                <div class="Menu_button off">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -65,6 +65,13 @@
 
         Menu_button.addEventListener("click", () => {
             header_wrap.classList.toggle("on");
+            if (Menu_button.classList.contains("off")) {
+                Menu_button.classList.remove("off");
+                Menu_button.classList.add("on");
+            } else {
+                Menu_button.classList.remove("on");
+                Menu_button.classList.add("off");
+            }
         });
     </script>
 </body>
