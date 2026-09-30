@@ -122,6 +122,11 @@ nav>ul>li {
     position: relative;
 }
 
+nav>ul>li>ul {
+    position: absolute;
+    top: 45px;
+}
+
 .header_wrap.on {
     height: 400px;
 }
